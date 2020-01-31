@@ -1,6 +1,8 @@
 ---
-title: 'About the Mautic Community'
+title: 'About Mautic'
 ---
 
-You're most likely interested in learning more about the Mautic community if you've come across our handbook, so this section has some basic information in case you haven't come across Mautic, or our community, before.
+You're most likely interested in learning more about the Mautic community if you've come across our handbook, but you may not know what Mautic itself is!
+
+This section has some basic information in case you haven't come across Mautic, or our community, before.
 
