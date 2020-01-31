@@ -28,3 +28,41 @@ Here are some tips for running a great meeting:
 We use a fork of a Chrome extension created by the Drupal community in order to scrape Slack meeting notes into HTML, which can then be posted onto the forums.
 
 Instructions are provided in the Github repo: [https://github.com/RCheesley/mautic-meeting-parser](https://github.com/RCheesley/mautic-meeting-parser)
+
+## Sample meeting structure
+
+### Welcome message
+
+Welcome to the team meeting! 
+
+If you haven’t done an asynchronous meeting before, please respond in threads :slightly_smiling_face:
+
+Also note you can start a reply with 
+:bust_in_silhouette: to be anon, or 
+:no_entry_sign: to go off the record and not be included in the notes, which will be exported and saved to Google Docs, and posted on the Community Forums.
+
+The meeting will be open for 24 hours, after which the notes will be exported. People may comment thereafter but these won’t be included in the notes.
+
+Let’s get going! :arrow_down:
+
+### Topics
+
+:zero: Introductions - Who are you, where are you based, and how are you involved with this team?
+
+:one: Review last meeting's notes and actions
+(Share a link to the notes, and call out any actions as sub tasks)
+
+:one: . :one: - Action item 1
+:one: . :two: - Action item 2
+
+:two: Review Trello tasks
+(share a link to the Trello board and call out any tasks as appropriate)
+
+:two: . :one: - Task 1
+(Link to task, brief explanation of status or actions needed)
+
+(continue through the open tasks)
+
+:three: Any other business
+
+(Thank people for participating and give the date/time/format for the next meeting and who will be leading it)
