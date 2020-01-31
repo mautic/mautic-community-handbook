@@ -16,6 +16,7 @@ title: 'Leadership Role Definitions'
 
 ## Team Lead
 
+* Community elected
 * Responsible for leading a team
 * Oversees Working Groups and co-ordinates activities across the team
 * Organises Team Meetings
@@ -24,16 +25,19 @@ title: 'Leadership Role Definitions'
 
 ## Assistant Team Lead
 
+* Community elected
 * Supports the Team Lead
 * Liaises with other Teams
 * Sits on the relevant Steering Group
 
 ## Working Group Lead
 
+* Community elected
 * Leads a specific Working Group
 * Leads and/or empowers others to lead Working Group projects
 * Appoints cross-team liaisons where projects span multiple teams
 
 ## Working Group Assistant Lead
 
+* Community elected
 * Supports the Working Group Lead
