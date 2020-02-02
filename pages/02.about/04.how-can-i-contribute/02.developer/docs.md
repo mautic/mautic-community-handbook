@@ -45,7 +45,7 @@ Each new feature should include a reference to a pull request in our [End User D
 ## Development / Build process requirements
 
 1. Mautic uses Git as a version control system. Download and install git for your OS from https://git-scm.com/.
-2. Install a server, PHP and MySql to be able to run Mautic locally. Easy option is [_AMP package for your OS](https://en.wikipedia.org/wiki/List_of_Apache%E2%80%93MySQL%E2%80%93PHP_packages).
+2. Install a server, PHP and MySql to be able to run Mautic locally. A quick way to get set up is [AMP package for your OS](https://en.wikipedia.org/wiki/List_of_Apache%E2%80%93MySQL%E2%80%93PHP_packages).
 3. Install [Composer](https://getcomposer.org/), the dependency manager for PHP.
 4. Install [NPM](https://www.npmjs.com/).
 5. Install [Grunt](http://gruntjs.com/).
