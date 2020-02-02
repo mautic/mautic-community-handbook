@@ -2,6 +2,8 @@
 title: 'Community Team'
 ---
 
+# The Mautic Community Team
+
 ## Mission and expectations
 
 > We want to have more and more people who are contributing to Mautic.
