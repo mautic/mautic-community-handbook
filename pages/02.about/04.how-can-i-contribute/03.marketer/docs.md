@@ -27,12 +27,12 @@ After joining the Trello board and the Slack channel, find a task in the Trello 
 Leave a comment on the card to let others know you would like to work on the task, and ask any questions or raise any points of clarification on the task.  Please ask if you need any help from the team.  When you start working on the task, move it to the 'in progress' board.
 
 #### Work in the public domain
-Unless there is significant reason not to, we default to being open and transparent, and that means that we work in the open, usually on our shared [Google Drive folder](https://drive.google.com/drive/folders/1KqjqRkbRoAyWLd_zbYdcP8NFtS10kAwI?usp=sharing).  This ensures that if - for whatever reason - someone is unable to complete a task, it is easy for another contributor to pick up where they left off.
+Unless there is significant reason not to, we default to being open and transparent.  We work in the open, usually on our shared [Google Drive folder](https://drive.google.com/drive/folders/1KqjqRkbRoAyWLd_zbYdcP8NFtS10kAwI?usp=sharing) or by sharing our work with the team on our Canva account.  This ensures that if - for whatever reason - someone is unable to complete a task, it is easy for another contributor to pick up where they left off.  It also means we can always find previous work that had been done if it needs to be re-used in the future.
 
 Please always ensure that you upload your work at regular (ideally daily) intervals. You can use the file prefix of WIP-filename to indicate that it is currently in progress.
 
 #### Update regularly
 
-Please make sure you provide regular updates on the card, and if at any point you're not going to be able to complete the task, please call that out in a comment on the card so that somebody else can pick it up. 
+Please make sure you provide regular updates on the card, and if at any point you're not going to be able to complete the task, please call that out in a comment on the card (or send your Team Lead a message to inform them) so that somebody else can pick it up. 
 
 We totally understand that life happens and it's easy to take on too much. No judgement at all! We try to be respectful of each other by ensuring we give as much notice as possible if we're not going to be able to fulfil a task assigned to us.
