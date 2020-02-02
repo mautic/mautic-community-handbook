@@ -13,14 +13,28 @@ We have developed formalized processes for contributing as a designer, developer
 
 You must join our Slack workspace first before contributing. Get an invite at [mautic.org/slack](https://www.mautic.org/slack).
 
-Designer
+<details>
+  <summary>Designer</summary>
+ Please check out our Trello issues for tasks to work on! Cards labeled with Design are relevant to designers. Any future cards should also use this label too! Many of our Community and Marketing Team tasks will require designer collaboration, please use Slack for communication. We also have a public [#design](https://mautic.slack.com/archives/C02HU8FQM) channel.
+</details>
 
-Developer
 
-Marketer
+<details>
+    <summary>Developer</summary>
+</details>
+    
+<details>
+    <summary>Marketer</summary>
+</details>
 
-Tester
+<details>
+    <summary>Tester</summary>
+</details>
 
-Translations
+<details>
+    <summary>Translator</summary>
+</details>
 
-Writer
+<details>
+    <summary>Writer</summary>
+</details>
