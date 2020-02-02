@@ -68,4 +68,4 @@ What is contribution?
 * This includes mentions like “It doesn’t work on my server” which too is a valuable contribution – the underlying message being e.g. “improve documentation”.
 * Even failed contributions are essential, because of how much we can learn when we fail. Contribution from newcomers is especially valuable, because they see the project with fresh eyes.
 
-**Would you like to be involved in this team? Join [#t-community](https://mautic.slack.com/archives/CQV40ULMA) on Slack!
+**Would you like to be involved in this team? Join [#t-community](https://mautic.slack.com/archives/CQV40ULMA) on Slack!**
