@@ -2,6 +2,8 @@
 title: 'Product Team'
 ---
 
+# Product Team
+
 ## Missions and expectations for the Product team
 
 > To manage all aspects of the product release cycle and roadmap for the Mautic Open Source project
