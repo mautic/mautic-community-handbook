@@ -14,9 +14,9 @@ While each team will have some aspects of the on-boarding process in common, the
 
 ## General on-boarding - tools
 
-1. Anybody involved with the Mautic Community will need a Slack account - go to mautic.org/slack to sign up.
+1. Anybody involved with the Mautic Community will need a Slack account - go to [mautic.org/slack](mautic.org/slack) to sign up.
 
-2. The Mautic Community use Trello for task management, so a Trello account will be needed. Go to www.trello.com and sign up for a new account (free of charge), and join the team using [this invite link](https://trello.com/invite/mauticcommunity/7141ad265fef10a78b6573cadf1d42b8). 
+2. The Mautic Community use Trello for task management in all teams. Go to www.trello.com and sign up for a new account (free of charge), and join the team using [this invite link](https://trello.com/invite/mauticcommunity/7141ad265fef10a78b6573cadf1d42b8). 
 
 2. Anybody who is involved in code-based contributions will need to sign the Mautic Contributors Agreement, which can be done online [here](https://www.mautic.org/contributor-agreement/).
 
