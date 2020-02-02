@@ -20,4 +20,4 @@ This team will primarily be comprised of Acquian staff.
 * Financial management
 * Budget management
 
-**Would you like to be involved in this team? Join [#t-legal-finance](https://mautic.slack.com/archives/CQGQ1H2SE) on Slack!
+** Would you like to be involved in this team? Join [#t-legal-finance](https://mautic.slack.com/archives/CQGQ1H2SE) on Slack! **
