@@ -2,7 +2,7 @@
 title: 'Community Team'
 ---
 
-# The Mautic Community Team
+# The Community Team
 
 ## Mission and expectations
 
