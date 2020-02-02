@@ -2,6 +2,8 @@
 title: 'Marketing Team'
 ---
 
+# Marketing Team
+
 ## Mission and expectations
 
 > To promote Mautic to new and potential users and develop an awareness of the Open Source project
