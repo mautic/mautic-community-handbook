@@ -2,6 +2,8 @@
 title: On-boarding
 ---
 
+# On-boarding
+
 On-boarding new contributors effectively is a hugely important part of our community.  
 
 If new contributors feel welcomed, able to use their time effectively and make a real difference which is recognised by the community, **we all benefit**. 
