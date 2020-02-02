@@ -75,9 +75,9 @@ Each new feature should include a reference to a pull request in our [End User D
 
 Each time you update Mautic's source after the initial setup/installation via a new checkout, download, git pull, etc; you will need to clear the cache. To do so, run the following command:
 
-`cd /your/mautic/directory`
+	$ cd /your/mautic/directory
 
-`php app/console cache:clear`
+	$ php app/console cache:clear
 
 (Note that if you are accessing Mautic through the dev environment (via index_dev.php), you would need to add `--env=dev` to the command).
 
