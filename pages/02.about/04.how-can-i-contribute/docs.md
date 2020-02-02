@@ -13,9 +13,9 @@ We have developed formalized processes for contributing as a designer, developer
 
 You must join our Slack workspace first before contributing. Get an invite at [mautic.org/slack](https://www.mautic.org/slack).
 
-[### Designer](/about/how-can-i-contribute/designer)
+### [Designer](/about/how-can-i-contribute/designer)
 
-[### Developer](/about/how-can-i-contribute/developer)
+### [Developer](/about/how-can-i-contribute/developer)
 
 ### Marketer
 
