@@ -2,7 +2,7 @@
 title: 'Community Team'
 ---
 
-# The Community Team
+# Community Team
 
 ## Mission and expectations
 
