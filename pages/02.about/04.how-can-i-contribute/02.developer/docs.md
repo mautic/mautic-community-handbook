@@ -8,7 +8,7 @@ Development is open and available to any member of the Mautic community. All fix
 
 ## Reporting Security Vulnerabilities
 
-If you think that you have found a security vulnerability, please email [security@mautic.com]() with as much detail as possible. The core team will review the vulnerability and if found applicable, will create the patch in a private repository. The vulnerability will be disclosed once the patch has been included into a release. 
+If you think that you have found a security vulnerability, please email [security@mautic.org](mailto:security@mautic.org) with as much detail as possible. The core team will review the vulnerability and if found applicable, will create the patch in a private repository. The vulnerability will be disclosed once the patch has been included into a release. 
 
 ## Developer Documentation
 
