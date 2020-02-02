@@ -15,7 +15,7 @@ You must join our Slack workspace first before contributing. Get an invite at [m
 
 [### Designer](/about/how-can-i-contribute/designer)
 
-### Developer
+[### Developer](/about/how-can-i-contribute/developer)
 
 ### Marketer
 
