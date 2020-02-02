@@ -83,4 +83,4 @@ We need people with skills as:
 * Editors
 * Translators
 
-** Interested in joining the Education team? Join [#t-education](https://mautic.slack.com/archives/CQGQ0D4KU) on Slack! ** 
+** Would you like to be involved in this team? Join [#t-education](https://mautic.slack.com/archives/CQGQ0D4KU) on Slack! ** 
