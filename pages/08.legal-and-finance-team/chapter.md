@@ -2,6 +2,8 @@
 title: 'Legal & Finance Team'
 ---
 
+# Legal & Finance Team
+
 ## Mission
 
 > “To safeguard and manage the legal and financial aspects of the Mautic community”
