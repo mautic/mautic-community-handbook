@@ -21,7 +21,7 @@ Pursuant the [Mautic Code of Conduct (CoC)](https://www.mautic.org/code-of-condu
 * The Community Council shall propose sanctions according to those laid out in this Policy.
 * The Community Council shall notify all involved parties in accordance with this Policy.
 
-# Proposed sanctions
+## Proposed sanctions
 
 | Occurrence | Sanction |
 |---------------|--------------------|
@@ -31,7 +31,7 @@ Pursuant the [Mautic Code of Conduct (CoC)](https://www.mautic.org/code-of-condu
 | 4th offence | 12 month ban |
 | 5th offence | Lifetime Ban by full Community Council vote |
 
-## Terms of a Ban. 
+## Terms of a Ban 
 
 The inflicted ban shall be considered as “Full Ban” from the project including, but not limited to, access and privileges to any and all Mautic Channels, Forums, Websites, Systems, Events, and Activities (including speaking at events, in blog posts and on social media on behalf of the Mautic Community or Project).
 
