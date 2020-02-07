@@ -6,7 +6,7 @@ title: 'Leadership Role Definitions'
 
 * Appointed by Acquia
 * Leads the Product Steering Group
-* Responsible for the technical direction of the project as a whole
+* Responsible for the technical direction of the project as a whole and project advocacy
 
 ## Community Manager
 
