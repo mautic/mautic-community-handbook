@@ -17,4 +17,4 @@ The current leadership team and their terms are as follows:
 | ?        | Marketing Team Lead                   | ?@mautic.org                      |                 |               |
 | ?        | Marketing Team Assistant Lead                  | ?@mautic.org                      |                 |               |
 | Norman Pracht         | Product Team Lead                   | norman.pracht@mautic.org                      |                 |               |
-| ?      | Product Team Assistant Lead                   | ?@mautic.org                      |                 |               |
+| Dennis Ameling      | Product Team Assistant Lead                   | dennis.ameling@mautic.org                      |                 |               |
