@@ -24,7 +24,7 @@ Pursuant the [Mautic Code of Conduct (CoC)](https://www.mautic.org/code-of-condu
 # Proposed sanctions
 
 | Occurrence | Sanction |
-|-----------|--------------------|
+|---------------|--------------------|
 | 1st offence | Warning to the offender. Apology to offended within 7 days required.  Nature of apology to be determined by the nature of offence. If the offence was committed in public (i.e at an event or publicly on the internet) , a public apology will be required.  If the offence happened in a team or more private setting, an apology to all people who witnessed the offence will be sufficient.* Should apology be refused by the offender, sanction will be escalated to second offence automatically. |
 | 2nd offence | 3 month ban |
 | 3rd offence | 6 month ban |
