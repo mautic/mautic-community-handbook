@@ -2,9 +2,13 @@
 title: Trademark
 ---
 
+## Why do we need this policy?
+
 The Mautic Community acts as a steward for the Mautic brand, with the trademark and logo rights being owned by Acquia. 
 
 Our goal is to grow the Mautic community by encouraging businesses of all sizes to bring creativity, innovation and contributions to the project. 
+
+## Who does this policy apply to?
 
 We’ve developed this policy in an effort to preserve the Mautic trademark and brand, as well as to provide guidance and resources to those who wish to use the Mautic name, logo or trademark in any capacity.
 
