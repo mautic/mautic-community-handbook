@@ -6,7 +6,7 @@ title: 'Mautic Meetups & Events'
 
 The Community Team agreed on 12th December 2019 the following guidelines for establishing official Mautic groups within the Community.
 
-## General guidelines for official Mautic groups
+## General guidelines for official Mautic Meetups
 
 1. Mautic Meetups are for the benefit of the Mautic community as a whole, not specific businesses or individuals. 
 2. All actions taken as an event organizer are with the best interest of the community in mind.
