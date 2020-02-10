@@ -17,7 +17,7 @@ You must join our Slack workspace first before contributing. Get an invite at [m
 
 ### [Developer](/about/how-can-i-contribute/developer)
 
-### Marketer
+### [Marketer](/about/how-can-i-contribute/marketer)
 
 ### Tester
 
