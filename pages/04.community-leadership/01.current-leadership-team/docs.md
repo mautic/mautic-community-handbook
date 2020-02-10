@@ -14,7 +14,7 @@ The current leadership team and their terms are as follows:
 | Kevin Rundle         | Education Team Assistant Lead                   | kevin.rundle@mautic.org                      |                 |               |
 | ?        | Legal & Finance Team Lead                   | legal@acquia.com                     |                 |               |
 | ?         | Legal & Finance Team Assistant Lead                   | legal@acquia.com                      |                 |               |
-| ?        | Marketing Team Lead                   | ?@mautic.org                      |                 |               |
+| Radu Zlatianu        | Marketing Team Lead                   | radu.zlatianu@mautic.org                      |                 |               |
 | ?        | Marketing Team Assistant Lead                  | ?@mautic.org                      |                 |               |
 | Norman Pracht         | Product Team Lead                   | norman.pracht@mautic.org                      |                 |               |
 | Dennis Ameling      | Product Team Assistant Lead                   | dennis.ameling@mautic.org                      |                 |               |
