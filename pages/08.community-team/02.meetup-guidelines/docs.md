@@ -6,7 +6,10 @@ title: 'Mautic Meetups & Events'
 
 The Community Team agreed on 12th December 2019 the following guidelines for establishing official Mautic groups within the Community.
 
-## General guidelines for official Mautic Meetups
+## Mautic Meetups
+These are the traditional kind of in-person meetups which are based in a region or a town. They are **not** to be created on a country-wide basis.
+
+### General guidelines for official Mautic Meetups
 
 1. Mautic Meetups are for the benefit of the Mautic community as a whole, not specific businesses or individuals. 
 2. All actions taken as an event organizer are with the best interest of the community in mind.
@@ -15,8 +18,6 @@ The Community Team agreed on 12th December 2019 the following guidelines for est
 5. Meetup groups allow events to be organized by any reliable/trusted member of the community.
 6. Meetups are welcoming places where everyone works to foster an accepting environment which is free of discrimination, incitement to violence, promotion of hate, and general jerk-like behavior.
 
-## Mautic Meetups
-These are the traditional kind of in-person meetups which are based in a region or a town. They are **not** to be created on a country-wide basis.
 
 Official groups will have a Meetup group created on [meetup.com/pro/mautic](https://meetup.com/pro/mautic) and a category created in [Mautic Meetups](https://forum.mautic.org/c/mautic-meetups/7) on the forums once the following criteria are met:
 
