@@ -6,6 +6,8 @@ title: 'Mautic Meetups & Events'
 
 The Community Team agreed on 12th December 2019 the following guidelines for establishing official Mautic groups within the Community.
 
+All meetups, groups and events agree to abide by the Mautic [Code of Conduct](https://www.mautic.org/code-of-conduct/) at all times.
+
 ## Mautic Meetups
 These are the traditional kind of in-person meetups which are based in a region or a town. They are **not** to be created on a country-wide basis.
 
