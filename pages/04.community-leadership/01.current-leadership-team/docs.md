@@ -13,9 +13,9 @@ The current leadership team and their terms are as follows:
 | Nico Grienauer          | Community Team Assistant Lead                   | nico.grienauer@mautic.org                      |                 |               |
 | ?          | Education Team Lead                   | ?@mautic.org                      |                 |               |
 | Kevin Rundle         | Education Team Assistant Lead                   | kevin.rundle@mautic.org                      |                 |               |
-| ?        | Legal & Finance Team Lead                   | legal@acquia.com                     |                 |               |
-| ?         | Legal & Finance Team Assistant Lead                   | legal@acquia.com                      |                 |               |
+| Legal@Acquia       | Legal & Finance Team Lead                   | legal@acquia.com                     |                 |               |
+| Legal@Acquia         | Legal & Finance Team Assistant Lead                   | legal@acquia.com                      |                 |               |
 | Radu Zlatianu        | Marketing Team Lead                   | radu.zlatianu@mautic.org                      |                 |               |
-| ?        | Marketing Team Assistant Lead                  | ?@mautic.org                      |                 |               |
+| Oluwatobi Owolabi        | Marketing Team Assistant Lead                  | oluwatoibi.owolabi@mautic.org                      |                 |               |
 | Norman Pracht         | Product Team Lead                   | norman.pracht@mautic.org                      |                 |               |
 | Dennis Ameling      | Product Team Assistant Lead                   | dennis.ameling@mautic.org                      |                 |               |
