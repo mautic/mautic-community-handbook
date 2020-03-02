@@ -2,6 +2,7 @@
 title: Marketer
 ---
 
+---
 As the world's first Open Source Marketing Automation platform, we have quite a challenge on our hands!
 
 Most people in Open Source circles have never heard of Marketing Automation. They don't even know there's an Open Source alternative to the tools they are using. 
