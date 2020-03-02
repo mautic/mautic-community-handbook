@@ -2,6 +2,7 @@
 title: 'Mautic Meetups & Events'
 ---
 
+---
 ## Guidance for establishing official Mautic Meetups, Groups & Events
 
 The Community Team agreed on 12th December 2019 the following guidelines for establishing official Mautic groups within the Community.
