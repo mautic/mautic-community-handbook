@@ -2,6 +2,7 @@
 title: Developer
 ---
 
+---
 ## Contributing Code
 
 Development is open and available to any member of the Mautic community. All fixes and improvements are done through pull requests to the code. This code is open source and publicly available. 
