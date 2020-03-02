@@ -2,6 +2,7 @@
 title: Designer
 ---
 
+---
 Please check out our Trello issues for tasks to work on!
 
 Cards labeled with Design are relevant to designers. Any future cards should also use this label too!
