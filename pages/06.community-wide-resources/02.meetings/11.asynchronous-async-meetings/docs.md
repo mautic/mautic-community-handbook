@@ -2,6 +2,7 @@
 title: 'Slack (async) meetings'
 ---
 
+---
 Slack threads are a great way to hold meetings because:
 
 * They don't rely on everybody being available to attend the meeting at a specific time - often async meetings are open for 24 hours
