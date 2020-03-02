@@ -17,6 +17,5 @@ The Community Council is formed of four elected representatives from the Mautic 
 | Angie Byron | Snr. Director, Product + Community Development at Acquia | angela.byron@acquia.com            | 
 | Ekkehard Gümbel  | Community Representative | ekke.guembel@mautic.org            | 
 | Radu Zlatianu  | Community Representative | radu.zlatianu@mautic.org            | 
-| Norman Pracht  | Community Representative | 	
-norman.pracht@mautic.org            | 
+| Norman Pracht  | Community Representative | 	norman.pracht@mautic.org            | 
 | TBC | Community Representative | ?@mautic.org            | 
