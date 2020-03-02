@@ -2,6 +2,7 @@
 title: 'Community Council'
 ---
 
+---
 ## What is the Community Council?
 
 The Community Council is formed of four elected representatives from the Mautic Community, and four Acquians.  
@@ -14,7 +15,8 @@ The Community Council is formed of four elected representatives from the Mautic 
 | Dries Buytaert | Acquia Co-founder and CTO | dries@acquia.com            | 
 | Ruth Cheesley | Mautic Community Manager at Acquia | ruth.cheesley@mautic.org            | 
 | Angie Byron | Snr. Director, Product + Community Development at Acquia | angela.byron@acquia.com            | 
-| TBC | Community Representative | ?@mautic.org            | 
-| TBC | Community Representative | ?@mautic.org            | 
-| TBC | Community Representative | ?@mautic.org            | 
+| Ekkehard Gümbel  | Community Representative | ekke.guembel@mautic.org            | 
+| Radu Zlatianu  | Community Representative | radu.zlatianu@mautic.org            | 
+| Norman Pracht  | Community Representative | 	
+norman.pracht@mautic.org            | 
 | TBC | Community Representative | ?@mautic.org            | 
