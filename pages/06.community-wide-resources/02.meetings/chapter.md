@@ -2,7 +2,7 @@
 title: Meetings
 ---
 
-Meetings
+# Meetings
 ---
 As a widely distributed team of volunteers, we work together collaboratively using both synchronous and asynchronous meetings.
 
