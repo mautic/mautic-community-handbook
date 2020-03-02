@@ -2,6 +2,7 @@
 title: 'Current Leadership Team'
 ---
 
+---
 The current leadership team and their terms are as follows:
 
 | Name      | Role     | Email address | Term commenced | Term ends |
