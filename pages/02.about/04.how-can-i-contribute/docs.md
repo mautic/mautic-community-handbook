@@ -2,6 +2,7 @@
 title: 'How can I contribute?'
 ---
 
+---
 So you want to contribute to Mautic? Great!  We are so happy to welcome you to our Community!
 
 ## Code of Conduct
