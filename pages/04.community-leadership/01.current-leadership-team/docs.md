@@ -16,6 +16,6 @@ The current leadership team and their terms are as follows:
 | Legal@Acquia       | Legal & Finance Team Lead                   | legal@acquia.com                     |                 |               |
 | Legal@Acquia         | Legal & Finance Team Assistant Lead                   | legal@acquia.com                      |                 |               |
 | Radu Zlatianu        | Marketing Team Lead                   | radu.zlatianu@mautic.org                      |                 |               |
-| Oluwatobi Owolabi        | Marketing Team Assistant Lead                  | oluwatoibi.owolabi@mautic.org                      |                 |               |
+| Oluwatobi Owolabi        | Marketing Team Assistant Lead                  | oluwatobi.owolabi@mautic.org                      |                 |               |
 | Norman Pracht         | Product Team Lead                   | norman.pracht@mautic.org                      |                 |               |
 | Dennis Ameling      | Product Team Assistant Lead                   | dennis.ameling@mautic.org                      |                 |               |
