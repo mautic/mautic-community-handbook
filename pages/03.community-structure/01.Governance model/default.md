@@ -12,7 +12,6 @@ The aim of the governance model is to enable and empower volunteers.  We want to
 
 Community Structure
 The structure of the community includes five teams, each led by a Team Lead and Assistant Team Lead, with working groups under them. 
-
 * Community Team
 * Education Team
 * Legal & Finance Team
