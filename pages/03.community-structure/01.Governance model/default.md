@@ -23,7 +23,7 @@ Each of these teams are responsible for establishing and overseeing working grou
 ](Mautic-Community-Governance-4-1024x721.png)
 
 ## The Mautic Community Governance Model
-Initially the team leadership roles will be self-elected from within the team.
+Initially the team leadership roles will be self-elected from within the team.  See [Leadership Team](/community-leadership/current-leadership-team) for the current post holders.
 
 Going forward the Team Lead and Assistant Team Lead positions will be selected by the Project Lead from the community-elected Working Group Leads and Assistant Working Group Leads.
 
