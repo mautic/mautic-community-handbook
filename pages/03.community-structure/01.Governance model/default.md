@@ -10,13 +10,13 @@ Read more in the [initial proposal](https://www.mautic.org/blog/press/mautic-com
 
 The aim of the governance model is to enable and empower volunteers.  We want to encourage the community to take up responsibilities and have a say in the direction of the Mautic Open Source project, while working collaboratively with Acquia.
 
-Community Structure
+## Community Structure
 The structure of the community includes five teams, each led by a Team Lead and Assistant Team Lead, with working groups under them. 
-* Community Team
-* Education Team
-* Legal & Finance Team
-* Marketing Team
-* Product Team
+* [Community Team](/community-team)
+* [Education Team](/education-team)
+* [Legal & Finance Team](/legal-and-finance-team)
+* [Marketing Team](/marketing-team)
+* [Product Team](/product-team)
 
 Each of these teams are responsible for establishing and overseeing working groups within the team. 
 ![Image of the governance model detailing teams, working groups, steering groups and the community council
