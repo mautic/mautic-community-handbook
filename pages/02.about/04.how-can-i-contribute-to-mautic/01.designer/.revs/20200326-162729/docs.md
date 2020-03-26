@@ -1,7 +1,5 @@
 ---
 title: Designer
-googletitle: 'How can I contribute to Mautic as a Designer?'
-googledesc: 'Many of our Community and Marketing Team tasks will require designer collaboration. We work on a Trello board where you can find open tasks.'
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
