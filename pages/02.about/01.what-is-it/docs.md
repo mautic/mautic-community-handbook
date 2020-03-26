@@ -1,7 +1,7 @@
 ---
 title: 'What is Mautic?'
 slug: what-is-mautic
-googletitle: 'What is Mautic? | Mautic Documentation'
+googletitle: 'What is Mautic? '
 googledesc: 'Mautic is the world''s first Open Source Marketing Automation platform. It was created by DB Hurley in 2014, under the GPL v3 license.'
 twitterenable: true
 twittercardoptions: summary
