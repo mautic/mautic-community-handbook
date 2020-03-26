@@ -1,5 +1,6 @@
 ---
 title: 'How can I try Mautic?'
+slug: how-can-i-try-mautic
 googletitle: 'How can I try Mautic?'
 googledesc: 'You can download Mautic for free at mautic.org/download. There are no limitations on what you can do with Mautic when you host it yourself.'
 twitterenable: true
