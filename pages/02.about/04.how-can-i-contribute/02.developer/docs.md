@@ -22,7 +22,7 @@ If you think that you have found a security vulnerability, please email [securit
 
 ## Developer Documentation
 
-Developer documentation is available at [https://developer.mautic.org](https://developer.mautic.org).  To add additions or corrects to the documentation, submit Issues or Pull Requests against [https://github.com/mautic/developer-documentation](https://github.com/mautic/developer-documentation).
+Developer documentation is available at [https://developer.mautic.org][developer-docs].  To add additions or corrects to the documentation, submit Issues or Pull Requests against [https://github.com/mautic/developer-documentation][developer-docs-github].
 
 ## Core Feature Development Procedures
 
@@ -38,13 +38,13 @@ You will need to sign the [Mautic Contributors Agreement][mautic-contributors-ag
 
 ### Code Standards
 
-Mautic follows [Symfony's coding standards](http://symfony.com/doc/current/contributing/code/standards.html) by implementing pre-commit git hook running [php-cs-fixer](https://github.com/friendsofphp/php-cs-fixer), which is installed and updated with `composer install`/`composer update`.
+Mautic follows [Symfony's coding standards][symfony-coding-standards] by implementing pre-commit git hook running [php-cs-fixer][php-cs-fixer], which is installed and updated with `composer install`/`composer update`.
 
 All code styling is handled automatically by the aforementioned git hook. If you setup git hook correctly (which is true if you ever run `composer install`/`composer update` before creating a pull request), you can format your code as you like - it will be converted to Mautic code style automatically.
 
 ### Automated Tests
 
-All code contributions should include adequate and appropriate unit tests using [PHPUnit](https://phpunit.de/manual/5.7/en/index.html) and/or Symfony functional tests ([https://symfony.com/doc/2.8/testing.html](https://symfony.com/doc/2.8/testing.html)). Pull Requests without these tests will not be merged. See below for more extensive information on Automated Tests.
+All code contributions should include adequate and appropriate unit tests using [PHPUnit][php-unit] and/or [Symfony functional tests][symfony-functional-tests]. Pull Requests without these tests will not be merged. See below for more extensive information on Automated Tests.
 
 ### Pull Request Description 
 
@@ -52,19 +52,19 @@ When creating a new Pull Request, the description template should be filled appr
 
 ### Documentation 
 
-Each new feature should include a reference to a pull request in our [End User Documentation](https://github.com/mautic/documentation) repository or [Developer Documentation](https://github.com/mautic/developer-documentation) repository if applicable.  Any enhancements or bugfixes affecting the end-user or developer experience should also be accompanied by a PR updating the relevant resources in the Documentation.
+Each new feature should include a reference to a pull request in our [End User Documentation][mautic-docs] repository or [Developer Documentation][developer-docs] repository if applicable.  Any enhancements or bugfixes affecting the end-user or developer experience should also be accompanied by a PR updating the relevant resources in the Documentation.
 
 ## Development / Build process requirements
 
 1. Mautic uses Git as a version control system. Download and install git for your OS from https://git-scm.com/.
-2. Install a server, PHP and MySql to be able to run Mautic locally. A quick way to get set up is [AMP package for your OS](https://en.wikipedia.org/wiki/List_of_Apache%E2%80%93MySQL%E2%80%93PHP_packages).
-3. Install [Composer](https://getcomposer.org/), the dependency manager for PHP.
-4. Install [NPM](https://www.npmjs.com/).
-5. Install [Grunt](http://gruntjs.com/).
+2. Install a server, PHP and MySql to be able to run Mautic locally. A quick way to get set up is [AMP package for your OS][amp-packages].
+3. Install [Composer][composer], the dependency manager for PHP.
+4. Install [NPM][npm].
+5. Install [Grunt][grunt].
 
 ## Mautic requirements
 
-1. See [Mautic requirements](https://www.mautic.org/download/requirements).
+1. See [Mautic requirements][mautic-requirements].
 2. PHP modules:
 	- required: `zip`, `xml`, `mcrypt`, `imap`, `mailparse`
 	- recommended: `openssl`, `opcache` / `apcu` / `memcached`
@@ -101,7 +101,7 @@ Run `composer install` to ensure new vendors are installed and/or existing upgra
 
 Before running these commands, please make a backup of your database.
 
-If updating from <a href="https://github.com/mautic/mautic/releases">a tagged release</a> to <a href="https://github.com/mautic/mautic/releases">a tagged release</a>, schema changes will be included in a migrations file. To apply the changes, run
+If updating from [a tagged release][tagged-releases] to a tagged release, schema changes will be included in a migrations file. To apply the changes, run
 
     $ php app/console doctrine:migrations:migrate
 
@@ -135,17 +135,17 @@ Everyone can test submitted features and bug fixes. No programming skills are re
 
 Every change to Mautic core happens via PRs. Every PR must have 2 successful tests to be merged to the core and released in the next version. Testing a PR is a great way to move Mautic forward and personally improve its quality and stability.
 
-1. [Select a PR](https://github.com/mautic/mautic/pulls) to test.
+1. [Select a PR][mautic-prs] to test.
 2. Read the description and steps to test. If it's a bug fix, follow the steps to ensure you can recreate the issue.
 3. Use the development environment (above) for testing.
-3. [Apply the PR](https://help.github.com/articles/checking-out-pull-requests-locally/#modifying-an-inactive-pull-request-locally)
+3. [Apply the PR][apply-pr]
 4. Clear cache for development environment (`rm -rf app/cache/*` or `app/console cache:clear -e dev`).
 5. Follow the steps from the PR description again to see if the result is as described.
 6. Write a comment about how the test went. If there is a problem, provide as much information as possible including error log messages.
 
 ### Automated Testing
 
-Mautic uses [Codeception](https://codeception.com), [PHPUnit](https://phpunit.de), and [Selenium](http://www.seleniumhq.org)
+Mautic uses [Codeception][codeception], [PHPUnit][phpunit], and [Selenium][selenium]
 as our suite of testing tools. 
 
 #### PHPUnit
@@ -177,9 +177,9 @@ If you plan on running the acceptance test suite, you'll need to have the Seleni
 
 ##### Mac OS
 
-If you're on a Mac and you use [Homebrew](https://brew.sh), you can install Selenium by running `brew install selenium-server-standalone`.
+If you're on a Mac and you use [Homebrew][homebrew], you can install Selenium by running `brew install selenium-server-standalone`.
 
-You'll also need to download the latest [Chrome WebDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads).
+You'll also need to download the latest [Chrome WebDriver][chrome-web-driver].
 
 Unzip and move the `chromedriver` file to `/usr/local/Cellar/selenium-server-standalone/drivers/chromedriver`.
 
@@ -210,8 +210,28 @@ All test suites can be executed by running `bin/codecept run` from the project r
 
 ### Static Analysis
 
-Mautic uses [PHPSTAN](https://github.com/phpstan/phpstan) for some of its parts during continuous integration tests. If you want to test your specific contribution locally, install PHPSTAN globally with `composer global require phpstan/phpstan-shim`. 
+Mautic uses [PHPSTAN][phpstan] for some of its parts during continuous integration tests. If you want to test your specific contribution locally, install PHPSTAN globally with `composer global require phpstan/phpstan-shim`. 
 
 Mautic cannot have PHPSTAN as its dev dependency, because it requires PHP7+. To run analysis on a specific bundle, run `~/.composer/vendor/phpstan/phpstan-shim/phpstan.phar analyse app/bundles/*Bundle`
 
+[developer-docs]: (https://developer.mautic.org)
 [mautic-contributors-agreement]: (https://www.mautic.org/contributor-agreement)
+[developer-docs-github]: (https://github.com/mautic/developer-documentation)
+[symfony-coding-standards]: (http://symfony.com/doc/current/contributing/code/standards.html)
+[php-cs-fixer]: (https://github.com/friendsofphp/php-cs-fixer)
+[php-unit]: (https://phpunit.de/manual/5.7/en/index.html)
+[symfony-functional-tests]: (https://symfony.com/doc/2.8/testing.html)
+[mautic-docs]: (https://github.com/mautic/documentation)
+[amp-packages]: (https://en.wikipedia.org/wiki/List_of_Apache%E2%80%93MySQL%E2%80%93PHP_packages)
+[composer]: (https://getcomposer.org/)
+[npm]: (https://www.npmjs.com/)
+[grunt]: (http://gruntjs.com/)
+[mautic-requirements]: (https://www.mautic.org/download/requirements)
+[tagged-releases]: (https://github.com/mautic/mautic/releases)
+[mautic-prs]: (https://github.com/mautic/mautic/pulls)
+[apply-pr]: (https://help.github.com/articles/checking-out-pull-requests-locally/#modifying-an-inactive-pull-request-locally)
+[codeception]: (https://codeception.com)
+[selenium]: (http://www.seleniumhq.org)
+[homebrew]: (https://brew.sh)
+[chrome-web-driver]: (https://sites.google.com/a/chromium.org/chromedriver/downloads)
+[phpstan]: (https://github.com/phpstan/phpstan)
