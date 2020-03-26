@@ -21,13 +21,13 @@ Everybody in the Mautic Community needs to read, and agree to abide by, our [Cod
 
 We have developed formalized processes for contributing as a designer, developer, marketer, tester, translator and writer. We're an open and evolving project, so if you don't fit into any of these roles, please let us know and we will work with you to create it!
 
-You must join our Slack workspace first before contributing. Get an invite at [mautic.org/slack][mautic-slack].
+You must join our Slack workspace first before contributing. Get an invite at [mautic.org/slack](https://www.mautic.org/slack).
 
-### [Designer][designer]
+### [Designer](/about/how-can-i-contribute/designer)
 
-### [Developer][developer]
+### [Developer](/about/how-can-i-contribute/developer)
 
-### [Marketer][marketer]
+### [Marketer](/about/how-can-i-contribute/marketer)
 
 ### Tester
 
@@ -36,7 +36,3 @@ You must join our Slack workspace first before contributing. Get an invite at [m
 ### Writer
 
 [code-of-conduct]: </community-wide-resources/code-of-conduct>
-[mautic-slack]: <https://www.mautic.org/slack>
-[designer]: </about/how-can-i-contribute/designer>
-[developer]: </about/how-can-i-contribute/developer>
-[marketer]: </about/how-can-i-contribute/marketer>
