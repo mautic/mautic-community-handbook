@@ -4,6 +4,8 @@ taxonomy:
     category:
         - docs
 slug: how-is-mautic-used
+googletitle: 'How is Mautic used? '
+googledesc: 'Mautic is a flexible, fully featured and omni-channel Marketing Automation tool. It can be used in many ways and customized extensively.'
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
