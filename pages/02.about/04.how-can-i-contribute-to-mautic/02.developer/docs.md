@@ -214,24 +214,24 @@ Mautic uses [PHPSTAN][phpstan] for some of its parts during continuous integrati
 
 Mautic cannot have PHPSTAN as its dev dependency, because it requires PHP7+. To run analysis on a specific bundle, run `~/.composer/vendor/phpstan/phpstan-shim/phpstan.phar analyse app/bundles/*Bundle`
 
-[developer-docs]: (https://developer.mautic.org)
-[mautic-contributors-agreement]: (https://www.mautic.org/contributor-agreement)
-[developer-docs-github]: (https://github.com/mautic/developer-documentation)
-[symfony-coding-standards]: (http://symfony.com/doc/current/contributing/code/standards.html)
-[php-cs-fixer]: (https://github.com/friendsofphp/php-cs-fixer)
-[php-unit]: (https://phpunit.de/manual/5.7/en/index.html)
-[symfony-functional-tests]: (https://symfony.com/doc/2.8/testing.html)
-[mautic-docs]: (https://github.com/mautic/documentation)
-[amp-packages]: (https://en.wikipedia.org/wiki/List_of_Apache%E2%80%93MySQL%E2%80%93PHP_packages)
-[composer]: (https://getcomposer.org/)
-[npm]: (https://www.npmjs.com/)
-[grunt]: (http://gruntjs.com/)
-[mautic-requirements]: (https://www.mautic.org/download/requirements)
-[tagged-releases]: (https://github.com/mautic/mautic/releases)
-[mautic-prs]: (https://github.com/mautic/mautic/pulls)
-[apply-pr]: (https://help.github.com/articles/checking-out-pull-requests-locally/#modifying-an-inactive-pull-request-locally)
-[codeception]: (https://codeception.com)
-[selenium]: (http://www.seleniumhq.org)
-[homebrew]: (https://brew.sh)
-[chrome-web-driver]: (https://sites.google.com/a/chromium.org/chromedriver/downloads)
-[phpstan]: (https://github.com/phpstan/phpstan)
+[developer-docs]: <https://developer.mautic.org>
+[mautic-contributors-agreement]: <https://www.mautic.org/contributor-agreement>
+[developer-docs-github]: <https://github.com/mautic/developer-documentation>
+[symfony-coding-standards]: <http://symfony.com/doc/current/contributing/code/standards.html>
+[php-cs-fixer]: <https://github.com/friendsofphp/php-cs-fixer>
+[php-unit]: <https://phpunit.de/manual/5.7/en/index.html>
+[symfony-functional-tests]: <https://symfony.com/doc/2.8/testing.html>
+[mautic-docs]: <https://github.com/mautic/documentation>
+[amp-packages]: <https://en.wikipedia.org/wiki/List_of_Apache%E2%80%93MySQL%E2%80%93PHP_packages>
+[composer]: <https://getcomposer.org/>
+[npm]: <https://www.npmjs.com/>
+[grunt]: <http://gruntjs.com/>
+[mautic-requirements]: <https://www.mautic.org/download/requirements>
+[tagged-releases]: <https://github.com/mautic/mautic/releases>
+[mautic-prs]: <https://github.com/mautic/mautic/pulls>
+[apply-pr]: <https://help.github.com/articles/checking-out-pull-requests-locally/#modifying-an-inactive-pull-request-locally>
+[codeception]: <https://codeception.com>
+[selenium]: <http://www.seleniumhq.org>
+[homebrew]: <https://brew.sh>
+[chrome-web-driver]: <https://sites.google.com/a/chromium.org/chromedriver/downloads>
+[phpstan]: <https://github.com/phpstan/phpstan>
