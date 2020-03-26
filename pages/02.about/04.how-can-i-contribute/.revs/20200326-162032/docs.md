@@ -35,4 +35,4 @@ You must join our Slack workspace first before contributing. Get an invite at [m
 
 ### Writer
 
-[code-of-conduct]: <community-wide-resources/code-of-conduct>
+[code-of-conduct]: (community-wide-resources/code-of-conduct)
