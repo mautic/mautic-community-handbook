@@ -27,8 +27,8 @@ We are primarlily organized around the following channels:
 * [Slack][mautic-slack]
 * [Forums][mautic-forums]
 
-[mautic-website]: (https://www.mautic.org)
-[mautic-github]: (https://github.com/mautic/mautic)
-[mautic-download]: (https://www.mautic.org/download)
-[mautic-slack]: (https://mautic.org/slack)
-[mautic-forums]: (https://forum.mautic.org)
+[mautic-website]: <https://www.mautic.org>
+[mautic-github]: <https://github.com/mautic/mautic>
+[mautic-download]: <https://www.mautic.org/download>
+[mautic-slack]: <https://mautic.org/slack>
+[mautic-forums]: <https://forum.mautic.org>
