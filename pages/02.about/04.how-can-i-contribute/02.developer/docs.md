@@ -1,5 +1,14 @@
 ---
 title: Developer
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+personenabled: false
+facebookenable: true
 ---
 
 ---
@@ -22,6 +31,8 @@ Pull Requests with additional features should be created with the Mautic Product
 In addition to following the general direction of the development goals, the pull request code must be well-formed following coding standards and guidelines. If you wish to target a specific release version number for the feature, its best to make the pull request early so any feedback from the core team can be implemented and adequate testing can be performed. 
 
 Features that are determined not to fit within the direction of the Mautic Core goals are more than welcome to be created as plugins instead. 
+
+You will need to sign the [Mautic Contributors Agreement][mautic-contributors-agreement] in order to contribute code to Mautic (which can be done online)
 
 ## Code Contribution Requirements
 
@@ -202,3 +213,5 @@ All test suites can be executed by running `bin/codecept run` from the project r
 Mautic uses [PHPSTAN](https://github.com/phpstan/phpstan) for some of its parts during continuous integration tests. If you want to test your specific contribution locally, install PHPSTAN globally with `composer global require phpstan/phpstan-shim`. 
 
 Mautic cannot have PHPSTAN as its dev dependency, because it requires PHP7+. To run analysis on a specific bundle, run `~/.composer/vendor/phpstan/phpstan-shim/phpstan.phar analyse app/bundles/*Bundle`
+
+[mautic-contributors-agreement]: (https://www.mautic.org/contributor-agreement)
