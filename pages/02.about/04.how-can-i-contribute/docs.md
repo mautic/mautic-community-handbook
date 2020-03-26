@@ -1,12 +1,21 @@
 ---
 title: 'How can I contribute?'
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+personenabled: false
+facebookenable: true
 ---
 
 ---
 So you want to contribute to Mautic? Great!  We are so happy to welcome you to our Community!
 
 ## Code of Conduct
-Everybody in the Mautic Community needs to read, and agree to abide by, our [Code of Conduct](http://new.communityhandbook/community-wide-resources/code-of-conduct).  Please make sure you take a look before going any further!
+Everybody in the Mautic Community needs to read, and agree to abide by, our [Code of Conduct][code-of-conduct].  Please make sure you take a look before going any further!
 
 ## Contributor roles
 
@@ -25,3 +34,5 @@ You must join our Slack workspace first before contributing. Get an invite at [m
 ### Translator
 
 ### Writer
+
+[code-of-conduct]: (/community-wide-resources/code-of-conduct)
