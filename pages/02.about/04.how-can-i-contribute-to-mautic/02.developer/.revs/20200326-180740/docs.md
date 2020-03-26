@@ -147,7 +147,8 @@ Every change to Mautic core happens via PRs. Every PR must have 2 successful tes
 
 ### Automated Testing
 
-Mautic uses [Codeception][codeception], [PHPUnit][php-unit], and [Selenium][selenium] as our suite of testing tools. 
+Mautic uses [Codeception][codeception], [PHPUnit][php-unit], and [Selenium][selenium]
+as our suite of testing tools. 
 
 #### PHPUnit
 
