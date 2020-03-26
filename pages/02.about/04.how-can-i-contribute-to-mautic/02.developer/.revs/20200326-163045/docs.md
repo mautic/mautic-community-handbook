@@ -1,7 +1,5 @@
 ---
 title: Developer
-googletitle: 'How can I contribute to Mautic as a Developer?'
-googledesc: 'Development is open and available to anybody. All fixes and improvements are done through pull requests. This code is open source on Github.'
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
