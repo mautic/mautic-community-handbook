@@ -1,5 +1,17 @@
 ---
 title: 'Code of Conduct'
+taxonomy:
+    category:
+        - docs
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+personenabled: false
+facebookenable: true
 ---
 
 The primary source of the Code of Conduct is at [mautic.org](https://www.mautic.org/code-of-conduct/) - it is reproduced here for reference.
