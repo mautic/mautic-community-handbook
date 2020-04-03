@@ -1,7 +1,16 @@
 ---
 title: 'Governance model'
 media_order: 'Mautic-Community-Governance-4-1024x721.png,dev-pacsi (1).png,marketing-pacsi (1).png,legal-pacsi (1).png'
-slug: code-governance
+slug: governance
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+personenabled: false
+facebookenable: true
 ---
 
 Following the [acquisition of Mautic Inc. by Acquia in May 2019](https://www.mautic.org/blog/press/mautics-future-starts-now-exciting-announcement/) which included all assets relating to the Mautic community, a governance model was proposed and adopted following a period of community consultation.
