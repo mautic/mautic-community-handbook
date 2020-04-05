@@ -11,6 +11,7 @@ personenabled: false
 facebookenable: true
 ---
 
+---
 ## Translating Mautic
 Mautic uses [Transifex][transifex] to manage the translations for the application.
 
