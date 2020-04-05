@@ -34,7 +34,7 @@ You must join our Slack workspace first before contributing. Get an invite at [m
 
 ### Tester
 
-### Translator
+### [Translator][translator]
 
 ### Writer
 
