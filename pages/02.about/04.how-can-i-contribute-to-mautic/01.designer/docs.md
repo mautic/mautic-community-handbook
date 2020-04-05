@@ -14,12 +14,14 @@ facebookenable: true
 ---
 
 ---
-Please check out our Trello issues for tasks to work on!
+Please check out our [Trello team] for tasks to work on!
 
-Cards labeled with Design are relevant to designers. Any future cards should also use this label too!
+Cards labeled with Design are relevant to designers - you will find them in the team boards.
 
-Many of our Community and Marketing Team tasks will require designer collaboration, please use Slack for communication.
+Many of our Community, Education and Marketing Team tasks will require designer collaboration, please join [#community][community-slack] if you'd like help finding relevant tasks to work on.
 
 We also have a public [#design][mautic-design] channel.
 
 [mautic-design]: <https://mautic.slack.com/archives/C02HU8FQM>
+[trello-issues]: <https://trello.com/mauticcommunity>
+[community-slack]: <https://mautic.slack.com/archives/C8B89CLSF>
