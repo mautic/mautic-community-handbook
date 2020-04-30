@@ -184,6 +184,8 @@ You'll also need to download the latest [Chrome WebDriver][chrome-web-driver] wh
 
 `brew cask install chromedriver`
 
+If installing manually, Unzip and move the `chromedriver` file to `/usr/local/Cellar/selenium-server-standalone/drivers/chromedriver`.
+
 Once you have Selenium installed and the WebDriver available at the specified location, open and modify the plist file found at `/usr/local/Cellar/selenium-server-standalone/3.5.3/homebrew.mxcl.selenium-server-standalone.plist`.
 
 In the `<dict><array>` block under `ProgramArguments`, add the following after the line containing `<string>-jar</string>`"
