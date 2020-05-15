@@ -180,9 +180,11 @@ If you plan on running the acceptance test suite, you'll need to have the Seleni
 
 If you're on a Mac and you use [Homebrew][homebrew], you can install Selenium by running `brew install selenium-server-standalone`.
 
-You'll also need to download the latest [Chrome WebDriver][chrome-web-driver].
+You'll also need to download the latest [Chrome WebDriver][chrome-web-driver] which can also be installed with:
 
-Unzip and move the `chromedriver` file to `/usr/local/Cellar/selenium-server-standalone/drivers/chromedriver`.
+`brew cask install chromedriver`
+
+If installing manually, Unzip and move the `chromedriver` file to `/usr/local/Cellar/selenium-server-standalone/drivers/chromedriver`.
 
 Once you have Selenium installed and the WebDriver available at the specified location, open and modify the plist file found at `/usr/local/Cellar/selenium-server-standalone/3.5.3/homebrew.mxcl.selenium-server-standalone.plist`.
 
@@ -193,6 +195,8 @@ In the `<dict><array>` block under `ProgramArguments`, add the following after t
 <string>-Dwebdriver.chrome.driver=/usr/local/Cellar/selenium-server-standalone/drivers/chromedriver</string>
 ...
 ```
+
+> If installing via Homebrew, the path to use will be: /usr/local/bin/chromedriver
 
 With that completed, you may now start the Selenium server using `brew services start selenium-server-standalone`.
 
