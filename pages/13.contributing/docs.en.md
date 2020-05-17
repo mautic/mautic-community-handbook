@@ -1,6 +1,6 @@
 ---
-title: 'How can I contribute to Mautic?'
-slug: how-can-i-contribute-to-mautic
+title: 'Contributing to Mautic'
+slug: contributing-to-mautic
 googletitle: 'How can I contribute to Mautic?'
 googledesc: 'So you want to contribute to Mautic? Great!  We are so happy to welcome you to our Community! We have opportunities for many skillsets!'
 twitterenable: true
