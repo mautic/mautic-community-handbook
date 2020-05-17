@@ -24,7 +24,7 @@ As a starting point, we recommend you start by [setting up your local environmen
 - [Setup your local environment](/contributing/developer/local-environment-setup)
 - Contributing code
   - [Bugs](/contributing/developer/code/bugs)
-  - [Pull Requests](/contributing/developer/code/pull-requests)
+  - [Pull Requests](/contributing/developer/code/pull%20requests)
 - [Developer Documentation](/contributing/developer/developer-documentation)
 - [Testing Pull Requests](/contributing/developer/testing-pull-requests)
 
