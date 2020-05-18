@@ -40,7 +40,7 @@ You must join our Slack workspace first before contributing. Get an invite at [m
 
 [code-of-conduct]: </community-wide-resources/code-of-conduct>
 [mautic-slack]: <https://www.mautic.org/slack>
-[designer]: </about/how-can-i-contribute-to-mautic/designer>
-[developer]: </about/how-can-i-contribute-to-mautic/developer>
-[marketer]: </about/how-can-i-contribute-to-mautic/marketer>
-[translator]: </about/how-can-i-contribute-to-mautic/translator>
+[designer]: </contributing-to-mautic/designer>
+[developer]: </contributing-to-mautic/developer>
+[marketer]: </contributing-to-mautic/marketer>
+[translator]: </contributing-to-mautic/translator>

@@ -1,5 +1,6 @@
 ---
 title: Developer Documentation
+slug: developer-documentation
 taxonomy:
     category:
         - docs
@@ -8,7 +9,7 @@ taxonomy:
 ## Contributing to the Developer Documentation
 ---
 
-Developer documentation is available at [https://developer.mautic.org](https://developer.mautic.org) and is generated using Slate.
+Developer documentation is available at [https://developer.mautic.org][developer-docs] and is generated using Slate.
 
 <!-- ## Table of Contents -->
 
@@ -28,12 +29,12 @@ remove the first two lines
 ### Before your first contribution
 Before contributing, you need to:
 
-- Sign up for a free [GitHub](https://github.com/) account, which is the service where the Mautic documentation is hosted.
-- Be familiar with the [Slate markup language](https://github.com/slatedocs/slate/wiki/Markdown-Syntax), which is used by the Mautic docs.
+- Sign up for a free [GitHub][github] account, which is the service where the Mautic documentation is hosted.
+- Be familiar with the [Slate markup language][slate-docs], which is used by the Mautic docs.
 
 ### Your First Documentation Contribution
 
-In this section, you'll learn how to contribute to the Symfony documentation for the first time. The next section will explain the shorter process you'll follow in the future for every contribution after your first one.
+In this section, you'll learn how to contribute to the Mautic documentation for the first time. The next section will explain the shorter process you'll follow in the future for every contribution after your first one.
 
 Let's imagine that you want to improve the REST API documentation. In order to make your changes, follow these steps:
 
@@ -67,7 +68,7 @@ Then, click on the big **New pull request** button.
 
 Check you out! You've made your first contribution to the Mautic developer documentation! Somebody throw a party! Your first contribution took a little extra time because you needed to learn a few standards and setup your computer. But from now on, your contributions will be much easier to complete.
 
-Here is a checklist of steps that will guide you through your next contribution to the Symfony docs:
+Here is a checklist of steps that will guide you through your next contribution to the Mautic docs:
 
 ```
 # Create a new branch
@@ -92,4 +93,8 @@ git push
 
 ### Build the documentation locally
 
-TODO provide instructions for building locally
+! We will add instructions for building the documentation locally at a later stage.
+
+[developer-docs]: <https://developer.mautic.org>
+[github]: <https://github.com/>
+[slate-docs]: <https://github.com/slatedocs/slate/wiki/Markdown-Syntax>

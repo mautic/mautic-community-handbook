@@ -14,7 +14,7 @@ facebookenable: true
 ---
 
 ---
-Please check out our [Trello team] for tasks to work on!
+Please check out our [Trello team][trello-issues] for tasks to work on!
 
 Cards labeled with Design are relevant to designers - you will find them in the team boards.
 

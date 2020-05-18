@@ -1,5 +1,6 @@
 ---
 title: Local environment setup
+slug: local-environment-setup
 taxonomy:
     category:
         - docs
@@ -12,10 +13,10 @@ This page will guide you through setting up your local environment to use and de
 
 ## Development / Build process requirements
 
-! We recommend working with DDEV since it includes almost all required software out of the box (PHP, Composer, MySQL) and has some handy features like MailHog, PHPMyAdmin, dynamic PHP version switching and much more. Mautic-specific installation instructions for DDEV can be found [here](https://www.mautic.org/blog/developer/local-mautic-development-with-ddev).
+! We recommend working with DDEV since it includes almost all required software out of the box (PHP, Composer, MySQL) and has some handy features like MailHog, PHPMyAdmin, dynamic PHP version switching and much more. Mautic-specific installation instructions for DDEV can be found [here][mautic-ddev].
 
 1. Mautic uses Git as a version control system. Download and install git for your OS from https://git-scm.com/.
-2. Install a server, PHP and MySql to be able to run Mautic locally. You can use [DDEV](https://www.mautic.org/blog/developer/local-mautic-development-with-ddev) (recommended) or an [AMP package for your OS][amp-packages].
+2. Install a server, PHP and MySql to be able to run Mautic locally. You can use [DDEV][mautic-ddev] (recommended) or an [AMP package for your OS][amp-packages].
 3. Install [Composer][composer] (if not using DDEV), the dependency manager for PHP.
 4. Install [NPM][npm].
 5. Install [Grunt][grunt].
@@ -91,3 +92,4 @@ In many cases, the CSS files are built from LESS files. To compile the changes i
 [npm]: <https://www.npmjs.com/>
 [grunt]: <http://gruntjs.com/>
 [tagged-releases]: <https://github.com/mautic/mautic/releases>
+[mautic-ddev]: <https://www.mautic.org/blog/developer/local-mautic-development-with-ddev>

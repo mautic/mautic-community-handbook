@@ -1,5 +1,6 @@
 ---
 title: Pull requests
+slug: pull-requests
 taxonomy:
     category:
         - docs
@@ -52,7 +53,7 @@ remove the first two lines
 
 ## Step 1: Check existing Issues and Pull Requests
 
-Before working on a change, check to see if someone else also raised the topic or maybe even started working on a PR by [searching on GitHub](https://github.com/mautic/mautic/issues?q=is%3Aopen+).
+Before working on a change, check to see if someone else also raised the topic or maybe even started working on a PR by [searching on GitHub][open-issues-github].
 
 ## Step 2: Feature? Check the roadmap & Feature Requests
 
@@ -60,22 +61,22 @@ _Skip this section if you're not planning to build a new feature_.
 
 Do you want to add a new feature to Mautic? Keep in mind that there are many people requesting new features, so we can only add a limited amount of features in new releases.
 
-Please check our [Roadmap](https://forum.mautic.org/t/mautic-roadmap-discussion/13760) and existing [Feature Requests](https://forum.mautic.org/c/ideas/14/l/latest?order=votes) to see if someone else has already suggested similiar functionality and/or is already working on it. If not, we kindly ask you to first [create a new Feature Request](https://forum.mautic.org/c/ideas/14/l/latest?order=votes) in the appropriate section in the Community Forums, so that it can be discussed by the community prior to development work being done.
+Please check our [Roadmap][roadmap] and existing [Feature Requests][feature-requests] to see if someone else has already suggested similiar functionality and/or is already working on it. If not, we kindly ask you to first [create a new Feature Request][create-feature-request] in the appropriate section in the Community Forums, so that it can be discussed by the community prior to development work being done.
 
 Features that are determined not to fit within the direction of the Mautic Core goals are more than welcome to be created as plugins instead. 
 
 ## Step 3: Sign the Mautic Contributor Agreement
-You will need to sign the [Mautic Contributors Agreement](https://www.mautic.org/contributor-agreement) in order to contribute code to Mautic (which can be done online).
+You will need to sign the [Mautic Contributors Agreement][contributor-agreement] in order to contribute code to Mautic (which can be done online).
 
 ## Step 4: Setup your environment
 
 ### Install the software stack 
 
-For installing the software stack, please see the [Local environment setup](/contributing/developer/local-environment-setup) instructions.
+For installing the software stack, please see the [Local environment setup][local-environment-setup] instructions.
 
 ### Get the Mautic source code
 
-- Create a [GitHub](https://github.com/join) account and sign in
+- Create a [GitHub][github-join] account and sign in
 - Fork the Mautic repository (click on the "Fork" button)
 - After the "forking action" has completed, clone your fork locally (this will create a `mautic` directory):
 
@@ -87,7 +88,7 @@ git clone https://github.com/USERNAME/mautic.git
 
 ### Choose the right branch
 
-Before working on a PR, you must determine on which branch you need to work. Mautic follows [Semantic Versioning](https://semver.org/), which is best illustrated by an example. Let's say we just released a 3.0.0 version of Mautic, the following would apply:
+Before working on a PR, you must determine on which branch you need to work. Mautic follows [Semantic Versioning][semver], which is best illustrated by an example. Let's say we just released a 3.0.0 version of Mautic, the following would apply:
 
 |Mautic version|Breaking changes/features allowed?|New features/enhancements allowed?|Bug fixes allowed?|
 |---|---|---|---|
@@ -138,7 +139,7 @@ The above checkout commands automatically switch the code to the newly created b
 ### Work on your Pull Request
 
 Work on the code as much as you want and commit as much as you want; but keep in mind the following:
-- Mautic follows [Symfony's coding standards](http://symfony.com/doc/current/contributing/code/standards.html) by implementing a pre-commit git hook running [php-cs-fixer](https://github.com/friendsofphp/php-cs-fixer), which is installed and updated with composer install/composer update. All code styling is handled automatically by the aforementioned git hook.
+- Mautic follows [Symfony's coding standards][symfony-coding-standards] by implementing a pre-commit git hook running [php-cs-fixer][php-cs-fixer], which is installed and updated with composer install/composer update. All code styling is handled automatically by the aforementioned git hook.
 - Add unit tests to prove that the bug is fixed or that the new feature actually works (see below).
 - Try hard to not break backward compatibility (if you must do so, try to provide a compatibility layer to support the old way) -- PRs that break backward compatibility have less chance to be merged.
 
@@ -209,7 +210,7 @@ We ask all contributors to follow some best practices (TODO LINK) to ensure a co
 
 If you think someone fails to keep this advice in mind and you want another perspective, please join the #dev channel on Mautic Slack.
 
-The [product team](https://contribute.mautic.org/product-team) is responsible for deciding which PRs get merged, so their feedback is the most relevant. So do not feel pressured to refactor your code immediately when someone provides feedback.
+The [product team][product-team] is responsible for deciding which PRs get merged, so their feedback is the most relevant. So do not feel pressured to refactor your code immediately when someone provides feedback.
 
 ### Rework your Pull Request
 
@@ -315,3 +316,13 @@ Mautic cannot have PHPSTAN as its dev dependency, because it requires PHP7+. To 
 [homebrew]: <https://brew.sh>
 [chrome-web-driver]: <https://sites.google.com/a/chromium.org/chromedriver/downloads>
 [phpstan]: <https://github.com/phpstan/phpstan>
+[open-issues-github]: <https://github.com/mautic/mautic/issues?q=is%3Aopen+>
+[roadmap]: <https://forum.mautic.org/t/mautic-roadmap-discussion/13760>
+[feature-requests]: <https://forum.mautic.org/c/ideas/14/l/latest?order=votes>
+[create-feature-request]: <https://forum.mautic.org/c/ideas/14/l/latest?order=votes>
+[contributor-agreement]: <https://www.mautic.org/contributor-agreement>
+[local-environment-setup]: </contributing/developer/local-environment-setup>
+[github-join]: <https://github.com/join>
+[symfony-coding-standards]: <http://symfony.com/doc/current/contributing/code/standards.html>
+[semver]: <https://semver.org/>
+[product-team]: <https://contribute.mautic.org/product-team>
