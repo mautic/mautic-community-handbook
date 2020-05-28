@@ -1,7 +1,7 @@
 ---
 title: 'How to prepare & run a Mautic Team Meeting'
 media_order: slack-emoji-numbers.png
-published: false
+published: true
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
@@ -109,8 +109,9 @@ Hey everyone, we have our #t-community team meeting tomorrow, Thursday:
   Your time: https://everytimezone.com/s/12345 
 This will be an asynchronous meeting so please join the discussion whenever you are available and as often as you can, within the next 24 hours.
 /cc @teammember1 @teammember2 @teammember3 ...
-
+```
 Or, if it's a live meeting:
+```
 Hey everyone, we have our #t-community team meeting tomorrow, Thursday:
   UK time: 11:00 am
   Your time: https://everytimezone.com/s/12345 
