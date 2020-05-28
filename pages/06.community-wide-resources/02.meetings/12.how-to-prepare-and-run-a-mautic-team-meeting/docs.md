@@ -74,10 +74,11 @@ Instead of regular numbers (like 1.4), prefix every item with Slack emojis, e.g.
    `:one:.:four: `
 which will show up as:
     
-    ![Slack Emojis](slack-emoji-numbers.png)
+![Slack Emojis](slack-emoji-numbers.png)
 
 Your agenda might  now look something like this:
-:zero: Introductions - who you are, how you’re using Mautic and <whatever else you want to add>
+```
+:zero: Introductions - who you are, how you’re using Mautic and whatever else you want to add
 
 :one: Review last meeting’s (no-Trello) notes & actions 
 :one:.:one: canva.com
@@ -87,7 +88,7 @@ Your agenda might  now look something like this:
 :two:  Review Trello board
 :two:.:one: Ensure all teams have an onboarding person/workflow
 ...
-
+```
 ## Post meeting invitation and Agenda in Slack
 Remind people about the upcoming meeting, e.g. the day before.
 
@@ -102,6 +103,7 @@ Should you have suitable Social Media channels, feel free to advertise there as 
 If you have your meeting Agenda ready, post it along with the invitation.
 
 ### Example:
+```
 Hey everyone, we have our #t-community team meeting tomorrow, Thursday:
   UK time: 11:00 am
   Your time: https://everytimezone.com/s/12345 
@@ -116,7 +118,7 @@ This will be a live meeting, everyone who can make it is very welcome to attend 
 
 For continuation (and also for everybody who can not make it to the live call) we will turn every meeting topic into a thread right here in Slack, so you can still join the asynchronous follow-up discussion whenever you are available and as often as you can, within the next 24 hours.
 /cc @teammember1 @teammember2 @teammember3 ...
-
+```
 
 ## Prepare your Meeting content
 For each sub-level Agenda item,
@@ -127,7 +129,7 @@ For each sub-level Agenda item,
 (Even for the first item - Introductions - it’s nice to update your words for every meeting)
 
 As a result, your prepared notes could now look like this:
-
+```
 :zero: Introductions - who you are, how you’re using Mautic and <whatever else you want to add>
 Hi! I’m Ekke, acting team lead, and also part of the largest Mautic agency in the universe. Currently very busy preparing our anniversary party which we’re throwing tomorrow. If you’re in the area, please come :)
 
@@ -150,10 +152,11 @@ https://trello.com/b/OOB4fS1p/mautic-community-team
 We’re almost there, so cool!
 @someteammember did you get any feedback from t-xyz already? 
 ...
-
+```
 ## Running the async meeting
 ### Opening the meeting
 At exactly the scheduled time, you should hit the enter button and send the opening text for the meeting. Here’s an example:
+```
 Hi everyone... Welcome to our team meeting! 
 
 We're doing this one as asynchronously. If you haven’t done an asynchronous meeting before: It's really simple and self-explaining, all you need to remember is
@@ -170,8 +173,9 @@ IMPORTANT: This team meeting starts now and will be open on Slack for 24 hours, 
 ----
 Let’s get going! 
 :arrow_down:
-
+```
 Or, if it's a live meeting:
+```
 Hi everyone... Welcome to our team meeting! 
 We're doing this one live (https://meet.jit.si/mautic-community-team), but add threads in Slack in parallel for asynchronous attendance. If you haven’t done an asynchronous meeting before: It's really simple and self-explaining, all you need to remember is
 ---> Please respond in threads  :smiley:
@@ -187,7 +191,7 @@ This team meeting starts with the live call on https://meet.jit.si/mautic-commun
 ----
 Let’s get going! 
 :arrow_down:
-
+```
 ### Kicking off and discussing the agenda items
 Next, post the agenda items one by one. Create a thread for each item immediately, using the prepared statements / questions. (Hint: Try hard to concentrate - it’s so easy to mix up posts and threads :)
 
@@ -197,7 +201,7 @@ Afterwards (or in parallel if you like) will want to join the actual discussion.
 
 ### Ending the meeting
 After 24 hours (doesn’t have to be really exact, you will want to explicitly end the meeting. 
-One way to do so is by responding to the “Hi everyone... Welcome to our team meeting!” post, with the “Also send to #<name of channel>” checkbox ticked, something like
+One way to do so is by responding to the “Hi everyone... Welcome to our team meeting!” post, with the “Also send to #name of channel” checkbox ticked, something like
 Thanks everyone! This meeting is now officially over and I am moving the content to the forum.
 
 ## Moving the content to the forum
