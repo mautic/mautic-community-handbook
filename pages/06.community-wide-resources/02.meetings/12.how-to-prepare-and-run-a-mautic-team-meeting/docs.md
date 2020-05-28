@@ -1,5 +1,6 @@
 ---
 title: 'How to prepare & run a Mautic Team Meeting'
+media_order: slack-emoji-numbers.png
 published: false
 twitterenable: true
 twittercardoptions: summary
@@ -73,7 +74,7 @@ Instead of regular numbers (like 1.4), prefix every item with Slack emojis, e.g.
    `:one:.:four: `
 which will show up as:
     
-    
+    ![Slack Emojis](slack-emoji-numbers.png)
 
 Your agenda might  now look something like this:
 :zero: Introductions - who you are, how you’re using Mautic and <whatever else you want to add>
@@ -86,19 +87,21 @@ Your agenda might  now look something like this:
 :two:  Review Trello board
 :two:.:one: Ensure all teams have an onboarding person/workflow
 ...
-Post meeting invitation and Agenda in Slack
+
+## Post meeting invitation and Agenda in Slack
 Remind people about the upcoming meeting, e.g. the day before.
 
 Most important:
-Give exact time & date (e.g. using everytimezone.com)
-Explain mode of and access to meeting
-Invite everybody, explicitly including those who have not previously been active but would like to listen in
-CC your team members (using @) to make sure they actually receive the heads-up
+* Give exact time & date (e.g. using [everytimezone.com][everytimezone])
+* Explain mode of and access to meeting
+* Invite everybody, explicitly including those who have not previously been active but would like to listen in
+* CC your team members (using @) to make sure they actually receive the heads-up
+
 Should you have suitable Social Media channels, feel free to advertise there as well.
 
 If you have your meeting Agenda ready, post it along with the invitation.
 
-Example:
+### Example:
 Hey everyone, we have our #t-community team meeting tomorrow, Thursday:
   UK time: 11:00 am
   Your time: https://everytimezone.com/s/12345 
@@ -115,11 +118,11 @@ For continuation (and also for everybody who can not make it to the live call) w
 /cc @teammember1 @teammember2 @teammember3 ...
 
 
-Prepare your Meeting content
+## Prepare your Meeting content
 For each sub-level Agenda item,
-prepare contextual information (like link to Trello card),
-think hard what you want to achieve, tell or ask on this item, and put that in words,
-even if you have nothing specific, come up with an opening statement for the item.
+1. prepare contextual information (like link to Trello card),
+1. think hard what you want to achieve, tell or ask on this item, and put that in words,
+1. even if you have nothing specific, come up with an opening statement for the item.
 
 (Even for the first item - Introductions - it’s nice to update your words for every meeting)
 
@@ -148,8 +151,8 @@ We’re almost there, so cool!
 @someteammember did you get any feedback from t-xyz already? 
 ...
 
-Running the async meeting
-Opening the meeting
+## Running the async meeting
+### Opening the meeting
 At exactly the scheduled time, you should hit the enter button and send the opening text for the meeting. Here’s an example:
 Hi everyone... Welcome to our team meeting! 
 
@@ -185,24 +188,27 @@ This team meeting starts with the live call on https://meet.jit.si/mautic-commun
 Let’s get going! 
 :arrow_down:
 
-Kicking off and discussing the agenda items
+### Kicking off and discussing the agenda items
 Next, post the agenda items one by one. Create a thread for each item immediately, using the prepared statements / questions. (Hint: Try hard to concentrate - it’s so easy to mix up posts and threads :)
 
 The pace for this can vary, but better get all agenda items launched in the first 15 minutes or so.
 
 Afterwards (or in parallel if you like) will want to join the actual discussion. Finally!
-Ending the meeting
-After 24 hours (doesn’t have to be really exact, you will want to explicitely end the meeting. 
+
+### Ending the meeting
+After 24 hours (doesn’t have to be really exact, you will want to explicitly end the meeting. 
 One way to do so is by responding to the “Hi everyone... Welcome to our team meeting!” post, with the “Also send to #<name of channel>” checkbox ticked, something like
 Thanks everyone! This meeting is now officially over and I am moving the content to the forum.
 
-Moving the content to the forum
-Currently broken :(
-Live Meetings
-Use team’s jit.si channel
-Remember to record the meeting
-Take brief notes, place those in the agenda item threads after live ended (adjust agenda if needed)
-Upload recording to Google drive (below https://drive.google.com/drive/folders/1lUQyFnrPEZKlrmhP9HedxSnDGY3StMXx)
+## Moving the content to the forum
+Use the [meeting parser tool][meeting-parser-tool]
+    
+## Live Meetings
+* Use team’s jit.si channel
+* Remember to record the meeting
+* Take brief notes, place those in the agenda item threads after live ended (adjust agenda if needed)
+* Upload recording to Google drive (below https://drive.google.com/drive/folders/1lUQyFnrPEZKlrmhP9HedxSnDGY3StMXx)
 
 [async-meetings]: </community-wide-resources/meetings/asynchronous-async-meetings>
-
+[everytimezone]: <https://www.everytimezone.com>
+[meeting-parser-tool]: </community-wide-resources/meetings/asynchronous-async-meetings#exporting-slack-meetings>
