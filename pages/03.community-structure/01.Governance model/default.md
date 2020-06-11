@@ -31,7 +31,7 @@ The structure of the community includes five teams, each led by a Team Lead and 
 
 Each of these teams are responsible for establishing and overseeing working groups within the team. 
 ![Image of the governance model detailing teams, working groups, steering groups and the community council
-](Mautic-Community-Governance-4-1024x721.png)
+]
 
 ## The Mautic Community Governance Model
 Initially the team leadership roles will be self-elected from within the team.  See [Leadership Team][leadership-team] for the current post holders.
@@ -195,8 +195,8 @@ Inspiration and examples have been drawn from several Open Source projects and g
 [marketing-team]: </marketing-team>
 [product-team]: </product-team> 
 [leadership-team]: </community-leadership/current-leadership-team>
-[project-lead-definition]: <https://contribute.mautic.org/community-leadership/leadership-role-definitions#project-lead>
-[cm-definition]: <https://contribute.mautic.org/community-leadership/leadership-role-definitions#community-manager>
+[project-lead-definition]: </community-leadership/leadership-role-definitions#project-lead>
+[cm-definition]: </community-leadership/leadership-role-definitions#community-manager>
 [drupal-governance]: <https://www.drupal.org/governance>
 [ubuntu-governance]: <https://ubuntu.com/community/governance>
 [joomla-governance]: <https://www.opensourcematters.org/organisation.html>
