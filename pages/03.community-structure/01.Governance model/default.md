@@ -13,26 +13,28 @@ personenabled: false
 facebookenable: true
 ---
 
-Following the [acquisition of Mautic Inc. by Acquia in May 2019](https://www.mautic.org/blog/press/mautics-future-starts-now-exciting-announcement/) which included all assets relating to the Mautic community, a governance model was proposed and adopted following a period of community consultation.
+Following the [acquisition of Mautic Inc. by Acquia in May 2019][acquisition-announcemeent] which included all assets relating to the Mautic community, a governance model was proposed and adopted following a period of community consultation.
 
-Read more in the [initial proposal](https://www.mautic.org/blog/press/mautic-community-governance-model/) and the [subsequent follow up](https://www.mautic.org/blog/press/response-to-community-consultation-on-the-governance-model-proposal/) which addressed questions raised by the community. Subsequent adaptations were made during the Community Summit in November 2019 to arrive at the model outlined below.
+Read more in the [initial proposal][proposal] and the [subsequent follow up][follow-up] which addressed questions raised by the community. Subsequent adaptations were made during the Community Summit in November 2019 to arrive at the model outlined below.
+
+Further updates were made in May 2020 with the change in project leadership and introduction of the Founder role.
 
 The aim of the governance model is to enable and empower volunteers.  We want to encourage the community to take up responsibilities and have a say in the direction of the Mautic Open Source project, while working collaboratively with Acquia.
 
 ## Community Structure
 The structure of the community includes five teams, each led by a Team Lead and Assistant Team Lead, with working groups under them. 
-* [Community Team](/community-team)
-* [Education Team](/education-team)
-* [Legal & Finance Team](/legal-and-finance-team)
-* [Marketing Team](/marketing-team)
-* [Product Team](/product-team)
+* [Community Team][community-team]
+* [Education Team][education-team]
+* [Legal & Finance Team][legal-and-finance-team]
+* [Marketing Team][marketing-team]
+* [Product Team][product-team]
 
 Each of these teams are responsible for establishing and overseeing working groups within the team. 
 ![Image of the governance model detailing teams, working groups, steering groups and the community council
 ](Mautic-Community-Governance-4-1024x721.png)
 
 ## The Mautic Community Governance Model
-Initially the team leadership roles will be self-elected from within the team.  See [Leadership Team](/community-leadership/current-leadership-team) for the current post holders.
+Initially the team leadership roles will be self-elected from within the team.  See [Leadership Team][leadership-team] for the current post holders.
 
 Going forward the Team Lead and Assistant Team Lead positions will be selected by the Project Lead from the community-elected Working Group Leads and Assistant Working Group Leads.
 
@@ -54,17 +56,17 @@ The steering groups are an opportunity for the Team Leads of related areas in th
 ## The Mautic Community Council
 There will be a Community Council of 4 Acquians and 4 Mauticians to discuss issues which impact the Open Source project as a whole. 
 
-The four Acquians will initially be the Project Lead, Project Sponsor, Community Manager and Head of Communications.  These roles will be appointed by Acquia the Project Sponsor and may vary over time subject to the needs of the Council. 
+The four Acquians currently are the Project Lead, Project Sponsor, Community Manager and Snr. Director of Product & Community.  These roles will be appointed by Acquia, the Project Sponsor and may vary over time subject to the needs of the Council. 
 
-The Community Representatives will be elected on an annual basis by the community from the Team Leads and Assistant Team Leads who choose to stand for nomination. DB Hurley will retain a casting vote as Project Lead.
+The Community Representatives will be elected on an annual basis by the community from the Team Leads and Assistant Team Leads who choose to stand for nomination. The Project Lead will retain a casting vote.
 
 The Community Council will operate more on consensus than on votes, seeking agreement from the people who will have to do the work. 
 
-In the role of Project Lead, DB Hurley has the ability, with regard to Acquia employees, to ask people to work on specific projects, specific feature goals and specific bugs. He also has a casting vote on the Product Steering Group and the Community Council, should it come to a vote. This capacity is not used lightly. 
+The role of Project Lead has the ability, with regard to Acquia employees, to ask people to work on specific projects, specific feature goals and specific bugs. They also have a casting vote on the Product Steering Group and the Community Council, should it come to a vote. This capacity is not used lightly. 
 
 We believe that the community functions best when it can reach broad consensus about a way forward. However, it is not uncommon in the Open Source world for there to be multiple good arguments, no clear consensus, and for open questions to divide communities rather than enrich them. The debate absorbs the energy that might otherwise have gone towards the creation of a solution. 
 
-In many cases, there is no one ‘right’ answer, and what is needed is a decision more than a debate. The project lead acts to provide clear leadership on difficult issues, and set the pace for the project. 
+In many cases, there is no one ‘right’ answer, and what is needed is a decision more than a debate. The Project Lead acts to provide clear leadership on difficult issues, and set the pace for the project. 
 
 Some examples of how this casting vote might be called into effect could include:
 
@@ -85,8 +87,23 @@ Development is open and available to any member of the Mautic community. All fix
 ## Who are the Mautic core maintainers and what do they do?
 The Mautic Core team (who form part of the Product Team) is divided into 5 groups. Each team member can belong to only one group at a time. Any privilege listed for a particular group is also available to all higher priority groups. The Mautic Core groups, in descending order of priority are as follows:
 
-### The Project Lead – DB Hurley
-The project lead elects members into any other group, oversees project vision and direction, and makes decisions on proposed changes. The project leader listens to the counsel of trusted advisors and individuals respected for their contributions to Mautic.  The Project Lead is appointed by Acquia.
+### The Project Lead
+The Project Lead elects members into any other group, oversees project vision and direction, and makes decisions on proposed changes. The Project Lead listens to the counsel of trusted advisors and individuals respected for their contributions to Mautic.  The Project Lead is appointed by Acquia.
+
+The full responsibilities and expectations of the Project Lead are detailed [here][project-lead-definiton].
+
+### The Community Manager
+The Community Manager supports the community, education and marketing teams.  The primary focus of this role is the health and engagement of the community. This includes supporting the community structures, helping team leads organising and managing their teams and working groups.
+
+They are the face of the community, and the place where the buck stops in any community related issues.
+
+The community manager also has primary responsibility for supporting in-person events and meetups, global events like Mauticon, and being a bridge between the community and Acquia.
+
+The full responsibilities and expectations of the Community Manager are detailed [here][cm-definition].
+
+### The Project Founder
+
+Our Project Founder is DB Hurley.  He remains an ambassador for the Mautic project, and may be asked to speak and represent the project at events. There are no responsibilities or expectations in the governance model specific to the Project Founder.  They do not have any voting rights, or any involvement in the governance model. 
 
 ### Core Team
 #### Release Leader
@@ -165,6 +182,21 @@ And the Legal team’s might look like this:
 
 ## Credits:
 Inspiration and examples have been drawn from several Open Source projects and governance models in preparing this proposed model, including:
-[Drupal](https://www.drupal.org/governance)
-[Ubuntu](https://ubuntu.com/community/governance)
-[Joomla](https://www.opensourcematters.org/organisation.html)
+[Drupal][drupal-governance]
+[Ubuntu][ubuntu-governance]
+[Joomla][joomla-governance]
+
+[acquisition-announcement]: <https://www.mautic.org/blog/press/mautics-future-starts-now-exciting-announcement/>
+[proposal]: <https://www.mautic.org/blog/press/mautic-community-governance-model/>
+[follow-up]: <https://www.mautic.org/blog/press/response-to-community-consultation-on-the-governance-model-proposal/>
+[community-team]: </community-team>
+[education-team]: </education-team>
+[legal-and-finance-team]: </legal-and-finance-team>
+[marketing-team]: </marketing-team>
+[product-team]: </product-team> 
+[leadership-team]: </community-leadership/current-leadership-team>
+[project-lead-definition]: <https://contribute.mautic.org/community-leadership/leadership-role-definitions#project-lead>
+[cm-definition]: <https://contribute.mautic.org/community-leadership/leadership-role-definitions#community-manager>
+[drupal-governance]: <https://www.drupal.org/governance>
+[ubuntu-governance]: <https://ubuntu.com/community/governance>
+[joomla-governance]: <https://www.opensourcematters.org/organisation.html>
