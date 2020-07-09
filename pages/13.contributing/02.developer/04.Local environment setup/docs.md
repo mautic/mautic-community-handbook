@@ -48,7 +48,7 @@ Each time you update Mautic's source after the initial setup/installation via a 
 
 	$ cd /your/mautic/directory
 
-	$ php app/console cache:clear
+	$ php bin/console cache:clear
 
 (Note that if you are accessing Mautic through the dev environment (via index_dev.php), you would need to add `--env=dev` to the command).
 
@@ -66,13 +66,13 @@ If updating from [a tagged release][tagged-releases] to a tagged release, schema
 
 If you are updating to the latest source (remember this is alpha), first run
 
-    $ php app/console doctrine:schema:update --dump-sql
+    $ php bin/console doctrine:schema:update --dump-sql
 
 This will list out the queries Doctrine wants to execute in order to get the schema up-to-date (no queries are actually executed). Review the queries to ensure there is nothing detrimental to your data. If you have doubts about a query, submit an issue here and we'll verify it.
 
 If you're satisfied with the queries, execute them with
 
-    $ php app/console doctrine:schema:update --force
+    $ php bin/console doctrine:schema:update --force
 
 Your schema should now be up-to-date with the source.
 
