@@ -34,7 +34,7 @@ Your participation is contingent upon following these guidelines in all Mautic a
 We invite all those who participate in Mautic activities online to help us create safe and positive experiences for everyone, everywhere.
 
 
-## 1. Open Source & Culture Citizenship
+## 2. Open Source & Culture Citizenship
 
 A supplemental goal of this Code of Conduct is to increase open source and culture citizenship by encouraging participants to recognize and strengthen the relationships between our actions and their effects on our community.
 
@@ -42,11 +42,11 @@ Communities mirror the societies in which they exist and positive action is esse
 
 If you see someone who is making an extra effort to ensure our community is welcoming, friendly, and encourages all participants to contribute to the fullest extent, please recognize their efforts.
 
-## 1. Welcoming to all 
+## 3. Welcoming to all 
 We are committed to providing a friendly, safe and welcoming environment for all, regardless of level of experience or job role, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, religion, national origin, citizenship and immigration status, neurodiversity, mental health or socio-economic status. 
 
 
-## 1. Expected Behavior
+## 4. Expected Behavior
 
 The following behaviors are expected and requested of all community members:
 
@@ -58,7 +58,7 @@ The following behaviors are expected and requested of all community members:
 
 Alert Mautic team members if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
 
-## 1. Unacceptable Behavior
+## 5. Unacceptable Behavior
 
 The following behaviors are considered harassment and are unacceptable within our community:
 
@@ -70,7 +70,7 @@ The following behaviors are considered harassment and are unacceptable within ou
 * **Disruptive Behavior** Sustained disruption of events, forums, or meetings, including talks and presentations, will not be tolerated. This includes spamming community discussions with the solicitation of unwanted products or services.
 * **Influencing Disruptive Behavior** We will treat influencing or leading such activities the same way we treat the activities themselves, and thus the same consequences apply.
 
-## 1. Consequences of Unacceptable Behavior
+## 6. Consequences of Unacceptable Behavior
 
 Unacceptable behavior from any community member, including sponsors and those with decision-making authority, will not be tolerated.
 
@@ -84,25 +84,25 @@ If a community member engages in unacceptable behavior, we may take any action d
 * Being required to follow a conduct agreement that dictates the process of returning to the community.
 
 
-## 1. Reporting Guidelines
+## 7. Reporting Guidelines
 If you are subject to or witness unacceptable behavior, or have any other concerns, please notify us as soon as possible by emailing info@mautic.org, or contacting a Mautic team member on the specific platform.
 
 Processes for dealing with breaches of the Code of Conduct can be found [here][coc-breaches].
 
-## 1. Addressing Grievances
+## 8. Addressing Grievances
 Only permanent resolutions (such as bans) may be appealed. To appeal a decision, contact the Mautic team at info@mautic.org with your appeal and the team will review the situation.
 
-## 1. Scope
+## 9. Scope
 We expect all community participants (contributors, moderators and other guests) to abide by this Code of Conduct in all community venues–online and in-person–as well as in all one-on-one communications pertaining to community affairs.
 
 While this code of conduct is specifically aimed at Mautic’s official resources and community, we recognize that it is possible for actions taken outside of Mautic’s official online or in person spaces to have a deep impact on community health. 
 
 Resources or incidents which break this code of conduct for any reason in a non-Mautic community location will be considered in the same way as resources or incidents from owned channels, and subject to the same sanctions. 
 
-## 1. Contact info
+## 10. Contact info
 For more information, please contact info@mautic.org.
 
-## 1. License and attribution
+## 11. License and attribution
 This Code of Conduct is directly adapted from the Stumptown Syndicate and distributed under a [Creative Commons Attribution-ShareAlike license][cc-by-sa].
 
 Additional text from [Mozilla Community Participation Guidelines][mozilla-guidelines] distributed under a [Creative Commons Attribution-ShareAlike license][cc-by-sa].
