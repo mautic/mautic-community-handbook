@@ -135,7 +135,7 @@ With respect to the name of a company, organization or association, it is consid
 Acquia will review this policy on a recurring basis, and will publish updates and additions, as needs and use cases evolve. We thank you for your support in protecting the Mautic trademark.
 
 ## Submitting a request
-Please use this form to submit a request: https://forms.gle/mVTzWRNV2Z9hEDhx5
+Please use [this form][submit-request] to submit a request
 
 Last update: August 2020
 
