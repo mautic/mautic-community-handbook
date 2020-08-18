@@ -35,8 +35,8 @@ All Mautic Trademarks are the property of Acquia Inc. and nothing contained on a
 ## 5. Example Mautic Trademarks
 Below are some examples of Mautic Trademarks and their associated designations. This list may be updated and is not to be considered exhaustive.
 
-|||||
-|--- |--- |--- |--- |
+||||
+|--- |--- |--- |
 |Serial No.|Reg. Number|Mark|
 |87682402|5604742|MAUTIC|
 |86232297|4687319|MAUTIC|
