@@ -15,7 +15,7 @@ facebookenable: true
 ## 1. Background Information
 The Mautic trademark – i.e. the word “Mautic”, whether or not in capitals – is owned and controlled by Acquia Inc., who has joined forces with Mautic to deliver the world’s only open digital experience marketing platform.
 
-Although you are encouraged to use the Mautic trademarks (including accompanying official logos: [https://www.mautic.org/about/logos-and-graphics][logos-graphics], which is itself a use of the Mautic trademark) for your own purposes, you must first obtain a license. You can either obtain this license automatically, or through a license grant procedure, as further explained below in this policy.
+Although you are encouraged to use the Mautic trademarks (including accompanying [official logos][logos-graphics], which is itself a use of the Mautic trademark) for your own purposes, you must first obtain a license. You can either obtain this license automatically, or through a license grant procedure, as further explained below in this policy.
 
 This policy therefore first explains whether you receive an automatic license, or whether you need to obtain a license through the license grant procedure. In addition, this policy explains which "rules of use" apply when you use the Mautic trademark (whether you obtained the license automatically, or through the license grant procedure).
 
