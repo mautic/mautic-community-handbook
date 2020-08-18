@@ -37,10 +37,10 @@ Below are some examples of Mautic Trademarks and their associated designations. 
 
 |||||
 |--- |--- |--- |--- |
-||Serial No.|Reg. Number|Mark|
-|1|87682402|5604742|MAUTIC|
-|2|86232297|4687319|MAUTIC|
-|3|||![Mautic Logo](Mautic-tm.jpg)|
+|Serial No.|Reg. Number|Mark|
+87682402|5604742|MAUTIC|
+86232297|4687319|MAUTIC|
+||![Mautic Logo](Mautic-tm.jpg)|
 
 The above specified Mautic Registrations may be viewed at the following link: http://tmsearch.uspto.gov
  	 
