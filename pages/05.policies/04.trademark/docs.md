@@ -140,5 +140,5 @@ Please use this form to submit a request: https://forms.gle/mVTzWRNV2Z9hEDhx5
 
 Last update: August 2020
 
-[logos-graphics]: < https://www.mautic.org/about/logos-and-graphics>
+[logos-graphics]: <https://www.mautic.org/about/logos-and-graphics>
 [submit-request]: <https://forms.gle/mVTzWRNV2Z9hEDhx5>
