@@ -12,6 +12,8 @@ personenabled: false
 facebookenable: true
 ---
 
+>>> To report a trademark infringement, make a request for a license, ask a question or to join the team, please use [this form][submit-request].
+
 ## 1. Background Information
 The Mautic trademark – i.e. the word “Mautic”, whether or not in capitals – is owned and controlled by Acquia Inc., who has joined forces with Mautic to deliver the world’s only open digital experience marketing platform.
 
