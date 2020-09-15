@@ -1,5 +1,5 @@
 ---
-title: 'Mautic Community Financial Policy'
+title: 'Financial Policy'
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
