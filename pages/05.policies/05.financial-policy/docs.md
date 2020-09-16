@@ -165,7 +165,7 @@ This policy is based on the Open Source Matters Financial Policy v1.0 [^10].
 
 [^2]: All financial references in this document will be in US Dollars (USD) unless otherwise noted.
 
-[^3]: https://docs.google.com/document/d/14IJnEBwJw4Kf5\_0fi9aWI6hlsGlPcM60EWtwFGDO6zw/edit?usp=sharing
+[^3]: https://docs.google.com/document/d/14IJnEBwJw4Kf5_0fi9aWI6hlsGlPcM60EWtwFGDO6zw/edit?usp=sharing
 
 [^4]: Worldwide per diem rates will be calculated here: http://www.defensetravel.dod.mil/site/perdiemCalc.cfm
 
