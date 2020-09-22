@@ -38,9 +38,15 @@ You must join our Slack workspace first before contributing. Get an invite at [m
 
 ### Writer
 
+## Contributing financially
+
+If you would like to financially support the Mautic Community you can do so via [Github Sponsors][gh-sponsors] or [Open Collective][open-collective].
+
 [code-of-conduct]: </community-wide-resources/code-of-conduct>
 [mautic-slack]: <https://www.mautic.org/slack>
 [designer]: </contributing-to-mautic/designer>
 [developer]: </contributing-to-mautic/developer>
 [marketer]: </contributing-to-mautic/marketer>
 [translator]: </contributing-to-mautic/translator>
+[gh-sponsors]: <https://github.com/sponsors/mautic>
+[open-collective]: <https://www.opencollective.com/mautic>
