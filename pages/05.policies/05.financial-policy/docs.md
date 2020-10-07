@@ -161,22 +161,22 @@ This policy is based on the Open Source Matters Financial Policy v1.0 [^10].
 - 12 August 2020 v1.0 draft prepared and sent to Acquia Finance team for review
 - 15th September 2020 v1.0 accepted by Acquia Finance team and published
 
-[^1]: https://www.irs.gov/credits-deductions/individuals/standard-mileage-rates-at-a-glance
+[^1]: Mileage rates can be found here: https://www.irs.gov/credits-deductions/individuals/standard-mileage-rates-at-a-glance
 
 [^2]: All financial references in this document will be in US Dollars (USD) unless otherwise noted.
 
-[^3]: https://docs.google.com/document/d/14IJnEBwJw4Kf5_0fi9aWI6hlsGlPcM60EWtwFGDO6zw/edit?usp=sharing
+[^3]: Conflict of Interest Policy: https://docs.google.com/document/d/14IJnEBwJw4Kf5_0fi9aWI6hlsGlPcM60EWtwFGDO6zw/edit?usp=sharing
 
 [^4]: Worldwide per diem rates will be calculated here: http://www.defensetravel.dod.mil/site/perdiemCalc.cfm
 
-[^5]: https://opencollective.com/mautic/expenses/new
+[^5]: Submit a new expense here: https://opencollective.com/mautic/expenses/new
 
-[^6]: https://docs.google.com/document/d/1kJyBj22MzpjSMabwMJoZdIS3p0binHknPcIyyTKy-RA/edit?usp=sharing
+[^6]: What Practices Demonstrate Transparency and Accountability?: https://docs.google.com/document/d/1kJyBj22MzpjSMabwMJoZdIS3p0binHknPcIyyTKy-RA/edit?usp=sharing
 
-[^7]: https://contribute.mautic.org/policies/code-of-conduct
+[^7]: Mautic Community Code of Conduct: https://contribute.mautic.org/policies/code-of-conduct
 
 [^8]: Cheap/simple tools like SurveyMonkey allow for easy ranking forms. eg. [http://help.surveymonkey.com/articles/en\_US/kb/How-do-I-create-a-Ranking-type-question 
 
 [^9]: OFAC countries can be found online: http://www.treasury.gov/resource-center/sanctions/Programs/Pages/Programs.aspx.) The complete, searchable database is also available here: https://sdnsearch.ofac.treas.gov. Stripe's list of restricted businesses can be found here: https://stripe.com/gb/restricted-businesses, TransferWise's can be found here: https://transferwise.com/acceptable-use-policy and countries where PayPal is offered can be found here: https://www.paypal.com/uk/webapps/mpp/country-worldwide.
 
-[^10]: https://www.opensourcematters.org/organisation/finances/financial-policy.html
+[^10]: Open Source Matters Financial Policy: https://www.opensourcematters.org/organisation/finances/financial-policy.html
