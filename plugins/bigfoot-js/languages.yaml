@@ -1,0 +1,10 @@
+en:
+  PLUGIN_BIGFOOTJS:
+    AUTO: Auto Add BigfootJS
+    AUTO_HELP: "BigfootJS is automatically added to pages that contain one or more markdown Footnote elements when this is enabled. A Footnote in markdown is denoted by:  [^d]  - where the 'd' represents one or more digits in the 0-9 range.\n By default this is enabled."
+    INCLUDE_JQUERY: Include jQuery
+    INCLUDE_JQUERY_HELP: "Set this to 'On' if your theme doesn't already include the jQuery Javascript libraries. This will load version 2.2.4 of jQuery - please note that at this writing BigfootJS is not compatible with jQuery 3.x"
+    STYLE: Style
+    STYLE_DEFAULT: Default
+    STYLE_NUMBER:  Number
+    STYLE_BOTTOM:  Bottom

@@ -1,0 +1,59 @@
+name: Bigfoot JS
+version: 0.1.4
+description: Loads the BigfootJS script (and jQuery if required) to enable better Footnotes.
+icon: plug
+author:
+  name: Craig Phillips
+  email: support@craigphillips.biz
+homepage: https://github.com/CPPL/grav-bigfootjs
+demo: http://thesumof.it/blog/2017-06-21-bigfootjs-for-grav
+keywords: grav, plugin, etc
+bugs: https://github.com/CPPL/grav-bigfootjs/issues
+docs: https://github.com/CPPL/grav-bigfootjs/blob/develop/README.md
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+    auto_bigfootjs:
+      type: toggle
+      label: PLUGIN_BIGFOOTJS.AUTO
+      help: PLUGIN_BIGFOOTJS.AUTO_HELP
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+    style:
+      type: select
+      label: PLUGIN_BIGFOOTJS.STYLE
+      size: medium
+      default: 'default'
+      options:
+        'default': PLUGIN_BIGFOOTJS.STYLE_DEFAULT
+        'number':  PLUGIN_BIGFOOTJS.STYLE_NUMBER
+        'bottom':  PLUGIN_BIGFOOTJS.STYLE_BOTTOM
+
+    include_jquery:
+      type: toggle
+      label: PLUGIN_BIGFOOTJS.INCLUDE_JQUERY
+      help: PLUGIN_BIGFOOTJS.INCLUDE_JQUERY_HELP
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
