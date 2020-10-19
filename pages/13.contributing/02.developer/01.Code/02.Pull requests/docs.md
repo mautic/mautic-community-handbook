@@ -148,9 +148,9 @@ Work on the code as much as you want and commit as much as you want; but keep in
 
 Sometimes, a PR needs a migration. A simple example is when a country's regions are updated. Let's say a region contains a typo, `Colmbra` should be `Coimbra`. What if the Mautic instance already has values in the database with the old value (`Colmbra` in this case)? That's where migrations come in handy. **Every time a user updates their Mautic instance, migrations run automatically.**
 
-! You can skip this step if you believe you don't need migrations in your PR.
+>>>  You can skip this step if you believe you don't need migrations in your PR.
 
-An example migration scenario + code can be found [here](example-migration).
+An example migration scenario + code can be found [here][example-migration].
 
 In order to create a migration, you can follow these steps:
 
