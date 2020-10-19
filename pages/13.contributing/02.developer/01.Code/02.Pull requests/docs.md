@@ -22,7 +22,7 @@ remove the first two lines
 -->
 
   - [Step 1: Check existing Issues and Pull Requests](#step-1-check-existing-issues-and-pull-requests)
-  - [Step 2: Feature? Check the roadmap & Feature Requests](#step-2-feature-check-the-roadmap--feature-requests)
+  - [Step 2: Feature? Check the roadmap & Feature Requests](#step-2-feature-check-the-roadmap-feature-requests)
   - [Step 3: Sign the Mautic Contributor Agreement](#step-3-sign-the-mautic-contributor-agreement)
   - [Step 4: Setup your environment](#step-4-setup-your-environment)
     - [Install the software stack](#install-the-software-stack)
