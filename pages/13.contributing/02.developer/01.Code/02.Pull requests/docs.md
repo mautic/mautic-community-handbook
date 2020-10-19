@@ -32,14 +32,15 @@ remove the first two lines
     - [Install Mautic](#install-mautic)
     - [Create a Topic Branch](#create-a-topic-branch)
     - [Work on your Pull Request](#work-on-your-pull-request)
-  - [Step 6: Prepare your Pull Request for Submission](#step-6-prepare-your-pull-request-for-submission)
+  - [Step 6: Migrations needed?](#step-6-migrations-needed)
+  - [Step 7: Prepare your Pull Request for Submission](#step-7-prepare-your-pull-request-for-submission)
     - [Code Standards](#code-standards)
     - [Documentation](#documentation)
     - [Writing tests](#writing-tests)
-  - [Step 7: Submit your Pull Request](#step-7-submit-your-pull-request)
+  - [Step 8: Submit your Pull Request](#step-8-submit-your-pull-request)
     - [Rebase your Pull Request](#rebase-your-pull-request)
     - [Make a Pull Request](#make-a-pull-request)
-  - [Step 8: Receiving feedback](#step-8-receiving-feedback)
+  - [Step 9: Receiving feedback](#step-9-receiving-feedback)
     - [Rework your Pull Request](#rework-your-pull-request)
   - [Testing](#testing)
     - [Pull Request Testing](#pull-request-testing)
@@ -143,7 +144,30 @@ Work on the code as much as you want and commit as much as you want; but keep in
 - Add unit tests to prove that the bug is fixed or that the new feature actually works (see below).
 - Try hard to not break backward compatibility (if you must do so, try to provide a compatibility layer to support the old way) -- PRs that break backward compatibility have less chance to be merged.
 
-## Step 6: Prepare your Pull Request for Submission
+## Step 6: Migrations needed?
+
+Sometimes, a PR needs a migration. A simple example is when a country's regions are updated. Let's say a region contains a typo, `Colmbra` should be `Coimbra`. What if the Mautic instance already has values in the database with the old value (`Colmbra` in this case)? That's where migrations come in handy. **Every time a user updates their Mautic instance, migrations run automatically.**
+
+>>>  You can skip this step if you believe you don't need migrations in your PR.
+
+An example migration scenario + code can be found [here][example-migration].
+
+In order to create a migration, you can follow these steps:
+
+1. Run `bin/console doctrine:migrations:generate` in your terminal. A new migration file will now be prepared for you:
+
+```bash
+$ bin/console doctrine:migrations:generate 
+Generated new migration class to "/var/www/html/app/migrations/Version20201017195540.php"
+```
+
+2. Open the file that was just created. You will see it has two functions, `preUp()` and `up()`.
+  - `preUp()` allows you to define scenarios where the migration should or should not run (e.g. only when a certain database table exists).
+  - `up()` runs the actual migration and allows you to do changes in Mautic's database. You can either take inspiration from other migrations in the `app/migrations` folder or learn more about migrations in [Doctrine's documentation](doctrine-migrations-docs).
+
+3. When you're done, test your migration(s) by running `migrations:execute --up VERSION`. If all looks good, you can roll back your changes with `migrations:execute --down VERSION`.
+
+## Step 7: Prepare your Pull Request for Submission
 
 You're almost ready to submit your pull request! There's three things we still need to look into:
 
@@ -167,7 +191,7 @@ Each new feature should include a reference to a pull request in our [End User D
 
 All code contributions (especially enhancements/features) should include adequate and appropriate unit tests using [PHPUnit][php-unit] and/or [Symfony functional tests][symfony-functional-tests]. Pull Requests without these tests will not be merged. See below for more extensive information on Automated Tests.
 
-## Step 7: Submit your Pull Request
+## Step 8: Submit your Pull Request
 
 ### Rebase your Pull Request
 
@@ -204,7 +228,7 @@ You can now make a pull request on the `mautic/mautic` GitHub repository.
 
 To ease the core team work, always include the modified components in your pull request message and provide steps how to test your fix/feature. Keep in mind that not all testers have a thorough knowledge of all of Mautic's features, therefore clear testing steps are crucial!
 
-## Step 8: Receiving feedback
+## Step 9: Receiving feedback
 
 We ask all contributors to follow some best practices (TODO LINK) to ensure a constructive feedback process.
 
@@ -321,8 +345,10 @@ Mautic cannot have PHPSTAN as its dev dependency, because it requires PHP7+. To 
 [feature-requests]: <https://forum.mautic.org/c/ideas/14/l/latest?order=votes>
 [create-feature-request]: <https://forum.mautic.org/c/ideas/14/l/latest?order=votes>
 [contributor-agreement]: <https://www.mautic.org/contributor-agreement>
-[local-environment-setup]: </contributing/developer/local-environment-setup>
+[local-environment-setup]: </contributing-to-mautic/developer/local-environment-setup>
 [github-join]: <https://github.com/join>
 [symfony-coding-standards]: <http://symfony.com/doc/current/contributing/code/standards.html>
 [semver]: <https://semver.org/>
 [product-team]: <https://contribute.mautic.org/product-team>
+[example-migration]: <https://github.com/mautic/mautic/pull/8134/files>
+[doctrine-migrations-docs]: <https://www.doctrine-project.org/projects/doctrine-migrations/en/2.1/index.html>
