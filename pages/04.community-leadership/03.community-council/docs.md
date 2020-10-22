@@ -11,11 +11,11 @@ The Community Council is formed of four elected representatives from the Mautic 
 
 | Name      | Role     | Email address |
 |-----------|--------------------|-----------------------|
-| DB Hurley | CTO of Marketing Hub at Acquia, Mautic Project Lead & Founder | db.hurley@mautic.org            | 
+| Ruth Cheesley | Mautic Project Lead at Acquia | ruth.cheesley@mautic.org            | 
 | Dries Buytaert | Acquia Co-founder and CTO | dries@acquia.com            | 
-| Ruth Cheesley | Mautic Community Manager at Acquia | ruth.cheesley@mautic.org            | 
 | Angie Byron | Snr. Director, Product + Community Development at Acquia | angela.byron@acquia.com            | 
+| TBC | Mautic Community Manager at Acquia | TBC           |
 | Ekkehard Gümbel  | Community Representative | ekke.guembel@mautic.org            | 
 | Radu Zlatianu  | Community Representative | radu.zlatianu@mautic.org            | 
 | Norman Pracht  | Community Representative | 	norman.pracht@mautic.org            | 
-| TBC | Community Representative | ?@mautic.org            | 
+| Leon Oltmanns | Community Representative | leon.oltmanns@mautic.org            | 
