@@ -251,7 +251,7 @@ git push --force origin BRANCH_NAME
 
 ### Pull Request Testing
 
-If you want to test Pull Request from other developers, see [Testing Pull Requests](/contributing/developer/testing-pull-requests).
+If you want to test Pull Request from other developers, see [Testing Pull Requests][testing-prs].
 
 ### Automated Testing
 
@@ -335,6 +335,7 @@ Mautic cannot have PHPSTAN as its dev dependency, because it requires PHP7+. To 
 [symfony-functional-tests]: <https://symfony.com/doc/2.8/testing.html>
 [mautic-docs]: <https://github.com/mautic/documentation>
 [developer-docs]: <https://developer.mautic.org/>
+[testing-prs]: </contributing-to-mautic/developer/community-reviews#the-pull-request-review-process>
 [codeception]: <https://codeception.com>
 [selenium]: <http://www.seleniumhq.org>
 [homebrew]: <https://brew.sh>
