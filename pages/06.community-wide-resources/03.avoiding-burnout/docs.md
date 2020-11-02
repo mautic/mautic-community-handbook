@@ -11,7 +11,7 @@ personenabled: false
 facebookenable: true
 ---
 
-From The Art Of Community by O'Reilly (http://www.artofcommunityonline.org) by Jono Bacon, reproduced with permission.
+From The Art Of Community by O'Reilly ([http://www.artofcommunityonline.org](http://www.artofcommunityonline.org)) by Jono Bacon, reproduced with permission.
 
 [plugin:youtube](https://www.youtube.com/watch?v=WC1bpYGoB7s)
 
