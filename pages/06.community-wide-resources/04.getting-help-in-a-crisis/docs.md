@@ -30,6 +30,6 @@ Languages: English, Spanish
 Website: www.suicidepreventionlifeline.org
 
 ### International
-[Suicide.org](https://www.suicide.org) provides a full list of international suicide prevention hotlines.
+[Wikipedia](https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines) provides a full list of international suicide prevention hotlines.
 
 Reproduced from [Kubuntu](https://wiki.kubuntu.org/BuildingCommunity/Burnout/Help)
