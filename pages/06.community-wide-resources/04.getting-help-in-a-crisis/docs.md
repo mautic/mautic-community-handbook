@@ -21,20 +21,15 @@ Most countries have phone numbers you can call to talk with somebody when you ar
 Below you will find reputable centers for your country, or one nearby.
 
 ### USA
-1 (800) 273-8255
+1 (800) 273-8255 - National Suicide Prevention Lifeline
 
-National Suicide Prevention Lifeline
+Hours: 24 hours, 7 days a week
 
-#### Hours:
-24 hours, 7 days a week
+Languages: English, Spanish
 
-#### Languages:
-
-English, Spanish
-
-#### Website:
-
-www.suicidepreventionlifeline.org
+Website: www.suicidepreventionlifeline.org
 
 ### International
 [Suicide.org](https://www.suicide.org) provides a full list of international suicide prevention hotlines.
+
+Reproduced from [Kubuntu](https://wiki.kubuntu.org/BuildingCommunity/Burnout/Help)
