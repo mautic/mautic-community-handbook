@@ -1,5 +1,9 @@
 ---
 title: 'Mautic Roadmap'
+published: false
+taxonomy:
+    category:
+        - docs
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
