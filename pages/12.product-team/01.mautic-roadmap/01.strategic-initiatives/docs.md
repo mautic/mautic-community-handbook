@@ -49,9 +49,6 @@ Forum thread: [https://forum.mautic.org/t/include-database-version-test-in-insta
 Slack channel: [#i-install-upgrade][install-upgrade-slack]
 
 ## 4. Mautic Marketplace
-
-Mautic Marketplace 
-
 * Decoupling plugins from the core Mautic package
 * Implementing a simple, one-click process to install and uninstall plugins 
 * Enable developers to easily provide updates and users to be notified when available
@@ -69,8 +66,11 @@ Forum thread: [https://forum.mautic.org/t/mautic-next-generation-discussion/1690
 Slack channel: [#i-mautic-next-generation][mautic-next-generation-slack]
 
 ## 6. Resource management
+* Allow the import/export of campaigns
+* Allow archiving resources no longer in use
+* Allowing full data sets in imports/exports
 
-Forum thread: Centralised thread to be created, sub-task threads:
+Forum thread: Centralised thread to be created, sub-task threads include:
 
 1. [https://forum.mautic.org/t/campaign-templates-and-import-export/10734][resource-management-forum-1]
 2. [https://forum.mautic.org/t/archive-old-emails/10628][resource-management-forum-2]
