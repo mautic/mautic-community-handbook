@@ -12,6 +12,8 @@ personenabled: false
 facebookenable: true
 ---
 
+Initiatives are groups of people coming together to work on a particular area of focus.
+
 Below are the current strategic initiatives for Mautic core, in alphabetical order.
 
 Strategic initiatives are maintained by the Project Lead and are grounded in:
