@@ -93,14 +93,14 @@ Before working on a PR, you must determine on which branch you need to work. Mau
 
 |Mautic version|Breaking changes/features allowed?|New features/enhancements allowed?|Bug fixes allowed?|
 |---|---|---|---|
-|3.0.1|❌|❌|✅|
-|3.1.0|❌|✅|✅|
+|3.2.1|❌|❌|✅|
+|3.2.0|❌|✅|✅|
 |4.0.0|✅|✅|✅|
 
 You can determine on which branch to work as follows:
 
-- `3.0` (for example), if you are fixing a bug for an existing version of Mautic
-- `staging`, if you are adding a new feature
+- `3.2` (for example), if you are fixing a bug for an existing version of Mautic
+- `features`, if you are adding a new feature
 
 ### Install Mautic
 
@@ -118,19 +118,19 @@ composer install
 Each time you want to work on a PR for a bug or on an enhancement, create a topic branch:
 
 ```
-git checkout -b BRANCH_NAME staging
+git checkout -b BRANCH_NAME features
 ```
 
-Or, if you want to provide a bug fix for the `3.0` branch, first track the remote `3.0` branch locally:
+Or, if you want to provide a bug fix for the `3.2` branch, first track the remote `3.2` branch locally:
 
 ```
-git checkout -t origin/3.0
+git checkout -t origin/3.2
 ```
 
-Then create a new branch off the `3.0` branch to work on the bug fix:
+Then create a new branch off the `3.2` branch to work on the bug fix:
 
 ```
-git checkout -b BRANCH_NAME 3.0
+git checkout -b BRANCH_NAME 3.2
 ```
 
 ! Use a descriptive name for your branch (issue_XXX where XXX is the issue number is a good convention for bug fixes).
@@ -198,14 +198,14 @@ All code contributions (especially enhancements/features) should include adequat
 Before submitting your PR, update your branch (needed if it takes you a while to finish your changes):
 
 ```
-git checkout staging
+git checkout features
 git fetch upstream
-git merge upstream/staging
+git merge upstream/features
 git checkout BRANCH_NAME
-git rebase staging
+git rebase features
 ```
 
-! Replace `staging` with the branch you selected previously (e.g. `3.0`) if you are working on a bug fix.
+! Replace `features` with the branch you selected previously (e.g. `3.2`) if you are working on a bug fix.
 
 When doing the rebase command, you might have to fix merge conflicts. git status will show you the unmerged files. Resolve all the conflicts, then continue the rebase:
 
@@ -224,7 +224,7 @@ git push --force origin BRANCH_NAME
 
 You can now make a pull request on the `mautic/mautic` GitHub repository.
 
-! Take care to point your pull request towards `mautic:3.0` if you want the core team to pull a bug fix based on the `3.0` branch.
+! Take care to point your pull request towards `mautic:3.2` if you want the core team to pull a bug fix based on the `3.2` branch.
 
 To ease the core team work, always include the modified components in your pull request message and provide steps how to test your fix/feature. Keep in mind that not all testers have a thorough knowledge of all of Mautic's features, therefore clear testing steps are crucial!
 
@@ -241,7 +241,7 @@ The [product team][product-team] is responsible for deciding which PRs get merge
 Based on the feedback on the pull request, you might need to rework your PR. Before re-submitting the PR, rebase with `upstream/staging` or `upstream/3.0`, don't merge; and force the push to the origin:
 
 ```
-git rebase -f upstream/staging
+git rebase -f upstream/features
 git push --force origin BRANCH_NAME
 ```
 
