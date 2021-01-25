@@ -1,6 +1,9 @@
 ---
-title: 'Mautic Bounty Program'
+title: 'Mautic Bounty Programme'
 published: false
+taxonomy:
+    category:
+        - docs
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
@@ -14,13 +17,13 @@ facebookenable: true
 
 A bounty programme in Open Source projects is when a monetary reward is offered for completing a task.
 
-What follows is an initial proposal to implement a bounty scheme which we will be trialling for six months (January to June 2021) for contributions to Mautic Core via the Github repository.
+What follows is an initial proposal to implement a bounty programme which we will be trialling for six months (January to June 2021) for contributions to Mautic Core via the Github repository.
 
 If you have feedback on this, please join the next team meeting on Slack in #t-product (get an invite at [mautic.org/slack][mautic-slack]).
 
 ## About the program
 
-The Mautic Community Product Team is small, and we're always looking for new contributors to our Open Source codebases. Our Bounty program will enable community members to financially reward developers who work on the issues they care about through our partnership with [Bountysource][bountysource].
+The Mautic Community Product Team is small, and we're always looking for new contributors to our Open Source codebases. Our Bounty programme will enable community members to financially reward developers who work on the issues they care about through our partnership with [Bountysource][bountysource].
 
 With Bountysource, issues in the Github issue queue can have a bounty associated with them by one or more people or organisations. This means that one person could add a single bounty of $500 or 10 people could add a bounty of $50, with the person resolving the issue receiving the funds from Bountysource when the fix or feature is merged.
 
@@ -40,7 +43,7 @@ Developers may only be assigned tasks and projects that they are confident can b
 
 Our Product Team is happy to answer questions and provide some limited support, but don't have the capacity to mentor junior developers working on bounty issues - developers are expected to work on the task **without requiring direct support from the team**.
 
-## Workflow for Bounty Program Contributors
+## Workflow for Bounty Programme Contributors
 1. Create an account with Bountysource
 2. Search for issues with attached bounties:
 	* 	Issues with [bounties][bounty-issues]
