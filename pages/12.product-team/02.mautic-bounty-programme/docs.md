@@ -1,6 +1,5 @@
 ---
 title: 'Mautic Bounty Programme'
-published: false
 taxonomy:
     category:
         - docs
