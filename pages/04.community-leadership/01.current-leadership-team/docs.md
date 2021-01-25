@@ -12,7 +12,7 @@ The current leadership team and their terms are as follows:
 | Ekkehard Gümbel           | Community Team Lead                   | ekke.guembel@mautic.org                      |                 |               |
 | Nico Grienauer          | Community Team Assistant Lead                   | nico.grienauer@mautic.org                      |                 |               |
 | Leon Oltmanns         | Education Team Lead                   | leon.oltmanns@mautic.org                      |                 |               |
-| Kevin Rundle         | Education Team Assistant Lead                   | kevin.rundle@mautic.org                      |                 |               |
+| Favour Kelvin         | Education Team Assistant Lead                   | favour.kelvin@mautic.org                      |                 |               |
 | Legal@Acquia       | Legal & Finance Team Lead                   | legal@acquia.com                     |                 |               |
 | Legal@Acquia         | Legal & Finance Team Assistant Lead                   | legal@acquia.com                      |                 |               |
 | Radu Zlatianu        | Marketing Team Lead                   | radu.zlatianu@mautic.org                      |                 |               |
