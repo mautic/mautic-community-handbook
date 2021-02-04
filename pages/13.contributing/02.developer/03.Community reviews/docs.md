@@ -66,7 +66,7 @@ Every change to Mautic core happens via PRs. Every PR must have 2 successful tes
 2. Read the description and steps to test. If it's a bug fix, follow the steps to ensure you can recreate the issue.
 3. Use the development environment (above) for testing.
 3. [Apply the PR][apply-pr]
-4. Clear cache for development environment (`rm -rf app/cache/*` or `app/console cache:clear -e dev`).
+4. Clear cache for development environment (`rm -rf var/cache/*` or `bin/console cache:clear -e dev`).
 5. Follow the steps from the PR description again to see if the result is as described.
 6. Write a comment about how the test went. If there is a problem, provide as much information as possible including error log messages.
 
