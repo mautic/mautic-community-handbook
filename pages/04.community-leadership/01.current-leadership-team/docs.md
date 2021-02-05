@@ -12,10 +12,11 @@ The current leadership team and their terms are as follows:
 | Ekkehard Gümbel           | Community Team Lead                   | ekke.guembel@mautic.org                      |                 |               |
 | Nico Grienauer          | Community Team Assistant Lead                   | nico.grienauer@mautic.org                      |                 |               |
 | Leon Oltmanns         | Education Team Lead                   | leon.oltmanns@mautic.org                      |                 |               |
-| Kevin Rundle         | Education Team Assistant Lead                   | kevin.rundle@mautic.org                      |                 |               |
+| Favour Kelvin         | Education Team Assistant Lead                   | favour.kelvin@mautic.org                      |                 |               |
 | Legal@Acquia       | Legal & Finance Team Lead                   | legal@acquia.com                     |                 |               |
 | Legal@Acquia         | Legal & Finance Team Assistant Lead                   | legal@acquia.com                      |                 |               |
 | Radu Zlatianu        | Marketing Team Lead                   | radu.zlatianu@mautic.org                      |                 |               |
 | Oluwatobi Owolabi        | Marketing Team Assistant Lead                  | oluwatobi.owolabi@mautic.org                      |                 |               |
 | Norman Pracht         | Product Team Lead                   | norman.pracht@mautic.org                      |                 |               |
-| Dennis Ameling      | Product Team Assistant Lead                   | dennis.ameling@mautic.org                      |                 |               |
+| Joey Keller      | Product Team Assistant Lead (Product)                  | joey.keller@mautic.org                      |                 |               |
+| Mohit Aghera     | Product Team Assistant Lead (Development)                  | mohit.aghera@mautic.org                      |                 |               |
