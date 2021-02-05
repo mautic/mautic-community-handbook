@@ -18,4 +18,5 @@ The current leadership team and their terms are as follows:
 | Radu Zlatianu        | Marketing Team Lead                   | radu.zlatianu@mautic.org                      |                 |               |
 | Oluwatobi Owolabi        | Marketing Team Assistant Lead                  | oluwatobi.owolabi@mautic.org                      |                 |               |
 | Norman Pracht         | Product Team Lead                   | norman.pracht@mautic.org                      |                 |               |
-| Dennis Ameling      | Product Team Assistant Lead                   | dennis.ameling@mautic.org                      |                 |               |
+| Joey Keller      | Product Team Assistant Lead (Product)                  | joey.keller@mautic.org                      |                 |               |
+| Mohit Aghera     | Product Team Assistant Lead (Development)                  | mohit.aghera@mautic.org                      |                 |               |
