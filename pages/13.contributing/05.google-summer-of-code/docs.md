@@ -1,5 +1,10 @@
 ---
 title: 'Google Summer of Code'
+media_order: 'Summer of Code Twitter.png'
+published: true
+taxonomy:
+    category:
+        - docs
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
@@ -11,7 +16,57 @@ personenabled: false
 facebookenable: true
 ---
 
+![Google Summer of Code + Mautic Logos](Summer%20of%20Code%20Twitter.png)
 
+This page contains information about Mautic’s participation in Google Summer of Code (GSoC). Please feel free to contact us via Slack below for clarifications and more information.
+
+## What can I do today?
+Mautic is still in the process of applying to be a mentoring organization. Today there is nothing we can do except wait until Google makes a decision.
+
+Today you should read through the ideas and think about our application process.
+
+## Student Information
+Do you want to contribute to one of the world’s first Open Source Marketing Automation platform? GSoC could be your chance. Please refer to the information below.
+
+If you’re interested in working on a mentor-submitted idea, read the [ideas blog][ideas] and about the project and the related technology. There is no need to contact the mentor unless you have a specific question about the project. Don’t send an "I’m interested" email or Slack message - please respect their time.
+
+If you’re interested in proposing your own project start looking around the Mautic Project for a mentor and suggest your idea in the Slack channel. 
+
+You may also wish to start working on the Mautic-specific parts of the application, see below for more information. Carefully review the student responsibilities section.
+
+### Why spend your summer working on FOSS?
+When you work in the open on free software, you create a body of work that follows you for the rest of your life. Rather than a coding assignment done by thousands of other students and relegated to the bottom of the drawer at semester’s end, working in FOSS is a chance to contribute to a living project.
+
+Working in FOSS gives you a chance to:
+
+* Work with real-world, large codebases.
+* Collaborate with real engineers and other professionals.
+* Contribute to something meaningful while learning and earning.
+* Learn tools and processes that are just like what you are going to use if you work in technology after graduation.
+* Make friends and contacts around the globe.
+* Attract attention that can lead to an internship or job after graduation.
+* Create lifetime connections and associations.
+
+### Why work with Mautic?
+Our project is relatively young and has a small but active contributor base - you have the chance to really make a difference to our community and project. We are a welcoming, friendly and diverse community that many come to think of as an extended family.
+
+People who contribute in our community and do good work are noticed. They get hired for jobs from it. Experience and reputation in the Mautic Project communities can be influential in your career in many ways.
+
+You should know that contributing to FOSS doesn’t require you to have super programming skills, or super-anything else. You just need be interested, curious, and willing to become comfortable being productively lost. This is the state of learning. You learn by finding your way around and figuring things out with the support of your mentor and the community.
+
+### Student Responsibilities
+You are the key ingredient for your project’s success. This project is important to you, your mentor, and the entire Mautic Community.
+
+Your responsibilities include:
+
+* Communicating early and often with your mentor.
+* Updating every week about what you’re learning, how you’re doing, challenges and successes. This is key way to keep the entire Mautic Community informed.
+* Working with your mentor on realistic achievable milestones that provide for regular deliverables and feedback.
+* Attending the brief student calls, as announced
+* Being accountable for your success and your actions
+
+### Student Application
+Please read and follow the student application process below.
 
 ## Google Summer of Code Application Process
 Interested in applying for Google Summer of Code with Mautic? Here is how you do that!
@@ -89,6 +144,7 @@ We cannot overstress the importance of communication. Keep talking, and listenin
 
 This page is adapted from the excellent guide from the Fedora Project under [CC-BY-SA 3.0][cc-by-sa-3]
 
+[ideas]: <https://www.mautic.org/blog/community/mautic-applies-google-summer-code-2021>
 [gsoc]: <https://summerofcode.withgoogle.com/>
 [slack]: <https://mautic.org/slack>
 [forums]: <https://forums.mautic.org>
