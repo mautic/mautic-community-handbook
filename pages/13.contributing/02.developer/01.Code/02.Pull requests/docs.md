@@ -89,12 +89,12 @@ git clone https://github.com/USERNAME/mautic.git
 
 ### Choose the right branch
 
-Before working on a PR, you must determine on which branch you need to work. Mautic follows [Semantic Versioning][semver], which is best illustrated by an example. Let's say we just released a 3.0.0 version of Mautic, the following would apply:
+Before working on a PR, you must determine on which branch you need to work. Mautic follows [Semantic Versioning][semver], which is best illustrated by an example. Let's say we just released a 3.2.0 version of Mautic, the following would apply:
 
 |Mautic version|Breaking changes/features allowed?|New features/enhancements allowed?|Bug fixes allowed?|
 |---|---|---|---|
 |3.2.1|❌|❌|✅|
-|3.2.0|❌|✅|✅|
+|3.3.0|❌|✅|✅|
 |4.0.0|✅|✅|✅|
 
 You can determine on which branch to work as follows:
