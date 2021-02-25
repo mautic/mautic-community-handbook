@@ -278,7 +278,7 @@ If you are not familiar with [Semantic Versioning](https://semver.org/) terminol
 
 From Mautic 3.0, the following approach is taken:
 
-Mautic follows [Semantic Versioning][semver], which is best illustrated by an example. Let's say we just released a 3.0.0 version of Mautic, the following would apply:
+Mautic follows [Semantic Versioning][semver], which is best illustrated by an example. Let's say we just released a 3.2.0 version of Mautic, the following would apply:
 
 |Mautic version|Breaking changes/features allowed?|New features/enhancements allowed?|Bug fixes allowed?|
 |---|---|---|---|
