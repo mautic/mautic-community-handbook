@@ -283,7 +283,7 @@ Mautic follows [Semantic Versioning][semver], which is best illustrated by an ex
 |Mautic version|Breaking changes/features allowed?|New features/enhancements allowed?|Bug fixes allowed?|
 |---|---|---|---|
 |3.2.1|❌|❌|✅|
-|3.2.0|❌|✅|✅|
+|3.3.0|❌|✅|✅|
 |4.0.0|✅|✅|✅|
 
 You can determine on which branch to work as follows:
