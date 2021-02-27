@@ -1,5 +1,14 @@
 ---
 title: 'Current Leadership Team'
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+personenabled: false
+facebookenable: true
 ---
 
 ---
@@ -7,16 +16,25 @@ The current leadership team and their terms are as follows:
 
 | Name      | Role     | Email address | Term commenced | Term ends |
 |-----------|--------------------|-----------------------|-----------------|---------------|
-| Ruth Cheesley         |  Project Lead                  |  ruth.cheesley@mautic.org                     |  N/A               | N/A              |
+| Ruth Cheesley         |  Project Lead                  |  ruth.cheesley@mautic.org                     |  2019              | N/A              |
 | TBC | Community Manager | TBC |  | N/A      |
-| Ekkehard Gümbel           | Community Team Lead                   | ekke.guembel@mautic.org                      |                 |               |
-| Nico Grienauer          | Community Team Assistant Lead                   | nico.grienauer@mautic.org                      |                 |               |
-| Leon Oltmanns         | Education Team Lead                   | leon.oltmanns@mautic.org                      |                 |               |
-| Favour Kelvin         | Education Team Assistant Lead                   | favour.kelvin@mautic.org                      |                 |               |
-| Legal@Acquia       | Legal & Finance Team Lead                   | legal@acquia.com                     |                 |               |
-| Legal@Acquia         | Legal & Finance Team Assistant Lead                   | legal@acquia.com                      |                 |               |
-| Radu Zlatianu        | Marketing Team Lead                   | radu.zlatianu@mautic.org                      |                 |               |
-| Oluwatobi Owolabi        | Marketing Team Assistant Lead                  | oluwatobi.owolabi@mautic.org                      |                 |               |
-| Norman Pracht         | Product Team Lead                   | norman.pracht@mautic.org                      |                 |               |
-| Joey Keller      | Product Team Assistant Lead (Product)                  | joey.keller@mautic.org                      |                 |               |
-| Mohit Aghera     | Product Team Assistant Lead (Development)                  | mohit.aghera@mautic.org                      |                 |               |
+| Ekkehard Gümbel           | Community Team Lead                   | ekke.guembel@mautic.org                      |   2020              |               |
+| Nico Grienauer          | Community Team Assistant Lead                   | nico.grienauer@mautic.org                      |  2020               |               |
+| Favour Kelvin         | Education Team Lead                   | favour.kelvin@mautic.org                      |   2021              |               |
+| Position Vacant         | Education Team Assistant Lead                   |                      |                 |               |
+| Legal@Acquia       | Legal & Finance Team Lead                   | legal@acquia.com                     |   N/A              |  N/A             |
+| Legal@Acquia         | Legal & Finance Team Assistant Lead                   | legal@acquia.com                      |  N/A               | N/A              |
+| Radu Zlatianu        | Marketing Team Lead                   | radu.zlatianu@mautic.org                      |  2020              |               |
+| Oluwatobi Owolabi        | Marketing Team Assistant Lead                  | oluwatobi.owolabi@mautic.org                      |  2020               |               |
+| Norman Pracht         | Product Team Lead                   | norman.pracht@mautic.org                      |  2020               |               |
+| Joey Keller      | Product Team Assistant Lead (Product)                  | joey.keller@mautic.org                      |  2021               |               |
+| Mohit Aghera     | Product Team Assistant Lead (Development)                  | mohit.aghera@mautic.org                      | 2021                |               |
+
+## Honour Role
+
+These are people who have served on the Mautic Community Leadership Team in the past.
+
+| Name      | Role     | Term commenced | Term ends |
+|-----------|--------------------|-----------------|---------------|
+| Dennis Ameling         | Product Team Assistant Lead                   | 2020                 | 2021              |
+| Leon Oltmanns         | Education Team Lead                   |  2020               |   2021            |
