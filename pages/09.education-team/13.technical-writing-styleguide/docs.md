@@ -203,19 +203,19 @@ To learn how to create a new resource, see Create a new Documentation resource.
 
 See [Contributing to the Documentation][contributing-to-docs] for an overview of how the Documentation works and the syntax that should be used.
 
-Check the [Education Team’s Trello board][edu-team-trello] for outstanding tasks relating to the End-User Documentation.
+Check the [Education Team’s Jira board][edu-team-jira] for outstanding tasks relating to the End-User Documentation.
 
 ## Developer Documentation
 The [Developer Documentation][dev-docs] uses [Slate][slate], and does not have a front-end user interface. Please make any changes via a Pull Request (PR) to the [repository][dev-docs-repo].
 
-Check the [Education Team’s Trello board][edu-team-trello-devdocs] and the [Product Team’s Trello board][product-team-devdocs] for outstanding tasks relating to the Developer Documentation.
+Check the [Education Team’s Jira board][edu-team-jira-devdocs] and the [Product Team’s Jira board][product-team-devdocs] for outstanding tasks relating to the Developer Documentation.
 
 ## Knowledgebase
 To learn how to create a new resource, see Create a new Knowledgebase resource.
 
 See Contributing to the Knowledgebase for an overview of how the Knowledgebase works.
 
-Check the [Education Team’s Trello board][edu-team-kb] for outstanding tasks relating to the Knowledgebase
+Check the [Education Team’s Jira board][edu-team-kb] for outstanding tasks relating to the Knowledgebase
 
 ## Writing for End-User or Developer Documentation
 
@@ -352,13 +352,13 @@ For example, use "Extensions, themes and plugins" (without the serial comma), no
 [accessible-colors]: <http://colorsafe.co/>
 [wave-tool]: <http://wave.webaim.org/>
 [contributing-to-docs]: <https://docs.mautic.org/en/home/contributing>
-[edu-team-trello]: <https://trello.com/b/A4eDxtD5/mautic-education-team?menu=filter&filter=label:Docs%20Content>
+[edu-team-jira]: <https://mautic.atlassian.net/browse/TEDU-54?jql=labels%20%3D%20Docs_Content>
 [dev-docs]: <https://developer.mautic.org>
 [slate]: <https://www.slatejs.org>
 [dev-docs-repo]: <https://github.com/mautic/developer-documentation>
-[edu-team-devdocs]: <https://trello.com/b/A4eDxtD5/mautic-education-team?menu=filter&filter=label:Dev%20Docs%20Content>
-[product-team-devdocs]: <https://trello.com/b/ptjfOu0c/mautic-product-team?menu=filter&filter=label:Dev%20Docs>
-[edu-team-kb]: <https://trello.com/b/A4eDxtD5/mautic-education-team?menu=filter&filter=label:Knowledgebase%20Content>
+[edu-team-devdocs]: <https://mautic.atlassian.net/browse/TPROD-43?jql=labels%20%3D%20Dev_Docs>
+[product-team-devdocs]: <https://mautic.atlassian.net/browse/TPROD-55?jql=labels%20%3D%20%22Dev_Docs%22>
+[edu-team-kb]: <https://mautic.atlassian.net/browse/TEDU-50?jql=labels%20%3D%20%22Knowledgebase_Content%22>
 [contribute-to-devdocs]: <https://github.com/mautic/developer-documentation/blob/master/CONTRIBUTING.md>
 [grammarly]: <https://www.grammarly.com>
 [proper-nouns]: <https://wikipedia.org/wiki/Proper_noun>
