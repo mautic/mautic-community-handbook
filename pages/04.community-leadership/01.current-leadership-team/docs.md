@@ -34,7 +34,7 @@ The current leadership team and their terms are as follows:
 
 These are people who have served on the Mautic Community Leadership Team in the past.
 
-| Name      | Role     | Term commenced | Term ends |
+| Name      | Role     | Term commenced | Term ended |
 |-----------|--------------------|-----------------|---------------|
 | Dennis Ameling         | Product Team Assistant Lead                   | 2020                 | 2021              |
 | Leon Oltmanns         | Education Team Lead                   |  2020               |   2021            |
