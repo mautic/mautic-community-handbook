@@ -1,7 +1,17 @@
 ---
 title: 'Community Structure'
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+personenabled: false
+facebookenable: true
 ---
 
+# Community Structure
 ---
 The Mautic community structure is based on a bottom-up grass-roots engagment model.
 
