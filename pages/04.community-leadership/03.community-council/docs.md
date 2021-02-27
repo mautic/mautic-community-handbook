@@ -1,5 +1,14 @@
 ---
 title: 'Community Council'
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+personenabled: false
+facebookenable: true
 ---
 
 ---
@@ -18,4 +27,4 @@ The Community Council is formed of four elected representatives from the Mautic 
 | Ekkehard Gümbel  | Community Representative | ekke.guembel@mautic.org            | 
 | Radu Zlatianu  | Community Representative | radu.zlatianu@mautic.org            | 
 | Norman Pracht  | Community Representative | 	norman.pracht@mautic.org            | 
-| Leon Oltmanns | Community Representative | leon.oltmanns@mautic.org            | 
+| Favour Kelvin | Community Representative | favour.kelvin@mautic.org            | 
