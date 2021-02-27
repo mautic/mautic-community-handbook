@@ -13,7 +13,7 @@ personenabled: false
 facebookenable: true
 ---
 
-Following the [acquisition of Mautic Inc. by Acquia in May 2019][acquisition-announcemeent] which included all assets relating to the Mautic community, a governance model was proposed and adopted following a period of community consultation.
+Following the [acquisition of Mautic Inc. by Acquia in May 2019][acquisition-announcement] which included all assets relating to the Mautic community, a governance model was proposed and adopted following a period of community consultation.
 
 Read more in the [initial proposal][proposal] and the [subsequent follow up][follow-up] which addressed questions raised by the community. Subsequent adaptations were made during the Community Summit in November 2019 to arrive at the model outlined below.
 
