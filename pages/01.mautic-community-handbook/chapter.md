@@ -14,6 +14,7 @@ personenabled: false
 facebookenable: true
 ---
 
+# Mautic Community Handbook
 ---
 This handbook is a central point of call for how the Mautic community is organised and managed.
 
