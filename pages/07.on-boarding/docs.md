@@ -1,5 +1,14 @@
 ---
 title: On-boarding
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+personenabled: false
+facebookenable: true
 ---
 
 On-boarding new contributors effectively is a hugely important part of our community.  
@@ -18,7 +27,7 @@ While each team will have some aspects of the on-boarding process in common, the
 
 2. Anybody contributing to Mautic teams will need to have a Google account, so that they can save their work in the shared [Google Drive folder](https://drive.google.com/drive/folders/1KqjqRkbRoAyWLd_zbYdcP8NFtS10kAwI?usp=sharing).
 
-3. The Mautic Community use Trello for task management in all teams. Go to www.trello.com and sign up for a new account (free of charge), and join the team using [this invite link](https://trello.com/invite/mauticcommunity/7141ad265fef10a78b6573cadf1d42b8). 
+3. The Mautic Community use Jira for task management in all teams. Go to [mautic.atlassian.net](https://mautic.atlassian.net) and sign up for a new account (free of charge). If you need any help please ask in #community on SIack.
 
 4. Anybody who is involved in code-based contributions will need to sign the Mautic Contributors Agreement, which can be done online [here](https://www.mautic.org/contributor-agreement/).
 
