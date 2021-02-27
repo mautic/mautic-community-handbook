@@ -1,19 +1,28 @@
 ---
 title: 'Community Dashboard'
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+personenabled: false
+facebookenable: true
 ---
 
 The Community Dashboard uses the open-source [GrimoireLab](https://chaoss.github.io/grimoirelab/) tool to import, analyze and visualize data from multiple sources in one central location.
 
-It is located at [https://dashboard.mautic.org](https://dashboard.mautic.org) and runs on a Digital Ocean droplet, managed by the Mautic DevOps team at Acquia.
+It is located at [https://dashboard.mautic.org](https://dashboard.mautic.org) and runs on a Digital Ocean droplet, managed by the Mautic Community Infrastructure Working Group.
 
 Currently the dashboad imports:
 
 * All repositories listed under github.com/mautic 
 * Specified channels from mautic.slack.com
 * All threads on forums.mautic.org
-* Specified meetup.com groups using the tag of Mautic
+* Specified meetup.com groups
 
-Data sources for GitHub, Slack and Meetup are manually specified in the projects.json file in the root of the instance, so new repo's, channels or meetup groups will not appear automatically.
+Data sources for GitHub, Slack and Meetup are manually specified in the projects.json file in the root of the instance, so new repositories, channels or meetup groups will not appear automatically.
 
 The data is initially fetched and a 'raw' index is created.  This index is then 'enriched', with individuals and organisations being associated and any other associations being made.
 
