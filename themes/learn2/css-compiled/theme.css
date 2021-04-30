@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(//fonts.googleapis.com/css?family=Montserrat:400|Muli:300,400|Inconsolata);
+@import url(//fonts.googleapis.com/css?family=Montserrat:400|Muli:300,400|Inconsolata&display=swap);
 #body #breadcrumbs, #top-github-link {
   position: relative;
   top: 50%;
@@ -26,10 +26,12 @@ body {
 }
 
 a {
-  color: #4e5e9ecd;
+  color: #414f8a;
+  font-weight: bold;
 }
 a:hover {
   color: rgba(53, 64, 107, 0.8039215686);
+  font-weight: bold;
 }
 
 pre {
