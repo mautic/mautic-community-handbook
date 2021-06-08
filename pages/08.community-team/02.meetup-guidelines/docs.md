@@ -57,7 +57,7 @@ Where there is a strong local presence, organizers may wish to create an informa
 These will be regional in nature and organised with support of the Community Team.
 
 ## Mautic Conference
-We are holding annual Mautic Conference events which bring together the international community for a formal conference. 
+We hold annual Mautic Conference events which bring together the international community for a formal conference. 
 Mautic Conference exists in two flavors:
 * Mautic Conference Global, which is happening online
 * Mautic Conference <Continent>, real-life, intended to move to a different continent every year.
