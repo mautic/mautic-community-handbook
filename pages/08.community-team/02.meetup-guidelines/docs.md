@@ -62,7 +62,7 @@ Mautic Conference exists in two flavors:
 * Mautic Conference Global, which is held virtually
 * Mautic Conference <Continent>, real-life, intended to move to a different continent every year.
 
-The first such event took place in 2020 - originally planned as an on-premise event, but converted to online due to the 2020 pandemic.
+The first such event took place in 2020 - originally planned as an on-premise event, but converted to a virtual event due to the 2020 pandemic.
 
 Mautic Conference is organised by the community and is inviting sponsors to support the event.
 If you are interested in getting involved in any way, please join [#mauticon](https://mautic.slack.com/archives/CA7RCS7SA) on Slack.
