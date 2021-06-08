@@ -65,4 +65,4 @@ Mautic Conference exists in two flavors:
 The first such event took place in 2020 - originally planned as an on-premise event, but converted to a virtual event due to the 2020 pandemic.
 
 Mautic Conference is organised by the community and invites sponsors to support the event.
-If you are interested in getting involved in any way, please join [#mauticon](https://mautic.slack.com/archives/CA7RCS7SA) on Slack.
+If you are interested in getting involved in any way, please join [#mauticon](https://mautic.slack.com/archives/CA7RCS7SA) on Slack (get an invitation at [https://mautic.org/slack](https://mautic.org/slack)
