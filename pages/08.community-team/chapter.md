@@ -6,27 +6,34 @@ title: 'Community Team'
 
 ## Mission and expectations
 
-> We want to have more and more people who are contributing to Mautic.
+> We want more and more people to feel at home in the Mautic community. And we want to inspire & enable them to contribute to our cause.
 
 ### General Tasks
 
-* Grow the Community - global and local engagement
-* Increase active contribution
-* Facilitate communication and contribution
+* Support growth of the global as well as the local communities
+* Help the Mautic community be most ethical, accessible and inclusive
+* Provide really easy starting points for contribution
+* Organize and support Mautic events
+* Continue to improve community infrastructure
+* Connect with other Open Source communities
+* Work towards a Mautic NGO (e.g. „Mautic Association“)
 
 ### Sample activities
 
 #### General
 
+* Keep rethinking community and contribution structures
 * Improve global community infrastructure, rearrange forums, etc
-* Ownership of the [m.mautic.org](http://m.mautic.org) Mautic instance
-* "Events" page to list local and global events
+* Define & refine official event formats
+* Help people to organize and promote local Mautic events
 
 But also
 
 * Understand community personas
 * Promote and help building a business on Mautic, and explain active contribution as an important element of it
 * Find, grow and support ambassadors
+* Connect & collaborate with other communities
+* Support funding
 
 #### Global Communities
 
