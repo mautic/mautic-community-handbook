@@ -59,7 +59,7 @@ These will be regional in nature and organised with support of the Community Tea
 ## Mautic Conference
 We hold annual Mautic Conference events which bring together the international community for a formal conference. 
 Mautic Conference exists in two flavors:
-* Mautic Conference Global, which is happening online
+* Mautic Conference Global, which is held virtually
 * Mautic Conference <Continent>, real-life, intended to move to a different continent every year.
 
 The first such event took place in 2020 - originally planned as an on-premise event, but converted to online due to the 2020 pandemic.
