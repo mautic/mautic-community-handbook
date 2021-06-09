@@ -32,7 +32,7 @@ But also
 * Promote and help building a business on Mautic, and explain active contribution as an important element of it
 * Find, grow and support ambassadors
 * Connect & collaborate with other communities
-* Support funding
+* Support fundraising initiatives
 
 #### Global Communities
 
