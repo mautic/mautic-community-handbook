@@ -16,7 +16,6 @@ title: 'Community Team'
 * Organize and support Mautic events
 * Continue to improve community infrastructure
 * Connect with other Open Source communities
-* Work towards a Mautic NGO (e.g. „Mautic Association“)
 
 ### Sample activities
 
