@@ -10,6 +10,14 @@ The Education Team is responsible for the Forum, Mautic Documentation and Intern
 
 > To improve the resources available for new and established users to learn how to use Mautic
 
+### General Tasks
+
+  * Help marketeers to contribute their existing content to the Mautic knowledge base
+  * Update the doccumentation to be up to datre with new releases
+  * Improve users experience by making the docs high quality and comprehensive
+  * Moderate forums and provide contents to FAQs
+
+
 ### Forum
 
   * #### Quality of contributions
@@ -30,6 +38,9 @@ The Education Team is responsible for the Forum, Mautic Documentation and Intern
     * Very visible hint in Slack (how? “Pinned message”, Slackbot, …?)
     * Manually moderating Slack & moving stuff to forums
     * Automatically moving stuff to forums?
+    
+
+
 ### Documentation
 
   * #### Quality
