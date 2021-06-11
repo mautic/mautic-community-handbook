@@ -13,8 +13,8 @@ The Education Team is responsible for the Forum, Mautic Documentation and Intern
 ### General Tasks
 
   * Help marketeers to contribute their existing content to the Mautic knowledge base
-  * Update the doccumentation to be up to datre with new releases
-  * Improve users experience by making the docs high quality and comprehensive
+  * Update the documentation to be up to datre with new releases
+  * Improve users experience by making the documentation high quality and comprehensive
   * Moderate forums and provide contents to FAQs
 
 
