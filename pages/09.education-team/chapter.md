@@ -16,7 +16,7 @@ The Education Team is responsible for the Forum, Mautic Documentation and Intern
   * Update the documentation to be up to date with new releases
   * Improve users experience by making the documentation high quality and comprehensive
   * Moderate forums and provide contents to FAQs
-  * Improve the resources available for new and stablished users to learn how to use Mautic
+  * Improve the resources available for new and established users to learn how to use Mautic
 
 
 ### Forum
