@@ -24,8 +24,8 @@ The current leadership team and their terms are as follows:
 | Position Vacant         | Education Team Assistant Lead                   |                      |                 |               |
 | Legal@Acquia       | Legal & Finance Team Lead                   | legal@acquia.com                     |   N/A              |  N/A             |
 | Legal@Acquia         | Legal & Finance Team Assistant Lead                   | legal@acquia.com                      |  N/A               | N/A              |
-| Radu Zlatianu        | Marketing Team Lead                   | radu.zlatianu@mautic.org                      |  2020              | 2023              |
 | Oluwatobi Owolabi        | Marketing Team Assistant Lead                  | oluwatobi.owolabi@mautic.org                      |  2020               |   2022            |
+| Position Vacant         | Marketing Team Assistant Lead                   |                      |                 |               |
 | Norman Pracht         | Product Team Lead                   | norman.pracht@mautic.org                      |  2020               |   2023            |
 | Joey Keller      | Product Team Assistant Lead (Product)                  | joey.keller@mautic.org                      |  2021               |  2023             |
 | Mohit Aghera     | Product Team Assistant Lead (Development)                  | mohit.aghera@mautic.org                      | 2021                | 2023              |
@@ -38,3 +38,4 @@ These are people who have served on the Mautic Community Leadership Team in the 
 |-----------|--------------------|-----------------|---------------|
 | Dennis Ameling         | Product Team Assistant Lead                   | 2020                 | 2021              |
 | Leon Oltmanns         | Education Team Lead                   |  2020               |   2021            |
+| Radu Zlatianu         | Marketing Team Lead                   |  2020               |   2021            |
