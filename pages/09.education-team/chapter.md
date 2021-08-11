@@ -43,6 +43,15 @@ The Education Team is responsible for the Forum, Mautic Documentation and Intern
 
 
 ### Documentation
+  
+  * #### Sources
+  
+    * [User Guide](https://docs.mautic.org/en) Describes key concepts of Mautic and provides instructions for using and contributing to Mautic.
+    * [Knowledgebase](https://kb.mautic.org) Provides a database of tutorials, FAQs, and how-to articles.
+    * [Developer Guide](https://developer.mautic.org/) details about the Mautic API, Webhooks, themes and plugin development.
+    * [Community Handbook](https://contribute.mautic.org/) central point of call for how the Mautic community is organised and managed.
+
+
 
   * #### Quality
 
@@ -60,14 +69,23 @@ The Education Team is responsible for the Forum, Mautic Documentation and Intern
     * Ensuring that the documentation is kept up to date with major releases
     * Document changes coming with those releases
     * Merge PR’s when they come in for new features
+    
   * #### Languages
 
     * Keeping native translations accurate (FR/JP)
     * If necessary add more translations
-* ### Educational blog content
+    
+   * #### Style Guide
+   
+     * [The Mautic Style Guide](https://docs.mautic.org/en/contributing/style-guide) recommends best practices that aims to bring about a consistent style, voice, and tone across all documentation
+     * Any Technical Writer (or other contributor) can make suggestions for documentation style updates
+    
+ ### Educational blog content
 
   * Curating and writing content to be used in the community blog
-* ### Mautic app (and website/marketing?) internationalization
+  * Cuarting and writing how-to articles, tutorials for [Mautic Knowledgebase](https://kb.mautic.org)
+  
+ ### Mautic app (and website/marketing?) internationalization
 
   * Own Transifex and appropriate workflows
   * Manage multilingual marketing materials (e.g. website, fliers, etc)
@@ -94,5 +112,7 @@ We need people with skills as:
 * Documentation writers
 * Editors
 * Translators
+
+
 
 ** Would you like to be involved in this team? Join [#t-education](https://mautic.slack.com/archives/CQGQ0D4KU) on Slack! ** 
