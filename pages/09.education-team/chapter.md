@@ -12,10 +12,10 @@ The Education Team is responsible for the Forum, Mautic Documentation and Intern
 
 ### General Tasks
 
-  * Help marketers to contribute their existing content to the [Mautic Knowledgebase](https://kb.mautic.org)
+  * Help marketers to contribute their existing content to the [Mautic Knowledgebase][Knowledgebase]
   * Ensure that the documentation is up to date when new releases are made
   * Improve the experience of Mautic users by ensuring that the documentation is of high quality and comprehensive
-  * Moderate the [Mautic Community Forums](https://forum.mautic.org) and provide content to answer FAQs
+  * Moderate the [Mautic Community Forums][Mautic Community Forums] and provide content to answer FAQs
   * Improve the resources available for new and established users to learn how to use Mautic
 
 
@@ -43,6 +43,15 @@ The Education Team is responsible for the Forum, Mautic Documentation and Intern
 
 
 ### Documentation
+  
+  * #### Sources
+  
+    * [User Documentation][User Documentation] Describes key concepts of Mautic and provides instructions for using and contributing to Mautic.
+    * [Knowledgebase][Knowledgebase]Provides a database of tutorials, FAQs, and how-to articles.
+    * [Developer Documentation][Developer Documentation] details about the Mautic API, Webhooks, themes and plugin development.
+    * [Community Handbook][Community Handbook] central point of call for how the Mautic community is organised and managed.
+
+
 
   * #### Quality
 
@@ -60,14 +69,23 @@ The Education Team is responsible for the Forum, Mautic Documentation and Intern
     * Ensuring that the documentation is kept up to date with major releases
     * Document changes coming with those releases
     * Merge PR’s when they come in for new features
+    
   * #### Languages
 
     * Keeping native translations accurate (FR/JP)
     * If necessary add more translations
-* ### Educational blog content
+    
+   * #### Style Guide
+   
+     * [The Mautic Style Guide][The Mautic Style Guide] recommends best practices that aims to bring about a consistent style, voice, and tone across all documentation
+     * Any Technical Writer (or other contributor) can make suggestions for documentation style updates
+    
+ ### Educational blog content
 
   * Curating and writing content to be used in the community blog
-* ### Mautic app (and website/marketing?) internationalization
+  * Cuarting and writing how-to articles, tutorials for [Mautic Knowledgebase][Knowledgebase]
+  
+ ### Mautic app (and website/marketing?) internationalization
 
   * Own Transifex and appropriate workflows
   * Manage multilingual marketing materials (e.g. website, fliers, etc)
@@ -95,4 +113,16 @@ We need people with skills as:
 * Editors
 * Translators
 
-** Would you like to be involved in this team? Join [#t-education](https://mautic.slack.com/archives/CQGQ0D4KU) on Slack! ** 
+
+
+** Would you like to be involved in this team? Join [#t-education][#t-education] on Slack! ** 
+
+
+
+[User Documentation]: <https://docs.mautic.org/en>
+[Knowledgebase]: <https://kb.mautic.org> 
+[Developer Documentation]: <https://developer.mautic.org/>
+[Community Handbook]: <https://contribute.mautic.org/> 
+[Mautic Community Forums]: <https://forum.mautic.org>
+[The Mautic Style Guide]: <https://docs.mautic.org/en/contributing/style-guide>
+[#t-education]: <https://mautic.slack.com/archives/CQGQ0D4KU>
