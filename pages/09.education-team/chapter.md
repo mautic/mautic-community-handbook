@@ -123,6 +123,6 @@ We need people with skills as:
 [Knowledgebase]: <https://kb.mautic.org> 
 [Developer Documentation]: <https://developer.mautic.org/>
 [Community Handbook]: <https://contribute.mautic.org/> 
-[Mautic Community Forums]:<https://forum.mautic.org>
+[Mautic Community Forums]: <https://forum.mautic.org>
 [The Mautic Style Guide]:<https://docs.mautic.org/en/contributing/style-guide>
 [#t-education]:<https://mautic.slack.com/archives/CQGQ0D4KU>
