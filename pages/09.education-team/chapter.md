@@ -125,4 +125,4 @@ We need people with skills as:
 [Community Handbook]: <https://contribute.mautic.org/> 
 [Mautic Community Forums]: <https://forum.mautic.org>
 [The Mautic Style Guide]: <https://docs.mautic.org/en/contributing/style-guide>
-[#t-education]:<https://mautic.slack.com/archives/CQGQ0D4KU>
+[#t-education]: <https://mautic.slack.com/archives/CQGQ0D4KU>
