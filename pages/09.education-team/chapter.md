@@ -77,7 +77,7 @@ The Education Team is responsible for the Forum, Mautic Documentation and Intern
     
    * #### Style Guide
    
-     * [The Mautic Style Guide][The Mautic Style Guide]recommends best practices that aims to bring about a consistent style, voice, and tone across all documentation
+     * [The Mautic Style Guide][The Mautic Style Guide] recommends best practices that aims to bring about a consistent style, voice, and tone across all documentation
      * Any Technical Writer (or other contributor) can make suggestions for documentation style updates
     
  ### Educational blog content
