@@ -120,7 +120,7 @@ We need people with skills as:
 
 
 [User Documentation]: <https://docs.mautic.org/en>
-[Knowledgebase]:<https://kb.mautic.org> 
+[Knowledgebase]: <https://kb.mautic.org> 
 [Developer Guide]:<https://developer.mautic.org/>
 [Community Handbook]:<https://contribute.mautic.org/> 
 [Mautic Community Forums]:<https://forum.mautic.org>
