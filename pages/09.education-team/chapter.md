@@ -46,7 +46,7 @@ The Education Team is responsible for the Forum, Mautic Documentation and Intern
   
   * #### Sources
   
-    * [User Guide][User Guide] Describes key concepts of Mautic and provides instructions for using and contributing to Mautic.
+    * [User Documentation][User Documentation] Describes key concepts of Mautic and provides instructions for using and contributing to Mautic.
     * [Knowledgebase][Knowledgebase]Provides a database of tutorials, FAQs, and how-to articles.
     * [Developer Guide][Developer Guide]details about the Mautic API, Webhooks, themes and plugin development.
     * [Community Handbook][Community Handbook] central point of call for how the Mautic community is organised and managed.
