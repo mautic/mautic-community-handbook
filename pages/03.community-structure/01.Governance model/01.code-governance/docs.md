@@ -278,9 +278,22 @@ If you are not familiar with [Semantic Versioning](https://semver.org/) terminol
 
 From Mautic 3.0, the following approach is taken:
 
-**master branch** is used for active development of Mautic (e.g. version 4). As soon as we “feature freeze” a new version (that is, all major new features are done and we’re ready to release an alpha or beta), we move development efforts to a release-x.x branch (e.g. release-3.0 for Mautic 3.0)
+Mautic follows [Semantic Versioning][semver], which is best illustrated by an example. Let's say we just released a 3.2.0 version of Mautic, the following would apply:
 
-**release-x.x branches** are used to maintain minor versions of Mautic after they have been released. For example, if we need to provide bug fixes for Mautic 2.16.0, we’d check out the release-2.16 branch on Git and start working from there. Also, if we’d decide to create a new minor version, like 2.17, and a new major version (like 3.0) has already been released, we’d use the release-2.16 branch as the starting point and create release-2.17 from there.
+|Mautic version|Breaking changes/features allowed?|New features/enhancements allowed?|Bug fixes allowed?|
+|---|---|---|---|
+|3.2.1|❌|❌|✅|
+|3.3.0|❌|✅|✅|
+|4.0.0|✅|✅|✅|
+
+You can determine on which branch to work as follows:
+
+- `3.2` (for example), if you are fixing a bug for an existing version of Mautic
+- `features`, if you are adding a new feature
+
+**features branch** is used for active development of new features in Mautic which will be released in the next minor release (e.g. 3.2.0). 
+
+**x.x branches** are used to maintain minor versions of Mautic after they have been released. For example, if we need to provide bug fixes for Mautic 2.16.0, we would check out the 2.16 branch on Git and start working from there. Also, if we’d decide to create a new minor version, like 2.17, and a new major version (like 3.0) has already been released, we’d use the 2.16 branch as the starting point and create 2.17 from there.
 
 By following this branching strategy, we hope it is easier for all parties involved (especially community contributors) to improve Mautic and to maintain multiple versions at the same time. 
 
