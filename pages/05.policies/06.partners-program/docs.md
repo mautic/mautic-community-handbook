@@ -9,6 +9,7 @@ orga:
 orgaratingenabled: false
 personenabled: false
 facebookenable: true
+menu: 'Become a Community Partner'
 ---
 
 The Mautic Community Partners Program showcases organizations that are contributing to Mautic - both financially and practically - so that members of the community can find service providers who are [‘makers’ rather than ‘takers’][makers-takers] to work with. These organizations represent the ideals of providing ongoing contributions that open source software rely upon.
