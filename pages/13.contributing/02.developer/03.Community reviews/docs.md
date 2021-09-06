@@ -46,11 +46,11 @@ The steps for the review are:
 
 1. **Is the Report Complete?**
 
-Good bug reports contain a link to a project (the "reproduction project") created with the Symfony skeleton or the Symfony website skeleton that reproduces the bug. If it doesn't, the report should at least contain enough information and code samples to reproduce the bug.
+Good bug reports contain enough information and code samples to reproduce the bug. Issue forms do ensure the basic set of information but sometimes this may not be enough to reproduce the issue. Ask for clarification if you are not sure.
 
 2. **Reproduce the Bug**
 
-Download the reproduction project and test whether the bug can be reproduced on your system. If the reporter did not provide a reproduction project, create one based on one Symfony skeleton (or the Symfony website skeleton).
+Install Mautic locally and test whether the bug can be reproduced on your system. If the reporter did not provide enough information, ask for clarification.
 
 3. **Leave a comment**
 
@@ -60,7 +60,7 @@ At last, add a comment to the bug report. Thank the reporter for reporting the b
 
 ## The Pull Request Review process
 
-Every change to Mautic core happens via PRs. Every PR must have 2 successful tests to be merged to the core and released in the next version. Testing a PR is a great way to move Mautic forward and personally improve its quality and stability.
+Every change to Mautic core happens via PRs. Every PR must have 2 successful tests and a code review to be merged to the core and released in the next version. Testing a PR is a great way to move Mautic forward and personally improve its quality and stability.
 
 1. [Select a PR][mautic-prs] to test.
 2. Read the description and steps to test. If it's a bug fix, follow the steps to ensure you can recreate the issue.
