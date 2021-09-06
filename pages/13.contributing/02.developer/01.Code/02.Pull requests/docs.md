@@ -89,18 +89,19 @@ git clone https://github.com/USERNAME/mautic.git
 
 ### Choose the right branch
 
-Before working on a PR, you must determine on which branch you need to work. Mautic follows [Semantic Versioning][semver], which is best illustrated by an example. Let's say we just released a 3.2.0 version of Mautic, the following would apply:
+Before working on a PR, you must determine on which branch you need to work. Mautic follows [Semantic Versioning][semver], which is best illustrated by an example. Let's say we just released a 4.0.0 version of Mautic, the following would apply:
 
 |Mautic version|Breaking changes/features allowed?|New features/enhancements allowed?|Bug fixes allowed?|
 |---|---|---|---|
-|3.2.1|❌|❌|✅|
-|3.3.0|❌|✅|✅|
-|4.0.0|✅|✅|✅|
+|4.0.1|❌|❌|✅|
+|4.1.0|❌|✅|✅|
+|5.0.0|✅|✅|✅|
 
 You can determine on which branch to work as follows:
 
-- `3.2` (for example), if you are fixing a bug for an existing version of Mautic
-- `features`, if you are adding a new feature
+- `4.0` (for example), if you are fixing a bug for the 4.0.x releases of Mautic
+- `4.x`, if you are adding a new feature or enhancing an existing feature
+- `5.x`, if you are adding a new feature or enhancing an existing feature which will break backwards compatibility
 
 ### Install Mautic
 
@@ -113,24 +114,29 @@ composer install
 
 - Open Mautic in your browser, for example by going to `http://localhost/mautic` or `https://mautic.ddev.site` depending on your environment, and follow the steps to install Mautic locally.
 
+
+Alternatively, if you are using DDEV, simply type:
+`ddev start`
+and when prompted, allow Mautic to be set up automatically.
+
 ### Create a Topic Branch
 
-Each time you want to work on a PR for a bug or on an enhancement, create a topic branch:
+Each time you want to work on a PR for a bug or on an enhancement, create a topic branch from the relevant base branch:
 
 ```
-git checkout -b BRANCH_NAME features
+git checkout -b BRANCH_NAME 4.x
 ```
 
-Or, if you want to provide a bug fix for the `3.2` branch, first track the remote `3.2` branch locally:
+Or, if you want to provide a bug fix for the `4.0` branch, first track the remote `4.0` branch locally:
 
 ```
-git checkout -t origin/3.2
+git checkout -t origin/4.0
 ```
 
-Then create a new branch off the `3.2` branch to work on the bug fix:
+Then create a new branch off the `4.0` branch to work on the bug fix:
 
 ```
-git checkout -b BRANCH_NAME 3.2
+git checkout -b BRANCH_NAME 4.0
 ```
 
 ! Use a descriptive name for your branch (issue_XXX where XXX is the issue number is a good convention for bug fixes).
@@ -142,7 +148,7 @@ The above checkout commands automatically switch the code to the newly created b
 Work on the code as much as you want and commit as much as you want; but keep in mind the following:
 - Mautic follows [Symfony's coding standards][symfony-coding-standards] by implementing a pre-commit git hook running [php-cs-fixer][php-cs-fixer], which is installed and updated with composer install/composer update. All code styling is handled automatically by the aforementioned git hook.
 - Add unit tests to prove that the bug is fixed or that the new feature actually works (see below).
-- Try hard to not break backward compatibility (if you must do so, try to provide a compatibility layer to support the old way) -- PRs that break backward compatibility have less chance to be merged.
+- Try hard to not break backward compatibility (if you must do so, try to provide a compatibility layer to support the old way) -- PRs that break backward compatibility have less chance to be merged as they can only be considered in a major release.
 
 ## Step 6: Migrations needed?
 
@@ -198,14 +204,14 @@ All code contributions (especially enhancements/features) should include adequat
 Before submitting your PR, update your branch (needed if it takes you a while to finish your changes):
 
 ```
-git checkout features
+git checkout 4.x
 git fetch upstream
-git merge upstream/features
+git merge upstream/4.x
 git checkout BRANCH_NAME
-git rebase features
+git rebase 4.x
 ```
 
-! Replace `features` with the branch you selected previously (e.g. `3.2`) if you are working on a bug fix.
+! Replace `4.x` with the branch you selected previously (e.g. `4.0`) if you are working on a bug fix.
 
 When doing the rebase command, you might have to fix merge conflicts. git status will show you the unmerged files. Resolve all the conflicts, then continue the rebase:
 
@@ -224,24 +230,24 @@ git push --force origin BRANCH_NAME
 
 You can now make a pull request on the `mautic/mautic` GitHub repository.
 
-! Take care to point your pull request towards `mautic:3.2` if you want the core team to pull a bug fix based on the `3.2` branch.
+! Take care to point your pull request towards `mautic:4.0` if you want the core team to pull a bug fix based on the `4.0` branch.
 
-To ease the core team work, always include the modified components in your pull request message and provide steps how to test your fix/feature. Keep in mind that not all testers have a thorough knowledge of all of Mautic's features, therefore clear testing steps are crucial!
+To ease the core team work, always include the modified components in your pull request message and provide steps how to test your fix/feature. Keep in mind that not all testers have a thorough knowledge of all of Mautic's features, nor are they all likely to be developers, therefore clear testing steps are crucial!
 
 ## Step 9: Receiving feedback
 
-We ask all contributors to follow some best practices (TODO LINK) to ensure a constructive feedback process.
+We ask all contributors to follow some best practices to ensure a constructive feedback process.
 
 If you think someone fails to keep this advice in mind and you want another perspective, please join the #dev channel on Mautic Slack.
 
-The [product team][product-team] is responsible for deciding which PRs get merged, so their feedback is the most relevant. So do not feel pressured to refactor your code immediately when someone provides feedback.
+The [product team][product-team] is responsible for deciding which PRs get merged, so their feedback is the most relevant. So, do not feel pressured to refactor your code immediately when someone provides feedback, wait for the product team to review.
 
 ### Rework your Pull Request
 
-Based on the feedback on the pull request, you might need to rework your PR. Before re-submitting the PR, rebase with `upstream/staging` or `upstream/3.0`, don't merge; and force the push to the origin:
+Based on the feedback on the pull request, you might need to rework your PR. Before re-submitting the PR, rebase with `upstream/4.x` or `upstream/4.0`, don't merge; and force the push to the origin:
 
 ```
-git rebase -f upstream/features
+git rebase -f upstream/4.x
 git push --force origin BRANCH_NAME
 ```
 
@@ -255,7 +261,7 @@ If you want to test Pull Request from other developers, see [Testing Pull Reques
 
 ### Automated Testing
 
-Mautic uses [Codeception][codeception], [PHPUnit][php-unit], and [Selenium][selenium] as our suite of testing tools. 
+Mautic uses [PHPUnit][php-unit] and [Selenium][selenium] as our suite of testing tools. 
 
 #### PHPUnit
 
@@ -280,47 +286,6 @@ To run a specific test:
 bin/phpunit --bootstrap vendor/autoload.php --configuration app/phpunit.xml.dist --filter "/::testVariantEmailWeightsAreAppropriateForMultipleContacts( .*)?$/" Mautic\EmailBundle\Tests\EmailModelTest app/bundles/EmailBundle/Tests/Model/EmailModelTest.php
 ```
 
-#### Codeception/Selenium
-
-If you plan on running the acceptance test suite, you'll need to have the Selenium Server Standalone installed and the Chrome WebDriver available locally.
-
-##### Mac OS
-
-If you're on a Mac and you use [Homebrew][homebrew], you can install Selenium by running `brew install selenium-server-standalone`.
-
-You'll also need to download the latest [Chrome WebDriver][chrome-web-driver] which can also be installed with:
-
-`brew cask install chromedriver`
-
-If installing manually, Unzip and move the `chromedriver` file to `/usr/local/Cellar/selenium-server-standalone/drivers/chromedriver`.
-
-Once you have Selenium installed and the WebDriver available at the specified location, open and modify the plist file found at `/usr/local/Cellar/selenium-server-standalone/3.5.3/homebrew.mxcl.selenium-server-standalone.plist`.
-
-In the `<dict><array>` block under `ProgramArguments`, add the following after the line containing `<string>-jar</string>`"
-
-```xml
-...
-<string>-Dwebdriver.chrome.driver=/usr/local/Cellar/selenium-server-standalone/drivers/chromedriver</string>
-...
-```
-
-> If installing via Homebrew, the path to use will be: /usr/local/bin/chromedriver
-
-With that completed, you may now start the Selenium server using `brew services start selenium-server-standalone`.
-
-##### Other Platforms
-
-Follow the standard installation procedure for Selenium server standalone. Ensure that you have the chrome driver
-available, and startup the server with the following command:
-
-```sh
-java -jar -Dwebdriver.chrome.driver=/path/to/chromedriver /full/path/to/selenium-server-standalone.3.x.x.jar
-```
-
-##### Executing Tests
-
-All test suites can be executed by running `bin/codecept run` from the project root. Optionally, you can specify running just the `acceptance`, `functional`, or `unit` test suites by adding one of those words after the `run` command.
-
 ### Static Analysis
 
 Mautic uses [PHPSTAN][phpstan] for some of its parts during continuous integration tests. If you want to test your specific contribution locally, install PHPSTAN globally with `composer global require phpstan/phpstan-shim`. 
@@ -336,10 +301,6 @@ Mautic cannot have PHPSTAN as its dev dependency, because it requires PHP7+. To 
 [mautic-docs]: <https://github.com/mautic/documentation>
 [developer-docs]: <https://developer.mautic.org/>
 [testing-prs]: </contributing-to-mautic/developer/community-reviews#the-pull-request-review-process>
-[codeception]: <https://codeception.com>
-[selenium]: <http://www.seleniumhq.org>
-[homebrew]: <https://brew.sh>
-[chrome-web-driver]: <https://sites.google.com/a/chromium.org/chromedriver/downloads>
 [phpstan]: <https://github.com/phpstan/phpstan>
 [open-issues-github]: <https://github.com/mautic/mautic/issues?q=is%3Aopen+>
 [roadmap]: <https://forum.mautic.org/t/mautic-roadmap-discussion/13760>
