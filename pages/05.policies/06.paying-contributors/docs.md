@@ -85,7 +85,7 @@ Inspiration has been drawn from numerous sources including:
 [eslint]: <https://eslint.org/blog/2020/10/year-paying-contributors-review>
 [drupal]: <https://www.drupal.org/governance/d8accelerate>
 [bountysource]: </product-team/mautic-bounty-programme>
-[rfp-process]: </product-team/rfp-process>
+[rfp-process]: </product-team/request-for-proposals-rfp-process>
 [ardupilot]: <https://ardupilot.org/dev/docs/how-the-team-works-development-fund.html>
 [rudderstack]: <https://dev.to/rudderstack/devs-wanted-get-paid-to-contribute-to-rudderstack-s-open-source-software-bjp>
 [obs]: <https://github.com/obsproject/obs-studio/wiki/OBS-Project-Bounty-Program>
