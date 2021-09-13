@@ -61,6 +61,15 @@ The Mautic policy on recognizing sponsors and partners on mautic.org, in the Mau
 6. Partners will be announced on social media and email when they become a partner, announcing their joining of the programme.
 7. Partners will be featured in the email template of the Mautic Community Newsletter with a logo and link to their partners landing page.
 8. The top three partners each month will be listed on the mautic.org homepage with a link to their partners landing page.
+    
+## Credits
+
+This policy is based on those used by several other Open Source communities including:
+
+Eclipse: https://www.eclipse.org/org/documents/Recognizing_Project_Contributions_Policy_2008.pdf
+
+KDE: https://ev.kde.org/rules/thankyou_policy/
+
 
 [sponsors]: <https://mautic.org/sponsors>
 [partners]: <https://mautic.org/mautic-community-partners>
