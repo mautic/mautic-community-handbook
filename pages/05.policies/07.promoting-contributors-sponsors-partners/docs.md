@@ -1,5 +1,5 @@
 ---
-title: 'Policy for recognising contributors, sponsors and partners'
+title: 'Recognising contributors, sponsors and partners'
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
