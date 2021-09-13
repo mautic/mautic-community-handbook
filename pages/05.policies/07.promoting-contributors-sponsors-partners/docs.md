@@ -66,11 +66,13 @@ The Mautic policy on recognizing sponsors and partners on mautic.org, in the Mau
 
 This policy is based on those used by several other Open Source communities including:
 
-Eclipse: https://www.eclipse.org/org/documents/Recognizing_Project_Contributions_Policy_2008.pdf
+Eclipse: [https://www.eclipse.org/org/documents/Recognizing_Project_Contributions_Policy_2008.pdf][eclipse]
 
-KDE: https://ev.kde.org/rules/thankyou_policy/
+KDE: [https://ev.kde.org/rules/thankyou_policy/][kde]
 
 
 [sponsors]: <https://mautic.org/sponsors>
 [partners]: <https://mautic.org/mautic-community-partners>
 [github]: <https://github.com/mautic>
+[eclipse]: <https://www.eclipse.org/org/documents/Recognizing_Project_Contributions_Policy_2008.pdf>
+[kde]: <https://ev.kde.org/rules/thankyou_policy/>
