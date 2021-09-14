@@ -62,13 +62,13 @@ Before running these commands, please make a backup of your database.
 
 If updating from [a tagged release][tagged-releases] to a tagged release, schema changes will be included in a migrations file. To apply the changes, run
 
-    $ php app/console doctrine:migrations:migrate
+    $ php bin/console doctrine:migrations:migrate
 
 If you are updating to the latest source (remember this is alpha), first run
 
     $ php bin/console doctrine:schema:update --dump-sql
 
-This will list out the queries Doctrine wants to execute in order to get the schema up-to-date (no queries are actually executed). Review the queries to ensure there is nothing detrimental to your data. If you have doubts about a query, submit an issue here and we'll verify it.
+This will list out the queries Doctrine wants to execute in order to get the schema up-to-date (no queries are actually executed). Review the queries to ensure there is nothing detrimental to your data. 
 
 If you're satisfied with the queries, execute them with
 
@@ -80,9 +80,9 @@ Your schema should now be up-to-date with the source.
 
 Mautic downloaded from GitHub has the development environment. You can access it by adding `index_dev.php` after the Mautic URL. Eg. `http://localhost/mautic/index_dev.php/s/`. Or in case of CLI commands, add `--env=dev` attribute to it.
 
-This development environment will display the PHP errors, warnings and notices directly as the output so you don't have to open the log to see them. It will also load for example translations without cache, so every change you make will be visible without clearing it. The only changes which require clearing the cache are in the `config.php` files.
+This development environment will display the PHP errors, warnings and notices directly as the output, so you don't have to open the log to see them. It will also load for example translations without cache, so every change you make will be visible without clearing it. The only changes which require clearing the cache are in the `config.php` files.
 
-In case of assets like JS, CSS, the source files are loaded instead of concatenated, minified files. This way the changes in those files will be directly visible on refresh. If you'd wanted to see the change in the production environment, you'd have to have run the `app/console mautic:assets:generate` command.
+In case of assets like JS, CSS, the source files are loaded instead of concatenated, minified files. This way the changes in those files will be directly visible on refresh. If you'd wanted to see the change in the production environment, you'd have to have run the `bin/console mautic:assets:generate` command.
 
 In many cases, the CSS files are built from LESS files. To compile the changes in the LESS files, run `grunt compile-less` command.
 
