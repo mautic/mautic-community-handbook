@@ -169,7 +169,7 @@ Generated new migration class to "/var/www/html/app/migrations/Version2020101719
 
 2. Open the file that was just created. You will see it has two functions, `preUp()` and `up()`.
   - `preUp()` allows you to define scenarios where the migration should or should not run (e.g. only when a certain database table exists).
-  - `up()` runs the actual migration and allows you to do changes in Mautic's database. You can either take inspiration from other migrations in the `app/migrations` folder or learn more about migrations in [Doctrine's documentation](doctrine-migrations-docs).
+  - `up()` runs the actual migration and allows you to do changes in Mautic's database. You can either take inspiration from other migrations in the `app/migrations` folder or learn more about migrations in [Doctrine's documentation][doctrine-migrations-docs].
 
 3. When you're done, test your migration(s) by running `migrations:execute --up VERSION`. If all looks good, you can roll back your changes with `migrations:execute --down VERSION`.
 
@@ -313,4 +313,4 @@ Mautic cannot have PHPSTAN as its dev dependency, because it requires PHP7+. To 
 [semver]: <https://semver.org/>
 [product-team]: <https://contribute.mautic.org/product-team>
 [example-migration]: <https://github.com/mautic/mautic/pull/8134/files>
-[doctrine-migrations-docs]: <https://www.doctrine-project.org/projects/doctrine-migrations/en/2.1/index.html>
+[doctrine-migrations-docs]: <https://symfony.com/bundles/DoctrineMigrationsBundle/current/index.html>
