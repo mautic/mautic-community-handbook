@@ -1,5 +1,13 @@
 ---
 title: Meetings
+taxonomy:
+    category:
+        - docs
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+personenabled: false
+facebookenable: true
 ---
 
 # Meetings
