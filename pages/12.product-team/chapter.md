@@ -1,5 +1,13 @@
 ---
 title: 'Product Team'
+taxonomy:
+    category:
+        - docs
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+personenabled: false
+facebookenable: true
 ---
 
 # Product Team
