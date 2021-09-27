@@ -3,12 +3,12 @@ title: 'Getting help in a crisis'
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
-orgaenabled: false
-orga:
-    ratingValue: 2.5
-orgaratingenabled: false
+orga: {  }
 personenabled: false
 facebookenable: true
+taxonomy:
+    category:
+        - docs
 ---
 
 As a community we should to be aware of the signs of distress or dysfunction among our colleagues, and be willing to take action to help them. Changes in mental state can be extremely rapid especially when combined with drugs / alcohol, and since we are all more closely connected to one another we may be aware of a problem sooner than those physically close to someone, or their family.
