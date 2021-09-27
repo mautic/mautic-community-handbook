@@ -5,12 +5,12 @@ slug: governance
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
-orgaenabled: false
-orga:
-    ratingValue: 2.5
-orgaratingenabled: false
+orga: {  }
 personenabled: false
 facebookenable: true
+taxonomy:
+    category:
+        - docs
 ---
 
 Following the [acquisition of Mautic Inc. by Acquia in May 2019][acquisition-announcement] which included all assets relating to the Mautic community, a governance model was proposed and adopted following a period of community consultation.
