@@ -1,5 +1,13 @@
 ---
 title: 'Use of Community Tools & Resources'
+taxonomy:
+    category:
+        - docs
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+personenabled: false
+facebookenable: true
 ---
 
 ## Why do we need this policy?
