@@ -4,12 +4,12 @@ media_order: Mautic-tm.jpg
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
-orgaenabled: false
-orga:
-    ratingValue: 2.5
-orgaratingenabled: false
+orga: {  }
 personenabled: false
 facebookenable: true
+taxonomy:
+    category:
+        - docs
 ---
 
 >>> To report a trademark infringement, make a request for a license, ask a question or to join the team, please use [this form][submit-request].
