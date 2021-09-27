@@ -5,6 +5,9 @@ twittercardoptions: summary
 articleenabled: false
 personenabled: false
 facebookenable: true
+taxonomy:
+    category:
+        - docs
 ---
 
 ## Background information
