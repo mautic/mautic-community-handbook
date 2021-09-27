@@ -3,12 +3,12 @@ title: 'Community Dashboard'
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
-orgaenabled: false
-orga:
-    ratingValue: 2.5
-orgaratingenabled: false
+orga: {  }
 personenabled: false
 facebookenable: true
+taxonomy:
+    category:
+        - docs
 ---
 
 The Community Dashboard uses the open-source [GrimoireLab](https://chaoss.github.io/grimoirelab/) tool to import, analyze and visualize data from multiple sources in one central location.
