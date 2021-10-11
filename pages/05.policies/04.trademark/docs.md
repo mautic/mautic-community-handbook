@@ -68,7 +68,7 @@ You may identify a Mautic product or service in text or indicate your product or
 ## 8.  Promotional Use
 If your business has developed products and/or services that contribute to the installation, configuration, implementation and use of Mautic, we encourage you to promote it. We also encourage the inclusion of links to Mautic.org on such web pages or emails. The Mautic community becomes richer when the community contributes to the project in this way.
 
-The Mautic name and approved logo may be included in content that describes the products and services that are offered by your business and when it resides on pages that clearly articulate them. To access authorized Mautic community branding resources, click here.
+The Mautic name and approved logo may be included in content that describes the products and services that are offered by your business and when it resides on pages that clearly articulate them. To access authorized Mautic community branding resources, [click here][logos-graphics].
 
 ## 9.  Automatic License or License Grant Procedure?
 This section explains whether you are entitled to an automatic license (in which case you can use the Mautic Trademarks without having to complete or receive any document), or whether you need to follow the license grant procedure. You will only be entitled to an automatic license when you are in any of the situations described under subsection A below, and not simultaneously in any of the situations described under subsection B below.
