@@ -11,9 +11,9 @@ taxonomy:
 
 This page will guide you through setting up your local environment to use and develop for Mautic.
 
-## Development / Build process requirements
+## Development / build process requirements
 
-! We recommend working with DDEV since it includes almost all required software out of the box (PHP, Composer, MySQL) and has some handy features like MailHog, PHPMyAdmin, dynamic PHP version switching and much more. Mautic-specific installation instructions for DDEV can be found [here][mautic-ddev].
+>>>>>> We recommend working with [DDEV][mautic-ddev] since it includes almost all required software out of the box (PHP, Composer, MySQL) and has some handy features like MailHog, PHPMyAdmin, dynamic PHP version switching and much more. Mautic-specific installation instructions for DDEV can be found [here][mautic-ddev].
 
 1. Mautic uses Git as a version control system. Download and install git for your OS from https://git-scm.com/.
 2. Install a server, PHP and MySql to be able to run Mautic locally. You can use [DDEV][mautic-ddev] (recommended) or an [AMP package for your OS][amp-packages].
@@ -37,19 +37,20 @@ This page will guide you through setting up your local environment to use and de
 2. Change directory to the server root (i.e. `cd /var/www` if your local server root is at /var/www).
 3. Clone the repository (`git clone https://github.com/mautic/mautic.git`)
 4. The **mautic** directory should appear in the server root. Change directory to mautic directory (`cd mautic`).
-5. Install dependencies (`composer install`).
-6. Visit Mautic in a browser (probably at http://localhost/mautic) and follow installation steps.
+5. Install dependencies (`composer install`) if you are not using DDEV. If you're using DDEV, type `ddev start`.
+6. Visit Mautic in a browser (probably at http://localhost/mautic site) and follow installation steps.
+7. If you're using DDEV, allow Mautic to be set up by the installer, then access the instance at https://mautic.ddev.
 
 ## Keeping Up-To-Date
 
 ### Source Files
 
 Each time you update Mautic's source after the initial setup/installation via a new checkout, download, git pull, etc; you will need to clear the cache. To do so, run the following command:
-
+```bash
 	$ cd /your/mautic/directory
 
 	$ php bin/console cache:clear
-
+```
 (Note that if you are accessing Mautic through the dev environment (via index_dev.php), you would need to add `--env=dev` to the command).
 
 ### Vendors
@@ -80,7 +81,7 @@ Your schema should now be up-to-date with the source.
 
 Mautic downloaded from GitHub has the development environment. You can access it by adding `index_dev.php` after the Mautic URL. Eg. `http://localhost/mautic/index_dev.php/s/`. Or in case of CLI commands, add `--env=dev` attribute to it.
 
-This development environment will display the PHP errors, warnings and notices directly as the output, so you don't have to open the log to see them. It will also load for example translations without cache, so every change you make will be visible without clearing it. The only changes which require clearing the cache are in the `config.php` files.
+This development environment will display the PHP errors, warnings and notices directly as the output, so you don't have to open the log to see them. It will also load, for example, translations without cache, so every change you make will be visible without clearing it. The only changes which require clearing the cache are in the `config.php` files.
 
 In case of assets like JS, CSS, the source files are loaded instead of concatenated, minified files. This way the changes in those files will be directly visible on refresh. If you'd wanted to see the change in the production environment, you'd have to have run the `bin/console mautic:assets:generate` command.
 
