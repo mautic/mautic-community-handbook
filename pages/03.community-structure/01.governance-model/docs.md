@@ -74,11 +74,11 @@ Some examples of how this casting vote might be called into effect could include
 * Feature prioritisation – if a particular feature needs to be prioritised the Project Lead can instruct Acquia employees to work on developing that feature  
 
 ## Finance and budget
-In the interim stage, any budgets required by the community (for example to organise a Community Sprint) are to be proposed as an individual business case via the Team Leads and reviewed by Acquia.
+Mautic now uses the [Open Collective][open-collective] to manage its finances.
 
-Once the structure becomes established, the Team Leads will be responsible for reviewing their team’s spend over the previous year and preparing a budget for the following year, which will be proposed to the Mautic Community Council. The Council will review all requests and prepare a Community Budget Proposal which will be presented to Acquia for approval.
+Each year, team leads make a budget request for the coming year, which are reviewed by the Community Council. A Community Budget is prepared and adopted by the council.
 
-This budget would, once approved, be allocated by Acquia and managed by the Team Leads, with support from the Project Lead and Community Manager.
+Transactions on the Open Collective are open and visible to all.
 
 ## About Mautic’s Core team
 Development is open and available to any member of the Mautic community. All fixes and improvements are done through pull requests to the code. This code is open source and publicly available. Pull requests and code submissions are decided upon by the release leader and the core team. When a decision is not clearly evident then the following voting process will be implemented.
@@ -197,5 +197,6 @@ Inspiration and examples have been drawn from several Open Source projects and g
 [project-lead-definition]: </community-leadership/leadership-role-definitions#project-lead>
 [cm-definition]: </community-leadership/leadership-role-definitions#community-manager>
 [drupal-governance]: <https://www.drupal.org/governance>
+[open-collective]: <https://opencollective.com/mautic>
 [ubuntu-governance]: <https://ubuntu.com/community/governance>
 [joomla-governance]: <https://www.opensourcematters.org/organisation.html>
