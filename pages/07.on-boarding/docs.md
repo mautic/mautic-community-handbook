@@ -23,14 +23,21 @@ While each team will have some aspects of the on-boarding process in common, the
 
 ## General on-boarding - tools
 
-1. Anybody involved with the Mautic Community will need a Slack account - go to [mautic.org/slack](mautic.org/slack) to sign up.
+1. Anybody involved with the Mautic Community will need a Slack account - go to [mautic.org/slack][mautic-slack] to sign up.
 
-2. Anybody contributing to Mautic teams will need to have a Google account, so that they can save their work in the shared [Google Drive folder](https://drive.google.com/drive/folders/1KqjqRkbRoAyWLd_zbYdcP8NFtS10kAwI?usp=sharing).
+2. Anybody contributing to Mautic teams will need to have a Google account, so that they can save their work in the shared [Google Drive folder][google-drive].
 
-3. The Mautic Community use Jira for task management in all teams. Go to [mautic.atlassian.net](https://mautic.atlassian.net) and sign up for a new account (free of charge). If you need any help please ask in #community on SIack.
+3. The Mautic Community use Jira for task management in all teams. Go to [mautic.atlassian.net][mautic-jira] and sign up for a new account (free of charge). If you need any help please ask in #community on Slack.
 
-4. Anybody who is involved in code-based contributions will need to sign the Mautic Contributors Agreement, which can be done online [here](https://www.mautic.org/contributor-agreement/).
+4. Anybody who is involved in code-based contributions will need to sign the Mautic Contributors Agreement, which can be done online [here][contributors-agreement].
 
-5. Anybody who is involved with code, QA, testing or providing feedback will need to have a GitHub account, sign up at [github.com](https://github.com/join).
+5. Anybody who is involved with code, QA, testing or providing feedback will need to have a GitHub account, sign up at [github.com][github-signup].
+
+[mautic-slack]: <https://mautic.org/slack>
+[google-drive]: <https://drive.google.com/drive/folders/1OrwJXmDrrlWK3f9nxRuru0YjS7-W-1-e?usp=sharing>
+[mautic-jira]: <https://mautic.atlassian.net>
+[contributors-agreement]: <https://www.mautic.org/contributor-agreement/>
+[github-signup]: <https://github.com/join>
+
 
 
