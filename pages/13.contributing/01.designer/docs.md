@@ -28,6 +28,7 @@ Some areas you may want to consider include:
 - Contributing to Strategic Initiatives by designing the user experience for new features
 - Improving the user documentation by creating illustrations or images that complement the written information
 - Building a pattern library to standardise the UI patterns used in Mautic
+- Joining the User Experience Tiger Team
 
 ## Getting started
 

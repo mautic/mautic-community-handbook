@@ -34,6 +34,11 @@ We also need UX designers to help us when we're bringing in new features to Maut
 Find out [how to get involved][designer].
 
 ### [Developer][developer]
+As a developer you can contribute to Mautic by reporting and fixing bugs, working on new features as part of Strategic Initiatives or community projects, test and code-review pull requests, creating demo plugins or applications to share with other developers who might want to get started with Mautic, and help us to improve our developer documentation.
+
+We also need developers to help us with maintaining and improving our web-based resources, such as the main mautic.org website and our Grav-based documentation websites.
+
+Find out [how to get involved][developer].
 
 ### [Marketer][marketer]
 
