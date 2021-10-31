@@ -24,7 +24,7 @@ Everybody in the Mautic Community needs to read, and agree to abide by, our [Cod
 
 We have developed formalized processes for contributing as a designer, developer, marketer, tester, translator and writer. We're an open and evolving project, so if you don't fit into any of these roles, please let us know and we will work with you to create it!
 
-You must join our Slack workspace first before contributing. Get an invite at [mautic.org/slack][mautic-slack].
+>>>>> You must join our Slack workspace first before contributing. Get an invite at [mautic.org/slack][mautic-slack].
 
 ### [Designer][designer]
 There are many opportunities for designers to get involved with the Mautic Community. Some examples of tasks that you might work on include creating logos or icon sets for use in promotional material, designing a pitch deck to help people promote Mautic, and creating imagery for use at events or in social media/email campaigns.
