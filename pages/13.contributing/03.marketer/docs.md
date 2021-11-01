@@ -42,8 +42,7 @@ Please always ensure that you upload your work at regular (ideally daily) interv
 
 #### Update regularly
 
-Please make sure you provide regular updates on the card, and if at any point you're not going to be able to complete the task, please call that out in a comment on the card (or send your Team Lead a message to inform them) so that somebody else can pick it up. 
-
+Please make sure you provide regular updates on the issue in Jira, and if at any point you're not going to be able to complete the task, please call that out in a comment on the issue (or send your Team Lead a message to inform them) so that somebody else can pick it up. 
 
 We totally understand that life happens and it's easy to take on too much. No judgement at all! We try to be respectful of each other by ensuring we give as much notice as possible if we're not going to be able to fulfil a task assigned to us.
 
@@ -51,4 +50,4 @@ We totally understand that life happens and it's easy to take on too much. No ju
 [marketing-slack]: <https://mautic.slack.com/archives/CQVHG9X1N>
 [tmar-jira]: <https://mautic.atlassian.net/browse/TMAR>
 [mtec-jira]: <https://mautic.atlassian.net/browse/MTEC>
-[gdrive]: <https://drive.google.com/drive/folders/1KqjqRkbRoAyWLd_zbYdcP8NFtS10kAwI?usp=sharing>
+[gdrive]: <https://drive.google.com/drive/folders/1OrwJXmDrrlWK3f9nxRuru0YjS7-W-1-e?usp=sharing>

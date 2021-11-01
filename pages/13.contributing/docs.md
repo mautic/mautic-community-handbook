@@ -41,6 +41,13 @@ We also need developers to help us with maintaining and improving our web-based 
 Find out [how to get involved][developer].
 
 ### [Marketer][marketer]
+Help us to tell the world how awesome Mautic is! Marketers can help the Marketing Team in a range of areas from planning and executing campaigns, managing our paid advertising accounts, writing content for our website, supporting the monthly newsletter and more.
+
+We also need marketers to support our release cycle, helping to get the message out about exciting new features and important information about new releases.
+
+Find out [how to get involved][marketer]
+
+
 
 ### Tester
 
