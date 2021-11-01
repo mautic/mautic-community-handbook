@@ -36,25 +36,25 @@ Once you have access, you can assign yourself to a task.
 
 Please try to chunk down larger tasks into sub-tasks, and then work on each sub-task in turn. You can add comments to the main top-level task, which makes it easier for people to keep up to date with progress.
 
-### Supporting a specific event
+## Supporting a specific event
 
 If you would like to support a specific event, the best thing to do is find out who is leading that project, and join the relevant public Slack channel to let people know you'd like to get involved. You may need to get an invite to the working group channel, as these are often private channels.
 
 Events like Mautic Conferences will tend to have their own Jira board and meeting cadence outside of the Community Team's regular meetings, you will be able to find this out from the Slack channel.
 
-### Starting an event
+## Starting an event
 
 If you want to start an event in your region, awesome!  We have some clear guidelines around what events are called which you can find [here][community-events].  Determine which kind of event you'd like to run, and then discuss your ideas with the Community Team leadership.  
 
-We highly recommend building a team if you're planning on organising any kind of event, whether it's a Mautic Meetup or a MautiCamp or something bigger.  There is a lot of work involved in running events, and having more than one person in the team makes it a much more sustainable process to organise.
+We highly recommend building a team if you're planning on organizing any kind of event, whether it's a Mautic Meetup or a MautiCamp or something bigger.  There is a lot of work involved in running events, and having more than one person in the team makes it a much more sustainable process to organize.
 
-### Work in the public domain
+## Work in the public domain
 
 Unless there is significant reason not to, we default to being open and transparent.  We work in the open, usually on our shared [Google Drive folder][gdrive].  This ensures that if - for whatever reason - someone is unable to complete a task, it is easy for another contributor to pick up where they left off.  It also means we can always find previous work that had been done if it needs to be re-used in the future.
 
 Please always ensure that you upload your work at regular (ideally daily) intervals. You can use the prefix of WIP-filename to indicate that it is currently in progress.
 
-### Update regularly
+## Update regularly
 
 Please make sure you provide regular updates on the issue in Jira, and if at any point you're not going to be able to complete the task, please call that out in a comment on the issue (or send your Team Lead a message to inform them) so that somebody else can pick it up. 
 
