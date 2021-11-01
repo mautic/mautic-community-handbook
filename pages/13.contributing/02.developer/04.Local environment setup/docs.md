@@ -15,11 +15,12 @@ This page will guide you through setting up your local environment to use and de
 
 >>>>>> We recommend working with [DDEV][mautic-ddev] since it includes almost all required software out of the box (PHP, Composer, MySQL) and has some handy features like MailHog, PHPMyAdmin, dynamic PHP version switching and much more. Mautic-specific installation instructions for DDEV can be found [here][mautic-ddev].
 
-1. Mautic uses Git as a version control system. Download and install git for your OS from https://git-scm.com/.
+1. Mautic uses Git as a version control system. Download and install git for your OS from [https://git-scm.com/][git].
 2. Install a server, PHP and MySql to be able to run Mautic locally. You can use [DDEV][mautic-ddev] (recommended) or an [AMP package for your OS][amp-packages].
-3. Install [Composer][composer] (if not using DDEV), the dependency manager for PHP.
+3. Install [Composer][composer], the dependency manager for PHP.
 4. Install [NPM][npm].
 5. Install [Grunt][grunt].
+6. Install [GitHub CLI][github-cli]
 
 ## Mautic requirements
 
@@ -35,7 +36,7 @@ This page will guide you through setting up your local environment to use and de
 
 1. Open a Terminal/Console window.
 2. Change directory to the server root (i.e. `cd /var/www` if your local server root is at /var/www).
-3. Clone the repository (`git clone https://github.com/mautic/mautic.git`)
+3. Clone the repository (`gh repo clone mautic/mautic`)
 4. The **mautic** directory should appear in the server root. Change directory to mautic directory (`cd mautic`).
 5. Install dependencies (`composer install`) if you are not using DDEV. If you're using DDEV, type `ddev start`.
 6. Visit Mautic in a browser (probably at http://localhost/mautic site) and follow installation steps.
@@ -94,3 +95,5 @@ In many cases, the CSS files are built from LESS files. To compile the changes i
 [grunt]: <http://gruntjs.com/>
 [tagged-releases]: <https://github.com/mautic/mautic/releases>
 [mautic-ddev]: <https://www.mautic.org/blog/developer/local-mautic-development-with-ddev>
+[git]: <https://git-scm.com/>
+[github-cli]: <https://cli.github.com>
