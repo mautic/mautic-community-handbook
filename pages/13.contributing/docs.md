@@ -47,13 +47,26 @@ We also need marketers to support our release cycle, helping to get the message 
 
 Find out [how to get involved][marketer]
 
+### [Tester][tester]
+Every new feature and bug fix has to be reviewed and tested by members of the Mautic Community.  It's a great way to get started and makes a real difference to how quickly we can release bug fixes and features. If you have a basic knowledge of Mautic, you can help us as a tester!
 
+We also have a suite of automated tests which check the code to ensure that it hasn't broken any part of the product which is covered with tests.  If you come from a QA/QE background we would also love your help to improve our processes and workflows.
 
-### Tester
+Find out [how to get involved][tester]
 
 ### [Translator][translator]
+Mautic is currently available in 67 languages, which are all maintained by volunteers from around the world giving their time to translate Mautic into other languages.  If you would like to help with this effort by translating or reviewing Mautic, or helping to internationalize other resources in the Mautic project, we'd love to have your help!
 
-### Writer
+Find out [how to get involved][translator]
+### [Writer][writer]
+
+### [Community builder][community]
+
+### [Event organiser][events]
+
+### [Web developer][web-developer]
+
+### [Server administrator][server-admin]
 
 ## Contributing financially
 
@@ -64,6 +77,12 @@ If you would like to financially support the Mautic Community you can do so via 
 [designer]: </contributing-to-mautic/designer>
 [developer]: </contributing-to-mautic/developer>
 [marketer]: </contributing-to-mautic/marketer>
+[tester]: </contributing-to-mautic/tester>
 [translator]: </contributing-to-mautic/translator>
+[writer]:</contributing-to-mautic/writer>
+[community]:</contributing-to-mautic/community-builder>
+[events]:</contributing-to-mautic/event-organizer>
+[web-developer]:</contributing-to-mautic/web-developer>
+[server-admin]: </contributing-to-mautic/server-admin>
 [gh-sponsors]: <https://github.com/sponsors/mautic>
 [open-collective]: <https://www.opencollective.com/mautic>
