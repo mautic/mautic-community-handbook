@@ -59,15 +59,30 @@ Mautic is currently available in 67 languages, which are all maintained by volun
 
 Find out [how to get involved][translator]
 ### [Writer][writer]
+Content makes the world go round, right?!  We have many opportunities for writers to support the Mautic Community, whether that be through writing, proofreading and editing content for our website, reviewing and optimising existing pages, creating compelling content for our marketing and communications or supporting the Education Team as a technical writer.
+
+Find out [how to get involved][writer]
 
 ### [Community builder][community]
+Our community is at the heart of Mautic, and community builders are the people who help us to grow and nurture that community.  The Community Team have quite a wide remit, and there are a lot of opportunities to get involved with supporting Mautic as a community builder.  Whether you want to support local communities or help people to get started as a contributor, or want to find ways to reach out into other open source communities, we've got lots of ways to get involved.
 
+Find out [how to get involved][community]
 ### [Event organiser][events]
+Events are the beating heart of a thriving open source community, and we have quite a lot of them happening throughout the year!  We hold an in-person event annually which moves continent each year, in addition to Mautic Conference Global which is held virtually.  Local communities can also host a MautiCamp event - a localised conference for people in that region - and Mautic Meetups which are smaller monthly gatherings of Mauticians.
 
+Whether you want to help with the big international events or the regional and local events, there are lots of opportunities to put your expertise to good use and help bring Mauticians together in-person, online, or in a combination of the two.
+
+Find out [how to get involved][events]
 ### [Web developer][web-developer]
+The Mautic Community has several web assets which require regular updates, improvements and development of new features. If you're a keen web developer and have experience with Drupal or Grav, we'd love to hear from you!  While our website is hosted by Acquia, it is our responsibility to drive new developments and innovations. We'd love to build a web development team in the community specifically to look after our web properties and keep us moving forward.
 
+Find out [how to get involved][web-developer]
 ### [Server administrator][server-admin]
+Several of our services and websites run on servers which need supporting. Our infrastructure working group monitors and updates these servers, keeping them up to date with the latest security patches and updates.
 
+If you're an experienced Linux systems administrator and would like to support Mautic by maintaining our servers, we'd love to have your help!
+
+Find out [how to get involved][server-admin]
 ## Contributing financially
 
 If you would like to financially support the Mautic Community you can do so via [Github Sponsors][gh-sponsors] or [Open Collective][open-collective].
