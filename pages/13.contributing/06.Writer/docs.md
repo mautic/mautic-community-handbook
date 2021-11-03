@@ -41,6 +41,19 @@ The [developer documentation][dev-docs] is always looking for new contributors, 
 
 If there are no open issues covering the area you'd like to write on, please contact the Marketing or Education Team on Slack and explain what you'd like to write.
 
+## Work in the public domain
+
+Unless there is significant reason not to, we default to being open and transparent.  We work in the open, usually on our shared [Google Drive folder][gdrive].  This ensures that if - for whatever reason - someone is unable to complete a task, it is easy for another contributor to pick up where they left off.  It also means we can always find previous work that had been done if it needs to be re-used in the future.
+
+Please always ensure that you upload your work at regular (ideally daily) intervals. You can use the prefix of WIP-filename to indicate that it is currently in progress.
+
+## Update regularly
+
+Please make sure you provide regular updates on the issue in Jira, and if at any point you're not going to be able to complete the task, please call that out in a comment on the issue (or send your Team Lead a message to inform them) so that somebody else can pick it up. 
+
+We totally understand that life happens and it's easy to take on too much. No judgement at all! We try to be respectful of each other by ensuring we give as much notice as possible if we're not going to be able to fulfil a task assigned to us.
+
+
 [slack]: <https://mautic.org/slack>
 [jira-board]: <https://mautic.atlassian.net/browse/MTEC>
 [unsplash]: <https://www.unsplash.com>
@@ -49,3 +62,4 @@ If there are no open issues covering the area you'd like to write on, please con
 [kb]: <https://kb.mautic.org>
 [dev-blog]: <https://www.mautic.org/category/blog/developer>
 [dev-docs]: <https://developer.mautic.org>
+[gdrive]: <https://drive.google.com/drive/folders/1OrwJXmDrrlWK3f9nxRuru0YjS7-W-1-e?usp=sharing>
