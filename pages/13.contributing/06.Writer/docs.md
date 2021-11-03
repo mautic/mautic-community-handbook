@@ -12,7 +12,7 @@ taxonomy:
 ---
 
 ---
-We are always looking for people to help us with writing content for mautic.org, our marketing and communications, and our social media campaigns.  We also have a lot of technical writing opportunities in the Mautic Community, including our Knowledgebase, developer blog and developer documentation.
+We appreciate your interest in contributing to Mautic! Improving existing content is an excellent way to begin contributing. We are always looking for people to help us with writing content for our documentation, marketing and communications, and our social media campaigns.  We also have a lot of technical writing opportunities in the Mautic Community, including our [Knowledgebase][kb], [developers blog][dev-blog], and [developer documentation][dev-docs].
 
 As a project, we also apply to the Season of Docs each year - keep an eye on social media for future opportunities.
 
@@ -34,6 +34,10 @@ It helps if you can provide an image to use with the article. This must be royal
 
 ## Technical writers
 If you're a technical writer, or interested in writing content for a technically-minded audience, we have lots of tasks in the [Education Team's Jira board][edu-jira]. There are opportunities to write for the [Knowledgebase][kb] - which may include tutorials, best practice and examples of how to do specific things in Mautic. 
+
+You can also improve and update the content we have on our [User Guide][user-guide]. We suggest beginning with any section of the documentation that is unclear, out of date, or may benefit from more description or context.
+If you're reading a page of documentation and thinking, "I wish this page included more information" or "This is not the manner in which these function", then that is an excellent place to start! 
+
 
 We can also feature deep dive technical articles on the blog in the [developers section][dev-blog], including code examples and demo applications.
 
@@ -60,6 +64,7 @@ We totally understand that life happens and it's easy to take on too much. No ju
 [pixabay]: <https://www.pixabay.com>
 [edu-jira]: <https://mautic.atlassian.net/browse/TEDU>
 [kb]: <https://kb.mautic.org>
+[user-guide]: <https://docs.mautic.org/en>
 [dev-blog]: <https://www.mautic.org/category/blog/developer>
 [dev-docs]: <https://developer.mautic.org>
 [gdrive]: <https://drive.google.com/drive/folders/1OrwJXmDrrlWK3f9nxRuru0YjS7-W-1-e?usp=sharing>
