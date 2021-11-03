@@ -36,7 +36,7 @@ It helps if you can provide an image to use with the article. This must be royal
 If you're a technical writer, or interested in writing content for a technically-minded audience, we have lots of tasks in the [Education Team's Jira board][edu-jira]. There are opportunities to write for the [Knowledgebase][kb] - which may include tutorials, best practice and examples of how to do specific things in Mautic. 
 
 You can also improve and update the content we have on our [User Guide][user-guide]. We suggest beginning with any section of the documentation that is unclear, out of date, or may benefit from more description or context.
-If you're reading a page of documentation and thinking, "I wish this page included more information" or "This is not the manner in which these function", then that is an excellent place to start! 
+If you're reading a page of documentation and thinking, "I wish this page included more information" or "This is not the manner in which these function", then that is an excellent place to start contributing! 
 
 
 We can also feature deep dive technical articles on the blog in the [developers section][dev-blog], including code examples and demo applications.
