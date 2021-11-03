@@ -11,6 +11,8 @@ taxonomy:
 
 Developer documentation is available at [https://developer.mautic.org][developer-docs] and is generated using Slate.
 
+>>>> We are currently in the process of updating and re-platforming our developer documentation. If you'd like to help with this, please check [this issue][new-dev-docs].
+
 <!-- ## Table of Contents -->
 
 <!--
@@ -98,3 +100,4 @@ git push
 [developer-docs]: <https://developer.mautic.org>
 [github]: <https://github.com/>
 [slate-docs]: <https://github.com/slatedocs/slate/wiki/Markdown-Syntax>
+[new-dev-docs]: <https://github.com/mautic/developer-documentation-new/issues/2>

@@ -54,7 +54,7 @@ remove the first two lines
 
 ## Step 1: Check existing Issues and Pull Requests
 
-Before working on a change, check to see if someone else also raised the topic or maybe even started working on a PR by [searching on GitHub][open-issues-github].
+Before working on a change, check to see if someone else also raised the topic or maybe even started working on a PR by [searching on GitHub][open-issues-github].  You can also ask in the Product Team [Slack][mautic-slack] channel, #t-product.
 
 ## Step 2: Feature? Check the roadmap & Feature Requests
 
@@ -89,7 +89,19 @@ git clone https://github.com/USERNAME/mautic.git
 
 ### Choose the right branch
 
-Before working on a PR, you must determine on which branch you need to work. Mautic follows [Semantic Versioning][semver], which is best illustrated by an example. Let's say we just released a 4.0.0 version of Mautic, the following would apply:
+Before working on a PR, you must determine on which branch you need to work. Mautic follows [Semantic Versioning][semver], which is best illustrated by an example. 
+
+Assuming that:
+
+a = current major release
+b = current minor release
+c = future major release
+
+* a.x for any features and enhancements (e.g. 4.x)
+* a.b for any bug fixes (e.g. 4.0, 4.1, 4.2)
+* c.x for any features, enhancements or bug fixes with backward compatibility breaking changes (e.g. 5.x)
+
+Let's say we just released a 4.0.0 version of Mautic, the following would apply:
 
 |Mautic version|Breaking changes/features allowed?|New features/enhancements allowed?|Bug fixes allowed?|
 |---|---|---|---|
@@ -105,6 +117,12 @@ You can determine on which branch to work as follows:
 
 ### Install Mautic
 
+If you are using DDEV, simply type:
+`ddev start`
+and when prompted, allow Mautic to be set up automatically.
+
+If you are not using DDEV:
+
 - Go into your Mautic folder and install the PHP Composer dependencies:
 
 ```
@@ -112,12 +130,7 @@ cd mautic
 composer install
 ```
 
-- Open Mautic in your browser, for example by going to `http://localhost/mautic` or `https://mautic.ddev.site` depending on your environment, and follow the steps to install Mautic locally.
-
-
-Alternatively, if you are using DDEV, simply type:
-`ddev start`
-and when prompted, allow Mautic to be set up automatically.
+- Open Mautic in your browser, for example by going to `http://localhost/mautic` depending on your environment, if you want to install in the user interface. Follow the steps to [install Mautic][install-mautic] locally.
 
 ### Create a Topic Branch
 
@@ -139,7 +152,7 @@ Then create a new branch off the `4.0` branch to work on the bug fix:
 git checkout -b BRANCH_NAME 4.0
 ```
 
-! Use a descriptive name for your branch (issue_XXX where XXX is the issue number is a good convention for bug fixes).
+>>>>>> Use a descriptive name for your branch (issue_XXX where XXX is the issue number is a good convention for bug fixes).
 
 The above checkout commands automatically switch the code to the newly created branch (check the branch you are working on with `git branch`).
 
@@ -191,7 +204,7 @@ All code styling is handled automatically by the aforementioned git hook. If you
 
 ### Documentation 
 
-Each new feature should include a reference to a pull request in our [End User Documentation][mautic-docs] repository or [Developer Documentation][developer-docs] repository if applicable.  Any enhancements or bugfixes affecting the end-user or developer experience should also be accompanied by a PR updating the relevant resources in the Documentation.
+Each new feature should include a reference to a pull request in our [End User Documentation][mautic-docs] repository and/or [Developer Documentation][developer-docs] repository if applicable.  Any enhancements or bugfixes affecting the end-user or developer experience should also be accompanied by a PR updating the relevant resources in the Documentation.
 
 ### Writing tests
 
@@ -230,7 +243,7 @@ git push --force origin BRANCH_NAME
 
 You can now make a pull request on the `mautic/mautic` GitHub repository.
 
-! Take care to point your pull request towards `mautic:4.0` if you want the core team to pull a bug fix based on the `4.0` branch.
+>>>>> Take care to point your pull request towards `mautic:4.0` if you want the core team to pull a bug fix based on the `4.0` branch.
 
 To ease the core team work, always include the modified components in your pull request message and provide steps how to test your fix/feature. Keep in mind that not all testers have a thorough knowledge of all of Mautic's features, nor are they all likely to be developers, therefore clear testing steps are crucial!
 
@@ -238,9 +251,9 @@ To ease the core team work, always include the modified components in your pull 
 
 We ask all contributors to follow some best practices to ensure a constructive feedback process.
 
-If you think someone fails to keep this advice in mind and you want another perspective, please join the #dev channel on Mautic Slack.
+If you think someone fails to keep this advice in mind and you want another perspective, please join the #dev channel on [Mautic Slack][mautic-slack].
 
-The [product team][product-team] is responsible for deciding which PRs get merged, so their feedback is the most relevant. So, do not feel pressured to refactor your code immediately when someone provides feedback, wait for the product team to review.
+The [Product Team][product-team] is responsible for deciding which PRs get merged, so their feedback is the most relevant. So, do not feel pressured to refactor your code immediately when someone provides feedback, wait for the Product Team to review.
 
 ### Rework your Pull Request
 
@@ -251,13 +264,13 @@ git rebase -f upstream/4.x
 git push --force origin BRANCH_NAME
 ```
 
-! When doing a push --force, always specify the branch name explicitly to avoid messing other branches in the repository (--force tells Git that you really want to mess with things so do it carefully).
+>>>>>> When doing a push --force, always specify the branch name explicitly to avoid messing other branches in the repository (--force tells Git that you really want to mess with things, so do it carefully).
 
 ## Testing
 
 ### Pull Request Testing
 
-If you want to test Pull Request from other developers, see [Testing Pull Requests][testing-prs].
+If you want to test a pull request from other developers, see [Testing Pull Requests][testing-prs].  All pull requests need to be tested by others in the community, and have the code reviewed by a member of the core team.  Read more about this in our [code governance][code-governance] information.
 
 ### Automated Testing
 
@@ -293,7 +306,6 @@ Mautic uses [PHPSTAN][phpstan] for some of its parts during continuous integrati
 Mautic cannot have PHPSTAN as its dev dependency, because it requires PHP7+. To run analysis on a specific bundle, run `~/.composer/vendor/phpstan/phpstan-shim/phpstan.phar analyse app/bundles/*Bundle`
 
 [mautic-contributors-agreement]: <https://www.mautic.org/contributor-agreement>
-
 [symfony-coding-standards]: <http://symfony.com/doc/current/contributing/code/standards.html>
 [php-cs-fixer]: <https://github.com/friendsofphp/php-cs-fixer>
 [php-unit]: <https://phpunit.de/manual/5.7/en/index.html>
@@ -303,7 +315,7 @@ Mautic cannot have PHPSTAN as its dev dependency, because it requires PHP7+. To 
 [testing-prs]: </contributing-to-mautic/developer/community-reviews#the-pull-request-review-process>
 [phpstan]: <https://github.com/phpstan/phpstan>
 [open-issues-github]: <https://github.com/mautic/mautic/issues?q=is%3Aopen+>
-[roadmap]: <https://forum.mautic.org/t/mautic-roadmap-discussion/13760>
+[roadmap]: <>
 [feature-requests]: <https://forum.mautic.org/c/ideas/14/l/latest?order=votes>
 [create-feature-request]: <https://forum.mautic.org/c/ideas/14/l/latest?order=votes>
 [contributor-agreement]: <https://www.mautic.org/contributor-agreement>
@@ -314,3 +326,6 @@ Mautic cannot have PHPSTAN as its dev dependency, because it requires PHP7+. To 
 [product-team]: <https://contribute.mautic.org/product-team>
 [example-migration]: <https://github.com/mautic/mautic/pull/8134/files>
 [doctrine-migrations-docs]: <https://symfony.com/bundles/DoctrineMigrationsBundle/current/index.html>
+[mautic-slack]: <https://mautic.org/slack>
+[install-mautic]: <https://docs.mautic.org/en/setup/how-to-install-mautic>
+[code-governance]: </community-structure/governance/code-governance>
