@@ -13,7 +13,7 @@ taxonomy:
 
 ---
 
-We appreciate your interest in contributing to Mautic! Improving existing content is an excellent way to begin contributing. We are always looking for people to help us with writing content for mautic.org, our marketing and communications, and our social media campaigns.
+We appreciate your interest in contributing to Mautic! Improving existing content is an excellent way to begin contributing. We are always looking for people to help us with writing content for documentation, our marketing and communications, and our social media campaigns.
 
 The Education Team maintains the following documentation resources:
 
