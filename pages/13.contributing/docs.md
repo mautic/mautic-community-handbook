@@ -91,7 +91,7 @@ If you would like to financially support the Mautic Community you can do so via 
 [mautic-slack]: <https://www.mautic.org/slack>
 [designer]: </contributing-to-mautic/designer>
 [developer]: </contributing-to-mautic/developer>
-[marketer]: </contributing-to-mautic/marketer>
+[marketer]: </contributing-to-mautic/marketing-team>
 [tester]: </contributing-to-mautic/tester>
 [translator]: </contributing-to-mautic/translator>
 [writer]:</contributing-to-mautic/writer>
