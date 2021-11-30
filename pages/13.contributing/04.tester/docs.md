@@ -152,5 +152,5 @@ This will check out the branch called `main` which is where we started from.  No
 [vscode]: <https://code.visualstudio.com/download>
 [github]: <https://github.com/join>
 [mautic-4.1]: <https://github.com/mautic/mautic/releases/tag/4.1.0>
-[gitod]: <https://www.gitpod.com>
+[gitpod]: <https://www.gitpod.io>
 [gitpod-default]: <https://gitpod.io/#https://github.com/mautic/mautic>
