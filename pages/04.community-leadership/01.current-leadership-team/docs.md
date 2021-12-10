@@ -25,7 +25,7 @@ The current leadership team and their terms are as follows:
 | Legal@Acquia       | Legal & Finance Team Lead                   | legal@acquia.com                     |   N/A              |  N/A             |
 | Legal@Acquia         | Legal & Finance Team Assistant Lead                   | legal@acquia.com                      |  N/A               | N/A              |
 | Oluwatobi Owolabi        | Marketing Team Lead                  | oluwatobi.owolabi@mautic.org                      |  2021               |   2023            |
-| Position Vacant         | Marketing Team Assistant Lead                   |                      |                 |               |
+| Déborah Salves         | Marketing Team Assistant Lead                   | deborah.salves@mautic.org                     |  2021               |  2023             |
 | Norman Pracht         | Product Team Lead                   | norman.pracht@mautic.org                      |  2020               |   2023            |
 | Joey Keller      | Product Team Assistant Lead (Product)                  | joey.keller@mautic.org                      |  2021               |  2023             |
 | Mohit Aghera     | Product Team Assistant Lead (Development)                  | mohit.aghera@mautic.org                      | 2021                | 2023              |
