@@ -65,7 +65,7 @@ Once you are in the folder you want to work from, we need to pull down a copy of
 
 The first time you run this command, it will ask you to authenticate with GitHub. Just follow the steps, and once you've set up the authentication it won't bother you for some time.
 
-This will pull down the GitHub repository at https://github.com/mautic/mautic to your local machine, ready for you to start testing with.
+This will pull down the GitHub repository at [https://github.com/mautic/mautic][mautic-repo] to your local machine, ready for you to start testing with.
 
 ### Setting up a local DDEV instance
 
@@ -139,9 +139,11 @@ From this point, you can write what you have found when testing the pull request
 
 Once you are done with testing the pull request, it is good practice to get back to the original state. To do this use the command:
 
-`git checkout main`
+`git checkout 4.x`
 
-This will check out the branch called `main` which is where we started from.  Now you're ready to go and find another pull request to test! Have a little celebration, you helped make Mautic even more awesome! THANK YOU!
+Where 4.x is the branch that you want to return to.
+
+This will check out the branch called `4.x` which is where we started from.  Now you're ready to go and find another pull request to test! Have a little celebration, you helped make Mautic even more awesome! THANK YOU!
 
 
 
@@ -151,6 +153,7 @@ This will check out the branch called `main` which is where we started from.  No
 [git]: <https://git-scm.com/download/>
 [vscode]: <https://code.visualstudio.com/download>
 [github]: <https://github.com/join>
+[mautic-repo]: <https://github.com/mautic/mautic>
 [mautic-4.1]: <https://github.com/mautic/mautic/releases/tag/4.1.0>
 [gitpod]: <https://www.gitpod.io>
 [gitpod-default]: <https://gitpod.io/#https://github.com/mautic/mautic>
