@@ -46,7 +46,7 @@ Please make sure you provide regular updates on the issue in Jira, and if at any
 
 We totally understand that life happens and it's easy to take on too much. No judgement at all! We try to be respectful of each other by ensuring we give as much notice as possible if we're not going to be able to fulfil a task assigned to us.
 
-[marketing-team]: </marketing>
+[marketing-team]: </marketing-team>
 [marketing-slack]: <https://mautic.slack.com/archives/CQVHG9X1N>
 [tmar-jira]: <https://mautic.atlassian.net/browse/TMAR>
 [mtec-jira]: <https://mautic.atlassian.net/browse/MTEC>
