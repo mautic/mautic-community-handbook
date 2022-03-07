@@ -91,12 +91,12 @@ The Project Lead elects members into any other group, oversees project vision an
 
 The full responsibilities and expectations of the Project Lead are detailed [here][project-lead-definiton].
 
-### The Community Manager
-The Community Manager supports the community, education and marketing teams.  The primary focus of this role is the health and engagement of the community. This includes supporting the community structures, helping team leads organising and managing their teams and working groups.
+### The Technical Community Lead
+The Community Technical Lead supports all teams in the community with anything relating to the product itself.  The primary focus of this role is improving the developer experience and helping to drive innovation at a technical level. This includes supporting the Product Team and Project Lead, helping organising and managing sprints and supporting Tiger Teams.
 
-They are the face of the community, and the place where the buck stops in any community related issues.
+They are the face of the developer community, and the main port of call for any technical related issues.
 
-The community manager also has primary responsibility for supporting in-person events and meetups, global events like Mauticon, and being a bridge between the community and Acquia.
+The Technical Community Lead also has primary responsibility for supporting in-person sprints, and being a bridge between the community and Acquia.
 
 The full responsibilities and expectations of the Community Manager are detailed [here][cm-definition].
 
@@ -111,8 +111,8 @@ The release leader is responsible for a particular major version release and imp
 #### Core Committers
 The core committers are a small team that review proposed changes and have commit access to the core repository. These core committers are selected by the Project Lead based on their previous experience and project involvement.
 
-#### Maintainers
-The maintainers are individuals who have a level of responsibility over a particular area of the project (for example a particular Mautic Bundle). Maintainers are appointed by the Project Lead. Core contributors who have made substantial contributions may apply for maintainer status by writing to the Project Lead.
+#### Tiger Team Leaders
+The Tiger Team leaders are individuals who have a level of responsibility over a particular area of the project (for example a particular Mautic feature or bundle). Tiger Team leaders are appointed by the Project Lead. Core contributors who have made substantial contributions may apply for Tiger Team Leader status by writing to the Project Lead.
 
 #### Core Contributors
 Core Contributors are those individuals who assist in other areas of the project including patch contributions, documentation, translations and other key services for the Mautic core. Contributions are peer-reviewed and decided upon by the Core Committers, Release Leader, or Project Lead. Code contributions can be submitted by anyone.
@@ -121,7 +121,7 @@ Core Contributors are those individuals who assist in other areas of the project
 Votes are cast by all members of the Core Team. Votes can be changed at any time during the discussion. Positive votes require no explanation. A negative vote must be justified by technical or objective logic. A Core Team member cannot vote on any code they submit.
 
 ### Merging Policy
-The voting process on any particular pull request must allow for enough time for review by the community and the Core Team. This involves a minimum of 2 days for minor modifications and a minimum of 5 days for significant code changes. Minor changes involve typographical errors, documentation, code standards, minor CSS, javascript, and HTML modifications. Minor modifications do not require a voting process. All other submissions require a vote after the minimum code review period and must be approved by two or more core members (with no core members voting against).
+The voting process on any particular pull request must allow for enough time for review by the community and the Core Team. This involves a minimum of 2 days for minor modifications and a minimum of 5 days for significant code changes. Minor changes involve typographical errors, documentation, code standards, minor CSS, javascript, and HTML modifications. Minor modifications do not require a voting process. All other submissions require a vote after the minimum code review period and must be approved by one or more core members (with no core members voting against).
 
 ### Core Membership Application
 Core Team members are based on a form of meritocracy. We actively seek to empower our active community members and those demonstrating increased involvement will be given everything needed for their continued success.
