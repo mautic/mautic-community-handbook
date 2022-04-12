@@ -18,6 +18,17 @@ We are always looking out for people to help us with these processes. Even if yo
 
 Once you have a local testing environment established, it is very quick and easy to test bugs and features.
 
+## The easy way: using Gitpod
+Since the [4.1 release][mautic-4.1] support for [Gitpod][gitpod] has been introduced. 
+
+This allows you to quickly spin up a Mautic instance with a pull request applied, in the cloud. The Mautic instance also has a mail catching tool (Mailhog) and PHPMyAdmin available to view database tables.  While there will be some pull requests which can't be tested in this way (for example if they are testing the installation process) the vast majority can be.
+
+Testing with Gitpod is as simple as clicking a button. Each pull request will have a button in the description which says 'open in Gitpod'. Click this button (you may wish to open in a new tab), and wait for Mautic to be installed for you.
+
+Then simply follow the test instructions in the pull request, and report back your findings.  The default username will always be admin, and the password will be mautic.
+
+If you are testing a bug and you need to reproduce this before you apply the pull request, you can use the link [https://gitpod.io/#https://github.com/mautic/mautic][gitpod-default] to spin up a Mautic instance based on our default branch.
+
 ## Setting up a local testing environment
 
 ### Prerequisites
@@ -54,7 +65,7 @@ Once you are in the folder you want to work from, we need to pull down a copy of
 
 The first time you run this command, it will ask you to authenticate with GitHub. Just follow the steps, and once you've set up the authentication it won't bother you for some time.
 
-This will pull down the GitHub repository at https://github.com/mautic/mautic to your local machine, ready for you to start testing with.
+This will pull down the GitHub repository at [https://github.com/mautic/mautic][mautic-repo] to your local machine, ready for you to start testing with.
 
 ### Setting up a local DDEV instance
 
@@ -128,9 +139,11 @@ From this point, you can write what you have found when testing the pull request
 
 Once you are done with testing the pull request, it is good practice to get back to the original state. To do this use the command:
 
-`git checkout main`
+`git checkout 4.x`
 
-This will check out the branch called `main` which is where we started from.  Now you're ready to go and find another pull request to test! Have a little celebration, you helped make Mautic even more awesome! THANK YOU!
+Where 4.x is the branch that you want to return to.
+
+This will check out the branch called `4.x` which is where we started from.  Now you're ready to go and find another pull request to test! Have a little celebration, you helped make Mautic even more awesome! THANK YOU!
 
 
 
@@ -140,3 +153,7 @@ This will check out the branch called `main` which is where we started from.  No
 [git]: <https://git-scm.com/download/>
 [vscode]: <https://code.visualstudio.com/download>
 [github]: <https://github.com/join>
+[mautic-repo]: <https://github.com/mautic/mautic>
+[mautic-4.1]: <https://github.com/mautic/mautic/releases/tag/4.1.0>
+[gitpod]: <https://www.gitpod.io>
+[gitpod-default]: <https://gitpod.io/#https://github.com/mautic/mautic>
