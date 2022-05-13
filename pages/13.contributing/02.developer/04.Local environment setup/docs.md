@@ -88,6 +88,8 @@ In case of assets like JS, CSS, the source files are loaded instead of concatena
 
 In many cases, the CSS files are built from LESS files. To compile the changes in the LESS files, run `grunt compile-less` command.
 
+In case you don't have Grunt installed firstly run `npm install -g grunt-cli` to install grunt-cli globally. Then go to the Mautic root dir and run `npm install`. After that you can run the `grunt compile-less` command.
+
 [mautic-requirements]: <https://www.mautic.org/download/requirements>
 [amp-packages]: <https://en.wikipedia.org/wiki/List_of_Apache%E2%80%93MySQL%E2%80%93PHP_packages>
 [composer]: <https://getcomposer.org/>
