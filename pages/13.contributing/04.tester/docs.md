@@ -25,7 +25,7 @@ This allows you to quickly spin up a Mautic instance with a pull request applied
 
 Testing with Gitpod is as simple as clicking a button. Each pull request will have a button in the description which says 'open in Gitpod'. Click this button (you may wish to open in a new tab), and wait for Mautic to be installed for you.
 
-Then simply follow the test instructions in the pull request, and report back your findings.  The default username will always be admin, and the password will be mautic.
+Then simply follow the test instructions in the pull request, and [report back your findings][report-findings].  The default username will always be admin, and the password will be mautic.
 
 If you are testing a bug and you need to reproduce this before you apply the pull request, you can use the link [https://gitpod.io/#https://github.com/mautic/mautic][gitpod-default] to spin up a Mautic instance based on our default branch.
 
@@ -157,3 +157,4 @@ This will check out the branch called `4.x` which is where we started from.  Now
 [mautic-4.1]: <https://github.com/mautic/mautic/releases/tag/4.1.0>
 [gitpod]: <https://www.gitpod.io>
 [gitpod-default]: <https://gitpod.io/#https://github.com/mautic/mautic>
+[report-findings]: <https://contribute.mautic.org/contributing-to-mautic/tester#leaving-your-review>
