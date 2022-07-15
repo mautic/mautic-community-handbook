@@ -157,4 +157,4 @@ This will check out the branch called `4.x` which is where we started from.  Now
 [mautic-4.1]: <https://github.com/mautic/mautic/releases/tag/4.1.0>
 [gitpod]: <https://www.gitpod.io>
 [gitpod-default]: <https://gitpod.io/#https://github.com/mautic/mautic>
-[report-finding]: <https://contribute.mautic.org/contributing-to-mautic/tester#leaving-your-review>
+[report-findings]: <https://contribute.mautic.org/contributing-to-mautic/tester#leaving-your-review>
