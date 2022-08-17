@@ -188,7 +188,7 @@ abstract class AbstractController implements RequestHandlerInterface
             /** @var Forms $forms */
             $forms = $this->getGrav()['forms'];
             $form = $forms->getActiveForm();
-            if ($form->getName() == $formName && $form instanceof FlexForm && $form->getObject()->getFlexKey() === $object->getFlexKey()) {
+            if ($form instanceof FlexForm && $form->getName() === $formName && $form->getObject()->getFlexKey() === $object->getFlexKey()) {
                 return $form;
             }
         }
@@ -290,14 +290,16 @@ abstract class AbstractController implements RequestHandlerInterface
 
     /**
      * @param string $string
+     * @param array $args
      * @return string
      */
-    public function translate(string $string): string
+    public function translate(string $string, ...$args): string
     {
         /** @var Language $language */
         $language = $this->grav['language'];
+        array_unshift($args, $string);
 
-        return $language->translate($string);
+        return $language->translate($args);
     }
 
     /**

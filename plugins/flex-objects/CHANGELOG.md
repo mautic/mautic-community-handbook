@@ -1,3 +1,78 @@
+# v1.3.0
+## 06/14/2022
+
+1. [](#new)
+    * Added user object to `onFlexTask.*` and `onFlexAction.*` events
+    * Added tasks `MediaUploadMeta` and `MediaReorder` to support remote media fields
+    * Added support to remove media defined in a field
+2. [](#improved)
+    * Refactored admin controller tasks and actions
+    * Added image preview support for 3rd party editors
+1. [](#bugfix)
+    * Fixed broken error responses in object media tasks
+
+# v1.2.0
+## 03/28/2022
+
+1. [](#new)
+    * Require **Grav 1.7.32** and **Form 6.0.0**
+2. [](#improved)
+    * Improved flex router event to include directory
+3. [](#bugfix)
+    * Fixed caching issues in dynamic flex forms
+    * Fixed flex content in unauthorized module causing the whole page to become unauthorized
+
+# v1.1.9
+## 03/14/2022
+
+1. [](#new)
+    * Added support for flex router to return a response instead of a page
+
+# v1.1.8
+## 01/28/2022
+
+1. [](#new)
+    * Require **Grav 1.7.29**
+3. [](#improved)
+    * Made path handling unicode-safe, use new `Utils::basename()` and `Utils::pathinfo()` everywhere
+
+# v1.1.7
+## 01/03/2022
+
+1. [](#new)
+    * Allow intercepting object `create`, `update` and `delete` tasks by using `FlexTaskEvent` event
+2. [](#improved)
+    * Added optional `$scope` parameter to `ObjectController::checkAuthorization()`
+3. [](#bugfix)
+    * Fixed continue task with `PageInterface` types
+    
+# v1.1.6
+## 11/29/2021
+
+1. [](#bugfix)
+    * Fixed regression `Call to a member function getRoute() on null` when using CLI [#151](https://github.com/trilbymedia/grav-plugin-flex-objects/issues/151)
+
+# v1.1.5
+## 11/24/2021
+
+1. [](#new)
+    * Added method `ObjectController::checkAuthorizations()` to check if one of the actions is true
+2. [](#bugfix)
+    * Fixed regression when calling flex router with a path
+
+# v1.1.4
+## 11/16/2021
+
+1. [](#new)
+    * Require **Grav 1.7.25**
+1. [](#improved)
+    * Changed flex router not to trigger `onPageNotFound` event
+    * Changed flex router to be called also with empty path
+    * If ACL check for the object fails, display unauthorized page instead of 404
+1. [](#bugfix)
+    * Fixed unescaped messages in JSON responses
+    * Fixed `Call to a member function getName() on null` when using file field [#149](https://github.com/trilbymedia/grav-plugin-flex-objects/issues/149)
+
 # v1.1.3
 ## 10/26/2021
 

@@ -271,7 +271,7 @@ class AdminBaseController
             $this->admin->json_response = [
                 'status'  => 'error',
                 'message' => sprintf($this->admin::translate('PLUGIN_ADMIN.FILEUPLOAD_UNABLE_TO_UPLOAD', null),
-                    $filename, 'Bad filename')
+                    htmlspecialchars($filename, ENT_QUOTES | ENT_HTML5, 'UTF-8'), 'Bad filename')
             ];
 
             return false;
@@ -291,7 +291,7 @@ class AdminBaseController
             $this->admin->json_response = [
                 'status'  => 'error',
                 'message' => sprintf($this->admin::translate('PLUGIN_ADMIN.FILEUPLOAD_PREVENT_SELF', null),
-                    $settings->destination)
+                    htmlspecialchars($settings->destination, ENT_QUOTES | ENT_HTML5, 'UTF-8'))
             ];
 
             return false;
@@ -302,7 +302,8 @@ class AdminBaseController
             $this->admin->json_response = [
                 'status'  => 'error',
                 'message' => sprintf($this->admin::translate('PLUGIN_ADMIN.FILEUPLOAD_UNABLE_TO_UPLOAD', null),
-                    $filename, $this->upload_errors[$upload->file->error])
+                    htmlspecialchars($filename, ENT_QUOTES | ENT_HTML5, 'UTF-8'),
+                    $this->upload_errors[$upload->file->error])
             ];
 
             return false;
@@ -340,7 +341,7 @@ class AdminBaseController
             if ($isMime) {
                 $match = preg_match('#' . $find . '$#', $mime);
                 if (!$match) {
-                    $errors[] = 'The MIME type "' . $mime . '" for the file "' . $filename . '" is not an accepted.';
+                    $errors[] = htmlspecialchars('The MIME type "' . $mime . '" for the file "' . $filename . '" is not an accepted.', ENT_QUOTES | ENT_HTML5, 'UTF-8');
                 } else {
                     $accepted = true;
                     break;
@@ -348,7 +349,7 @@ class AdminBaseController
             } else {
                 $match = preg_match('#' . $find . '$#', $filename);
                 if (!$match) {
-                    $errors[] = 'The File Extension for the file "' . $filename . '" is not an accepted.';
+                    $errors[] = htmlspecialchars('The File Extension for the file "' . $filename . '" is not an accepted.', ENT_QUOTES | ENT_HTML5, 'UTF-8');
                 } else {
                     $accepted = true;
                     break;
@@ -373,14 +374,17 @@ class AdminBaseController
         // since php removes it from the upload location
         $tmp_dir  = Admin::getTempDir();
         $tmp_file = $upload->file->tmp_name;
-        $tmp      = $tmp_dir . '/uploaded-files/' . basename($tmp_file);
+        $tmp      = $tmp_dir . '/uploaded-files/' . Utils::basename($tmp_file);
 
         Folder::create(dirname($tmp));
         if (!move_uploaded_file($tmp_file, $tmp)) {
             $this->admin->json_response = [
                 'status'  => 'error',
-                'message' => sprintf($this->admin::translate('PLUGIN_ADMIN.FILEUPLOAD_UNABLE_TO_MOVE', null), '',
-                    $tmp)
+                'message' => sprintf(
+                    $this->admin::translate('PLUGIN_ADMIN.FILEUPLOAD_UNABLE_TO_MOVE', null),
+                    '',
+                    htmlspecialchars($tmp, ENT_QUOTES | ENT_HTML5, 'UTF-8')
+                )
             ];
 
             return false;
@@ -419,7 +423,7 @@ class AdminBaseController
 
         // Generate random name if required
         if ($settings->random_name) { // TODO: document
-            $extension          = pathinfo($upload->file->name, PATHINFO_EXTENSION);
+            $extension          = Utils::pathinfo($upload->file->name, PATHINFO_EXTENSION);
             $upload->file->name = Utils::generateRandomString(15) . '.' . $extension;
         }
 
@@ -925,7 +929,7 @@ class AdminBaseController
         $type      = $uri->param('type');
         $field     = $uri->param('field');
 
-        $filename  = basename($this->post['filename'] ?? '');
+        $filename  = Utils::basename($this->post['filename'] ?? '');
         if ($filename === '') {
            $this->admin->json_response = [
                 'status'  => 'error',
@@ -1064,7 +1068,7 @@ class AdminBaseController
         if ($file->exists()) {
             $resultRemoveMedia = $file->delete();
 
-            $fileParts = pathinfo($filename);
+            $fileParts = Utils::pathinfo($filename);
 
             foreach (scandir($fileParts['dirname']) as $file) {
                 $regex_pattern = '/' . preg_quote($fileParts['filename'], '/') . "@\d+x\." . $fileParts['extension'] . "(?:\.meta\.yaml)?$|" . preg_quote($fileParts['basename'], '/') . "\.meta\.yaml$/";

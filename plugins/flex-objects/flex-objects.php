@@ -9,6 +9,7 @@ use Grav\Common\Page\Pages;
 use Grav\Common\Page\Types;
 use Grav\Common\Plugin;
 use Grav\Common\User\Interfaces\UserInterface;
+use Grav\Common\Utils;
 use Grav\Events\FlexRegisterEvent;
 use Grav\Events\PermissionsRegisterEvent;
 use Grav\Events\PluginsLoadedEvent;
@@ -27,6 +28,7 @@ use Grav\Plugin\FlexObjects\Admin\AdminController;
 use Grav\Plugin\FlexObjects\Flex;
 use Psr\Http\Message\ServerRequestInterface;
 use RocketTheme\Toolbox\Event\Event;
+use function is_array;
 use function is_callable;
 
 /**
@@ -118,8 +120,6 @@ class FlexObjectsPlugin extends Plugin
     }
 
     /**
-     * [PluginsLoadedEvent:100000] Composer autoload.
-     *
      * @return ClassLoader
      */
     public function autoload(): ClassLoader
@@ -203,6 +203,9 @@ class FlexObjectsPlugin extends Plugin
                 'onTwigTemplatePaths' => [
                     ['onTwigTemplatePaths', 0]
                 ],
+                'onPagesInitialized' => [
+                    ['onPagesInitialized', -10000]
+                ],
                 'onPageInitialized' => [
                     ['authorizePage', 10000]
                 ],
@@ -211,9 +214,6 @@ class FlexObjectsPlugin extends Plugin
                 ],
                 'onPageTask' => [
                     ['onPageTask', -10]
-                ],
-                'onPageNotFound' => [
-                    ['onPageNotFound', 10]
                 ],
             ]);
         }
@@ -242,7 +242,6 @@ class FlexObjectsPlugin extends Plugin
         $types = (array)$this->config->get('plugins.flex-objects.directories', []);
         $this->registerDirectories($flex, $types, true);
 
-        /** @var AdminController controller */
         $this->controller = new AdminController();
 
         /** @var Debugger $debugger */
@@ -271,52 +270,78 @@ class FlexObjectsPlugin extends Plugin
     }
 
     /**
-     * [onPageNotFound:10] Router for 404 pages.
+     * [onPagesInitialized:-10000] Default router for flex pages.
      *
      * @param Event $event
      */
-    public function onPageNotFound(Event $event): void
+    public function onPagesInitialized(Event $event): void
     {
-        /** @var Route $route */
-        $route = $event['route'];
+        /** @var Route|null $route */
+        $route = $event['route'] ?? null;
+        if (null === $route) {
+            // Stop if in CLI.
+            return;
+        }
 
-        /** @var Pages $pages */
-        $pages = $this->grav['pages'];
+        /** @var PageInterface|null $page */
+        $page = $this->grav['page'] ?? null;
 
-        // Find first existing and routable parent page.
-        $parts = explode('/', $route->getRoute());
-        array_shift($parts);
-        $page = null;
         $base = '';
         $path = [];
-        while (!$page && $parts) {
-            $path[] = array_pop($parts);
-            $base = '/' . implode('/', $parts);
-            $page = $pages->find($base);
-            if ($page && !$page->routable()) {
-                $page = null;
+        if (!$page->routable() || $page->template() === 'notfound') {
+            /** @var Pages $pages */
+            $pages = $this->grav['pages'];
+
+            // Find first existing and routable parent page.
+            $parts = explode('/', $route->getRoute());
+            array_shift($parts);
+            $page = null;
+            while (!$page && $parts) {
+                $path[] = array_pop($parts);
+                $base = '/' . implode('/', $parts);
+                $page = $pages->find($base);
+                if ($page && !$page->routable()) {
+                    $page = null;
+                }
             }
         }
 
         // If page is found, check if it contains flex directory router.
         if ($page) {
+            $flex = $this->grav['flex'];
             $options = $page->header()->flex ?? null;
             $router = $options['router'] ?? null;
+            $type = $options['directory'] ?? null;
+            $directory = $type ? $flex->getDirectory($type) : null;
             if (\is_string($router)) {
                 $path = implode('/', array_reverse($path));
+                $response = null;
                 $flexEvent = new Event([
+                    'flex' => $flex,
+                    'directory' => $directory,
                     'parent' => $page,
-                    'page' => null,
+                    'page' => $page,
                     'base' => $base,
                     'path' => $path,
                     'route' => $route,
                     'options' => $options,
-                    'request' => $event['request']
+                    'request' => $event['request'],
+                    'response' => &$response,
                 ]);
                 $flexEvent = $this->grav->fireEvent("flex.router.{$router}", $flexEvent);
+                if ($response) {
+                    $this->grav->close($response);
+                }
+
+                /** @var PageInterface|null $routedPage */
                 $routedPage = $flexEvent['page'];
                 if ($routedPage) {
-                    $event->page = $routedPage;
+                    /** @var Debugger $debugger */
+                    $debugger = Grav::instance()['debugger'];
+                    $debugger->addMessage(sprintf('Flex uses page %s', $routedPage->route()));
+
+                    unset($this->grav['page']);
+                    $this->grav['page'] = $routedPage;
                     $event->stopPropagation();
                 }
             }
@@ -332,20 +357,29 @@ class FlexObjectsPlugin extends Plugin
     {
         /** @var PageInterface|null $page */
         $page = $event['page'];
-        if (null === $page) {
+        if (!$page instanceof PageInterface) {
             return;
         }
 
         $header = $page->header();
-        $forms = $page->forms();
-        $form = reset($forms);
-        if (($form['type'] ?? null) !== 'flex') {
-            $form = null;
+        $forms = $page->getForms();
+
+        // Update dynamic flex forms from the page.
+        $form = null;
+        foreach ($forms as $name => $test) {
+            $type = $form['type'] ?? null;
+            if ($type === 'flex') {
+                $form = $test;
+
+                // Update the form and add it back to the page.
+                $this->grav->fireEvent('onBeforeFlexFormInitialize', new Event(['page' => $page, 'name' => $name, 'form' => &$form]));
+                $page->addForms([$form], true);
+            }
         }
 
         // Make sure the page contains flex.
-        $config = $header->flex ?? [];
-        if (!$config && !$form) {
+        $config = $header->flex ?? null;
+        if (!is_array($config) && !$form) {
             return;
         }
 
@@ -406,9 +440,19 @@ class FlexObjectsPlugin extends Plugin
         }
 
         if (!$hasAccess) {
-            // Hide the page.
+            // Hide the page (404).
             $page->routable(false);
             $page->visible(false);
+
+            // If page is not a module, replace the current page with unauthorized page.
+            if (!$page->isModule()) {
+                $login = $this->grav['login'] ?? null;
+                $unauthorized = $login ? $login->addPage('unauthorized') : null;
+                if ($unauthorized) {
+                    unset($this->grav['page']);
+                    $this->grav['page'] = $unauthorized;
+                }
+            }
         } elseif ($config['access']['override'] ?? false) {
             // Override page access settings (allow).
             $page->modifyHeader('access', []);
@@ -455,7 +499,7 @@ class FlexObjectsPlugin extends Plugin
         foreach ($types as $blueprint) {
             // Backwards compatibility to v1.0.0-rc.3
             $blueprint = $map[$blueprint] ?? $blueprint;
-            $type = basename((string)$blueprint, '.yaml');
+            $type = Utils::basename((string)$blueprint, '.yaml');
             if (!$type) {
                 continue;
             }
