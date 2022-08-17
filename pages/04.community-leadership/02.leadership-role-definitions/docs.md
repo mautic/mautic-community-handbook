@@ -28,28 +28,38 @@ and also to:
 * Ensuring that the community teams are focused and on track, removing bottlenecks and addressing any conflicts which hold back progress
 * Generally: Lead in the best sense of the word
 
-The Project Lead also has the ability to appoint and remove volunteers to roles in the community teams. Where the community makes such decisions as outlined in the governance model, the Project Lead reserves a right of veto over a nomination (for important reasons only).
-
-The same applies to strategic decisions - there is a right to veto strategic decisions, but the intention is that this should only be used in exceptional circumstances where it has not been possible to reach a consensus. 
-
-
-## Community Manager
-
-The Community Manager is appointed by Acquia.
-
-The primary focus of the Community Manager is the health and engagement of the community. 
-
 This includes (but is not limited to) creating and supporting community structures, supporting team leads in organising and managing their teams, and empowering volunteers.
 
-The Community Manager also has primary responsibility for supporting in-person events and meetups, global events like Mauticon, and being a bridge between the community and Acquia. 
+The Project Lead also has primary responsibility for supporting in-person events and meetups, global events like Mauticon, and being a bridge between the community and Acquia. 
 
 They have a key role to play in listening to concerns in the community and passing them on to Acquia, and also supporting Acquia in engaging with the community.  
 
 They hold overall responsibility for all the Community channels such as the Forums, Slack, Mautic.org etc. and support the community teams who manage these channels.
 
-The Community Manager owns the community strategy, and inputs into the product strategy. They help teams to understand how they can mobilise resources to execute against the community strategy, and support teams in any matters relating to community management.
+The Project Lead owns the community and product strategy. They help teams to understand how they can mobilise resources to execute against the community strategy, and support teams in any matters relating to community management.
 
-They work collaboratively with the Project Lead on things like attracting new contributors, organising sprints, raising awareness of Mautic, and representing the Mautic project both at Acquia internally, and externally in the wider world.
+The Project Lead also has the ability to appoint and remove volunteers to roles in the community teams. Where the community makes such decisions as outlined in the governance model, the Project Lead reserves a right of veto over a nomination (for important reasons only).
+
+The same applies to strategic decisions - there is a right to veto strategic decisions, but the intention is that this should only be used in exceptional circumstances where it has not been possible to reach a consensus. 
+
+
+## Technical Community Lead
+
+The Technical Community Lead is appointed by Acquia.
+
+The primary focus of the Technical Community Lead is the health and engagement of the developer community, and more specifically to:
+
+* Work collaboratively with the Project Lead to attract new contributors
+* Organize sprints, raising awareness of Mautic
+* Representing the Mautic project 
+* Ensuring that Mautic stays ahead of the curve in respect of technical developments in the industry
+
+and also to:
+
+* Be the technical link between Acquia's engineering team and the Mautic Product Team
+* Ensure that contributions from the community are reviewed and merged (where appropriate) in a timely manner
+* Support the Product Team by reviewing and prioritizing community ideas in the Mautic Ideas queue, scheduling roadmap items, proposing new initiatives
+* Coordinate efforts of volunteers, contractors, and fellow employees to help solve complex tasks.
 
 ## Team Lead
 

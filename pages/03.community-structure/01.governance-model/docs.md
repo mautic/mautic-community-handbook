@@ -55,7 +55,7 @@ The steering groups are an opportunity for the Team Leads of related areas in th
 ## The Mautic Community Council
 There will be a Community Council of 4 Acquians and 4 Mauticians to discuss issues which impact the Open Source project as a whole. 
 
-The four Acquians currently are the Project Lead, Project Sponsor, Community Manager and Snr. Director of Product & Community.  These roles will be appointed by Acquia, the Project Sponsor and may vary over time subject to the needs of the Council. 
+The four Acquians currently are the Mautic Project Lead, Project Sponsor, Technical Community Lead and Community Specialist.  These roles will be appointed by Acquia, the Project Sponsor and may vary over time subject to the needs of the Council. 
 
 The Community Representatives will be elected on an annual basis by the community from the Team Leads and Assistant Team Leads who choose to stand for nomination. The Project Lead will retain a casting vote.
 
@@ -91,14 +91,14 @@ The Project Lead elects members into any other group, oversees project vision an
 
 The full responsibilities and expectations of the Project Lead are detailed [here][project-lead-definiton].
 
-### The Community Manager
-The Community Manager supports the community, education and marketing teams.  The primary focus of this role is the health and engagement of the community. This includes supporting the community structures, helping team leads organising and managing their teams and working groups.
+### The Technical Community Lead
+The Technical Community Lead supports the technical growth and development of the Mautic project and community.  This role is pivotal in empowering other developers in our community, and setting up the foundations for them to become active contributors.
 
-They are the face of the community, and the place where the buck stops in any community related issues.
+They are the face of the developer community, and a central point of call for any technical issues.
 
-The community manager also has primary responsibility for supporting in-person events and meetups, global events like Mauticon, and being a bridge between the community and Acquia.
+The Technical Community Lead also has primary responsibility for supporting in-person sprints, releases, and being a bridge between the community and Acquia from the technical perspective.
 
-The full responsibilities and expectations of the Community Manager are detailed [here][cm-definition].
+The full responsibilities and expectations of the Technical Community Lead are detailed [here][cm-definition].
 
 ### The Project Founder
 
