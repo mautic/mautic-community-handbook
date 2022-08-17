@@ -17,15 +17,15 @@ The current leadership team and their terms are as follows:
 | Name      | Role     | Email address | Term commenced | Term ends |
 |-----------|--------------------|-----------------------|-----------------|---------------|
 | Ruth Cheesley         |  Project Lead                  |  ruth.cheesley@mautic.org                     |  2019              | N/A              |
-| TBC | Community Manager | TBC |  | N/A      |
+| John Linhart | Technical Community Lead | jan.linhart@acquia.com | 2022 | N/A      |
 | Ekkehard Gümbel           | Community Team Lead                   | ekke.guembel@mautic.org                      |   2020              |  2023             |
 | Nico Grienauer          | Community Team Assistant Lead                   | nico.grienauer@mautic.org                      |  2020               |  2022             |
-| Favour Kelvin         | Education Team Lead                   | favour.kelvin@mautic.org                      |   2021              | 2023              |
+| Favour Kelvin         | Education Team Lead                   | favour.kelvin@mautic.org                      |   2021              | 2024              |
 | Position Vacant         | Education Team Assistant Lead                   |                      |                 |               |
 | Legal@Acquia       | Legal & Finance Team Lead                   | legal@acquia.com                     |   N/A              |  N/A             |
 | Legal@Acquia         | Legal & Finance Team Assistant Lead                   | legal@acquia.com                      |  N/A               | N/A              |
-| Oluwatobi Owolabi        | Marketing Team Lead                  | oluwatobi.owolabi@mautic.org                      |  2021               |   2023            |
-| Position Vacant         | Marketing Team Assistant Lead                   |                      |                 |               |
+| Oluwatobi Owolabi        | Marketing Team Lead                  | oluwatobi.owolabi@mautic.org                      |  2021               |   2024            |
+| Déborah Salves         | Marketing Team Assistant Lead                   |   deborah.salves@mautic.org                   |   2021              |      2023         |
 | Norman Pracht         | Product Team Lead                   | norman.pracht@mautic.org                      |  2020               |   2023            |
 | Joey Keller      | Product Team Assistant Lead (Product)                  | joey.keller@mautic.org                      |  2021               |  2023             |
 | Mohit Aghera     | Product Team Assistant Lead (Development)                  | mohit.aghera@mautic.org                      | 2021                | 2023              |
