@@ -1,3 +1,39 @@
+# v3.7.1
+## 06/14/2022
+
+1. [](#bugfix)
+    * PHP 8.1 fixes in QR code library
+
+# v3.7.0
+## 03/28/2022
+
+1. [](#new)
+    * Require **Grav 1.7.32**, **Form 6.0.0** and **Email 3.1.6**
+    * Added support for fully customizable email templates
+    * Added `Grav\PluginsLogin\Email` class to simplify sending emails
+    * Added `PageAuthorizeEvent` event for customizing page access
+1. [](#bugfix)
+    * Removed ACL checks for page modules as they caused unexpected behavior
+
+# v3.6.3
+## 03/14/2022
+
+1. [](#improved)
+    * Improved multi-site support in user emails
+
+# v3.6.2
+## 01/12/2022
+
+1. [](#new)
+   * Support for `YubiKey OTP` 2-Factor authenticator
+   * Requires Grav `v1.7.27`
+
+# v3.6.1
+## 01/03/2022
+
+1. [](#bugfix)
+   * Fixed issue with forgot password error message translation [#285](https://github.com/getgrav/grav-plugin-login/pull/285)
+
 # v3.6.0
 ## 10/26/2021
 

@@ -101,13 +101,14 @@ class Email
      * Send email.
      *
      * @param \Swift_Message $message
+     * @param array|null $failedRecipients
      * @return int
      */
-    public function send($message)
+    public function send($message, &$failedRecipients = null)
     {
         $mailer = $this->getMailer();
 
-        $result = $mailer ? $mailer->send($message) : 0;
+        $result = $mailer ? $mailer->send($message, $failedRecipients) : 0;
 
         // Check if emails and debugging are both enabled.
         if ($mailer && $this->debug()) {
@@ -135,12 +136,16 @@ class Email
     {
         /** @var Twig $twig */
         $twig = Grav::instance()['twig'];
+        $twig->init();
 
         /** @var Config $config */
         $config = Grav::instance()['config'];
 
         /** @var Language $language */
         $language = Grav::instance()['language'];
+
+        // Create message object.
+        $message = $this->message();
 
         // Extend parameters with defaults.
         $params += [
@@ -158,11 +163,9 @@ class Email
             'to' => $config->get('plugins.email.to'),
             'to_name' => $config->get('plugins.email.to_name'),
             'process_markdown' => false,
-            'template' => false
+            'template' => false,
+            'message' => $message
         ];
-
-        // Create message object.
-        $message = $this->message();
 
         if (!$params['to']) {
             throw new \RuntimeException($language->translate('PLUGIN_EMAIL.PLEASE_CONFIGURE_A_TO_ADDRESS'));
@@ -181,7 +184,11 @@ class Email
             switch ($key) {
                 case 'body':
                     if (is_string($value)) {
-                        $body = $twig->processString($value, $vars);
+                        if (strpos($value, '{{') !== false || strpos($value, '{%') !== false) {
+                            $body = $twig->processString($value, $vars);
+                        } else {
+                            $body = $value;
+                        }
 
                         if ($params['process_markdown'] && $params['content_type'] === 'text/html') {
                             $parsedown = new Parsedown();
@@ -189,16 +196,14 @@ class Email
                         }
 
                         if ($params['template']) {
-                            $vars = array_merge($vars, ['content' => $body]);
-                            $body = $twig->processTemplate($params['template'], $vars);
+                            $body = $twig->processTemplate($params['template'], ['content' => $body] + $vars);
                         }
 
                         $content_type = !empty($params['content_type']) ? $twig->processString($params['content_type'], $vars) : null;
                         $charset = !empty($params['charset']) ? $twig->processString($params['charset'], $vars) : null;
 
                         $message->setBody($body, $content_type, $charset);
-                    }
-                    elseif (is_array($value)) {
+                    } elseif (is_array($value)) {
                         foreach ($value as $body_part) {
                             $body_part += [
                                 'charset' => $params['charset'],
@@ -213,8 +218,7 @@ class Email
                             }
 
                             if (isset($body_part['template'])) {
-                                $vars = array_merge($vars, ['content' => $body]);
-                                $body = $twig->processTemplate($body_part['template'], $vars);
+                                $body = $twig->processTemplate($body_part['template'], ['content' => $body] + $vars);
                             }
 
                             $content_type = !empty($body_part['content_type']) ? $twig->processString($body_part['content_type'], $vars) : null;
@@ -231,7 +235,9 @@ class Email
                     break;
 
                 case 'subject':
-                    $message->setSubject($twig->processString($language->translate($value), $vars));
+                    if ($value) {
+                        $message->setSubject($twig->processString($language->translate($value), $vars));
+                    }
                     break;
 
                 case 'to':

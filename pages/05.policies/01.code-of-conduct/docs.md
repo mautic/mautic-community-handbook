@@ -70,6 +70,7 @@ The following behaviors are considered harassment and are unacceptable within ou
 * **Disruptive Behavior** Sustained disruption of events, forums, or meetings, including talks and presentations, will not be tolerated. This includes spamming community discussions with the solicitation of unwanted products or services.
 * **Influencing Disruptive Behavior** We will treat influencing or leading such activities the same way we treat the activities themselves, and thus the same consequences apply.
 * **Corporate Promotions** Sharing of demo/trial/landing page links and other corporate promotions are never permitted unless explicitly requested by a community member. The only exceptions are that the moderated [Commercial forum category](https://forum.mautic.org/c/commercial) may be used to promote opportunities which may be relevant for members of the community (for example job opportunities, freelance gigs) and Mautic Community Partners may promote their products and services on their partners page.
+* **Scraping contacts** by name or any other personally identifiable information for unsolicited communication is never acceptable in any form. 
 
 ## 6. Consequences of Unacceptable Behavior
 

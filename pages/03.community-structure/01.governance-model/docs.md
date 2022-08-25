@@ -30,7 +30,7 @@ The structure of the community includes five teams, each led by a Team Lead and 
 * [Product Team][product-team]
 
 Each of these teams are responsible for establishing and overseeing working groups within the team. 
-![Image of the governance model detailing teams, working groups, steering groups and the community council](Mautic-Community-Governance-4-1024x721.png)
+![Image of the governance model detailing teams, working groups, steering groups and the community council](Mautic%20Community%20Governance.png)
 
 ## The Mautic Community Governance Model
 Initially the team leadership roles will be self-elected from within the team.  See [Leadership Team][leadership-team] for the current post holders.
@@ -55,7 +55,7 @@ The steering groups are an opportunity for the Team Leads of related areas in th
 ## The Mautic Community Council
 There will be a Community Council of 4 Acquians and 4 Mauticians to discuss issues which impact the Open Source project as a whole. 
 
-The four Acquians currently are the Project Lead, Project Sponsor, Community Manager and Snr. Director of Product & Community.  These roles will be appointed by Acquia, the Project Sponsor and may vary over time subject to the needs of the Council. 
+The four Acquians currently are the Mautic Project Lead, Project Sponsor, Technical Community Lead and Community Specialist.  These roles will be appointed by Acquia, the Project Sponsor and may vary over time subject to the needs of the Council. 
 
 The Community Representatives will be elected on an annual basis by the community from the Team Leads and Assistant Team Leads who choose to stand for nomination. The Project Lead will retain a casting vote.
 
@@ -91,14 +91,15 @@ The Project Lead elects members into any other group, oversees project vision an
 
 The full responsibilities and expectations of the Project Lead are detailed [here][project-lead-definiton].
 
-### The Community Manager
-The Community Manager supports the community, education and marketing teams.  The primary focus of this role is the health and engagement of the community. This includes supporting the community structures, helping team leads organising and managing their teams and working groups.
+### The Technical Community Lead
 
-They are the face of the community, and the place where the buck stops in any community related issues.
+The Technical Community Lead supports the technical growth and development of the Mautic project and community.  This role is pivotal in empowering other developers in our community, and setting up the foundations for them to become active contributors.
 
-The community manager also has primary responsibility for supporting in-person events and meetups, global events like Mauticon, and being a bridge between the community and Acquia.
+They are the face of the developer community, and a central point of call for any technical issues.
 
-The full responsibilities and expectations of the Community Manager are detailed [here][cm-definition].
+The Technical Community Lead also has primary responsibility for supporting in-person sprints, releases, and being a bridge between the community and Acquia from the technical perspective.
+
+The full responsibilities and expectations of the Technical Community Lead are detailed [here][cm-definition].
 
 ### The Project Founder
 
@@ -111,8 +112,8 @@ The release leader is responsible for a particular major version release and imp
 #### Core Committers
 The core committers are a small team that review proposed changes and have commit access to the core repository. These core committers are selected by the Project Lead based on their previous experience and project involvement.
 
-#### Maintainers
-The maintainers are individuals who have a level of responsibility over a particular area of the project (for example a particular Mautic Bundle). Maintainers are appointed by the Project Lead. Core contributors who have made substantial contributions may apply for maintainer status by writing to the Project Lead.
+#### Tiger Team Leaders
+The Tiger Team leaders are individuals who have a level of responsibility over a particular area of the project (for example a particular Mautic feature or bundle). Tiger Team leaders are appointed by the Project Lead. Core contributors who have made substantial contributions may apply for Tiger Team Leader status by writing to the Project Lead.
 
 #### Core Contributors
 Core Contributors are those individuals who assist in other areas of the project including patch contributions, documentation, translations and other key services for the Mautic core. Contributions are peer-reviewed and decided upon by the Core Committers, Release Leader, or Project Lead. Code contributions can be submitted by anyone.
@@ -121,7 +122,7 @@ Core Contributors are those individuals who assist in other areas of the project
 Votes are cast by all members of the Core Team. Votes can be changed at any time during the discussion. Positive votes require no explanation. A negative vote must be justified by technical or objective logic. A Core Team member cannot vote on any code they submit.
 
 ### Merging Policy
-The voting process on any particular pull request must allow for enough time for review by the community and the Core Team. This involves a minimum of 2 days for minor modifications and a minimum of 5 days for significant code changes. Minor changes involve typographical errors, documentation, code standards, minor CSS, javascript, and HTML modifications. Minor modifications do not require a voting process. All other submissions require a vote after the minimum code review period and must be approved by two or more core members (with no core members voting against).
+The voting process on any particular pull request must allow for enough time for review by the community and the Core Team. This involves a minimum of 2 days for minor modifications and a minimum of 5 days for significant code changes. Minor changes involve typographical errors, documentation, code standards, minor CSS, javascript, and HTML modifications. Minor modifications do not require a voting process. All other submissions require a vote after the minimum code review period and must be approved by one or more core members (with no core members voting against).
 
 ### Core Membership Application
 Core Team members are based on a form of meritocracy. We actively seek to empower our active community members and those demonstrating increased involvement will be given everything needed for their continued success.

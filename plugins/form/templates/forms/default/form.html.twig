@@ -130,7 +130,7 @@
     {{ override_inner_markup_fields_start|raw }}
     {{ override_inner_markup_fields|raw }}
 
-    {% if form.enabled %}
+    {% if form.isEnabled() ?? true %}
     {% include include_form_field('formname', field_layout, 'hidden') %}
     {% include include_form_field('formtask', field_layout, 'hidden') %}
     {% include include_form_field('uniqueid', field_layout, 'hidden') %}
@@ -143,8 +143,9 @@
   {% block embed_buttons %}
     {{ override_inner_markup_buttons_start|raw }}
 
-    {% if form.enabled %}
+    {% if form.isEnabled() ?? true %}
     {% for button in form.buttons %}
+      {% if not button.access or authorize(button.access) %}
       {% if button.outerclasses is defined %}<div class="{{ button.outerclasses }}">{% endif %}
 
       {% if button.url %}
@@ -190,6 +191,7 @@
       {% endembed %}
 
       {% if button.outerclasses is defined %}</div>{% endif %}
+      {% endif %}
     {% endfor %}
     {% endif %}
 
