@@ -25,9 +25,38 @@ This allows you to quickly spin up a Mautic instance with a pull request applied
 
 Testing with Gitpod is as simple as clicking a button. Each pull request will have a button in the description which says 'open in Gitpod'. Click this button (you may wish to open in a new tab), and wait for Mautic to be installed for you.
 
-Then simply follow the test instructions in the pull request, and [report back your findings][report-findings].  The default username will always be admin, and the password will be mautic.
+Then follow the test instructions in the pull request, and [report back your findings][report-findings].  The default username will always be admin, and the password will be mautic.
 
 If you are testing a bug and you need to reproduce this before you apply the pull request, you can use the link [https://gitpod.io/#https://github.com/mautic/mautic][gitpod-default] to spin up a Mautic instance based on our default branch.
+
+### Top tips
+
+#### Installing sample data
+
+To quickly install sample data, use the command `ddev exec bin/console d:f:l` which loads the Doctrine fixtures. It gives you a big head start with testing! 
+
+#### Build the segments after install   
+
+It's always worth building the segments once you install the sample data, using the command `ddev exec bin/console m:s:r`.
+
+#### Testing with different databases / PHP versions
+
+In DDEV we can set the database and PHP version in a file located in the folder `.ddev/config.yaml`. 
+
+1. Open Gitpod from the PR you are testing and immediately stop the build process as soon as the terminal window is displayed, using command+c or ctrl+c on your keyboard.
+2. Delete anything that has already been started with the command `ddev delete --omit-snapshot --yes && rm -rf var/cache && rm app/config/local.php`
+3. Edit the file in `.ddev/config.yaml` and change the setting - eg change DB from mariaDB 10.3 to mysql8 - remember to save the file!
+
+```
+mariadb_version: ""
+mysql_version: "8.0"
+```
+
+4. Type ddev start in the console to continue with installation
+5. Run the installer in the UI or command line as preferred
+6. Check you are using the right version in the system information within Mautic
+7. Remember to make sure you are using dev mode (index_dev.php on the end of the URL)
+8. If you make a mistake, open your Gitpod dashboard and delete the instance and start again.
 
 ## Setting up a local testing environment
 
