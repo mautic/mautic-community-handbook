@@ -23,7 +23,7 @@ Since the [4.1 release][mautic-4.1] support for [Gitpod][gitpod] has been introd
 
 This allows you to quickly spin up a Mautic instance with a pull request applied, in the cloud. The Mautic instance also has a mail catching tool (Mailhog) and PHPMyAdmin available to view database tables.  While there will be some pull requests which can't be tested in this way (for example if they are testing the installation process) the vast majority can be.
 
-Testing with Gitpod is as simple as clicking a button. Each pull request will have a button in the description which says 'open in Gitpod'. Click this button (you may wish to open in a new tab), and wait for Mautic to be installed for you.
+Testing with Gitpod is as simple as clicking a button. Each pull request will have a button in the description which says 'open in Gitpod'. Click this button (you may wish to open in a new tab), and wait for Mautic to be installed for you. If this is not showing (sometimes the bot that adds it takes a vacation!) you can also use the [Gitpod Browser Extension][gitpod-browser] in Chrome and Firefox.  This will add a green 'Gitpod' button on the right hand side of every pull request next to the Edit and Code buttons, and has the added benefit of also adding the button on the main repository and any branch or tag, allowing you to quickly spin up a specific version of Mautic in Gitpod.
 
 Then follow the test instructions in the pull request, and [report back your findings][report-findings].  The default username will always be admin, and the password will be mautic.
 
@@ -175,7 +175,7 @@ Where 4.x is the branch that you want to return to.
 This will check out the branch called `4.x` which is where we started from.  Now you're ready to go and find another pull request to test! Have a little celebration, you helped make Mautic even more awesome! THANK YOU!
 
 
-
+[gitpod-browser]: <https://www.gitpod.io/docs/configure/user-settings/browser-extension>
 [docker-desktop]: <https://www.docker.com/products/docker-desktop>
 [ddev]: <https://ddev.readthedocs.io/en/stable/#installation>
 [github-cli]: <https://cli.github.com>
