@@ -8,7 +8,7 @@ Once there, you can click the edit button - which resembles a pencil - and make 
 
 ![Screenshot of community handbook with a red box highlighting the Edit on GitHub button](edit-button-github.png)
 
-Follow the instructions to save the changes - commit the file - to a new branch.  Call the branch something relative to what you are updating.
+Follow the instructions to save the changes - commit the file - to a new branch. Call the branch something relative to what you are updating.
 
 Once you have committed those changes, go back to the main repository at [https://github.com/mautic/mautic-community-handbook](https://github.com/mautic/mautic-community-handbook) and a green button prompts you to create a Pull Request.
 
