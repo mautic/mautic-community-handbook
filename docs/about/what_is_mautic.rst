@@ -4,7 +4,7 @@ What is Mautic?
 Mautic is the world's first Open Source Marketing Automation platform.
 
 It was created by DB Hurley and launched in 2014 as an Open Source project under the GPL v3 license. You can find out more on our website,
-:xref:`mautic.org`, or on the :xref:`Mautic GitHub repository`. You can :xref:`download Mautic` for free on mautic.org.
+:xref:`mautic.org`, or on the :xref:`Mautic GitHub repository`. You can :xref:`Download Mautic` for free on mautic.org.
 
 The Mautic Community are a worldwide distributed team of volunteers who are passionate about Mautic, Marketing Automation, and Open Source technologies.
 
