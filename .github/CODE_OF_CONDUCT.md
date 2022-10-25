@@ -1,4 +1,4 @@
-.. vale off
+<!-- vale off -->
 
 The primary source of the Code of Conduct is at [mautic.org](https://www.mautic.org/code-of-conduct/) - it is reproduced here for reference.
 
@@ -102,6 +102,4 @@ Reviewed and updated using the [Mozilla Code of Conduct Assessment Tool][mozilla
 [cc-by-sa]: <https://creativecommons.org/licenses/by-sa/3.0/>
 [mozilla-tool]:<https://mozilla.github.io/diversity-coc-review.io>
 
-(Code of Conduct is subject to change without notice).
-
-.. vale on
+<!-- vale on -->
