@@ -1,5 +1,5 @@
-Mautic Community Handbook
-#########################
+# Mautic Community Handbook
+
 
 A handbook for all things related to the Mautic Community.
 
