@@ -14,5 +14,5 @@ Anybody can get involved - whether you want to organise a local meetup, contribu
 
 We are primarlily organized around the following channels: 
 
-:xref:`Mautic Community Forums`
-:xref:`Mautic Community Slack`
+- :xref:`Mautic Community Forums`
+- :xref:`Mautic Community Slack`
