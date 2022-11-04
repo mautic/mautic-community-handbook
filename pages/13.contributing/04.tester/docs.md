@@ -168,11 +168,11 @@ From this point, you can write what you have found when testing the pull request
 
 Once you are done with testing the pull request, it is good practice to get back to the original state. To do this use the command:
 
-`git checkout 4.x`
+`git checkout 5.x`
 
-Where 4.x is the branch that you want to return to.
+Where 5.x is the branch that you want to return to.
 
-This will check out the branch called `4.x` which is where we started from.  Now you're ready to go and find another pull request to test! Have a little celebration, you helped make Mautic even more awesome! THANK YOU!
+This will check out the branch called `5.x` which is where we started from.  Now you're ready to go and find another pull request to test! Have a little celebration, you helped make Mautic even more awesome! THANK YOU!
 
 
 [gitpod-browser]: <https://www.gitpod.io/docs/configure/user-settings/browser-extension>
