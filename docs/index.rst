@@ -17,3 +17,11 @@ The vision is that it grows over time as the teams and governance structure evol
    about/what_is_mautic
    about/how_is_mautic_used
    about/how_to_try_mautic
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Community Structure
+   :hidden:
+
+   community_structure/community_structure
+   community_structure/governance_model
