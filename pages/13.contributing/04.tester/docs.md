@@ -23,7 +23,9 @@ Since the [4.1 release][mautic-4.1] support for [Gitpod][gitpod] has been introd
 
 This allows you to quickly spin up a Mautic instance with a pull request applied, in the cloud. The Mautic instance also has a mail catching tool (Mailhog) and PHPMyAdmin available to view database tables.  While there will be some pull requests which can't be tested in this way (for example if they are testing the installation process) the vast majority can be.
 
-Testing with Gitpod is as simple as clicking a button. Each pull request will have a button in the description which says 'open in Gitpod'. Click this button (you may wish to open in a new tab), and wait for Mautic to be installed for you. Once the installer is done, it shows the URLs for the Mautic UI as well as the phpMyAdmin UI (in case you need to test things in the database). It also shows you the default credentials to use for the login. 
+Testing with Gitpod is as simple as clicking a button. Each pull request will have a button in the description which says 'open in Gitpod'. Click this button (you may wish to open in a new tab), and wait for Mautic to be installed for you. 
+
+Once the installer is done, it shows the URLs for the Mautic user interface, as well as for Mailhog and PHPMyAdmin (in case you need to check outgoing emails or test things in the database). It also shows you the default credentials to use for the login. Sometimes it can take a few minutes for the process to complete, so please wait until it does!
 
 If this is not showing (sometimes the bot that adds it takes a vacation!) you can also use the [Gitpod Browser Extension][gitpod-browser] in Chrome and Firefox. This will add a green 'Gitpod' button on the right hand side of every pull request next to the Edit and Code buttons, and has the added benefit of also adding the button on the main repository and any branch or tag, allowing you to quickly spin up a specific version of Mautic in Gitpod. You can also just copy the URL of the PR and open a gitpod on your gitpod dashboard. 
 
