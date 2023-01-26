@@ -30,7 +30,7 @@ The current leadership team and their terms are as follows:
 | Joey Keller      | Product Team Assistant Lead (Product)                  | joey.keller@mautic.org                      |  2021               |  2023             |
 | Mohit Aghera     | Product Team Assistant Lead (Development)                  | mohit.aghera@mautic.org                      | 2021                | 2023              |
 
-## Honour Role
+## Honour Roll
 
 These are people who have served on the Mautic Community Leadership Team in the past.
 
