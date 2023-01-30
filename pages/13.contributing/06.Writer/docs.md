@@ -34,20 +34,18 @@ It helps if you can provide an image to use with the article. This must be royal
 
 #### Mautic Community Blog Writer & Editorial Guidelines
 
-**Note:**
-_This is a first draft of what we might consider using for writers guidelines to contribute to the mautic.org blog.  These are based on the work done by the [Joomla project](https://magazine.joomla.org/all/item/41 "Joomla project") ~ Ruth Cheesley_
 
 ##### Content guidelines
 
-  - All posts must be in English, unless posted in a specific international area.  If posting in an international area, please use the language of that area, and not English.  
-  - Do not discuss illegal activities.  Our server is hosted in the USA and so it is subject to US law.  Please do not expose us to any unnecessary legal liability.
-  - Use your own words.  If you wish to use the words of somebody else, quote them, citing the source.  Plagiarism is unethical and is illegal in many countries.
-  - Do not use any copyrighted material unless it's released under a free use license such as Creative Commons or compatible.  If such copyrighted material is used, proper credit/attribution must be given.
+  - All posts must be in English, unless posted in a specific international area. If posting in an international area, please use the language of that area, and not English.  
+  - Do not discuss illegal activities. Our servers are hosted in the USA and so it is subject to US law. Please do not expose us to any unnecessary legal liability.
+  - Use your own words. If you wish to use the words of somebody else, quote them, citing the source.  Plagiarism is unethical and is illegal in many countries.
+  - Do not use any copyrighted material unless it's released under a free use license such as Creative Commons or compatible. If such copyrighted material is used, proper credit/attribution must be given.
   - In case you use copyrighted material that demands authorization from the author, make sure you have that authorization before you post.
-  - Do not link to any site that contains adult content, sexually oriented material or might otherwise be considered offensive.  Any post containing an inappropriate link will be deleted and the poster will receive a warning.
+  - Do not link to any site that contains adult content, sexually oriented material or might otherwise be considered offensive. Any post containing an inappropriate link will be deleted and the poster will receive a warning.
   - Do not propose/link to any site that contains warez("stolen" software)/copyrighted software/materials that can be downloaded illegally.
-  - __No commercial advertising is permitted.__ This includes advertising of any services and/or products not fully compliant with the GPL license.  In regards to this, you can post links towards your website at the end of the blog and you can write a sentence that leads to your website.  For example: "This information can be found on [this link](# "Empty link just to showcase")"; or "Read more in this article in _(your native language)_".  Any posts deemed to be self promotion, advertising, or spam can and will be removed.  NO SPAM - NO ADVERTISING eg.  Posting and making excessive, inappropriate and unnecessary references to your products and websites is self promotion.
-  - This site is centered on Mautic, Open Source software and other Marketing and Development matters.  It is not a place to promote ideological, religious, or political matters.  All such discussions will be deleted.
+  - __No commercial advertising is permitted.__ This includes advertising of any services and/or products not fully compliant with the GPL license. In regards to this, you can post links towards your website at the end of the blog and you can write a sentence that leads to your website. For example: "This information can be found on [this link](# "Empty link just to showcase")"; or "Read more in this article in _(your native language)_".  Any posts deemed to be self promotion, advertising, or spam can and will be removed.  NO SPAM - NO ADVERTISING eg.  Posting and making excessive, inappropriate and unnecessary references to your products and websites is self promotion.
+  - This site is centered on Mautic, Open Source software and other Marketing and Development matters. It is not a place to promote ideological, religious, or political matters.  All such discussions will be deleted.
 
 ##### Disclosure of Compensated Relationships
 
@@ -65,52 +63,51 @@ The Community Blog content falls under the direct oversight of the Marketing Tea
 
 As a matter of general practice, Acquia does not get involved in content except worrying about things like the FTC issue, libel and copyright.  
 
-Community blog authors keep their copyright but the Mautic Project and Acquia also have the right to reuse the work.  If someone does not want to give the Mautic Project and Acquia that right, it should be discussed with the Project Lead.
+Community blog authors keep their copyright but the Mautic Project and Acquia also have the right to reuse the work. If someone does not want to give the Mautic Project and Acquia that right, it should be discussed with the Project Lead.
 
 ##### Article Submission Guide
 
-_Note: This is based on [Joomla project](https://magazine.joomla.org/all/item/71-article-submission-guide "Joomla project")_
 
 ###### Our audience
 
-The international Mautic community includes everyone, from first time users to experienced developers.  We also talk to marketers that may be using other platforms, but that might want to migrate to Mautic once they get to know our tool a little better.  All submissions should be provided in US English.
+The international Mautic community includes everyone, from first time users to experienced developers. We also talk to marketers that may be using other platforms, but that might want to migrate to Mautic once they get to know our tool a little better. All submissions should be provided in US English.
 
 ###### Word count
 
 For most subjects, we are looking for articles consisting of approximately 400-650 words, with 500 words as a good target.
 
-More in-depth articles will be considered depending on the subject matter.  If you are interested in writing about a subject that is extremely long, consider breaking it up into a series of multiple articles.  If this is the case, please submit a summary of your subject.
+More in-depth articles will be considered depending on the subject matter. If you are interested in writing about a subject that is extremely long, consider breaking it up into a series of multiple articles. If this is the case, please submit a summary of your subject.
 
 ###### Submission deadline
 
-Please submit articles at least seven calendar days before the expected publish date.  This allows time for editorial review, amendments and publishing.  Also, please be available to review any questions or suggestions that you may get before publishing your article.
+Please submit articles at least seven calendar days before the expected publish date. This allows time for editorial review, amendments and publishing. Also, please be available to review any questions or suggestions that you may get before publishing your article.
 
 ###### What we look for
 
 Successful article submissions will have the following in common:
 
   - The subject matter is interesting and relevant to the Mautic Community audience and marketers, and has a positive angle.
-  - The articles present sufficient ‘stand alone’ information for the reader.  This means that a high level of experience or knowledge is not required to understand the article.  Including educational/explanatory links to other resources is encouraged!
+  - The articles present sufficient ‘stand alone’ information for the reader. This means that a high level of experience or knowledge is not required to understand the article. Including educational/explanatory links to other resources is encouraged!
   - Authors are members of the Mautic community, e.g.  users, commenters, forum members, developers, documenters, etc.
 
 ###### What to avoid
 
   - IMPORTANT: All article must abide by our __Content Guidelines__;
   - Articles that do not have a direct connection to Mautic;
-  - Self-promotional articles (example: an article about a plugin or service written by the developer themself, or an employee).  Even if the plugin or service in question is free, the article will not be published;
-  - Articles that draw attention to issues/problems/concerns.  Mautic has other channels for that, but that isn't the purpose of the Community Blog;
-  - Articles that are too advertorial in style – rather than blatantly plug the writer’s own business, articles should employ the 'attraction' marketing principle, i.e.  the author’s expertise is evident, but not obtrusive.  For example, instead of writing about 'Why you need a marketing expert' or 'What a marketing expert can do for you', an article on 'Best practices for marketing’ would work better;
+  - Self-promotional articles (example: an article about a plugin or service written by the developer themselves, or an employee). Even if the plugin or service in question is free, the article will not be published;
+  - Articles that draw attention to issues/problems/concerns. Mautic has other channels for that, but that isn't the purpose of the Community Blog;
+  - Articles that are too advertorial in style – rather than blatantly plug the writer’s own business, articles should employ the 'attraction' marketing principle, i.e. the author’s expertise is evident, but not obtrusive. For example, instead of writing about 'Why you need a marketing expert' or 'What a marketing expert can do for you', an article on 'Best practices for marketing’ would work better;
   - Press Releases submitted as articles;
-  - Articles that are too similar to existing topics – check for similar content  [on our blog][community-blog]
+  - Articles that are too similar to existing topics – check for similar content [on our blog][community-blog]
   - Articles that require too much editing.
 
-Our expectation is for articles submitted to be as 'publication ready’ as possible.  Any submissions requiring significant editing may not be considered.  This could include overly long articles or previously published/written items which require excessive modifications.  Previously published/written items are fine, provided that, prior to submission, the author has made the necessary edits in accordance with these guidelines.
+Our expectation is for articles submitted to be as 'publication ready’ as possible. Any submissions requiring significant editing may not be considered. This could include overly long articles or previously published/written items which require excessive modifications. Previously published/written items are fine, provided that, prior to submission, the author has made the necessary edits in accordance with these guidelines.
 
 Articles which are not in accordance with these guidelines may be rejected!
 
 ###### Interaction with readers
 
-Articles will also allow readers to add comments, and we definitely favor articles that will generate constructive discussion.  The Mautic Community Blog’s most popular articles will likely  succeed in encouraging discussions with readers, so keep this in mind when writing your article.
+Articles will also allow readers to add comments, and we definitely favor articles that will generate constructive discussion. The Mautic Community Blog’s most popular articles will likely succeed in encouraging discussions with readers, so keep this in mind when writing your article.
 
 ##### Pre-launch article submission process – what we require
 
@@ -118,39 +115,34 @@ For all articles we require you to submit your pitch via the [Editorial Calendar
 
 Your pitch will be moved into either the ‘forming’ stage (where we will ask you to provide more information, research or background detail to help us determine whether it is appropriate for the Community Blog) or directly to the ‘writing’ stage.   
 
-When your pitch is moved into the writing stage, you take up the responsibility for writing the content within the time frame on the card.   Please note the draft due date – this is when you need to have finished writing the article.  
+When your pitch is moved into the writing stage, you take up the responsibility for writing the content within the time frame on the card.  Please note the draft due date – this is when you need to have finished writing the article.  
 
 ##### Style Guide summary
 
   - All spelling should be in US English.
   - Write numbers one to nine as words and numbers 10 and above as numerals.
   - Where possible, avoid mentioning specific companies or organizations in your article unless it is relevant to your subject.
-  - If you want to emphasize a phrase or word, use italics rather than underlining.  Readers assume underlined text is hyperlinked.
+  - If you want to emphasize a phrase or word, use italics rather than underlining. Readers assume underlined text is hyperlinked.
   - Titles of books should be presented in italics.
-  - Our preferred date format is month/day/year, e.g.  January 1, 2011.
+  - Our preferred date format is month/day/year, e.g. January 1, 2011.
   - Write "20 to 30", not "20-30".
   - For most subjects, we are looking for articles consisting of approximately 400-650 words, with 500 words as a good target.
   - The style and tone should be clear, concise, positive, and upbeat.
-  - Sign your article using some variation of the template: "(Author name) is a (job title) at (company).  You can follow (them) on (social networks/GitHub repo) and read more of (their) (concentration area of knowledge) on (external company/personal blog URL)."
+  - Sign your article using some variation of the template: "(Author name) is a (job title) at (company). You can follow (them) on (social networks/GitHub repo) and read more of (their) (concentration area of knowledge) on (external company/personal blog URL)."
   - A more complete style guide will be published soon.
 
 ##### Copyright
 
-You retain full copyright for published work, but copyright on published articles will also be shared with Acquia.  If one of your Mautic Community Blog articles is to be published later elsewhere, a link to this magazine is requested, but not required.  Acquia reserves the right to re-publish your Mautic Community Blog article(s) in other media/formats in the future.
+You retain full copyright for published work, but copyright on published articles will also be shared with Acquia. If one of your Mautic Community Blog articles is to be published later elsewhere, a link to this magazine is requested, but not required. Acquia reserves the right to re-publish your Mautic Community Blog article(s) in other media/formats in the future.
 
-###### Author License Agreement
-
-Before your article will be published, we will ask that you agree to our Author License Agreement (ALA), which will detail the terms of publication.  The final wording of the ALA is still being developed, but the general points are:
-
-  - You confirm that you are the original author of the article and that you have the copyright to the article.
-  - You understand that submitting an article does not guarantee it will be published on the Mautic Community Blog.
-  - You agree to allow your article to be edited by the Mautic Community team.
-  - You agree that the Mautic Project reserves the right to remove your article from the magazine website.
-  - You agree that Acquia may re-publish your article in other media/formats in the future.
 
 #### Questions?
 
 If you have questions about submitting an article or other aspects of the Mautic Community Blog, please post on the [Mautic Community Forums][blog-forum] or on the #blog channel in [Slack][slack].
+
+#### References
+
+This is based on the excellent work done by the [Joomla project][joomla-content-guide].
 
 ## Technical writers
 If you're a technical writer, or interested in writing content for a technically-minded audience, we have lots of tasks in the [Education Team's Jira board][edu-jira]. There are opportunities to write for the [Knowledgebase][kb] - which may include tutorials, best practice and examples of how to do specific things in Mautic. 
@@ -190,3 +182,4 @@ We totally understand that life happens and it's easy to take on too much. No ju
 [gdrive]: <https://drive.google.com/drive/folders/1OrwJXmDrrlWK3f9nxRuru0YjS7-W-1-e?usp=sharing>
 [community-blog]: <https://www.mautic.org/blog>
 [blog-forum]: <https://forum.mautic.org/c/blog>
+[joomla-content-guide]: <https://magazine.joomla.org/faq/authors-faqs/141-content-guide>
