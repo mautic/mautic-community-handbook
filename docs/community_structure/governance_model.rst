@@ -105,7 +105,7 @@ The following voting process decides situations when a decision isn't clearly ev
 Who are the Mautic core maintainers and what do they do?
 ========================================================
 
-The Mautic Core team (who form part of the Product Team) is divided into 5 groups. Each team member can belong to only one group at a time. Any privilege listed for a particular group is also available to all higher priority groups. The Mautic Core groups, in descending order of priority are as follows:
+The Mautic Core team - who are part of the Product Team - consists of 5 groups. Each team member can belong to only one group at a time. Any privilege listed for a particular group is also available to all higher priority groups. The Mautic Core groups, in descending order of priority are as follows:
 
 .. vale off 
 
@@ -117,7 +117,7 @@ The Project Lead
 The Project Lead elects members into any other group, oversees project vision and direction, and makes decisions on proposed changes. The Project Lead listens to the counsel of trusted advisors and individuals
 respected for their contributions to Mautic. Acquia appoints the Project Lead.
 
-The full responsibilities and expectations of the Project Lead are detailed in the :doc:`Project Lead Definition`.
+Read about the full responsibilities and expectations of the Project Lead in the :doc:`Project Lead Definition`.
 
 .. vale off
 
@@ -133,7 +133,7 @@ They're the face of the developer community, and a central point of call for any
 
 The Technical Community Lead also has primary responsibility for supporting in-person sprints, releases, and being a bridge between the community and Acquia from the technical perspective.
 
-The full responsibilities and expectations of the Technical Community Lead are detailed in the :doc:`Technical Community Lead Description`.
+Read more about the full responsibilities and expectations of the Technical Community Lead in the :doc:`Technical Community Lead Description`.
 
 .. vale off
 
@@ -163,7 +163,7 @@ Core Committers
 
 .. vale on
 
-The core committers are a small team that review proposed changes and have commit access to the core repository. These core committers are selected by the Project Lead based on their previous experience and project involvement.
+The core committers are a small team that review proposed changes and have commit access to the core repository. The Project Lead selects core committers based on their previous experience and project involvement.
 
 .. vale off
 
@@ -183,21 +183,13 @@ Core Contributors
 
 Core Contributors are those individuals who assist in other areas of the project including patch contributions, documentation, translations and other key services for the Mautic core. Contributions are peer-reviewed and decided upon by the Core Committers, Release Leader, or Project Lead. Anyone can submit code contributions.
 
-.. vale off
-
-Voting Policy
+Voting policy
 -------------
-
-.. vale on
 
 All members of the Core Team cast votes. A member may change their vote at any time during the discussion. Positive votes require no explanation. A member must justify a negative vote by technical or objective logic. A Core Team member can't vote on any code they submit.
 
-.. vale off
-
-Merging Policy
+Merging policy
 --------------
-
-.. vale on
 
 The voting process on any particular pull request must allow for enough time for review by the community and the Core Team. This involves a minimum of 2 days for minor modifications and a minimum of 5 days for significant code changes. Minor changes involve typographical errors, documentation, code standards, minor CSS, JavaScript, and HTML modifications. Minor modifications don't require a voting process. All other submissions require a vote after the minimum code review period and one or more core members must approve them - with no core members voting against.
 
@@ -208,108 +200,93 @@ Applying to join the Core Team
 
 .. vale on
 
-In the Mautic Community, membership of the Core Team members operates on meritocracy. The Mautic Community actively seeks to empower active community members and those demonstrating
-increased involvement will be given everything needed for their
-continued success.
+In the Mautic Community, membership of the Core Team members operates on meritocracy. The Mautic Community actively seeks to empower active community members and  to provide those demonstrating increased involvement everything needed for their continued success.
 
-Core Membership Revocation
+.. vale off
+
+Core Membership revocation
 --------------------------
 
-A Mautic Core membership can be revoked for any of the following
-reasons:
+.. vale on
+
+Revoking of a Mautic Core membership may occur for any of the following reasons:
 
 -  Refusal to follow the rules and policies listed herein
 -  Lack of activity for the previous 6 months
 -  Willful negligence or intent to harm the Mautic project
 -  Upon decision of the project leader
 
-Revoked members may re-apply for core membership following at 12 month
-period.
+Revoked members may re-apply for core membership following at 12 month period.
 
 Assigning responsibility
-========================
+------------------------
 
-The following Responsibility Assignment Matrix illustrates how decisions
-might be made in different scenarios that might arise in the community.
+The following Responsibility Assignment Matrix illustrates how the Product Team might make decisions in different scenarios which may arise in the community.
 
-While the most common format for such matrices is RACI (Responsible,
-Accountable, Consulted, Informed), we have decided to adopt a variation
-used by the Drupal community called PACSI (Perform, Accountable,
-Control, Suggest, Informed) which more closely matches the collaborative
-nature of our culture.
+While the most common format for such matrices is RACI (Responsible, Accountable, Consulted, Informed), the Mautic Community decided to adopt a variation used by the Drupal community called PACSI (Perform, Accountable, Control, Suggest, Informed) which more closely matches the community's collaborative nature.
 
 Key
----
+~~~
 
 Perform (P)
-~~~~~~~~~~~
+^^^^^^^^^^^
 
-The role(s) that carry out the activity.
+The role/s that carry out the activity.
 
-This is placed in the column of the role(s) that predominantly drive
-those changes, but this doesn’t preclude other roles from also carrying
-out work.
+Placed in the column of the role/s that predominantly drive those changes, but this doesn't preclude other roles from also carrying out work.
 
 Accountable (A)
-~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^
 
-The role(s) ultimately accountable for the correct and thorough
-completion of the task, and often the ones who delegate the work to the
-performer (P).
+The role/s ultimately accountable for the correct and thorough completion of the task, and often the ones who delegate the work to the performer (P).
 
 Control (C)
-~~~~~~~~~~~
+^^^^^^^^^^^
 
-The role(s) that review the result of the activity (other than the
-Accountable, A). They have a right of veto and their advice is binding.
+The role/s that review the result of the activity - other than the Accountable, A. They have a right of veto and their advice is binding.
 
 Suggest (S)
-~~~~~~~~~~~
+^^^^^^^^^^^
 
-The role(s) consulted for advice based on their expertise. They provide
-non-binding advice.
+The role/s consulted for advice based on their expertise. They provide non-binding advice.
 
-These are role(s) whose input via two-way communication is actively
-sought, though this does not preclude others from making suggestions.
+These are role/s whose input via two-way communication is actively sought, though this doesn't preclude others from making suggestions.
 
 Informed (I)
-~~~~~~~~~~~~
+^^^^^^^^^^^^
 
-The role(s) that must be informed of the result of the activity.
+The role/s to inform of the result of the activity.
 
-Examples of PACSI Matrices
---------------------------
+Examples of PACSI matrices
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Note that if a change includes multiple rows in this table, there will
-be multiple roles involved.
+Note that if a change includes multiple rows in this table, this suggests involvement of multiple roles.
 
-Below is an example of a matrix that might be used within the Product
-Team: Example Product Team PACSI
+Below is an example of a potential matrix for the Product Team: example Product Team PACSI
 
--  The Project Lead may proactively make or override these decisions if
-   they deem it necessary.
+-  The Project Lead may proactively make or override these decisions if they deem it necessary.
 
-Each team would develop its own PACSI relating to their own area of
-stewardship, created in collaboration with Acquia via the Community
-Manager and Product Lead.
+Each team would develop its own PACSI relating to their own area of stewardship, created in collaboration with Acquia via the Community Manager and Product Lead.
 
-| As an example (provided to illustrate how this might work, rather than
-  using factually correct responsibilities), the Marketing team might
-  develop the matrix below with examples of tasks that arise within
-  their team, and clarity around who is responsible for making
-  decisions, taking actions, etc.
-| Example Marketing Team PACSI
+As an example (provided to illustrate how this might work, rather than using factually correct responsibilities), the Marketing team might develop the matrix below with examples of tasks that arise within their team, and clarity around who is responsible for making decisions, taking actions, etc.
 
-This would be developed and revisited as the team grows and
-responsibilities are delegated to them.
+.. image:: marketing-pacsi.png
+  :width: 600
+  :alt: Example Marketing Team PACSI
 
-And the Legal team’s might look like this: Legal Team PACSI
+Teams develop and review these as the team grows and responsibilities change.
+
+And the Legal team's might look like this: 
+
+.. image:: marketing-legal.png
+  :width: 600
+  :alt: Example Legal Team PACSI
 
 Credits:
-========
+********
 
-Inspiration and examples have been drawn from several Open Source
-projects and governance models in preparing this proposed model,
-including: `Drupal <https://www.drupal.org/governance>`__
-`Ubuntu <https://ubuntu.com/community/governance>`__
-`Joomla <https://www.opensourcematters.org/organisation.html>`__
+Inspiration and examples come from several Open Source projects and governance models in preparing this proposed model, including: 
+
+:xref:`drupal`
+:xref:`ubuntu-governance`
+:xref:`Joomla`
