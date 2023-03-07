@@ -144,6 +144,10 @@ If you have questions about submitting an article or other aspects of the Mautic
 
 This is based on the excellent work done by the [Joomla project][joomla-content-guide].
 
+#### References
+
+This is based on the excellent work done by the [Joomla project][joomla-content-guide].
+
 ## Technical writers
 If you're a technical writer, or interested in writing content for a technically-minded audience, we have lots of tasks in the [Education Team's Jira board][edu-jira]. There are opportunities to write for the [Knowledgebase][kb] - which may include tutorials, best practice and examples of how to do specific things in Mautic. 
 
