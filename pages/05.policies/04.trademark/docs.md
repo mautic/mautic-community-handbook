@@ -49,7 +49,7 @@ You can view the specified Mautic Registrations may at the following link: http:
 The following set of rules governs all use of the Mautic Trademarks, with the exception of any nominative fair use - outlined below - and regardless of whether you followed the license grant procedure or obtained an automatic license for such use.
 
 1. Any use of the Mautic Trademarks constitutes an acceptance of this policy.
-1. You may not use the Mautic Trademarks in a company name, in part or in whole (e.g. Mauticorp, Mautibiz).
+1. You may not use the Mautic Trademarks in a company name, in part or in whole (for example Mauticorp, Mautibiz).
 1. You may not use the Mautic Trademarks in any domain name or sub-domain name, in part or whole, regardless of domain extension.
 1. You may not use the Mautic Trademarks in any social media title, alias, handle or name, in part or whole, in any manner that may suggest affiliation with or endorsement by Mautic except where Mautic grants you a license and the Community Team creates the profiles.
 1. You must accompany any use of the Mautic Trademarks by the appropriate attribution, including use of the proper trademark symbol (“®” or “™”) on all occurrences of Mautic Trademarks.
