@@ -66,14 +66,7 @@ Please review the [Roadmap][roadmap] and existing [Feature Requests][feature-req
 
 Features that don't to fit within the direction of the Mautic Core goals are more than welcome as third-party Plugins instead. 
 
-.. vale off
-## Step 3: sign the Mautic Contributor Agreement
-
-.. vale on
-
-You need to sign the [Mautic Contributors Agreement][contributor-agreement] to contribute code to Mautic - you can sign it online.
-
-## Step 4: set up your environment (or use Gitpod)
+## Step 3: set up your environment (or use Gitpod)
 
 ### Install the software stack 
 
@@ -95,7 +88,7 @@ or, if you use the [GitHub CLI][github-cli], use
 gh repo clone mautic/mautic
 ```
 
-## Step 5: work on your pull request
+## Step 4: work on your pull request
 
 ### Choose the right branch
 
@@ -179,7 +172,7 @@ Work on the code as much as you want and commit as much as you want, but keep in
 
 - Try hard to not break backward compatibility - if you must do so, try to provide a compatibility layer to support the old way. PRs that break backward compatibility have less chance of acceptance, as they have to wait for release in a major release.
 
-## Step 6: migrations needed?
+## Step 5: migrations needed?
 
 Sometimes a PR needs a migration. An example is when updating a country's regions. 
 
@@ -208,7 +201,7 @@ Generated new migration class to "/var/www/html/app/migrations/Version2020101719
 
 3. When you're done, test your migration/s by running `migrations:execute --up VERSION`. If all looks good, you can roll back your changes with `migrations:execute --down VERSION`.
 
-## Step 7: prepare your pull request for submission
+## Step 6: prepare your pull request for submission
 
 You're almost ready to submit your pull request. There's three things you still need to look into:
 
@@ -232,7 +225,7 @@ Each new feature should include a reference to a pull request in the [End User D
 
 All code contributions - especially enhancements/features - should include adequate and appropriate unit tests using [PHPUnit][php-unit] and/or [Symfony functional tests][symfony-functional-tests]. The Core Team won't merge pull requests without these tests. See below for more extensive information on Automated Tests.
 
-## Step 8: submit your pull request
+## Step 7: submit your pull request
 
 ### Rebase your pull request
 
@@ -271,7 +264,7 @@ You can now make a pull request on the `mautic/mautic` GitHub repository.
 
 To ease the core team work, always include what you have modified in your pull request message and provide steps how to test your fix/feature. Keep in mind that not all testers have a thorough knowledge of all of Mautic's features, nor are they all likely to be developers, therefore clear testing steps are crucial.
 
-## Step 9: receiving feedback
+## Step 8: receiving feedback
 
 It's asked of all contributors to follow some best practices to ensure a constructive feedback process.
 
