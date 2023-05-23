@@ -59,6 +59,15 @@
       "contributions": [
         "review"
       ]
+    },
+    {
+      "login": "daniellord32",
+      "name": "Daniel Lord",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25160505?v=4",
+      "profile": "https://github.com/daniellord32",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
