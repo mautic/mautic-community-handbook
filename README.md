@@ -1,6 +1,6 @@
 # Mautic community handbook
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -27,6 +27,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/tobsowo"><img src="https://avatars.githubusercontent.com/u/5642737?v=4?s=100" width="100px;" alt="Oluwatobi Owolabi"/><br /><sub><b>Oluwatobi Owolabi</b></sub></a><br /><a href="https://github.com/mautic/mautic-community-handbook/pulls?q=is%3Apr+reviewed-by%3Atobsowo" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://www.ruthcheesley.co.uk"><img src="https://avatars.githubusercontent.com/u/2930593?v=4?s=100" width="100px;" alt="Ruth Cheesley"/><br /><sub><b>Ruth Cheesley</b></sub></a><br /><a href="https://github.com/mautic/mautic-community-handbook/pulls?q=is%3Apr+reviewed-by%3Archeesley" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://ionutojica.com"><img src="https://avatars.githubusercontent.com/u/96743055?v=4?s=100" width="100px;" alt="IonutOjicaDE"/><br /><sub><b>IonutOjicaDE</b></sub></a><br /><a href="https://github.com/mautic/mautic-community-handbook/pulls?q=is%3Apr+reviewed-by%3AIonutOjicaDE" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/daniellord32"><img src="https://avatars.githubusercontent.com/u/25160505?v=4?s=100" width="100px;" alt="Daniel Lord"/><br /><sub><b>Daniel Lord</b></sub></a><br /><a href="https://github.com/mautic/mautic-community-handbook/pulls?q=is%3Apr+reviewed-by%3Adaniellord32" title="Reviewed Pull Requests">👀</a></td>
     </tr>
   </tbody>
 </table>
