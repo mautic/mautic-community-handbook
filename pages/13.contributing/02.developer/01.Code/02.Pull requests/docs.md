@@ -21,27 +21,27 @@ Use this site to generate the TOC list elements:
 remove the first two lines
 -->
 
-  - [Step 1: Check existing Issues and Pull Requests](#step-1-check-existing-issues-and-pull-requests)
-  - [Step 2: Feature? Check the roadmap & Feature Requests](#step-2-feature-check-the-roadmap-feature-requests)
-  - [Step 3: Setup your environment](#step-4-setup-your-environment)
+  - [Step 1: Check existing Issues and Pull Requests](#step-1-review-existing-issues-and-pull-requests)
+  - [Step 2: Feature? Check the roadmap & Feature Requests](#step-2-new-feature-review-the-roadmap-feature-requests)
+  - [Step 3: Setup your environment](#step-3-set-up-your-environment-or-use-gitpod)
     - [Install the software stack](#install-the-software-stack)
     - [Get the Mautic source code](#get-the-mautic-source-code)
-  - [Step 4: Work on your Pull Request](#step-5-work-on-your-pull-request)
+  - [Step 4: Work on your Pull Request](#step-4-work-on-your-pull-request)
     - [Choose the right branch](#choose-the-right-branch)
     - [Install Mautic](#install-mautic)
     - [Create a Topic Branch](#create-a-topic-branch)
     - [Work on your Pull Request](#work-on-your-pull-request)
-  - [Step 5: Migrations needed?](#step-6-migrations-needed)
-  - [Step 6: Prepare your Pull Request for Submission](#step-7-prepare-your-pull-request-for-submission)
+  - [Step 5: Migrations needed?](#step-5-migrations-needed)
+  - [Step 6: Prepare your Pull Request for Submission](#step-6-prepare-your-pull-request-for-submission)
     - [Code Standards](#code-standards)
     - [Documentation](#documentation)
     - [Writing tests](#writing-tests)
-  - [Step 7: Submit your Pull Request](#step-8-submit-your-pull-request)
+  - [Step 7: Submit your Pull Request](#step-7-submit-your-pull-request)
     - [Rebase your Pull Request](#rebase-your-pull-request)
     - [Make a Pull Request](#make-a-pull-request)
-  - [Step 8: Receiving feedback](#step-9-receiving-feedback)
+  - [Step 8: Receiving feedback](#step-8-receiving-feedback)
     - [Rework your Pull Request](#rework-your-pull-request)
-  - [Testing](#testing)
+  - [Step 9: Testing](#step-9-testing)
     - [Pull Request Testing](#pull-request-testing)
     - [Automated Testing](#automated-testing)
       -[PHPUnit](#phpunit)
@@ -278,7 +278,7 @@ git push --force origin BRANCH_NAME
 
 >>>>>> When doing a push --force, **always** specify the branch name explicitly to avoid messing up other branches in the repository. `--force` tells Git that you **really** want to mess with things, so do it carefully.
 
-## Testing
+## Step 9: Testing
 
 ### Pull request testing
 
