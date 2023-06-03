@@ -86,9 +86,12 @@ This development environment will display the PHP errors, warnings and notices d
 
 In case of assets like JS, CSS, the source files are loaded instead of concatenated, minified files. This way the changes in those files will be directly visible on refresh. If you'd wanted to see the change in the production environment, you'd have to have run the `bin/console mautic:assets:generate` command.
 
-In many cases, the CSS files are built from LESS files. To compile the changes in the LESS files, run `grunt compile-less` command.
+In many cases, the CSS files are built from LESS files. To compile the changes in the LESS files you have two options: 
+1. Run `grunt less` to just compile one time.
+2. Run `grunt watch` to watch for changes in the LESS files and then compile them directly.
+3. Run `grunt compile-less` to compile and watch for changes in the LESS files.
 
-In case you don't have Grunt installed firstly run `npm install -g grunt-cli` to install grunt-cli globally. Then go to the Mautic root directory, and run `npm install`. After that you can run the `grunt compile-less` command.
+In case you don't have Grunt installed, firstly run `npm install -g grunt-cli` to install grunt-cli globally. Then go to the Mautic root directory, and run `npm install`. After that, you can run e.g. the `grunt less` command.
 
 [mautic-requirements]: <https://www.mautic.org/download/requirements>
 [amp-packages]: <https://en.wikipedia.org/wiki/List_of_Apache%E2%80%93MySQL%E2%80%93PHP_packages>
