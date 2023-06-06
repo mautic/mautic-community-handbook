@@ -53,3 +53,9 @@ The Community Council might consider other types or duration of sanctions accord
 ## Communications
 
 The Community Council shall notify all the interested parties (offender and offended) upon any action taken in relation to the Code of Conduct incident reported. When a ban is implemented, the name of the banned person and the effective dates of the ban will be published on the Mautic Community website for the reference of the community at large to ensure no speaking or other engagements are made with the offender during the period of their ban.
+
+## Active sanctions
+
+| Person | Conduct | Sanction|  
+|---------------|--------------------|--------------------|
+| Yosu Cadilla | Personal attacks | Permanent ban |
