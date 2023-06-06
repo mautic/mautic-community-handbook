@@ -58,4 +58,4 @@ The Community Council shall notify all the interested parties (offender and offe
 
 | Person | Conduct | Sanction|  
 |---------------|--------------------|--------------------|
-| Yosu Cadilla | Personal attacks | Permanent ban enacted June 6th, 2023 |
+| Yosu Cadilla | Personal attacks | Permanent ban enacted June 6, 2023 |
