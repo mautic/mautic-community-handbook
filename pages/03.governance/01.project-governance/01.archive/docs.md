@@ -1,5 +1,5 @@
 ---
-title: 'Governance model'
+title: 'Governance model v1 (archive)'
 media_order: 'Mautic-Community-Governance-4-1024x721.png,dev-pacsi (1).png,marketing-pacsi (1).png,legal-pacsi (1).png'
 slug: governance
 twitterenable: true
