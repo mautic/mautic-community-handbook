@@ -462,40 +462,40 @@ The following were used in researching and developing this model:
 
 ### Open source project governance examples and resources
 
-[https://www.python.org/psf/bylaws/](https://www.python.org/psf/bylaws/)
+[https://www.python.org/psf/bylaws/](https://www.python.org/psf/bylaws/)<br />
 
-[https://peps.python.org/pep-8002/](https://peps.python.org/pep-8002/)
+[https://peps.python.org/pep-8002/](https://peps.python.org/pep-8002/)<br />
 
-[https://medium.com/the-node-js-collection/healthy-open-source-967fa8be7951](https://medium.com/the-node-js-collection/healthy-open-source-967fa8be7951)
+[https://medium.com/the-node-js-collection/healthy-open-source-967fa8be7951](https://medium.com/the-node-js-collection/healthy-open-source-967fa8be7951)<br />
 
-[https://www.zotero.org/groups/2310183/foss\_governance/library](https://www.zotero.org/groups/2310183/foss\_governance/library)
+[https://www.zotero.org/groups/2310183/foss\_governance/library](https://www.zotero.org/groups/2310183/foss\_governance/library)<br />
 
-[https://governingopen.com/](https://governingopen.com/)
+[https://governingopen.com/](https://governingopen.com/)<br />
 
-[https://github.com/github/MVG](https://github.com/github/MVG)
+[https://github.com/github/MVG](https://github.com/github/MVG)<br />
 
 ### Decision making models
-[https://en.wikipedia.org/wiki/Direct%20democracy](https://en.wikipedia.org/wiki/Direct%20democracy)
+[https://en.wikipedia.org/wiki/Direct%20democracy](https://en.wikipedia.org/wiki/Direct%20democracy)<br />
 
-[https://en.wikipedia.org/wiki/Representative%20democracy](https://en.wikipedia.org/wiki/Representative%20democracy)
+[https://en.wikipedia.org/wiki/Representative%20democracy](https://en.wikipedia.org/wiki/Representative%20democracy)<br />
 
-[https://en.wikipedia.org/wiki/Garbage%20can%20model](https://en.wikipedia.org/wiki/Garbage%20can%20model)
+[https://en.wikipedia.org/wiki/Garbage%20can%20model](https://en.wikipedia.org/wiki/Garbage%20can%20model)<br />
 
-[https://en.wikipedia.org/wiki/Consensus%20decision-making](https://en.wikipedia.org/wiki/Consensus%20decision-making)
+[https://en.wikipedia.org/wiki/Consensus%20decision-making](https://en.wikipedia.org/wiki/Consensus%20decision-making)<br />
 
-[https://en.wikipedia.org/wiki/Instant-runoff%20voting](https://en.wikipedia.org/wiki/Instant-runoff%20voting)
+[https://en.wikipedia.org/wiki/Instant-runoff%20voting](https://en.wikipedia.org/wiki/Instant-runoff%20voting)<br />
 
-[https://en.wikipedia.org/wiki/Anarchist%20law](https://en.wikipedia.org/wiki/Anarchist%20law)
+[https://en.wikipedia.org/wiki/Anarchist%20law](https://en.wikipedia.org/wiki/Anarchist%20law)<br />
 
-[https://en.wikipedia.org/wiki/Referendum](https://en.wikipedia.org/wiki/Referendum)
+[https://en.wikipedia.org/wiki/Referendum](https://en.wikipedia.org/wiki/Referendum)<br />
 
 ### Org structures
-[https://en.wikipedia.org/wiki/Flat%20organization](https://en.wikipedia.org/wiki/Flat%20organization)
+[https://en.wikipedia.org/wiki/Flat%20organization](https://en.wikipedia.org/wiki/Flat%20organization)<br />
 
-[https://en.wikipedia.org/wiki/Cooperative](https://en.wikipedia.org/wiki/Cooperative)
+[https://en.wikipedia.org/wiki/Cooperative](https://en.wikipedia.org/wiki/Cooperative)<br />
 
 ### Governance tools
-[https://communityrule.info/templates](https://communityrule.info/templates)
+[https://communityrule.info/templates](https://communityrule.info/templates)<br />
 
 ### Community growth models
 [https://commonslibrary.org/circles-of-commitment/](https://commonslibrary.org/circles-of-commitment/)
