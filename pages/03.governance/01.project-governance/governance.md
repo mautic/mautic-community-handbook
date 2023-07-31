@@ -459,13 +459,31 @@ The following individuals contributed towards this governance model by providing
 -
 ## 9. References
 The following were used in researching and developing this model:
+
 ### Open source project governance examples and resources
-https://www.python.org/psf/bylaws/https://peps.python.org/pep-8002/https://medium.com/the-node-js-collection/healthy-open-source-967fa8be7951https://www.zotero.org/groups/2310183/foss\_governance/libraryhttps://governingopen.com/https://github.com/github/MVG
+
+[https://www.python.org/psf/bylaws/](https://www.python.org/psf/bylaws/)
+[https://peps.python.org/pep-8002/](https://peps.python.org/pep-8002/)
+[https://medium.com/the-node-js-collection/healthy-open-source-967fa8be7951](https://medium.com/the-node-js-collection/healthy-open-source-967fa8be7951)
+[https://www.zotero.org/groups/2310183/foss\_governance/library](https://www.zotero.org/groups/2310183/foss\_governance/library)
+[https://governingopen.com/](https://governingopen.com/)
+[https://github.com/github/MVG](https://github.com/github/MVG)
+
 ### Decision making models
-https://en.wikipedia.org/wiki/Direct%20democracyhttps://en.wikipedia.org/wiki/Representative%20democracyhttps://en.wikipedia.org/wiki/Garbage%20can%20modelhttps://en.wikipedia.org/wiki/Consensus%20decision-makinghttps://en.wikipedia.org/wiki/Instant-runoff%20votinghttps://en.wikipedia.org/wiki/Anarchist%20lawhttps://en.wikipedia.org/wiki/Referendum
+[https://en.wikipedia.org/wiki/Direct%20democracy](https://en.wikipedia.org/wiki/Direct%20democracy)
+[https://en.wikipedia.org/wiki/Representative%20democracy](https://en.wikipedia.org/wiki/Representative%20democracy)
+[https://en.wikipedia.org/wiki/Garbage%20can%20model](https://en.wikipedia.org/wiki/Garbage%20can%20model)
+[https://en.wikipedia.org/wiki/Consensus%20decision-making](https://en.wikipedia.org/wiki/Consensus%20decision-making)
+[https://en.wikipedia.org/wiki/Instant-runoff%20voting](https://en.wikipedia.org/wiki/Instant-runoff%20voting)
+[https://en.wikipedia.org/wiki/Anarchist%20law](https://en.wikipedia.org/wiki/Anarchist%20law)
+[https://en.wikipedia.org/wiki/Referendum](https://en.wikipedia.org/wiki/Referendum)
+
 ### Org structures
-https://en.wikipedia.org/wiki/Flat%20organizationhttps://en.wikipedia.org/wiki/Cooperative
+[https://en.wikipedia.org/wiki/Flat%20organization](https://en.wikipedia.org/wiki/Flat%20organization)
+[https://en.wikipedia.org/wiki/Cooperative](https://en.wikipedia.org/wiki/Cooperative)
+
 ### Governance tools
-https://communityrule.info/templates
+[https://communityrule.info/templates](https://communityrule.info/templates)
+
 ### Community growth models
-https://commonslibrary.org/circles-of-commitment/
+[https://commonslibrary.org/circles-of-commitment/](https://commonslibrary.org/circles-of-commitment/)
