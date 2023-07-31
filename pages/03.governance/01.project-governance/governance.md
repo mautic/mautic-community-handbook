@@ -11,8 +11,6 @@ taxonomy:
     category:
         - docs
 ---
-# Mautic Governance Model v2.0
-
 Welcome to Mautic!
 
 Within the Mautic project, our governance is driven by our core values:
