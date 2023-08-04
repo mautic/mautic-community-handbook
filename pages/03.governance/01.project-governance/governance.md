@@ -60,7 +60,7 @@ You qualify as a member through practical contributions if you dedicate at least
 
 You also qualify through practical contributions if you dedicate at least five (5) hours per month working on projects which advance the mission of Mautic by creating or maintaining open source software or resources which are available to the public at no charge.
 
-Members who wish to claim voting rights through this method are required to self-certify via a form each year.
+Members who wish to claim voting rights through this method are required to self-certify via a [form](https://forms.gle/mjRjyEhQbqXA7TNL6) each year.
 
  The Community Council will verify all membership requests on a monthly basis. They will use the Savannah CRM tool to verify engagement within Mautic-owned properties, and available tools to verify engagement with external properties.
 
