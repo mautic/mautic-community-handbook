@@ -66,17 +66,13 @@ A deprecation consists of three parts:
       
     Here’s an example of how this would look in Mautic:  
       
-    [https://github.com/mautic/mautic/pull/11050/files#diff-3f40ece77ee5c3e25a713b6e8a9b8cf04bbcea1eb7270bef3c30ad3290889cccR54  
-      
-    ](https://github.com/mautic/mautic/pull/11050/files#diff-3f40ece77ee5c3e25a713b6e8a9b8cf04bbcea1eb7270bef3c30ad3290889cccR54)
+    [https://github.com/mautic/mautic/pull/11050/files#diff-3f40ece77ee5c3e25a713b6e8a9b8cf04bbcea1eb7270bef3c30ad3290889cccR54](https://github.com/mautic/mautic/pull/11050/files#diff-3f40ece77ee5c3e25a713b6e8a9b8cf04bbcea1eb7270bef3c30ad3290889cccR54)
 
 2.  A `@trigger\_error(‘...’, E\_USER\_DEPRECATED)` at runtime to notify developers that deprecated code is being used. The @ suppression should be used in most cases so that we can customize the error handling and avoid flooding logs on production. In some cases we will omit the @ if it is important to notify developers of a behavior or BC break (e.g. for a critical issue)  
       
     Here’s an example of how this would look in Mautic:  
       
-    [https://github.com/mautic/mautic/blob/8a57278758e2c3e1c1ca987aaf9ebd5f05b3c877/app/bundles/CampaignBundle/Executioner/Dispatcher/LegacyEventDispatcher.php#L201  
-      
-    ](https://github.com/mautic/mautic/blob/8a57278758e2c3e1c1ca987aaf9ebd5f05b3c877/app/bundles/CampaignBundle/Executioner/Dispatcher/LegacyEventDispatcher.php#L201)
+    [https://github.com/mautic/mautic/blob/8a57278758e2c3e1c1ca987aaf9ebd5f05b3c877/app/bundles/CampaignBundle/Executioner/Dispatcher/LegacyEventDispatcher.php#L201](https://github.com/mautic/mautic/blob/8a57278758e2c3e1c1ca987aaf9ebd5f05b3c877/app/bundles/CampaignBundle/Executioner/Dispatcher/LegacyEventDispatcher.php#L201)
 
 3.  In the event of a user-facing deprecation (for example the removal of a feature or function in the front-end) a notice will be displayed when that feature or function is being used, explaining the deprecation and pointing to the user-friendly explanation section of the change record  
       
