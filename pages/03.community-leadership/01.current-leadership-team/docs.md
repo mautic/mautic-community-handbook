@@ -24,7 +24,7 @@ The current leadership team and their terms are as follows:
 | Position Vacant         | Education Team Assistant Lead                   |                      |                 |               |
 | Ruth Cheesley      | Legal & Finance Team Lead                   | ruth.cheesley@mautic.org                     |   N/A              |  N/A             |
 | Oluwatobi Owolabi        | Marketing Team Lead                  | oluwatobi.owolabi@mautic.org                      |  2021               |   2024            |
-| Sven Döring         | Marketing Team Assistant Lead                   |   sven.doring@mautic.org                   |   2023              |      2025         |
+| Sven Döring         | Marketing Team Assistant Lead                   |   sven.doering@mautic.org                   |   2023              |      2025         |
 | Norman Pracht         | Product Team Lead                   | norman.pracht@mautic.org                      |  2020               |   2023            |
 | Joey Keller      | Product Team Assistant Lead (Product)                  | joey.keller@mautic.org                      |  2021               |  2023             |
 | Mohit Aghera     | Product Team Assistant Lead (Development)                  | mohit.aghera@mautic.org                      | 2021                | 2023              |
