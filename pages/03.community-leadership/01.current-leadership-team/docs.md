@@ -22,10 +22,9 @@ The current leadership team and their terms are as follows:
 | Nico Grienauer          | Community Team Assistant Lead                   | nico.grienauer@mautic.org                      |  2020               |  2022             |
 | Favour Kelvin         | Education Team Lead                   | favour.kelvin@mautic.org                      |   2021              | 2024              |
 | Position Vacant         | Education Team Assistant Lead                   |                      |                 |               |
-| Legal@Acquia       | Legal & Finance Team Lead                   | legal@acquia.com                     |   N/A              |  N/A             |
-| Legal@Acquia         | Legal & Finance Team Assistant Lead                   | legal@acquia.com                      |  N/A               | N/A              |
+| Ruth Cheesley      | Legal & Finance Team Lead                   | ruth.cheesley@mautic.org                     |   N/A              |  N/A             |
 | Oluwatobi Owolabi        | Marketing Team Lead                  | oluwatobi.owolabi@mautic.org                      |  2021               |   2024            |
-| Déborah Salves         | Marketing Team Assistant Lead                   |   deborah.salves@mautic.org                   |   2021              |      2023         |
+| Sven Döring         | Marketing Team Assistant Lead                   |   sven.doering@mautic.org                   |   2023              |      2025         |
 | Norman Pracht         | Product Team Lead                   | norman.pracht@mautic.org                      |  2020               |   2023            |
 | Joey Keller      | Product Team Assistant Lead (Product)                  | joey.keller@mautic.org                      |  2021               |  2023             |
 | Mohit Aghera     | Product Team Assistant Lead (Development)                  | mohit.aghera@mautic.org                      | 2021                | 2023              |
@@ -36,6 +35,7 @@ These are people who have served on the Mautic Community Leadership Team in the 
 
 | Name      | Role     | Term commenced | Term ended |
 |-----------|--------------------|-----------------|---------------|
+| Déborah Salves | Marketing Team Assistant Lead | 2021 | 2023 |
 | Dennis Ameling         | Product Team Assistant Lead                   | 2020                 | 2021              |
 | Leon Oltmanns         | Education Team Lead                   |  2020               |   2021            |
 | Radu Zlatianu         | Marketing Team Lead                   |  2020               |   2021            |
