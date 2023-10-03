@@ -16,18 +16,26 @@ Every new feature and bug fix that is released in Mautic has undergone testing a
 
 We are always looking out for people to help us with these processes. Even if you can spare an hour or two a week, it would significantly increase the number of bugs and features that make it out into the hands of Mautic users.
 
-Once you have a local testing environment established, it is very quick and easy to test bugs and features.
+Once you have a local testing environment established (or you have a free account on GitHub which allows you to use Gitpod) it is very quick and easy to test bugs and features.
+
+Here is a video which explains the easy way as outlined below:
+
+[plugin:youtube](https://www.youtube.com/watch?v=fqnT3kaDaW4).
+
+We maintain a board which shows you a list of all of the bugs and features that we want to get tested -  check it out here: [Open Source Friday board][open-source-friday-board].
 
 ## The easy way: using Gitpod
 Since the [4.1 release][mautic-4.1] support for [Gitpod][gitpod] has been introduced. 
 
 This allows you to quickly spin up a Mautic instance with a pull request applied, in the cloud. The Mautic instance also has a mail catching tool (Mailhog) and PHPMyAdmin available to view database tables.  While there will be some pull requests which can't be tested in this way (for example if they are testing the installation process) the vast majority can be.
 
-Testing with Gitpod is as simple as clicking a button. Each pull request will have a button in the description which says 'open in Gitpod'. Click this button (you may wish to open in a new tab), and wait for Mautic to be installed for you. 
+Testing  a bug or a new feature with Gitpod is as simple as clicking a button once you have installed the [Gitpod Browser Extension][gitpod-browser] in Chrome and Firefox. 
+
+This will add a green 'Gitpod' button on the right hand side of every pull request, and has the added benefit of also adding the button on the main repository and any branch or tag, allowing you to quickly spin up a specific version of Mautic in Gitpod. You can also copy the URL of the PR and open a Gitpod instance manually on your Gitpod dashboard, or using various automation tools like Alfred or Raycast.  
+
+Once you have the browser extension installed, click the green button -  the first time it will ask you to log in with GitHub.  You may wish to open in a new tab, so that it's easy to reference back to the pull request.  Now you just have to wait for Mautic to be installed for you. 
 
 Once the installer is done, it shows the URLs for the Mautic user interface, as well as for Mailhog and PHPMyAdmin (in case you need to check outgoing emails or test things in the database). It also shows you the default credentials to use for the login. Sometimes it can take a few minutes for the process to complete, so please wait until it does!
-
-If the GitPod button is not showing on a pull request (sometimes the bot that adds it takes a vacation!) you can also use the [Gitpod Browser Extension][gitpod-browser] in Chrome and Firefox. This will add a green 'Gitpod' button on the right hand side of every pull request next to the Edit and Code buttons, and has the added benefit of also adding the button on the main repository and any branch or tag, allowing you to quickly spin up a specific version of Mautic in Gitpod. You can also just copy the URL of the PR and open a Gitpod on your Gitpod dashboard. 
 
 Then follow the test instructions in the pull request, and [report back your findings][report-findings].  The default username will always be admin, and the password will be mautic.
 
@@ -41,7 +49,7 @@ To quickly install sample data, use the command `ddev exec bin/console d:f:l` wh
 
 #### Build the segments after install   
 
-It's always worth building the segments once you install the sample data, using the command `ddev exec bin/console m:s:r`.
+It's always worth building the segments once you install the sample data, using the command `ddev exec bin/console m:s:r`.  
 
 #### Testing with different databases / PHP versions
 
@@ -191,3 +199,4 @@ This will check out the branch called `5.x` which is where we started from.  Now
 [gitpod]: <https://www.gitpod.io>
 [gitpod-default]: <https://gitpod.io/#https://github.com/mautic/mautic>
 [report-findings]: <https://contribute.mautic.org/contributing-to-mautic/tester#leaving-your-review>
+[open-source-friday-board]: <https://github.com/orgs/mautic/projects/13?pane=info>
