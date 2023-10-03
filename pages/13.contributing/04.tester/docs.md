@@ -20,7 +20,7 @@ Once you have a local testing environment established (or you have a free accoun
 
 Here is a video which explains the easy way as outlined below:
 
-[plugin:youtube](https://www.youtube.com/watch?v=fqnT3kaDaW4).
+[plugin:youtube](https://www.youtube.com/watch?v=fqnT3kaDaW4)[/youtube]
 
 We maintain a board which shows you a list of all of the bugs and features that we want to get tested -  check it out here: [Open Source Friday board][open-source-friday-board].
 
