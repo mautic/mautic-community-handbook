@@ -29,7 +29,6 @@ These are the traditional kind of in-person meetups which are based in a region 
 5. Meetup groups allow events to be organized by any reliable/trusted member of the community.
 6. Meetups are welcoming places where everyone works to foster an accepting environment which is free of discrimination, incitement to violence, promotion of hate, and general jerk-like behavior.
 
-
 Official groups will have a Meetup group created on [meetup.com/pro/mautic](https://meetup.com/pro/mautic) and a category created in [Mautic Meetups](https://forum.mautic.org/c/mautic-meetups/7) on the forums once the following criteria are met:
 
 1. A thread on the Mautic Community Forums in the [International - By Country](https://forum.mautic.org/c/international-by-country) category indicating at least two people interested in joining the meetup
@@ -48,9 +47,9 @@ These events (commonly referred to as “meetups”, which can be confusing sinc
 * a session to help people with Mautic
 * contributor sprints/drives, and others.
 
-Existing groups can be brought into the official Mautic Meetup account by contacting the Community Manager. This will mean that the meetup.com fees will be covered by Acquia.
+Existing groups can be brought into the official Mautic Meetup account by contacting the Project Lead. This will mean that the meetup.com fees will be covered by the Mautic Community.
 
-Official Mautic Meetup groups are also eligible for sponsorship by Acquia as part of their Community Meetup Sponsorship Programme - for example to cover the cost of food for a sprint event or to bring in a speaker who needs travel or accommodation.
+Official Mautic Meetup groups are also eligible for sponsorship by Community Partners - for example to cover the cost of food for a sprint event or to bring in a speaker who needs travel or accommodation.
 
 ## Mautic Meetups Online
 These are an online variation of the traditional meetup. There are no restrictions on region, and they can span any geographic area. 
@@ -58,6 +57,8 @@ These are an online variation of the traditional meetup. There are no restrictio
 These meetups will not have a Meetup group (as these must be physical meetups) however they will have a category created in the Mautic Meetups category on the forums through which members can find information and discuss any relevant issues.  
 
 Official online Mautic Meetups agree to the same general guidelines as physical meetups (see above).
+
+We currently provide an airmeet.com account to run meetups online for up to 100 attendees.
 
 ## MautiCamps
 Where there is a strong local presence, organizers may wish to create an informal regional event or conference, called a MautiCamp.  

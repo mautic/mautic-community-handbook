@@ -1,0 +1,80 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "goba",
+      "name": "Gábor Hojtsy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/235185?v=4",
+      "profile": "http://hojtsy.hu",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "sdoering",
+      "name": "Sven Döring",
+      "avatar_url": "https://avatars.githubusercontent.com/u/765204?v=4",
+      "profile": "https://www.schriftrolle.de/?utm_source=github&utm_medium=profilLink",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "deborahsalves",
+      "name": "Déborah Salves",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79517214?v=4",
+      "profile": "https://github.com/deborahsalves",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "tobsowo",
+      "name": "Oluwatobi Owolabi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5642737?v=4",
+      "profile": "https://github.com/tobsowo",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "rcheesley",
+      "name": "Ruth Cheesley",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2930593?v=4",
+      "profile": "https://www.ruthcheesley.co.uk",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "IonutOjicaDE",
+      "name": "IonutOjicaDE",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96743055?v=4",
+      "profile": "https://ionutojica.com",
+      "contributions": [
+        "review",
+        "doc"
+      ]
+    },
+    {
+      "login": "daniellord32",
+      "name": "Daniel Lord",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25160505?v=4",
+      "profile": "https://github.com/daniellord32",
+      "contributions": [
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "mautic-community-handbook",
+  "projectOwner": "mautic"
+}
