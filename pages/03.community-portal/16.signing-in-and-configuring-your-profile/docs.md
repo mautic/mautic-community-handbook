@@ -44,7 +44,7 @@ At the top of the page, you'll notice that there are different languages availab
 
 Once you are logged in you will be presented with the option to claim a Mautic membership.   
 
-We have a membership option for the Mautic community. You can become an individual member for $100 a year or a pro rated amount based on where you are registered for tax purposes, and you can become a company member. 
+We have a [membership option](https://opencollective.com/mautic/contribute) for the Mautic community. You can become an individual member for $100 a year or a pro rated amount based on where you are registered for tax purposes, and you can become a company member. Read more about the membership program [here](https://www.mautic.org/blog/community/mautics-new-chapter-fueling-open-source-innovation-through-general-assembly).
 
 If you are already a member of Mautic,  you can select this option to match up your membership with your account on the community portal. this will allow you to participate in votes, access and engage in the general assembly, create proposals and so forth.
 
