@@ -6,12 +6,11 @@ taxonomy:
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
-orgaenabled: false
-orga:
-    ratingValue: 2.5
-orgaratingenabled: false
+orga: {  }
 personenabled: false
 facebookenable: true
+googletitle: 'Mautic Community Portal documentation'
+googledesc: 'Documentation for the Mautic Community Portal.'
 ---
 
 # Mautic Community Handbook
