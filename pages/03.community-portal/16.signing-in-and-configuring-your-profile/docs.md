@@ -6,6 +6,9 @@ articleenabled: false
 personenabled: false
 facebookenable: true
 media_order: 'login-mautic-account.png,sign-up-log-in.png,accept-terms-conditions.png,cookie-consent.png,notifications.png,interests.png,activity.png,profile-fields.png'
+taxonomy:
+    category:
+        - docs
 ---
 
 In this article, we explore how you sign in and set up your user profile. 
