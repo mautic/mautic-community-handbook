@@ -7,6 +7,9 @@ facebookenable: true
 title: 'Mautic Community Portal'
 googletitle: 'Mautic Community Portal documentation'
 googledesc: 'Mautic Community Portal documentation'
+taxonomy:
+    category:
+        - docs
 ---
 
 The Mautic community portal exists at [https://community.mautic.org](https://community.mautic.org).
