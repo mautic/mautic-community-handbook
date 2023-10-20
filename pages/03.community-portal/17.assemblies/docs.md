@@ -5,31 +5,74 @@ twittercardoptions: summary
 articleenabled: false
 personenabled: false
 facebookenable: true
+media_order: 'sub-assemblies.png,assemblies-overview.png,assemblies-members.png,community-team-blog.png'
 ---
 
 In this article we're going to be exploring assemblies, what they are, why they're important, why you might want to get involved with using them, and what you can do. 
 
+If you prefer to watch this in video form, you can do that here:
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fYg8yPQcgxM?si=ZcAQWmbJ1LSsMcky" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Getting started with Assemblies
 
-Assemblies can be found via the link on the main menu. 
-
-
+Assemblies can be found via the link on the main menu. When you access this page you will notice that there are some assemblies which are highlighted, followed by the full list of top level assemblies.
 
 An assembly is a grouping of people who come together to make decisions about specific things or to run different parts of the community. 
 
+We have different reasons for having assemblies. So some of them are relating to decision making and governance - such as the Council and the General Assembly - but there are also assemblies for Teams, Meetup Groups and Working Groups as well. 
 
+An assembly can also have assemblies nested within it - for example the MautiCon Working Group is nested within the Community Team, because that is the team in which it belongs.   This is denoted by the card having a stacked appearance, and listing the number of assemblies within it,  as seen in the Community Team here.
 
-We have different reasons for having assemblies. So some of them are relating to decision making and governance - such as the Council and the General Assembly, but there's also assemblies for teams, meetup groups and working groups as well. An assembly can also have assemblies nested within it - for example the MautiCon Working Group is nested within the Community Team because that is the team in which it belongs.
+![sub-assemblies](sub-assemblies.png "sub-assemblies")
 
-And that goes down to quite a long way. So you'll see here within the Community Team, we have two assemblies within that Community Team. So let's have a look and see what this is. So the Community Team, it tells you again, you can dismiss this box if you don't want to see this. At the top, there's always a hashtag associated throughout the whole of this platform, there'll be a hashtag. If we want to, we can hide this box. This tells you about the team, or the assembly, or the working group, or its reason for being, basically. It explains to you what the team does, what the tasks are, why it exists, really. And it tells you, how long it's going to last for, because sometimes they will exist for a finite period of time to do a particular thing, and that will be explained in the side menu here. Now something important, in this whole community portal, there's a concept of following. If you follow something, you will get updates whenever there's changes in that thing that you follow. So if we were to follow the community team, anytime there's a new meeting organized or a new blog post or anything like that, we will get pinged to let us know.
+## Exploring Assemblies
 
-So that's good if you're interested in that particular thing. When you're in the overview of the assembly, at the top you've got a sub menu, so this is what I would call the assembly menu, and this is what I would call the main menu at the top here, assembly menu here. It tells you the assembly, this is the overview.
+When you click through onto an assembly you will be presented with the overview page.
 
-You can see the members of the assembly, so this would be like the people who are the lead or the assistant lead. It might be the main contributors who are actually driving this assembly forwards. It could be other people who hold other roles in that assembly team project, whatever. And that can be different components along this menu.
+![assemblies-overview](assemblies-overview.png "assemblies-overview")
 
-Components
+1. Where it has been set, there's a hashtag which relates to the specific assembly. 
+2. The main page for an assembly will provide you with an overview which is basically the charter for that organised group -  what they do, and why they exist.
+3. If this assembly has a finite time for existence -  for example if it exists to support a specific event -  this will be listed in the metadata of the page on the right hand side.
+4. The follow button is common across the whole of the community portal,  allowing you to get updates from assemblies, groups, processes and so forth by clicking the button. Think of it as similar to following on social media pages
+5. Each assembly will have a submenu with different components depending on the assembly's need
+6. Any upcoming scheduled meetings will show in a list, and where there is an option you will be able to join the meeting by clicking through. After meetings are completed you will be able to view minutes and notes.
+7. If an assembly has sub-assemblies they will be listed in this section.  Remember that assemblies **and** sub-assemblies can have assemblies within them!
+8. At the very bottom of a page will be some statistics about the assembly.
 
-So in the Community Team, you'll notice we've got a blog. Anything across the whole of the community portal can have a blog and they all get put out into the activity feed. So it's a great way of keeping people apprised of what your team is working on and what your project is doing. And in this case, you can see that there's an official post from the team asking for people who are interested in promoting Mautic in their local regions - to become ambassadors - to come and tell us that they're interested.
+### Members
+
+An assembly has formal roles including:
+
+* Lead
+* Assistant lead
+* Contributor
+* Custom defined roles
+
+When you click on the members item in the assembly menu it lists the formal members.
+
+![assemblies-members](assemblies-members.png "assemblies-members") 
+
+If you are interested in an assembly the best thing to do is to follow that assembly to get updates.  When you start practically contributing to an assembly in some way, the team will make you a contributor or whatever the formal role that's relevant for the assembly is called.
+
+### Components
+
+#### Blog
+
+In the Community Team, you'll notice we've got a blog. Anything across the whole of the community portal can have a blog and they all get output into the activity feed, so it's a great way of keeping people apprised of what your team is working on and what your project is doing. 
+
+In this case, you can see that there's an official post from the team asking for people who are interested in promoting Mautic in their local regions - to become ambassadors - to come and tell us that they're interested.
+
+![community-team-blog](community-team-blog.png "community-team-blog")
+
+#### Meetings
+
+Another popular component that we use in the portal is meetings.  Meetings can be online, hybrid or in person, and there is an option to filter using select boxes and a search box to show all meetings, upcoming meetings, past meetings, and also to filter by type.
+
+There is an option to export the calendar, which is great if you want to ensure that the meetings for a particular assembly are in your personal calendar.  This creates a URL which you can subscribe to in your calendar of choice, so it is updated automatically.
+
+Click on the meeting to learn more about what is being discussed, 
 
 And then we've got meetings here, which I'll come back to in a minute. So on the homepage of the assembly, this will be the same for every assembly across the whole of the portal. We've got our information. If there are meetings in this assembly, we'll see them here. So you can see that there's some meetings organized here for the Community Team.
 
