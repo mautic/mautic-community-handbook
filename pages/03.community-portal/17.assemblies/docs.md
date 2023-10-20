@@ -5,7 +5,7 @@ twittercardoptions: summary
 articleenabled: false
 personenabled: false
 facebookenable: true
-media_order: 'sub-assemblies.png,assemblies-overview.png,assemblies-members.png,community-team-blog.png,community-team-meeting-with-agenda.png,meeting-attend-popup.png,community-team-meetings.png'
+media_order: 'sub-assemblies.png,assemblies-overview.png,assemblies-members.png,community-team-blog.png,community-team-meeting-with-agenda.png,meeting-attend-popup.png,community-team-meetings.png,debates.png,individual-debate.png'
 ---
 
 In this article we're going to be exploring assemblies, what they are, why they're important, why you might want to get involved with using them, and what you can do. 
@@ -89,3 +89,26 @@ Click on the meeting to learn more about what is being discussed.
 6. A formal agenda of what will be discussed and the rough timings for each section
 7. An etherpad which allows you to take notes collaboratively during the meeting.  The pad becomes editable within 24 hours of the meeting start time, and will be available and editable for 72 hours after.  From that point it becomes read only. This allows people to participate asynchronously if they want to. It is required to be logged into the portal in order to edit the Etherpad.
 8. Comments can be left on a meeting, and you can express positive support, neutral, or downvote along with leaving a comment if you wish. There is a maximum of 1,000 characters per comment.
+
+#### Debates
+
+You'll notice in the new features process, we've got the component for debates. Any of the assemblies or processes can have the debates component available. 
+
+If you have a question, and you want the community to be able to give you feedback or discussions,  this is a great way to do it within the community portal. 
+
+![debates](debates.png "debates")
+
+1. Button to create a new debate.
+2. Search and filter options to look through all debates.
+3. Individual debates
+
+So, in this one, we were working on CKEditor and a question came up about when you're using the GrapesJS Builder, what should you be able to change in the WYSIWYG editor? Because you can change a lot of the stuff in the GrapesJS builder itself, so how much do you actually want to be able to change within the WYSIWYG editor?  This is an opportunity for us to have a discussion about something and have a debate.
+
+![individual-debate](individual-debate.png "individual-debate")
+
+1. Button to endorse the debate as yourself or as a group or team.
+2. Button to follow the debate to be notified of changes.
+3. A list of individuals and teams or groups who have endorsed the debate.
+4. An opportunity to give positive, neutral or downvote support and leave a comment with up to one thousand characters.
+
+Debates could be time limited, or they could be closed when the discussion gets to a point where a decision has been made, and then if appropriate a related proposal could be made.
