@@ -5,7 +5,7 @@ twittercardoptions: summary
 articleenabled: false
 personenabled: false
 facebookenable: true
-media_order: 'sub-assemblies.png,assemblies-overview.png,assemblies-members.png,community-team-blog.png'
+media_order: 'sub-assemblies.png,assemblies-overview.png,assemblies-members.png,community-team-blog.png,community-team-meeting-with-agenda.png,meeting-attend-popup.png'
 ---
 
 In this article we're going to be exploring assemblies, what they are, why they're important, why you might want to get involved with using them, and what you can do. 
@@ -72,22 +72,18 @@ Another popular component that we use in the portal is meetings.  Meetings can b
 
 There is an option to export the calendar, which is great if you want to ensure that the meetings for a particular assembly are in your personal calendar.  This creates a URL which you can subscribe to in your calendar of choice, so it is updated automatically.
 
-Click on the meeting to learn more about what is being discussed, 
+Click on the meeting to learn more about what is being discussed.
 
-And then we've got meetings here, which I'll come back to in a minute. So on the homepage of the assembly, this will be the same for every assembly across the whole of the portal. We've got our information. If there are meetings in this assembly, we'll see them here. So you can see that there's some meetings organized here for the Community Team.
+![community-team-meeting-with-agenda](community-team-meeting-with-agenda.png "community-team-meeting-with-agenda")
 
-If there's more than three, then you'll be able to click here to go through to see all of them. If there are assemblies within the assembly, they'll be listed here. So you can see Mautic meetups and the MautiCon working group because the Community Team is responsible for everything that is to do with the community, and that includes organizing multi cons and it includes supporting and facilitating Mautic meetups. And as I mentioned, they can also have assemblies within them. So you see that the Mautic meetups assembly actually has five Mortek meetup groups within it. And then there's some stats at the bottom, which we're not too worried about.
+1. On the right hand side you will be able to see the date and time for the meeting
+2. There is a button to join the meeting,  which allows you to decide whether you want your participation to be shown publicly or not,  and also whether you are representing a group or yourself. Sometimes a meeting may use an external ticketing system, in which case 'join meeting' will take you to that system to complete the form. Once you register you will be able to access the link to access the online or hybrid meeting.
 
-Meetings
+![meeting-attend-popup](meeting-attend-popup.png "meeting-attend-popup")
 
-So if we go into the meeting, so we'll have a look at this one, for example, it will tell you over here about the date. I'll just cancel this just to make it easy to show. So you can see information about the meeting, like what's going to go on in the meeting. You can add comments here and I can join the meeting here to indicate that I want to attend. An important thing that we need to bear in mind is within this community platform, you can act as yourself, but you can also act on behalf of, say, a Team that you represent or a Working Group that you represent or a Tiger Team that you represent. So if I join this meeting, I can join this meeting as myself, but I could also check this box and it gives me the option of all of the teams that I'm actually a part of, which are groups, which I'll explain in a later video to say that I'm actually representing this Team, this Group, this Tiger Team, this whatever, when I attend this meeting.
-
-And then there's a check box to say show my attendance publicly. So  if you don't want your attendance to be shown, leave that unchecked. So if I click confirm, you can see down here that it now shows that I'm attending. If I cancel that registration, and then I register and say I represent the marketing team, say I'm joining the Community Team on behalf of the Marketing Team, show my attendance publicly, then you can see that it's showing my attendance actually as the marketing team, rather than just me personally.
-
-So you know that there's a representative of the Marketing Team who's coming to that meeting. So all of the meetings will have that option to join as you or to join  as a team or a project or whatever that you're associated with.   Also you can stop following the event if you don't want to get notifications, for example, and you can add comments as you or as a team that you represent.
-
-So that's meetings. Meetings are the same across the whole portal, and when we go to this meetings tab, we can actually see all the meetings for this team. These are upcoming meetings, but we can also show all meetings. So it will show us past ones as well. And when a meeting closes, you can actually close and say, What was discussed, you can share a link to the minutes, you can share what proposal you discussed in that meeting and what was accepted and what companies attended and all that kind of stuff. So there's lots of things that you can do. So that's assemblies, basically. And you'll notice that some of them are slightly different. They're organized slightly differently, but you can go and have a look to your heart's content and explore what the different assemblies do.
-
-When you look at this view, you'll always see the next upcoming meeting, so it's always easy to see the next upcoming meeting for a Team if you're interested in joining or Assembly or what have you. I think that's all we need to go through as regards to Assemblies. We'll do some different in depth videos on the Council and the General Assembly and things like that.
-
- If you have any questions, please drop them in the comments. That's great. Thanks very much.
+3. You can decide to follow the meeting if you want to get updates
+4. In some assemblies, participants can create meetings as well as the group members.  You can tell the difference because if a meeting is created by a group member, it will be shown as an official meeting.
+5. A description of the meeting in general tells you what will be discussed.
+6. A formal agenda of what will be discussed and the rough timings for each section
+7. An etherpad which allows you to take notes collaboratively during the meeting.  The pad becomes editable within 24 hours of the meeting start time, and will be available and editable for 72 hours after.  From that point it becomes read only. This allows people to participate asynchronously if they want to. It is required to be logged into the portal in order to edit the Etherpad.
+8. Comments can be left on a meeting, and you can express positive support, neutral, or downvote along with leaving a comment if you wish. There is a maximum of 1,000 characters per comment.
