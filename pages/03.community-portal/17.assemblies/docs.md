@@ -5,7 +5,7 @@ twittercardoptions: summary
 articleenabled: false
 personenabled: false
 facebookenable: true
-media_order: 'sub-assemblies.png,assemblies-overview.png,assemblies-members.png,community-team-blog.png,community-team-meeting-with-agenda.png,meeting-attend-popup.png'
+media_order: 'sub-assemblies.png,assemblies-overview.png,assemblies-members.png,community-team-blog.png,community-team-meeting-with-agenda.png,meeting-attend-popup.png,community-team-meetings.png'
 ---
 
 In this article we're going to be exploring assemblies, what they are, why they're important, why you might want to get involved with using them, and what you can do. 
@@ -71,6 +71,8 @@ In this case, you can see that there's an official post from the team asking for
 Another popular component that we use in the portal is meetings.  Meetings can be online, hybrid or in person, and there is an option to filter using select boxes and a search box to show all meetings, upcoming meetings, past meetings, and also to filter by type.
 
 There is an option to export the calendar, which is great if you want to ensure that the meetings for a particular assembly are in your personal calendar.  This creates a URL which you can subscribe to in your calendar of choice, so it is updated automatically.
+
+![community-team-meetings](community-team-meetings.png "community-team-meetings")
 
 Click on the meeting to learn more about what is being discussed.
 
