@@ -61,7 +61,7 @@ To enable registrations for a meeting:
 
 ## Creating a meeting
 
-Check the [Decidim documentation](https://docs.decidim.org/en/develop/admin/components/meetings.html#_create_a_new_meeting) for guidance on creating a meeting and explanantions of the different form fields.
+Check the [Decidim documentation](https://docs.decidim.org/en/develop/admin/components/meetings.html#_create_a_new_meeting) for guidance on creating a meeting and explanations of the different form fields.
 
 ### Etherpad note taking
 
