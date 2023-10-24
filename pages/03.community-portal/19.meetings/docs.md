@@ -22,6 +22,14 @@ Regarding the location, depending on the configuration of the meetings component
 
 * **Hybrid meetings:** where there is an online meeting which is also being streamed online.
 
+## Creating a meeting
+
+To create a meeting you need to be logged in as a team lead or assistant team lead.
+
+1. Go to the administrator's panel and find your assembly
+2. Click on the meetings component
+3. Click new meeting and fill out the form - check the [Decidim documentation](https://docs.decidim.org/en/develop/admin/components/meetings.html#_create_a_new_meeting) for guidance on the different form fields.
+
 ### Registration
 
 Through registrations you can have capacity control of the attendance for a meeting. With this feature, for instance, you can limit how many people could attend to the meeting, or you can know before the start of a meeting if you need to find a bigger room to have the meeting.
@@ -58,10 +66,6 @@ To enable registrations for a meeting:
 12. Fill the form
 
 * The default should be to register attendance through the community portal but if an external ticketing system is to be used, it's possible to provide a link to the booking page.
-
-## Creating a meeting
-
-Check the [Decidim documentation](https://docs.decidim.org/en/develop/admin/components/meetings.html#_create_a_new_meeting) for guidance on creating a meeting and explanations of the different form fields.
 
 ### Etherpad note taking
 
