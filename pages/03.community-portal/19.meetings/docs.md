@@ -16,11 +16,11 @@ Meetings are where people come together to discuss or inform about a given topic
 
 Regarding the location, depending on the configuration of the meetings component, you can have:
 
-* **In-person meetings:** where you get together in a given physical location
+* **In-person meetings:** where you get together in a given physical location.
 
 * **Online meetings:** where you get together using an external service (for instance Zoom or Jitsi Meet) - the online link is shared on the event just before it starts and throughout the meeting.
 
-* **Hybrid meetings:** where there is an online meeting which is also being streamed online
+* **Hybrid meetings:** where there is an online meeting which is also being streamed online.
 
 ### Registration
 
@@ -28,13 +28,13 @@ Through registrations you can have capacity control of the attendance for a meet
 
 Enabling this feature will add a button so that participants can express their wish to go to the meeting. Depending in how this feature is configured, then:
 
-* it’s possible to define how many slots are available for controling the maximum capacity for this meeting
+* It’s possible to define how many slots are available for controling the maximum capacity for this meeting
 
-* a custom registration form for asking information to participants can be configured
+* A custom registration form for asking information to participants can be configured
 
-* administrators can make invitations to other participants or people that isn’t registered in the platform
+* Administrators can make invitations to other participants or people that aren’t registered on the platform
 
-* it’s possible to control attendance to the meeting through registration codes
+* It’s possible to control attendance to the meeting through registration codes
 
 When registering to attend a meeting, users are presented with the option to show their attendance publicly, and also whether they are attending on behalf of another group.
 
