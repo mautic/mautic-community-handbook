@@ -5,7 +5,7 @@ twittercardoptions: summary
 articleenabled: false
 personenabled: false
 facebookenable: true
-media_order: 'official-groups.png,register-meeting.png'
+media_order: 'official-groups.png,register-meeting.png,create-group-button.png,invite-participant-group.png'
 ---
 
 Groups are used in Decidim for several purposes:
@@ -17,6 +17,19 @@ Groups are used in Decidim for several purposes:
 ## Creating a group
 
 Groups have to be created by individuals, and are then verified by the Community Portal Working Group.
+
+1. Go to your public profile, via the user menu.
+2. Click on 'Create group' at the bottom left of your user profile:
+
+![create-group-button](create-group-button.png "create-group-button")
+
+3. Use the team email address with your group as a suffix - e.g. community-team+portalwg@mautic.org - the team will confirm via email.
+4. For official groups, use the Mautic logo for the avatar.
+5. Click 'invite participants' to add other members:
+
+
+
+6. Ensure that you add at least one other administrator, ideally someone from the Community Portal Working Group.
 
 Once created, groups can be found via the Groups menu or when [searching and filtering by Groups](https://community.mautic.org/search?filter%5Bterm%5D=&filter%5Bwith_resource_type%5D=Decidim%3A%3AUserGroup&filter%5Bwith_scope%5D=).
 
