@@ -27,7 +27,7 @@ Groups have to be created by individuals, and are then verified by the Community
 4. For official groups, use the Mautic logo for the avatar.
 5. Click 'invite participants' to add other members - you will need to know their nickname for the community portal, from their profile:
 
-![create-group-button](create-group-button.png "create-group-button")
+![invite-participant-group](invite-participant-group.png "invite-participant-group")
 
 6. Ensure that you add at least one other administrator, ideally someone from the [Community Portal Working Group](https://community.mautic.org/assemblies/community-portal-working-group/members).
 
