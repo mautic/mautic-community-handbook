@@ -6,7 +6,7 @@ articleenabled: false
 personenabled: false
 facebookenable: true
 visible: true
-media_order: 'assemblies-admin-portal.png,new-assembly-button.png'
+media_order: 'assemblies-admin-portal.png,new-assembly-button.png,assembly-unpublished.png,assembly-components.png'
 ---
 
 An assembly is a grouping of people who come together to make decisions about specific things or to run different parts of the community.
@@ -50,8 +50,33 @@ Once you have decided where the new assembly should sit, follow this process to 
 
 6. Complete the form
   * Check the[ Decidim docs](https://docs.decidim.org/en/develop/admin/spaces/assemblies#_new_assembly_form) for an explanation of the fields.  
+  * Please follow existing naming conventions when it comes to the URL slug and hashtag.
   * Please use [this template](https://www.canva.com/design/DAFvp3RX9E4/t7lTTciFvSBcdA_94XbTiQ/view) to create the image for the assembly on Canva.
   * Please select the scope that relates to the top-level assembly for your assembly - for example for Mautic Meetup groups this would be Community Team. This helps with searching and filtering.
-  * Please don't highlight the assembly unless agreed with the Community Portal working group
+  * Please don't highlight the assembly unless agreed with the Community Portal working group.
   * If your assembly needs to be invite only as far as who can engage in it, you should be set it to private. This means you have to maintain a list of '[private participants](https://docs.decidim.org/en/develop/admin/spaces/assemblies/private_participants)' who can engage in the assembly.  This is quite an overhead, so it should only be used where absolutely essential. This is used in the General Assembly for example.  If this is required it is highly recommended that you also set the assembly to transparent, so that the community can _see_ what happens in the space, if they can't engage.  Private participants will receive an invitation to join the assembly, which they must accept.
-  * Ensure the assembly type is selected from the dropdown options
+  * Ensure the assembly type is selected from the dropdown options.
+
+7. Once the form is saved successfully, go back to the list and you'll notice it's showing as unpublished.
+
+![assembly-unpublished](assembly-unpublished.png "assembly-unpublished")
+
+8. Click the pencil icon to configure the assembly
+9. Add the components you require by clicking on components > Add Component - generally most assemblies will require:
+  * Page (to explain in more detail what they do)
+  * Meetings (for online/hybrid/in-person meetings)
+  * Blog (to communicate with the community what your assembly is doing)
+
+![assembly-components](assembly-components.png "assembly-components")
+
+
+
+### Assembly types
+
+Currently the following assembly types are available:
+
+* Team
+* Working group
+* Tiger team
+* Governance
+* Meetup group
