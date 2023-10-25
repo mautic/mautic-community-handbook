@@ -19,7 +19,9 @@ An assembly can also have assemblies nested within it - for example the MautiCon
 
 ## How to create a new assembly
 
-The first step before you create an assembly, is to decide which top-level assembly it should sit within, if any:
+The first step before you create an assembly, is to decide what the parent assembly should be.
+
+We have several top-level assemblies:
 
 * Community Team
 * Education Team
@@ -29,7 +31,7 @@ The first step before you create an assembly, is to decide which top-level assem
 * Council
 * General Assembly
 
-Think carefully before you create a new top-level assembly.  Remember that assemblies can be created within assemblies at any level of nesting - for example we have:
+Think carefully before you create a new top-level assembly - usually it should nest within one which already exists.  Remember that assemblies can be created within assemblies at any level of nesting - for example we have:
 
 _Community Team > Mautic Meetups > Mautic Meetup cityname_
 
@@ -46,4 +48,10 @@ Once you have decided where the new assembly should sit, follow this process to 
 
 ![new-assembly-button](new-assembly-button.png "new-assembly-button")
 
-6. 
+6. Complete the form
+  * Check the[ Decidim docs](https://docs.decidim.org/en/develop/admin/spaces/assemblies#_new_assembly_form) for an explanation of the fields.  
+  * Please use [this template](https://www.canva.com/design/DAFvp3RX9E4/t7lTTciFvSBcdA_94XbTiQ/view) to create the image for the assembly on Canva.
+  * Please select the scope that relates to the top-level assembly for your assembly - for example for Mautic Meetup groups this would be Community Team. This helps with searching and filtering.
+  * Please don't highlight the assembly unless agreed with the Community Portal working group
+  * If your assembly needs to be invite only as far as who can engage in it, you should be set it to private. This means you have to maintain a list of '[private participants](https://docs.decidim.org/en/develop/admin/spaces/assemblies/private_participants)' who can engage in the assembly.  This is quite an overhead, so it should only be used where absolutely essential. This is used in the General Assembly for example.  If this is required it is highly recommended that you also set the assembly to transparent, so that the community can _see_ what happens in the space, if they can't engage.  Private participants will receive an invitation to join the assembly, which they must accept.
+  * Ensure the assembly type is selected from the dropdown options
