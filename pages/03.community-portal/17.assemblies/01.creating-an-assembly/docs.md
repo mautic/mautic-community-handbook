@@ -70,7 +70,7 @@ Once you have decided where the new assembly should sit, follow this process to 
 ![assembly-components](assembly-components.png "assembly-components")
 
 10. Add the Lead, Assistant Lead and any contributors under the Members section by searching for the existing user. Note you can also create your own role name using 'other' as the option when selecting a role.
-11. If you want people to be able to become a member of your assembly _without_ you needing to manually add them, you can create a group which they can join, automatically granting them membership to your assembly.  Check the documentation on groups for how to create them, and then add the group in the Members section as above.
+11. If you want people to be able to become a member of your assembly _without_ you needing to manually add them, you can create a group which they can join, automatically granting them membership to your assembly.  Check the [documentation on groups](https://contribute.mautic.org/community-portal/groups) for how to create them, and then add the group in the Members section as above.
 12. Add any assembly admins - this gives the user full admin rights over just this specific assembly. You will need to know the email address they use, which you can find via Admin panel > Participants > Participants > Show email address (icon resembles an open envelope).
 13. Once all is configured, go to Info on the left menu when configuring the assembly, and click the Publish button at the very bottom of the page.
 
