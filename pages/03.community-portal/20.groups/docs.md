@@ -5,7 +5,7 @@ twittercardoptions: summary
 articleenabled: false
 personenabled: false
 facebookenable: true
-media_order: 'official-groups.png,register-meeting.png,create-group-button.png,invite-participant-group.png'
+media_order: 'official-groups.png,register-meeting.png,invite-participant-group.png,create-group-button.png'
 ---
 
 Groups are used in Decidim for several purposes:
@@ -25,17 +25,23 @@ Groups have to be created by individuals, and are then verified by the Community
 
 3. Use the team email address with your group as a suffix - e.g. community-team+portalwg@mautic.org - the team will confirm via email.
 4. For official groups, use the Mautic logo for the avatar.
-5. Click 'invite participants' to add other members:
+5. Click 'invite participants' to add other members - you will need to know their nickname for the community portal, from their profile:
 
+![create-group-button](create-group-button.png "create-group-button")
 
-
-6. Ensure that you add at least one other administrator, ideally someone from the Community Portal Working Group.
+6. Ensure that you add at least one other administrator, ideally someone from the [Community Portal Working Group](https://community.mautic.org/assemblies/community-portal-working-group/members).
 
 Once created, groups can be found via the Groups menu or when [searching and filtering by Groups](https://community.mautic.org/search?filter%5Bterm%5D=&filter%5Bwith_resource_type%5D=Decidim%3A%3AUserGroup&filter%5Bwith_scope%5D=).
 
 Official groups are indicated by a blue circle with a white star inside.
 
 ![official-groups](official-groups.png "official-groups")
+
+## Adding a group as a member of an entity
+
+You can add a group in the same way you add a user to an assembly, process, etc. by logging in s an admin, going to the entity in the admin panel and going to Members > Add new member and typing the group name.
+
+Remember that adding the group means that all members of the group become a member of that entity immediately.
 
 ## Acting on behalf of a group
 
