@@ -5,7 +5,7 @@ twittercardoptions: summary
 articleenabled: false
 personenabled: false
 facebookenable: true
-media_order: official-groups.png
+media_order: 'official-groups.png,register-meeting.png'
 ---
 
 Groups are used in Decidim for several purposes:
@@ -23,3 +23,16 @@ Once created, groups can be found via the Groups menu or when [searching and fil
 Official groups are indicated by a blue circle with a white star inside.
 
 ![official-groups](official-groups.png "official-groups")
+
+## Acting on behalf of a group
+
+When you are an administrator of a group, you have the ability to act on behalf of a group. This might include:
+
+* Attending a meeting or event on behalf of a group
+* Endorsing a proposal on behalf of a group
+
+When eligible, you will see a check box which allows you to take action on behalf of the group:
+
+![register-meeting](register-meeting.png "register-meeting")
+
+By checking the box, the group name - rather than your name - will be shown in relation to the action (e.g. as an attendee of a meeting, or endorsing a proposal).
