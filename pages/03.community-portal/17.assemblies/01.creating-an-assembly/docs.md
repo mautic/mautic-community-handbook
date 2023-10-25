@@ -6,7 +6,7 @@ articleenabled: false
 personenabled: false
 facebookenable: true
 visible: true
-media_order: 'assemblies-admin-portal.png,new-assembly-button.png,assembly-unpublished.png,assembly-components.png'
+media_order: 'assemblies-admin-portal.png,new-assembly-button.png,assembly-unpublished.png,assembly-components.png,assembly-publish.png'
 ---
 
 An assembly is a grouping of people who come together to make decisions about specific things or to run different parts of the community.
@@ -69,7 +69,13 @@ Once you have decided where the new assembly should sit, follow this process to 
 
 ![assembly-components](assembly-components.png "assembly-components")
 
+10. Add the Lead, Assistant Lead and any contributors under the Members section. Note you can also create your own role name using 'other' as the option when selecting a role.
+11. Add any assembly admins - this gives the user full admin rights over just this specific assembly. You will need to know the email address they use, which you can find via Admin panel > Participants > Participants > Show email address (icon resembles an open envelope).
+12. Once all is configured, go to Info on the left menu when configuring the assembly, and click the Publish button at the very bottom of the page.
 
+![assembly-publish](assembly-publish.png "assembly-publish")
+
+13. If the assembly is private, you'll need to invite members in the 'private members' section, once the assembly is published.
 
 ### Assembly types
 
