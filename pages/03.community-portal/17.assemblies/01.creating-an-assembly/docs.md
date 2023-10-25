@@ -5,6 +5,7 @@ twittercardoptions: summary
 articleenabled: false
 personenabled: false
 facebookenable: true
+visible: true
 ---
 
 An assembly is a grouping of people who come together to make decisions about specific things or to run different parts of the community.
