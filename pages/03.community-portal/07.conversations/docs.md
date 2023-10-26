@@ -16,3 +16,7 @@ To start a conversations:
 1. Sign in to the Community Portal
 2. Go to the participant profile that you want to start a conversation with
 3. Click the contact icon
+
+
+
+4. 
