@@ -5,7 +5,7 @@ twittercardoptions: summary
 articleenabled: false
 personenabled: false
 facebookenable: true
-media_order: 'official-groups.png,register-meeting.png,invite-participant-group.png,create-group-button.png'
+media_order: 'official-groups.png,register-meeting.png,invite-participant-group.png,create-group-button.png,request-to-join-group.png'
 ---
 
 Groups are used in Decidim for several purposes:
@@ -13,6 +13,15 @@ Groups are used in Decidim for several purposes:
 * To allow you to participate on behalf of an entity (for example joining a meeting or endorsing a proposal on behalf of your team)
 * To allow groups of people to automatically join an assembly by virtue of their group membership
 * To allow groups of people to have conversations together
+
+## Joining a group
+
+If you would like to join a team, working group or other entity within the community, the first step is to request to join the group.  This will, when granted, allow you to become a member of the connected assembly as a contributor.
+
+1. Find the group you want to join - either via the assembly homepage, or by [searching for the group](https://community.mautic.org/search?filter%5Bterm%5D=&filter%5Bwith_resource_type%5D=Decidim%3A%3AUserGroup&filter%5Bwith_scope%5D=).
+2. Click to request to join the group, and wait for the request to be granted:
+
+![request-to-join-group](request-to-join-group.png "request-to-join-group")
 
 ## Creating a group
 
