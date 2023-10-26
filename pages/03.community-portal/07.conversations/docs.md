@@ -14,6 +14,8 @@ A conversation can be started with any participant or group registered on the pl
 
 Please note that all conversations within this platform must adhere to the [Code of Conduct](https://contribute.mautic.org/policies/code-of-conduct) at all times.
 
+>>> We use [Slack](https://mau.tc/slack-invite) as our primary tool for conversations within the community on a 121 and group basis, so we'd recommend that you use Slack rather than the Community Portal at this time.
+
 To start a conversation:
 
 1. Sign in to the Community Portal
@@ -38,7 +40,7 @@ If there are new messages in a conversation, then the participant will see the e
 
 It’s possible to have multiple participants in a conversation.
 
-For this, you need to follow the same step via the conversations icon, but this time invite up to nine people to the conversation.
+For this, you need to follow the same step via the conversations icon in the main menu, but this time invite up to nine people to the conversation.
 
 ## Group conversations
 
