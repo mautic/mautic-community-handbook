@@ -5,7 +5,7 @@ twittercardoptions: summary
 articleenabled: false
 personenabled: false
 facebookenable: true
-media_order: 'official-groups.png,register-meeting.png,invite-participant-group.png,create-group-button.png,request-to-join-group.png'
+media_order: 'official-groups.png,register-meeting.png,invite-participant-group.png,create-group-button.png,request-to-join-group.png,notification-inapp-group-join-request.png,notification-email-group-join-request.png,request-to-join-group-accept-reject.png'
 ---
 
 Groups are used in Decidim for several purposes:
@@ -22,6 +22,20 @@ If you would like to join a team, working group or other entity within the commu
 2. Click to request to join the group, and wait for the request to be granted:
 
 ![request-to-join-group](request-to-join-group.png "request-to-join-group")
+
+## Accepting a member request
+
+When a new member requests to join a group which you are an administrator of, you will receive notification in-app and by email:
+
+![notification-inapp-group-join-request](notification-inapp-group-join-request.png "notification-inapp-group-join-request")
+
+![notification-email-group-join-request](notification-email-group-join-request.png "notification-email-group-join-request")
+
+Use the link in the notification to jump straight to the request, and click on Accept to allow the request, or reject to prevent the user joining the group.
+
+![request-to-join-group-accept-reject](request-to-join-group-accept-reject.png "request-to-join-group-accept-reject")
+
+As soon as the member is approved, they will be added to the group and any related assemblies.
 
 ## Creating a group
 
