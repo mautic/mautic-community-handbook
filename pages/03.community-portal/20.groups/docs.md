@@ -5,7 +5,7 @@ twittercardoptions: summary
 articleenabled: false
 personenabled: false
 facebookenable: true
-media_order: 'official-groups.png,register-meeting.png,invite-participant-group.png,create-group-button.png,request-to-join-group.png,notification-inapp-group-join-request.png,notification-email-group-join-request.png,request-to-join-group-accept-reject.png'
+media_order: 'official-groups.png,register-meeting.png,invite-participant-group.png,create-group-button.png,request-to-join-group.png,notification-inapp-group-join-request.png,notification-email-group-join-request.png,request-to-join-group-accept-reject.png,group-manage-members.png'
 ---
 
 Groups are used in Decidim for several purposes:
@@ -36,6 +36,12 @@ Use the link in the notification to jump straight to the request, and click on A
 ![request-to-join-group-accept-reject](request-to-join-group-accept-reject.png "request-to-join-group-accept-reject")
 
 As soon as the member is approved, they will be added to the group and any related assemblies.
+
+## Managing members
+
+If you need to promote a member to an admin, or remove a member, click on Manage Members within the group, and then click the relevant button.
+
+![group-manage-members](group-manage-members.png "group-manage-members")
 
 ## Creating a group
 
