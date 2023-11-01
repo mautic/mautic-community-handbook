@@ -5,7 +5,7 @@ twittercardoptions: summary
 articleenabled: false
 personenabled: false
 facebookenable: true
-media_order: 'register-meeting.png,proposal-related-meetings.png'
+media_order: 'register-meeting.png,proposal-related-meetings.png,clone-meeting.png'
 ---
 
 ## About meetings
@@ -30,6 +30,8 @@ To create a meeting you need to be logged in as a team lead or assistant team le
 2. Click on the meetings component
 3. Click new meeting and fill out the form - check the [Decidim documentation](https://docs.decidim.org/en/develop/admin/components/meetings.html#_create_a_new_meeting) for guidance on the different form fields.
 4. Ensure that you select the 'open in a new tab' option in the embed dropdown when using online meeting links such as Zoom.
+
+>>> It's not possible at this time to create recurring meetings, but you can very quickly duplicate an existing meeting using the clipboard icon. ![clone-meeting](clone-meeting.png "clone-meeting")
 
 ### Registration
 
