@@ -45,7 +45,7 @@ Enabling this feature will add a button so that participants can express their w
 
 * Administrators can make invitations to other participants or people that aren’t registered on the platform
 
-* It’s possible to control attendance to the meeting through registration codes
+* It’s possible to control attendance to the meeting through check-in codes - for example if you want to verify attendees have a valid ticket when they arrive at an event.
 
 When registering to attend a meeting, users are presented with the option to show their attendance publicly, and also whether they are attending on behalf of another group.
 
