@@ -5,7 +5,7 @@ twittercardoptions: summary
 articleenabled: false
 personenabled: false
 facebookenable: true
-media_order: 'sub-assemblies.png,assemblies-overview.png,assemblies-members.png,community-team-blog.png,community-team-meeting-with-agenda.png,meeting-attend-popup.png,community-team-meetings.png,debates.png,individual-debate.png'
+media_order: 'sub-assemblies.png,assemblies-overview.png,assemblies-members.png,community-team-blog.png,community-team-meeting-with-agenda.png,meeting-attend-popup.png,community-team-meetings.png,debates.png,individual-debate.png,subscribe-assembly-calendar.png'
 ---
 
 In this article we're going to be exploring assemblies, what they are, why they're important, why you might want to get involved with using them, and what you can do. 
@@ -89,6 +89,13 @@ Click on the meeting to learn more about what is being discussed.
 6. A formal agenda of what will be discussed and the rough timings for each section
 7. An etherpad which allows you to take notes collaboratively during the meeting.  The pad becomes editable within 24 hours of the meeting start time, and will be available and editable for 72 hours after.  From that point it becomes read only. This allows people to participate asynchronously if they want to. It is required to be logged into the portal in order to edit the Etherpad.
 8. Comments can be left on a meeting, and you can express positive support, neutral, or downvote along with leaving a comment if you wish. There is a maximum of 1,000 characters per comment.
+
+##### Subscribing to the calendar
+To subscribe to an Assembly's calendar, click on the Meetings link in the Assembly menu, then click Export Calendar. This provides a link for you to add the Assembly calendar in your tool of choice.
+
+![subscribe-assembly-calendar](subscribe-assembly-calendar.png "subscribe-assembly-calendar")
+
+To subscribe to all events site-wide, follow the same process but use the Meetings & Events menu item on the main menu.
 
 #### Debates
 
