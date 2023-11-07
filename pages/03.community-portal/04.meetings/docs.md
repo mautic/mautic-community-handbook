@@ -27,6 +27,8 @@ If you wish to be notified of all meetings relating to an entity in the Communit
 
 ![subscribe-assembly-calendar](subscribe-assembly-calendar.png "subscribe-assembly-calendar")
 
+To subscribe to all events site-wide, follow the same process but use the Meetings & Events menu item on the main menu.
+
 ## Creating a meeting
 
 To create a meeting you need to be logged in as a team lead or assistant team lead.
