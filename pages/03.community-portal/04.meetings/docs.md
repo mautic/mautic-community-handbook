@@ -5,7 +5,7 @@ twittercardoptions: summary
 articleenabled: false
 personenabled: false
 facebookenable: true
-media_order: 'register-meeting.png,proposal-related-meetings.png,clone-meeting.png'
+media_order: 'register-meeting.png,proposal-related-meetings.png,clone-meeting.png,subscribe-assembly-calendar.png'
 ---
 
 ## About meetings
@@ -21,6 +21,11 @@ Regarding the location, depending on the configuration of the meetings component
 * **Online meetings:** where you get together using an external service (for instance Zoom or Jitsi Meet) - the online link is shared on the event just before it starts and throughout the meeting.
 
 * **Hybrid meetings:** where there is an online meeting which is also being streamed online.
+
+### Subscribing to calendars
+If you wish to be notified of all meetings relating to an entity in the Community Portal, whether that is an Assembly or a Process, click on the meetings tab and click Export Calendar. This provides you with a link to add the calendar in your tool of choice.
+
+![subscribe-assembly-calendar](subscribe-assembly-calendar.png "subscribe-assembly-calendar")
 
 ## Creating a meeting
 
