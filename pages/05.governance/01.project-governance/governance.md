@@ -77,6 +77,7 @@ Organizations can become a member by joining at one of the following tiers:
 - Silver - $10,000/yr
 - Gold - $15,000/yr
 - Platinum - $20,000/yr
+- Diamond - $30,000/yr
 
 The tiers will be reviewed and set annually at the General Assembly.
 
