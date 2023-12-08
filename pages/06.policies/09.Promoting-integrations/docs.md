@@ -1,5 +1,5 @@
 ---
-title: '<your title>'
+title: 'Policy on promoting integrations with Mautic'
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
