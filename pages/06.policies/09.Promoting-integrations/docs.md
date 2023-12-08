@@ -32,7 +32,6 @@ Projects featured on the Mautic website home page are selected based on their po
 
 - The marketing team will assess how well a project addresses the needs of Mautic users and enhances their experience.
 
-
 3. Members:
 
 - Projects that are members of Mautic will be given priority over those that are not.
