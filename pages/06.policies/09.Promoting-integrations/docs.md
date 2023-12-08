@@ -14,7 +14,7 @@ taxonomy:
 
 # Introduction
 
-The Mautic website serves as a hub for the Mautic community, showcasing innovative projects that align with our mission and values. The purpose of this article is to provide clarity on the criteria and process for listing projects and integrations on the Mautic website's home page.
+The Mautic website serves as a hub for the Mautic community, showcasing innovative projects that align with our mission and values. The purpose of this policy is to provide clarity on the criteria and process for listing projects and integrations on the Mautic website's home page.
 
 # Criteria for Inclusion
 
