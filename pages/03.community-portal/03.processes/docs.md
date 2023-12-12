@@ -24,10 +24,10 @@ Processes could be used for anything from voting on who's going to be on the Cou
 
 So you can see there's lots of different ways that we might use a participatory process within the community. At the moment, we have two processes that are live, and I'm going to talk you through the council elections one to start with, because that's probably the easiest for people to understand.
 
-### Supporting v endorsing
-Supporting is voting, but endorsing is just showing that you like this proposal. It's akin to a like on social media, whereas supporting is actually casting a vote for that proposal. 
+### Voting v endorsing
+Voting is where your vote is counted formally, but endorsing is just showing that you like this proposal. It's akin to a like on social media, whereas voting is actually casting a vote for that proposal. 
 
-You are able to support the proposal as an individual human, and each process may restrict the number of supports that are available per user.
+You are able to vote for the proposal as an individual human, and each process may restrict the number of votes that are available per user.
 
 Endorsing can be done on behalf of you as an individual human, but also on behalf of a team or a group.   For example you might endorse a proposal on behalf of the Product Team or the Core Team.
 
@@ -38,7 +38,7 @@ To get to the processes, click on the main menu, then click on the Elections pro
 1. A hashtag which relates to this specific process.
 2. About participatory processes - you can cancel that if you don't want that to show every time. 
 3. What this process is about, why it is important. 
-4. This tells you about the community council. What is the council? Why is this election happening? What is the council's role within our community?
+4. This tells you about the council. What is the council? Why is this election happening? What is the council's role within our community?
 5. Like everything else, you can stop following or follow here using this button. 
 6. This process belongs to a process group called governance. So we might have the elections running, but there might also be some other processes that are running which also relate to governance. So this allows us to group active processes together.
 7. If there are assemblies that are related to this process they will be listed here. 
@@ -49,9 +49,9 @@ So what happens with a process, which is different to an assembly, is there are 
 
 ![process-phases](process-phases.png "process-phases")
 
-So here we've got nominations open until the end of October. And this is a phase where you could step up and say, I want to stand as a member for the council. You can propose yourself to actually be considered for nomination for voting for a council member position. This phase, which will start on the 28th of October and go through to the 8th of November is where all of the nominations are now submitted.
+So here we've got nominations open until the end of October. And this is a phase where you could step up and say, I want to stand as a member for the Council. You can propose yourself to actually be considered for nomination for voting for a Council member position. This phase, which will start on the 28th of October and go through to the 8th of November is where all of the nominations are now submitted.
 
-When the nominations close it means that we don't allow any more nominations, and the community have the option to vote for who they want to be standing on the council. So every member of the General Assembly will have seven votes to vote for people in the nominations, because there's seven seats on the council. So if we had 15 people stepping forwards and you have seven votes, obviously you can see that they  we will figure out in the end that some people will be more highly ranked than others.
+When the nominations close it means that we don't allow any more nominations, and the community have the option to vote for who they want to be standing on the Council. So every member of the General Assembly will have seven votes to vote for people in the nominations, because there's seven seats on the Council. So if we had 15 people stepping forwards and you have seven votes, obviously you can see that we will figure out in the end that some people will be more highly ranked than others.
 
 And then on the 8th, we will then make the announcement and tell people what the outcome is of this nomination and election process. 
 
@@ -80,7 +80,7 @@ The way this works is that when we've been discussing a new feature on the [foru
 
 1. Title of the proposal and person proposing
 2. Standard set of questions which the proposer answers
-3. Number of supports that are already existing and option to support the proposal
+3. Number of votes that are already existing and option to support the proposal
 4. Number of endorsements and comments and option to endorse
 5. Option to follow the proposal to receive updates
 6. A list of people, teams and groups who have already endorsed the proposal -  note that individuals can select to not be displayed publicly
