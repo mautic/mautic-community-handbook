@@ -25,11 +25,13 @@ The projects listed on the Mautic website home page are selected based on their 
 1. Popularity:
 
 - Projects that have gained popularity within the Mautic community are more likely to be featured on the home page, as members are more likely to vote for them.
+
 2. Use Cases:
 
 - Projects that demonstrate a clear alignment with Mautic's use cases and goals will be given priority.
 
 - The Marketing Team will assess how well a project addresses the needs of Mautic users and enhances their experience.
+
 3. Members:
 
 - Projects that are members of Mautic will be given priority over those that are not.
