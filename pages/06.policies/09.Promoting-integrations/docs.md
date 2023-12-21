@@ -52,7 +52,7 @@ The maintenance of projects listed on the Mautic website home page is the respon
 
 # Priority for Open Source Projects
 
-Projects with an open source nature are given priority for listing on the Mautic website home page. Open source aligns with the collaborative and community-driven spirit of Mautic. However, partner projects may also be considered based on their significance and value to the Mautic ecosystem.
+Projects with an open source nature are given priority for listing on the Mautic website home page. Open source aligns with the collaborative and community-driven spirit of Mautic. However, projects from official [Mautic Partners](https://mau.tc/partners) may also be considered based on their significance and value to the Mautic ecosystem.
 
 1. Open Source Priority:
 
@@ -62,7 +62,7 @@ Projects with an open source nature are given priority for listing on the Mautic
 
 2. Partner Projects:
 
-- Partner projects, while not open source, may be considered if they provide substantial value to the Mautic community.
+- Projects from official Mautic Partners may be considered, even if not open source, if they provide substantial value to the Mautic community.
 
 - The inclusion of partner projects will be evaluated on a case-by-case basis, with a focus on mutual benefit.
 
