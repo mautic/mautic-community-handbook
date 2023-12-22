@@ -37,7 +37,7 @@ Once you have the browser extension installed, click the green button -  the fir
 
 Once the installer is done, it shows the URLs for the Mautic user interface, as well as for Mailhog and PHPMyAdmin (in case you need to check outgoing emails or test things in the database). It also shows you the default credentials to use for the login. Sometimes it can take a few minutes for the process to complete, so please wait until it does!
 
-Then follow the test instructions in the pull request, and [report back your findings][report-findings].  The default username will always be admin, and the password will be `Maut1cR0cks!`.
+Then follow the test instructions in the pull request, and [report back your findings][report-findings].  The default username will always be admin, and the password will be `Maut1cR0cks!` (note, if you're testing an older version of Mautic than 5.1, use the password `mautic`.
 
 If you are testing a bug and you need to reproduce this before you apply the pull request, you can use the link [https://gitpod.io/#https://github.com/mautic/mautic][gitpod-default] to spin up a Mautic instance based on our default branch.
 
