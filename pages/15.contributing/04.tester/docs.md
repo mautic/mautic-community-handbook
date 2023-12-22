@@ -129,6 +129,8 @@ This will install all the dependencies that Mautic requires to run, and will ins
 username: admin
 password: Maut1cR0cks!
 
+Note, if you're testing an older version of Mautic than 5.1, use the password `mautic`.
+
 It will also install some software which allows you to capture outgoing emails, called Mailhog, and PHPMyAdmin which enables you to view and interact with the database.
 
 Once this process has completed, you will be able to access your local testing instance at:
