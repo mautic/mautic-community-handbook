@@ -96,10 +96,10 @@ b = current minor release (e.g. 4.4 in 4.4.5)
 c = future major release (e.g. 5 in 5.0)
 
 * All PRs are made against the c.x branch in the first instance (e.g. 5.x)
-* If the PR should be merged in an earlier release than the next major release of Mautic, duplicate the PR against the relevant a.b branch for bug fixes (e.g. 4.4), or a.x branch for features and enhacements (e.g. 5.x).
+* If the PR should be merged in an earlier release than the next major release of Mautic, duplicate the PR against the relevant a.b branch for bug fixes (e.g. 5.0), or a.x branch for features and enhancements (e.g. 5.x).
 * Backwards compatibility breaking changes can only be released in a major version, so they should only ever be made against the c.x branch (e.g. 5.x)
 
-The exception to this rule is if the last feature release (e.g. 4.4) has already been made, then all features would be made against the c.x branch, rather than the 5.x branch. This is usually made clear in release notes, but if you're not sure, please ask in #t-product on Slack.
+The exception to this rule is if the last feature release (e.g. 5.4) has already been made, then all features would be made against the c.x branch (e.g. 6.x), rather than the 5.x branch. This is usually made clear in release notes, but if you're not sure, please ask in #t-product on Slack.
 
 As an example, if Mautic just released a 4.0.0 version of Mautic, the following would apply:
 
