@@ -165,7 +165,34 @@ Work on the code as much as you want and commit as much as you want, but keep in
 - Mautic follows [Symfony's coding standards][symfony-coding-standards] by implementing a pre-commit git hook running [php-cs-fixer][php-cs-fixer]. Mautic installs and updates this with composer install/composer update. This handles all code styling automatically.
 - Add unit tests to prove that the fixing of the bug or that the new feature actually works - see below.
 
-- Try hard to not break backward compatibility - if you must do so, try to provide a compatibility layer to support the old way. PRs that break backward compatibility have less chance of acceptance, as they have to wait for release in a major release.
+### Backward compatibility  breaks
+
+Try hard to not break backward compatibility (BC) - if you must do so, try to provide a compatibility layer to support the old way. PRs that break backward compatibility have less chance of acceptance, as they have to wait for release in a major release.
+
+#### What is BC break?
+
+Any change that may break a plugin eather using or extending a class. As Mautic has the plugin ecosystem so we must be careful even for a code we cannot see.
+
+Examples:
+- Removing or renaming a public or protected method in a non-final class. Create a new method instead and mark the old one deprecated.
+- Changing the signature of a private or public method in a non-final class. Meaning adding, removing method parameters or adding or changing param or return types. Create a new method instead and mark the old one deprecated.
+- Changing behavior of a method so it does something else than before.
+- Adding a new method to an existing interface. Create a new interface instead.
+- Every time you are changing a TWIG template then think about the themes that are overwriting this template. For example changing the template name will cause issues.
+
+#### What is not considered a BC break?
+
+On the other hand, there are some changes you can do and are not considered a BC break:
+- Changing constructor of a PHP service. Services are auto-wired so there is no harm in changing the dependencies.
+
+#### Write your code with BC breaks in mind
+
+Think about the BC breaks as you write a new code.
+
+- Make new classes final by default. Only remove the final keyword if there is a good reason for it.
+- Make a new method private by default. Make it public only if you need to use it outside of the class.
+- Prefer composition over inheritance. This way you can use final classes.
+- A unit test is not a good reason why a class shouldn't be final. For example, get the final service from the container instead of mocking it. If it's a final DTO object then you don't need to mock it at all.
 
 ## Step 5: migrations needed?
 
