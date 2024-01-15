@@ -171,19 +171,19 @@ Try hard to not break backward compatibility (BC) - if you must do so, try to pr
 
 #### What is BC break?
 
-Any change that may break a plugin eather using or extending a class. As Mautic has the plugin ecosystem so we must be careful even for a code we cannot see.
+Any change that may break a plugin either using or extending a class. As Mautic has the Plugin ecosystem, we must be considerate of the impact, even on code we might not be using ourselves.
 
 Examples:
-- Removing or renaming a public or protected method in a non-final class. Create a new method instead and mark the old one deprecated.
+- Removing or renaming a public or protected method in a non-final class. Create a new method instead and mark the old one [deprecated](https://contribute.mautic.org/governance/code-governance/deprecation-policy).
 - Changing the signature of a private or public method in a non-final class. Meaning adding, removing method parameters or adding or changing param or return types. Create a new method instead and mark the old one deprecated.
-- Changing behavior of a method so it does something else than before.
+- Changing behavior of a method so it does something differently.
 - Adding a new method to an existing interface. Create a new interface instead.
-- Every time you are changing a TWIG template then think about the themes that are overwriting this template. For example changing the template name will cause issues.
+- Every time you change a TWIG template then think about the Themes that are overwriting this template. For example, changing the template name will cause issues.
 
 #### What is not considered a BC break?
 
-On the other hand, there are some changes you can do and are not considered a BC break:
-- Changing constructor of a PHP service. Services are auto-wired so there is no harm in changing the dependencies.
+On the other hand, there are some changes you can do that are not considered a BC break:
+- Changing constructor of a PHP service. Services are autowired so there is no harm in changing the dependencies.
 
 #### Write your code with BC breaks in mind
 
