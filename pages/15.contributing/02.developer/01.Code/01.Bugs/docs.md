@@ -9,7 +9,7 @@ taxonomy:
 
 If you think you've found a bug, please let us know. This helps us build a better Mautic for everyone.
 
->>>> If you think that you have found a security vulnerability, please submit it at [huntr.dev][huntr-dev] with as much detail as possible. The core team will review the vulnerability and if found applicable, will create the patch in a private repository. The vulnerability will be disclosed once the patch has been included into a release.  You can read more about our security processes [here][security-team].
+>>>> If you think that you have found a security vulnerability, please submit it via the [documented process][security-issue] with as much detail as possible. The core team will review the vulnerability and if found applicable, will create the patch in a private repository. The vulnerability will be disclosed once the patch has been included into a release.  You can read more about our security processes [here][security-team].
 
 Before submitting a bug:
 - Double-check that nothing is wrong with your local installation, like permission issues, outdated cache, etc. - please read the [Troubleshooting][troubleshooting] guide!
@@ -23,7 +23,7 @@ If you're able to fix a bug - whether it's one you found, or something reported 
 
 Providing test instructions is extremely important - please do not assume the person testing your pull request will be a developer. Provide clear, step-by-step instructions of how to reproduce the bug, and then how to check that your pull request fixes it.
 
-[huntr-dev]: <https://huntr.dev>
+[security-issue]: <https://www.mautic.org/mautic-security-team/how-to-report-a-security-issue>
 [security-team]: <https://www.mautic.org/mautic-security-team>
 [troubleshooting]: <https://docs.mautic.org/en/troubleshooting>
 [forums]: <https://forum.mautic.org/>
