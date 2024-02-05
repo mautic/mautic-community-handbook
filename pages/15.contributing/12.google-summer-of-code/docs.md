@@ -28,9 +28,9 @@ Today you should read through the ideas and think about our application process.
 ## Student Information
 Do you want to contribute to one of the world’s first Open Source Marketing Automation platform? GSoC could be your chance. Please refer to the information below.
 
-If you’re interested in working on a mentor-submitted idea, read the [ideas blog][ideas] and about the project and the related technology. There is no need to contact the mentor unless you have a specific question about the project. Don’t send an "I’m interested" email or Slack message - please respect their time.
+If you’re interested in working on a mentor-submitted idea, read the [ideas document][ideas] and about the project and the related technology.  Please note this is a rolling document which we maintain year-round. There is no need to contact the mentor unless you have a specific question about the project. Don’t send an "I’m interested" email or Slack message - please respect their time.
 
-If you’re interested in proposing your own project start looking around the Mautic Project for a mentor and suggest your idea in the Slack channel. 
+If you’re interested in proposing your own project start looking around the Mautic Project for a mentor and suggest your idea in the Slack channel (#gsoc-discuss). 
 
 You may also wish to start working on the Mautic-specific parts of the application, see below for more information. Carefully review the student responsibilities section.
 
@@ -48,7 +48,7 @@ Working in FOSS gives you a chance to:
 * Create lifetime connections and associations.
 
 ### Why work with Mautic?
-Our project is relatively young and has a small but active contributor base - you have the chance to really make a difference to our community and project. We are a welcoming, friendly and diverse community that many come to think of as an extended family.
+Our project is relatively young and has a small but active contributor base - you have the chance to really make a difference to our community and project. We are a welcoming, friendly and diverse community.
 
 People who contribute in our community and do good work are noticed. They get hired for jobs from it. Experience and reputation in the Mautic Project communities can be influential in your career in many ways.
 
@@ -75,14 +75,14 @@ The following are specific guidelines for students to use to submit an applicati
 
 ## Important
 * Timelines are set by Google for the entire program. Follow the timeline.
-* Applications are due in Google’s system by March 31st, 2020 18:00 (UTC).
-* Applications Must be filed in the Google system. No other material can be read or accepted.
+* Applications are due in Google’s system by April 2 2024 - 18:00 UTC.
+* Applications must be filed in the Google system. No other material can be read or accepted.
 * The final application is required to be submitted as a PDF.
 
 ##  Student Application Process
 
 ### Learn
-Before you do anything, learn about the program and about Mautic. Our mentors do not have the time to explain to you what Mautic is, how it works or how to get set up locally - all of that is already well documented.
+Before you do anything, learn about the program and about Mautic. Our mentors do not have the time to explain to you what Mautic is, how it works or how to get set up locally - all of that is already well documented. Check out the [Contribution Guidelines][contrib].
 
 These links may be helpful:
 
@@ -93,21 +93,19 @@ Begin communicating with the community. Our community members can help you under
 
 * Join us on [Slack][slack] at #gsoc-discuss
 * Join the Product Team chat in #t-product
-* Get involved with our monthly pre-release sprints
+* Get involved with our weekly Open Source Friday sprints by testing bug fixes and new features
 
 Don’t forget to contact mentors on projects that interest you to learn more. If you’re going to propose a project you must have a mentor at the time of proposal.
 
 ### Apply
 
-Student applications open on March 16, 2020.
+Student applications open on March 18 2024 - 18:00 UTC.
 
-The application process consists of 5 steps:
+The application process consists of 3 steps:
 
 1. Create an account on the [Forums][forums] and Slack
 2. Join the #gsoc-discuss and #t-product channels on Slack
-3. Sign the [MCA][mca] using Docusign
-
-Submit the application/proposal including all requirements in the next section at the Google Summer of Code Site. We **strongly** encourage you to not submit your final PDF until you get feedback about the proposal from your mentor(s).
+3. Submit the application/proposal including all requirements in the next section at the Google Summer of Code Site. We **strongly** encourage you to not submit your final PDF until you get feedback about the proposal from your mentor(s).
 
 Help is available! Share your application in progress and get feedback. The mentors can help verify your understanding of the project and provide guidance on whether your plan is good.
 
@@ -144,9 +142,10 @@ We cannot overstress the importance of communication. Keep talking, and listenin
 
 This page is adapted from the excellent guide from the Fedora Project under [CC-BY-SA 3.0][cc-by-sa-3]
 
-[ideas]: <https://www.mautic.org/blog/community/mautic-applies-google-summer-code-2021>
+[ideas]: <https://docs.google.com/document/d/1iqjmKcIelXCnDcfdD7ZxSE6H1VV1gMOKnnft7gD30Dk/edit?usp=sharing>
 [gsoc]: <https://summerofcode.withgoogle.com/>
 [slack]: <https://mautic.org/slack>
 [forums]: <https://forums.mautic.org>
 [mca]: <https://www.mautic.org/contributor-agreement>
 [cc-by-sa-3]: <http://creativecommons.org/licenses/by-sa/3.0/legalcode>
+[contrib]: <https://mau.tc/contribute>
