@@ -21,9 +21,8 @@ facebookenable: true
 This page contains information about Mautic’s participation in Google Summer of Code (GSoC). Please feel free to contact us via Slack below for clarifications and more information.
 
 ## What can I do today?
-Mautic is still in the process of applying to be a mentoring organization. Today there is nothing we can do except wait until Google makes a decision.
 
-Today you should read through the ideas and think about our application process.
+Today you should read through the ideas for projects, and start working on your application. Get familiar with Mautic, make some contributions so you're familiar with the workflow, and get to know the community. Join the Slack channel (#gsoc-discuss) and post any questions you have there, after reading this page fully and also reviewing the project proposals.
 
 ## Student Information
 Do you want to contribute to one of the world’s first Open Source Marketing Automation platform? GSoC could be your chance. Please refer to the information below.
