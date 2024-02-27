@@ -72,7 +72,7 @@ mysql_version: "8.0"
 
 #### Resetting your local testing environment
 
-To quickly reset your local testing environment by deleting the DDEV containers without a database snapshot, removing the cache directory, and removing the `local.php` file you can run `ddev delete --omit-snapshot --yes && rm -rf var/cache && rm app/config/local.php`.
+To quickly reset your local testing environment by deleting the DDEV containers without a database snapshot, removing the cache directory, and removing the `local.php` file you can run `ddev delete --omit-snapshot --yes && rm -rf var/cache && rm app/config/local.php`. Note that from Mautic 5, the location of the local.php file is now `config/local.php`.
 
 ## Setting up a local testing environment
 
