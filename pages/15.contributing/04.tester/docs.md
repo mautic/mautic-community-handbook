@@ -70,6 +70,10 @@ mysql_version: "8.0"
 7. Remember to make sure you are using dev mode (index_dev.php on the end of the URL)
 8. If you make a mistake, open your Gitpod dashboard and delete the instance and start again.
 
+#### Resetting your local testing environment
+
+To quickly reset your local testing environment by deleting the DDEV containers without a database snapshot, removing the cache directory, and removing the `local.php` file you can run `ddev delete --omit-snapshot --yes && rm -rf var/cache && rm app/config/local.php`.
+
 ## Setting up a local testing environment
 
 ### Prerequisites
