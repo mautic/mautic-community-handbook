@@ -67,7 +67,7 @@ mysql_version: "8.0"
 4. Type ddev start in the console to continue with installation
 5. Run the installer in the UI or command line as preferred
 6. Check you are using the right version in the system information within Mautic
-7. Remember to make sure you are using dev mode (index_dev.php on the end of the URL)
+7. Remember to make sure you are using dev mode - DDEV should start in dev mode by default with the Symfony toolbar at the bottom of the page.
 8. If you make a mistake, open your Gitpod dashboard and delete the instance and start again.
 
 #### Resetting your local testing environment
@@ -146,11 +146,7 @@ Log in with the credentials above, and you're ready to go!
 ## Using developer mode
 When testing Mautic, it is important that you are notified of any errors rather than having them output to the logs.  We also don't want to have to constantly rebuild the Javascript and CSS files when changes are made.
 
-For this reason, we use developer mode when testing in the Mautic Community.  
-
-This requires you to add `index_dev.php` to the URL:
-
-`https://mautic.ddev.site/index_dev.php`
+For this reason, we use developer mode when testing in the Mautic Community, which is set in the local environment file.  DDEV has dev mode enabled by default - read more about [environments][environments].  
 
 ## Testing your first pull request
 
@@ -201,6 +197,7 @@ This will check out the branch called `5.x` which is where we started from.  Now
 [vscode]: <https://code.visualstudio.com/download>
 [github]: <https://github.com/join>
 [mautic-repo]: <https://github.com/mautic/mautic>
+[environments]: <https://devdocs.mautic.org/en/5.x/development-environment/environments.html>
 [mautic-4.1]: <https://github.com/mautic/mautic/releases/tag/4.1.0>
 [gitpod]: <https://www.gitpod.io>
 [gitpod-default]: <https://gitpod.io/#https://github.com/mautic/mautic>
