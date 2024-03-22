@@ -24,6 +24,6 @@ The Community Council discusses topics that impact the community as a whole, or 
 | Dominique De Cooman | Dropsolid Co-founder and co-CEO | dominique@dropsolid.com            | 
 | Ekke Guembel | CEO at leuchtfeuer digital marketing | ekke.guembel@mautic.org        | 
 | John Linhart | Technical Community Lead at Acquia | jan.linhart@acquia.com           |
-| Favour Chibueze  | Community Representative | favour.kelvin@mautic.org             | 
+| Favour Chibueze  | Front End Engineer at Eden Life Inc. | favour.chibueze@mautic.org             | 
 | Norman Pracht  | Associate General Manager, Webmecanik | 	norman.pracht@mautic.org            | 
 | Prateek Jain | Director of Digital Experience Services at Axelerant | prateek.jain@mautic.org           | 
