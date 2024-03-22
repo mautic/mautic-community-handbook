@@ -25,5 +25,5 @@ The Community Council discusses topics that impact the community as a whole, or 
 | Ekke Guembel | CEO at leuchtfeuer digital marketing | ekke.guembel@mautic.org        | 
 | John Linhart | Technical Community Lead at Acquia | jan.linhart@acquia.com           |
 | Favour Chibueze  | Community Representative | favour.kelvin@mautic.org             | 
-| Norman Pracht  | CEO Webmecanik | 	norman.pracht@mautic.org            | 
+| Norman Pracht  | Associate General Manager, Webmecanik | 	norman.pracht@mautic.org            | 
 | Prateek Jain | Director of digital experience services at Axelerant | prateek@axelerant.com            | 
