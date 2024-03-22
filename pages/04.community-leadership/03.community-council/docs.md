@@ -20,7 +20,7 @@ The Community Council discusses topics that impact the community as a whole, or 
 
 | Name      | Role     | Email address |
 |-----------|--------------------|-----------------------|
-| Andy Towne | Senior customer value manager at Acquia | https://linkedin.com/in/andytowne            | 
+| Andy Towne | Senior Customer Value Manager at Acquia | andy.towne@mautic.org           | 
 | Dominique De Cooman | Dropsolid Co-founder and co-CEO | dominique.decooman@mautic.org           | 
 | Ekke Guembel | CEO at Leuchtfeuer Digital Marketing | ekke.guembel@mautic.org        | 
 | John Linhart | Principal Software Engineer at Acquia | john.linhart@mautic.org           |
