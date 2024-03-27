@@ -20,11 +20,10 @@ The Community Council discusses topics that impact the community as a whole, or 
 
 | Name      | Role     | Email address |
 |-----------|--------------------|-----------------------|
-| Ruth Cheesley | Mautic Project Lead at Acquia | ruth.cheesley@mautic.org            | 
-| Dries Buytaert | Acquia Co-founder and CTO | dries@acquia.com            | 
-| Gábor Hojtsy | Community Specialist | gabor.hojtsy@acquia.com         | 
-| John Linhart | Technical Community Lead at Acquia | jan.linhart@acquia.com           |
-| Ekkehard Gümbel  | Community Representative | ekke.guembel@mautic.org            | 
-| Oluwatobi Owolabi  | Community Representative | oluwatobi.owolabi@mautic.org            | 
-| Norman Pracht  | Community Representative | 	norman.pracht@mautic.org            | 
-| Favour Kelvin | Community Representative | favour.kelvin@mautic.org            | 
+| Andy Towne | Senior Customer Value Manager at Acquia | andy.towne@mautic.org           | 
+| Dominique De Cooman | Co-founder and co-CEO at Dropsolid | dominique.decooman@mautic.org           | 
+| Ekke Guembel | CEO at Leuchtfeuer Digital Marketing | ekke.guembel@mautic.org        | 
+| John Linhart | Principal Software Engineer at Acquia | john.linhart@mautic.org           |
+| Favour Chibueze  | Front End Engineer at Eden Life Inc. | favour.chibueze@mautic.org             | 
+| Norman Pracht  | Associate General Manager at Webmecanik | norman.pracht@mautic.org            | 
+| Prateek Jain | Director of Digital Experience Services at Axelerant | prateek.jain@mautic.org           | 
