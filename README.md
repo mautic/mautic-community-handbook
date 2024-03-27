@@ -1,6 +1,6 @@
 # Mautic community handbook
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -28,6 +28,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://www.ruthcheesley.co.uk"><img src="https://avatars.githubusercontent.com/u/2930593?v=4?s=100" width="100px;" alt="Ruth Cheesley"/><br /><sub><b>Ruth Cheesley</b></sub></a><br /><a href="https://github.com/mautic/mautic-community-handbook/pulls?q=is%3Apr+reviewed-by%3Archeesley" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://ionutojica.com"><img src="https://avatars.githubusercontent.com/u/96743055?v=4?s=100" width="100px;" alt="IonutOjicaDE"/><br /><sub><b>IonutOjicaDE</b></sub></a><br /><a href="https://github.com/mautic/mautic-community-handbook/pulls?q=is%3Apr+reviewed-by%3AIonutOjicaDE" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/mautic/mautic-community-handbook/commits?author=IonutOjicaDE" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/daniellord32"><img src="https://avatars.githubusercontent.com/u/25160505?v=4?s=100" width="100px;" alt="Daniel Lord"/><br /><sub><b>Daniel Lord</b></sub></a><br /><a href="https://github.com/mautic/mautic-community-handbook/pulls?q=is%3Apr+reviewed-by%3Adaniellord32" title="Reviewed Pull Requests">👀</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/domidc"><img src="https://avatars.githubusercontent.com/u/160307959?v=4?s=100" width="100px;" alt="domidc"/><br /><sub><b>domidc</b></sub></a><br /><a href="https://github.com/mautic/mautic-community-handbook/commits?author=domidc" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
