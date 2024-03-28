@@ -144,7 +144,7 @@ This page is adapted from the excellent guide from the Fedora Project under [CC-
 [ideas]: <https://docs.google.com/document/d/1iqjmKcIelXCnDcfdD7ZxSE6H1VV1gMOKnnft7gD30Dk/edit?usp=sharing>
 [gsoc]: <https://summerofcode.withgoogle.com/>
 [slack]: <https://mautic.org/slack>
-[forums]: <https://forums.mautic.org>
+[forums]: <https://forum.mautic.org>
 [mca]: <https://www.mautic.org/contributor-agreement>
 [cc-by-sa-3]: <http://creativecommons.org/licenses/by-sa/3.0/legalcode>
 [contrib]: <https://mau.tc/contribute>
