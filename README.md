@@ -1,6 +1,6 @@
 # Mautic community handbook
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -31,6 +31,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/domidc"><img src="https://avatars.githubusercontent.com/u/160307959?v=4?s=100" width="100px;" alt="domidc"/><br /><sub><b>domidc</b></sub></a><br /><a href="https://github.com/mautic/mautic-community-handbook/commits?author=domidc" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/vibhuti019"><img src="https://avatars.githubusercontent.com/u/44270768?v=4?s=100" width="100px;" alt="Vibhuti"/><br /><sub><b>Vibhuti</b></sub></a><br /><a href="https://github.com/mautic/mautic-community-handbook/commits?author=vibhuti019" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
