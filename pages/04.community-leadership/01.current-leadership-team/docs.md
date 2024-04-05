@@ -21,7 +21,7 @@ The current leadership team and their terms are as follows:
 | Ekkehard Gümbel           | Community Team Lead                   | ekke.guembel@mautic.org                      |   2020              |  2023             |
 | Nico Grienauer          | Community Team Assistant Lead                   | nico.grienauer@mautic.org                      |  2020               |  2022             |
 | Favour Kelvin         | Education Team Lead                   | favour.kelvin@mautic.org                      |   2021              | 2024              |
-| Position Vacant         | Education Team Assistant Lead                   |                      |                 |               |
+| Favour Chibueze         | Education Team Assistant Lead                   | favour.chibueze@mautic.org                     | 2024                | 2026              |
 | Ruth Cheesley      | Legal & Finance Team Lead                   | ruth.cheesley@mautic.org                     |   N/A              |  N/A             |
 | Oluwatobi Owolabi        | Marketing Team Lead                  | oluwatobi.owolabi@mautic.org                      |  2021               |   2024            |
 | Sven Döring         | Marketing Team Assistant Lead                   |   sven.doering@mautic.org                   |   2023              |      2025         |
