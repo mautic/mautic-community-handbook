@@ -76,6 +76,17 @@ To enable registrations for a meeting:
 
 * The default should be to register attendance through the Community Portal but if using an external ticketing system, it's possible to provide a link to the booking page.
 
+#### Adding a custom registration form
+To add a custom registration form, follow these steps in this order:
+
+1. Open the assembly containing the meeting you wish to use the form with
+1. Click on the icon which resembles two people, shown in the list of meetings against the relevant meeting
+1. Check the box 'Registration form enabled' and enter something in the Registration terms box - use a '.' if you don't need to use terms, and click save
+1. Open the meeting, click the blue button top right, and write a title, description and terms of service for the form, and click save - you must save these first before adding fields, otherwise it won't work
+1. Open the form settings, and click 'Add question' or 'Add separator' as required, to build the form. Remember to press 'save' at the bottom of the page.
+
+![registration-form](meeting-registration-form.png "Registration form icon")
+
 ### Etherpad note taking
 
 Instead of using external tools for taking notes, Mautic has an [Etherpad](https://etherpad.org/) instance, which is fully integrated with the community portal. This allows for live note taking embedded within meetings - also allowing people to take part asynchronously - which becomes available 24 hours before the meeting starts, and becomes read only 72 hours after the finish time of the event passes. You must first log in to interact on the pad.
