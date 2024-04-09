@@ -34,6 +34,7 @@ Do Not Contact
 DNC
 Dripflow
 Dynamic Web Content
+Etherpad
 FALSE
 Focus Item
 Focus Items
@@ -57,6 +58,7 @@ IDP
 IMAP
 infographics
 JavaScript
+Jitsi
 Joomla
 Joomla!
 Libre
