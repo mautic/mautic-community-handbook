@@ -27,7 +27,7 @@ If you don't yet have a login, it allows you to create one, and you can then use
 
 ![sign-up-log-in](sign-up-log-in.png "sign-up-log-in")
 
-If you can't remember your password you can use the option to send a password reset request. If you have problems creating an account, make sure you are using a unique username, name and email. If you still get stuck, please ask in #community on ][Slack](https://mautic.org/slack).
+If you can't remember your password you can use the option to send a password reset request. If you have problems creating an account, make sure you are using a unique username, name and email. If you still get stuck, please ask in #community on [Slack](https://mautic.org/slack).
 
 ### Accepting the terms and conditions
 
