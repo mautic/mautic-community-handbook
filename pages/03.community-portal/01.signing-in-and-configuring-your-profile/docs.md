@@ -33,7 +33,7 @@ If you can't remember your password you can use the option to send a password re
 
 The first time you log in - and any time thereafter when there have been substantial changes to the terms and conditions - you must accept them before you proceed. To do this, review the terms and conditions and, at the bottom of the page, click 'I agree with these terms'.  You can't continue using the platform if you refuse the terms,  and a popup gives you the option to delete your account if you wish.
  
- ![accept-terms-conditions](accept-terms-conditions.png "accept-terms-conditions")
+ ![accept-terms-conditions](accept-terms-and-conditions.png "accept-terms-conditions")
  
 Certain cookies permit functionality on the Portal which you can choose to accept or reject on the cookie popup. It's important to understand that certain features such as embedded note taking won't work if you don't accept the relevant cookies. A prompt notifies you of this if you come across resources like this, to review and update your settings to use that feature if your current setting restricts it.
 
