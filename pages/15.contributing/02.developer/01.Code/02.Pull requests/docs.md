@@ -317,7 +317,9 @@ Mautic uses [PHPUnit][php-unit] and [Selenium][selenium] as the suite of testing
 
 #### PHPUnit
 
-Before executing unit tests, copy the `.env.dist` file to `.env` then update to reflect your local environment configuration.
+**PHPUnit version:** Mautic 4.x requires [PHPUnit v5.7](https://phpunit.de/manual/5.7/en/installation.html), and Mautic 5.x requires [PHPUnit v9+](https://phpunit.de/announcements/phpunit-9.html). Make sure to install the right version of PHPUnit for the version of Mautic you are testing.
+
+**Mautic 4.x:** Before executing unit tests, copy the `.env.dist` file to `.env` then update to reflect your local environment configuration. Mautic 5.x includes an 'env.test' file which is used for unit tests - edit this with your database information if needed.
 
 **Running functional tests without setting the .env file with a different database results in the configured database being overwritten.**
 
@@ -348,7 +350,7 @@ Mautic can't have PHPSTAN as its dev dependency, because it requires PHP7+. To r
 [mautic-contributors-agreement]: <https://www.mautic.org/contributor-agreement>
 [symfony-coding-standards]: <http://symfony.com/doc/current/contributing/code/standards.html>
 [php-cs-fixer]: <https://github.com/friendsofphp/php-cs-fixer>
-[php-unit]: <https://phpunit.de/manual/5.7/en/index.html>
+[php-unit]: <https://phpunit.de/getting-started/phpunit-10.html>
 [symfony-functional-tests]: <https://symfony.com/doc/2.8/testing.html>
 [mautic-docs]: <https://github.com/mautic/documentation>
 [developer-docs]: <https://developer.mautic.org/>
