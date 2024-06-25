@@ -13,7 +13,7 @@ facebookenable: true
 ---
 ## Project Lead
 
-The Project Lead is appointed by Acquia.
+The Project Lead is appointed by the Mautic Council.
 
 The most important aspect of the role of the Project Lead is to enable Mautic to succeed, and more specifically to:
 * Create a vision for the project and determine strategy
@@ -30,9 +30,7 @@ and also to:
 
 This includes (but is not limited to) creating and supporting community structures, supporting team leads in organising and managing their teams, and empowering volunteers.
 
-The Project Lead also has primary responsibility for supporting in-person events and meetups, global events like Mauticon, and being a bridge between the community and Acquia. 
-
-They have a key role to play in listening to concerns in the community and passing them on to Acquia, and also supporting Acquia in engaging with the community.  
+The Project Lead also has primary responsibility for supporting in-person events and meetups, global events like Mauticon, and being a bridge between the community and key stakeholders. 
 
 They hold overall responsibility for all the Community channels such as the Forums, Slack, Mautic.org etc. and support the community teams who manage these channels.
 
@@ -41,25 +39,6 @@ The Project Lead owns the community and product strategy. They help teams to und
 The Project Lead also has the ability to appoint and remove volunteers to roles in the community teams. Where the community makes such decisions as outlined in the governance model, the Project Lead reserves a right of veto over a nomination (for important reasons only).
 
 The same applies to strategic decisions - there is a right to veto strategic decisions, but the intention is that this should only be used in exceptional circumstances where it has not been possible to reach a consensus. 
-
-
-## Technical Community Lead
-
-The Technical Community Lead is appointed by Acquia.
-
-The primary focus of the Technical Community Lead is the health and engagement of the developer community, and more specifically to:
-
-* Work collaboratively with the Project Lead to attract new contributors
-* Organize sprints, raising awareness of Mautic
-* Representing the Mautic project 
-* Ensuring that Mautic stays ahead of the curve in respect of technical developments in the industry
-
-and also to:
-
-* Be the technical link between Acquia's engineering team and the Mautic Product Team
-* Ensure that contributions from the community are reviewed and merged (where appropriate) in a timely manner
-* Support the Product Team by reviewing and prioritizing community ideas in the Mautic Ideas queue, scheduling roadmap items, proposing new initiatives
-* Coordinate efforts of volunteers, contractors, and fellow employees to help solve complex tasks.
 
 ## Team Lead
 
