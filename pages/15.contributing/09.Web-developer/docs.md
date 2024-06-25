@@ -36,6 +36,7 @@ The websites supported by this team include:
 * The Developer Documentation: [devdocs.mautic.org][dev-docs] - on Read the Docs
 * The Knowledgebase: [kb.mautic.org][kb] - on PHPKB
 * The Community Handbook: [contribute.mautic.org][handbook] - on Grav
+* The MautiCon website: [mauticon.mautic.org][mauticon] - on WordPress
 
 These are all maintained via a GitHub repository except the Knowledgebase, with editable links at the bottom of each page.
 
@@ -61,5 +62,6 @@ We totally understand that life happens and it's easy to take on too much. No ju
 [docs]: <https://docs.mautic.org>
 [dev-docs]: <https://devdocs.mautic.org>
 [kb]: <https://kb.mautic.org>
+[mauticon]: <https://mauticon.mautic.org>
 [handbook]: <https://contribute.mautic.org>
 [gdrive]: <https://drive.google.com/drive/folders/1OrwJXmDrrlWK3f9nxRuru0YjS7-W-1-e?usp=sharing>
