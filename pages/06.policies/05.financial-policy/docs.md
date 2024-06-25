@@ -13,7 +13,7 @@ taxonomy:
 
 ## Mautic Community Financial Policy
 
-Version 1.0
+Version 1.1
 
 ## Introduction
 
