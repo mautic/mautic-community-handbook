@@ -74,7 +74,7 @@ Whether you want to help with the big international events or the regional and l
 
 Find out [how to get involved][events]
 ### [Web developer][web-developer]
-The Mautic Community has several web assets which require regular updates, improvements and development of new features. If you're a keen web developer and have experience with Drupal or Grav, we'd love to hear from you!  While our website is hosted by Acquia, it is our responsibility to drive new developments and innovations. We'd love to build a web development team in the community specifically to look after our web properties and keep us moving forward.
+The Mautic Community has several web assets which require regular updates, improvements and development of new features. If you're a keen web developer and have experience with Drupal or Grav, we'd love to hear from you!  While our website is hosted by Dropsolid, it is our responsibility to drive new developments and innovations. We'd love to build a web development team in the community specifically to look after our web properties and keep us moving forward.
 
 Find out [how to get involved][web-developer]
 ### [Server administrator][server-admin]
