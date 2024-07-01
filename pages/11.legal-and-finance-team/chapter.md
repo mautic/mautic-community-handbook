@@ -20,7 +20,7 @@ facebookenable: true
 
 The Legal & Finance team will have a responsibility for managing the financial and legal aspects of the Mautic project. This will include managing the budgets, trademark and brand, and dealing with any issues relating to licensing, breaches of trademark and so forth.
 
-This team will primarily be comprised of Acquian staff.
+This team will work closely with our fiscal host, Open Source Collective, and our legal advisors.
 
 ### Profiles of contributors needed in this team
 
