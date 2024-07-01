@@ -47,7 +47,7 @@ All sponsored contributors will be required to raise an invoice on [Open Collect
 ### Contracts
 Where a freelancer is being hired, the Mautic Community will use the UpWork team account to post roles, interview candidates and hire the candidate.
 
-Where a contributor is being sponsored outside UpWork, a contract will be drawn up by Open Collective’s HR provider, Oyster. The Mautic Project does not currently employ staff, therefore at this time all contributors being paid by the Mautic Project will be responsible for managing their tax and insurance obligations in their locality.
+Where a contributor is being sponsored outside UpWork, a contract will be drawn up by Open Collective’s HR provider, remote.com. All contributors being paid by the Mautic Project in a freelance consultant capacity (as opposed to being employed) are responsible for managing their tax and insurance obligations in their locality.
 
 ### Terminating an agreement
 Generally speaking, agreements to sponsor a contributor are subject to the expected performance and outcomes being delivered, whether an ongoing or project-based agreement. 
