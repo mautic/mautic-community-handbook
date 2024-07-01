@@ -55,15 +55,15 @@ The Mautic Community websites fall under these FTC rules.
 
 "When recommending a plugin or other product to help a user solve their issue, you must disclose any affiliations you may have with the company or group that authors that particular product.  This includes, but is not limited to: any paid or non-paid relationships past or present, receiving any promotional products or services, or any other similar information."
 
-##### Mautic/Acquia oversight / Copyright
+##### Copyright
 
 The Mautic Project reserves the right to remove any content at any time without notice.  
 
-The Community Blog content falls under the direct oversight of the Marketing Team.  
+The Community Blog content falls under the direct oversight of the Marketing Team.  Open Source Collective hold the Mautic trademarks on our behalf.
 
-As a matter of general practice, Acquia does not get involved in content except worrying about things like the FTC issue, libel and copyright.  
+As a matter of general practice, Mautic's Legal and Finance Team does not get involved in content except worrying about things like the FTC issue, libel and copyright.  
 
-Community blog authors keep their copyright but the Mautic Project and Acquia also have the right to reuse the work. If someone does not want to give the Mautic Project and Acquia that right, it should be discussed with the Project Lead.
+Community blog authors keep their copyright but the Mautic Project also has the right to reuse the work. If someone does not want to give the Mautic Project that right, it should be discussed with the Project Lead.
 
 ##### Article Submission Guide
 
@@ -130,11 +130,6 @@ When your pitch is moved into the writing stage, you take up the responsibility 
   - The style and tone should be clear, concise, positive, and upbeat.
   - Sign your article using some variation of the template: "(Author name) is a (job title) at (company). You can follow (them) on (social networks/GitHub repo) and read more of (their) (concentration area of knowledge) on (external company/personal blog URL)."
   - A more complete style guide will be published soon.
-
-##### Copyright
-
-You retain full copyright for published work, but copyright on published articles will also be shared with Acquia. If one of your Mautic Community Blog articles is to be published later elsewhere, a link to this magazine is requested, but not required. Acquia reserves the right to re-publish your Mautic Community Blog article(s) in other media/formats in the future.
-
 
 #### Questions?
 
