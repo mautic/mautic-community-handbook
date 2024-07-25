@@ -18,25 +18,27 @@ The Mautic Community has several web assets which require regular updates, impro
 
 If you're a keen web developer and have experience with [Drupal][drupal] or [Grav][grav], we'd love to hear from you!  
 
-While our main mautic.org website is hosted by Acquia, it is our responsibility to drive new developments and innovations. 
+While our main mautic.org website is hosted by Dropsolid, it is our responsibility to drive new developments and innovations. 
 
 We'd love to build a web development team in the community specifically to look after our web properties and keep us moving forward.
 
 ## Getting started
 
-The first step is to join our [Slack instance][slack] and head over to the #mautic-community-website channel. This is a shared channel with Acquia - the team who provide the 'keep the lights on' support are present in the channel.
+The first step is to join our [Slack instance][slack] and head over to the #mautic-community-website channel. This is a public channel - the team who provide the 'keep the lights on' support are present in the channel.
 
-Our website is maintained on a private GitHub repository, so if you're wanting to help support the main mautic.org site you will need to be granted access.
+Our website is maintained on a [GitHub repository][website-repo], so if you're wanting to help support the main mautic.org site you will need to make your PRs there.
 
-Our other Grav-based websites are maintained by the Education Team who are on Slack in #t-education. 
+Our other websites are maintained by the Education Team who are on Slack in #t-education. 
 
 The websites supported by this team include:
 
-* The end-user documentation: [docs.mautic.org][docs]
-* The Knowledgebase: [kb.mautic.org][kb]
-* The Community Handbook: [contribute.mautic.org][handbook]
+* The End-User Documentation: [docs.mautic.org][docs] - on Read the Docs
+* The Developer Documentation: [devdocs.mautic.org][dev-docs] - on Read the Docs
+* The Knowledgebase: [kb.mautic.org][kb] - on PHPKB
+* The Community Handbook: [contribute.mautic.org][handbook] - on Grav
+* The MautiCon website: [mauticon.mautic.org][mauticon] - on WordPress
 
-These are all maintained via a GitHub repository, with editable links at the bottom of each page.
+These are all maintained via a GitHub repository except the Knowledgebase, with editable links at the bottom of each page.
 
 ### Your first task
 
@@ -56,7 +58,10 @@ We totally understand that life happens and it's easy to take on too much. No ju
 [drupal]: <https://drupal.org>
 [grav]: <https://getgrav.org>
 [slack]: <https://mautic.org/slack>
+[website-repo]: <https://github.com/mautic/mautic.org-website>
 [docs]: <https://docs.mautic.org>
+[dev-docs]: <https://devdocs.mautic.org>
 [kb]: <https://kb.mautic.org>
+[mauticon]: <https://mauticon.mautic.org>
 [handbook]: <https://contribute.mautic.org>
 [gdrive]: <https://drive.google.com/drive/folders/1OrwJXmDrrlWK3f9nxRuru0YjS7-W-1-e?usp=sharing>
