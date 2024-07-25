@@ -13,11 +13,11 @@ taxonomy:
 
 ## Mautic Community Financial Policy
 
-Version 1.0
+Version 1.1
 
 ## Introduction
 
-A primary responsibility of the Mautic Community Council is to ensure that the organization is transparent to the Mautic community, and accountable for its programs and finances to its contributors, members, the public and government regulators.
+A primary responsibility of the Mautic Council is to ensure that the organization is transparent to the Mautic community, and accountable for its programs and finances to its contributors, members, the public and government regulators.
 
 Accountability requires that the organization comply with all applicable laws and ethical standards; adhere to the organization's mission; create and adhere to conflict of interest, ethics, personnel and accounting policies; protect the rights of community members; and make financial reports available to all members of the Community Council and any member of the public who requests it.
 
@@ -59,10 +59,10 @@ The following policies will govern booking and reimbursing travel on behalf of t
   3. Private cars and limousine services.
   4. Expenses that promote any 3rd-party organizations or businesses, including those owned (in full or in part) by the traveller.
 8. Documentation required. Receipts for all expenses — including, meals, taxis and incidental expenses — are required for all reimbursements.
-9. Conflict of Interest.. When travel costs are paid by the project, it is important that travellers properly manage any real or perceived conflict of interest (see also: Mautic Community Conflict of Interest policy document [^3]). To manage Conflict of Interest, attendees will disclose any 3rd-party organizations they own (in full or in part) as follows:
+9. Conflict of Interest. When travel costs are paid by the project, it is important that travellers properly manage any real or perceived conflict of interest (see also: Mautic Conflict of Interest policy document [^3]). To manage Conflict of Interest, attendees will disclose any 3rd-party organizations they own (in full or in part) as follows:
   1. By completing an annual COI disclosure form.
   2. By disclosing any 3rd-party organizations they own (in full or in part) at the beginning of any talk.
-  3. By not wearing any branded clothes related to any 3rd-party organisations they own (in full or in part).
+  3. By not wearing any branded clothes related to any 3rd-party organisations they own (in full or in part) when representing the project in an official capacity.
 10. Exceptional circumstances. On rare occasions, it may be necessary to book travel or incur expenses in a way that contradicts the above travel policy (i.e. illness preventing travel resulting in substitute speaker; cheap, last-minute flights). These rare exceptions will be approved or denied on a case-by-case basis by the Legal & Finance Team.
 11. Optional per diem limits. Reimbursements for accommodations, meals, and incidental expenses may be limited to the calculated per diem lodging rates based on the event location [^4], at the discretion of the Project Lead.
 
@@ -76,8 +76,8 @@ To simplify reimbursements and the accounting of personally incurred expenses, t
 4. Reimbursements will be only processed following the meeting.
 6. Reimbursement by bank transfer is available in the countries available through Transferwise.
 7. PayPal reimbursements will be in US dollars only using currency conversion rates on the date of reimbursement submission.
-8. Reimbursements will be approved by the appropriate line item owner. In the case of conflict of interest (i.e. self-approving reimbursements), the Team Lead, Project Lead or Community Manager will be called on for approval.
-9. Reimbursements will be paid weekly, on Thursdays.
+8. Reimbursements will be approved by the appropriate line item owner. In the case of conflict of interest (i.e. self-approving reimbursements), the Team Lead or Project Lead will be called on for approval.
+9. Approved reimbursements are paid weekly by Open Collective, on Tuesdays and Thursdays.
 
 ### 4. Payment Requests
 
@@ -102,7 +102,7 @@ As a condition of funding/sponsorship for MautiCamps and related events, the Com
 2. The organizer(s) agree to abide by the terms of the Mautic Code of Conduct [^7].
 3. The organizer(s) agree that funds/sponsorship will be returned if not used (i.e. if there is a budget surplus).
 4. The organizer(s) agree that funds/sponsorship will be returned if the event is cancelled.
-5. The organizers agree that no payments will be made to personal bank accounts or PayPal accounts. All receiving accounts must be associated with legally incorporated entities.
+5. The organizers agree that no payments will be made to personal bank accounts or PayPal accounts. Open Collective should be used, with personal expenses being reimbursed directly via the relevant event's funds. Any exceptions must be granted in advance by the Project Lead.
 
 ### 7. Requests for Proposals
 
@@ -110,7 +110,7 @@ All new expenditures for permanent or semi-permanent assets and/or services with
 
 ### 8. Legal and Financial Services
 
-Expenses for legal, financial and similar professional services will be paid for by the project and overseen by Acquia.
+Expenses for legal, financial and similar professional services will be paid for by the project and overseen by the Legal & Finance team.
 
 ### 9. Budgeting.
 
@@ -130,19 +130,20 @@ The budget process should focus on balancing expenses against revenue, providing
     6. Does the request include operational expenses such as those for Google Apps, registration fees for existing domain names, hosting costs, GitHub, and prior contracted products/services?
   4. Combine budget requests into a draft budget.
   5. Send draft budget for review to all proposed line item owners and team leads.
-  6. Send finalized budget to Project Lead and Acquia for approval.
-  7. Publicly share approved budget and project-wide goals on mautic.org.
+  6. Send finalized budget to Legal & Finance team for approval.
+  7. Budget proposed at General Assembly
+  8. Publicly share approved budget and project-wide goals on mautic.org.
 2. Prioritization policy.
   1. A prioritization policy is needed when the total requested budget exceeds the expected total available funds (including annual revenue and transfers from reserves/savings) for the forthcoming year. In this case the following method will be used to decide which budget request get priority:
-    1. Operational expenses — such as those for Google Apps, registration fees for existing domain names, hosting costs, GitHub, and prior contracted products/services — will be automatically approved.
-    2. All other budget requests will be ranked [^8] either (i) by an equal number of representatives from each leadership team or (ii) by each department head and the Community Council.
+    1. Operational expenses — such as those for essential infrastructure, registration fees for existing domain names, trademark and legal fees, hosting costs, and prior contracted products/services — will be automatically approved.
+    2. All other budget requests will be voted on via the Community Portal using the Budgeting component, specifying the amount of funds available for the budget period.
     3. Based on rankings an average priority will be assigned to each budget request.
     4. Requests will be approved in order of priority until the total amount of all approved requests matches the expected total available funds (including annual revenue and transfers from reserves/savings) for the forthcoming year less any operating expenses.
-3. Re-budgeting/reallocation. During the current fiscal year it might become clear that an allocated budget item(s) will not be used in its entirety. A request for reallocating this budget may be submitted to the Community Council for approval and will consider the following points:
+3. Re-budgeting/reallocation. During the current fiscal year it might become clear that an allocated budget item(s) will not be used in its entirety. A request for reallocating this budget may be submitted to the Council for approval and will consider the following points:
   1. The current budget status.
   2. How well the new request meets one of the goals that were in the approved budget.
 4. Transferring line item ownership. When a line item owner (see Budgeting, above) leaves a team or can no longer serve as the decision maker for approving expenditures, the associated team will specify a new line item owner.
-5. Short-term budget resolution. When the budget for the forthcoming year has not been approved on or before the start of the fiscal year, operational expenses — such as those for Google Apps, registration fees for existing domain names, hosting costs, GitHub, and prior contracted products/services — will be automatically approved as a short-term budget resolution. Amounts and payment schedules for operational expenses from the last approved budget will be used until a new budget has been passed.
+5. Short-term budget resolution. When the budget for the forthcoming year has not been approved on or before the start of the fiscal year, operational expenses — such as those for essential infrastructure, registration fees for existing domain names, trademark and legal fees, hosting costs, and prior contracted products/services — will be automatically approved as a short-term budget resolution. Amounts and payment schedules for operational expenses from the last approved budget will be used until a new budget has been passed.
 
 ### 10. Foreign Assets Control
 
@@ -150,7 +151,7 @@ The Office of Foreign Assets Control (OFAC) of the US Department of the Treasury
 
 ### 11. Policy Changes
 
-This Financial Policy document should be reviewed annually by the Legal & Finance Team in consultation with any and all existing leadership teams and Acquia's Legal/Finance team. Any proposed changes must be approved using the accepted voting practices of the Mautic Project at the time of the proposed change(s).
+This Financial Policy document should be reviewed annually by the Legal & Finance Team in consultation with any and all existing leadership teams. Any proposed changes must be approved using the accepted voting practices of the Mautic Project at the time of the proposed change(s).
 
 ## Appendix A - Contributors
 
@@ -160,6 +161,8 @@ This policy is based on the Open Source Matters Financial Policy v1.0 [^10].
 
 - 12 August 2020 v1.0 draft prepared and sent to Acquia Finance team for review
 - 15th September 2020 v1.0 accepted by Acquia Finance team and published
+- 25th June 2024 v1.1 remove references to Acquia and propose motion for General Assembly to accept updated policy 
+
 
 [^1]: Mileage rates can be found here: [https://www.irs.gov/credits-deductions/individuals/standard-mileage-rates-at-a-glance](https://www.irs.gov/credits-deductions/individuals/standard-mileage-rates-at-a-glance)
 
