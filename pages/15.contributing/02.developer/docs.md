@@ -48,12 +48,12 @@ Development is open and available to any member of the Mautic community. All fix
 
 ## Reporting Security Vulnerabilities
 
->>>> If you think that you have found a security vulnerability, please submit it at [huntr.dev][huntr-dev] with as much detail as possible. The core team will review the vulnerability and if found applicable, will create the patch in a private repository. The vulnerability will be disclosed once the patch has been included into a release.  You can read more about our security processes [here][security-team].
+>>>> If you think that you have found a security vulnerability, please submit it privately as a [GitHub Advisory][github-advisory] with as much detail as possible. The core team will review the vulnerability and if found applicable, will create the patch in a private repository. The vulnerability will be disclosed once the patch has been included into a release.  You can read more about our security processes [here][security-team].
 
 [local-environment-setup]: </contributing-to-mautic/developer/local-environment-setup>
 [bugs]: </contributing-to-mautic/developer/code/bugs>
 [pull-requests]: </contributing-to-mautic/developer/code/pull-requests>
 [developer-documentation]: </contributing-to-mautic/developer/developer-documentation>
 [community-reviews]: </contributing-to-mautic/developer/community-reviews>
-[huntr-dev]: <https://huntr.dev>
+[github-advisory]: <https://github.com/mautic/mautic/security/advisories/new>
 [security-team]: <https://www.mautic.org/mautic-security-team>
