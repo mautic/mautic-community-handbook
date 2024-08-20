@@ -313,7 +313,7 @@ If you want to test a pull request from other developers, see [Testing Pull Requ
 
 ### Automated testing
 
-Mautic uses [PHPUnit][php-unit], [Selenium][selenium], [Codeception][codeception] as the suite of testing tools.
+Mautic uses [PHPUnit][php-unit], [Selenium][selenium], and [Codeception][codeception] as the suite of testing tools.
 
 #### PHPUnit
 
