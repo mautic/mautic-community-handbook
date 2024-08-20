@@ -9,7 +9,7 @@ taxonomy:
 ## Pull requests
 ---
 
-It's highly appreciated when developers help Mautic by providing Pull Requests against the Mautic code base. In order to make this process as smooth as possible for everyone, it's asked that you follow this process step by step. 
+It's highly appreciated when developers help Mautic by providing Pull Requests against the Mautic code base. In order to make this process as smooth as possible for everyone, it's asked that you follow this process step by step.
 
 ## Table of contents
 
@@ -231,7 +231,7 @@ You're almost ready to submit your pull request. There's three things you still 
 2. End-user documentation
 3. Writing tests
 
-In order to keep Mautic stable and easy to maintain, there is a hard requirement to apply the appropriate Code Standards and to write automated tests. Mautic can't accept features and/or enhancements without appropriate tests, as it would impact the stability of Mautic. Why? When you try to build something in a specific part of Mautic, you might accidentally break another part of Mautic. With automated tests, which cover most aspects of Mautic, it's possible to prevent this as much as possible. 
+In order to keep Mautic stable and easy to maintain, there is a hard requirement to apply the appropriate Code Standards and to write automated tests. Mautic can't accept features and/or enhancements without appropriate tests, as it would impact the stability of Mautic. Why? When you try to build something in a specific part of Mautic, you might accidentally break another part of Mautic. With automated tests, which cover most aspects of Mautic, it's possible to prevent this as much as possible.
 
 ### Code standards
 
@@ -313,7 +313,7 @@ If you want to test a pull request from other developers, see [Testing Pull Requ
 
 ### Automated testing
 
-Mautic uses [PHPUnit][php-unit] and [Selenium][selenium] as the suite of testing tools. 
+Mautic uses [PHPUnit][php-unit], [Selenium][selenium], and [Codeception][codeception] as the suite of testing tools.
 
 #### PHPUnit
 
@@ -321,7 +321,7 @@ Before executing unit tests, copy the `.env.dist` file to `.env` then update to 
 
 **Running functional tests without setting the .env file with a different database results in the configured database being overwritten.**
 
-To run the entire test suite: 
+To run the entire test suite:
 
 ```bash
 bin/phpunit --bootstrap vendor/autoload.php --configuration app/phpunit.xml.dist
@@ -339,9 +339,48 @@ To run a specific test:
 bin/phpunit --bootstrap vendor/autoload.php --configuration app/phpunit.xml.dist --filter "/::testVariantEmailWeightsAreAppropriateForMultipleContacts( .*)?$/" Mautic\EmailBundle\Tests\EmailModelTest app/bundles/EmailBundle/Tests/Model/EmailModelTest.php
 ```
 
+#### Codeception
+
+Before executing the end to end test suite:
+
+1. Build test dependencies:
+
+```bash
+bin/codecept build
+```
+
+2. Edit .env.local:
+
+Set the environment to test mode.
+
+```php
+# .env.local
+APP_ENV=test
+APP_DEBUG=1
+```
+
+To run the entire test suite:
+
+```bash
+bin/codecept run acceptance
+```
+
+To run tests for a specific bundle:
+
+```bash
+bin/codecept run acceptance ContactManagementCest
+```
+
+To run a specific test:
+
+```bash
+bin/codecept run acceptance ContactManagementCest:createContactFromForm
+```
+For more detailed steps on writing and running tests, please refer to the [End-to-End Test Suite Documentation][e2e-test-suite].
+
 ### Static analysis
 
-Mautic uses [PHPSTAN][phpstan] for some of its parts during continuous integration tests. If you want to test your specific contribution locally, install PHPSTAN globally with `composer global require phpstan/phpstan-shim`. 
+Mautic uses [PHPSTAN][phpstan] for some of its parts during continuous integration tests. If you want to test your specific contribution locally, install PHPSTAN globally with `composer global require phpstan/phpstan-shim`.
 
 Mautic can't have PHPSTAN as its dev dependency, because it requires PHP7+. To run analysis on a specific bundle, run `~/.composer/vendor/phpstan/phpstan-shim/phpstan.phar analyse app/bundles/*Bundle`
 
@@ -370,3 +409,5 @@ Mautic can't have PHPSTAN as its dev dependency, because it requires PHP7+. To r
 [install-mautic]: <https://docs.mautic.org/en/setup/how-to-install-mautic>
 [code-governance]: </community-structure/governance/code-governance>
 [github-cli]: <https://cli.github.com>
+[codeception]: <https://codeception.com/>
+[e2e-test-suite]: <https://devdocs.mautic.org/en/5.x/testing/e2e_test_suite.html>
