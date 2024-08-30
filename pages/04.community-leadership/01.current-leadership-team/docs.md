@@ -34,9 +34,9 @@ These are people who have served on the Mautic Community Leadership Team in the 
 
 | Name      | Role     | Term commenced | Term ended |
 |-----------|--------------------|-----------------|---------------|
-| Mohit Aghera        | Product Team Assistant Lead (Development)                   | mohit.aghera@mautic.org                      |  2020               |   2023            |
-| Norman Pracht         | Product Team Lead                   | norman.pracht@mautic.org                      |  2020               |   2023            |
-| John Linhart | Technical Community Lead | jan.linhart@acquia.com | 2022 | 2024     |
+| Mohit Aghera        | Product Team Assistant Lead (Development)                   |  2020               |   2023            |
+| Norman Pracht         | Product Team Lead                   |  2020               |   2023            |
+| John Linhart | Technical Community Lead | 2022 | 2024     |
 | Déborah Salves | Marketing Team Assistant Lead | 2021 | 2023 |
 | Dennis Ameling         | Product Team Assistant Lead                   | 2020                 | 2021              |
 | Leon Oltmanns         | Education Team Lead                   |  2020               |   2021            |
