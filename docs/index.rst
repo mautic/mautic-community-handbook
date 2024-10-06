@@ -15,3 +15,12 @@ The vision is that it grows over time as the teams and governance structure evol
    :hidden:
 
    about/what_is_mautic
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Teams
+   :hidden:
+
+   teams/legal_and_finance_team
+
+
