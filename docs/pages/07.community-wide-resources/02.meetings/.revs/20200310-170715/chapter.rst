@@ -3,7 +3,7 @@ Meetings
 ========
 
 
-# Meetings
+Meetings
 ==========
 
 As a widely distributed team of volunteers, we work together

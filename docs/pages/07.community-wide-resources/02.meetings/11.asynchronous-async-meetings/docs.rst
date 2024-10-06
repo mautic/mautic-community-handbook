@@ -83,23 +83,24 @@ Let’s get going! :arrow_down:
 Topics
 ------
 
-:zero: Introductions - Who are you, where are you based, and how are you
+:zero:- Introductions : Who are you, where are you based, and how are you
 involved with this team?
 
-:one: Review last meeting’s notes and actions (Share a link to the notes
+:one:- Review last meeting’s notes and actions (Share a link to the notes
 in a threaded reply, and call out any actions as sub tasks)
 
-:one: . :one: - Action item 1 :one: . :two: - Action item 2
+:one:.:one:- Action item 1 
+:one:.:two:- Action item 2
 
-:two: Review Trello tasks (share a link to the Trello board in a
+:two:- Review Trello tasks (share a link to the Trello board in a
 threaded reply, and call out any tasks as appropriate)
 
-:two: . :one: - Task 1 (Link to task in a threaded reply, brief
+:two:.:one:- Task 1 (Link to task in a threaded reply, brief
 explanation of status or actions needed)
 
 (continue through the open tasks)
 
-:three: Any other business
+:three:- Any other business
 
 (Thank people for participating and give the date/time/format for the
 next meeting and who will be leading it)

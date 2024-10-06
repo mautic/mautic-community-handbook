@@ -46,17 +46,23 @@ Preparing for a meeting
 High-Level Agenda
 -----------------
 
-Have a general “framework” agenda that you typically work with, e.g. 1.
-Introductions - who you are, how you’re using Mautic and 1. Review last
-meeting’s (no-Trello) notes & actions 1. Review Trello board 1. Specific
-upcoming events 1. Any other Business 1. Ensure that action items are
-all explicit (ideally: in Trello); review priorities 1. Date, time and
-mode of next team meeting
+Have a general “framework” agenda that you typically work with, e.g. 
 
-Feel free to have variations of the above, like \* “swap 1 and 2” \* “1
-is not needed because we have it all in Trello” \* “3 doesn’t make send
-for us, but xyz does” \* “in 2 we only look at select items in Trello,
-not the entire backlog” \* …
+1. Introductions - who you are, how you’re using Mautic and 
+2. Review last meeting’s (no-Trello) notes & actions 
+3. Review Trello board 
+4. Specific upcoming events 
+5. Any other Business 
+6. Ensure that action items are all explicit (ideally: in Trello); review priorities
+7. Date, time and mode of next team meeting
+
+Feel free to have variations of the above, like 
+
+- “swap 1 and 2” 
+- “1 is not needed because we have it all in Trello” 
+- “3 doesn’t make send for us, but xyz does” 
+- “in 2 we only look at select items in Trello, not the entire backlog” 
+- …
 
 Don’t forget: Please do experiment! Let the structure improve over time,
 and of course: Adopt to temporary circumstances.
@@ -92,7 +98,7 @@ emojis, e.g. ``:one:.:four:`` which will show up as:
 .. figure:: slack-emoji-numbers.png
    :alt: Slack Emojis
 
-   Slack Emojis
+
 
 Your agenda might now look something like this:
 
@@ -114,12 +120,12 @@ Post meeting invitation and Agenda in Slack
 
 Remind people about the upcoming meeting, e.g. the day before.
 
-Most important: \* Give exact time & date (e.g. using
-`everytimezone.com <https://www.everytimezone.com>`__) \* Explain mode
-of and access to meeting \* Invite everybody, explicitly including those
-who have not previously been active but would like to listen in \* CC
-your team members (using @) to make sure they actually receive the
-heads-up
+Most important: 
+
+- Give exact time & date (e.g. using `everytimezone.com <https://www.everytimezone.com>`__) 
+- Explain mode of and access to meeting 
+- Invite everybody, explicitly including those who have not previously been active but would like to listen in 
+- CC your team members (using @) to make sure they actually receive the heads-up
 
 Should you have suitable Social Media channels, feel free to advertise
 there as well.
@@ -153,10 +159,11 @@ Or, if it’s a live meeting:
 Prepare your Meeting content
 ============================
 
-For each sub-level Agenda item, 1. prepare contextual information (like
-link to Trello card), 1. think hard what you want to achieve, tell or
-ask on this item, and put that in words, 1. even if you have nothing
-specific, come up with an opening statement for the item.
+For each sub-level Agenda item, 
+
+1. prepare contextual information (like link to Trello card), 
+2. think hard what you want to achieve, tell or ask on this item, and put that in words, 
+3. even if you have nothing specific, come up with an opening statement for the item.
 
 (Even for the first item - Introductions - it’s nice to update your
 words for every meeting)
