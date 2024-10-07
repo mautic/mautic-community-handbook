@@ -1,67 +1,87 @@
----
-title: 'Education Team'
----
+.. title:: Education Team
 
-# Education Team
+Education Team
+===============
 
-The Education Team is responsible for the Forum, Mautic Documentation and Internationalization. The team’s mission is to keep the forum clean and constructive, the documentation to be of high quality; understandability and accurate, and to ensure multilingual availability.
+The Education Team is responsible for the Forum, Mautic Documentation, and
+Internationalization. The team's mission is to:
 
-## Missions and expectations
+* Keep the forum clean and constructive.
+* Ensure the documentation is of high quality, understandable, and accurate.
+* Guarantee multilingual availability.
 
-> To improve the resources available for new and established users to learn how to use Mautic
+Missions and expectations
+---------------------------
 
-### Forum
+> To improve the resources available for new and established users to learn
+> how to use Mautic.
 
-  * #### Quality of contributions
+Forum
+-----
 
-    * Are the answers to asked questions correct? (ensure they are marked as a solution)
-    * Is it an often asked question? → Add to documentation
-    * Are there multiple posts about the same thing? → Merge into a mega-post
-  * #### Forum Rules
+**Quality of contributions**
 
-    * Which rules are appropriate
-    * Which rules are relevant / needed to keep the forum working fine
-  * #### Moderate Forum / Assign Moderators
+* Are the answers to asked questions correct? (Ensure they are marked as a solution.)
+* Is it an often-asked question?  --> Add to documentation.
+* Are there multiple posts about the same thing? --> Merge into a mega-post.
 
-    * Moderate posts by themselves
-    * Elect moderators who moderate the forum for them
-  * #### Redirect all Support questions from Slack to Forums
+**Forum Rules**
 
-    * Very visible hint in Slack (how? “Pinned message”, Slackbot, …?)
-    * Manually moderating Slack & moving stuff to forums
-    * Automatically moving stuff to forums?
-### Documentation
+* Which rules are appropriate?
+* Which rules are relevant/needed to keep the forum working fine?
 
-  * #### Quality
+**Moderate Forum / Assign Moderators**
 
-    * Maintaining a high quality
-    * Review accuracy of the documentation
-    * Keeping it easy to understand
-  * #### Completeness
+* Moderate posts themselves.
+* Elect moderators who moderate the forum for them.
 
-    * Add missing topics to the documentation
-      * Proactively reviewing site/google searches and identifying topics to write if there are missing areas
-      * Manage issue queue on Github.com/mautic/documentation and github.com/mautic/developer-documentation
-    * Adding highly requested forum questions
-  * #### Up to date
+**Redirect all Support questions from Slack to Forums**
 
-    * Ensuring that the documentation is kept up to date with major releases
-    * Document changes coming with those releases
-    * Merge PR’s when they come in for new features
-  * #### Languages
+* Very visible hint in Slack (how?: "Pinned message", Slackbot, ...)
+* Manually moderating Slack & moving stuff to forums.
+* Automatically moving stuff to forums (feasibility needs evaluation)?
 
-    * Keeping native translations accurate (FR/JP)
-    * If necessary add more translations
-* ### Educational blog content
+Documentation
+--------------
 
-  * Curating and writing content to be used in the community blog
-* ### Mautic app (and website/marketing?) internationalization
+**Quality**
 
-  * Own Transifex and appropriate workflows
-  * Manage multilingual marketing materials (e.g. website, fliers, etc)
-  * Work tightly with Community, Product and Marketing teams
+* Maintain high-quality documentation.
+* Review the accuracy of the documentation.
+* Keep it easy to understand.
 
-## Profiles of contributors needed in this team
+**Completeness**
+
+* Add missing topics to the documentation.
+    * Proactively review site/google searches and identify topics to write if there are missing areas.
+    * Manage issue queues on GitHub.com/mautic/documentation and github.com/mautic/developer-documentation.
+    * Add highly requested forum questions.
+
+**Up to date**
+
+* Ensure the documentation is kept up-to-date with major releases.
+* Document changes coming with those releases.
+* Merge PRs when they come in for new features.
+
+**Languages**
+
+* Keep native translations accurate (FR/JP).
+* Add more translations if necessary.
+
+Educational blog content
+--------------------------
+
+* Curate and write content for the community blog.
+
+Mautic app (and website/marketing?) internationalization
+---------------------------------------------------------
+
+* Own Transifex and manage appropriate workflows.
+* Manage multilingual marketing materials (e.g., website, fliers, etc.).
+* Work closely with Community, Product, and Marketing teams.
+
+Profiles of contributors needed in this team
+----------------------------------------------
 
 We need insights from:
 
@@ -83,4 +103,4 @@ We need people with skills as:
 * Editors
 * Translators
 
-** Would you like to be involved in this team? Join [#t-education](https://mautic.slack.com/archives/CQGQ0D4KU) on Slack! ** 
+**Would you like to be involved in this team? Join [#t-education](https://mautic.slack.com/archives/CQGQ0D4KU) on Slack!**
