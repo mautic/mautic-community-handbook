@@ -21,4 +21,4 @@ The vision is that it grows over time as the teams and governance structure evol
    :caption: Pages
    :hidden:
 
-   Pages/Community-wide-handbook
+   Pages/Community-wide-resources
