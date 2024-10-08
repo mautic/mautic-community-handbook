@@ -1,4 +1,4 @@
-import link
+from . import link
 
 link_name = "The Art of Community" 
 link_text = "The Art of Community"
