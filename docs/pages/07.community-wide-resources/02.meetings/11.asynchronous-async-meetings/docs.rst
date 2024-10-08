@@ -1,8 +1,5 @@
-======================
 Slack (async) meetings
 ======================
-
---------------
 
 Slack threads are a great way to hold meetings because:
 
@@ -56,7 +53,7 @@ order to scrape Slack meeting notes into HTML, which can then be posted
 onto the forums.
 
 Instructions are provided in the Github repo:
-https://github.com/RCheesley/mautic-meeting-parser
+:xref:`Mautic Meeting Parser`
 
 Sample meeting structure
 ========================

@@ -1,4 +1,3 @@
-========================
 Getting help in a crisis
 ========================
 
@@ -34,13 +33,12 @@ Hours: 24 hours, 7 days a week
 
 Languages: English, Spanish
 
-Website: www.suicidepreventionlifeline.org
+Website: :xref:`Suicide Prevention Lifeline`
 
 International
 -------------
 
-`Wikipedia <https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines>`__
-provides a full list of international suicide prevention hotlines.
+:xref:`Wikipedia`
 
 Reproduced from
-`Kubuntu <https://wiki.kubuntu.org/BuildingCommunity/Burnout/Help>`__
+:xref:`Kubuntu`

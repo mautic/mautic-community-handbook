@@ -1,8 +1,3 @@
-========================
-Community-wide resources
-========================
-
-
 Community-wide resources
 ==========================
 

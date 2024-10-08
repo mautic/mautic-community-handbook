@@ -1,13 +1,12 @@
-================
 Avoiding burnout
 ================
 
 
 From The Art Of Community by O’Reilly
-(http://www.artofcommunityonline.org) by Jono Bacon, reproduced with
+:xref:`The Art of Community` by Jono Bacon, reproduced with
 permission.
 
-`plugin:youtube <https://www.youtube.com/watch?v=WC1bpYGoB7s>`__
+:xref:`Jono Bacon's how to prevent burnout video`
 
 Unfortunately, there is one other element in life that very specifically
 falls into the “not fun” category: burnout.

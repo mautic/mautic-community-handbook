@@ -1,8 +1,5 @@
-==========================================
 How to prepare & run a Mautic Team Meeting
 ==========================================
-
---------------
 
 Meeting cycle; Async vs. Live meetings
 ======================================
@@ -13,8 +10,7 @@ on the same day of week.
 
 When deciding on the hour of the meeting, keep in mind that the Mautic
 community is spread around all time zones of the globe. The primary way
-we tackle this is to use `“asynchronous”
-meetings </community-wide-resources/meetings/asynchronous-async-meetings>`__,
+we tackle this is to use :doc:`asynchronous meetings </community-wide-resources/meetings/asynchronous-async-meetings>`,
 where all conversation happens in Slack threads (exactly one thread per
 agenda item) over a period of 24 hours.
 
@@ -95,15 +91,13 @@ Make Agenda items stick out in Slack
 Instead of regular numbers (like 1.4), prefix every item with Slack
 emojis, e.g. ``:one:.:four:`` which will show up as:
 
-.. figure:: slack-emoji-numbers.png
-   :alt: Slack Emojis
-
-
+.. image:: slack-emoji-numbers.png
+   :width: 600
 
 Your agenda might now look something like this:
 
 ::
-
+   
    :zero: Introductions - who you are, how you’re using Mautic and whatever else you want to add
 
    :one: Review last meeting’s (no-Trello) notes & actions 
@@ -114,7 +108,6 @@ Your agenda might now look something like this:
    :two:  Review Trello board
    :two:.:one: Ensure all teams have an onboarding person/workflow
    ...
-
 Post meeting invitation and Agenda in Slack
 ===========================================
 
@@ -122,7 +115,7 @@ Remind people about the upcoming meeting, e.g. the day before.
 
 Most important: 
 
-- Give exact time & date (e.g. using `everytimezone.com <https://www.everytimezone.com>`__) 
+- Give exact time & date (e.g. using :xref:`everytimezone.com`) 
 - Explain mode of and access to meeting 
 - Invite everybody, explicitly including those who have not previously been active but would like to listen in 
 - CC your team members (using @) to make sure they actually receive the heads-up
@@ -268,8 +261,7 @@ meeting is now officially over and I am moving the content to the forum.
 Moving the content to the forum
 ===============================
 
-Use the `meeting parser
-tool </community-wide-resources/meetings/asynchronous-async-meetings#exporting-slack-meetings>`__
+Use the :doc:`meeting parser tool </community-wide-resources/meetings/asynchronous-async-meetings#exporting-slack-meetings>`
 
 Live Meetings
 =============
@@ -278,5 +270,4 @@ Live Meetings
 - Remember to record the meeting
 - Take brief notes, place those in the agenda item threads after live
   ended (adjust agenda if needed)
-- Upload recording to Google drive (below
-  https://drive.google.com/drive/folders/1lUQyFnrPEZKlrmhP9HedxSnDGY3StMXx)
+- Upload recording to Google drive :xref:`Mautic Google Drive`
