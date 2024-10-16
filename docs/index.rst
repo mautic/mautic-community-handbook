@@ -23,4 +23,12 @@ The vision is that it grows over time as the teams and governance structure evol
 
    teams/legal_and_finance_team
 
+.. toctree::
+    :maxdepth: 2
+    :caption: Community Teams
+    :hidden:
 
+    teams/community-team
+    teams/meetup-guidelines
+
+    
