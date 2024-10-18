@@ -7,7 +7,7 @@ This page contains information about Mautic’s participation in Google Summer o
 What can I do today?
 --------------------
 
-Today you should read through the ideas for projects, and start working on your application. Get familiar with Mautic, make some contributions so you’re familiar with the workflow, and get to know the community. Join the Slack channel (#gsoc-discuss) and post any questions you have there, after reading this page fully and also reviewing the project proposals.
+Today you should read through the ideas for projects, and start working on your application. Get familiar with Mautic, make some contributions so you’re familiar with the workflow, and get to know the community. Join the :xref:`Mautic Community Slack` channel (#gsoc-discuss) and post any questions you have there, after reading this page fully and also reviewing the project proposals.
 
 Student Information
 -------------------
@@ -16,7 +16,7 @@ Do you want to contribute to one of the world’s first Open Source Marketing Au
 
 If you’re interested in working on a mentor-submitted idea, read the :xref:`GSOC project ideas` and about the project and the related technology. Please note this is a rolling document which we maintain year-round. There is no need to contact the mentor unless you have a specific question about the project. Don’t send an “I’m interested” email or Slack message - please respect their time.
 
-If you’re interested in proposing your own project start looking around the Mautic Project for a mentor and suggest your idea in the Slack channel (#gsoc-discuss).
+If you’re interested in proposing your own project start looking around the Mautic Project for a mentor and suggest your idea in the :xref:`Mautic Assembly`.
 
 You may also wish to start working on the Mautic-specific parts of the application, see below for more information. Carefully review the student responsibilities section.
 
