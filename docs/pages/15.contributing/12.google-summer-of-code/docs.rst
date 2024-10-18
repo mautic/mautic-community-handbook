@@ -1,4 +1,4 @@
-..image:: Summer of code Twitter.png 
+.. image:: Summer-of-Code-Twitter.png
    :width: 600
 
 
