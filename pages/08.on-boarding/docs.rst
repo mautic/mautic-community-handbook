@@ -1,4 +1,14 @@
-.. title:: On-boarding
+.. title: On-boarding
+.. twitterenable: true
+.. twittercardoptions: summary
+.. articleenabled: false
+.. orga: {}
+.. personenabled: false
+.. facebookenable: true
+.. taxonomy:
+   - category:
+     - docs
+
 
 On-boarding
 ###########
