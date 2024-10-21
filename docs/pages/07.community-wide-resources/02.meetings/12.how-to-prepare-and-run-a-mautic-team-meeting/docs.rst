@@ -263,7 +263,7 @@ Moving the content to the forum
 
 Use the :doc:`meeting parser tool </community-wide-resources/meetings/asynchronous-async-meetings#exporting-slack-meetings>`
 
-Live Meetings
+Live meetings
 =============
 
 - Use team’s jit.si channel
