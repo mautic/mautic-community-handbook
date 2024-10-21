@@ -131,7 +131,7 @@ exhibited almost all the behaviors described in these steps, and when
 serious burnout takes its grip, it can destroy families, careers, and
 many other aspects of life.
 
-Detecting and Treating Burnout
+Detecting and treating burnout
 ==============================
 
 With the risks evident in the list of symptoms, you are sure to be
