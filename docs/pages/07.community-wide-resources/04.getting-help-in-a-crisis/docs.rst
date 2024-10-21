@@ -14,7 +14,7 @@ reach out to them immediately to let them know that you care about them
 and that you are concerned. Then encourage them to contact one of the
 resources listed here to get the professional help that they need.
 
-Prevention Hotlines
+Prevention hotlines
 ===================
 
 Most countries have phone numbers you can call to talk with somebody
