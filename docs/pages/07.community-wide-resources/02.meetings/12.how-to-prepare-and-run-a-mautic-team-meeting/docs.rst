@@ -85,7 +85,7 @@ and
 2. Review Trello board 2.1 Ensure all teams have an onboarding
    person/workflow …
 
-Make Agenda items stick out in Slack
+Make agenda items stick out in Slack
 ------------------------------------
 
 Instead of regular numbers (like 1.4), prefix every item with Slack
