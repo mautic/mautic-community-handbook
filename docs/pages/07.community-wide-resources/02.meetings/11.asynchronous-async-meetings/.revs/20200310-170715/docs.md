@@ -28,7 +28,7 @@ Here are some tips for running a great meeting:
 ## Exporting Slack meetings
 We use a fork of a Chrome extension created by the Drupal community in order to scrape Slack meeting notes into HTML, which can then be posted onto the forums.
 
-Instructions are provided in the Github repo: [https://github.com/RCheesley/mautic-meeting-parser](https://github.com/RCheesley/mautic-meeting-parser)
+Instructions are provided in the Github repo: :xref:`Mautic Meeting Parser`
 
 ## Sample meeting structure
 
