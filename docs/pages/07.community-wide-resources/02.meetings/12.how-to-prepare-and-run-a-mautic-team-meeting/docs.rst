@@ -39,7 +39,7 @@ you are probably not aware of) !
 Preparing for a meeting
 =======================
 
-High-Level Agenda
+High-level agenda
 -----------------
 
 Have a general “framework” agenda that you typically work with, e.g. 
