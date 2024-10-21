@@ -150,7 +150,7 @@ Or, if it’s a live meeting:
    For continuation (and also for everybody who can not make it to the live call) we will turn every meeting topic into a thread right here in Slack, so you can still join the asynchronous follow-up discussion whenever you are available and as often as you can, within the next 24 hours.
    /cc @teammember1 @teammember2 @teammember3 ...
 
-Prepare your Meeting content
+Prepare your meeting content
 ============================
 
 For each sub-level Agenda item, 
