@@ -60,6 +60,7 @@ IMAP
 infographics
 JavaScript
 Jitsi
+Jono
 Joomla
 Joomla!
 Libre
