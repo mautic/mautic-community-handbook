@@ -187,7 +187,7 @@ same and get away for a few days. He will almost certainly claim he
 can’t or doesn’t need to, but stand firm: it is for his own good, and he
 will thank you for it.
 
-VOLUNTEERISM ESCAPES NOTHING:
+Volunteerism escapes nothing:
 -----------------------------
 
 When on the subject of communities and stress, looks can be deceiving.
