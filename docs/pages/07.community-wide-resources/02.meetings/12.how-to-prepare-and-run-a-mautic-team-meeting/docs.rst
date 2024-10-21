@@ -108,6 +108,7 @@ Your agenda might now look something like this:
    :two:  Review Trello board
    :two:.:one: Ensure all teams have an onboarding person/workflow
    ...
+
 Post meeting invitation and Agenda in Slack
 ===========================================
 
