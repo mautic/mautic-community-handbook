@@ -200,7 +200,7 @@ and their sense of family. The involvement may not be contractually
 required, but it is often emotionally required inside the mind of the
 contributor.
 
-Work/Life Balance
+Work/life balance
 -----------------
 
 At the center of the somewhat unpleasant universe that is burnout is the
