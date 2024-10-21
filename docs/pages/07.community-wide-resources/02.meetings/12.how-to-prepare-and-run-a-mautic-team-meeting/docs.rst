@@ -63,7 +63,7 @@ Feel free to have variations of the above, like
 Don’t forget: Please do experiment! Let the structure improve over time,
 and of course: Adopt to temporary circumstances.
 
-Specific Topics within the Agenda
+Specific topics within the agenda
 ---------------------------------
 
 Next, collect the existing topics for each top-level agenda item.
