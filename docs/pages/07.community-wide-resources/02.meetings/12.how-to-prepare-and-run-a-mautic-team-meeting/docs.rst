@@ -1,7 +1,7 @@
 How to prepare & run a Mautic Team Meeting
 ==========================================
 
-Meeting cycle; Async vs. Live meetings
+Meeting cycle; async vs. live meetings
 ======================================
 
 The frequency of team meetings is entirely up to each team to decide; a
