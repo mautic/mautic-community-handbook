@@ -140,7 +140,7 @@ In addition to the information Google requests, the Mautic Project requires you 
 - Why This Project? - Consider these questions
 
   - Which specific project interests you? If you are proposing your own project, do it here. If you are proposing the project, explain why it benefits the community.
-  - Have you contacted the mentor(s) listed for the project?
+  - Have you contacted the mentors listed for the project?
   - What relevant experience do you have for this project?
   - What do you want to gain from this project?
   - Describe this project in your own words. What does it mean to you? What do you think the final deliverable is?
