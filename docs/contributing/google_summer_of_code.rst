@@ -135,7 +135,7 @@ In addition to the information Google requests, the Mautic Project requires you 
 - Why Us? - Consider these questions
 
   - Why do you want to work with the Mautic Project?
-  - Do you plan to continue contributing to the Mautic Project after GSoC? If yes, what project(s) are you interested with?
+  - Do you plan to continue contributing to the Mautic Project after GSoC? If yes, what projects are you interested with?
 
 - Why This Project? - Consider these questions
 
