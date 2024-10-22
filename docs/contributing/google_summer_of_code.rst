@@ -7,7 +7,7 @@ Google Summer of Code at Mautic
 This page contains information about Mautic's participation in Google Summer of Code, often abbreviated to GSoC. Please feel free to contact the team via Slack below for clarifications and more information.
 
 What to get started with today?
-********************
+*******************************
 
 Today you should read through the ideas for projects, and start working on your application. Get familiar with Mautic, make some contributions so you're familiar with the workflow, and get to know the community. Join the :xref:`Mautic Community Slack` channel - #gsoc-discuss - and post any questions you have there, after reading this page fully and also reviewing the project proposals.
 
