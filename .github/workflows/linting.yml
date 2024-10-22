@@ -1,25 +1,29 @@
 name: Linting
 on:
-  # Note: onlyAnnotateModifiedLines only works correctly on PRs!
-  # If you need to run checks on push as well, create a separate workflow file.
   pull_request:
 
 jobs:
   prose:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04 # See https://github.com/errata-ai/vale-action/issues/128 before upgrading
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0
 
-    - name: Vale
-      uses: errata-ai/vale-action@master
+    - uses: actions/setup-python@v4
       with:
-        # We can modify these styles as we want
-        styles: |
-          https://github.com/errata-ai/Google/releases/latest/download/Google.zip
-        onlyAnnotateModifiedLines: true
+        python-version: '3.x'
+        cache: 'pip'
+
+    - name: Install Python dependencies
+      run: pip3 install -r docs/requirements.txt
+
+    - name: Vale
+      uses: errata-ai/vale-action@reviewdog
+      with:
+        # Please keep version in sync with the version in .gitpod.Dockerfile for a consistent experience
+        version: 3.7.1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -27,9 +31,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
-    - uses: actions/setup-python@v2
+    - uses: actions/setup-python@v4
       with:
         python-version: '3.x'
         cache: 'pip'
