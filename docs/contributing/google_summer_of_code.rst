@@ -67,7 +67,7 @@ Please read and follow the student application process below.
 Google Summer of Code Application Process
 =========================================
 
-Interested in applying for Google Summer of Code with Mautic? Here is how you do that!
+Interested in applying for Google Summer of Code with Mautic? Here is how you do that.
 
 The following are specific guidelines for students to use to submit an application for the GSoC program through the Mautic Project. Please go through these carefully and follow them. Applications must be complete by the deadline. Late applications cannot be accepted.
 
