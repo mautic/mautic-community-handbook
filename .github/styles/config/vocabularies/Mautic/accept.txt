@@ -64,6 +64,7 @@ Jitsi
 Jono
 Joomla
 Joomla!
+Knowledgebase
 Kubuntu
 Libre
 Licensor
