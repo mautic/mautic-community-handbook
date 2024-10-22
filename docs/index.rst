@@ -36,3 +36,15 @@ The vision is that it grows over time as the teams and governance structure evol
    :hidden:
 
    Contributing/Google_Summer_of_Code
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Resources
+   :hidden:
+
+   resources/community_wide_resources/community_wide_resources
+   resources/community_wide_resources/avoiding_burnout
+   resources/community_wide_resources/getting_help_in_a_crisis
+   resources/meetings/meetings
+   resources/meetings/asynchronous_meetings
+   resources/meetings/preparing_and_running_meetings
