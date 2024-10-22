@@ -146,7 +146,7 @@ In addition to the information Google requests, the Mautic Project requires you 
   - Describe this project in your own words. What does it mean to you? What do you think the final deliverable is?
 
 - Why should we choose you over other applicants?
-- Propose a rough schedule for this project. Ideally you will have regular deliverables throughout the entire period.
+- Propose a rough schedule for this project. Ideally you'll have regular deliverable tasks throughout the entire period.
 - What are you specific plans from May to September (eg: Exams in university, internships, vacations..etc). We need to know if there are periods of time where you are likely to be unavailable. We are better at accommodating these periods if we know of them in advance.
 
 You must submit a PDF version of all of the information you prepare with your application using the Google site. The PDF should consist of the information from the supplemental application requirements section below. It should also contain any custom project you are proposing, if any. We are not allowed to consider students who do not submit this PDF.
