@@ -11,7 +11,7 @@ where all conversation happens in Slack threads - exactly one thread per agenda 
 
 There is of course the option to do **live meetings** as well. Some teams do this on a regular basis - for example every second meeting, some 'on demand'. It's highly recommend to add an asynchronous meeting to every live meeting - by writing all highlights from the live meetings down in Slack, and continue from there - to make sure nobody feels excluded, and also to easily capture the minutes from the live part.
 
-Now for those live meetings obviously an actual time is required. Even the exact start of an asynchronous meeting isn't irrelevant, since most of the discussion happen within the first 60 minutes or so. And if nothing else, someone - you - has to kick off the meeting at that hour.
+Now for those live meetings obviously need an actual time. Even the exact start of an asynchronous meeting isn't irrelevant, since most of the discussion happen within the first 60 minutes or so. And if nothing else, someone - you - has to kick off the meeting at that hour.
 
 So the **exact starting hour** of all scheduled meetings requires a bit of negotiation too. Best practice is: 
 
@@ -241,7 +241,7 @@ Afterwards - or in parallel if you like - you can join the actual discussion. Fi
 Ending the meeting
 ------------------
 
-After 24 hours - doesn't have to be really exact - you should explicitly end the meeting. One way to do so is by responding to the 'Hi everyone… Welcome to our team meeting!' post, with the 'Also send to #name of channel' checkbox ticked, something like Thanks everyone, this meeting is now officially over and now is the time to move the content to the forum.
+After 24 hours - doesn't have to be really exact - you should explicitly end the meeting. One way to do so is by responding to the ``Hi everyone… Welcome to our team meeting!`` post, with the 'Also send to #name of channel' checkbox ticked, something like Thanks everyone, this meeting is now officially over and now is the time to move the content to the forum.
 
 Moving the content to the forum
 ===============================
