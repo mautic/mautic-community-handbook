@@ -29,8 +29,9 @@ The vision is that it grows over time as the teams and governance structure evol
    :hidden:
 
    teams/legal_and_finance_team
-   teams/community-team
-   teams/community-team/meetup-guidelines
+   teams/community_team/community_team
+   teams/community_team/meetup_guidelines
+   teams/community_team/community_dashboard
 
 .. toctree::
    :maxdepth: 2
