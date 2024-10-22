@@ -29,5 +29,4 @@ International
 
 :xref:`Wikipedia`
 
-Reproduced from
-:xref:`Kubuntu`
+Reproduced from resources made available by Kubuntu which are now no longer available.

@@ -64,6 +64,7 @@ Jitsi
 Jono
 Joomla
 Joomla!
+Kubuntu
 Libre
 Licensor
 LinkedIn
