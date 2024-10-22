@@ -59,6 +59,7 @@ IDP
 IMAP
 infographics
 JavaScript
+Jira
 Jitsi
 Jono
 Joomla
