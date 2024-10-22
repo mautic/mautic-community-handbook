@@ -147,7 +147,7 @@ In addition to the information Google requests, the Mautic Project requires you 
 
 - Why should we choose you over other applicants?
 - Propose a rough schedule for this project. Ideally you'll have regular deliverable tasks throughout the entire period.
-- What are you specific plans from May to September (eg: Exams in university, internships, vacations..etc). We need to know if there are periods of time where you are likely to be unavailable. We are better at accommodating these periods if we know of them in advance.
+- What are you specific plans from May to September (for example, exams in university, internships, vacations, etc). We need to know if there are periods of time where you are likely to be unavailable. We are better at accommodating these periods if we know of them in advance.
 
 You must submit a PDF version of all of the information you prepare with your application using the Google site. The PDF should consist of the information from the supplemental application requirements section below. It should also contain any custom project you are proposing, if any. We are not allowed to consider students who do not submit this PDF.
 Students will not be judged on the visual layout of their PDF, however all information must be readable.
