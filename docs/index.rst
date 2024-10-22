@@ -29,6 +29,13 @@ The vision is that it grows over time as the teams and governance structure evol
    :hidden:
 
    teams/legal_and_finance_team
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Contributing
+   :hidden:
+
+   Contributing/Google_Summer_of_Code
 
 .. toctree::
    :maxdepth: 2
