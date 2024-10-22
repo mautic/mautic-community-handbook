@@ -59,9 +59,12 @@ IDP
 IMAP
 infographics
 JavaScript
+Jira
 Jitsi
+Jono
 Joomla
 Joomla!
+Kubuntu
 Libre
 Licensor
 LinkedIn
