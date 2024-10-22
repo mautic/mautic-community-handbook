@@ -128,7 +128,7 @@ In addition to the information Google requests, the Mautic Project requires you 
 - Contact Information - List your Name, Email Address, Blog URL, and any additional contact information you think we need. We tend to email so be sure you're reading your email.
 - About You - Consider these questions
 
-  - Do you have any past involvement with the Mautic Project or another Open Source project as a contributor? What kind of contributions have you made (code and non-code)? Please share any public contributions you have made (urls, etc.)
+  - Do you have any past involvement with the Mautic Project or another Open Source project as a contributor? What kind of contributions have you made (code and non-code)? Please share any public contributions you have made (URLs, etc.)
   - What are you studying? Why?
   - What motivates you to do your best? How do you stay focused? Briefly describe how you organize your work.
 
