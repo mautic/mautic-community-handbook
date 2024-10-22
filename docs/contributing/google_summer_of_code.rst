@@ -4,7 +4,7 @@
 Google Summer of Code at Mautic
 ###############################
 
-This page contains information about Mautic's participation in Google Summer of Code, often abbreviated to GSoC. Please feel free to contact us via Slack below for clarifications and more information.
+This page contains information about Mautic's participation in Google Summer of Code, often abbreviated to GSoC. Please feel free to contact the team via Slack below for clarifications and more information.
 
 What can I do today?
 ********************
