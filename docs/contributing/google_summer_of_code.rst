@@ -111,7 +111,7 @@ The application process consists of 3 steps:
 
 1. Create an account on the :xref:`Mautic Community Forums`
 2. Join the #gsoc-discuss and #t-product channels on Slack
-3. Submit the application/proposal including all requirements in the next section at the Google Summer of Code Site. We **strongly** encourage you to not submit your final PDF until you get feedback about the proposal from your mentor(s).
+3. Submit the application/proposal including all requirements in the next section at the Google Summer of Code Site. We **strongly** encourage you to not submit your final PDF until you get feedback about the proposal from your mentors.
 
 Help is available! Share your application in progress and get feedback. The mentors can help verify your understanding of the project and provide guidance on whether your plan is good.
 
