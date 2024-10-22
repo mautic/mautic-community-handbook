@@ -55,7 +55,7 @@ Your responsibilities include:
 
 - Communicating early and often with your mentor.
 - Updating every week about what you're learning, how you're doing, challenges and successes. This is key way to keep the entire Mautic Community informed.
-- Working with your mentor on realistic achievable milestones that provide for regular deliverables and feedback.
+- Working with your mentor on realistic achievable milestones that provide for regular deliverable targets and feedback.
 - Attending the brief student calls, as announced
 - Being accountable for your success and your actions
 
