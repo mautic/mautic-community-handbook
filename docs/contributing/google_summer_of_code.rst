@@ -16,7 +16,7 @@ Student Information
 
 Do you want to contribute to one of the world's first Open Source Marketing Automation platform? GSoC could be your chance. Please refer to the information below.
 
-If you're interested in working on a mentor-submitted idea, read the :xref:`GSOC project ideas` and about the project and the related technology. Please note this is a rolling submission process which is maintained year-round. There is no need to contact the mentor unless you have a specific question about the project. Don't send an “I'm interested” email or Slack message - please respect their time.
+If you're interested in working on a mentor-submitted idea, read the :xref:`GSOC project ideas` and about the project and the related technology. Please note this is a rolling submission process which Mautic maintains year-round. There is no need to contact the mentor unless you have a specific question about the project. Don't send an ``“I'm interested”`` email or Slack message - please respect their time.
 
 If you're interested in proposing your own project start looking around the Mautic Project for a mentor and suggest your idea in the :xref:`Mautic Assembly`.
 
