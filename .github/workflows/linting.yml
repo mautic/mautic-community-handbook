@@ -5,6 +5,9 @@ on:
 jobs:
   prose:
     runs-on: ubuntu-22.04 # See https://github.com/errata-ai/vale-action/issues/128 before upgrading
+    permissions:
+      contents: read
+      pull-requests: write
     steps:
     - name: Checkout
       uses: actions/checkout@v4
