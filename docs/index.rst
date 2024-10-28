@@ -35,7 +35,7 @@ The vision is that it grows over time as the teams and governance structure evol
    :caption: Contributing
    :hidden:
 
-   Contributing/Google_Summer_of_Code
+   contributing/google_summer_of_code
 
 .. toctree::
    :maxdepth: 2
