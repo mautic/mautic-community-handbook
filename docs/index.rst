@@ -53,6 +53,7 @@ The vision is that it grows over time as the teams and governance structure evol
    :maxdepth: 2
    :caption: Community Leadership
    :hidden:
+
    community_leadership/community_leadership_overview
    community_leadership/current_leadership_team
    community_leadership/leadership_role_definitions
