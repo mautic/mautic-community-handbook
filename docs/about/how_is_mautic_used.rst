@@ -1,5 +1,5 @@
 How is Mautic Used?
-##############
+###################
 
 Mautic is a powerful and flexible Marketing Automation platform that supports a wide range of marketing and communication activities. Its versatility allows organizations to customize Mautic for various use cases:
 
