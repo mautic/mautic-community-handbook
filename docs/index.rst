@@ -48,3 +48,12 @@ The vision is that it grows over time as the teams and governance structure evol
    resources/meetings/meetings
    resources/meetings/asynchronous_meetings
    resources/meetings/preparing_and_running_meetings
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Product Team
+   :hidden:
+
+   product_team/product_team_overview
+   product_team/mautic_bounty_programme
+   product_team/request_for_proposals_(RFP)_process
