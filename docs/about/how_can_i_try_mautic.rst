@@ -1,5 +1,5 @@
 How can I try Mautic?
-#################
+#####################
 
 Mautic is available to download for free [:xref:`Download Mautic`], allowing you to explore its full capabilities without restrictions when you host it yourself.
 
