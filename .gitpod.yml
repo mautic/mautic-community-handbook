@@ -12,3 +12,4 @@ vscode:
     - trond-snekvik.simple-rst
     - errata-ai.vale-server
     - eamodio.gitlens
+    - ms-python.debugpy
