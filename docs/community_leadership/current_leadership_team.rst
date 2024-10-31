@@ -1,5 +1,5 @@
 Current Leadership Team
-######
+#######################
 
 The current leadership team and their terms are as follows:
 
@@ -69,7 +69,7 @@ The current leadership team and their terms are as follows:
      - 2025
 
 Honour Roll
-#######
+###########
 
 These are individuals who have previously served on the Mautic Community Leadership Team:
 
