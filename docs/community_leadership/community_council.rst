@@ -1,8 +1,8 @@
 Community Council
-######
+##################
 
 What is the Community Council?
-******
+******************************
 
 The Community Council is a governing body that addresses topics impacting the Mautic community as a whole, or matters that extend beyond individual teams. The Council convenes every three months and consists of seven elected representatives from the Mautic Community along with the Project Lead.
 
