@@ -1,8 +1,8 @@
 Leadership Role Definitions
-######
+###########################
 
 Project Lead
-******
+************
 
 The **Project Lead** is appointed by the Mautic Council. This role’s primary responsibility is to ensure Mautic's success through vision, strategy, and community enablement. Key responsibilities include:
 
@@ -24,7 +24,7 @@ The Project Lead is responsible for supporting in-person and global events, such
 The Project Lead manages community and product strategy, guiding teams in resource mobilization to align with the overall vision. They hold the authority to appoint and remove volunteers within community teams. Additionally, the Project Lead holds a **veto right** on community nominations and strategic decisions, which is to be exercised only in exceptional circumstances where consensus cannot be reached.
 
 Team Lead
-******
+*********
 The **Team Lead** is a community-elected position responsible for leading a team. Key responsibilities include:
 
 - **Leadership**: Lead a team, overseeing activities and guiding Working Groups.
@@ -32,7 +32,7 @@ The **Team Lead** is a community-elected position responsible for leading a team
 - **Steering Group Participation**: Represent the team on the relevant Steering Group to foster cross-functional collaboration.
 
 Assistant Team Lead
-******
+*******************
 
 The **Assistant Team Lead** supports the Team Lead in executing the team’s objectives. Core duties include:
 
@@ -41,7 +41,7 @@ The **Assistant Team Lead** supports the Team Lead in executing the team’s obj
 - **Steering Group Representation**: Participate in the relevant Steering Group as needed.
 
 Working Group Lead
-******
+******************
 
 The **Working Group Lead** is a community-elected position responsible for guiding a specific Working Group. Responsibilities include:
 
