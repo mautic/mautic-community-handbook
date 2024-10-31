@@ -49,6 +49,6 @@ The **Working Group Lead** is a community-elected position responsible for guidi
 - **Cross-Team Liaison**: Appoint liaisons to coordinate with other teams for projects involving multiple groups.
 
 Working Group Assistant Lead
-******
+****************************
 
 The **Working Group Assistant Lead** also is a community-elected position that supports the Working Group Lead by assisting with projects and group activities as required.
