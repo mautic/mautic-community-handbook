@@ -60,7 +60,7 @@ Here's how to get started:
 
 1. Set up your local environment as described in :ref:`Working locally`
 
-2. By default we start on the default branch for the repository, but be sure to verify this is the case. In VSCode it'll show this in the bottom left hand toolbar. If you're not on the default branch, you can switch to it by running the following command in your terminal: ``git checkout 5.x`` - replace ``5.x`` with the name of the default branch if it's different. At the command line, use the command ``git status`` to see which branch you're on and ``git checkout 5.x`` to change to the default branch - replacing ``5.x`` with the name of the default branch if it's different.
+2. By default you start on the default branch for the repository, but be sure to verify this is the case. In VSCode it'll show this in the bottom left hand toolbar. If you're not on the default branch, you can switch to it by running the following command in your terminal: ``git checkout 5.x`` - replace ``5.x`` with the name of the default branch if it's different. At the command line, use the command ``git status`` to see which branch you're on and ``git checkout 5.x`` to change to the default branch - replacing ``5.x`` with the name of the default branch if it's different.
 
 .. image:: images/change_branch.png
     :alt: VSCode screenshot showing how to change branches
