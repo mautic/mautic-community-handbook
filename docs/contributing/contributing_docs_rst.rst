@@ -141,9 +141,24 @@ Linking within the current page
 
 .. code-block:: rst
 
-    :ref:`my target`
-    :ref:`Target to paragraph <target to paragraph>`
-    :ref:`Target inside a paragraph <in-line targets>`
+    :ref:`A heading`
+    :ref:`Target to paragraph <my heading>`
+    :ref:`Target inside a paragraph <my heading>`
+
+In this example the target could be a heading on the page called 'A heading'. The first example uses the name of the heading and outputs it exactly as it's on the page where it's used.
+
+The second and third options use a title to override what's already used on the heading. The content within the ``<`` and ``>`` is the heading from the page that you want to link to - it must be an exact match for a heading used elsewhere on the page - and the text displayed before or after is what you want the words to display in the link.
+
+An example from this page, linking to the earlier section on linking to other pages would look like this:
+
+.. code-block:: rst
+
+    :ref:`My link title <Linking to other pages>`
+
+This renders as:
+
+:ref:`My link title <Linking to other pages>`
+
 
 Read more in the :xref:`ref role documentation`.
 
@@ -152,17 +167,28 @@ Linking to another page in the same documentation repository
 
 .. code-block:: rst
     
-    :doc:`intersphinx`
-    :doc:`/guides/intersphinx`
-    :doc:`Custom title </guides/intersphinx>`
+    :doc:`documentation-page`
+    :doc:`/guides/documentation-page`
+    :doc:`Custom title </guides/documentation-page>`
+
+In this example the target could be a page called 'documentation-page'. The first example uses the name of the page as if it was in the same directory as the current file. The second option uses the full path to the file if it were in a different folder, and the third option uses a title to override what's already used on the page heading.
+
+.. note::
+    
+        When linking to another page in the same documentation repository, you don't need to include the file extension. This is automatically added by Sphinx when building the documentation. Using paths relative to the documentation root is preferable, to avoid changing the target name when restructuring content.
+
 
 Read more in the :xref:`doc role documentation`.
 
 External links
 --------------
 
+Mautic makes use of link files, located in /links, which means that there's a single place to update links if they change. This is especially useful for links to external sites, such as the Mautic GitHub repository. It also allows us to check that the links are still valid with each new contribution.
+
+There's a quick way to create those link files using the ``make link`` command. This creates a new file in the /links directory with the name of the link, and the URL as the content. This is then used in the documentation like this:
+
 .. code-block:: rst
 
     :xref:`Mautic GitHub`
 
-Use the command ``make link`` in the terminal to create a link file. Read more in the :xref:`xref role documentation`.
+Use the command ``make link`` in the terminal to create a link file then copy the resulting ``xref`` macro. Read more in the :xref:`xref role documentation`.
