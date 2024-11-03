@@ -2,6 +2,7 @@ AJAX
 allowlist
 Amazon SES
 Ameling
+application
 Autoloader
 autoloader
 Autowired
