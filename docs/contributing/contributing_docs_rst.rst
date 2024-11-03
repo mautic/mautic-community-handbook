@@ -92,3 +92,7 @@ Here's how to get started:
 
 9. Go back to the original repository - not your fork, but the upstream version - and create a new pull request by clicking on the green button which shows at the top of the page. This takes you to a page where you can review the changes you've made, and add a description of what you've done. Once you're happy with the changes, click the 'Create pull request' button to submit your changes for review.
 
+10. Don't forget to add a clear description of what you've done in the pull request, and if you're fixing an issue, be sure to reference it in the description. This helps the maintainers to understand what you're doing and why.
+
+11. Wait for the maintainers to review your PR and when they do, be sure to respond to any comments they make. This might involve making further changes to your PR, or answering questions they have about your work. Once they're happy with your changes, they'll merge them into the main branch of the repository and your work is automatically deployed on the documentation site. Great job, you're now the latest contributor to Mautic. 🥳
+
