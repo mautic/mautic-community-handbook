@@ -127,7 +127,9 @@ Mautic uses the following syntax for headings:
     H6
     ^^^
 
-When you're writing documentation, be sure to nest your headings correctly. This means that you should only use one H1 heading per page, and then nest your headings in the order shown above. This helps to keep the documentation consistent and easy to read.
+When you're writing documentation, be sure to nest your headings correctly. This means that you should only use one H1 heading per page, and then nest your headings in the order shown. This helps to keep the documentation consistent and easy to read.
+
+Also be sure to extend the underline to fit the length of the heading text. This is a requirement of RST syntax and helps to keep the documentation looking neat and tidy.
 
 Linking to other pages
 ======================
