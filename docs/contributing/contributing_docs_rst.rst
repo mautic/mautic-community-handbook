@@ -25,6 +25,10 @@ To get started with one of the documentation repositories locally, it's advised 
 - VSCode - :xref:`install VSCode`
 - GitHub CLI - :xref:`install GitHub CLI`
 - Vale linter - :xref:`install Vale`
+- Python 3 - :xref:`install Python`
+- Sphinx - ``pip3 install sphinx``
+- Sphinx Read the Docs theme - ``pip3 install sphinx-rtd-theme``
+- MyST Parser - ``pip3 install myst_parser``
 
 Once you have these installed, you can clone the repository you want to work on.
 
