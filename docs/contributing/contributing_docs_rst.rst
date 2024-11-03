@@ -96,3 +96,71 @@ Here's how to get started:
 
 11. Wait for the maintainers to review your PR and when they do, be sure to respond to any comments they make. This might involve making further changes to your PR, or answering questions they have about your work. Once they're happy with your changes, they'll merge them into the main branch of the repository and your work is automatically deployed on the documentation site. Great job, you're now the latest contributor to Mautic. 🥳
 
+
+Important considerations
+************************
+
+When contributing to the documentation, there are a few things to keep in mind:
+
+Nesting headings
+================
+
+Mautic uses the following syntax for headings:
+
+.. code-block:: rst
+
+    H1
+    ###
+
+    H2
+    ***
+
+    H3
+    ===
+
+    H4
+    ---
+
+    H5
+    ~~~
+
+    H6
+    ^^^
+
+When you're writing documentation, be sure to nest your headings correctly. This means that you should only use one H1 heading per page, and then nest your headings in the order shown above. This helps to keep the documentation consistent and easy to read.
+
+Linking to other pages
+======================
+
+When you're linking to other pages in the documentation, be sure to use the correct syntax. This means that you should use the following syntax:
+
+Linking within the current page
+-------------------------------
+
+.. code-block:: rst
+
+    :ref:`my target`
+    :ref:`Target to paragraph <target to paragraph>`
+    :ref:`Target inside a paragraph <in-line targets>`
+
+Read more in the :xref:`ref role documentation`.
+
+Linking to another page in the same documentation repository
+------------------------------------------------------------
+
+.. code-block:: rst
+    
+    :doc:`intersphinx`
+    :doc:`/guides/intersphinx`
+    :doc:`Custom title </guides/intersphinx>`
+
+Read more in the :xref:`doc role documentation`.
+
+External links
+--------------
+
+.. code-block:: rst
+
+    :xref:`Mautic GitHub`
+
+Use the command ``make link`` in the terminal to create a link file. Read more in the :xref:`xref role documentation`.
