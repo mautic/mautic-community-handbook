@@ -48,7 +48,7 @@ To do this follow these steps:
 Hurrah, now you're ready to get started with contributing to the documentation. 🥳
 
 Making your first pull request
-=============================
+==============================
 
 When you want to make a change in the documentation, you need to submit a Pull Request - PR - to the relevant repository. This is a request to the maintainers of the repository to merge your changes into the main branch of the repository. While it sounds a bit confusing, once you've done it a few times it becomes second nature.
 
@@ -81,7 +81,7 @@ Here's how to get started:
     :width: 600px
     :align: center
 
-7. Commit your changes to your local repository by running the following command in your terminal: ``git add <filename>`` to stage specific files, and then ``git commit -m "A brief description of the changes you made"`` - for example, ``git commit -m "Fix typo in introduction"``. You can also do this in the VSCode editor by clicking on the source control icon in the left-hand toolbar, staging the files you want to commit, and then adding a commit message.
+7. Commit your changes to your local repository by running the following command in your terminal: ``git add <filename>`` to stage specific files, and then ``git commit -m "A brief description of the changes you made"`` - for example, ``git commit -m "Fix typo in introduction"``. You can also do this in the VSCode editor by clicking on the source control icon in the left-hand toolbar, staging the files you want to commit by clicking the plus icon which appears on hover, and then adding a commit message in the box above.
 
 .. image:: images/staging_changes.png
     :alt: VSCode screenshot showing how to stage and commit changes
@@ -90,5 +90,5 @@ Here's how to get started:
 
 8. Push your changes to your fork of the repository by running the following command in your terminal: ``git push origin <branch-name>`` - for example, ``git push origin fix-typo-in-introduction``. This sends your changes to your fork on GitHub. To do this in the VSCode editor, first publish the branch by clicking on the blue button in the version control panel, and then push the changes by clicking on the three dots next to the branch name and selecting 'Push' or clicking the blue button marked 'synchronize changes'.  Continue to make and stage changes and synchronize in this way until you've completed your work.
 
-9. Go back to the original repository - not your fork, but the upstream version - and create a new pull request by clicking on the green button which shows at the top of the page. This takes you to a page where you can review the changes you've made, and add a description of what you've done. Once you're happy with the changes, click on the 'Create pull request' button to submit your changes for review.
+9. Go back to the original repository - not your fork, but the upstream version - and create a new pull request by clicking on the green button which shows at the top of the page. This takes you to a page where you can review the changes you've made, and add a description of what you've done. Once you're happy with the changes, click the 'Create pull request' button to submit your changes for review.
 
