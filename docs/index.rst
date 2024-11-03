@@ -30,7 +30,6 @@ The vision is that it grows over time as the teams and governance structure evol
 
    teams/legal_and_finance_team
    teams/education_team/education_team
-   teams/education_team/contributing_docs_rst
 
 .. toctree::
    :maxdepth: 2
@@ -38,6 +37,7 @@ The vision is that it grows over time as the teams and governance structure evol
    :hidden:
 
    contributing/google_summer_of_code
+   contributing/contributing_docs_rst
 
 .. toctree::
    :maxdepth: 2
