@@ -1,6 +1,6 @@
 from . import link
 
-link_name = "MaSlackutic Community " 
+link_name = "Mautic Community Slack" 
 link_text = "Mautic Community Slack" 
 link_url = "https://mautic.org/slack" 
 
