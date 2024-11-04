@@ -71,4 +71,4 @@ The product team needs individuals with the following skills and expertise:
 
 **Interested in joining this team?** 
 
-Connect with us on Slack at :xref:`Mautic product team Slack`.
+Connect with the Product Team on Slack at :xref:`Mautic product team Slack`.
