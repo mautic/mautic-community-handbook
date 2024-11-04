@@ -55,8 +55,12 @@ Roadmap design
    * Prioritize feature development in coordination with the Feature Definition Working Group.
    * Define release cadence and long-term support (LTS) versions.
 
-Profiles of contributors needed in this team
-********************************************
+.. vale off
+
+Profiles of contributors needed in the Product Team
+***************************************************
+
+.. vale on
 
 The product team needs individuals with the following skills and expertise:
 
