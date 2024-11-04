@@ -87,6 +87,7 @@ OAuth
 Packagist
 PATCH
 patch
+Payoneer
 PHP
 PHPUnit
 Pipedrive

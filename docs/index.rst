@@ -30,15 +30,21 @@ The vision is that it grows over time as the teams and governance structure evol
 
    teams/legal_and_finance_team
    teams/product_team/product_team_overview
-   teams/product_team/mautic_bounty_programme
-   teams/product_team/request_for_proposals_(RFP)_process
    
+.. toctree::
+   :maxdepth: 2
+   :caption: Policies
+   :hidden:
+
+   policies/request_for_proposals_(RFP)_process
+
 .. toctree::
    :maxdepth: 2
    :caption: Contributing
    :hidden:
 
    contributing/google_summer_of_code
+   contributing/mautic_bounty_programme
 
 .. toctree::
    :maxdepth: 2
