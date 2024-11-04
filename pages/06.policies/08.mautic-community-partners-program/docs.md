@@ -21,21 +21,13 @@ There are two elements that we consider when reviewing an application to join th
 
 ### Financial Contribution
 
-It is required that all Community Partners are financially supporting the growth of the Mautic community on a monthly basis. This can be through our [Open Collective][open-collective] or through [Github Sponsors][gh-sponsors].
-
-Recognizing that there are huge differences around the world of affordability, we have decided to use the “Big Mac Index” to set the monthly contribution level that is required based on the geographic location of the organization’s headquarters.
-
-This means that for organizations based in the USA, the requirement in April 2021 would be $100 per month, and if you are located in India this would be INR 3357 or roughly $45.96 per month, whereas European countries would be contributing €75, approximately $90.
-
-We have all the countries listed on [this spreadsheet][bm-sheet] from the official Big Mac Index released by The Economist, and if your country is not listed, just send us a pic of you with the price of a Big Mac in your country (or let us know of a comparable country if they are not sold in your location) and we can let you know the contribution that would be needed to qualify.
-
-We do appreciate that this is not a perfect measure, but we hope that it at least allows us to make sure that there is some fairness when it comes to the financial thresholds.
+It is required that all Community Partners are financially supporting the growth of the Mautic community as a [Corporate Member of Mautic][mautic-membership]. All memberships are paid annually and via our [Open Collective][open-collective]. Prior to v2 of the Mautic governance model which came into effect on 12th December 2023, companies who sponsored Mautic at $100 per month or more were also eligible.  Companies who were already sponsoring at this tier when the new governance model came into effect and continue to do so are 'grandfathered' in, providing that their sponsorship continues at this tier, for a period of 12 months. This gives them them until 12th December 2024 to transition to becoming a Corporate Member in order to maintain their status as a Mautic Partner.
 
 ### Practical Contributions
 
 Of course money is not everything, and in fact contributing to Mautic in practical ways, whether that might be through code contributions, leading a team, organizing official events or meetups, contributing to the Documentation resources that we have or working on tasks in one of our five Community Teams are all vital to the growth of our community.
 
-For this reason, organizations who are wishing to become and maintain their status as a Mautic Community Partner must demonstrate regular, meaningful contributions to the Mautic Community from their staff.
+For this reason, organizations who are wishing to become and maintain their status as a Mautic Community Partner must demonstrate regular, meaningful contributions to the Mautic project from their staff.
 
 We measure this in several ways including through the Community Dashboard, reviewing team activity, and engagement in the various projects that teams are running.
 
@@ -44,14 +36,14 @@ Organizations who are not able to demonstrate a consistent contribution history 
 Ranking of organizations
 ------------------------
 
-We will be ranking the listings in the Partners Program by their activity over the previous month, with the top three partners listed on the homepage of mautic.org with links to their Partner page.
+We rank the listings in the Partners Program by their activity over the previous month, with the top three partners listed on the homepage of mautic.org with links to their Partner page.
 
 How do I become a Mautic Community Partner?
 -------------------------------------------
 
 ### Become a monthly sponsor
 
-The first step is to start financially contributing to Mautic on a monthly basis if you do not already. To do this you can either [sponsor Mautic on Github][gh-sponsors], or you can back us on the [Mautic Open Collective][open-collective]. You will find the required minimum amount on the [spreadsheet][bm-sheet] - please get in touch if your country is not listed.
+The first step is to start financially contributing to Mautic as a Corporate Member if you're not already. To do this you can sign up on the [Mautic Open Collective][open-collective]. Be sure to switch to your organization account before you proceed with payment, so that it's associated with your company.
 
 ### Become a consistent contributor
 
@@ -68,6 +60,7 @@ Be sure to include the name of your team members as this is how we will check on
 We will review the application and get back to you as soon as we can.
 
 [makers-takers]: <https://dri.es/balancing-makers-and-takers-to-scale-and-sustain-open-source>
+[mautic-membership]: <https://mau.tc/membership>
 [open-collective]: <https://opencollective.com/mautic>
 [gh-sponsors]: <https://github.com/sponsors/mautic>
 [bm-sheet]: <https://docs.google.com/spreadsheets/d/1VctW_ZSySbnKpgfR4981qmUJUkglqP-ddwU8pclQMoA/edit?usp=sharing!>
