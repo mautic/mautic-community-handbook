@@ -68,4 +68,4 @@ The Core Team or any Mautic member may contribute funds to the :xref:`Bounties P
 5. Comment on the issue with a link to the transaction and the amount added. A Triage Team member can update the issue title with the bounty amount and add the Bounty label.
 6. Wait for a developer to work on the issue, or search for one.
 7. When a pull request is available, test it thoroughly and provide an approval review on GitHub; this is **mandatory** for the Core Team to consider it for merging.
-8. After merging the pull request and any companion pull requests, the contributor submits an invoice on Open Collective. The Core Team's Legal & Finance representative will review and approve it for payment.
+8. After merging the pull request and any companion pull requests, the contributor submits an invoice on Open Collective. The Core Team's Legal & Finance representative reviews and approves it for payment.
