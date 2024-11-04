@@ -1,5 +1,5 @@
 Mautic bounty programme
-##########################
+#######################
 
 What follows is the Mautic project's approach to operating a bounty program for contributions to Mautic Core and officially supported Plugins via relevant GitHub repositories.
 
