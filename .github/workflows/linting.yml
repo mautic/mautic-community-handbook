@@ -25,6 +25,7 @@ jobs:
     - name: Vale
       uses: errata-ai/vale-action@reviewdog
       with:
+        filter_mode: added
         # Please keep version in sync with the version in .gitpod.Dockerfile for a consistent experience
         version: 3.7.1
         files: docs/
