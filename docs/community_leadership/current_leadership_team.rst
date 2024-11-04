@@ -1,7 +1,9 @@
-Current Leadership Team
+Current leadership team
 #######################
 
 The current leadership team and their terms are as follows:
+
+.. vale off
 
 .. list-table:: Leadership Team
    :header-rows: 1
@@ -68,8 +70,8 @@ The current leadership team and their terms are as follows:
      - 2023
      - 2025
 
-Honour Roll
-###########
+Honor roll
+##########
 
 These are individuals who have previously served on the Mautic Community Leadership Team:
 
@@ -109,3 +111,5 @@ These are individuals who have previously served on the Mautic Community Leaders
      - Marketing Team Lead
      - 2020
      - 2021
+
+.. vale on

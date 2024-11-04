@@ -1,6 +1,8 @@
 Community Council
 ##################
 
+.. vale off
+
 What is the Community Council?
 ******************************
 
@@ -34,3 +36,5 @@ The Community Council is a governing body that addresses topics impacting the Ma
    * - Prateek Jain
      - Director of Digital Experience Services at Axelerant
      - prateek.jain@mautic.org
+
+.. vale on
