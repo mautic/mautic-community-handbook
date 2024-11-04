@@ -29,6 +29,9 @@ The vision is that it grows over time as the teams and governance structure evol
    :hidden:
 
    teams/legal_and_finance_team
+   teams/product_team/product_team_overview
+   teams/product_team/mautic_bounty_programme
+   teams/product_team/request_for_proposals_(RFP)_process
    
 .. toctree::
    :maxdepth: 2
@@ -49,11 +52,10 @@ The vision is that it grows over time as the teams and governance structure evol
    resources/meetings/asynchronous_meetings
    resources/meetings/preparing_and_running_meetings
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Product Team
+   :caption: Community Leadership
    :hidden:
 
-   product_team/product_team_overview
-   product_team/mautic_bounty_programme
-   product_team/request_for_proposals_(RFP)_process
+   community_leadership/community_leadership_overview
+   community_leadership/current_leadership_team
+   community_leadership/leadership_role_definitions
+   community_leadership/community_council
