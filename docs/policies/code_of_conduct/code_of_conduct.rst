@@ -6,7 +6,7 @@ The primary source of the Code of Conduct is at :xref:`mautic.org` - it's reprod
 Purpose
 *******
 
-A primary goal of the Mautic community is to support you and your business in the development, use and implementation of Mautic. It’s to be inclusive and add value to the largest number of participants, with the most varied and diverse backgrounds possible. As such, we're committed to providing a friendly, safe and welcoming environment for all.
+A primary goal of the Mautic community is to support you and your business in the development, use and implementation of Mautic. It’s to be inclusive and add value to the largest number of participants, with the most varied and diverse backgrounds possible. As such, we're committed to providing a friendly, safe, and welcoming environment for all.
 
 This code of conduct outlines expectations for all community participants, whether in-person or online, as well as the consequences for unacceptable behavior.
 
@@ -21,12 +21,8 @@ Your participation is contingent upon following these guidelines in all Mautic a
 
 We invite all those who participate in Mautic activities online to help Mautic create safe and positive experiences for everyone, everywhere.
 
-.. vale on
-
-Open Source & Culture Citizenship
+Open source & culture citizenship
 *********************************
-
-.. vale off
 
 A supplemental goal of this Code of Conduct is to increase open source and culture citizenship by encouraging participants to recognize and strengthen the relationships between our actions and their effects on our community.
 
@@ -67,7 +63,7 @@ The following behaviors are considered harassment and are unacceptable within ou
 - **Corporate Promotions** Sharing of demo/trial/landing page links and other corporate promotions are never permitted unless explicitly requested by a community member. The only exceptions are that the moderated Commercial forum category may be used to promote opportunities which may be relevant for members of the community (for example job opportunities, freelance gigs) and Mautic Community Partners may promote their products and services on their partners page.
 - **Scraping contacts** by name or any other personally identifiable information for unsolicited communication is never acceptable in any form.
 
-Consequences of Unacceptable Behavior
+Consequences of unacceptable behavior
 *************************************
 
 Unacceptable behavior from any community member, including sponsors and those with decision-making authority, is not tolerated.
@@ -82,23 +78,17 @@ If a community member engages in unacceptable behavior, we may take any action d
 - Long-term absence from participation.
 - Being required to follow a conduct agreement that dictates the process of returning to the community.
 
-.. vale on
 
-Reporting Guidelines
+Reporting guidelines
 ********************
-
-.. vale off
 
 If you are subject to or witness unacceptable behavior, or have any other concerns, please notify Mautic as soon as possible by emailing info@mautic.org, or contacting a Mautic team member on the specific platform.
 
 Processes for dealing with breaches of the Code of Conduct can be found here[code-of-conduct-breaches].
 
-.. vale on
 
 Addressing grievances
 *********************
-
-.. vale off
 
 Only permanent resolutions (such as bans) may be appealed. To appeal a decision, contact the Mautic team at info@mautic.org with your appeal and the team reviews the situation.
 
