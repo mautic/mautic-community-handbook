@@ -24,6 +24,21 @@ The vision is that it grows over time as the teams and governance structure evol
    about/what_is_mautic
 
 .. toctree::
+   :maxdepth: 3
+   :caption: Mautic Community Portal
+   :hidden:
+
+   mautic_community_portal/mautic_community_portal
+   mautic_community_portal/signing_in_and_configuring_your_profile
+   mautic_community_portal/assemblies/assemblies
+   mautic_community_portal/assemblies/creating_an_assembly
+   mautic_community_portal/processes
+   mautic_community_portal/meetings
+   mautic_community_portal/groups
+   mautic_community_portal/membership
+   mautic_community_portal/conversations
+
+.. toctree::
    :maxdepth: 2
    :caption: Teams
    :hidden:
