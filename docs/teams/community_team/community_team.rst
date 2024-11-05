@@ -1,8 +1,8 @@
 Community Team
 ##############
 
-Missions and expectations
-*************************
+Missions and expectations of the Community Team
+***********************************************
 
 We want more and more people to feel at home in the Mautic community. And we want to inspire & enable them to contribute to our cause.
 
