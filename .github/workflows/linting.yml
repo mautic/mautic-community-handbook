@@ -5,6 +5,9 @@ on:
 jobs:
   prose:
     runs-on: ubuntu-22.04 # See https://github.com/errata-ai/vale-action/issues/128 before upgrading
+    permissions:
+      contents: read
+      pull-requests: write
     steps:
     - name: Checkout
       uses: actions/checkout@v4
@@ -22,8 +25,10 @@ jobs:
     - name: Vale
       uses: errata-ai/vale-action@reviewdog
       with:
+        filter_mode: added
         # Please keep version in sync with the version in .gitpod.Dockerfile for a consistent experience
         version: 3.7.1
+        files: docs/
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
