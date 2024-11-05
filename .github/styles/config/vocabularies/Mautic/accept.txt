@@ -65,6 +65,7 @@ Jitsi
 Jono
 Joomla
 Joomla!
+Knowledgebase
 Kubuntu
 Libre
 Licensor
@@ -125,6 +126,7 @@ Unpublish
 URL
 URLs
 UTM
+VSCode
 Vtiger
 Webmecanik
 www

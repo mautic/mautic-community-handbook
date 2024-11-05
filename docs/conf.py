@@ -66,4 +66,6 @@ locale_dirs = ['locale']
 # Please add links here that do not pass the "make checklinks" check.
 # A little context on the reason for ignoring is greatly appreciated!
 
-linkcheck_ignore = []
+linkcheck_ignore = [
+    # Anchors are picked up as broken
+    r"https://github.com/abiosoft/colima?tab=readme-ov-file#installation",]
