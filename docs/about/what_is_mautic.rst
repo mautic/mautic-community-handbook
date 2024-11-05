@@ -12,7 +12,7 @@ We come together to build, improve and share Mautic, united by our belief in emp
 
 Anybody can get involved - whether you want to organise a local meetup, contribute code, improve our documentation or translations, or help us tell others about Mautic.
 
-We are primarlily organized around the following channels: 
+We are primarilily organized around the following channels: 
 
 - :xref:`Mautic Community Forums`
 - :xref:`Mautic Community Slack`

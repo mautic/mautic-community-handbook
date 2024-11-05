@@ -30,6 +30,7 @@ The vision is that it grows over time as the teams and governance structure evol
 
    teams/legal_and_finance_team
    teams/education_team/education_team
+   teams/community_team/community_team
 
 .. toctree::
    :maxdepth: 2
