@@ -8,7 +8,7 @@ Purpose
 
 A primary goal of the Mautic community is to support you and your business in the development, use and implementation of Mautic. It’s to be inclusive and add value to the largest number of participants, with the most varied and diverse backgrounds possible. As such, we're committed to providing a friendly, safe and welcoming environment for all.
 
-This code of conduct outlines our expectations for all those who participate in our community, whether in-person or online, as well as the consequences for unacceptable behavior.
+This code of conduct outlines expectations for all community participants, whether in-person or online, as well as the consequences for unacceptable behavior.
 
 Your participation is contingent upon following these guidelines in all Mautic activities, including but not limited to:
 
@@ -21,8 +21,12 @@ Your participation is contingent upon following these guidelines in all Mautic a
 
 We invite all those who participate in Mautic activities online to help Mautic create safe and positive experiences for everyone, everywhere.
 
+.. vale on
+
 Open Source & Culture Citizenship
 *********************************
+
+.. vale off
 
 A supplemental goal of this Code of Conduct is to increase open source and culture citizenship by encouraging participants to recognize and strengthen the relationships between our actions and their effects on our community.
 
@@ -78,22 +82,30 @@ If a community member engages in unacceptable behavior, we may take any action d
 - Long-term absence from participation.
 - Being required to follow a conduct agreement that dictates the process of returning to the community.
 
+.. vale on
+
 Reporting Guidelines
 ********************
+
+.. vale off
 
 If you are subject to or witness unacceptable behavior, or have any other concerns, please notify Mautic as soon as possible by emailing info@mautic.org, or contacting a Mautic team member on the specific platform.
 
 Processes for dealing with breaches of the Code of Conduct can be found here[code-of-conduct-breaches].
 
-Addressing Grievances
+.. vale on
+
+Addressing grievances
 *********************
+
+.. vale off
 
 Only permanent resolutions (such as bans) may be appealed. To appeal a decision, contact the Mautic team at info@mautic.org with your appeal and the team reviews the situation.
 
 Scope
 *****
 
-We expect all community participants (contributors, moderators and other guests) to abide by this Code of Conduct in all community venues–online and in—person–as well as in all one-on-one communications pertaining to community affairs.
+All community participants, including contributors, moderators, and other guests, are expected to abide by this Code of Conduct in all community venues—online and in person—as well as in one-on-one interactions. communications pertaining to community affairs.
 
 While this code of conduct is specifically aimed at Mautic’s official resources and community, we recognize that it's possible for actions taken outside of Mautic’s official online or in person spaces to have a deep impact on community health.
 
