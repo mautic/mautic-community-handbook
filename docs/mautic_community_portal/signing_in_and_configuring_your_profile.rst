@@ -54,7 +54,7 @@ Claiming membership
 *******************
 Once logged in you have the option to claim a Mautic membership.
 
-There is a :xref:`membership-option` as a way to support the Mautic community while also being able to join in with governance processes like voting. You can become an individual member for $100 a year or a pro rated amount based on where you pay taxes, and you can become a corporate member. Read more about the membership program :xref:`membership-option<here>` and explore the perks of corporate membership in this :xref:`corporate-membership`.
+There is a :xref:`membership-option` as a way to support the Mautic community while also being able to join in with governance processes like voting. You can become an individual member for $100 a year or a pro rated amount based on where you pay taxes, and you can become a corporate member. Read more about the :xref:`membership-option` and explore the perks of corporate membership in this :xref:`corporate-membership`.
 
 If you are already a member of Mautic, you can select this option to match up your membership with your account on the community portal. This allows you to participate in votes, engage in the General Assembly, create proposals, and so forth.
 
