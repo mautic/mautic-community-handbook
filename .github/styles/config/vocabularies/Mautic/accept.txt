@@ -37,6 +37,7 @@ Dripflow
 Dynamic Web Content
 Etherpad
 FALSE
+Figma
 Focus Item
 Focus Items
 Froala
@@ -88,6 +89,7 @@ OAuth
 Packagist
 PATCH
 patch
+Payoneer
 PHP
 PHPUnit
 Pipedrive
