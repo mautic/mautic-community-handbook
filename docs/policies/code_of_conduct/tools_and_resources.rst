@@ -1,42 +1,48 @@
+.. vale off
+
 Use of Community Tools & Resources
 ##################################
 
 What is the purpose of this policy?
 ***********************************
 
+.. vale on
+
 Each contributor might receive access to one or more tools or resources managed by the Mautic Community to carry out their responsibilities. This policy aims to reduce the security and business risks and to let users know how they're permitted to use the tools and resources, and what happens if they're misused.
 
 Who does this policy apply to?
 ******************************
 
-This policy applies to all contributors. It applies no matter where the tool or resource use takes place. It applies to use of tools and resources (as defined below) on any device.
+This policy applies to all contributors. It applies no matter where the tool or resource use takes place. It applies to use of tools and resources as defined below on any device.
 
 Tools and resources
 *******************
 
-The Mautic Community uses different tools and software, including, but not limited to, desktop software, web-based software, web applications, cloud-based services like mail, storage platform, real time communication services (i.e GMail, G Suite, Slack, Jitsi etc.).
+The Mautic Community uses different tools and software, including, but not limited to, desktop software, web-based software, web applications, cloud-based services like mail, storage platform, real time communication services, i.e GMail, G Suite, Slack, Jitsi etc.
 
-The Mautic Community encourages its contributors to use provided tools whenever appropriate. For instance allowed usage includes: communicate with other contributors (i.e through email, instant messaging or video conferences), work/collaborate with other teams and stakeholders on project materials (i.e team documents, project documents, collaborated folders).
+The Mautic Community encourages its contributors to use provided tools whenever appropriate. For instance allowed usage includes: communicate with other contributors, i.e through email, instant messaging or video conferences, work/collaborate with other teams and stakeholders on project materials, i.e team documents, project documents, collaborated folders.
 
 Unauthorized use
 ****************
 
-Any of the project tools (that is email account, software license, chat system) shall not be used for personal reasons and for non-project related activities. This includes but is not limited to advertising products or services in email signatures, soliciting business, and conducting any business not directly relating to your role within the Mautic project. Any usage of the tools that is not related to the project may affect the services availability for the other project users and activities, so it shall be considered as disallowed and unauthorized.
+
+Contributors must not use project tools such as email accounts, software licenses, or chat systems for personal purposes or non-project-related activities. This includes but is not limited to advertising products or services in email signatures, soliciting business, and conducting any business not directly relating to your role within the Mautic project. Any usage of the tools that is not related to the project may affect the services availability for the other project users and activities, so it shall be considered as disallowed and unauthorized.
 
 Security
 ********
 
-Used inappropriately, tools (especially online) can be source of security problems for the Mautic Community. Users shall not:
+Used inappropriately, tools especially online can be source of security problems for the Mautic Community. Users shall not:
 
 - Open email/messaging attachments from unknown sources as they might contain a virus, trojan, spyware or any other kind of malware.
 - Disable security or malware prevention software or features, as they're essential to protect from security issues, threats, frauds.
 - Send and or disclose confidential data of the Mautic Community.
-- Access another user’s account (that is email account, service profile, messaging account, etc.).
+- Access another user’s account (i.e email account, service profile, messaging account, etc.).
 
 Inappropriate Contents/Usage
 ****************************
 
-Any of the tools and resources, including but not limited to communication systems (that is Email, Slack, Chat), must not be used to send or store inappropriate content or materials. It is important to understand that viewing, storing or distributing inappropriate content via the Mautic Community's tools is not acceptable under any circumstances.
+
+Contributors must not use any tools or resources, including communication systems such as Email, Slack, and Chat, to send or store inappropriate content or materials. It is important to understand that viewing, storing or distributing inappropriate content via the Mautic Community's tools is not acceptable under any circumstances.
 
 Users shall not:
 
@@ -60,12 +66,12 @@ Users should keep in mind that the copyright on letters, files and other documen
 Termination
 ***********
 
-Any access to the tools and resources (including email, chat and services accounts) shall be revoked or removed if the user is no longer an active contributor to the project or is subject to sanctions as a result of improper conduct.
+Any access to the tools and resources including email, chat and services accounts shall be revoked or removed if the user is no longer an active contributor to the project or is subject to sanctions as a result of improper conduct.
 
 Policy enforcement
 ******************
 
-The tools and resources support legitimate business use. The Mautic Community therefore reserves the right to investigate the usage of provided tools upon violation report or suspicious usage detection. The Community Manager and/or Project Lead will carry out any such investigation.
+The tools and resources support legitimate business use. The Mautic Community therefore reserves the right to investigate the usage of provided tools upon violation report or suspicious usage detection. The Community Manager and/or Project Lead carries out any such investigation.
 
 Any breaches of this policy might result in a disciplinary action, up to the deactivation of the user account in any of the tools and resources and removal from the Community.
 
