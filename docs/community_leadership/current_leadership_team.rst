@@ -24,11 +24,11 @@ The current leadership team and their terms are as follows:
      - ekke.guembel@mautic.org
      - 2020
      - 2023
-   * - Nico Grienauer
-     - Community Team Assistant Lead
-     - nico.grienauer@mautic.org
-     - 2020
-     - 2022
+   * - Joey Keller
+     - Product Team Lead
+     - joey.keller@mautic.org
+     - 2024
+     - 2027
    * - Favour Kelvin
      - Education Team Lead
      - favour.kelvin@mautic.org
@@ -44,31 +44,31 @@ The current leadership team and their terms are as follows:
      - ruth.cheesley@mautic.org
      - N/A
      - N/A
-   * - Oluwatobi Owolabi
-     - Marketing Team Lead
-     - oluwatobi.owolabi@mautic.org
-     - 2021
+   * - Rahul Shinde
+     - Assistant Team Lead, Product
+     - rahul.shinde@mautic.org
      - 2024
+     - 2027
    * - Sven Döring
      - Marketing Team Assistant Lead
      - sven.doering@mautic.org
      - 2023
      - 2025
-   * - Mattias Michaux
-     - Product Team Lead
-     - mattias.michaux@mautic.org
-     - 2023
-     - 2026
-   * - Joey Keller
-     - Product Team Assistant Lead (Product)
-     - joey.keller@mautic.org
-     - 2021
-     - 2023
+   * - Mike Van Hemelrijck
+     - Assistant Team Lead, Marketing
+     - mike.hemelrijck@mautic.org
+     - 2024
+     - 2027
    * - Norman Pracht
      - Product Team Assistant Lead (Development)
      - norman.pracht@mautic.org
      - 2023
      - 2025
+   * - Avinash Dalvi
+     - Assistant Team Lead, Community
+     - avinash.dalvi@mautic.org
+     - 2024
+     - 2027
 
 Honor roll
 ##########
