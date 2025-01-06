@@ -41,7 +41,7 @@ We rank the listings in the Partners Program by their activity over the previous
 How do I become a Mautic Community Partner?
 -------------------------------------------
 
-### Become a monthly sponsor
+### Become a Corporate Member of Mautic
 
 The first step is to start financially contributing to Mautic as a Corporate Member if you're not already. To do this you can sign up on the [Mautic Open Collective][open-collective]. Be sure to switch to your organization account before you proceed with payment, so that it's associated with your company.
 
