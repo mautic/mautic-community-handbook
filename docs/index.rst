@@ -60,3 +60,10 @@ The vision is that it grows over time as the teams and governance structure evol
    community_leadership/current_leadership_team
    community_leadership/leadership_role_definitions
    community_leadership/community_council
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Policies
+   :hidden:
+
+   policies/become_a_community_partner
