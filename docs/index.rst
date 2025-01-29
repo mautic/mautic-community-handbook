@@ -51,6 +51,7 @@ The vision is that it grows over time as the teams and governance structure evol
    resources/meetings/asynchronous_meetings
    resources/meetings/preparing_and_running_meetings
 
+
 .. toctree::
    :maxdepth: 2
    :caption: Community Leadership
@@ -60,3 +61,11 @@ The vision is that it grows over time as the teams and governance structure evol
    community_leadership/current_leadership_team
    community_leadership/leadership_role_definitions
    community_leadership/community_council
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Recognising contributors, sponsors and partners
+   :hidden:
+
+   policies/recognizing_contributors_sponsors_and_partners  
+
