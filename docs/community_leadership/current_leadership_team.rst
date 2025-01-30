@@ -115,16 +115,17 @@ These are individuals who have previously served on the Mautic Community Leaders
      - Community Team Assistant Lead
      - nico.grienauer@mautic.org
      - 2020
-     - 2022
+     - 2024
    * - Oluwatobi Owolabi
      - Marketing Team Lead
      - oluwatobi.owolabi@mautic.org
      - 2021
+     - 2024
    * - Mattias Michaux
      - Product Team Lead
      - mattias.michaux@mautic.org
      - 2023
-     - 2026
+     - 2024
    * - Joey Keller
      - Product Team Assistant Lead (Product)
      - joey.keller@mautic.org
