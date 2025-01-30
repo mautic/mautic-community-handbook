@@ -42,6 +42,6 @@ These are people who have served on the Mautic Community Leadership Team in the 
 | Dennis Ameling         | Product Team Assistant Lead                   | 2020                 | 2021              |
 | Leon Oltmanns         | Education Team Lead                   |  2020               |   2021            |
 | Radu Zlatianu         | Marketing Team Lead                   |  2020               |   2021            |
-| Nico Grienauer          | Community Team Assistant Lead         |  2020               |  2022             |
+| Nico Grienauer          | Community Team Assistant Lead         |  2020               |  2024             |
 | Oluwatobi Owolabi        | Marketing Team Lead                  |  2021               |   2024            |
 | Mattias Michaux         | Product Team Lead                    |  2023               |   2026            |
