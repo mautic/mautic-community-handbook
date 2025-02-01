@@ -3,9 +3,10 @@ Community Team
 
 Mission and expectations
 ************************
+   ::
 
-   We want more and more people to feel at home in the Mautic community.
-   And we want to inspire & enable them to contribute to our cause.
+      We want more and more people to feel at home in the Mautic community.
+      And we want to inspire & enable them to contribute to our cause.
 
 General Community Team tasks
 ****************************
@@ -31,8 +32,7 @@ General activities of the Community Team
 But also
 
 -  Understand community personas
--  Promote and help building a business on Mautic, and explain active
-   contribution as an important element of it
+-  Promote and help building a business on Mautic, and explain active contribution as an important element of it
 -  Find, grow and support ambassadors
 -  Connect & collaborate with other communities
 -  Support fundraising initiatives
@@ -40,8 +40,7 @@ But also
 Global Communities
 ==================
 
--  Make global community more accessible, give transparency on
-   tasks/actors/processes, and provide easy starting points
+-  Make global community more accessible, give transparency on tasks/actors/processes, and provide easy starting points
 -  Reach out to previously active contributors, try to reactivate them
    Including: WHAT is the message? WHAT are the channels?
 -  Reach out to existing passive community members, try to activate them
@@ -62,9 +61,8 @@ Profiles of contributors needed in the Community Team
 *****************************************************
 
 -  Everyone who is enthusiastic enough
--  As ambassadors: People in different countries who are already well-connected through other activities, and have a broad understanding of Mautic's facets (both from the user's and from the MarTech and even dev side, but no actual dev knowledge required)
--  Define what we call people who start or lead a community in a certain
-   country
+-  As ambassadors: People in different countries who are already well-connected through other activities, and have a broad understanding of Mautic's facets (both from the user's and from the MarTech and even developer side, but no actual developer knowledge required)
+-  Define what we call people who start or lead a community in a certain country
 
 Community Team definitions
 **************************
