@@ -1,16 +1,21 @@
-How to become a Mautic Community Partner
+.. vale off 
+
+How to become a mautic community partner
 ########################################
+
+.. vale on
 
 The Mautic Community Partners Program showcases organizations that are contributing to Mautic - both financially and practically - so that members of the community can find service providers who are :xref:`Makers rather than takers` to work with. These organizations represent the ideals of providing ongoing contributions that open source software rely upon.
 
 How do organizations become a partner?
---------------------------------------
+======================================
 
-There are two elements that we consider when reviewing an application to join the Partners Programme, both relate to whether the organization is supporting the community.
+There are two elements to consider when reviewing an application to join the Partners Programme, both relate to whether the organization is supporting the community.
 
-Financial Contribution
+Financial contribution
 ----------------------
-It is required that all Community Partners are financially supporting the growth of the Mautic community as a :xref:`Corporate Member of Mautic`. All memberships are paid annually and via our :xref:`Open Collective`. Prior to v2 of the Mautic governance model which came into effect on 12th December 2023, companies who sponsored Mautic at $100 per month or more were also eligible. Companies who were already sponsoring at this tier when the new governance model came into effect and continue to do so are 'grandfathered' in, providing that their sponsorship continues at this tier, for a period of 12 months. This gives them them until 12th December 2024 to transition to becoming a Corporate Member in order to maintain their status as a Mautic Partner.
+
+It's required that all Community Partners are financially supporting the growth of the Mautic community as a :xref:`Corporate Member of Mautic`. Members pay for all memberships annually, and via our :xref:`Open Collective`. Prior to v2 of the Mautic governance model which came into effect on ``12th December 2023``, companies who sponsored Mautic at $100 per month or more were also eligible. Companies who were already sponsoring at this tier when the new governance model came into effect and continue to do so are 'grandfathered' in, providing that their sponsorship continues at this tier, for a period of 12 months. This gives them until ``12th December 2024`` to transition to becoming a Corporate Member in order to maintain their status as a Mautic Partner.
 
 Practical Contribution
 ----------------------
@@ -24,7 +29,11 @@ Organizations who are not able to demonstrate a consistent contribution history 
 
 Ranking of organization
 -----------------------
+.. vale off 
+
 We rank the listings in the Partners Program by their activity over the previous month, with the top three partners listed on the homepage of mautic.org with links to their Partner page.
+
+.. vale on 
 
 How do I become a Mautic Community Partner?
 -------------------------------------------
@@ -39,11 +48,15 @@ Become a consistent contributor
 
 Once you have started contributing financially, take a look at where you are currently contributing to Mautic.
 
-We need every kind of skill from development to marketers, documentation writers, project managers, technical writers, designers - basically you bring the skills and we will find a place to put them to great use!
+.. vale off 
+
+We need every kind of skill from development to marketers, documentation writers, project managers, technical writers, designers - basically you bring the skills and we will find a place to put them to great use.
+
+.. vale on
 
 After you have been actively contributing in both financial and practical terms to Mautic for at least 3 months as an organization, please fill out :xref:`this form`.
 
-Be sure to include the name of your team members as this is how we will check on the contribution history!
+Be sure to include the name of your team members as this is how we will check on the contribution history.
 
 We will review the application and get back to you as soon as we can.
 
