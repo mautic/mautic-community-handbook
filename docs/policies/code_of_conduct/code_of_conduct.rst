@@ -27,14 +27,18 @@ Your participation is contingent upon following these guidelines in all Mautic a
 
 .. vale on
 
-All participants in Mautic online activities are encouraged to help create safe and positive experiences for everyone, everywhere.
+Mautic encourages all participants in online activities to help create safe and positive experiences for everyone, everywhere.
 
 Open source & culture citizenship
 *********************************
 
 A supplemental goal of this Code of Conduct is to increase open source and culture citizenship by encouraging participants to recognize and strengthen the relationships between the actions and their effects on the community.
 
+.. vale off
+
 Communities mirror the societies in which they exist and positive action is essential to counteract the many forms of inequality and abuses of power that exist in society.
+
+.. vale on
 
 If you see someone who is making an extra effort to ensure the community is welcoming, friendly, and encourages all participants to contribute to the fullest extent, please recognize their efforts.
 
@@ -50,7 +54,7 @@ This community is committed to providing a friendly, safe and welcoming environm
 Expected behavior
 *****************
 
-The following behaviors are expected and requested of all community members:
+The community expects all members to engage in the following behaviors:
 
 - Participate in an authentic and active way. In doing so, you contribute to the health and longevity of this community.
 - Exercise consideration and respect in your speech and actions.
@@ -63,11 +67,11 @@ Alert Mautic team members if you notice a dangerous situation, someone in distre
 Unacceptable behavior
 *********************
 
-The following behaviors are considered harassment and are unacceptable within the community:
+The community doesn't tolerate the following harassing behaviors:
 
 .. vale off
 
-- **Violence and Threats of Violence** are not acceptable - online or offline. This includes incitement of violence toward any individual, including encouraging a person to commit self-harm. This also includes posting or threatening to post other people’s personally identifying information (“doxing”) online.
+- **Violence and Threats of Violence** aren't acceptable - online or offline. This includes incitement of violence toward any individual, including encouraging a person to commit self-harm. This also includes posting or threatening to post other people’s personally identifying information (“doxing”) online.
 - **Public or private harassment** is never acceptable in any form.
 - **Personal Attacks** Conflicts inevitably arise, but frustration should never turn into a personal attack. It's not okay to insult, demean or belittle others. Attacking someone for their opinions, beliefs and ideas isn't acceptable. It's important to speak directly when disagreements arise or improvements are needed, but discussions must remain respectful, professional, and focused on the issue at hand.
 - **Derogatory Language** Hurtful or harmful language is never acceptable in any context related to: background, family status, gender, gender identity or expression, marital status, sex, sexual orientation, personal appearance, body size, native language, age, ability, neurodiversity, mental health, race and/or ethnicity, national origin, citizenship and immigration status, socioeconomic status, religion, geographic location.
@@ -84,16 +88,15 @@ Consequences of unacceptable behavior
 
 Unacceptable behavior from any community member, including sponsors and those with decision-making authority, isn't tolerated.
 
-Anyone asked to stop unacceptable behavior is expected to comply immediately.
+Anyone asked to stop unacceptable behavior must comply immediately.
 
-If a community member engages in unacceptable behavior, any appropriate action may be taken, including a temporary ban or permanent expulsion from the community without warning. Examples of sanctions which may be applied include but isn't limited to:
+If a community member engages in unacceptable behavior, the community may take any appropriate action, including issuing a temporary ban or permanently expelling the individual without warning. Examples of possible sanctions include but aren't limited to:
 
 - Verbal warnings.
 - Written warnings.
 - Temporary absence from participation.
 - Long-term absence from participation.
-- Being required to follow a conduct agreement that dictates the process of returning to the community.
-
+- Following a conduct agreement that outlines the process for returning to the community.
 
 Reporting guidelines
 ********************
@@ -104,8 +107,7 @@ If you are subject to or witness unacceptable behavior, or have any other concer
 
 .. vale on
 
-Processes for dealing with breaches of the Code of Conduct can be found here[code-of-conduct-breaches].
-
+Find the processes for handling Code of Conduct breaches here: [code-of-conduct-breaches].
 
 Addressing grievances
 *********************
@@ -119,7 +121,7 @@ Only permanent resolutions (such as bans) may be appealed. To appeal a decision,
 Scope
 *****
 
-All community participants, including contributors, moderators, and other guests, are expected to abide by this Code of Conduct in all community venues—online and in person—as well as in one-on-one interactions. communications pertaining to community affairs.
+All community participants, including contributors, moderators, and guests, must abide by this Code of Conduct in all community venues—online and in person—as well as in one-on-one interactions and communications related to community affairs.
 
 While this code of conduct is specifically aimed at Mautic’s official resources and community, actions taken outside of Mautic’s official online or in-person spaces can have a significant impact on community health.
 
@@ -151,4 +153,3 @@ Reviewed and updated using the :xref:`Mozilla Code of Conduct Assessment Tool`.
 .. note:: 
 
      Code of Conduct is subject to change without notice.
-
