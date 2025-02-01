@@ -1,4 +1,4 @@
-Code of Conduct
+Code of conduct
 ###############
 
 .. vale off
@@ -16,6 +16,8 @@ This code of conduct outlines expectations for all community participants, wheth
 
 Your participation is contingent upon following these guidelines in all Mautic activities, including but not limited to:
 
+.. vale off 
+
 - Using Mautic community resources.
 - Working with other Mauticians and other Mautic community participants whether virtually or co-located.
 - Representing Mautic at public events.
@@ -23,7 +25,9 @@ Your participation is contingent upon following these guidelines in all Mautic a
 - Participating in Mautic sprints and training events.
 - Participating in Mautic-related forums, mailing lists, wikis, websites, chat channels, bugs, group or person-to-person meetings, and Mautic-related correspondence.
 
-We invite all those who participate in Mautic activities online to help Mautic create safe and positive experiences for everyone, everywhere.
+.. vale on
+
+All participants in Mautic online activities are encouraged to help create safe and positive experiences for everyone, everywhere.
 
 Open source & culture citizenship
 *********************************
@@ -37,7 +41,7 @@ If you see someone who is making an extra effort to ensure our community is welc
 Welcoming to all
 ****************
 
-We are committed to providing a friendly, safe and welcoming environment for all, regardless of level of experience or job role, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, religion, national origin, citizenship and immigration status, neurodiversity, mental health or socio-economic status.
+This community is committed to providing a friendly, safe and welcoming environment for all individuals, regardless of experience level, job role, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, religion, national origin, citizenship and immigration status, neurodiversity, mental health, or socio-economic status.
 
 Expected behavior
 *****************
@@ -55,11 +59,11 @@ Alert Mautic team members if you notice a dangerous situation, someone in distre
 Unacceptable behavior
 *********************
 
-The following behaviors are considered harassment and are unacceptable within our community:
+The following behaviors are considered harassment and are unacceptable within the community:
 
 - **Violence and Threats of Violence** are not acceptable - online or offline. This includes incitement of violence toward any individual, including encouraging a person to commit self-harm. This also includes posting or threatening to post other people’s personally identifying information (“doxing”) online.
 - **Public or private harassment** is never acceptable in any form.
-- **Personal Attacks** Conflicts inevitably arise, but frustration should never turn into a personal attack. It's not okay to insult, demean or belittle others. Attacking someone for their opinions, beliefs and ideas isn't acceptable. It's important to speak directly when we disagree and when we think we need to improve, but such discussions must be conducted respectfully and professionally, remaining focused on the issue at hand.
+- **Personal Attacks** Conflicts inevitably arise, but frustration should never turn into a personal attack. It's not okay to insult, demean or belittle others. Attacking someone for their opinions, beliefs and ideas isn't acceptable. It's important to speak directly when disagreements arise or improvements are needed, but discussions must remain respectful, professional, and focused on the issue at hand.
 - **Derogatory Language** Hurtful or harmful language is never acceptable in any context related to: background, family status, gender, gender identity or expression, marital status, sex, sexual orientation, personal appearance, body size, native language, age, ability, neurodiversity, mental health, race and/or ethnicity, national origin, citizenship and immigration status, socioeconomic status, religion, geographic location.
 - **Unwelcome Sexual Attention or Physical Contact** Unwelcome sexual attention or unwelcome physical contact isn't acceptable. This includes sexualized comments, jokes or imagery in interactions, communications or presentation materials, as well as inappropriate touching, groping, or sexual advances. This includes touching a person without permission, including sensitive areas such as their hair, pregnant stomach, mobility device (wheelchair, scooter, etc) or tattoos. This also includes physically blocking or intimidating another person. Physical contact or simulated physical contact (such as emojis like “kiss”) without affirmative consent isn't acceptable. This includes sharing or distribution of sexualized images or text.
 - **Disruptive Behavior** Sustained disruption of events, forums, or meetings, including talks and presentations, isn't tolerated. This includes spamming community discussions with the solicitation of unwanted products or services.
@@ -74,7 +78,7 @@ Unacceptable behavior from any community member, including sponsors and those wi
 
 Anyone asked to stop unacceptable behavior is expected to comply immediately.
 
-If a community member engages in unacceptable behavior, we may take any action deemed appropriate, up to and including a temporary ban or permanent expulsion from the community without warning. Examples of sanctions which may be applied include but isn't limited to:
+If a community member engages in unacceptable behavior, any appropriate action may be taken, including a temporary ban or permanent expulsion from the community without warning. Examples of sanctions which may be applied include but isn't limited to:
 
 - Verbal warnings.
 - Written warnings.
@@ -109,7 +113,7 @@ Scope
 
 All community participants, including contributors, moderators, and other guests, are expected to abide by this Code of Conduct in all community venues—online and in person—as well as in one-on-one interactions. communications pertaining to community affairs.
 
-While this code of conduct is specifically aimed at Mautic’s official resources and community, we recognize that it's possible for actions taken outside of Mautic’s official online or in person spaces to have a deep impact on community health.
+While this code of conduct is specifically aimed at Mautic’s official resources and community, actions taken outside of Mautic’s official online or in-person spaces can have a significant impact on community health.
 
 Resources or incidents which break this code of conduct for any reason in a non-Mautic community location is considered in the same way as resources or incidents from owned channels, and subject to the same sanctions.
 
