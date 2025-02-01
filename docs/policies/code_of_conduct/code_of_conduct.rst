@@ -10,7 +10,7 @@ The primary source of the Code of Conduct is at :xref:`mautic.org` - it's reprod
 Purpose
 *******
 
-A primary goal of the Mautic community is to support you and your business in the development, use and implementation of Mautic. It’s to be inclusive and add value to the largest number of participants, with the most varied and diverse backgrounds possible. As such, we're committed to providing a friendly, safe, and welcoming environment for all.
+A primary goal of the Mautic community is to support you and your business in the development, use and implementation of Mautic. It’s to be inclusive and add value to the largest number of participants, with the most varied and diverse backgrounds possible. This commitment extends to fostering a friendly, safe, and welcoming environment for all.
 
 This code of conduct outlines expectations for all community participants, whether in-person or online, as well as the consequences for unacceptable behavior.
 
@@ -32,16 +32,20 @@ All participants in Mautic online activities are encouraged to help create safe 
 Open source & culture citizenship
 *********************************
 
-A supplemental goal of this Code of Conduct is to increase open source and culture citizenship by encouraging participants to recognize and strengthen the relationships between our actions and their effects on our community.
+A supplemental goal of this Code of Conduct is to increase open source and culture citizenship by encouraging participants to recognize and strengthen the relationships between the actions and their effects on the community.
 
 Communities mirror the societies in which they exist and positive action is essential to counteract the many forms of inequality and abuses of power that exist in society.
 
-If you see someone who is making an extra effort to ensure our community is welcoming, friendly, and encourages all participants to contribute to the fullest extent, please recognize their efforts.
+If you see someone who is making an extra effort to ensure the community is welcoming, friendly, and encourages all participants to contribute to the fullest extent, please recognize their efforts.
 
 Welcoming to all
 ****************
 
+.. vale off
+
 This community is committed to providing a friendly, safe and welcoming environment for all individuals, regardless of experience level, job role, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, religion, national origin, citizenship and immigration status, neurodiversity, mental health, or socio-economic status.
+
+.. vale on
 
 Expected behavior
 *****************
@@ -61,6 +65,8 @@ Unacceptable behavior
 
 The following behaviors are considered harassment and are unacceptable within the community:
 
+.. vale off
+
 - **Violence and Threats of Violence** are not acceptable - online or offline. This includes incitement of violence toward any individual, including encouraging a person to commit self-harm. This also includes posting or threatening to post other people’s personally identifying information (“doxing”) online.
 - **Public or private harassment** is never acceptable in any form.
 - **Personal Attacks** Conflicts inevitably arise, but frustration should never turn into a personal attack. It's not okay to insult, demean or belittle others. Attacking someone for their opinions, beliefs and ideas isn't acceptable. It's important to speak directly when disagreements arise or improvements are needed, but discussions must remain respectful, professional, and focused on the issue at hand.
@@ -70,6 +76,8 @@ The following behaviors are considered harassment and are unacceptable within th
 - **Influencing Disruptive Behavior** Influencing or leading such activities is treated the same way as the activities themselves, and thus the same consequences apply.
 - **Corporate Promotions** Sharing of demo/trial/landing page links and other corporate promotions are never permitted unless explicitly requested by a community member. The only exceptions are that the moderated Commercial forum category may be used to promote opportunities which may be relevant for members of the community (for example job opportunities, freelance gigs) and Mautic Community Partners may promote their products and services on their partners page.
 - **Scraping contacts** by name or any other personally identifiable information for unsolicited communication is never acceptable in any form.
+
+.. vale on
 
 Consequences of unacceptable behavior
 *************************************
@@ -115,7 +123,11 @@ All community participants, including contributors, moderators, and other guests
 
 While this code of conduct is specifically aimed at Mautic’s official resources and community, actions taken outside of Mautic’s official online or in-person spaces can have a significant impact on community health.
 
+.. vale off
+
 Resources or incidents which break this code of conduct for any reason in a non-Mautic community location is considered in the same way as resources or incidents from owned channels, and subject to the same sanctions.
+
+.. vale on
 
 Contact info
 ************
