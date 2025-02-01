@@ -32,6 +32,7 @@ CTRL
 Custom Fields
 DDEV
 Do Not Contact
+doxing
 DNC
 Dripflow
 Dynamic Web Content
@@ -81,6 +82,7 @@ Multiselect
 multiselect
 MVP
 mysqldump
+neurodiversity
 namespace
 Namespace
 noindex
@@ -100,6 +102,7 @@ Rebase
 rebase
 Remarketing
 Salesforce
+Stumptown
 SAML
 Schimpf
 SCP
