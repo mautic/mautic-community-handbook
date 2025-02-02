@@ -1,16 +1,16 @@
-Guidance for establishing official Mautic Meetups, Groups & Events
+Guidance for establishing official Mautic meetups, groups & events
 ##################################################################
 
-The Community Team agreed on 12th December 2019 the following guidelines
+The Community Team agreed on 12/12/2019 the following guidelines
 for establishing official Mautic groups within the Community.
 
-All meetups, groups and events agree to abide by the Mautic :xref:`CoC` at all times.
+All meetups, groups, and events agree to abide by the Mautic :xref:`CoC` at all times.
 
-Mautic Meetups
+Mautic meetups
 **************
 
-These are the traditional kind of in-person meetups which are based in a
-region or a town. They are **not** to be created on a country-wide
+These are the traditional kind of in-person meetups, based in a
+region or a town. They're **not** created on a country-wide
 basis.
 
 General guidelines for official Mautic Meetups
@@ -23,7 +23,7 @@ General guidelines for official Mautic Meetups
 5. Meetup groups allow events to be organized by any reliable/trusted member of the community.
 6. Meetups are welcoming places where everyone works to foster an accepting environment which is free of discrimination, incitement to violence, promotion of hate, and general jerk-like behavior.
 
-Official groups will have a Meetup group created on the :xref:`Community Portal` and a category created in :xref:`Meetups Forum Category` on the forums once the following criteria are met: 
+Official groups have a Meetup group created on the :xref:`Community Portal` and a category created in :xref:`Meetups Forum Category` on the forums once the following criteria are met: 
 
 1. A thread on the Mautic Community Forums in the :xref:`International Forums` category indicating at least two people interested in joining the meetup
 2. A clear region or town for the meetup to be based in, not covered by an existing meetup

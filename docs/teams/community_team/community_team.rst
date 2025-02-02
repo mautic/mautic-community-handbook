@@ -73,7 +73,7 @@ Everyone who
 
 -  Contributed code or content to Mautic
 -  Visited a website to ask for Mautic support
--  Is interested in Mautic, even without ever contributing!
+-  Is interested in Mautic, even without ever contributing
 
 What is contribution?
 
@@ -81,4 +81,4 @@ What is contribution?
 -  This includes mentions like “It doesn't work on my server” which too is a valuable contribution - the underlying message being for example “improve documentation”.
 -  Even failed contributions are essential, because of how much we can learn when we fail. Contribution from newcomers is especially valuable, because they see the project with fresh eyes.
 
-**Would you like to be involved in this team? Join :xref:`Community Team Slack` on Slack!**
+**Would you like to be involved in this team? Join :xref:`Community Team Slack` on Slack**
