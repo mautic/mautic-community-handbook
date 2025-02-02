@@ -23,22 +23,15 @@ jobs:
       run: pip3 install -r docs/requirements.txt
 
     - name: Reviewdog
-      on: [pull_request]
-        jobs:
-          reviewdog:
-            name: reviewdog
-            runs-on: ubuntu-latest
-            steps:
-              # ...
-              - uses: reviewdog/action-setup@v1
-                with:
-                  reviewdog_version: latest # Optional. [latest,nightly,v.X.Y.Z]
-              - name: Run reviewdog
-                env:
-                  REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                run: |
-                 reviewdog -f=golint -diff="git diff FETCH_HEAD" -reporter=github-pr-check -runners=golint,govet
-
+      uses: reviewdog/action-setup@v1
+      with:
+        reviewdog_version: latest # Optional. [latest,nightly,v.X.Y.Z]
+    - name: Run reviewdog
+      env:
+        REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        reviewdog -reporter=github-pr-check -runners=golint,govet
+        
   build:
     runs-on: ubuntu-latest
     steps:
