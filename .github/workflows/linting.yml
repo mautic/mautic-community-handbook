@@ -1,12 +1,3 @@
-The workflow is currently configured to check the entire `docs` folder, which can be time-consuming and unnecessary when only a few files are modified in a pull request. Instead, you can modify the workflow to check only the files changed in the PR. Here's how to fix it:
-
-1. **Use `paths` filter**: This will limit the workflow to run only when files in specific paths are changed.
-2. **Use environment variables**: Set up environment variables to capture the changed files.
-3. **Modify the Vale step**: Adjust the Vale step to process only the changed files.
-
-Here is the updated workflow with the necessary changes:
-
-```yaml
 name: Linting
 on:
   pull_request:
@@ -68,8 +59,3 @@ jobs:
     - name: Check links
       working-directory: docs
       run: make checklinks
-```
-
-This updates the workflow to:
-- Run only when files in the `docs` directory are changed.
-- Capture the changed files and pass them to the Vale action, ensuring only those files are checked.
