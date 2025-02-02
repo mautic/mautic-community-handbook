@@ -1,10 +1,9 @@
-Mautic Community Handbook
+Mautic Community handbook
 #########################
 
 This handbook is a central point of call for understanding the management and organization of the Mautic community.
 
-The vision is that it grows over time as the teams and governance structure evolves, with team members adding useful resources and updating processes incrementally.
-
+The vision is that it grows over time as the teams and governance structure evolves, with team members adding useful resources and updating processes incrementally. Please feel free to make a PR to add or update content, which will be reviewed by the Community and Education teams.
 .. note::
 
    This project is under active development as the handbook is re-platformed from the old system.
