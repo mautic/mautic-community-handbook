@@ -5,4 +5,4 @@ This handbook is a central point of call for how the Mautic community is organis
 
 The vision is that it will grow over time as the teams and governance structure evolves, with team members adding useful resources and updating processes as they mature and are refined.
 
-If you'd like to contribute, please make a pull request!
+If you would like to contribute, please make a pull request!
