@@ -1,7 +1,7 @@
 Guidance for establishing official Mautic meetups, groups & events
 ##################################################################
 
-The Community Team agreed on 12/12/2019 the following guidelines
+The Community Team agreed on December 12, 2019 the following guidelines
 for establishing official Mautic groups within the Community.
 
 All meetups, groups, and events agree to abide by the Mautic :xref:`CoC` at all times.
@@ -28,9 +28,9 @@ Official groups have a Meetup group created on the :xref:`Community Portal` and 
 1. A thread on the Mautic Community Forums in the :xref:`International Forums` category indicating at least two people interested in joining the meetup
 2. A clear region or town for the meetup to be based in, not covered by an existing meetup
 3. Two group organisers identified from within the Mautic community, preferably not from the same company
-4. A location confirmed for meeting which is an office or community space (i.e. not a bar/pub)
+4. A location confirmed for meeting which is an office or community space (not a bar/pub)
 5. A date for the launch event (ideally at least four weeks ahead to give time for organising, promoting and getting people to attend)
-6. A proposed time and day each month (e.g. from 6pm on the first Friday of each month) for regular events
+6. A proposed time and day each month (for example from 6 PM on the first Friday of each month) for regular events
 
 These events (commonly referred to as “meetups”, which can be confusing since people often use the same word to describe the group itself) might take many formats:
 

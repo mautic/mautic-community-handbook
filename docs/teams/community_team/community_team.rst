@@ -37,12 +37,12 @@ But also
 -  Connect & collaborate with other communities
 -  Support fundraising initiatives
 
-Global Communities
+Global communities
 ==================
 
 -  Make global community more accessible, give transparency on tasks/actors/processes, and provide easy starting points
 -  Reach out to previously active contributors, try to reactivate them
-   Including: WHAT is the message? WHAT are the channels?
+   Including: what is the message? What are the channels?
 -  Reach out to existing passive community members, try to activate them
 -  Organize global events
 -  Develop an easy path from local community to global contribution
