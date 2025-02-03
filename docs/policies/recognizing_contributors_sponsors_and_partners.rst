@@ -1,24 +1,28 @@
-Recognizing contribuors, sponsors and partners
-##############################################
+Recognizing contributors, sponsors and partners
+###############################################
 
 Background Information 
-----------------------
+======================
+
+.. vale off
 
 The Mautic Community wishes to encourage initiative/team/working group teams to acknowledge and thank their sponsors and contributors,
 but without the \*.mautic.org web properties or the Mautic application 
 becoming overly cluttered with advertising or promotional messages.
 
-Additionally, we want to ensure that companies do not ‘game’ the system 
-by providing minimal contributions in order to be recognized (e.g. with logo placement/links).
+Additionally, the community ensures that companies don't ‘game’ the system 
+by providing minimal contributions to be recognized (e.g. with logo placement/links).
+
+.. vale on
 
 Recognizing that the community norms around such messages are continually 
-changing and that it is probably impossible to codify a process precisely, 
+changing and that it's probably impossible to codify a process precisely, 
 the recommendation is that we establish a policy framework for the Community 
 Leadership Team to use when evaluating each situation, and leave the final 
 decisions in the case of any disputes to the Community Council. 
 
 Definitions
---------------- 
+-----------
 
 **Contributor**: there are many way to contribute to Mautic projects ranging from 
 committing code to writing good bug reports to helping with documentation to 
@@ -30,10 +34,9 @@ contributors if they provide good, detailed, and timely feedback about requireme
 
 **Organization Contributor**: an organisation that employs a one or more people who are contributors.
 
-**Significant Contribution**: a significant contribution is defined by its significance to 
-the outcome of the project, not by the size of the contribution. Typically larger 
+**Significant Contribution**: a significant contribution directly impacts the outcome of the project, not just its size.. Typically larger 
 contributions are more significant, but that does not preclude an extremely valuable
-two line fix to a critical, but difficult to find, bug from being "significant". Nor does it preclude a giant code dump of rarely used code from being "not significant". 
+two line fix to a critical, but difficult to find, bug from being "significant." Nor does it preclude a giant code dump of rarely used code from being "not significant". 
 As a general rule of thumb, somewhere between 25% and 50% of the contributions to a project are significant.
 
 **Current Contribution**: a current contribution is one that is included in the current major release 
@@ -44,14 +47,14 @@ cycle, e.g., if the project is working on release 4.0, then a current contributi
 **Web resources**: Including but not limited to Confluence spaces, 
 mautic.org pages, community handbook pages.
 
-**Sponsor**: An organization or individual who are financially supporting 
+**Sponsor**: an organization or individual who are financially supporting 
 the Mautic Community on a regular basis, listed at :xref:`Mautic.org/sponsors`
 
-**Partner**: An organization who are financially and practically supporting the Mautic Community on a regular basis, and have met 
+**Partner**: an organization who are financially and practically supporting the Mautic Community on a regular basis, and have met 
 the criteria to become a Mautic Community Partner, listed at :xref:`Mautic Community Partners` 
 
 Policy on promotion of contributors
-###################################
+===================================
 
 The Mautic policy on recognizing contributions on mautic.org, in the Mautic application and in releases is as follows:
 
@@ -107,13 +110,3 @@ This policy is based on those used by several other Open Source communities incl
 Eclipse: https://www.eclipse.org/org/documents/Recognizing_Project_Contributions_Policy_2008.pdf
 
 KDE: https://ev.kde.org/rules/thankyou_policy/ 
-
-
-
-
-
-
-
-
-
-
