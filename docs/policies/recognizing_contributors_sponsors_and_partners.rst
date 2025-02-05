@@ -13,7 +13,7 @@ becoming overly cluttered with advertising or promotional messages.
 Additionally, the community ensures that companies don't ‘game’ the system 
 by providing minimal contributions to be recognized (e.g. with logo placement/links).
 
-.. vale on
+.. vale off
 
 Recognizing that the community norms around such messages are continually 
 changing and that it's probably impossible to codify a process precisely, 
@@ -24,6 +24,7 @@ decisions in the case of any disputes to the Community Council.
 Definitions
 -----------
 
+vale off
 **Contributor**: there are many way to contribute to Mautic projects ranging from 
 committing code to writing good bug reports to helping with documentation to 
 doing community outreach to funding developers to work on the project. Even 
@@ -39,13 +40,13 @@ contributions are more significant, but that doesn't preclude an extremely valua
 A two-line fix to a critical but difficult-to-find bug from being "significant." Nor does it preclude a giant code dump of rarely used code from being "not significant."
 As a general rule of thumb, somewhere between 25% and 50% of the contributions to a project are significant.
 
-**Current Contribution**: a current contribution is one that is included in the current major release 
-cycle, e.g., if the project is working on release 4.0, then a current contribution is a contribution whose code or effect is still significant in the 4.0 code base. The currency of a contribution fades with time, even if that contribution is still part of the code base. For example, bug fixes to release 1.0 are probably no longer "current" when the current major release is 4.0.
+**Current Contribution**: a current contribution refers to one included in the latest major release.
+cycle, for example, if the project is working on release 4.0, then a current contribution is a contribution whose code or effect is still significant in the 4.0 code base. The currency of a contribution fades with time, even if that contribution is still part of the code base. For example, bug fixes to release 1.0 are probably no longer "current" when the current major release is 4.0.
 
-**Current Significant Contributor**: a Contributor who has made one ormore Significant Contributions that are also Current Contributions.
-
+**Current Significant Contributor**: a Contributor who has made one or more Significant Contributions that are also Current Contributions.
+vale off
 **Web resources**: including but not limited to Confluence spaces, 
-mautic.org pages, community handbook pages.
+:xref:`mautic.org` pages, community handbook pages.
 
 **Sponsor**: an organization or individual who are financially supporting 
 the Mautic Community on a regular basis, listed at :xref:`Mautic.org/sponsors`
@@ -56,7 +57,7 @@ the criteria to become a Mautic Community Partner, listed at :xref:`Mautic Commu
 Policy on promotion of contributors
 ===================================
 
-The Mautic policy on recognizing contributions on mautic.org, in the Mautic application and in releases is as follows:
+The Mautic policy on recognizing contributions on :xref:`mautic.org`, in the Mautic application and in releases is as follows:
 
 1. Contributions to Mautic will not have the contributor/s visibly identifiable in the application or the code - for example any themes which are contributed will have the author marked as ‘Mautic Team’ rather than an individual or organisation contributor.
  
