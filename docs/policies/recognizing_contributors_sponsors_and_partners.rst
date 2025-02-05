@@ -76,7 +76,7 @@ The Mautic policy on recognizing contributions on mautic.org, in the Mautic appl
 
 9. Persons or companies who believe they are being unfairly precluded from being identified as a current significant contributor can contact the Project Lead to discuss and, where appropriate, resolve the issue.
 
-10. Individuals or companies so recognized may promote that fact, publish that they have been recognized, and link to the recognition. Such an individual or company may not, however, imply any endorsement of their product(s) or service(s) by Mautic or others based on such recognition.
+10. Individuals or companies so recognized may promote that fact, publish that they have been recognized, and link to the recognition. Such an individual or company may not, however, imply any endorsement of their products or services by Mautic or others based on such recognition.
 
 11. The Project Lead and Community Council reserve the right to remove any recognition at any time at their discretion.
 
