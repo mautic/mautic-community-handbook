@@ -44,7 +44,7 @@ cycle, e.g., if the project is working on release 4.0, then a current contributi
 
 **Current Significant Contributor**: a Contributor who has made one ormore Significant Contributions that are also Current Contributions.
 
-**Web resources**: Including but not limited to Confluence spaces, 
+**Web resources**: including but not limited to Confluence spaces, 
 mautic.org pages, community handbook pages.
 
 **Sponsor**: an organization or individual who are financially supporting 
