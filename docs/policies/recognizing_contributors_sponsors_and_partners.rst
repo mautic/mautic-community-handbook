@@ -1,7 +1,7 @@
 Recognizing contributors, sponsors and partners
 ###############################################
 
-Background Information 
+Background information 
 ======================
 
 .. vale off
