@@ -35,7 +35,7 @@ contributors if they provide good, detailed, and timely feedback about requireme
 **Organization Contributor**: an organisation that employs a one or more people who are contributors.
 
 **Significant Contribution**: a significant contribution directly impacts the outcome of the project, not just its size.. Typically larger 
-contributions are more significant, but that does not preclude an extremely valuable
+contributions are more significant, but that doesn't preclude an extremely valuable
 two line fix to a critical, but difficult to find, bug from being "significant." Nor does it preclude a giant code dump of rarely used code from being "not significant". 
 As a general rule of thumb, somewhere between 25% and 50% of the contributions to a project are significant.
 
