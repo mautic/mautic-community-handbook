@@ -24,7 +24,8 @@ decisions in the case of any disputes to the Community Council.
 Definitions
 -----------
 
-vale off
+.. vale off
+
 **Contributor**: there are many way to contribute to Mautic projects ranging from 
 committing code to writing good bug reports to helping with documentation to 
 doing community outreach to funding developers to work on the project. Even 
@@ -35,8 +36,7 @@ contributors if they provide good, detailed, and timely feedback about requireme
 
 **Organization Contributor**: an organisation that employs a one or more people who are contributors.
 
-**Significant Contribution**: a significant contribution directly impacts the outcome of the project, not just its size.. Typically larger 
-contributions are more significant, but that doesn't preclude an extremely valuable
+**Significant Contribution**: a significant contribution directly impacts the outcome of the project, not just its size.Typically larger contributions are more significant, but that does not preclude an extremely valuable two line fix to a critical, but difficult to find, bug from being "significant". Nor does it preclude a giant code dump of rarely used code from being "not significant". As a general rule of thumb, somewhere between 25% and 50% of the contributions to a project are significant.
 A two-line fix to a critical but difficult-to-find bug from being "significant." Nor does it preclude a giant code dump of rarely used code from being "not significant."
 As a general rule of thumb, somewhere between 25% and 50% of the contributions to a project are significant.
 
@@ -44,12 +44,14 @@ As a general rule of thumb, somewhere between 25% and 50% of the contributions t
 cycle, for example, if the project is working on release 4.0, then a current contribution is a contribution whose code or effect is still significant in the 4.0 code base. The currency of a contribution fades with time, even if that contribution is still part of the code base. For example, bug fixes to release 1.0 are probably no longer "current" when the current major release is 4.0.
 
 **Current Significant Contributor**: a Contributor who has made one or more Significant Contributions that are also Current Contributions.
-vale off
+
+.. vale off
+
 **Web resources**: including but not limited to Confluence spaces, 
 :xref:`mautic.org` pages, community handbook pages.
 
 **Sponsor**: an organization or individual who are financially supporting 
-the Mautic Community on a regular basis, listed at :xref:`Mautic.org/sponsors`
+the Mautic Community on a regular basis, listed at :xref:`the Mautic Sponsor page`
 
 **Partner**: an organization who are financially and practically supporting the Mautic Community on a regular basis, and have met 
 the criteria to become a Mautic Community Partner, listed at :xref:`Mautic Community Partners` 
@@ -86,11 +88,11 @@ Policy on promotion of sponsors and partners
 
 The Mautic policy on recognizing sponsors and partners on mautic.org, in the Mautic application and in releases is as follows:
 
-1. Sponsors who are contributing over $100/mth will have a logo and link listed on :xref:`Mautic.org/sponsors` for the duration of their active sponsorship.
+1. Sponsors who are contributing over $100/mth will have a logo and link listed on :xref:`the Mautic Sponsor page` for the duration of their active sponsorship.
 
-2. Sponsors who are contributing under $100/mth will have their name or organization name listed on :xref:`Mautic.org/sponsors`.
+2. Sponsors who are contributing under $100/mth will have their name or organization name listed on :xref:`the Mautic Sponsor page`.
 
-3. Infrastructure sponsors who are providing a service used by the Mautic Community at free or discounted price will have a logo and link to the most relevant page on their website for as long as the membership is active, listed at :xref:`Mautic.org/sponsors`.
+3. Infrastructure sponsors who are providing a service used by the Mautic Community at free or discounted price will have a logo and link to the most relevant page on their website for as long as the membership is active, listed at :xref:`the Mautic Sponsor page`.
    
 4. If a sponsor cancels their sponsorship or the service is no longer being used, the link will be removed as soon as notification of cancellation is received
 
@@ -108,6 +110,6 @@ Credits
 
 This policy is based on those used by several other Open Source communities including:
 
-Eclipse: https://www.eclipse.org/org/documents/Recognizing_Project_Contributions_Policy_2008.pdf
+:xref:`Eclipse Foundation Contributor Recognition Policy`
 
-KDE: https://ev.kde.org/rules/thankyou_policy/ 
+:xref:`KDE Policy`

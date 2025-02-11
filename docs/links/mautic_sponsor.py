@@ -1,6 +1,6 @@
 from . import link
 
-link_name = "Mautic.org/sponsors" 
+link_name = "the Mautic Sponsor page" 
 link_text = "Mautic Sponsor" 
 link_url = "https://www.mautic.org/sponsors" 
 
