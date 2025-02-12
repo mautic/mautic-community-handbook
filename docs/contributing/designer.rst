@@ -9,13 +9,15 @@ At the moment, we don't have many designers who are actively contributing to Mau
 
 .. vale on
 
-There are several ways you could contribute to Mautic as a designer, and it really depends on what you love doing and how your skills might be best put to use with our current projects.
+You could contribute to Mautic as a designer in several ways, and it depends on what you love doing and how your skills might best be used with the current projects.
 
 Some areas you may want to consider include:
 
 - Supporting the Product Team by creating visual resources to explain new features
 - Helping the Marketing Team with designing their monthly newsletters
-- Creating new designs for our web resources (for example, the mautic.org website)
+- Creating new designs for our web resources (for example, the `Mautic's`_ website)
+  .. _Mautic's: https://mautic.org/
+  
 - Working with the Product Team to improve the user experience of Mautic 
 - Contributing to Strategic Initiatives by designing the user experience for new features
 - Improving the user documentation by creating illustrations or images that complement the written information
@@ -41,7 +43,7 @@ Finding tasks to work on
 Jira issues
 ===========
 
-The best way to find tasks to work on which relate to the wider community (outside of the product) is to take a look at our Jira boards.  There are two main ways to find tasks of interest:
+The best way to find tasks to work on which relate to the wider community (outside of the product) is to take a look at our Jira boards. There are two main ways to find tasks of interest:
 
 - Search for the :xref:`Jira issues label`
 - Search for the :xref:`Jira issues text phrase`
@@ -75,7 +77,7 @@ Whenever you are designing for the Mautic Community, we do require the source fi
 
 Any images you use must have the appropriate copyright permissions which should be shared with the team lead so that they have a copy of the licenses.  
 
-If you're working on web-based tools please ensure that you work with a personal account where possible (so that it will remain accessible if you were to move jobs), and share with the relevant team lead full access so that they are able to interact with the resources.  Ask the team lead if we already have a community account or team which we can add you to, before you start working with a specific tool!
+If you're working on web-based tools please ensure that you work with a personal account where possible (so that it will remain accessible if you were to move jobs), and share with the relevant team lead full access so that they are able to interact with the resources. Ask the team lead if we already have a community account or team which we can add you to, before you start working with a specific tool.
 
 Reporting problems with design
 ******************************
@@ -92,7 +94,7 @@ Within the Mautic product
 If you have spotted something that needs to be addressed within Mautic please:
 
 1. Create :xref:`GitHub create an issue` providing as much detail as possible
-2. If you're able to address the problem, please indicate this in the issue - we're happy to help you get started with how to do this!
+2. If you're able to address the problem, please indicate this in the issue - we're happy to help you get started with how to do this.
 3. If you're not able to address the issue but know where it probably comes from, please leave a hint. This will help people following up to get a jump start.
 
 .. vale off
