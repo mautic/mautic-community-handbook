@@ -48,7 +48,11 @@ The best way to find issues to work on is to look at Mautic's Jira boards. There
 - Search for :xref:`Jira issues label design`
 - Search for :xref:`Jira issues text phrase design`
 
-An issue on Jira is generally associated with a team or project board. It's a good idea to join the relevant Slack channel and let people know that you're interested in tackling the specific task you've found. You'll find all of Mautic's teams in Slack have a channel prefixed with #t-, initiatives with #i-, tiger teams with #tt-, and working groups with #wg-.
+An issue on Jira is generally associated with a team or project board. It's a good idea to join the relevant Slack channel and let people know that you're interested in tackling the specific task you've found.
+
+.. hint::
+
+  All of Mautic's teams in Slack have a channel prefixed with #t-, initiatives with #i-, tiger teams with #tt-, and working groups with #wg-.
 
 If you haven't done so, you can :xref:`Jira create account`. If you already have an account and need to be added to Mautic's instance, please ask in the :xref:`Mautic community channel Slack` channel on Slack.
 
