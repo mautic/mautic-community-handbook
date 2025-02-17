@@ -33,7 +33,7 @@ Design tasks are primarily cross-project rather than specific to a team. You're 
 
 .. vale off
 
-We recommend you join the :xref:`Mautic design team Slack` channel on Slack, where we'll post requests for people who might be interested in working on design-related tasks. Please introduce yourself in this channel and let us know how you'd like to get involved. If you don't know yet, that's also fine. We can help you find your way!
+However, we recommend you join the :xref:`Mautic design team Slack` channel on Slack, where we'll post requests for people who might be interested in working on design-related tasks. Please introduce yourself in this channel and let us know how you'd like to get involved. If you don't know yet, that's also fine. We can help you find your way!
 
 .. vale on
 
@@ -58,7 +58,7 @@ If you haven't done so, you can :xref:`Jira create account`. If you already have
 
 Once you log into Mautic's instance, you can assign the issue to yourself and add comments. Please transition the status as you work on it, and if you need to chunk the task down into smaller parts, make sure to add sub-tasks.
 
-The teams generally meet fortnightly and asynchronously on Slack for teams, working groups, and tiger teams. This is a great opportunity to report to the team what you’re working on and how you’re progressing and to let people know if you need feedback.
+Mautic's teams generally meet fortnightly and asynchronously on Slack channels for teams, working groups, and tiger teams. This is a great opportunity to report to the team what you’re working on and how you’re progressing and to let people know if you need feedback.
 
 GitHub issues and pull requests
 ===============================
