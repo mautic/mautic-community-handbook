@@ -66,7 +66,7 @@ The best way to find tasks that require input relating to the user experience or
 - Search the GitHub issue queue for :xref:`Mautic UX issues` or :xref:`Mautic UI issues` issues
 - Search GitHub pull requests to find new features and bug fixes to test relating to :xref:`Mautic UX pull requests` or :xref:`Mautic UI pull requests` improvements
 
-These issues are reported by Mautic users or developers who have found problems with its aspects. Pull requests are fixes for bugs or new features that have been submitted to the community for review. If they are approved, they'll be released in a future version of Mautic.
+Issues are problems or bugs that Mautic users and developers have reported when they encountered them. Pull requests are change proposals that include bug fixes or new features that require review. If approved, the team will release them in a future version of Mautic.
 
 If you're able to provide feedback on issues or pull requests, please add a comment in the feed. If you can test the pull request and provide feedback from the design perspective, please click 'files changed' at the right and then 'start review'. That way, you can approve, request changes, or leave a comment after reviewing.
 
@@ -93,7 +93,7 @@ Within the Mautic product
 
 .. vale on
 
-If you have spotted something that needs to be addressed within Mautic, please:
+If you notice something that needs attention in Mautic, please:
 
 1. Create :xref:`GitHub create an issue` and provide as much detail as possible
 2. If you're able to address the problem, please indicate this in the issue - we're happy to help you get started with how to do this.
