@@ -9,7 +9,7 @@ Currently, we don't have many designers actively contributing to Mautic, so it's
 
 .. vale on
 
-You can contribute to Mautic as a designer in various ways, depending on your interests and how your skills can be applied to current projects.
+As a designer, you can contribute to Mautic in various ways, depending on your interests and how you can apply your skills to current projects.
 
 Some areas you may want to consider:
 
