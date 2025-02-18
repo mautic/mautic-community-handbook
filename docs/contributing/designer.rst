@@ -15,9 +15,7 @@ Some areas you may want to consider:
 
 - Supporting the Product Team by creating visual resources to explain new features
 - Helping the Marketing Team with designing their monthly newsletters
-- Creating new designs for Mautic's web resources (for example, the `Mautic's`_ website)
-  
-  .. _Mautic's: https://www.mautic.org  
+- Creating new designs for Mautic's web resources (for example, the :xref:`Mautic website`)
 - Working with the Product Team to improve the user experience of Mautic 
 - Contributing to Strategic Initiatives by designing the user experience for new features
 - Improving the user documentation by creating illustrations or images that complement the written information
