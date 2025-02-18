@@ -9,7 +9,7 @@ Currently, we don't have many designers actively contributing to Mautic, so it's
 
 .. vale on
 
-You could contribute to Mautic as a designer in several ways, depending on what you love doing and how your skills might best be used with the current projects.
+You can contribute to Mautic as a designer in various ways, depending on your interests and how your skills can be applied to current projects.
 
 Some areas you may want to consider:
 
@@ -54,7 +54,7 @@ An issue on Jira is generally associated with a team or project board. It's a go
 
   All of Mautic's teams in Slack have a channel prefixed with #t-, initiatives with #i-, tiger teams with #tt-, and working groups with #wg-.
 
-If you haven't done so, you can :xref:`Jira create account`. If you already have an account and need to be added to Mautic's instance, please ask in the :xref:`Mautic community channel Slack` channel on Slack.
+If you haven't done so, you can :xref:`Jira create account`. If you already have an account and need access to Mautic’s instance, please request it in the :xref:`Mautic community channel Slack` channel on Slack.
 
 Once you log into Mautic's instance, you can assign the issue to yourself and add comments. Please transition the status as you work on it, and if you need to chunk the task down into smaller parts, make sure to add sub-tasks.
 
