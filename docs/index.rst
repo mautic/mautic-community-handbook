@@ -22,6 +22,7 @@ The vision is that it grows over time as the teams and governance structure evol
    :hidden:
 
    about/about
+   about/what_is_mautic
 
 .. toctree::
    :maxdepth: 2
