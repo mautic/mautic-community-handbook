@@ -21,7 +21,7 @@ The vision is that it grows over time as the teams and governance structure evol
    :caption: About Mautic
    :hidden:
 
-   about/what_is_mautic
+   about/about
 
 .. toctree::
    :maxdepth: 2
@@ -30,6 +30,14 @@ The vision is that it grows over time as the teams and governance structure evol
 
    policies/code_of_conduct/code_of_conduct
  
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Policies
+   :hidden:
+
+   policies/code_of_conduct/code_of_conduct_breaches
+
 
 .. toctree::
    :maxdepth: 2
@@ -76,7 +84,4 @@ The vision is that it grows over time as the teams and governance structure evol
    :caption: Community Leadership
    :hidden:
 
-   community_leadership/community_leadership_overview
-   community_leadership/current_leadership_team
-   community_leadership/leadership_role_definitions
-   community_leadership/community_council
+   community_leadership/community_leadership
