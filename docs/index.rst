@@ -55,6 +55,7 @@ The vision is that it grows over time as the teams and governance structure evol
    :hidden:
 
    policies/request_for_proposals_(RFP)_process
+   policies/promoting_integrations/promoting_integrations
 
 .. toctree::
    :maxdepth: 2
