@@ -52,6 +52,7 @@ Gitpod
 GMail
 Grav
 Gravatar
+hackathons
 Hammerschmied
 href
 HTML
