@@ -13,6 +13,8 @@ As a designer, you can contribute in various ways, depending on your interests a
 
 Some areas you may want to consider:
 
+.. vale off
+
 - Supporting the Product Team by creating visual resources to explain new features and improving the user experience of Mautic
 - Helping the Marketing Team with designing their monthly newsletters
 - Creating new designs for Mautic's web resources (for example, the :xref:`Mautic website`)
@@ -29,6 +31,7 @@ The first step for you is to join :xref:`Mautic Community Slack`.
 Design tasks are primarily cross-project rather than specific to a team. You're most welcome to join whatever channels that interest you.
 
 However, one recommendation is to join the :xref:`Mautic design team Slack` channel on Slack to see requests for design-related tasks. Introduce yourself in the channel and share how you want to get involved. If you're unsure how to participate, don't worry—support is available to help you find your way.
+
 
 Finding tasks to work on
 ************************
@@ -75,6 +78,8 @@ Whenever you design for the Mautic Community, you must share the source files in
 Any images you use must have the appropriate copyright permissions, and you should share them with the team lead so that they have a copy of the licenses.
 
 When working on web-based tools, please use a personal account whenever possible. This will ensure that your work remains accessible if you change jobs. Additionally, share full access to your account with the relevant team lead so they can interact with the resources as needed. Ask the team lead if there is a community account or team to which they can add you before you start working with a specific tool.
+
+.. vale on
 
 Reporting problems with design
 ******************************
