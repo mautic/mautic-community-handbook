@@ -37,6 +37,7 @@ The vision is that it grows over time as the teams and governance structure evol
    :hidden:
 
    teams/legal_and_finance_team
+   teams/community_team/community_team
    teams/product_team/product_team_overview
    teams/education_team/education_team
    
