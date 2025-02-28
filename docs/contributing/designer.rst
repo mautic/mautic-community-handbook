@@ -23,8 +23,8 @@ Some areas you may want to consider:
 - Building a pattern library to standardize the UI patterns used in Mautic
 - Joining the User Experience Tiger Team
 
-Getting started
-***************
+Getting started as a designer
+*****************************
 
 The first step for you is to join :xref:`Mautic Community Slack`.
 
