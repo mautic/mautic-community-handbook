@@ -52,7 +52,7 @@ Local Communities
 -  Define and support official ways for building local communities - and steer existing ones to becoming official - plus inspire new ones, help them to network and learn from each other
 -  Web page that identifies official local communities, and where to find them
 -  Help local events - material, speakers, tools, best practices etc.
--  Identify per-region 'liaisons', especially in countries where Mautic isn't known - not the same as ambassadors! - and establish ways of working with them, without potential others from the region being demotivated or shied away.
+-  Identify per-region 'liaisons', especially in countries where Mautic isn't known - not the same as ambassadors - and establish ways of working with them, without potential others from the region being demotivated or shied away.
 -  Select priority regions and work actively to spark local communities there
 
 Profiles of contributors needed in the Community Team
@@ -64,8 +64,8 @@ Profiles of contributors needed in the Community Team
 Community Team definitions
 **************************
 
-Who is Community member?
-========================
+Who is a Community member?
+==========================
 
 Everyone who
 
