@@ -28,7 +28,7 @@ We are primarlily organized around the following channels:
 How to try Mautic?
 ******************
 
-Mautic is available to download for free, just head over to the website where you can :xref:`Download Mautic`, allowing you to explore its full capabilities without restrictions when you host it yourself.
+Mautic is available to download for free, just head over to the website where you can :xref:`Download Mautic`, allowing you to explore its full capabilities without restrictions when you host it yourself. You can also start a :xref:`Mautic Trials` for 14 days to take Mautic for a spin in a hosted environment, and if you choose to continue with a paid plan, 40% of the revenue comes directly back to the Mautic project.
 
 For optimal performance, it's recommended to host Mautic on a Virtual Private Server (VPS) rather than shared hosting, particularly if you intend to use it in a production setting on lower end hosting which often have limited resources, which may impact Mautic's efficiency and performance.
 
