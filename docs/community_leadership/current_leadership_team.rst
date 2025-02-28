@@ -121,6 +121,7 @@ These are individuals who have previously served on the Mautic Community Leaders
      - oluwatobi.owolabi@mautic.org
      - 2021
      - 2024
+     - 2024
    * - Mattias Michaux
      - Product Team Lead
      - mattias.michaux@mautic.org
