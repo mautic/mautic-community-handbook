@@ -19,7 +19,7 @@ The community comes together to build, improve, and share Mautic, united by the 
 
 Anybody can get involved - whether you want to organize a local meetup, contribute code, improve the documentation or translations, or help tell others about Mautic.
 
-We are primarlily organized around the following channels: 
+The Mautic project primarily organizes around the following channels: 
 
 - :xref:`Mautic Community Forums`
 - :xref:`Mautic Community Slack`
