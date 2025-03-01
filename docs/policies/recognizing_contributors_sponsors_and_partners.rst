@@ -1,8 +1,9 @@
 Recognizing contributors, sponsors and partners
 ###############################################
 
-Background information 
-======================
+Background information
+**********************
+
 
 .. vale off
 
@@ -22,7 +23,7 @@ Leadership Team to use when evaluating each situation, and leave the final
 decisions in the case of any disputes to the Community Council. 
 
 Definitions
------------
+***********
 
 .. vale off
 
@@ -57,7 +58,7 @@ the Mautic Community on a regular basis, listed at :xref:`the Mautic Sponsor pag
 the criteria to become a Mautic Community Partner, listed at :xref:`Mautic Community Partners` 
 
 Policy on promotion of contributors
-===================================
+************************************
 
 The Mautic policy on recognizing contributions on :xref:`mautic.org`, in the Mautic application and in releases is as follows:
 
@@ -84,7 +85,7 @@ The Mautic policy on recognizing contributions on :xref:`mautic.org`, in the Mau
 11. The Project Lead and Community Council reserve the right to remove any recognition at any time at their discretion.
 
 Policy on promotion of sponsors and partners
-############################################
+********************************************
 
 The Mautic policy on recognizing sponsors and partners on mautic.org, in the Mautic application and in releases is as follows:
 
@@ -105,8 +106,8 @@ The Mautic policy on recognizing sponsors and partners on mautic.org, in the Mau
 8. The top three partners each month will be listed on the mautic.org homepage with a link to their partners landing page.
    
 
-Credits
-#######
+Credits and useful resources 
+****************************
 
 This policy is based on those used by several other Open Source communities including:
 
