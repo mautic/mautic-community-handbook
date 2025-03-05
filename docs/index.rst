@@ -55,6 +55,7 @@ The vision is that it grows over time as the teams and governance structure evol
    :hidden:
 
    policies/request_for_proposals_(RFP)_process
+   policies/recognizing_contributors_sponsors_and_partners
 
 .. toctree::
    :maxdepth: 2
@@ -77,6 +78,7 @@ The vision is that it grows over time as the teams and governance structure evol
    resources/meetings/meetings
    resources/meetings/asynchronous_meetings
    resources/meetings/preparing_and_running_meetings
+
 
 .. toctree::
    :maxdepth: 2
