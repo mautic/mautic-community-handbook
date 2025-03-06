@@ -1,47 +1,44 @@
-.. vale off
+
 
 Policy on promoting Integrations with Mautic
 ############################################
 
-.. vale on
+
 
 Introduction
 ============
 
-.. vale off
 
-The Mautic website serves as a hub for the Mautic community, showcasing innovative projects that align with the mission and values. The purpose of this policy is to provide clarity on the criteria and process for listing projects and integrations on the Mautic website's home page.
 
-.. vale on
+The Mautic website serves as a hub for the Mautic community, showcasing innovative projects that align with the mission and values. The purpose of this policy is to provide clarity on the criteria and process for listing projects and Integrations on the Mautic website.
+
 
 Criteria for inclusion
 ======================
 
 A Mautic member must propose projects featured in the Mautic Integrations Directory via the :xref:`Community Portal`. Integrations must receive at least five community votes and gain endorsement from the Marketing Team for inclusion.
 
-.. vale off
 
-The community selects projects for the Mautic website homepage based on their popularity and relevance to Mautic users, which is accomplished with a quarterly vote on the Community Portal of all eligible integrations. Members of Mautic are eligible to vote.
+The community selects projects for the Mautic website based on their popularity and relevance to Mautic Users, accomplished through a quarterly vote on the Community Portal of all eligible Integrations. Members of Mautic are eligible to vote.
 
-.. vale on
 
 #. Popularity:
 
-.. vale off
+
 
    * Popular projects within the Mautic community have a higher chance of appearing on the homepage as members are more likely to vote for them.
    
-.. vale on
+
 
 #. Use Cases:
 
-.. vale off
+
 
    * The community prioritizes projects that clearly align with Mautic's use cases and goals.
   
-  .. vale on
 
-   * The Marketing Team assesses how well a project addresses the needs of Mautic users and enhances their experience.
+
+   * The Marketing Team assesses how well a project addresses the needs of Mautic Users and enhances their experience.
   
 #. Members:
    
@@ -83,8 +80,6 @@ The community gives priority to projects with an open source nature for listing 
   
 Conclusion
 ==========
-.. vale off
 
-The Mautic integrations directory serves as a dynamic platform to showcase projects that enhance the Mautic experience. The Marketing Team ensures listed projects align with Mautic's mission and provide value to the community, allowing the community to determine which projects to highlight on the homepage. Regular updates and clear communication between project maintainers and the marketing team contributes to the success of this initiative.
 
-.. vale on
+TThe Mautic Integrations directory serves as a dynamic platform to showcase projects that enhance the Mautic experience. The Marketing Team ensures listed projects align with Mautic's mission and provide value to the community, allowing the community to determine which projects to highlight on the homepage. Regular updates and clear communication between project maintainers and the marketing team contributes to the success of this initiative.
