@@ -1,11 +1,11 @@
 
-Code Governance
+Code governance
 ################
 
-Tiers for Triaging Pull Requests
+Tiers for triaging pull requests
 ********************************
 
-We have adopted a tier-based approach to categorising pull requests (PRs) in the Mautic Community. This allows the Product Team to establish clear governance approaches to how PRs will be dealt with and what the criteria will be for merging.
+We've adopted a tier-based approach to categorising pull requests (PRs) in the Mautic Community. This allows the Product Team to establish clear governance approaches to how PRs will be dealt with and what the criteria will be for merging.
 
 This allows the processing of minor fixes and improvements more rapidly, while time-boxing community testing for major pull requests, enabling the Product Team to make decisions on whether to merge new features once those time periods have passed.
 
@@ -25,18 +25,18 @@ Requirements for merging a Tier 1 PR
 -------------------------------------
  
 
- * Thorough testing to ensure that it does what it’s expected to do and does not break anything else
+ * Thorough testing to ensure that it does what it’s expected to do and does'nt break anything else
  * Full unit testing coverage
  * Code review from 1 core team member
  * Full testing and approval by at least one community member (could be the person doing the code review, but should not be from the same company/organisation as the person submitting the PR).
 
-As an example: If an employee or contractor from Company A were to submit a PR, the community testing/approval must come from someone outside Company A’s influence (e.g. not an employee, contractor etc of Company A)
+For example: If an employee or contractor from Company A were to submit a PR, the community testing/approval must come from someone outside Company A’s influence (e.g. not an employee, contractor etc of Company A)
 
 Tier 2
 ======
 Minor features or enhancements which do not significantly change any part of Mautic.
 
-More complex bug fixes are also probably going to be in Tier 2, as well as PRs that are related to external services (e.g. Salesforce/HubSpot) for which accounts need to be created in order to test.
+More complex bug fixes are also probably going to be in Tier 2, as well as PRs that are related to external services (for example, Salesforce/HubSpot) for which accounts need to be created in order to test.
 
 Examples (Tier 2)
 ------------------
@@ -46,7 +46,7 @@ https://github.com/mautic/mautic/pull/6090 (new feature, fairly simple and doesn
 https://github.com/mautic/mautic/pull/7432/ (a lot of new code which extends an existing feature, enhancing reports with a scheduling option)
 
 
-Requirements for Merging a Tier 2 PR
+Requirements for merging a Tier 2 PR
 --------------------------------------
 
 * Thorough testing to ensure that it does what it’s expected to do and does not break anything else
@@ -81,9 +81,9 @@ Requirements for Merging a Tier 3 PR
     Tier 3 PRs which relate to new features that impact users of Mautic **should be linked to in an individual forum thread** at `forum.mautic.org/c/ideas <https://forum.mautic.org/>`_ and discussed on the forums. This gives the non-technical user base an opportunity to be involved in the discussions on new features. 
 
 
-If a thread doesn’t exist prior to the PR being submitted (a feature created without the community suggesting it, for example), it should be created during triage when a Tier 3 & Feature label is added.
+If a thread doesn’t exist prior to the PR being submitted (for example, a feature created without the community suggesting it), it should be created during triage when a Tier 3 & Feature label is added.
 
-The Github URL should be shared in a single line on the forum thread (enables the ‘onebox’ to be created) which will create a reciprocal link on the Github PR.
+The Github URL should be shared in a single line on the forum thread (enables the ‘onebox’ to be created) which will create a reciprocal link on the GitHub PR.
 
 Tiers for Triaging Issues
 *************************
@@ -128,7 +128,7 @@ Labels
 =======
 We currently have `quite a lot of labels <https://github.com/mautic/mautic/labels?page=1&sort=name-asc>`_ which are organised as below
 
-github.com/mautic/mautic/labels?page=1&sort=name-asc
+
 
 Complexity-based labels
 ------------------------
@@ -164,7 +164,7 @@ Status-based labels
 * Ready to commit (PR’s only, and only applied when the PR is passing tests, has no conflicts, has automated tests written, has the required signoff/approvals and is mergeable)
 
 
-Area affected labels (which part of the product does this affect?)
+Area Affected Labels (which part of the product does this affect?)
 ===================================================================
 * Assets
 * Builders (email and LP)
@@ -223,9 +223,9 @@ Branching strategy
 *******************
 As we maintain multiple major and minor versions of Mautic (3.x, 4.x), we use a defined branching strategy on GitHub.
 
-Please refer to the resources in the Contributing to Mautic section to understand the branching strategy.
+Please refer to the resources in the contributing to Mautic section to understand the branching strategy.
 
-We’ve started to create a Supported Versions table on GitHub and will update that throughout the year with more specific dates.
+We’ve started to create a supported versions table on GitHub and will update that throughout the year with more specific dates.
 
 
 .. note::
