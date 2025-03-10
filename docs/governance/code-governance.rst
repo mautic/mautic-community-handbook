@@ -1,4 +1,3 @@
-
 Code governance
 ################
 
@@ -85,7 +84,7 @@ If a thread doesn’t exist prior to the PR being submitted (for example, a feat
 
 The Github URL should be shared in a single line on the forum thread (enables the ‘onebox’ to be created) which will create a reciprocal link on the GitHub PR.
 
-Tiers for Triaging Issues
+Tiers for triaging issues
 *************************
 
 The same tiered approach used in triaging pull requests is also used with issues. The triage team are responsible for daily/weekly/monthly and quarterly review processes.
@@ -95,7 +94,7 @@ Tier 1 issues
 
 Minor issues which are non-critical in nature.
 
-Examples (Tier 1 Issues)
+Examples (Tier 1 issues)
 -------------------------
 https://github.com/mautic/mautic/issues/8974 - an issue with translations
 
@@ -106,7 +105,7 @@ Tier 2 issues
 ==============
 Issues which are more complex and/or which may impact a large volume of users.
 
-Examples (Tier 2 Issues)
+Examples (Tier 2 issues)
 -------------------------
 https://github.com/mautic/mautic/issues/8621 - impacts all Sparkpost users
 
@@ -117,7 +116,7 @@ Tier 3 issues
 ==============
 Complex issues which impact multiple areas of Mautic or which require extensive debugging to identify/resolve.
 
-Examples (Tier 3 Issues)
+Examples (Tier 3 issues)
 -------------------------
 https://github.com/mautic/mautic/issues/9072 - will likely touch many areas and is complex to solve, requiring in-depth technical knowledge of PHPUnit
 
