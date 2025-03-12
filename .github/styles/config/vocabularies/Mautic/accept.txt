@@ -68,6 +68,7 @@ Jitsi
 Jono
 Joomla
 Joomla!
+KDE
 Knowledgebase
 Kubuntu
 Libre
