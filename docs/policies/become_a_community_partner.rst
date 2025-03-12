@@ -63,7 +63,7 @@ Once you have started contributing financially, take a look at where you are cur
 
 .. vale off 
 
-We need every kind of skill from development to marketers, documentation writers, project managers, technical writers, designers - basically you bring the skills and we will find a place to put them to great use.
+Mautic needs every kind of skill from development to marketers, documentation writers, project managers, technical writers, designers - basically come with the skills and there's a place within Mautic to put them to great use.
 
 .. vale on
 
