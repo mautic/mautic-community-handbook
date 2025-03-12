@@ -1,6 +1,6 @@
 .. vale off 
 
-How to become a Mautic community partner
+How to become a Mautic partner
 ########################################
 
 .. vale on
