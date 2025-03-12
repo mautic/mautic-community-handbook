@@ -18,7 +18,7 @@ Financial contribution
 
 .. vale off 
 
-It's required that all Community Partners are financially supporting the growth of the Mautic community as a :xref:`Corporate Member of Mautic`. Members pay for all memberships annually, and via our :xref:`Open Collective`. Prior to v2 of the Mautic governance model which came into effect on ``12th December 2023``, companies who sponsored Mautic at $100 per month or more were also eligible. Companies who were already sponsoring at this tier when the new governance model came into effect and continue to do so are 'grandfathered' in, providing that their sponsorship continues at this tier, for a period of 12 months. This gives them until ``12th December 2024`` to transition to becoming a Corporate Member in order to maintain their status as a Mautic Partner.
+It's required that all Community Partners are financially supporting the growth of the Mautic community as a :xref:`Corporate Member of Mautic`. Members pay for all memberships annually, and via our :xref:`Mautic Open Collective`. Prior to v2 of the Mautic governance model which came into effect on ``12th December 2023``, companies who sponsored Mautic at $100 per month or more were also eligible. Companies who were already sponsoring at this tier when the new governance model came into effect and continue to do so are 'grandfathered' in, providing that their sponsorship continues at this tier, for a period of 12 months. This gives them until ``12th December 2024`` to transition to becoming a Corporate Member in order to maintain their status as a Mautic Partner.
 
 .. vale on
 
