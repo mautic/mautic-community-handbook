@@ -77,7 +77,7 @@ Be sure to include  the names of team members to allow for verification of contr
 
 .. vale off 
 
- The application will be reviewed, and a response will be provided as soon as possible.
+ The application review takes a few weeks, with a and a response provided as soon as possible.
 
  .. vale on
 
