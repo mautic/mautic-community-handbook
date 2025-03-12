@@ -26,7 +26,7 @@ Practical contribution
 
 .. vale off 
 
-Of course money isn't everything, and in fact contributing to Mautic in practical ways, whether that might be through code contributions, leading a team, organizing official events or meetups, contributing to the Documentation resources that we have or working on tasks in one of our five Community Teams are all vital to the growth of our community.
+Of course money isn't everything, and in fact contributing to Mautic in practical ways, whether that might be through code contributions, leading a team, organizing official events or meetups, contributing to the Documentation resources or working on tasks in one of the five Community Teams are all vital to the growth of the Mautic project.
 
 .. vale off 
 
