@@ -8,12 +8,13 @@ How to become a Mautic partner
 The Mautic Partners Program showcases organizations that are contributing to Mautic - both financially and practically - so that members of the community can find service providers who are :xref:`Makers rather than takers` to work with. These organizations represent the ideals of providing ongoing contributions that open source software rely upon.
 
 How do organizations become a partner?
-======================================
+**************************************
 
 There are two elements to consider when reviewing an application to join the Partners Programme, both relate to whether the organization is supporting the community.
 
 Financial contribution
-----------------------
+======================
+
 
 .. vale off 
 
@@ -22,7 +23,7 @@ It's required that all Community Partners are financially supporting the growth 
 .. vale on
 
 Practical contribution
-----------------------
+======================
 
 .. vale off 
 
@@ -37,7 +38,7 @@ We measure this in several ways including through the Community Dashboard, revie
 Organizations who aren't able to demonstrate a consistent contribution history must spend a few months working actively within the community before their application is eligible.
 
 Ranking of organization
------------------------
+======================
 .. vale off 
 
 Partners are ordered by their activity over the previous month, with the top three partners listed on the Mautic homepage with links to their Partner page.
@@ -45,10 +46,10 @@ Partners are ordered by their activity over the previous month, with the top thr
 .. vale on 
 
 Steps to become a Mautic community partner
--------------------------------------------
+******************************************
 
 Become a corporate member of Mautic
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+===================================
 
 .. vale off 
 
@@ -57,7 +58,7 @@ The first step is to start financially contributing to Mautic as a Corporate Mem
 .. vale on 
 
 Become a consistent contributor
--------------------------------
+===============================
 
 Once you have started contributing financially, take a look at where you are currently contributing to Mautic.
 
