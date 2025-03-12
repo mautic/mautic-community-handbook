@@ -34,7 +34,7 @@ For this reason, organizations who are wishing to become and maintain their stat
 
 We measure this in several ways including through the Community Dashboard, reviewing team activity, and engagement in the various projects that teams are running.
 
-Organizations who are not able to demonstrate a consistent contribution history are asked to spend a few months working actively within the community before their application will be considered.
+Organizations who aren't able to demonstrate a consistent contribution history must spend a few months working actively within the community before their application is eligible.
 
 Ranking of organization
 -----------------------
