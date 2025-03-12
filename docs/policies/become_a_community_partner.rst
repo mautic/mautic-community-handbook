@@ -38,7 +38,7 @@ We measure this in several ways including through the Community Dashboard, revie
 Organizations who aren't able to demonstrate a consistent contribution history must spend a few months working actively within the community before their application is eligible.
 
 Ranking of organization
-======================
+=======================
 .. vale off 
 
 Partners are ordered by their activity over the previous month, with the top three partners listed on the Mautic homepage with links to their Partner page.
