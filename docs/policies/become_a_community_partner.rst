@@ -40,7 +40,7 @@ Ranking of organization
 -----------------------
 .. vale off 
 
-We rank the listings in the Partners Program by their activity over the previous month, with the top three partners listed on the homepage of mautic.org with links to their Partner page.
+Partners are ordered by their activity over the previous month, with the top three partners listed on the Mautic homepage with links to their Partner page.
 
 .. vale on 
 
