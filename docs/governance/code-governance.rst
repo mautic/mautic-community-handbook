@@ -82,7 +82,7 @@ Requirements for Merging a Tier 3 PR
 
 If a thread doesn’t exist prior to the PR being submitted (for example, a feature created without the community suggesting it), it should be created during triage when a Tier 3 & Feature label is added.
 
-The Github URL should be shared in a single line on the forum thread (enables the ‘onebox’ to be created) which will create a reciprocal link on the GitHub PR.
+The GitHub URL should be shared in a single line on the forum thread (enables the ‘onebox’ to be created) which will create a reciprocal link on the GitHub PR.
 
 Tiers for triaging issues
 *************************
