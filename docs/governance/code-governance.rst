@@ -24,7 +24,7 @@ Requirements for merging a Tier 1 PR
 -------------------------------------
  
 
- * Thorough testing to ensure that it does what it’s expected to do and does'nt break anything else
+ * Thorough testing to ensure that it does what it’s expected to do and doesn't break anything else
  * Full unit testing coverage
  * Code review from 1 core team member
  * Full testing and approval by at least one community member (could be the person doing the code review, but should not be from the same company/organisation as the person submitting the PR).
