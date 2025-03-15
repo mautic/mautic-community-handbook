@@ -25,28 +25,13 @@ The vision is that it grows over time as the teams and governance structure evol
 
 .. toctree::
    :maxdepth: 2
-   :caption: Policies
-   :hidden:
-
-   policies/code_of_conduct/code_of_conduct
- 
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Policies
-   :hidden:
-
-   policies/code_of_conduct/code_of_conduct_breaches
-
-
-.. toctree::
-   :maxdepth: 2
    :caption: Teams
    :hidden:
 
    teams/legal_and_finance_team
    teams/community_team/community_team
    teams/product_team/product_team_overview
+   teams/product_team/request_for_proposals_(RFP)_process
    teams/education_team/education_team
    
 .. toctree::
@@ -54,7 +39,8 @@ The vision is that it grows over time as the teams and governance structure evol
    :caption: Policies
    :hidden:
 
-   policies/request_for_proposals_(RFP)_process
+   policies/code_of_conduct/code_of_conduct
+   policies/code_of_conduct/code_of_conduct_breaches
    policies/recognizing_contributors_sponsors_and_partners
 
 .. toctree::
