@@ -73,7 +73,7 @@ You may use the Mautic name and approved logo in content that describes the prod
 ## 9.  Automatic license or license grant procedure?
 This section explains the situations when entitlement to an automatic license exist (in which case you can use the Mautic Trademarks without having to complete or receive any document), or situations which require the license grant procedure. Entitlement to an automatic license only exists if you're in any of the situations described under subsection A below, and not simultaneously in any of the situations described under subsection B below.
 
-### 9.1  Automatic license
+### 9(a)  Automatic license
 You receive an automatic license when:
 
 1. You exclusively use the Mautic Trademarks to either extend or improve the Mautic platform, or to encourage the use of the Mautic platform (in short, “foster the Mautic platform and community”).
@@ -83,15 +83,14 @@ You receive an automatic license when:
 #### Examples of “fostering the Mautic platform and community”
 
 * A course entitled “How to use Mautic in your business” organized by a local non-profit organization
-* A website “mautichalloffame.com” with pictures of Mautic contributors
-* Administering a database with Mautic bugs and corresponding workarounds
+* "How-to" video(s), article(s) or blog post(s) on topics related to the Mautic platform
 
 #### Examples of not “exclusively to foster the Mautic platform”
 
 * A charitable organization selling t-shirts with the Mautic Trademarks to sponsor its fight against global warming
 * A company selling t-shirts with the Mautic Trademarks, while only donating 25% of profits to the Mautic Community.
 
-### 9.1 License grant
+### 9(b) License grant
 You must always follow the license grant procedure when:
 
 1. There is a perception due to the use of the Mautic Trademarks which suggests or indicates an affiliation or endorsement of Mautic or the product or service emanating from Mautic.
