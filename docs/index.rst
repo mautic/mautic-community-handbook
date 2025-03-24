@@ -25,12 +25,43 @@ The vision is that it grows over time as the teams and governance structure evol
 
 .. toctree::
    :maxdepth: 2
+   :caption: Community Leadership
+   :hidden:
+
+   community_leadership/community_leadership
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Governance
+   :hidden:
+
+
+
+.. toctree::
+   :maxdepth: 2
    :caption: Policies
    :hidden:
 
    policies/code_of_conduct/code_of_conduct
    policies/code_of_conduct/code_of_conduct_breaches
    policies/recognizing_contributors_sponsors_and_partners
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Resources
+   :hidden:
+
+   resources/community_wide_resources/community_wide_resources
+   resources/community_wide_resources/avoiding_burnout
+   resources/community_wide_resources/getting_help_in_a_crisis
+   resources/meetings/meetings
+   resources/meetings/asynchronous_meetings
+   resources/meetings/preparing_and_running_meetings
+
+.. toctree::
+   :maxdepth: 2
+   :caption: On-boarding
+   :hidden:
 
 .. toctree::
    :maxdepth: 2
@@ -53,22 +84,7 @@ The vision is that it grows over time as the teams and governance structure evol
    contributing/mautic_bounty_programme
    contributing/contributing_docs_rst
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Resources
-   :hidden:
-
-   resources/community_wide_resources/community_wide_resources
-   resources/community_wide_resources/avoiding_burnout
-   resources/community_wide_resources/getting_help_in_a_crisis
-   resources/meetings/meetings
-   resources/meetings/asynchronous_meetings
-   resources/meetings/preparing_and_running_meetings
 
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Community Leadership
-   :hidden:
 
-   community_leadership/community_leadership
+
