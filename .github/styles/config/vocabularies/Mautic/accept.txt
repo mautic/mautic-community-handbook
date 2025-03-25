@@ -123,6 +123,7 @@ sublicense
 SugarCRM
 Suhosin
 Symfony
+trojan
 Todo
 Transifex
 TRUE
