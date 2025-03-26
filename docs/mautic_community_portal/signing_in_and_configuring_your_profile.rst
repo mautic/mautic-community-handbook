@@ -1,7 +1,7 @@
 Signing in and configuring your profile
 #######################################
 
-n this article, learn how to sign in and set up your user profile.
+In this article, learn how to sign in and set up your user profile.
 
 If you prefer you can watch this in the following video:
 
