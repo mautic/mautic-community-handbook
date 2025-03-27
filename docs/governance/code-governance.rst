@@ -1,6 +1,13 @@
 Code governance
 ################
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   deprecation_policy
+
+
 Tiers for triaging pull requests
 ********************************
 
@@ -15,9 +22,9 @@ Small changes such as typo fixing, bug fixes, translation changes, minor UI impr
 Examples (Tier 1)
 ------------------
 
-https://github.com/mautic/mautic/pull/8393 (simple bug fix with very few changes)
+:xref:`github_pr_8393`- simple bug fix with very few changes
 
-https://github.com/mautic/mautic/pull/8116/files (very simple bug fix)
+:xref:`github_pr_8116`- very simple bug fix
 
 
 Requirements for merging a Tier 1 PR
@@ -40,9 +47,9 @@ More complex bug fixes are also probably going to be in Tier 2, as well as PRs t
 Examples (Tier 2)
 ------------------
 
-https://github.com/mautic/mautic/pull/6090 (new feature, fairly simple and doesn’t significantly change any major part of Mautic)
+:xref:`github_pr_6090`- new feature, fairly simple and doesn’t significantly change any major part of Mautic
 
-https://github.com/mautic/mautic/pull/7432/ (a lot of new code which extends an existing feature, enhancing reports with a scheduling option)
+:xref:`github_pr_7432`- a lot of new code which extends an existing feature, enhancing reports with a scheduling option
 
 
 Requirements for merging a Tier 2 PR
@@ -61,9 +68,9 @@ Major changes touching multiple parts of Mautic, completely changing the way som
 Examples (Tier 3)
 ------------------
 
-https://github.com/mautic/mautic/pull/6875 (complex code changes across multiple areas, with significant impact)
+:xref:`github_pr_6875`- complex code changes across multiple areas, with significant impact
 
-https://github.com/mautic/mautic/pull/6584 (not too complex but a large visual change in the UI with the potential to cause significant disruption to the end user)
+:xref:`github_pr_6584`- not too complex but a large visual change in the UI with the potential to cause significant disruption to the end user
 
 
 Requirements for Merging a Tier 3 PR    
@@ -77,7 +84,7 @@ Requirements for Merging a Tier 3 PR
 * 2 week community review period - after which Product Team decides via a vote in the next available team meeting whether to merge (assuming code review and all other requirements are in place to permit merging)
 
 .. note::
-    Tier 3 PRs which relate to new features that impact users of Mautic **should be linked to in an individual forum thread** at `forum.mautic.org/c/ideas <https://forum.mautic.org/>`_ and discussed on the forums. This gives the non-technical user base an opportunity to be involved in the discussions on new features. 
+    Tier 3 PRs which relate to new features that impact users of Mautic **should be linked to in an individual forum thread** at :xref:`Ideas and Feature Requests` and discussed on the forums. This gives the non-technical user base an opportunity to be involved in the discussions on new features. 
 
 
 If a thread doesn’t exist prior to the PR being submitted (for example, a feature created without the community suggesting it), it should be created during triage when a Tier 3 & Feature label is added.
@@ -96,9 +103,9 @@ Minor issues which are non-critical in nature.
 
 Examples (Tier 1 issues)
 -------------------------
-https://github.com/mautic/mautic/issues/8974 - an issue with translations
+:xref:`github_pr_8974` - an issue with translations
 
-https://github.com/mautic/mautic/issues/8986 - checkbox in the wrong place
+:xref:`github_pr_8986` - checkbox in the wrong place
 
 
 Tier 2 issues
@@ -107,9 +114,9 @@ Issues which are more complex and/or which may impact a large volume of users.
 
 Examples (Tier 2 issues)
 -------------------------
-https://github.com/mautic/mautic/issues/8621 - impacts all SparkPost users
+:xref:`github_pr_8621`- impacts all SparkPost users
 
-https://github.com/mautic/mautic/issues/7062 - appears often but not always when multiple forms are added on a single page, making it tricky to reproduce
+:xref:`github_pr_7062`- appears often but not always when multiple forms are added on a single page, making it tricky to reproduce
 
 
 Tier 3 issues
@@ -118,14 +125,14 @@ Complex issues which impact multiple areas of Mautic or which require extensive 
 
 Examples (Tier 3 issues)
 -------------------------
-https://github.com/mautic/mautic/issues/9072 - will likely touch many areas and is complex to solve, requiring in-depth technical knowledge of PHPUnit
+:xref:`github_pr_9072`- will likely touch many areas and is complex to solve, requiring in-depth technical knowledge of PHPUnit
 
-https://github.com/mautic/mautic/issues/7032 - took a lot of time to confirm the issue and find a proper solution without breaking other things
+:xref:`github_pr_7032`- took a lot of time to confirm the issue and find a proper solution without breaking other things
 
 
 Labels
 =======
-We currently have `quite a lot of labels <https://github.com/mautic/mautic/labels?page=1&sort=name-asc>`_ which are organised as below
+We currently have :xref:`quite a lot of labels` which are organised as below
 
 
 
@@ -205,7 +212,7 @@ Area Affected Labels (which part of the product does this affect?)
 
 Some points of clarification
 =============================
-**Core Team:** Individuals selected by the Project Lead with technical ability to manage and maintain the core of Mautic - includes Release Leaders, Core Committers, Maintainers (see `mautic.org/about/governance <https://mautic.org/governance/>`_ ). Currently listed here.
+**Core Team:** Individuals selected by the Project Lead with technical ability to manage and maintain the core of Mautic - includes Release Leaders, Core Committers, Maintainers (see :xref:`mautic.org/about/governance`). Currently listed here.
 
 **Product Team:** Members of the Mautic Product Team. They may also be part of the Core Team, but not necessarily. Currently listed here .
 
