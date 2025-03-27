@@ -24,7 +24,7 @@ Requirements for merging a Tier 1 PR
 -------------------------------------
  
 
- * Thorough testing to ensure that it does what it’s expected to do and does'nt break anything else
+ * Thorough testing to ensure that it does what it’s expected to do and doesn't break anything else
  * Full unit testing coverage
  * Code review from 1 core team member
  * Full testing and approval by at least one community member (could be the person doing the code review, but should not be from the same company/organisation as the person submitting the PR).
@@ -82,7 +82,7 @@ Requirements for Merging a Tier 3 PR
 
 If a thread doesn’t exist prior to the PR being submitted (for example, a feature created without the community suggesting it), it should be created during triage when a Tier 3 & Feature label is added.
 
-The Github URL should be shared in a single line on the forum thread (enables the ‘onebox’ to be created) which will create a reciprocal link on the GitHub PR.
+The GitHub URL should be shared in a single line on the forum thread (enables the ‘onebox’ to be created) which will create a reciprocal link on the GitHub PR.
 
 Tiers for triaging issues
 *************************
@@ -107,7 +107,7 @@ Issues which are more complex and/or which may impact a large volume of users.
 
 Examples (Tier 2 issues)
 -------------------------
-https://github.com/mautic/mautic/issues/8621 - impacts all Sparkpost users
+https://github.com/mautic/mautic/issues/8621 - impacts all SparkPost users
 
 https://github.com/mautic/mautic/issues/7062 - appears often but not always when multiple forms are added on a single page, making it tricky to reproduce
 
