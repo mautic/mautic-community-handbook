@@ -1,7 +1,7 @@
 .. vale off 
 
 How to become a Mautic partner
-########################################
+##############################
 
 .. vale on
 
@@ -66,7 +66,7 @@ Once you have started contributing financially, take a look at where you are cur
 
 Mautic needs every kind of skill from development to marketers, documentation writers, project managers, technical writers, designers - basically come with the skills and there's a place within Mautic to put them to great use.
 
-.. vale on
+
 
 .. vale off 
 
@@ -80,6 +80,6 @@ Be sure to include  the names of team members to allow for verification of contr
 
  The application review takes a few weeks, with a and a response provided as soon as possible.
 
- .. vale on
+ 
 
 
