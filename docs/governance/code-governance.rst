@@ -227,7 +227,7 @@ Some points of clarification
 
 Branching strategy
 *******************
-As we maintain multiple major and minor versions of Mautic (3.x, 4.x), we use a defined branching strategy on GitHub.
+As we maintain multiple major and minor versions of Mautic (5.x, 6.x), we use a defined branching strategy on GitHub.
 
 Please refer to the resources in the contributing to Mautic section to understand the branching strategy.
 
