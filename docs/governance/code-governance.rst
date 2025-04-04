@@ -132,7 +132,7 @@ Examples (Tier 3 issues)
 
 Labels
 =======
-We currently have :xref:`quite a lot of labels` which are organised as below
+We currently have :xref:`mautic label` which are organised as below
 
 
 
@@ -229,12 +229,9 @@ Branching strategy
 *******************
 As we maintain multiple major and minor versions of Mautic (5.x, 6.x), we use a defined branching strategy on GitHub.
 
-Please refer to the resources in the contributing to Mautic section to understand the branching strategy.
+Please refer to the resources in the :doc:`contributing to Mautic </contributing/contributing_docs_rst>` to understand the branching strategy.
 
 We’ve started to create a supported versions table on GitHub and will update that throughout the year with more specific dates.
 
-
-.. note::
-    Found errors? Think you can improve this documentation?  edit this page
 
 
