@@ -1,13 +1,8 @@
----
-title: Code
-slug: code
-taxonomy:
-    category:
-        - docs
----
+Code
+####
 
-## Contributing code
----
+Code contribution
+*****************
 
-- [Reporting bugs](/contributing-to-mautic/developer/code/bugs)
-- [Pull requests](/contributing-to-mautic/developer/code/pull-requests)
+* :doc:`Reporting bugs </contributing/developer/bugs>`
+* :doc:`/contributing/developer/pull-requests`
