@@ -5,4 +5,4 @@ Code contribution
 *****************
 
 * :doc:`Reporting bugs </contributing/developer/bugs>`
-* :doc:`/contributing/developer/pull-requests`
+* :doc:`/contributing/developer/pull_requests`
