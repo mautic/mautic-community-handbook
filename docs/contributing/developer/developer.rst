@@ -22,17 +22,17 @@ Development is open to all members of the Mautic community. The codebase is open
 
 .. tip::
 
- As a starting point, you can begin with [setting up your local environment][local-environment-setup].
+    As a starting point, you can begin with [setting up your local environment][local-environment-setup].
 
 Table of contents
 *****************
 
-- [Setup your local environment][local-environment-setup]
-- Code contributions
- - [Bugs][bugs]
- - [Pull Requests][pull-requests]
-- [Developer Documentation][developer-documentation]
-- [Community reviews][community-reviews]
+* [Setup your local environment][local-environment-setup]
+* Code contributions
+ * [Bugs][bugs]
+ * [Pull Requests][pull-requests]
+* [Developer Documentation][developer-documentation]
+* [Community reviews][community-reviews]
 
 Reporting security vulnerabilities
 **********************************
@@ -41,6 +41,12 @@ Reporting security vulnerabilities
 
 .. warning::
 
- If you have found a security vulnerability, please report it by submitting a `GitHub Advisory form <https://github.com/mautic/mautic/security/advisories/new>`_ with as much detail as possible. The Core Team will review the vulnerability and, if found applicable, will create the patch in a private repository. The vulnerability will be disclosed once the patch has been included in a release. You can read more about Mautic security processes in the :xref:`Mautic security team` section.
+    If you have found a security vulnerability, please report it by submitting an :xref:`Mautic GitHub advisory form` with as much detail as possible.
+
+    The Core Team will review the vulnerability and, if found applicable, will create the patch in a private repository. The vulnerability will be disclosed once the patch has been included in a release.
+
+    .. tip::
+
+        You can read more about Mautic's Security Team, what kind of security issues Mautic responds to, who's on the team, and how to report an issue in the :xref:`Mautic security team` section.
 
 .. vale on
