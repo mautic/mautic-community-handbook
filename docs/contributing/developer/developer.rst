@@ -22,17 +22,17 @@ Development is open to all members of the Mautic community. The codebase is open
 
 .. tip::
 
-    As a starting point, you can begin with :doc:`setting up your local environment </contributing/developer/local-environment-setup>`.
+    As a starting point, you can begin with :doc:`setting up your local environment </contributing/developer/local_environment_setup>`.
 
 Table of contents
 *****************
 
-* :doc:`/contributing/developer/local-environment-setup` 
+* :doc:`/contributing/developer/local_environment_setup` 
 * Code contributions
   * :doc:`/contributing/developer/bugs`
-  * :doc:`/contributing/developer/pull-requests`
-* :doc:`/contributing/developer/developer-documentation`
-* :doc:`/contributing/developer/community-reviews`
+  * :doc:`/contributing/developer/pull_requests`
+* :doc:`/contributing/developer/developer_documentation`
+* :doc:`/contributing/developer/community_reviews`
 
 Reporting security vulnerabilities
 **********************************
