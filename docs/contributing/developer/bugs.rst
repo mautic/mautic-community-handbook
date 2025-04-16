@@ -11,7 +11,7 @@ However, before submitting a bug:
 * You must make sure there are no problems with your local installation, such as permission problems, outdated cache, etc. For assistance, please refer to the Mautic's :xref:`Mautic troubleshooting` guide.
 * If you're unsure whether the problem is a bug, please ask for help first in the :xref:`Mautic Community Forums`.
 
-When you are confident that the problem is indeed a bug, please `create a new issue <https://github.com/mautic/mautic/issues/new/choose>`_ in the GitHub repository and provide as many details as possible (reproduction steps, Mautic/PHP versions, etc.).
+When you are confident that the problem is a bug, please `create a new issue <https://github.com/mautic/mautic/issues/new/choose>`_ in the GitHub repository and provide as many details as possible (reproduction steps, Mautic/PHP versions, etc.).
 
 .. vale off
 
