@@ -8,17 +8,17 @@ You might want to consider the following areas:
 * Finding and fixing bugs
 * Testing bug fixes and features
 * Reviewing code for bug fixes and features
-* Writing automated tests in areas where they're missing or could be improved
+* Writing automated tests in areas where they're missing or can be improved
 * Working on Strategic Initiatives to bring new features to Mautic
 * Joining a Tiger Team to focus on a particular area of Mautic
-* Create demo applications and plugins to encourage developers to work with Mautic
-* Write and improve the developer documentation
-* Write technical articles for the Mautic Community blog
+* Creating demo applications and plugins to encourage developers to work with Mautic
+* Writing and improving the developer documentation
+* Writing technical articles for the Mautic Community Blog
 
 Contributing to Mautic as a developer
 *************************************
 
-Development is open and available to any member of the Mautic community. All fixes and improvements must be done through pull requests to the code. This code is open source and publicly available.
+Development is open to all members of the Mautic community. The codebase is open source and publicly accessible. If you'd like to fix or improve the code, you must first make a pull request.
 
 .. tip::
 
@@ -41,6 +41,6 @@ Reporting security vulnerabilities
 
 .. warning::
 
- If you think that you have found a security vulnerability, please submit it privately as a `GitHub Advisory <https://github.com/mautic/mautic/security/advisories/new>`_ with as much detail as possible. The core team will review the vulnerability and, if found applicable, will create the patch in a private repository. The vulnerability will be disclosed once the patch has been included in a release. You can read more about our security processes in the :xref:`Mautic security team` section.
+ If you have found a security vulnerability, please report it by submitting a `GitHub Advisory form <https://github.com/mautic/mautic/security/advisories/new>`_ with as much detail as possible. The Core Team will review the vulnerability and, if found applicable, will create the patch in a private repository. The vulnerability will be disclosed once the patch has been included in a release. You can read more about Mautic security processes in the :xref:`Mautic security team` section.
 
 .. vale on
