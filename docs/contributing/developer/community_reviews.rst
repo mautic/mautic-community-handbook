@@ -57,7 +57,7 @@ Here are the steps to review a bug report:
 
 #. **Reproduce the bug**
 
-   You can :xref:`install Mautic` locally and test whether you're able to reproduce the bug on your system. If the reporter did not provide enough information, ask for clarification.
+   You can :doc:`set up your local environment </contributing/developer/local_environment_setup>` and test whether you're able to reproduce the bug on your system. If the reporter did not provide enough information, ask for clarification.
 
 #. **Leave a comment**
 
