@@ -23,7 +23,7 @@ To get started with one of the documentation repositories locally, it's advised 
 - Docker Desktop - All operating systems, :xref:`install Docker Desktop` - or Colima - Mac and Linux, :xref:`install Colima`
 - DDEV - :xref:`install DDEV`
 - VSCode - :xref:`install VSCode`
-- GitHub CLI - :xref:`install GitHub CLI`
+- GitHub CLI - :xref:`install GitHub command-line tool`
 - Vale linter - :xref:`install Vale`
 - Python 3 - :xref:`install Python`
 - Sphinx - ``pip3 install sphinx``

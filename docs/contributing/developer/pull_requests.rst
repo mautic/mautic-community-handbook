@@ -86,11 +86,7 @@ Get the Mautic source code
 
       git clone https://github.com/USERNAME/mautic.git
 
-.. vale off
-
-  Or, if you use the :xref:`GitHub CLI`, run:
-
-.. vale on
+  Or, if you use the :xref:`install GitHub command-line tool`, run:
 
     .. code-block:: bash
 
