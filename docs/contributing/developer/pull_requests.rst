@@ -61,9 +61,9 @@ Step 2: new feature? Review the roadmap & feature requests
 
     You can skip this section if you're not planning to build a new feature.
 
-Do you want to add a new feature to Mautic? Keep in mind that many people are requesting new features, so the Core Team can only add a limited amount of features in new releases.
+First, please keep in mind that many people are requesting new features. Therefore, the Core Team can only add a limited number of features to new releases.
 
-Please review the `Mautic's Roadmap <https://mautic.org/roadmap/>`_ and existing `Feature Requests <https://forum.mautic.org/c/ideas/14/l/latest?order=votes>`_ in the Community Forums to see if someone else has already suggested similar features and/or is already working on it. If not, please first create a new `Feature Request <https://forum.mautic.org/c/ideas/14/l/latest?order=votes>`_ in the relevant section so that the Community can discuss it before development work commences.
+If you'd like to propose a new feature, please review the `Mautic's Roadmap <https://mautic.org/roadmap/>`_ and existing `Feature Requests <https://forum.mautic.org/c/ideas/14/l/latest?order=votes>`_ in the Community Forums to see if someone else has already suggested similar features and/or is already working on it. If not, please first create a new `Feature Request <https://forum.mautic.org/c/ideas/14/l/latest?order=votes>`_ in the relevant section so that the Community can discuss it before development work commences.
 
 Features that don't fit within the direction of the Mautic Core goals are more than welcome as third-party Plugins instead. 
 
@@ -80,7 +80,7 @@ Get the Mautic source code
 
 * Create a `GitHub <https://github.com/join>`_ account and sign in
 * Fork the Mautic repository by clicking the "Fork" button
-* After the "forking action" has completed, clone your fork locally using the following command:
+* After the forking process has completed, clone your fork locally using the following command:
 
     .. code-block:: bash
 
@@ -104,7 +104,7 @@ Step 4: work on your pull request
 Choose the right branch
 =======================
 
-Before working on a PR, you must determine which branch you need to work on. Mautic follows `Semantic Versioning <https://semver.org/>`_, best illustrated by below example.
+Before working on a PR, you must determine which branch you need to work on. Mautic follows `Semantic Versioning <https://semver.org/>`_, best illustrated by the below example.
 
 Assuming that:
 
@@ -168,7 +168,7 @@ If you aren't using DDEV:
       cd mautic
       composer install
 
-* Open Mautic in your browser, for example by going to ``http://localhost/mautic`` depending on your environment, if you want to install in the UI. Follow the steps to :xref:`install Mautic` locally.
+* Open Mautic in your browser, for example, by going to ``http://localhost/mautic`` depending on your environment if you want to install it in the UI. Follow the steps to :xref:`install Mautic` locally.
 
 Create a topic branch
 =====================
@@ -271,24 +271,17 @@ That's where migrations come in handy. **Every time a User updates their Mautic 
 
 To create a migration, you can follow these steps:
 
-#. Run ``bin/console doctrine:migrations:generate`` in your terminal. Doctrine creates a new migration file for you:
+#. Run ``bin/console doctrine:migrations:generate`` in your terminal. Doctrine generates a new migration file for you.
 
-.. vale off
-
-    .. code-block:: bash
-
-      $ bin/console doctrine:migrations:generate 
-    Generated new migration class to "/var/www/html/app/migrations/Version20201017195540.php"
-
-.. vale on
-
-#. Open the file that you created. You should see two functions, ``preUp()`` and ``up()``.
+#. Open the file by following the generated file path that you can find in your terminal after running the generate command. You should see two functions, ``preUp()`` and ``up()``.
 
    * ``preUp()`` allows you to define scenarios where the migration should or shouldn't run. For example, only when a certain database table exists.
     
    * ``up()`` runs the actual migration and allows you to make changes in Mautic's database. You can either take inspiration from other migrations in the ``app/migrations`` folder or learn more about migrations in the `Doctrine's documentation <https://symfony.com/bundles/DoctrineMigrationsBundle/current/index.html>`_.
 
-#. When you're done, test your migrations by running ``migrations:execute --up VERSION``. If all looks good, you can roll back your changes with ``migrations:execute --down VERSION``.
+#. When you're done, test your migrations by running ``migrations:execute --up VERSION``.
+
+#. If all looks good, roll back your changes with ``migrations:execute --down VERSION``.
 
 .. tip::
 
@@ -303,14 +296,14 @@ You're almost ready to submit your PR. There are three things you still need to 
 #. Developer documentation
 #. Writing tests
 
-In order to keep Mautic stable and easy to maintain, there is a hard requirement to apply the appropriate Code Standards and to write automated tests. Mautic can't accept features and/or enhancements without appropriate tests, as it would impact its stability. Why? When you try to build something in a specific part of Mautic, you might accidentally break another part of Mautic. With automated tests, which cover most aspects of Mautic, it's possible to prevent this as much as possible.
+In order to keep Mautic stable and easy to maintain, there is a hard requirement to apply the appropriate code standards and to write automated tests. Mautic can't accept features and/or enhancements without appropriate tests, as it would impact its stability. Why? When you try to build something in a specific part of Mautic, you might accidentally break another part of Mautic. With automated tests, which cover most aspects of Mautic, it's possible to prevent this as much as possible.
 
 Code standards
 ==============
 
 .. vale off
 
-Mautic follows `Symfony's coding standards <http://symfony.com/doc/current/contributing/code/standards.html>`_ by implementing pre-commit git hook running `php-cs-fixer <https://github.com/friendsofphp/php-cs-fixer>`_. The commands ``composer install`` and ``composer update`` installs and updates this automatically.
+Mautic follows `Symfony's coding standards <http://symfony.com/doc/current/contributing/code/standards.html>`_ by implementing pre-commit git hook running `php-cs-fixer <https://github.com/friendsofphp/php-cs-fixer>`_. The commands ``composer install`` and ``composer update`` install and update this automatically.
 
 .. vale on
 
@@ -328,7 +321,7 @@ Each new feature should include a reference to a PR in the `mautic/developer-doc
 Writing tests
 =============
 
-All code contributions - especially enhancements/features - should include adequate and appropriate unit tests using `PHPUnit <https://phpunit.de/manual/5.7/en/index.html>`_ and/or `Symfony functional tests <https://symfony.com/doc/2.8/testing.html>`_. The Core Team won't merge PRs without these tests. See below for more extensive information on Automated Tests.
+All code contributions - especially enhancements/features - should include adequate and appropriate unit tests using `PHPUnit <https://phpunit.de/manual/5.7/en/index.html>`_ and/or `Symfony functional tests <https://symfony.com/doc/2.8/testing.html>`_. The Core Team won't merge PRs without these tests. See the :ref:`Automated testing` section for more extensive information.
 
 Step 7: submit your pull request
 ********************************
@@ -382,7 +375,7 @@ You can now make a PR on the  :xref:`Mautic GitHub repository`.
 
     Take care to point your PR towards ``mautic:4.0`` if you want the Core Team to pull a bug fix based on the ``4.0`` branch.
 
-To ease the Core Team work, always include what you have modified in your PR message and provide steps to test your fix/feature. Keep in mind that not all testers have a thorough knowledge of Mautic's features, nor are they all likely to be developers; therefore, clear testing steps are crucial.
+To ease the Core Team work, always include what you have modified in your PR message and provide steps to test your fix or feature. Keep in mind that not all testers have a thorough knowledge of Mautic's features, nor are they all likely to be developers. Therefore, clear testing steps are crucial.
 
 Step 8: receiving feedback
 **************************
@@ -396,7 +389,7 @@ The `Product Team <https://contribute.mautic.org/product-team>`_ decides which P
 Rework your pull request
 ========================
 
-Based on the feedback on your PR, you might need to make some changes. Before re-submitting the PR, rebase with ``upstream/4.x`` or ``upstream/4.4`` as appropriate - *don't merge* - and force the push to the origin:
+Based on the feedback on your PR, you might need to make some changes. Before re-submitting the PR, rebase with ``upstream/4.x`` or ``upstream/4.4`` as appropriate - but *don't merge* - and force the push to the origin:
 
 .. code-block:: bash
 
@@ -503,6 +496,6 @@ Mautic uses `PHPSTAN <https://github.com/phpstan/phpstan>`_ for some of its part
 
 .. vale off
 
-Mautic can't have PHPSTAN as its dev dependency, because it requires PHP7+. To execute analysis on a specific bundle, run ``~/.composer/vendor/phpstan/phpstan-shim/phpstan.phar analyse app/bundles/*Bundle``.
+Mautic can't have PHPSTAN as its dev dependency because it requires PHP7+. To execute analysis on a specific bundle, run ``~/.composer/vendor/phpstan/phpstan-shim/phpstan.phar analyse app/bundles/*Bundle``.
 
 .. vale on
