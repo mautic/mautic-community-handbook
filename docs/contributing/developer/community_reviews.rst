@@ -28,7 +28,7 @@ Things you need to check in an issue or PR:
 
 .. vale on
 
-Explore the `Mautic issue tracker <https://github.com/mautic/mautic/issues>`_ to find new issues you can help triage. If you want to contribute by testing features and bug fixes, seek PRs with the label ``\`ready-to-test <https://github.com/mautic/mautic/labels/ready-to-test>`_\``.
+Explore the `Mautic issue tracker <https://github.com/mautic/mautic/issues>`_ to find new issues you can help triage. If you want to contribute by testing features and bug fixes, seek PRs with the label `ready-to-test <https://github.com/mautic/mautic/labels/ready-to-test>`_.
 
 .. note::
 
