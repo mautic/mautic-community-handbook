@@ -221,7 +221,7 @@ Any change that may break a Plugin either using or extending a class. As Mautic 
 
 Examples:
 
-* Removing or renaming a public or protected method in a non-final class. Create a new method instead and mark the old one `deprecated <https://contribute.mautic.org/governance/code-governance/deprecation-policy>`_.
+* Removing or renaming a public or protected method in a non-final class. Create a new method instead and mark the old one `deprecated </contributing/governance/code-governance/deprecation-policy>`.
 * Changing the signature of a private or public method in a non-final class. This means adding or removing method parameters or adding or changing parameters or return types. Create a new method instead and mark the old one deprecated.
 * Changing the behavior of a method so it does something differently.
 * Adding a new method to an existing interface. Create a new interface instead.
@@ -259,7 +259,7 @@ Sometimes, a PR needs a migration. An example is when updating a country's regio
 
 Say a region contains a typo, where ``Colmbra`` should be ``Coimbra``. What if the Mautic instance already has values in the database with the old value ``Colmbra``? 
 
-That's where migrations come in handy. **Every time a User updates their Mautic instance, migrations run automatically**.
+That's where migrations come in handy because every time a User updates their Mautic instance, migrations run automatically.
 
 .. note::
 
@@ -269,7 +269,7 @@ To create a migration, you can follow these steps:
 
 #. Run ``bin/console doctrine:migrations:generate`` in your terminal. Doctrine generates a new migration file for you.
 
-#. Open the file by following the generated file path that you can find in your terminal after running the generate command. You should see two functions, ``preUp()`` and ``up()``.
+#. Open the file by following the path that you can find in your terminal after running the generate command. In this file, you should see two functions, ``preUp()`` and ``up()``:
 
    * ``preUp()`` allows you to define scenarios where the migration should or shouldn't run. For example, only when a certain database table exists.
     
@@ -402,7 +402,7 @@ Step 9: testing
 Pull request testing
 ====================
 
-If you want to test a PR from other developers, see [Testing Pull Requests][testing-prs]. If you want to test a PR from other developers, see [Testing Pull Requests][testing-prs]. All PRs require testing by others in the Community, and must have the code reviewed by a member of the Core Team. Read more information in the [code governance][code-governance] section.
+If you want to test a PR from other developers, see the :doc:`/contributing/developer/community_reviews#the-pull-request-review-process`. All PRs require testing by others in the Community, and must have the code reviewed by a member of the Core Team. Read more information in the :doc:`/contributing/governance/code-governance` section.
 
 Automated testing
 =================
