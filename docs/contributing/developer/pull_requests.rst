@@ -229,7 +229,7 @@ Examples:
 * Changing the signature of a private or public method in a non-final class. This means adding or removing method parameters or adding or changing parameters or return types. Create a new method instead and mark the old one deprecated.
 * Changing the behavior of a method so it does something differently.
 * Adding a new method to an existing interface. Create a new interface instead.
-* Whenever you change a TWIG template, think about the Themes that are overwriting this template. For example, changing the template name can cause issues.
+* Whenever you change a `Twig template <https://twig.symfony.com/>`_, think about the Themes that are overwriting this template. For example, changing the template name can cause issues.
 
 .. vale off
 
