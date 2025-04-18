@@ -25,47 +25,26 @@ The vision is that it grows over time as the teams and governance structure evol
 
 .. toctree::
    :maxdepth: 2
-   :caption: Policies
+   :caption: Community Leadership
+   :hidden:
+
+   community_leadership/community_leadership
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Governance
+   :hidden:
+
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Code of Conduct
    :hidden:
 
    policies/code_of_conduct/code_of_conduct
- 
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Policies
-   :hidden:
-
    policies/code_of_conduct/code_of_conduct_breaches
-
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Teams
-   :hidden:
-
-   teams/legal_and_finance_team
-   teams/community_team/community_team
-   teams/product_team/product_team_overview
-   teams/education_team/education_team
-   
-.. toctree::
-   :maxdepth: 2
-   :caption: Policies
-   :hidden:
-
-   policies/request_for_proposals_(RFP)_process
    policies/recognizing_contributors_sponsors_and_partners
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contributing
-   :hidden:
-
-   contributing/designer
-   contributing/google_summer_of_code
-   contributing/mautic_bounty_programme
-   contributing/contributing_docs_rst
 
 .. toctree::
    :maxdepth: 2
@@ -79,10 +58,33 @@ The vision is that it grows over time as the teams and governance structure evol
    resources/meetings/asynchronous_meetings
    resources/meetings/preparing_and_running_meetings
 
+.. toctree::
+   :maxdepth: 2
+   :caption: On-boarding
+   :hidden:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Community Leadership
+   :caption: Teams
    :hidden:
 
-   community_leadership/community_leadership
+   teams/legal_and_finance_team
+   teams/community_team/community_team
+   teams/product_team/product_team_overview
+   teams/product_team/request_for_proposals_(RFP)_process
+   teams/education_team/education_team
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Contributing
+   :hidden:
+
+   contributing/designer
+   contributing/google_summer_of_code
+   contributing/mautic_bounty_programme
+   contributing/contributing_docs_rst
+
+
+
+
+
