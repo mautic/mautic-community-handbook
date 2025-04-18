@@ -62,6 +62,7 @@ The vision is that it grows over time as the teams and governance structure evol
    :caption: On-boarding
    :hidden:
 
+   onboarding/onboarding
 
 .. toctree::
    :maxdepth: 2

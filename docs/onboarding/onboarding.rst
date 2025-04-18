@@ -26,12 +26,6 @@ Anybody contributing to Mautic teams needs a Google Account to save their work i
 
 The Mautic Community use Jira for task management in all teams. Go to :xref:`mautic.atlassian.net` and sign up for a new account free of charge. If you need any help please ask in #community on Slack.
 
-.. vale on
-
-Anybody making code-based contributions needs to sign the Mautic Contributors Agreement, and they can complete it online in :xref:`Contributor agreement`.
-
-.. vale off
-
 Anybody involved with code, QA, testing, or providing feedback needs a GitHub account, sign up at :xref:`github.com`.
 
 .. vale on
