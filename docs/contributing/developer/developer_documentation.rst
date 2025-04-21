@@ -4,13 +4,13 @@ Developer documentation
 Contributing to the developer documentation
 *******************************************
 
-Developer documentation is available at :xref:`Developer Docs` and is generated using reStructuredText (RST).
-
 .. vale off
+
+Thank you for being so interested in helping improve Mautic's :xref:`Developer Docs`. Mautic's documentation is hosted on the `Read the Docs platform <https://about.readthedocs.com/?ref=readthedocs.org>`_ and generated using `reStructuredText (RST) <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_.
 
 .. warning::
 
-    The Developer documentation is currently in the process of being updated and re-platformed. If you'd like to help with this, please check the issues in the :xref:`Developer Docs GitHub`.
+    The Developer documentation is currently being updated and re-platformed. If you'd like to help with this, please check the issues in the :xref:`Developer Docs GitHub`.
 
 .. vale on
 
@@ -27,29 +27,30 @@ Before your first contribution
 
 Before contributing, you need to:
 
-* Sign up for a free `GitHub account <https://github.com/signup>`_, which is the service where the Mautic documentation is hosted.
-* Be familiar with the `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_ markup language, which is used by the Mautic documentation.
+* Sign up for a free `GitHub account <https://github.com/signup>`_.
+* Get familiar with the `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_ markup language.
 
 Your first documentation contribution
 =====================================
 
-In this section, you'll learn how to contribute to the Mautic documentation for the first time.
-
-Imagine that you want to improve some details on Mautic's Categories in the REST API documentation. In order to make your changes, follow instructions below.
+In this section, you'll learn how to contribute to the Mautic's Developer Documentation for the first time.
 
 Forking and cloning a repository
 --------------------------------
 
-If you're new to open source, you might want to familiar yourself with some open source terms.
+Before contributing, you must go to the `Developer Documentation repository <https://github.com/mautic/developer-documentation-new?tab=readme-ov-file>`_ on GitHub, fork, and clone it. Follow these steps to fork and clone the repository:
 
-"Fork" means creating a copy of the original repository (usually refers as ``upstream``) to your GitHub account. Your forked repository is usually referred as ``origin`` repository. While "clone" means creating a copy of a repository to your local machine.
-
-#. Go to the official Mautic documentation repository located at :xref:`Developer Docs GitHub` and click the "Fork" button on the top right.
+#. Click the "Fork" button on the top right.
 
    .. image:: ../images/fork_button_github.png
      :width: 600
-     :align: center
      :alt: Fork button on GitHub
+
+   .. vale off
+
+   "Fork" means copying the original repository (Mautic's Developer Documentation) to your GitHub account. The original repository is usually known as ``upstream``, while your forked repository is called the ``origin`` repository.
+
+   .. vale on
 
 #. Click the green "Code" button and copy the URL of your forked repository.
 
@@ -63,6 +64,8 @@ If you're new to open source, you might want to familiar yourself with some open
    .. code-block:: bash
 
      git clone https://github.com/YOUR-GITHUB-USERNAME/developer-documentation-new.git
+
+   "Clone" means creating a copy of a repository for your local machine.
 
 Creating a new branch and working on changes
 --------------------------------------------
@@ -90,7 +93,7 @@ Now follow the steps below to create a new branch and work on your changes:
 
      git checkout -b fix_1234
    
-   In this example, the ``checkout -b`` command tells Git to create a new branch called ``fix_1234`` and automatically switch to this branch. However, you want to make sure that you're in the right branch by running ``git status``.
+   In this example, the ``checkout -b`` command tells Git to create a new branch called ``fix_1234`` and automatically switch to this branch. However, you want to ensure you're in the right branch by running ``git status``.
 
 #. Open the file you want to work on, make the changes, and do your best to comply with the documentation standards. Then, add, commit, and push your changes to the remote repository.
 
@@ -127,27 +130,29 @@ Creating a pull request
      :align: center
      :alt: Compare & pull request button on GitHub
 
-#. Write a title and a description for your PR. A short phrase or paragraph describing the proposed changes is enough to ensure that your contribution can be reviewed.
+#. Provide a title and a description for your PR. A brief phrase or paragraph detailing the proposed changes is enough to facilitate the review of your contribution.
 #. Click the green "Create pull request" button at the bottom.
 
 .. vale off
 
-You've successfully submitted your first contribution to the Mautic Developer documentation. Congratulations!
+You've successfully submitted your first contribution to the Mautic's Developer Documentation. Congratulations!
 
-The documentation managers will carefully review your work. They will either appprove and merge your PR or let you know if you need to make some changes.
+The documentation managers will carefully review your work. They will either approve and merge your PR or let you know if you need to make changes.
 
 .. vale on
 
-In case you are asked to add or modify something, you don't need to create a new PR. What you need to do:
+You don't need to create a new PR if the reviewer asks you to add or modify something. You can make the changes on the same branch that you pushed. Here is how you do it:
 
-* Run ``git status`` to make sure that you are on the correct branch.
+* Run ``git status`` to ensure you are on the correct branch.
 * Make your changes.
 * Add, commit, and push your changes.
 
 Your next documentation contributions
 =====================================
 
-To make your next contribution, you don't need to fork and clone the ``upstream`` repository. You only need to follow the steps starting from the :ref:`Creating a new branch and working on changes` section.
+Since you already have a copy of the Mautic's Developer Documentation repository in your GitHub account and on your local machine, you don't need to fork and clone the repository for your next contribution.
+
+To make another contribution, follow the steps from the section on :ref:`Creating a new branch and working on changes` until you reach the :ref:`Creating a pull request` section.
 
 Build the documentation locally
 ===============================
