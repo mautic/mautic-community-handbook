@@ -122,7 +122,7 @@ You're now ready to initiate a pull request (PR).
 Creating a pull request
 -----------------------
 
-#. Go to your forked repository at ``https://github.com/YOUR-GITHUB-USERNAME/developer-documentation-new``.
+#. Go to your forked repository on GitHub.
 #. Click the green "Compare & pull request" button in the orange banner at the top.
 
    .. image:: ../images/compare_pull_request_button.png
