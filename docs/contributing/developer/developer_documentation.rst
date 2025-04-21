@@ -40,10 +40,24 @@ Imagine that you want to improve some details on Mautic's Categories in the REST
 Forking and cloning a repository
 --------------------------------
 
-For you who are new to open source, you might not know what do "fork" and "clone" mean. "Fork" means creating a copy of the original repository (usually refers as ``upstream``) to your GitHub account. Your forked repository is usually referred as ``origin`` repository. While "clone" means creating a copy of a repository to your local machine.
+If you're new to open source, you might want to familiar yourself with some open source terms.
+
+"Fork" means creating a copy of the original repository (usually refers as ``upstream``) to your GitHub account. Your forked repository is usually referred as ``origin`` repository. While "clone" means creating a copy of a repository to your local machine.
 
 #. Go to the official Mautic documentation repository located at :xref:`Developer Docs GitHub` and click the "Fork" button on the top right.
+
+   .. image:: ../images/fork_button_github.png
+     :width: 600
+     :align: center
+     :alt: Fork button on GitHub
+
 #. Click the green "Code" button and copy the URL of your forked repository.
+
+   .. image:: ../images/copy_url_github.png
+     :width: 600
+     :align: center
+     :alt: Green code button and repository URL on GitHub
+
 #. Clone the forked repository to your local machine.
 
    .. code-block:: bash
@@ -54,6 +68,11 @@ Creating a new branch and working on changes
 --------------------------------------------
 
 You always want to create a new branch from the default branch of a repository. To know the default branch of a repository, click the dropdown menu at the top left. Then click the branch that has a "default" label to set it.
+
+.. image:: ../images/repository_default_branch.png
+  :width: 600
+  :align: center
+  :alt: Branches dropdown menu showing default branch on GitHub
 
 Now follow the steps below to create a new branch and work on your changes:
 
@@ -89,7 +108,7 @@ Now follow the steps below to create a new branch and work on your changes:
      git commit -m "add a detail in categories.rst"
      git push -u origin fix_1234
 
-   This commands tell Git to:
+   These commands tell Git to:
    
    * add the changes in the file onto the staging area,
    * save the changes in the file by committing the changes and record the changes with the commit message,
@@ -100,15 +119,22 @@ You're now ready to initiate a pull request (PR).
 Creating a pull request
 -----------------------
 
-#. Go to your forked repository at ``https://github.com/YOUR-GITHUB-USERNAME/developer-documentation-new``. Click the green "Compare & pull request" button on the orange banner at the top.
-#. Write a title and a description of the PR. A short phrase or paragraph describing the proposed changes is enough to ensure that your contribution can be reviewed.
+#. Go to your forked repository at ``https://github.com/YOUR-GITHUB-USERNAME/developer-documentation-new``.
+#. Click the green "Compare & pull request" button in the orange banner at the top.
+
+   .. image:: ../images/compare_pull_request_button.png
+     :width: 600
+     :align: center
+     :alt: Compare & pull request button on GitHub
+
+#. Write a title and a description for your PR. A short phrase or paragraph describing the proposed changes is enough to ensure that your contribution can be reviewed.
 #. Click the green "Create pull request" button at the bottom.
 
 .. vale off
 
 You've successfully submitted your first contribution to the Mautic Developer documentation. Congratulations!
 
-The documentation managers will carefully review your work. They will either merge your PR or let you know if you need to make some changes.
+The documentation managers will carefully review your work. They will either appprove and merge your PR or let you know if you need to make some changes.
 
 .. vale on
 
