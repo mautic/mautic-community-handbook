@@ -6,11 +6,11 @@ Contributing to the developer documentation
 
 .. vale off
 
-Thank you for being so interested in helping improve Mautic's :xref:`Developer Docs`. Mautic's documentation is hosted on the `Read the Docs platform <https://about.readthedocs.com/?ref=readthedocs.org>`_ and generated using `reStructuredText (RST) <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_.
+Thank you for being so interested in helping improve Mautic's :xref:`Developer Docs`. Mautic's Developer Documentation is hosted on the `Read the Docs platform <https://about.readthedocs.com/?ref=readthedocs.org>`_ and generated using `reStructuredText (RST) <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_.
 
 .. warning::
 
-    The Developer documentation is currently being updated and re-platformed. If you'd like to help with this, please check the issues in the :xref:`Developer Docs GitHub`.
+    The Developer Documentation is currently being updated and re-platformed. If you'd like to help with this, please check the issues in the :xref:`Developer Docs GitHub`.
 
 .. vale on
 
