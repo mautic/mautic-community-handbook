@@ -10,7 +10,7 @@ Developer documentation is available at :xref:`Developer Docs` and is generated 
 
 .. warning::
 
-    We are currently in the process of updating and re-platforming our developer documentation. If you'd like to help with this, please check the issues in the :xref:`Developer Docs GitHub`.
+    The Developer documentation is currently in the process of being updated and re-platformed. If you'd like to help with this, please check the issues in the :xref:`Developer Docs GitHub`.
 
 .. vale on
 
@@ -28,81 +28,108 @@ Before your first contribution
 Before contributing, you need to:
 
 * Sign up for a free `GitHub account <https://github.com/signup>`_, which is the service where the Mautic documentation is hosted.
-* Be familiar with the `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_ markup languange, which is used by the Mautic documentation.
+* Be familiar with the `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_ markup language, which is used by the Mautic documentation.
 
 Your first documentation contribution
 =====================================
 
-In this section, you'll learn how to contribute to the Mautic documentation for the first time. The next section will explain the shorter process you'll follow in the future for every contribution after your first one.
+In this section, you'll learn how to contribute to the Mautic documentation for the first time.
 
-Let's imagine that you want to improve the REST API documentation. In order to make your changes, follow these steps:
+Imagine that you want to improve some details on Mautic's Categories in the REST API documentation. In order to make your changes, follow instructions below.
 
-#. Go to the official Mautic documentation repository located at :xref:`Developer Docs GitHub` and click on the "Fork" button to fork the repository to your personal account. This is only needed the first time you contribute to Mautic.
-#. Clone the forked repository to your local machine:
+Forking and cloning a repository
+--------------------------------
 
-    .. code-block:: bash
+For you who are new to open source, you might not know what do "fork" and "clone" mean. "Fork" means creating a copy of the original repository (usually refers as ``upstream``) to your GitHub account. Your forked repository is usually referred as ``origin`` repository. While "clone" means creating a copy of a repository to your local machine.
 
-        git clone https://github.com/YOUR-GITHUB-USERNAME/developer-documentation-new.git
+#. Go to the official Mautic documentation repository located at :xref:`Developer Docs GitHub` and click the "Fork" button on the top right.
+#. Click the green "Code" button and copy the URL of your forked repository.
+#. Clone the forked repository to your local machine.
 
-#. Create a dedicated new branch for your changes. Use a short and memorable name for the new branch. If you are fixing a reported issue, use ``fix_XXX`` as the branch name, where "XXX" is the number of the issue:
+   .. code-block:: bash
 
-    .. code-block:: bash
+     git clone https://github.com/YOUR-GITHUB-USERNAME/developer-documentation-new.git
 
-        git checkout -b fix_1234 upstream/main
+Creating a new branch and working on changes
+--------------------------------------------
 
-   In this example, the name of the branch is ``fix_1234`` and the ``upstream/main`` value tells Git to create this branch based on the ``main`` branch of the "upstream" remote, which is the original Mautic Developer Documentation repository.
+You always want to create a new branch from the default branch of a repository. To know the default branch of a repository, click the dropdown menu at the top left. Then click the branch that has a "default" label to set it.
 
-#. Now make your changes in the documentation. The files are located in ``source/includes``. Add, tweak, reword and even remove any content and do your best to comply with the documentation standards. Then, commit and push your changes.
+Now follow the steps below to create a new branch and work on your changes:
 
-    .. code-block:: bash
+#. Create a new branch to work on your changes from the default branch.
 
-        git add _api_authorization.md
-        git commit _api_authorization.md
-        git push
+   Use a short and descriptive name for the new branch. For example, if you are working on an issue, use ``fix_XXX`` as the branch name, where "XXX" is the number of the issue.
 
-#. Everything is now ready to initiate a pull request (PR). Go to your forked repository at ``https://github.com/YOUR-GITHUB-USERNAME/developer-documentation-new`` and click on the "Pull requests" link located in the sidebar. Then, click on the green "New pull request" button.
+   .. code-block:: bash
 
-#. Now let's prepare the description of the PR. A short phrase or paragraph describing the proposed changes is enough to ensure that your contribution can be reviewed.
+     git checkout -b BRANCH_NAME
+
+   For example:
+
+   .. code-block:: bash
+
+     git checkout -b fix_1234
+   
+   In this example, the ``checkout -b`` command tells Git to create a new branch called ``fix_1234`` and automatically switch to this branch. However, you want to make sure that you're in the right branch by running ``git status``.
+
+#. Open the file you want to work on, make the changes, and do your best to comply with the documentation standards. Then, add, commit, and push your changes to the remote repository.
+
+   .. code-block:: bash
+
+     git add FILE_PATH
+     git commit -m "your commit message"
+     git push -u origin BRANCH_NAME
+
+   For example:
+
+   .. code-block:: bash
+
+     git add docs/rest_api/categories.rst
+     git commit -m "add a detail in categories.rst"
+     git push -u origin fix_1234
+
+   This commands tell Git to:
+   
+   * add the changes in the file onto the staging area,
+   * save the changes in the file by committing the changes and record the changes with the commit message,
+   * bring all changes in the ``fix_1234`` branch to your forked repository by pushing it from your local machine to the ``origin`` remote repository.
+
+You're now ready to initiate a pull request (PR).
+
+Creating a pull request
+-----------------------
+
+#. Go to your forked repository at ``https://github.com/YOUR-GITHUB-USERNAME/developer-documentation-new``. Click the green "Compare & pull request" button on the orange banner at the top.
+#. Write a title and a description of the PR. A short phrase or paragraph describing the proposed changes is enough to ensure that your contribution can be reviewed.
+#. Click the green "Create pull request" button at the bottom.
 
 .. vale off
 
 You've successfully submitted your first contribution to the Mautic Developer documentation. Congratulations!
 
+The documentation managers will carefully review your work. They will either merge your PR or let you know if you need to make some changes.
+
 .. vale on
 
-The documentation managers will carefully review your work in short time and they will let you know about any required change. In case you are asked to add or modify something, you don't need to create a new PR. Instead, make sure that you are on the correct branch, make your changes there, and push the new changes.
+In case you are asked to add or modify something, you don't need to create a new PR. What you need to do:
+
+* Run ``git status`` to make sure that you are on the correct branch.
+* Make your changes.
+* Add, commit, and push your changes.
 
 Your next documentation contributions
 =====================================
 
-Your first contribution took a little extra time because you needed to learn a few standards and setup your local environment. But from now on, your contributions will be much easier to complete.
-
-Here is a checklist of steps that will guide you through your next contribution to the Mautic documentation:
-
-.. code-block:: bash
-
-    # Create a new branch
-    git fetch upstream
-    git checkout -b my_changes upstream/master
-
-    # ... do your changes
-
-    # (optional) add your changes if this is new content
-    git add xxx.md
-
-    # commit your changes and push them to your fork
-    git commit xxx.md
-    git push origin my_changes
-
-    # go to GitHub and create your Pull Request
-
-    # (optional) make the changes requested by reviewers and commit them
-    git commit xxx.md
-    git push
+To make your next contribution, you don't need to fork and clone the ``upstream`` repository. You only need to follow the steps starting from the :ref:`Creating a new branch and working on changes` section.
 
 Build the documentation locally
 ===============================
 
+.. vale off
+
 .. note::
 
-    We will add instructions for building the documentation locally at a later stage.
+    The instructions for building the documentation locally will be added at a later stage.
+
+.. vale on
