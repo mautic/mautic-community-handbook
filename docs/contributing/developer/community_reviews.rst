@@ -85,4 +85,4 @@ Every change to Mautic core happens via PRs. Every PR must have a number of succ
 
 .. note::
 
- We're planning to provide more thorough guidelines for reviewing bug reports and pull requests in the near future. If you want to contribute, please click the "Edit this page on GitHub" link at the bottom.
+   The Education Team plans to provide more thorough guidelines for reviewing bug reports and PRs in the near future. If you want to contribute, please click the "Edit this page on GitHub" link at the bottom.
