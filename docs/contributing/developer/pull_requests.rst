@@ -402,7 +402,7 @@ Step 9: testing
 Pull request testing
 ====================
 
-If you want to test a PR from other developers, see the :doc:`/contributing/developer/community_reviews#the-pull-request-review-process`. All PRs require testing by others in the Community, and must have the code reviewed by a member of the Core Team. Read more information in the :doc:`/contributing/governance/code-governance` section.
+If you want to test a PR from other developers, see the :ref:`PR review process` section. All PRs require testing by others in the Community, and must have the code reviewed by a member of the Core Team. Read more information in the :doc:`/contributing/governance/code-governance` section.
 
 Automated testing
 =================
