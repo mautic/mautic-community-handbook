@@ -71,6 +71,8 @@ Here are the steps to review a bug report:
 
     .. vale on
 
+.. _PR review process:
+
 The pull request review process
 *******************************
 
