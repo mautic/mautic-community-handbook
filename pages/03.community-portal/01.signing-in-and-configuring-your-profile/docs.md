@@ -49,7 +49,7 @@ It's important to set your timezone, because then events will show on the portal
 
 Scroll to the bottom of the page, and select your timezone from the dropdown. Dates and times will now show in your local timezone.
 
-![set-timezone](set-timezone.png "set-timezone")
+![set-timezone](set-timezone-portal.png "set-timezone")
 
 ## Claiming membership
 
