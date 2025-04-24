@@ -33,12 +33,12 @@ Before contributing, you need to:
 Your first documentation contribution
 =====================================
 
-In this section, you'll learn how to contribute to the Mautic's Developer Documentation for the first time.
+In this section, you'll learn how to contribute to Mautic's Developer Documentation for the first time.
 
 Forking and cloning a repository
 --------------------------------
 
-Before contributing, you must go to the `Developer Documentation repository <https://github.com/mautic/developer-documentation-new?tab=readme-ov-file>`_ on GitHub, fork, and clone it. Follow these steps to fork and clone the repository:
+Before contributing, go to the `Developer Documentation repository <https://github.com/mautic/developer-documentation-new?tab=readme-ov-file>`_ on GitHub, fork, and clone it. Follow these steps to fork and clone the repository:
 
 #. Click the "Fork" button on the top right.
 
@@ -150,9 +150,11 @@ You don't need to create a new PR if the reviewer asks you to add or modify some
 Your next documentation contributions
 =====================================
 
-Since you already have a copy of the Mautic's Developer Documentation repository in your GitHub account and on your local machine, you don't need to fork and clone the repository for your next contribution.
+Since you already have a copy of Mautic's Developer Documentation repository in your GitHub account and on your local machine, you don't need to fork and clone the repository for your next contribution.
 
 To make another contribution, follow the steps from the section on :ref:`Creating a new branch and working on changes` until you reach the :ref:`Creating a pull request` section.
+
+What you need to do differently is when you push your changes, run ``git push`` because the branch now exists in the remote repository after you executed ``git push -u origin fix_1234``.
 
 Build the documentation locally
 ===============================
