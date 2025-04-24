@@ -16,13 +16,13 @@ Mautic is an open source project driven by a large community. If you don't feel 
 Why reviewing is important
 **************************
 
-Community reviews are essential for developing Mautic since there are many more PRs and bug reports than members in the Mautic core team to review, fix, and merge them.
+Community reviews are essential for developing Mautic since there are many more PRs and bug reports than members in the Mautic Core Team to review, fix, and merge them.
 
-Things you need to check in an issue or PR:
-
-* **Bug Reports**: Ensure the accuracy and completeness of the issue. Can you reproduce the bug? Is any important information missing?
+Things you need to pay attention to when reviewing an issue or PR:
 
 .. vale off
+
+* **Bug Reports**: Ensure the accuracy and completeness of the issue. Can you reproduce the bug? Is any important information missing?
 
 * **PRs**: PRs contain code that fixes bugs or implements new functionality. When you review a PR, you want to ensure that the fixes or enhancements are implemented correctly and covered by test cases, that new bugs aren't introduced, and that backward compatibility is maintained.
 
@@ -37,7 +37,7 @@ Explore the `Mautic issue tracker <https://github.com/mautic/mautic/issues>`_ to
 Be constructive
 ***************
 
-Before you start, remember that you are reviewing the results of someone else's hard work. A good review comment should express appreciation for the contributor's effort, acknowledge what they did well, point out areas for improvement, and suggest a next step.
+Before you start, remember that you are reviewing the results of someone hard work. A good review comment should express appreciation for the contributor's effort, acknowledge what they did well, point out areas for improvement, and suggest a next step.
 
 Create a GitHub account
 ***********************
@@ -65,20 +65,23 @@ Here are the steps to review a bug report:
 
 ..
 
-    Thank you, @mautibot, for creating this bug report! I could reproduce the bug on my end. Feel free to claim this issue if you want to work on it.
+   .. vale off
+
+    Thank you, @mautibot, for creating this bug report. I could reproduce the bug on my end. Feel free to claim this issue if you want to work on it.
+
+    .. vale on
 
 The pull request review process
 *******************************
 
 Every change to Mautic core happens via PRs. Every PR must have a number of successful tests and code reviews to be merged to the core and released in the next version - the number required depends on the :doc:`tier of the PR </contributing/governance/code-governance>`. Testing a PR is a great way to move Mautic forward and personally improve its quality and stability.
 
-#. `Select a PR <https://github.com/mautic/mautic/pulls>`_ to test.
-#. Read the description and steps to test. If it's a bug fix, follow the steps to ensure you can recreate the issue.
-#. Use the development environment (above) for testing.
-#. `Apply the PR <https://help.github.com/articles/checking-out-pull-requests-locally/#modifying-an-inactive-pull-request-locally>`_
-#. Clear cache for the development environment (``rm -rf var/cache/*`` or ``bin/console cache:clear -e dev``).
-#. Follow the steps from the PR description again to see if the result is as described.
-#. Write a comment about how the test went. If there is a problem, provide as much information as possible, including error log messages.
+#. `Select a PR <https://github.com/mautic/mautic/pulls>`_ to test
+#. Read the description and steps to test. If it's a bug fix, follow the steps to ensure you can recreate the issue
+#. `Pull the PR <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally#modifying-an-active-pull-request-locally>`_ to your local machine to use the development environment for testing
+#. Clear cache for the development environment by running the ``rm -rf var/cache/*`` or ``bin/console cache:clear -e dev`` command
+#. Follow the steps from the PR description again to see if the result is exactly as described
+#. `Submit a review <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request#submitting-your-review>`_ in the PR. If there is a problem, provide as much information as possible, including error log messages
 
 .. note::
 
