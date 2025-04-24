@@ -29,8 +29,9 @@ Table of contents
 
 * :doc:`/contributing/developer/local_environment_setup` 
 * Code contributions
-  * :doc:`/contributing/developer/bugs`
-  * :doc:`/contributing/developer/pull_requests`
+  
+   * :doc:`/contributing/developer/bugs`
+   * :doc:`/contributing/developer/pull_requests`
 * :doc:`/contributing/developer/developer_documentation`
 * :doc:`/contributing/developer/community_reviews`
 
