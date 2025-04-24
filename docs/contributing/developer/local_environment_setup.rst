@@ -126,4 +126,4 @@ Regarding assets like JavaScript and CSS, the source files are loaded instead of
 
 In many cases, the CSS files are built from LESS files. To compile the changes in the LESS files, run the ``grunt compile-less`` command.
 
-If you don't have Grunt installed, first run ``npm install -g grunt-cli`` to install the Grunt command line interface (CLI) globally. Then go to the Mautic root directory and run ``npm install. ``. After that, you can run the ``grunt compile-less`` command.
+If you don't have Grunt installed, first run ``npm install -g grunt-cli`` to install the Grunt command line interface (CLI) globally. Then go to the Mautic root directory and run ``npm install``. After that, you can run the ``grunt compile-less`` command.
