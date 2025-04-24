@@ -26,7 +26,7 @@ Development/build process requirements
 Mautic requirements
 *******************
 
-#. See `Mautic requirements <https://www.mautic.org/download/requirements>`_
+#. See the `Mautic requirements <https://www.mautic.org/download/requirements>`_ page for details of the required PHP version, PHP extensions, database, and web servers
 #. PHP modules (already included in DDEV and most AMP packages):
 
 	* required: ``zip``, ``xml``, ``mcrypt``, ``imap``, ``mailparse``
@@ -65,7 +65,7 @@ Each time you update Mautic's source after the initial setup/installation via a 
 
 .. note::
 
-	If you're accessing Mautic through the dev environment via ``index_dev.php``, you must add ``--env=dev`` to the php command above.
+	If you're accessing Mautic through the dev environment via ``index_dev.php``, you must add ``--env=dev`` to the PHP command above.
 
 .. vale on
 
