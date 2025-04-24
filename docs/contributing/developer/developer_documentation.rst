@@ -137,7 +137,7 @@ Creating a pull request
 
 You've successfully submitted your first contribution to the Mautic's Developer Documentation. Congratulations!
 
-The documentation managers will carefully review your work. They will either approve and merge your PR or let you know if you need to make changes.
+The Education Team will carefully review your work. They will either approve and merge your PR or let you know if you need to make changes.
 
 .. vale on
 
