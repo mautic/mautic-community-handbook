@@ -465,19 +465,19 @@ Before executing the end to end test suite:
 
 #. Run the test:
 
-    * To run the entire test suite:
+   * To run the entire test suite:
 
       .. code-block:: bash
 
-          bin/codecept run acceptance
+        bin/codecept run acceptance
 
-    * To run tests for a specific bundle:
+   * To run tests for a specific bundle:
 
       .. code-block:: bash
 
-          bin/codecept run acceptance ContactManagementCest
+        bin/codecept run acceptance ContactManagementCest
 
-    * To run a specific test:
+   * To run a specific test:
 
       .. code-block:: bash
 
