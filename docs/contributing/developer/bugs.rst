@@ -30,6 +30,6 @@ When you are confident that the problem is a bug, please `create a new issue <ht
 Fixing a bug
 ************
 
-If you're able to fix a bug, whether you discovered it or something reported by someone in the community, please make a :doc:`pull request </contributing/developer/pull_requests>`. Be sure to link the pull request to any issues it resolves by including "fixes #XXX" in your description. Change the "XXX" to the issue number. 
+If you're able to fix a bug, whether you discovered it or something reported by someone in the community, please make a :doc:`pull request (PR) </contributing/developer/pull_requests>`. Be sure to link the PR to any issues it resolves by including "fixes #XXX" in your description. Change the "XXX" to the issue number.
 
-Providing test instructions is extremely important. Please don't assume the person testing your pull request is a developer. You must always provide clear, step-by-step instructions for reproducing the bug and testing your pull request.
+Providing test instructions is extremely important. Please don't assume the person testing your PR is a developer. You must always provide clear, step-by-step instructions for reproducing the bug and testing your PR.
