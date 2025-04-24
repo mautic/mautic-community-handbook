@@ -79,7 +79,9 @@ Run ``composer install`` to ensure new vendors are installed and/or existing upg
 Database Schema
 ===============
 
-Before running these commands, please make a backup of your database.
+.. important::
+
+	Before running these commands, please make a backup of your database.
 
 If updating from `a tagged release <https://github.com/mautic/mautic/releases>`_ to a tagged release, Schema changes will be included in a migrations file. To apply the changes, run:
 
