@@ -5,13 +5,13 @@ In this article we're going to be exploring assemblies, what they are, why they'
 
 If you prefer to watch this in video form, you can do that here:
 
+.. raw:: html
 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/fYg8yPQcgxM" frameborder="0" allowfullscreen></iframe>
 
 .. raw:: html
 
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://youtu.be/fYg8yPQcgxM" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
+    <br><br>
 
 Getting started with Assemblies
 *******************************
@@ -30,7 +30,7 @@ An assembly can also have assemblies nested within it - for example the MautiCon
     :align: center
 
 Exploring Assemblies
-*********************
+********************
 
 When you click through onto an assembly you will be presented with the overview page.
 
@@ -38,6 +38,10 @@ When you click through onto an assembly you will be presented with the overview 
     :alt: VSCode screenshot showing how to change branches
     :width: 600px
     :align: center
+
+.. raw:: html
+
+    <br><br>
 
 1. Where it has been set, there's a hashtag which relates to the specific assembly.
 2. The main page for an assembly will provide you with an overview which is basically the charter for that organised group - what they do, and why they exist.
@@ -63,10 +67,12 @@ When you click on the members item in the assembly menu it lists the formal memb
     :width: 600px
     :align: center
 
+.. raw:: html
+
+    <br><br>
+
 If you are interested in an assembly the best thing to do is to follow that assembly to get updates. When you start practically contributing to an assembly in some way, the team will make you a contributor or whatever the formal role that's relevant for the assembly is called.
 
-Components
-**********
 Blog
 ====
 In the Community Team, you'll notice we've got a blog. Anything across the whole of the community portal can have a blog and they all get output into the activity feed, so it's a great way of keeping people apprised of what your team is working on and what your project is doing.
@@ -78,8 +84,8 @@ In this case, you can see that there's an official post from the team asking for
     :width: 600px
     :align: center
 
-Meetings
-========
+Meeting
+=======
 Another popular component that we use in the portal is meetings. Meetings can be online, hybrid or in person, and there is an option to filter using select boxes and a search box to show all meetings, upcoming meetings, past meetings, and also to filter by type.
 
 There is an option to export the calendar, which is great if you want to ensure that the meetings for a particular assembly are in your personal calendar. This creates a URL which you can subscribe to in your calendar of choice, so it is updated automatically.
@@ -89,12 +95,20 @@ There is an option to export the calendar, which is great if you want to ensure 
     :width: 600px
     :align: center
 
+.. raw:: html
+
+    <br><br>
+
 Click on the meeting to learn more about what is being discussed.
 
 .. image:: ../images/community-team-meeting-with-agenda.png
     :alt: VSCode screenshot showing how to change branches
     :width: 600px
     :align: center
+
+.. raw:: html
+
+    <br><br>    
 
 1. On the right hand side you will be able to see the date and time for the meeting.
 2. There is a button to join the meeting, which allows you to decide whether you want your participation to be shown publicly or not, and also whether you are representing a group or yourself. Sometimes a meeting may use an external ticketing system, in which case 'join meeting' will take you to that system to complete the form. Once you register you will be able to access the link to access the online or hybrid meeting.
@@ -103,6 +117,10 @@ Click on the meeting to learn more about what is being discussed.
     :alt: VSCode screenshot showing how to change branches
     :width: 600px
     :align: center
+
+.. raw:: html
+
+    <br><br>
 
 3. You can decide to follow the meeting if you want to get updates.
 4. In some assemblies, participants can create meetings as well as the group members. You can tell the difference because if a meeting is created by a group member, it will be shown as an official meeting.
@@ -120,6 +138,10 @@ To subscribe to an Assembly's calendar, click on the Meetings link in the Assemb
     :width: 600px
     :align: center
 
+.. raw:: html
+
+    <br><br>
+
 To subscribe to all events site-wide, follow the same process but use the Meetings & Events menu item on the main menu.
 
 Debates
@@ -133,6 +155,10 @@ If you have a question, and you want the community to be able to give you feedba
     :width: 600px
     :align: center
 
+.. raw:: html
+
+    <br><br>
+
 1. Button to create a new debate.
 2. Search and filter options to look through all debates.
 3. Individual debates
@@ -143,6 +169,10 @@ So, in this one, we were working on CKEditor and a question came up about when y
     :alt: VSCode screenshot showing how to change branches
     :width: 600px
     :align: center
+
+.. raw:: html
+
+    <br><br>
 
 1. Button to endorse the debate as yourself or as a group or team.
 2. Button to follow the debate to be notified of changes.

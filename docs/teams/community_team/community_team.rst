@@ -4,7 +4,7 @@ Community Team
 Mission and expectations
 ************************
 
-      The Community Team wants more and more people to feel at home in the Mautic community, and to inspire & enable them to contribute to Mautic in whatever way they can.
+The Community Team wants more and more people to feel at home in the Mautic community, and to inspire & enable them to contribute to Mautic in whatever way they can.
 
 General Community Team tasks
 ****************************
@@ -128,7 +128,7 @@ General guidelines for official Mautic Meetups
 5. Meetup groups allow event organization by any reliable/trusted member of the community.
 6. Meetups are welcoming places where everyone works to foster an accepting environment which is free of discrimination, incitement to violence, promotion of hate, and general jerk-like behavior.
 
-Official groups have a Meetup group created on the :xref:`Community Portal` and a category created in :xref:`Meetups Forum Category` on the forums once meeting the following criteria: 
+.. Official groups have a Meetup group created on the :xref:`Community Portal` and a category created in :xref:`Meetups Forum Category` on the forums once meeting the following criteria: 
 
 1. A thread on the Mautic Community Forums in the :xref:`International Forums` category indicating at least two people interested in joining the meetup
 2. A clear region or town for the meetup location, not covered by an existing meetup

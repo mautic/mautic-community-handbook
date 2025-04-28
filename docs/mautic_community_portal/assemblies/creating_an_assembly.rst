@@ -38,6 +38,10 @@ Once you have decided where the new assembly should sit, follow this process to 
     :width: 600px
     :align: center
 
+.. raw:: html
+
+    <br><br>
+
 4. Click on the assemblies icon as before, representing the parent assembly
 5. Click on 'new assembly' - in the earlier example, when creating a new assembly within the Mautic Meetups assembly, the parent assembly - Mautic Meetups - is within the Community Team assembly. So first navigate to the sub-assemblies of the Community team, then the sub-assemblies of the Mautic Meetup assembly, then click New assembly.
 
@@ -46,15 +50,19 @@ Once you have decided where the new assembly should sit, follow this process to 
     :width: 600px
     :align: center
 
+.. raw:: html
+
+    <br><br>    
+
 6. Complete the forum
 
-   - Check the :xref:`decidim-docs` for an explanation of the fields.
-   - Please follow existing naming conventions when it comes to the URL slug and hashtag.
-   - Please use :xref:`canva-assembly` to create the image for the assembly on Canva.
-   - Please select the scope that relates to the top-level assembly for your assembly - for example for Mautic Meetup groups this would be Community Team. This helps with searching and filtering.
-   - Please don't highlight the assembly unless agreed with the Community Portal working group.
-   - If your assembly needs to be invite only as far as who can engage in it, you should set it to private. This means you have to maintain a list of ':xref:`private-participants`' who can engage in the assembly. This is quite an overhead, and individuals may also need adding as a member of the group as well to engage in activities, so only use this where absolutely essential. The General Assembly uses this for example. If required, it's highly recommended that you also set the assembly to transparent, so that the community can see what happens in the space, if they can't engage. Private participants receive an invitation to join the assembly, which they must accept. Ensure you use the same email address they use on the portal, otherwise duplicate accounts can arise.
-   - Ensure you select the assembly type from the dropdown options.
+- Check the :xref:`decidim-docs` for an explanation of the fields.
+- Please follow existing naming conventions when it comes to the URL slug and hashtag.
+- Please use :xref:`canva-assembly` to create the image for the assembly on Canva.
+- Please select the scope that relates to the top-level assembly for your assembly - for example for Mautic Meetup groups this would be Community Team. This helps with searching and filtering.
+- Please don't highlight the assembly unless agreed with the Community Portal working group.
+- If your assembly needs to be invite only as far as who can engage in it, you should set it to private. This means you have to maintain a list of ':xref:`private-participants`' who can engage in the assembly. This is quite an overhead, and individuals may also need adding as a member of the group as well to engage in activities, so only use this where absolutely essential. The General Assembly uses this for example. If required, it's highly recommended that you also set the assembly to transparent, so that the community can see what happens in the space, if they can't engage. Private participants receive an invitation to join the assembly, which they must accept. Ensure you use the same email address they use on the portal, otherwise duplicate accounts can arise.
+- Ensure you select the assembly type from the dropdown options.
 
 7. Once saved successfully, go back to the list and you'll notice it's showing as unpublished.
 
@@ -63,17 +71,25 @@ Once you have decided where the new assembly should sit, follow this process to 
     :width: 600px
     :align: center
 
+.. raw:: html
+
+    <br><br>    
+
 8. Click the pencil icon to configure the assembly
 9. Add the components you require by clicking on components > Add Component - generally most assemblies require:
 
-  - Page - to explain in more detail what they do
-  - Meetings - for online/hybrid/in-person meetings
-  - Blog - to communicate with the community what your assembly is doing
+- Page - to explain in more detail what they do
+- Meetings - for online/hybrid/in-person meetings
+- Blog - to communicate with the community what your assembly is doing
 
 .. image:: ../images/assembly-components.png
     :alt: VSCode screenshot showing how to change branches
     :width: 600px
     :align: center
+
+.. raw:: html
+
+    <br><br>
 
 10. Add the Lead, Assistant Lead and any contributors under the Members section by searching for the existing user. Note you can also create your own role name using 'other' as the option when selecting a role.
 11. If you want people to be able to become a member of your assembly without you needing to manually add them, you can create a group which they can join, automatically granting them membership to your assembly. Check the documentation on groups for how to create them, and then add the group in the Members section as previously described.
@@ -84,6 +100,10 @@ Once you have decided where the new assembly should sit, follow this process to 
     :alt: VSCode screenshot showing how to change branches
     :width: 600px
     :align: center
+
+.. raw:: html
+
+    <br><br>    
 
 14. If the assembly is private, you'll need to invite members in the 'private members' section, once published.
 

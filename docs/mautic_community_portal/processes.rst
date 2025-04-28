@@ -7,14 +7,16 @@ If you prefer to watch this in video format, you can do so here:
 
 .. raw:: html
 
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://youtu.be/k_f9u1nTlvE" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/k_f9u1nTlvE" frameborder="0" allowfullscreen></iframe>
+
+.. raw:: html
+
+    <br><br>
 
 So let's go ahead and click on Processes in the top main menu, and you will notice that there's some text at the top, just like there was in Assemblies, which explains to you what a participatory process is.
 
 What is a participatory process?
-***********
+********************************
 
 Basically, it's a sequence where you go through making a proposal, the proposals are reviewed, they're voted on or prioritized, and then we make a decision on what to do.
 
@@ -53,6 +55,10 @@ So what happens with a process, which is different to an assembly, is there are 
     :width: 600px
     :align: center
 
+.. raw:: html
+
+    <br><br>
+
 So here we've got nominations open until the end of October. And this is a phase where you could step up and say, I want to stand as a member for the Council. You can propose yourself to actually be considered for nomination for voting for a Council member position. This phase, which will start on the 28th of October and go through to the 8th of November is where all of the nominations are now submitted.
 
 When the nominations close it means that we don't allow any more nominations, and the community have the option to vote for who they want to be standing on the Council. So every member of the General Assembly will have seven votes to vote for people in the nominations, because there's seven seats on the Council. So if we had 15 people stepping forwards and you have seven votes, obviously you can see that we will figure out in the end that some people will be more highly ranked than others.
@@ -70,6 +76,10 @@ If I wanted to nominate myself, I would follow this process:
     :alt: Screenshot showing Mautic council eleection process
     :width: 600px
     :align: center
+
+.. raw:: html
+
+    <br><br>
 
 1. Click on submit nomination.
 2. Review the help text, which changes with each stage.
@@ -89,6 +99,10 @@ The way this works is that when we've been discussing a new feature on the forum
     :alt: Screenshot showing Mautic council eleection process
     :width: 600px
     :align: center
+
+.. raw:: html
+
+    <br><br>
 
 1. Title of the proposal and person proposing
 2. Standard set of questions which the proposer answers
