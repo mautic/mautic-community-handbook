@@ -1,7 +1,11 @@
 Signing in and configuring your profile
 #######################################
 
+.. vale off
+
 In this article, learn how to sign in and set up your user profile.
+
+.. vale on
 
 If you prefer you can watch this in the following video:
 
@@ -37,19 +41,27 @@ If you don't yet have a login, it allows you to create one, and you can then use
 
     <br><br>
 
-If you can't remember your password you can use the option to send a password reset request. If you have problems creating an account, make sure you are using a unique username, name and email. If you still get stuck, please ask in #community on :xref:`slack`.
+.. vale off    
+
+If you can't remember your password you can use the option to send a password reset request. If you have problems creating an account, make sure you are using a unique username, name, and email. If you still get stuck, please ask in #community on :xref:`slack`.
+
+.. vale on
 
 Accept the terms and conditions
 *******************************
 
+.. vale off
+
 The first time you log in - and any time thereafter when there have been substantial changes to the terms and conditions - you must accept them before you proceed. To do this, review the terms and conditions and, at the bottom of the page, click 'I agree with these terms'. You can't continue using the platform if you refuse the terms, and a popup gives you the option to delete your account if you wish.
+
+..vale on
 
 .. image:: images/accept-terms-and-conditions.png
     :alt: VSCode screenshot showing how to change branches
     :width: 600px
     :align: center
 
-Certain cookies permit functionality on the portal which you can choose to accept or reject on the cookie popup. It's important to understand that certain features such as embedded note taking won't work if you don't accept the relevant cookies. A prompt notifies you of this if you come across resources like this, to review and update your settings to use that feature if your current setting restricts it.
+Certain cookies permit features on the portal which you can choose to accept or reject on the cookie popup. It's important to understand that certain features such as embedded note taking won't work if you don't accept the relevant cookies. A prompt notifies you of this if you come across resources like this, to review and update your settings to use that feature if your current setting restricts it.
 
 .. image:: images/cookie-consent.png
     :alt: VSCode screenshot showing how to change branches
@@ -62,7 +74,12 @@ Certain cookies permit functionality on the portal which you can choose to accep
 
 Setting language preferences
 ============================
+
+.. vale off
+
 At the top of the page, you'll notice that there are different languages available if you prefer. Select the language you wish to use and the interface changes into that language. It's worth noting that some aspects of the website may not be fully translated because they're community created, and as a result may only be available in the language they were originally created in. If you would like to help with translating more of the content please post in #translations on :xref:`slack`.
+
+.. vale on
 
 Claiming membership
 *******************
@@ -166,7 +183,11 @@ The followers tab shows a list of participants and groups which follow your user
 Groups
 ======
 
+.. vale off
+
 The group section contains all the groups that you belong to. For more information on groups refer to the [dedicated page][https://contribute.mautic.org/community-portal/groups].
+
+.. vale on
 
 Understanding the fields on the user profile
 *********************************************

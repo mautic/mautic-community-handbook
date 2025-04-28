@@ -56,6 +56,7 @@ Once you have decided where the new assembly should sit, follow this process to 
 
 6. Complete the forum
 
+.. vale off
 - Check the :xref:`decidim-docs` for an explanation of the fields.
 - Please follow existing naming conventions when it comes to the URL slug and hashtag.
 - Please use :xref:`canva-assembly` to create the image for the assembly on Canva.
@@ -64,7 +65,9 @@ Once you have decided where the new assembly should sit, follow this process to 
 - If your assembly needs to be invite only as far as who can engage in it, you should set it to private. This means you have to maintain a list of ':xref:`private-participants`' who can engage in the assembly. This is quite an overhead, and individuals may also need adding as a member of the group as well to engage in activities, so only use this where absolutely essential. The General Assembly uses this for example. If required, it's highly recommended that you also set the assembly to transparent, so that the community can see what happens in the space, if they can't engage. Private participants receive an invitation to join the assembly, which they must accept. Ensure you use the same email address they use on the portal, otherwise duplicate accounts can arise.
 - Ensure you select the assembly type from the dropdown options.
 
-7. Once saved successfully, go back to the list and you'll notice it's showing as unpublished.
+.. vale on
+
+1. Once saved successfully, go back to the list and you'll notice it's showing as unpublished.
 
 .. image:: ../images/assembly-unpublished.png
     :alt: VSCode screenshot showing how to change branches
@@ -76,9 +79,13 @@ Once you have decided where the new assembly should sit, follow this process to 
     <br><br>    
 
 8. Click the pencil icon to configure the assembly
-9. Add the components you require by clicking on components > Add Component - generally most assemblies require:
+
+.. vale off
+
+9.  Add the components you require by clicking on components > Add Component - generally most assemblies require:
 
 - Page - to explain in more detail what they do
+.. vale on
 - Meetings - for online/hybrid/in-person meetings
 - Blog - to communicate with the community what your assembly is doing
 
@@ -91,10 +98,14 @@ Once you have decided where the new assembly should sit, follow this process to 
 
     <br><br>
 
-10. Add the Lead, Assistant Lead and any contributors under the Members section by searching for the existing user. Note you can also create your own role name using 'other' as the option when selecting a role.
-11. If you want people to be able to become a member of your assembly without you needing to manually add them, you can create a group which they can join, automatically granting them membership to your assembly. Check the documentation on groups for how to create them, and then add the group in the Members section as previously described.
-12. Add any assembly admins - this gives the user full administrator rights over only this specific assembly. You need to know the email address they use, which you can find via Admin panel > Participants > Participants > Show email address - the icon resembles an open envelope.
+.. vale off
+
+1.  Add the Lead, Assistant Lead and any contributors under the Members section by searching for the existing user. Note you can also create your own role name using 'other' as the option when selecting a role.
+2.  If you want people to be able to become a member of your assembly without you needing to manually add them, you can create a group which they can join, automatically granting them membership to your assembly. Check the documentation on groups for how to create them, and then add the group in the Members section as previously described.
+12. Add any assembly admins - this gives the user full administrator rights over only this specific assembly. You need to know the email address they use, which you can find via Admin panel > Participants > Participants > Show email address - the icon resembles an open envelope
 13. Once configured, go to Info on the left menu when configuring the assembly, and click the Publish button at the very bottom of the page.
+
+.. vale on
 
 .. image:: ../images/assembly-publish.png
     :alt: VSCode screenshot showing how to change branches
