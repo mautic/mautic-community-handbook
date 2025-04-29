@@ -81,7 +81,11 @@ Now follow the steps below to create a new branch and work on your changes:
 
 #. Create a new branch to work on your changes from the default branch.
 
+   .. vale off
+
    Use a short and descriptive name for the new branch. For example, if you are working on an issue, use ``fix_XXX`` as the branch name, where "XXX" is the number of the issue.
+
+   .. vale on
 
    .. code-block:: bash
 
