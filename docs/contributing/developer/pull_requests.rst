@@ -11,7 +11,7 @@ Table of contents
 
 * :ref:`Step 1: review existing issues and pull requests`
 * :ref:`Step 2: new feature? Review the roadmap & feature requests`
-* :ref:`Step 3: set up your environment (or use Gitpod)`
+* :ref:`Step 3: set up your environment`
   
   * :ref:`Install the software stack`
   * :ref:`Get the Mautic source code`
@@ -73,8 +73,8 @@ When there is enough interest, you can officially propose it on the :xref:`Mauti
 
 Features that don't fit within the direction of the Mautic Core goals are more than welcome as third-party Plugins instead. 
 
-Step 3: set up your environment (or use Gitpod)
-***********************************************
+Step 3: set up your environment
+*******************************
 
 Install the software stack
 ==========================
