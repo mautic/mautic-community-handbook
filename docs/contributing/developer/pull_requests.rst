@@ -171,7 +171,7 @@ If you aren't using DDEV:
 Create a topic branch
 =====================
 
-Each time you want to work on a PR for a bug or on an enhancement, create a topic branch from the relevant base branch:
+Topic branch is a short-live branch that you use when working on a single topic, such as a bug fix, a new feature, etc. Each time you want to work on a PR for a bug or on an enhancement, create a topic branch from the relevant base branch by running:
 
 .. code-block:: bash
 
