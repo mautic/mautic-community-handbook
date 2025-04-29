@@ -4,7 +4,11 @@ Bugs
 Reporting a bug
 ***************
 
+.. vale off
+
 If you encounter a bug, please report it to help improve Mautic for everyone.
+
+.. vale on
 
 However, before submitting a bug:
 
@@ -30,6 +34,10 @@ When you are confident that the problem is a bug, please create a new :xref:`Cre
 Fixing a bug
 ************
 
+.. vale off
+
 If you're able to fix a bug, whether you discovered it or something reported by someone in the community, please make a :doc:`pull request - PR </contributing/developer/pull_requests>`. Be sure to link the PR to any issues it resolves by including "fixes #XXX" in your description. Change the "XXX" to the issue number.
+
+.. vale on
 
 Providing test instructions is extremely important. Please don't assume the person testing your PR is a developer. You must always provide clear, step-by-step instructions for reproducing the bug and testing your PR.
