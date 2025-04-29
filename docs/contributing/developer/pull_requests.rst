@@ -54,8 +54,8 @@ Step 1: review existing issues and pull requests
 
 Before working on a change, review the existing issues and PRs to see if someone else raised the same topic or maybe even started working on one by searching :xref:`Mautic repository open issues` on GitHub. You can also ask in the :xref:`Mautic product team Slack`.
 
-Step 2: new feature? Review the roadmap & feature requests
-**********************************************************
+Step 2: review Mautic's roadmap & feature requests
+**************************************************
 
 .. note::
 
