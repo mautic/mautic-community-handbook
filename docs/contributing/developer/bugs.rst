@@ -11,7 +11,7 @@ However, before submitting a bug:
 * You must make sure there are no problems with your local installation, such as permission problems, outdated cache, etc. For assistance, please refer to the Mautic's :xref:`Mautic troubleshooting` guide.
 * If you're unsure whether the problem is a bug, please ask for help first in the :xref:`Mautic Community Forums`.
 
-When you are confident that the problem is a bug, please `create a new issue <https://github.com/mautic/mautic/issues/new/choose>`_ in the GitHub repository and provide as many details as possible (reproduction steps, Mautic/PHP versions, etc.).
+When you are confident that the problem is a bug, please create a new :xref:`Create a new issue for Mautic` in the repository and provide as many details as possible - reproduction steps, Mautic/PHP versions, etc.
 
 .. vale off
 
@@ -30,6 +30,6 @@ When you are confident that the problem is a bug, please `create a new issue <ht
 Fixing a bug
 ************
 
-If you're able to fix a bug, whether you discovered it or something reported by someone in the community, please make a :doc:`pull request (PR) </contributing/developer/pull_requests>`. Be sure to link the PR to any issues it resolves by including "fixes #XXX" in your description. Change the "XXX" to the issue number.
+If you're able to fix a bug, whether you discovered it or something reported by someone in the community, please make a :doc:`pull request - PR </contributing/developer/pull_requests>`. Be sure to link the PR to any issues it resolves by including "fixes #XXX" in your description. Change the "XXX" to the issue number.
 
 Providing test instructions is extremely important. Please don't assume the person testing your PR is a developer. You must always provide clear, step-by-step instructions for reproducing the bug and testing your PR.
