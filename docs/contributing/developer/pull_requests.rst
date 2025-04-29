@@ -4,7 +4,7 @@ Pull requests
 Creating pull requests
 **********************
 
-It's highly appreciated when developers help Mautic by providing pull requests (PRs) against the Mautic code base. To make this process as smooth as possible for everyone, you must thoroughly follow the instructions.
+It's highly appreciated when developers help Mautic by providing pull requests - PRs - against the Mautic code base. To make this process as smooth as possible for everyone, you must thoroughly follow the instructions.
 
 Table of contents
 *****************
@@ -52,7 +52,7 @@ Table of contents
 Step 1: review existing issues and pull requests
 ************************************************
 
-Before working on a change, review the existing issues and PRs to see if someone else raised the same topic or maybe even started working on one by searching `open issues <https://github.com/mautic/mautic/issues?q=is%3Aopen+>`_ on GitHub. You can also ask in the :xref:`Mautic product team Slack`.
+Before working on a change, review the existing issues and PRs to see if someone else raised the same topic or maybe even started working on one by searching :xref:`Mautic repository open issues` on GitHub. You can also ask in the :xref:`Mautic product team Slack`.
 
 Step 2: new feature? Review the roadmap & feature requests
 **********************************************************
@@ -63,7 +63,9 @@ Step 2: new feature? Review the roadmap & feature requests
 
 First, please keep in mind that many people are requesting new features. Therefore, the Core Team can only add a limited number of features to new releases.
 
-If you'd like to propose a new feature, please review the `Mautic's Roadmap <https://mautic.org/roadmap/>`_ and existing `Feature Requests <https://forum.mautic.org/c/ideas/14/l/latest?order=votes>`_ in the Community Forums to see if someone else has already suggested similar features and/or is already working on it. If not, please first create a new `Feature Request <https://forum.mautic.org/c/ideas/14/l/latest?order=votes>`_ in the relevant section so that the Community can discuss it before development work commences.
+If you'd like to propose a new feature, please review the :xref:`Mautic Roadmap` and the :xref:`Mautic Forums ideas and features request` topic category in the Mautic Forums to see if someone else has already suggested similar features and/or is already working on it. If you don't see any similar requested feature, you can suggest it in the Forums.
+
+When there is enough interest, you can officially propose it on the :xref:`Mautic propose new features` page so the Community can discuss them. You can then track if it's accepted or rejected on the page :xref:`Mautic proposal progress tracker`.
 
 Features that don't fit within the direction of the Mautic Core goals are more than welcome as third-party Plugins instead. 
 
@@ -73,12 +75,12 @@ Step 3: set up your environment (or use Gitpod)
 Install the software stack
 ==========================
 
-Please see the instructions for the :doc:`/contributing/developer/local_environment_setup` to install the software stack.
+Please see the instructions in the :doc:`/contributing/developer/local_environment_setup` to install the software stack.
 
 Get the Mautic source code
 ==========================
 
-* Create a `GitHub <https://github.com/join>`_ account and sign in
+* Create a :xref:`GitHub join` account and sign in
 * Fork the Mautic repository by clicking the "Fork" button
 * After the forking process has completed, clone your fork locally using the following command:
 
@@ -86,7 +88,7 @@ Get the Mautic source code
 
       git clone https://github.com/USERNAME/mautic.git
 
-  Or, if you use the :xref:`install GitHub command-line tool`, run:
+  Or, if you use the :xref:`GitHub command-line tool`, run:
 
     .. code-block:: bash
 
@@ -100,7 +102,7 @@ Step 4: work on your pull request
 Choose the right branch
 =======================
 
-Before working on a PR, you must determine which branch you need to work on. Mautic follows `Semantic Versioning <https://semver.org/>`_, best illustrated by the below example.
+Before working on a PR, you must determine which branch you need to work on. Mautic follows :xref:`Semver`, best illustrated by the below example.
 
 Assuming that:
 
@@ -164,7 +166,7 @@ If you aren't using DDEV:
       cd mautic
       composer install
 
-* Open Mautic in your browser, for example, by going to ``http://localhost/mautic`` depending on your environment if you want to install it in the UI. Follow the steps to :xref:`install Mautic` locally.
+* Open Mautic in your browser, for example, by going to ``http://localhost/mautic`` depending on your environment if you want to install it in the UI. Follow the steps to install :xref:`install Mautic` locally.
 
 Create a topic branch
 =====================
@@ -200,7 +202,7 @@ Work on the code as much as you want and commit as much as you want, but keep in
 
 .. vale off
 
-* Mautic follows `Symfony's coding standards <http://symfony.com/doc/current/contributing/code/standards.html>`_ by implementing a pre-commit git hook running `php-cs-fixer <https://github.com/friendsofphp/php-cs-fixer>`_. Mautic installs and updates this with ``composer install`` and ``composer update``. This handles all code styling automatically.
+* Mautic follows Symfony's :xref:`Symfony coding standards` by implementing a pre-commit git hook running :xref:`php-cs-fixer`. Mautic installs and updates this with ``composer install`` and ``composer update``. This handles all code styling automatically.
 * Add unit tests to confirm the bug is fixed or the new feature works.
 
 .. vale on
@@ -208,7 +210,7 @@ Work on the code as much as you want and commit as much as you want, but keep in
 Backward compatibility breaks
 ==============================
 
-Try not to break backward compatibility (BC). If you must do so, please provide a compatibility layer to support the old way. PRs that break BC have less chance of acceptance, as they must wait for a major release.
+Try not to break backward compatibility - BC. If you must do so, please provide a compatibility layer to support the old way. PRs that break BC have less chance of acceptance, as they must wait for a major release.
 
 .. vale off
 
@@ -225,7 +227,7 @@ Examples:
 * Changing the signature of a private or public method in a non-final class. This means adding or removing method parameters or adding or changing parameters or return types. Create a new method instead and mark the old one deprecated.
 * Changing the behavior of a method so it does something differently.
 * Adding a new method to an existing interface. Create a new interface instead.
-* Whenever you change a `Twig template <https://twig.symfony.com/>`_, think about the Themes that are overwriting this template. For example, changing the template name can cause issues.
+* Whenever you change a :xref:`Symfony Twig` template, think about the Themes that are overwriting this template. For example, changing the template name can cause issues.
 
 .. vale off
 
@@ -297,11 +299,7 @@ In order to keep Mautic stable and easy to maintain, there is a hard requirement
 Code standards
 ==============
 
-.. vale off
-
-Mautic follows `Symfony's coding standards <http://symfony.com/doc/current/contributing/code/standards.html>`_ by implementing pre-commit git hook running `php-cs-fixer <https://github.com/friendsofphp/php-cs-fixer>`_. The commands ``composer install`` and ``composer update`` install and update this automatically.
-
-.. vale on
+Mautic follows Symfony's :xref:`Symfony coding standards`_ by implementing pre-commit git hook running :xref:`php-cs-fixer`. The commands ``composer install`` and ``composer update`` install and update this automatically.
 
 The aforementioned git hook automatically deals with any code styling. If you set the git hook correctly - which is the case if you ever run ``composer install`` or ``composer update`` before creating a PR - you can format your code as you like. The git hook converts it to Mautic's code style automatically.
 
@@ -310,7 +308,7 @@ Documentation
 
 .. vale off
 
-Each new feature should include a reference to a PR in the `mautic/developer-documentation <https://github.com/mautic/developer-documentation-new>`_ repository, if applicable. Any enhancements or bug fixes affecting the end-user or developer experience should have a PR mentioned in the description which updates the relevant resources in the documentation.
+Each new feature should include a reference to a PR in the :xref:`Developer Docs GitHub` repository, if applicable. Any enhancements or bug fixes affecting the end-user or developer experience should have a PR mentioned in the description which updates the relevant resources in the documentation.
 
 .. vale on
 
@@ -380,7 +378,7 @@ All contributors need to follow some best practices to ensure a constructive fee
 
 If you think someone fails to keep this advice in mind and you want another perspective, please request a review of the feedback in the ``#dev`` channel on :xref:`Mautic Community Slack`.
 
-The `Product Team <https://contribute.mautic.org/product-team>`_ decides which PRs get merged, so their feedback is the most relevant. Please don't feel pressured to refactor your code immediately when someone provides feedback and wait for the Product Team to review it.
+The :xref:`Mautic Product Team` decides which PRs get merged, so their feedback is the most relevant. Please don't feel pressured to refactor your code immediately when someone provides feedback and wait for the Product Team to review it.
 
 Rework your pull request
 ========================
@@ -409,7 +407,7 @@ Automated testing
 
 .. vale off
 
-Mautic uses `PHPUnit <https://phpunit.de/manual/5.7/en/index.html>`_, `Selenium <https://www.selenium.dev/>`_, and `Codeception <https://codeception.com/>`_ as the suite of testing tools.
+Mautic uses :xref:`PHPUnit`, :xref:`Selenium`, and :xref:`Codeception` as the suite of testing tools.
 
 .. vale on
 
@@ -483,12 +481,12 @@ Before executing the end to end test suite:
 
         bin/codecept run acceptance ContactManagementCest:createContactFromForm
 
-For more detailed steps on writing and running tests, please refer to the `Mautic's End to end test suite <https://devdocs.mautic.org/en/5.x/testing/e2e_test_suite.html>`_ documentation.
+For more detailed steps on writing and running tests, please refer to the Mautic's :xref:`Mautic e2e test suite` documentation.
 
 Static analysis
 ===============
 
-Mautic uses `PHPSTAN <https://github.com/phpstan/phpstan>`_ for some of its parts during continuous integration tests. To test your specific contribution locally, install PHPSTAN globally with ``composer global require phpstan/phpstan-shim``.
+Mautic uses :xref:`PHPSTAN` for some of its parts during continuous integration tests. To test your specific contribution locally, install PHPSTAN globally with ``composer global require phpstan/phpstan-shim``.
 
 .. vale off
 
