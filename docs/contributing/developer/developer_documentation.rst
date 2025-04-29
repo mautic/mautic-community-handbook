@@ -6,7 +6,7 @@ Contributing to the developer documentation
 
 .. vale off
 
-Thank you for being so interested in helping improve Mautic's :xref:`Developer Docs`. Mautic's Developer Documentation is hosted on the `Read the Docs platform <https://about.readthedocs.com/?ref=readthedocs.org>`_ and generated using `reStructuredText (RST) <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_.
+Thank you for being so interested in helping improve Mautic's :xref:`Developer Docs`. Mautic's Developer Documentation is hosted on the :xref:`Read the Docs` platform and generated using :xref:`reStructuredText` - RST.
 
 .. warning::
 
@@ -28,7 +28,7 @@ Before your first contribution
 Before contributing, you need to:
 
 * Sign up for a free `GitHub account <https://github.com/signup>`_.
-* Get familiar with the `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_ markup language.
+* Get familiar with the :xref:`reStructuredText` markup language.
 
 Your first documentation contribution
 =====================================
@@ -38,7 +38,7 @@ In this section, you'll learn how to contribute to Mautic's Developer Documentat
 Forking and cloning a repository
 --------------------------------
 
-Before contributing, go to the `Developer Documentation repository <https://github.com/mautic/developer-documentation-new?tab=readme-ov-file>`_ on GitHub, fork, and clone it. Follow these steps to fork and clone the repository:
+Before contributing, go to the :xref:`Developer Docs GitHub` repository on GitHub, fork, and clone it. Follow these steps to fork and clone the repository:
 
 #. Click the "Fork" button on the top right.
 
@@ -48,7 +48,7 @@ Before contributing, go to the `Developer Documentation repository <https://gith
 
    .. vale off
 
-   "Fork" means copying the original repository (Mautic's Developer Documentation) to your GitHub account. The original repository is usually known as ``upstream``, while your forked repository is called the ``origin`` repository.
+   "Fork" means copying the original repository - Mautic's Developer Documentation - to your GitHub account. The original repository is usually known as ``upstream``, while your forked repository is called the ``origin`` repository.
 
    .. vale on
 
