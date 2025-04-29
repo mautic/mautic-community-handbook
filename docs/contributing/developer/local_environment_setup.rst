@@ -10,24 +10,24 @@ Development/build process requirements
 
 .. tip::
 
-    We recommend working with `DDEV <https://ddev.com/>`_ since it includes almost all required software out of the box (PHP, Composer, MySQL) and has some handy features like MailHog, PHPMyAdmin, dynamic PHP version switching, and much more.
+    We recommend working with :xref:`DDEV` since it includes almost all required software out of the box - PHP, Composer, MySQL - and has some handy features like MailHog, PHPMyAdmin, dynamic PHP version switching, and much more.
 
-	You can find Mautic-specific installation instructions for DDEV in `this blog post <https://www.mautic.org/blog/developer/local-mautic-development-with-ddev>`_.
+	You can find Mautic-specific installation instructions for DDEV in the `Local Mautic development with DDEV` blog post.
 
-#. Mautic uses Git as a version control system. Download and install Git for your OS from the `official website <https://git-scm.com/>`_
-#. Install a server, PHP, and MySQL to run Mautic locally. You can use `DDEV <https://www.mautic.org/blog/developer/local-mautic-development-with-ddev>`_ (recommended) or an `AMP package for your OS <https://en.wikipedia.org/wiki/List_of_Apache%E2%80%93MySQL%E2%80%93PHP_packages>`_
-#. Install `Composer <https://getcomposer.org/>`_, the dependency manager for PHP
-#. Install `npm <https://www.npmjs.com/>`_
-#. Install `Grunt <http://gruntjs.com/>`_
-#. Install `GitHub command line interface (CLI) <https://cli.github.com>`_
+#. Mautic uses Git as a version control system. Download and install :xref:`Git` for your OS
+#. Install a server, PHP, and MySQL to run Mautic locally. Read :xref:`Local Mautic development with DDEV` blog post to use DDEV (recommended) or use an :xref:`AMP software bundle` package for your OS
+#. Install :xref:`Composer`, the dependency manager for PHP
+#. Install :xref:`npm`
+#. Install :xref:`Grunt`
+#. Install :xref:`GitHub command-line tool`
 
 .. vale on
 
 Mautic requirements
 *******************
 
-#. See the `Mautic requirements <https://www.mautic.org/download/requirements>`_ page for details of the required PHP version, PHP extensions, database, and web servers
-#. PHP modules (already included in DDEV and most AMP packages):
+#. See the :xref:`Mautic requirements` page for details of the required PHP version, PHP extensions, database, and web servers
+#. PHP modules - already included in DDEV and most AMP packages:
 
 	* required: ``zip``, ``xml``, ``mcrypt``, ``imap``, ``mailparse``
 	* recommended: ``openssl``, ``opcache`` / ``apcu`` / ``memcached``
@@ -39,11 +39,11 @@ Installation
 ************
 
 #. Open a terminal/console window
-#. Change directory to the server root (for example, ``cd /var/www`` if your local server root is at ``/var/www``)
-#. Clone the repository (``gh repo clone mautic/mautic``)
+#. Change directory to the server root. For example, ``cd /var/www`` if your local server root is at ``/var/www``
+#. Clone the repository by running ``gh repo clone mautic/mautic``
 #. Change directory to ``mautic`` by running ``cd mautic``
 #. Install dependencies with ``composer install`` if you are not using DDEV. If you're using DDEV, run ``ddev start``
-#. Open Mautic in a browser (probably at ``http://localhost/mautic``) and follow the installation steps
+#. Open Mautic in a browser - probably at ``http://localhost/mautic`` - and follow the installation steps
 #. If you're using DDEV, the installer sets up Mautic for you. Then you can access the instance at ``https://mautic.ddev``
 
 Keeping up-to-date
@@ -83,7 +83,7 @@ Database Schema
 
 	Before running these commands, please make a backup of your database.
 
-If updating from `a tagged release <https://github.com/mautic/mautic/releases>`_ to a tagged release, Schema changes will be included in a migrations file. To apply the changes, run:
+If updating from a :xref:`Mautic tagged releases` to a tagged release, Schema changes will be included in a migrations file. To apply the changes, run:
 
 .. vale on
 
@@ -126,4 +126,4 @@ Regarding assets like JavaScript and CSS, the source files are loaded instead of
 
 In many cases, the CSS files are built from LESS files. To compile the changes in the LESS files, run the ``grunt compile-less`` command.
 
-If you don't have Grunt installed, first run ``npm install -g grunt-cli`` to install the Grunt command line interface (CLI) globally. Then go to the Mautic root directory and run ``npm install``. After that, you can run the ``grunt compile-less`` command.
+If you don't have Grunt installed, first run ``npm install -g grunt-cli`` to install the Grunt command line interface - CLI - globally. Then go to the Mautic root directory and run ``npm install``. After that, you can run the ``grunt compile-less`` command.
