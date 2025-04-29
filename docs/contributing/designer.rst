@@ -95,7 +95,7 @@ Within the Mautic product
 
 If you notice something that needs attention in Mautic, please:
 
-1. Create :xref:`GitHub create an issue` and provide as much detail as possible
+1. Create a new :xref:`Create a new issue for Mautic` and provide as much detail as possible
 2. Indicate this in the issue if you can address the problem. You can always ask for help with how to do this if needed.
 3. Leave a hint in the issue if you can't address the bug but know where it probably comes from. Doing so helps people follow up and get a jump start.
 
