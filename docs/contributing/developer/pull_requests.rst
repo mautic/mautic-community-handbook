@@ -84,7 +84,7 @@ Please see the instructions in the :doc:`/contributing/developer/local_environme
 Get the Mautic source code
 ==========================
 
-* Create a :xref:`GitHub join` account and sign in
+* Create a :xref:`GitHub signup` account and sign in
 * Fork the Mautic repository by clicking the "Fork" button
 * After the forking process has completed, clone your fork locally using the following command:
 
