@@ -1,6 +1,6 @@
 from . import link
 
-link_name = "php-cs-fixer"
+link_name = "PHP-cs-fixer"
 link_text = "php-cs-fixer"
 link_url = "https://github.com/friendsofphp/php-cs-fixer"
 
