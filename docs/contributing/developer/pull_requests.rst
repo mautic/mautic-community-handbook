@@ -10,7 +10,7 @@ Table of contents
 *****************
 
 * :ref:`Step 1: review existing issues and pull requests`
-* :ref:`Step 2: new feature? Review the roadmap & feature requests`
+* :ref:`Step 2: review Mautic's roadmap & feature requests`
 * :ref:`Step 3: set up your environment`
   
   * :ref:`Install the software stack`
@@ -214,7 +214,7 @@ Work on the code as much as you want and commit as much as you want, but keep in
 
 .. vale off
 
-* Mautic follows Symfony's :xref:`Symfony coding standards` by implementing a pre-commit git hook running :xref:`php-cs-fixer`. Mautic installs and updates this with ``composer install`` and ``composer update``. This handles all code styling automatically.
+* Mautic follows Symfony's :xref:`Symfony coding standards` by implementing a pre-commit git hook running :xref:`PHP-cs-fixer`. Mautic installs and updates this with ``composer install`` and ``composer update``. This handles all code styling automatically.
 * Add unit tests to confirm the bug is fixed or the new feature works.
 
 .. vale on
