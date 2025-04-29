@@ -4,7 +4,7 @@ Contributing to Mautic's documentation
 So you're interested in contributing to Mautic's documentation? That's fantastic. Mautic is always looking for help to improve the documentation and make it as useful as possible for the Mautic community. There are three main repositories on GitHub open to contributions. These are:
 
 1. The :xref:`User Documentation` - :xref:`User Docs GitHub` 
-2. The :xref:`Developer Docs` - :xref:`Developer Docs GitHub`
+2. The :xref:`Developer Docs` - :xref:`Developer Docs GitHub` on GitHub
 3. The :xref:`Community Handbook` - :xref:`Community Handbook GitHub`
 
 Getting started
@@ -23,7 +23,7 @@ To get started with one of the documentation repositories locally, it's advised 
 - Docker Desktop - All operating systems, :xref:`install Docker Desktop` - or Colima - Mac and Linux, :xref:`install Colima`
 - DDEV - :xref:`install DDEV`
 - VSCode - :xref:`install VSCode`
-- GitHub CLI - :xref:`install GitHub command-line tool`
+- GitHub CLI - install :xref:`GitHub command-line tool`
 - Vale linter - :xref:`install Vale`
 - Python 3 - :xref:`install Python`
 - Sphinx - ``pip3 install sphinx``
