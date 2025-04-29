@@ -27,7 +27,7 @@ Before your first contribution
 
 Before contributing, you need to:
 
-* Sign up for a free `GitHub account <https://github.com/signup>`_.
+* Sign up for a :xref:`GitHub signup` account.
 * Get familiar with the :xref:`reStructuredText` markup language.
 
 Your first documentation contribution
