@@ -10,7 +10,7 @@ Thank you for being so interested in helping improve Mautic's :xref:`Developer D
 
 .. warning::
 
-    The Developer Documentation is currently being updated and re-platformed. If you'd like to help with this, please check the issues in the :xref:`Developer Docs GitHub`.
+    The Developer Documentation is currently being updated and re-platformed. If you'd like to help with this, please check the issues in the :xref:`Developer Docs GitHub` repository.
 
 .. vale on
 
