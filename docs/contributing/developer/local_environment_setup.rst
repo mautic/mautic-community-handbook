@@ -1,7 +1,11 @@
 Local environment setup
 #######################
 
+.. vale off
+
 This page guides you through setting up your local environment to use and develop Mautic.
+
+.. vale on
 
 Development/build process requirements
 **************************************
@@ -26,6 +30,8 @@ Development/build process requirements
 Mautic requirements
 *******************
 
+.. vale off
+
 #. See the :xref:`Mautic requirements` page for details of the required PHP version, PHP extensions, database, and web servers
 #. PHP modules - already included in DDEV and most AMP packages:
 
@@ -35,6 +41,8 @@ Mautic requirements
 #. Recommended memory limit: minimal 256 MB for testing and 512 MB or more for production
 #. Recommended MySQL defaults. It can be set by running the queries ``SET GLOBAL innodb_default_row_format=DYNAMIC; SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));``
 
+.. vale on
+
 Installation
 ************
 
@@ -42,7 +50,7 @@ Installation
 #. Change directory to the server root. For example, ``cd /var/www`` if your local server root is at ``/var/www``
 #. Clone the repository by running ``gh repo clone mautic/mautic``
 #. Change directory to ``mautic`` by running ``cd mautic``
-#. Install dependencies with ``composer install`` if you are not using DDEV. If you're using DDEV, run ``ddev start``
+#. Install dependencies with ``composer install`` if you aren't using DDEV. If you're using DDEV, run ``ddev start``
 #. Open Mautic in a browser - probably at ``http://localhost/mautic`` - and follow the installation steps
 #. If you're using DDEV, the installer sets up Mautic for you. Then you can access the instance at ``https://mautic.ddev``
 
@@ -91,7 +99,7 @@ If updating from a :xref:`Mautic tagged releases` to a tagged release, Schema ch
 
 	$ php bin/console doctrine:migrations:migrate
 
-If you are updating to the latest source (remember this is alpha), first run:
+If you are updating to the latest source - remember this is alpha - first run:
 
 .. code-block:: php
 
@@ -122,8 +130,8 @@ This development environment displays the PHP errors, warnings, and notices dire
 
 Regarding assets like JavaScript and CSS, the source files are loaded instead of concatenated, minified files. This way, the changes in those files will be directly visible when refreshed. If you want to see the change in the production environment, run the ``bin/console mautic:assets:generate`` command.
 
-.. vale on
-
 In many cases, the CSS files are built from LESS files. To compile the changes in the LESS files, run the ``grunt compile-less`` command.
+
+.. vale on
 
 If you don't have Grunt installed, first run ``npm install -g grunt-cli`` to install the Grunt command line interface - CLI - globally. Then go to the Mautic root directory and run ``npm install``. After that, you can run the ``grunt compile-less`` command.
