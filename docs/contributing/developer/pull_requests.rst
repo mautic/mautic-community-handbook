@@ -392,7 +392,7 @@ Based on the feedback on your PR, you might need to make some changes. Before re
 
 .. tip::
   
-    If you want to do a ``push --force``, **always** specify the branch name explicitly to avoid messing up other branches in the repository. The option ``--force`` tells Git that you **really** want to mess with things, so do it carefully.
+    If you want to do a ``push --force``, don't forget to **specify the branch name explicitly** to avoid breaking other branches. Always use the option ``--force`` with caution as it overwrites the remote history and can lead to data loss.
 
 Step 9: testing
 ***************
