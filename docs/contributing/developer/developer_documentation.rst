@@ -117,7 +117,7 @@ Now follow the steps below to create a new branch and work on your changes:
    * save the changes in the file by committing the changes and record the changes with the commit message,
    * bring all changes in the ``fix_1234`` branch to your forked repository by pushing it from your local machine to the ``origin`` remote repository.
 
-You're now ready to initiate a pull request (PR).
+You're now ready to initiate a pull request - PR.
 
 Creating a pull request
 -----------------------
