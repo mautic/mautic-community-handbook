@@ -63,9 +63,13 @@ Step 2: review Mautic's roadmap & feature requests
 
 First, please keep in mind that many people are requesting new features. Therefore, the Core Team can only add a limited number of features to new releases.
 
+.. vale off
+
 If you'd like to propose a new feature, please review the :xref:`Mautic Roadmap` and the :xref:`Mautic Forums ideas and features request` topic category in the Mautic Forums to see if someone else has already suggested similar features and/or is already working on it. If you don't see any similar requested feature, you can suggest it in the Forums.
 
 When there is enough interest, you can officially propose it on the :xref:`Mautic propose new features` page so the Community can discuss them. You can then track if it's accepted or rejected on the page :xref:`Mautic proposal progress tracker`.
+
+.. vale on
 
 Features that don't fit within the direction of the Mautic Core goals are more than welcome as third-party Plugins instead. 
 
@@ -104,6 +108,8 @@ Choose the right branch
 
 Before working on a PR, you must determine which branch you need to work on. Mautic follows :xref:`Semver`, best illustrated by the below example.
 
+.. vale off
+
 Assuming that:
 
 ``a`` = current major release (for example, ``4`` in ``4.4.5``)
@@ -117,6 +123,8 @@ Assuming that:
 * Backwards compatibility breaking changes can only be released in a major version, so they should only ever be made against the ``c.x`` branch (for example, ``5.x``)
 
 The exception to this rule is if the last feature release (for example, ``5.4``) has already been made, all features would be made against the ``c.x`` branch (for example, ``6.x``) rather than the ``5.x`` branch. This is usually made clear in release notes, but if you're unsure, please ask in :xref:`Mautic product team Slack`.
+
+.. vale on
 
 As an example, if Mautic just released a ``4.0.0`` version of Mautic, the following would apply:
 
@@ -189,9 +197,13 @@ Then create a new branch off the ``5.0`` branch to work on the bug fix:
 
     git checkout -b BRANCH_NAME 5.0
 
+.. vale off
+
 .. tip::
   
     Use a descriptive name for your branch. For example, "issue_XXX" is a good convention for bug fixes. Replace the "XXX" with the issue number.
+
+.. vale on
 
 The mentioned ``checkout`` command automatically brings you to the newly created branch. Don't forget to verify the branch you are working on with ``git branch``.
 
@@ -252,7 +264,7 @@ Think about the BC breaks as you write a new code.
 * Make new classes final by default. Only remove the final keyword if there is a good reason for it.
 * Make a new method private by default. Make it public only if you need to use it outside of the class.
 * Prefer composition over inheritance. This way you can use final classes.
-* A unit test is not a good reason why a class shouldn't be final. For example, get the final service from the container instead of mocking it. If it's a final DTO object then you don't need to mock it at all.
+* A unit test isn't a good reason why a class shouldn't be final. For example, get the final service from the container instead of mocking it. If it's a final DTO object then you don't need to mock it at all.
 
 Step 5: migrations needed?
 **************************
@@ -376,7 +388,11 @@ Step 8: receiving feedback
 
 All contributors need to follow some best practices to ensure a constructive feedback process.
 
+.. vale off
+
 If you think someone fails to keep this advice in mind and you want another perspective, please request a review of the feedback in the ``#dev`` channel on :xref:`Mautic Community Slack`.
+
+.. vale on
 
 The :xref:`Mautic Product Team` decides which PRs get merged, so their feedback is the most relevant. Please don't feel pressured to refactor your code immediately when someone provides feedback and wait for the Product Team to review it.
 
@@ -486,9 +502,9 @@ For more detailed steps on writing and running tests, please refer to the Mautic
 Static analysis
 ===============
 
-Mautic uses :xref:`PHPSTAN` for some of its parts during continuous integration tests. To test your specific contribution locally, install PHPSTAN globally with ``composer global require phpstan/phpstan-shim``.
-
 .. vale off
+
+Mautic uses :xref:`PHPSTAN` for some of its parts during continuous integration tests. To test your specific contribution locally, install PHPSTAN globally with ``composer global require phpstan/phpstan-shim``.
 
 Mautic can't have PHPSTAN as its dev dependency because it requires PHP7+. To execute analysis on a specific bundle, run ``~/.composer/vendor/phpstan/phpstan-shim/phpstan.phar analyse app/bundles/*Bundle``.
 
