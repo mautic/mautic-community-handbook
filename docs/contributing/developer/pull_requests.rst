@@ -299,7 +299,7 @@ In order to keep Mautic stable and easy to maintain, there is a hard requirement
 Code standards
 ==============
 
-Mautic follows Symfony's :xref:`Symfony coding standards`_ by implementing pre-commit git hook running :xref:`php-cs-fixer`. The commands ``composer install`` and ``composer update`` install and update this automatically.
+Mautic follows Symfony's :xref:`Symfony coding standards` by implementing pre-commit git hook running :xref:`php-cs-fixer`. The commands ``composer install`` and ``composer update`` install and update this automatically.
 
 The aforementioned git hook automatically deals with any code styling. If you set the git hook correctly - which is the case if you ever run ``composer install`` or ``composer update`` before creating a PR - you can format your code as you like. The git hook converts it to Mautic's code style automatically.
 
