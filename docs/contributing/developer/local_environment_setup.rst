@@ -19,7 +19,7 @@ Development/build process requirements
    You can find Mautic-specific installation instructions for DDEV in the `Local Mautic development with DDEV` blog post.
 
 #. Mautic uses Git as a version control system. Download and install :xref:`Git` for your OS
-#. Install a server, PHP, and MySQL to run Mautic locally. Read :xref:`Local Mautic development with DDEV` blog post to use DDEV (recommended) or use an :xref:`AMP software bundle` package for your OS
+#. Install a server, PHP, and MySQL to run Mautic locally. Read :xref:`Local Mautic development with DDEV` blog post to use DDEV (recommended) or use :xref:`AMP software bundle` packages for your OS
 #. Install :xref:`Composer`, the dependency manager for PHP
 #. Install :xref:`npm`
 #. Install :xref:`Grunt`
@@ -107,7 +107,7 @@ If you are updating to the latest source - remember this is alpha - first run:
 
 .. vale off
 
-This will list out the queries Doctrine wants to execute to get the schema up-to-date (no queries are actually executed). Review the queries to ensure there is nothing detrimental to your data.
+This will list out the queries Doctrine wants to execute to get the schema up-to-date - no queries are actually executed. Review the queries to ensure there is nothing detrimental to your data.
 
 .. vale on
 
@@ -132,6 +132,6 @@ Regarding assets like JavaScript and CSS, the source files are loaded instead of
 
 In many cases, the CSS files are built from LESS files. To compile the changes in the LESS files, run the ``grunt compile-less`` command.
 
-.. vale on
+If you don't have Grunt installed, first run ``npm install -g grunt-cli`` to install the Grunt CLI globally. Then go to the Mautic root directory and run ``npm install``. After that, you can run the ``grunt compile-less`` command.
 
-If you don't have Grunt installed, first run ``npm install -g grunt-cli`` to install the Grunt command line interface - CLI - globally. Then go to the Mautic root directory and run ``npm install``. After that, you can run the ``grunt compile-less`` command.
+.. vale on
