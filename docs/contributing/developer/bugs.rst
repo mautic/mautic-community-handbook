@@ -12,22 +12,22 @@ If you encounter a bug, please report it to help improve Mautic for everyone.
 
 However, before submitting a bug:
 
-* You must make sure there are no problems with your local installation, such as permission problems, outdated cache, etc. For assistance, please refer to the Mautic's :xref:`Mautic troubleshooting` guide.
+* Make sure there are no problems with your local installation, such as permission problems, outdated cache, etc. For assistance, please refer to the Mautic's :xref:`Mautic troubleshooting` guide.
 * If you're unsure whether the problem is a bug, please ask for help first in the :xref:`Mautic Community Forums`.
 
-When you are confident that the problem is a bug, please create a new :xref:`Create a new issue for Mautic` in the repository and provide as many details as possible - reproduction steps, Mautic/PHP versions, etc.
+When you are confident that the problem is a bug, please create a new :xref:`Create a new issue for Mautic` in the repository and provide as many details as possible, such as reproduction steps, Mautic/PHP versions, etc.
 
 .. vale off
 
 .. warning::
 
-    If you have found a security vulnerability, please report it by submitting an :xref:`Mautic GitHub advisory form` with as much detail as possible.
+   If you have found a security vulnerability, please report it by submitting an :xref:`Mautic GitHub advisory form` with as much detail as possible.
 
-    The Core Team will review the vulnerability and, if found applicable, will create the patch in a private repository. The vulnerability will be disclosed once the patch has been included in a release.
+   The Core Team will review the vulnerability and, if found applicable, will create the patch in a private repository. The vulnerability will be disclosed once the patch has been included in a release.
 
-        .. tip::
+   .. tip::
 
-            You can read more about Mautic's Security Team, what kind of security issues Mautic responds to, who's on the team, and how to report an issue in the :xref:`Mautic security team` section.
+      You can read more about Mautic's Security Team, what kind of security issues Mautic responds to, who's on the team, and how to report an issue in the :xref:`Mautic security team` page.
 
 .. vale on
 
