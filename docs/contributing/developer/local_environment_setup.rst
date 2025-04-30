@@ -14,12 +14,12 @@ Development/build process requirements
 
 .. tip::
 
-    We recommend working with :xref:`DDEV` since it includes almost all required software out of the box - PHP, Composer, MySQL - and has some handy features like MailHog, PHPMyAdmin, dynamic PHP version switching, and much more.
+   We recommend working with :xref:`DDEV` since it includes almost all required software out of the box - PHP, Composer, MySQL - and has some handy features like MailHog, PHPMyAdmin, dynamic PHP version switching, and much more.
 
-	You can find Mautic-specific installation instructions for DDEV in the `Local Mautic development with DDEV` blog post.
+   You can find Mautic-specific installation instructions for DDEV in the `Local Mautic development with DDEV` blog post.
 
 #. Mautic uses Git as a version control system. Download and install :xref:`Git` for your OS
-#. Install a server, PHP, and MySQL to run Mautic locally. Read :xref:`Local Mautic development with DDEV` blog post to use DDEV (recommended) or use an :xref:`AMP software bundle` package for your OS
+#. Install a server, PHP, and MySQL to run Mautic locally. Read :xref:`Local Mautic development with DDEV` blog post to use DDEV (recommended) or use :xref:`AMP software bundle` packages for your OS
 #. Install :xref:`Composer`, the dependency manager for PHP
 #. Install :xref:`npm`
 #. Install :xref:`Grunt`
@@ -35,9 +35,9 @@ Mautic requirements
 #. See the :xref:`Mautic requirements` page for details of the required PHP version, PHP extensions, database, and web servers
 #. PHP modules - already included in DDEV and most AMP packages:
 
-	* required: ``zip``, ``xml``, ``mcrypt``, ``imap``, ``mailparse``
-	* recommended: ``openssl``, ``opcache`` / ``apcu`` / ``memcached``
-	* recommended for development: ``xdebug``
+   * required: ``zip``, ``xml``, ``mcrypt``, ``imap``, ``mailparse``
+   * recommended: ``openssl``, ``opcache`` / ``apcu`` / ``memcached``
+   * recommended for development: ``xdebug``
 #. Recommended memory limit: minimal 256 MB for testing and 512 MB or more for production
 #. Recommended MySQL defaults. It can be set by running the queries ``SET GLOBAL innodb_default_row_format=DYNAMIC; SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));``
 
@@ -107,7 +107,7 @@ If you are updating to the latest source - remember this is alpha - first run:
 
 .. vale off
 
-This will list out the queries Doctrine wants to execute to get the schema up-to-date (no queries are actually executed). Review the queries to ensure there is nothing detrimental to your data.
+This will list out the queries Doctrine wants to execute to get the schema up-to-date - no queries are actually executed. Review the queries to ensure there is nothing detrimental to your data.
 
 .. vale on
 
@@ -132,6 +132,6 @@ Regarding assets like JavaScript and CSS, the source files are loaded instead of
 
 In many cases, the CSS files are built from LESS files. To compile the changes in the LESS files, run the ``grunt compile-less`` command.
 
-.. vale on
+If you don't have Grunt installed, first run ``npm install -g grunt-cli`` to install the Grunt CLI globally. Then go to the Mautic root directory and run ``npm install``. After that, you can run the ``grunt compile-less`` command.
 
-If you don't have Grunt installed, first run ``npm install -g grunt-cli`` to install the Grunt command line interface - CLI - globally. Then go to the Mautic root directory and run ``npm install``. After that, you can run the ``grunt compile-less`` command.
+.. vale on
