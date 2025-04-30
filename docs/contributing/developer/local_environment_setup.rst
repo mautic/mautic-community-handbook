@@ -14,9 +14,9 @@ Development/build process requirements
 
 .. tip::
 
-    We recommend working with :xref:`DDEV` since it includes almost all required software out of the box - PHP, Composer, MySQL - and has some handy features like MailHog, PHPMyAdmin, dynamic PHP version switching, and much more.
+   We recommend working with :xref:`DDEV` since it includes almost all required software out of the box - PHP, Composer, MySQL - and has some handy features like MailHog, PHPMyAdmin, dynamic PHP version switching, and much more.
 
-	You can find Mautic-specific installation instructions for DDEV in the `Local Mautic development with DDEV` blog post.
+   You can find Mautic-specific installation instructions for DDEV in the `Local Mautic development with DDEV` blog post.
 
 #. Mautic uses Git as a version control system. Download and install :xref:`Git` for your OS
 #. Install a server, PHP, and MySQL to run Mautic locally. Read :xref:`Local Mautic development with DDEV` blog post to use DDEV (recommended) or use an :xref:`AMP software bundle` package for your OS
@@ -35,9 +35,9 @@ Mautic requirements
 #. See the :xref:`Mautic requirements` page for details of the required PHP version, PHP extensions, database, and web servers
 #. PHP modules - already included in DDEV and most AMP packages:
 
-	* required: ``zip``, ``xml``, ``mcrypt``, ``imap``, ``mailparse``
-	* recommended: ``openssl``, ``opcache`` / ``apcu`` / ``memcached``
-	* recommended for development: ``xdebug``
+   * required: ``zip``, ``xml``, ``mcrypt``, ``imap``, ``mailparse``
+   * recommended: ``openssl``, ``opcache`` / ``apcu`` / ``memcached``
+   * recommended for development: ``xdebug``
 #. Recommended memory limit: minimal 256 MB for testing and 512 MB or more for production
 #. Recommended MySQL defaults. It can be set by running the queries ``SET GLOBAL innodb_default_row_format=DYNAMIC; SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));``
 
