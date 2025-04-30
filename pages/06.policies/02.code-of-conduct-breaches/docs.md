@@ -59,3 +59,4 @@ The Community Council shall notify all the interested parties (offender and offe
 | Person | Conduct | Sanction|  
 |---------------|--------------------|--------------------|
 | Yosu Cadilla | Repeated personal attacks following formal warning | Permanent ban enacted June 6, 2023 |
+| Daniel Rold | Repeated offensive comments in the forums after two staff warnings, extremely offensive and threatening DMs after account was silenced to prevent further posts | Temporary three-month ban enacted April 30, 2025 |
