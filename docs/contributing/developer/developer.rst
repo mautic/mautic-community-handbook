@@ -29,7 +29,7 @@ Table of contents
 
 * :doc:`/contributing/developer/local_environment_setup` 
 * Code contributions
-  
+
    * :doc:`/contributing/developer/bugs`
    * :doc:`/contributing/developer/pull_requests`
 * :doc:`/contributing/developer/developer_documentation`
@@ -42,12 +42,12 @@ Reporting security vulnerabilities
 
 .. warning::
 
-    If you have found a security vulnerability, please report it by submitting an :xref:`Mautic GitHub advisory form` with as much detail as possible.
+   If you have found a security vulnerability, please report it by submitting an :xref:`Mautic GitHub advisory form` with as much detail as possible.
 
-    The Core Team will review the vulnerability and, if found applicable, will create the patch in a private repository. The vulnerability will be disclosed once the patch has been included in a release.
+   The Core Team will review the vulnerability and, if found applicable, will create the patch in a private repository. The vulnerability will be disclosed once the patch has been included in a release.
 
-    .. tip::
+   .. tip::
 
-        You can read more about Mautic's Security Team, what kind of security issues Mautic responds to, who's on the team, and how to report an issue in the :xref:`Mautic security team` section.
+      You can read more about Mautic's Security Team, what kind of security issues Mautic responds to, who's on the team, and how to report an issue in the :xref:`Mautic security team` section.
 
 .. vale on
