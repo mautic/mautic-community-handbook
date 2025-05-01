@@ -59,7 +59,7 @@ Step 2: review Mautic's roadmap & feature requests
 
 .. note::
 
-    You can skip this section if you're not planning to build a new feature.
+   You can skip this section if you're not planning to build a new feature.
 
 First, please keep in mind that many people are requesting new features. Therefore, the Core Team can only add a limited number of features to new releases.
 
@@ -88,13 +88,13 @@ Get the Mautic source code
 * Fork the Mautic repository by clicking the "Fork" button
 * After the forking process has completed, clone your fork locally using the following command:
 
-    .. code-block:: bash
+  .. code-block:: bash
 
       git clone https://github.com/USERNAME/mautic.git
 
   Or, if you use the :xref:`GitHub command-line tool`, run:
 
-    .. code-block:: bash
+  .. code-block:: bash
 
       gh repo clone mautic/mautic
 
@@ -201,7 +201,7 @@ Then create a new branch off the ``5.0`` branch to work on the bug fix:
 
 .. tip::
   
-    Use a descriptive name for your branch. For example, "issue_XXX" is a good convention for bug fixes. Replace the "XXX" with the issue number.
+   Use a descriptive name for your branch. For example, "issue_XXX" is a good convention for bug fixes. Replace the "XXX" with the issue number.
 
 .. vale on
 
@@ -277,7 +277,7 @@ That's where migrations come in handy because every time a User updates their Ma
 
 .. note::
 
-  You can skip the instructions below if you don't need migrations in your PR.
+   You can skip the instructions below if you don't need migrations in your PR.
 
 To create a migration, you can follow these steps:
 
@@ -295,7 +295,7 @@ To create a migration, you can follow these steps:
 
 .. tip::
 
-    You can find an example of migration scenario and code in `this PR <https://github.com/mautic/mautic/pull/8134/files>`_.
+   You can find an example of migration scenario and code in `this PR <https://github.com/mautic/mautic/pull/8134/files>`_.
 
 Step 6: prepare your pull request for submission
 ************************************************
@@ -379,7 +379,7 @@ You can now make a PR on the  :xref:`Mautic GitHub repository`.
 
 .. note::
 
-    Take care to point your PR towards ``mautic:4.0`` if you want the Core Team to pull a bug fix based on the ``4.0`` branch.
+   Take care to point your PR towards ``mautic:4.0`` if you want the Core Team to pull a bug fix based on the ``4.0`` branch.
 
 To ease the Core Team work, always include what you have modified in your PR message and provide steps to test your fix or feature. Keep in mind that not all testers have a thorough knowledge of Mautic's features, nor are they all likely to be developers. Therefore, clear testing steps are crucial.
 
@@ -406,9 +406,9 @@ Based on the feedback on your PR, you might need to make some changes. Before re
     git rebase -f upstream/4.x
     git push --force origin BRANCH_NAME
 
-.. tip::
+.. caution::
   
-    If you want to do a ``push --force``, don't forget to **specify the branch name explicitly** to avoid breaking other branches. Always use the option ``--force`` with caution as it overwrites the remote history and can lead to data loss.
+   If you want to do a ``push --force``, don't forget to **specify the branch name explicitly** to avoid breaking other branches. Always use the option ``--force`` with caution as it overwrites the remote history and can lead to data loss.
 
 Step 9: testing
 ***************
@@ -434,7 +434,7 @@ Before executing unit tests, copy the ``.env.dist`` file to ``.env`` then update
 
 .. warning::
 
-    Running functional tests without setting the ``.env`` file with a different database results in the configured database being overwritten.
+   Running functional tests without setting the ``.env`` file with a different database results in the configured database being overwritten.
 
 To run the entire test suite:
 
@@ -465,37 +465,37 @@ Before executing the end to end test suite:
 
 #. Build test dependencies:
 
-    .. code-block:: bash
+   .. code-block:: bash
 
-        bin/codecept build
+      bin/codecept build
 
 #. Edit ``.env.local`` to set the environment to test mode:
 
-    .. code-block:: php
+   .. code-block:: php
 
-        # .env.local
-        APP_ENV=test
-        APP_DEBUG=1
+      # .env.local
+      APP_ENV=test
+      APP_DEBUG=1
 
 #. Run the test:
 
    * To run the entire test suite:
 
-      .. code-block:: bash
+     .. code-block:: bash
 
-        bin/codecept run acceptance
+         bin/codecept run acceptance
 
    * To run tests for a specific bundle:
 
-      .. code-block:: bash
+     .. code-block:: bash
 
-        bin/codecept run acceptance ContactManagementCest
+         bin/codecept run acceptance ContactManagementCest
 
    * To run a specific test:
 
-      .. code-block:: bash
+     .. code-block:: bash
 
-        bin/codecept run acceptance ContactManagementCest:createContactFromForm
+         bin/codecept run acceptance ContactManagementCest:createContactFromForm
 
 For more detailed steps on writing and running tests, please refer to the Mautic's :xref:`Mautic e2e test suite` documentation.
 
