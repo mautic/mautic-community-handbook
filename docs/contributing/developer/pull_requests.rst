@@ -406,7 +406,7 @@ Based on the feedback on your PR, you might need to make some changes. Before re
     git rebase -f upstream/4.x
     git push --force origin BRANCH_NAME
 
-.. tip::
+.. caution::
   
    If you want to do a ``push --force``, don't forget to **specify the branch name explicitly** to avoid breaking other branches. Always use the option ``--force`` with caution as it overwrites the remote history and can lead to data loss.
 
