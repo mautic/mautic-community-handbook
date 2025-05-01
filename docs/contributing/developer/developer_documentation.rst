@@ -152,6 +152,12 @@ You don't need to create a new PR if the reviewer asks you to add or modify some
 * Make your changes,
 * Add, commit, and push your changes.
 
+  .. code-block::
+
+    git add FILE_PATH
+    git commit -m "your commit message"
+    git push
+
 Your next documentation contributions
 =====================================
 
