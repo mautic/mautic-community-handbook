@@ -27,8 +27,8 @@ Before your first contribution
 
 Before contributing, you need to:
 
-* Sign up for a :xref:`GitHub signup` account.
-* Get familiar with the :xref:`reStructuredText` markup language.
+* Sign up for a :xref:`GitHub signup` account
+* Get familiar with the :xref:`reStructuredText` markup language
 
 Your first documentation contribution
 =====================================
@@ -148,8 +148,8 @@ The Education Team will carefully review your work. They will either approve and
 
 You don't need to create a new PR if the reviewer asks you to add or modify something. You can make the changes on the same branch that you pushed. Here is how you do it:
 
-* Run ``git status`` to ensure you are on the correct branch.
-* Make your changes.
+* Run ``git status`` to ensure you are on the correct branch,
+* Make your changes,
 * Add, commit, and push your changes.
 
 Your next documentation contributions
