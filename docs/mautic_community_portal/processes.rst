@@ -51,7 +51,7 @@ To get to the processes, click on the main menu, then click on the Elections pro
 So what happens with a process, which is different to an assembly, is there are distinct phases. So you'll see at the top of the screenshot above it says we're in phase one of three. These phases are created when we create the process, and they can be specified by the team that are organizing the process. In this case, we've got three phases.
 
 .. image:: images/process-phases.png
-    :alt: Screenshot showing Mautic council eleection process
+    :alt: Screenshot showing Mautic council election process
     :width: 600px
     :align: center
 
@@ -59,7 +59,7 @@ So what happens with a process, which is different to an assembly, is there are 
 
     <br><br>
 
-So here we've got nominations open until the end of October. And this is a phase where you could step up and say, I want to stand as a member for the Council. You can propose yourself to actually be considered for nomination for voting for a Council member position. This phase, which will start on the 28th of October and go through to the 8th of November is where all of the nominations are now submitted.
+So here we've got nominations open until the end of October. And this is a phase where you could step up and say, I want to stand as a member for the Council. You can propose yourself to actually be considered for nomination for voting for a Council member position. This phase, which will start on the ``28th of October`` and go through to the 8th of November is where all of the nominations are now submitted.
 
 When the nominations close it means that we don't allow any more nominations, and the community have the option to vote for who they want to be standing on the Council. So every member of the General Assembly will have seven votes to vote for people in the nominations, because there's seven seats on the Council. So if we had 15 people stepping forwards and you have seven votes, obviously you can see that we will figure out in the end that some people will be more highly ranked than others.
 
@@ -73,7 +73,7 @@ Creating a proposal
 If I wanted to nominate myself, I would follow this process:
 
 .. image:: images/submit-proposal.png
-    :alt: Screenshot showing Mautic council eleection process
+    :alt: Screenshot showing Mautic council election process
     :width: 600px
     :align: center
 
@@ -96,7 +96,7 @@ The other process that we have is proposing new features.
 The way this works is that when we've been discussing a new feature on the forums and the community has got to a point where both marketers and developers are in agreement that it is something that should come into Mautic and there is commitment to actually developing it, a formal proposal is made for the Core Team to consider.
 
 .. image:: images/features-process.png
-    :alt: Screenshot showing Mautic council eleection process
+    :alt: Screenshot showing Mautic council election process
     :width: 600px
     :align: center
 
