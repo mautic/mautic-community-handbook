@@ -1,13 +1,11 @@
 Community reviews
 #################
 
-Mautic is an open source project driven by a large community. If you don't feel ready to contribute code or patches, reviewing issues and pull requests - PRs - can be a great start to getting involved and giving back. Issues and PR reviewers are the backbone of Mautic's success.
-
 .. vale off
 
-.. note::
+Issues and PR reviewers are the backbone of Mautic's success. Everyone can test and review submitted features and bug fixes, and no programming skills are required.
 
-    Everyone can test submitted features and bug fixes. No programming skills are required. All you have to do is to follow the instructions in this section.
+If you don't feel ready to contribute code or patches, reviewing issues and pull requests - PRs - can be a great start to getting involved and giving back. All you have to do is to follow the instructions in this page.
 
 * :ref:`Why reviewing is important`
 * :ref:`Be constructive`
@@ -24,7 +22,7 @@ Why reviewing is important
 
 Community reviews are essential for developing Mautic since there are many more PRs and bug reports than members in the Mautic Core Team to review, fix, and merge them.
 
-Things you need to pay attention to when reviewing an issue or PR:
+Things to pay attention to when reviewing an issue or PR:
 
 * **Bug Reports**: Ensure the accuracy and completeness of the issue. Can you reproduce the bug? Is any important information missing?
 
@@ -34,7 +32,7 @@ Explore the :xref:`Mautic repository open issues` in Mautic repository to find n
 
 .. note::
 
- Anyone familiar with Mautic and PHP can review bug reports and PRs. You don't need to be an expert to help.
+   Anyone familiar with Mautic and PHP can review bug reports and PRs. You don't need to be an expert to help.
 
 .. vale on
 
@@ -75,9 +73,9 @@ Here are the steps to review a bug report:
 
    .. vale off
 
-    Thank you, @mautibot, for creating this bug report. I could reproduce the bug on my end. Feel free to claim this issue if you want to work on it.
+     Thank you, @mautibot, for creating this bug report. I could reproduce the bug on my end. Feel free to claim this issue if you want to work on it.
 
-    .. vale on
+   .. vale on
 
 .. _PR review process:
 
@@ -86,7 +84,7 @@ The pull request review process
 
 .. vale off
 
-Every change to Mautic core happens via PRs. Every PR must have a number of successful tests and code reviews to be merged to the core and released in the next version - the number required depends on the :doc:`tier of the PR </contributing/governance/code-governance>`. Testing a PR is a great way to move Mautic forward and personally improve its quality and stability.
+Every change to Mautic happens via PRs. Every PR must have a number of successful tests and code reviews to be merged to the core and released in the next version - the number required depends on the :doc:`tier of the PR </contributing/governance/code-governance>`. Testing a PR is a great way to move Mautic forward and personally improve its quality and stability.
 
 .. vale on
 
