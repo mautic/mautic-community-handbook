@@ -73,7 +73,7 @@ Each time you update Mautic's source after the initial setup/installation via a 
 
 .. note::
 
-	If you're accessing Mautic through the dev environment via ``index_dev.php``, you must add ``--env=dev`` to the PHP command above.
+   If you're accessing Mautic through the dev environment via ``index_dev.php``, you must add ``--env=dev`` to the PHP command above.
 
 .. vale on
 
@@ -89,7 +89,7 @@ Database Schema
 
 .. important::
 
-	Before running these commands, please make a backup of your database.
+   Before running these commands, please make a backup of your database.
 
 If updating from a :xref:`Mautic tagged releases` to a tagged release, Schema changes will be included in a migrations file. To apply the changes, run:
 
