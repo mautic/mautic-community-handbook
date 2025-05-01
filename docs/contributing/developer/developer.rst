@@ -13,7 +13,7 @@ You might want to consider the following areas:
 * Joining a Tiger Team to focus on a particular area of Mautic
 * Creating demo applications and Plugins to encourage developers to work with Mautic
 * Writing and improving the developer documentation
-* Writing technical articles for the Mautic Community Blog
+* Writing technical articles for the Mautic Community :xref:`Mautic Community Blog`
 
 Contributing to Mautic as a developer
 *************************************
@@ -22,7 +22,7 @@ Development is open to all members of the Mautic community. The codebase is open
 
 .. tip::
 
-    As a starting point, you can begin with :doc:`setting up your local environment </contributing/developer/local_environment_setup>`.
+   As a starting point, you can begin with :doc:`setting up your local environment </contributing/developer/local_environment_setup>`.
 
 Table of contents
 *****************
