@@ -29,7 +29,7 @@ An assembly is a grouping of people who come together to make decisions about sp
 
 There are different reasons for having assemblies. Some of them relate to decision-making and governance, such as the Council and the General Assembly, while others are for Teams, Meetup Groups, and Working Groups.
 
-An assembly can also contain assemblies within it, for example, the MautiCon Working Group is part of the Community Team, because that's the team in which it belongs. This is denoted by the card having a stacked appearance, and listing the number of assemblies within it, as seen in the Community Team here.
+An assembly can also contain assemblies within it, for example, the MautiCon Working Group is part of the Community Team, because that's the team in which it belongs. The card shows a stacked appearance and lists the number of assemblies within it, as seen in the Community Team here.
 
 .. image:: ../images/sub-assemblies.png
     :alt: VSCode screenshot showing how to change branches
@@ -90,7 +90,11 @@ When you click the members item in the assembly menu it lists the formal members
 
     <br><br>
 
-If you are interested in an assembly the best thing to do is to follow that assembly to get updates. When you start practically contributing to an assembly in some way, the team designates you as a contributor or the relevant formal role for the assembly.
+.. vale off
+
+If you want to stay informed about an assembly, the best thing to do is to follow that assembly to get updates. When you start practically contributing to an assembly in some way, the team designates you as a contributor or the relevant formal role for the assembly.
+
+.. vale on
 
 Blog
 ====
@@ -105,9 +109,14 @@ In this case, an official post from the team invites people interested in promot
 
 Meeting
 =======
+
+.. vale off
+
 Another popular component used in the portal is meetings. Meetings can be online, hybrid, or in person, and there is an option to filter using select boxes and a search box to show all meetings, upcoming meetings, past meetings, and also to filter by type.
 
-There is an option to export the calendar, which is great if you want to ensure that the meetings for a particular assembly are in your personal calendar. This creates a URL which you can subscribe to in your calendar of choice, so it is updated automatically.
+.. vale on
+
+There is an option to export the calendar, which is great if you want to ensure that the meetings for a particular assembly are in your personal calendar. This creates a URL which you can subscribe to in your calendar of choice, so it's updated automatically.
 
 .. image:: ../images/community-team-meetings.png
     :alt: VSCode screenshot showing how to change branches
@@ -118,7 +127,7 @@ There is an option to export the calendar, which is great if you want to ensure 
 
     <br><br>
 
-Click the meeting to learn more about what is being discussed.
+Click the meeting to see what people are discussing.
 
 .. image:: ../images/community-team-meeting-with-agenda.png
     :alt: VSCode screenshot showing how to change branches
@@ -147,11 +156,11 @@ Click the meeting to learn more about what is being discussed.
     <br><br>
 
 3. You can decide to follow the meeting if you want to get updates.
-4. In some assemblies, participants can create meetings as well as the group members. You can tell the difference because if a meeting is created by a group member, it shows as an official meeting.
+4. In some assemblies, participants can create meetings as well as the group members. You can tell the difference when a group member creates a meeting, it appears as an official meeting.
 5. A description of the meeting gives you an overview of what’s discussed.
 6. A formal agenda outlines what’s discussed and the rough timings for each section.
-7. An Etherpad which allows you to take notes collaboratively during the meeting. The pad becomes editable within 24 hours of the meeting start time and remains available and editable for 72 hours after. From that point it becomes read only. This allows people to participate asynchronously if they want to. It is required to be logged into the portal to edit the Etherpad.
-8. Comments can be left on a meeting, and you can express positive support, neutral, or downvote along with leaving a comment if you wish. There is a maximum of 1,000 characters per comment.
+7. An Etherpad which allows you to take notes collaboratively during the meeting. The pad becomes editable within 24 hours of the meeting start time and remains available and editable for 72 hours after. From that point it becomes read only. This allows people to participate asynchronously if they want to. It's required to log into the portal to edit the Etherpad.
+8. You can leave comments on a meeting and choose to show positive support, stay neutral, or downvote, along with your comment if you wish. There is a maximum of 1,000 characters per comment.
 
 Subscribing to the calendar
 ---------------------------
@@ -170,7 +179,12 @@ To subscribe to all events site-wide, follow the same process but use the Meetin
 
 Debates
 =======
+
+.. vale off
+
 In the new features process, the component for debates is included. Any of the assemblies or processes can have the debates component available.
+
+.. vale on
 
 If you have a question, and you want the community to be able to give you feedback or discussions, this is a great way to do it within the community portal.
 
@@ -187,7 +201,7 @@ If you have a question, and you want the community to be able to give you feedba
 2. Search and filter options to look through all debates.
 3. Individual debates
 
-In this case, the team was working on CKEditor, and a question arose about what should be changeable in the WYSIWYG editor when using the GrapesJS Builder. Since many things can be changed directly in the GrapesJS Builder, the question is how much control should be given to the WYSIWYG editor. This presents an opportunity for discussion and debate.
+In this case, the team was working on CKEditor, and a question arose about what should be changeable in the WYSIWYG editor when using the GrapesJS Builder. Since many things can change directly in the GrapesJS Builder, the question is how much control you should give to the WYSIWYG editor. This presents an opportunity for discussion and debate.
 
 .. image:: ../images/individual-debate.png
     :alt: VSCode screenshot showing how to change branches
@@ -199,8 +213,8 @@ In this case, the team was working on CKEditor, and a question arose about what 
     <br><br>
 
 1. Button to endorse the debate as yourself or as a group or team.
-2. Button to follow the debate to be notified of changes.
+2. Button to follow the debate and get notifications about any changes.
 3. A list of individuals and teams or groups who have endorsed the debate.
 4. An opportunity to give positive, neutral or downvote support and leave a comment with up to one thousand characters.
 
-Debates could be time limited, or they could be closed when the discussion gets to a point where a decision has been made, and then if appropriate a related proposal could be made.
+Debates could be time limited, or they could close them  when the discussion gets to a point where participants make a decision, and then if appropriate a related proposal can follow.
