@@ -27,8 +27,8 @@ Before your first contribution
 
 Before contributing, you need to:
 
-* Sign up for a :xref:`GitHub signup` account.
-* Get familiar with the :xref:`reStructuredText` markup language.
+* Sign up for a :xref:`GitHub signup` account
+* Get familiar with the :xref:`reStructuredText` markup language
 
 Your first documentation contribution
 =====================================
@@ -70,7 +70,7 @@ Before contributing, go to the :xref:`Developer Docs GitHub` repository on GitHu
 Creating a new branch and working on changes
 --------------------------------------------
 
-You always want to create a new branch from the default branch of a repository. To know the default branch of a repository, click the dropdown menu at the top left. Then click the branch that has a "default" label to set it.
+You always want to create a new branch from the default branch of a repository. To know the default branch of a repository, click the dropdown menu at the top left. Then look for a branch that has the ``default`` label.
 
 .. image:: ../images/repository_default_branch.png
   :width: 600
@@ -79,6 +79,7 @@ You always want to create a new branch from the default branch of a repository. 
 
 Now follow the steps below to create a new branch and work on your changes:
 
+#. Make sure that you're in the default branch by running ``git status``.
 #. Create a new branch to work on your changes from the default branch.
 
    .. vale off
@@ -147,9 +148,15 @@ The Education Team will carefully review your work. They will either approve and
 
 You don't need to create a new PR if the reviewer asks you to add or modify something. You can make the changes on the same branch that you pushed. Here is how you do it:
 
-* Run ``git status`` to ensure you are on the correct branch.
-* Make your changes.
+* Run ``git status`` to ensure you are on the correct branch,
+* Make your changes,
 * Add, commit, and push your changes.
+
+  .. code-block::
+
+    git add FILE_PATH
+    git commit -m "your commit message"
+    git push
 
 Your next documentation contributions
 =====================================
