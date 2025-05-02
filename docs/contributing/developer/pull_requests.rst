@@ -222,7 +222,7 @@ Any change that may break a Plugin either using or extending a class. As Mautic 
 
 Examples:
 
-* Removing or renaming a public or protected method in a non-final class. Create a new method instead and mark the old one :doc:`deprecated </contributing/governance/code-governance/deprecation_policy>`.
+* Removing or renaming a public or protected method in a non-final class. Create a new method instead and mark the old one :doc:`deprecated </governance/deprecation_policy>`.
 * Changing the signature of a private or public method in a non-final class. This means adding/removing method parameters, or adding/changing parameters or return types. Create a new method instead and mark the old one deprecated.
 * Changing the behavior of a method so it does something differently.
 * Adding a new method to an existing interface. Create a new interface instead.
@@ -403,7 +403,7 @@ Step 9: testing
 Pull request testing
 ====================
 
-If you want to test a PR from other developers, see the :ref:`PR review process` section. All PRs require testing by others in the Community, and must have the code reviewed by a member of the Core Team. Read more information in the :doc:`/contributing/governance/code-governance` section.
+If you want to test a PR from other developers, see the :ref:`PR review process` section. All PRs require testing by others in the Community, and must have the code reviewed by a member of the Core Team. Read more information in the :doc:`/governance/code-governance` section.
 
 Automated testing
 =================
