@@ -157,24 +157,11 @@ You can determine on which branch to work as follows:
 Install Mautic
 ==============
 
-If you are using DDEV, run:
+.. vale off
 
-.. code-block:: bash
-  
-    ddev start
+Please follow the intsructions in the :doc:`/contributing/developer/local_environment_setup` page to install Mautic locally.
 
-The Mautic installation process automatically happens at the command line, so you only need to wait for it to complete.
-
-If you aren't using DDEV:
-
-* Go into your Mautic folder and install the PHP Composer dependencies:
-
-  .. code-block:: bash
-
-      cd mautic
-      composer install
-
-* Open Mautic in your browser, for example, by going to ``http://localhost/mautic`` depending on your environment if you want to install it in the UI. Follow the steps to install :xref:`install Mautic` locally.
+.. vale on
 
 Create a topic branch
 =====================
