@@ -50,9 +50,8 @@ Installation
 #. Change directory to the server root. For example, ``cd /var/www`` if your local server root is at ``/var/www``
 #. Clone the repository by running ``gh repo clone mautic/mautic``
 #. Change directory to ``mautic`` by running ``cd mautic``
-#. Install dependencies with ``composer install`` if you aren't using DDEV. If you're using DDEV, run ``ddev start``
-#. Open Mautic in a browser - probably at ``http://localhost/mautic`` - and follow the installation steps
-#. If you're using DDEV, the installer sets up Mautic for you. Then you can access the instance at ``https://mautic.ddev``
+#. Install dependencies with ``composer install``. If you're using DDEV, run ``ddev start``
+#. Open Mautic in a browser - probably at ``http://localhost/mautic`` - and follow the installation steps. If you're using DDEV, the installer sets up Mautic for you. Then you can access the instance at ``https://mautic.ddev``
 
 Keeping up-to-date
 ******************
@@ -69,13 +68,9 @@ Each time you update Mautic's source after the initial setup/installation via a 
 
 	$ php bin/console cache:clear
 
-.. vale off
-
 .. note::
 
-   If you're accessing Mautic through the dev environment via ``index_dev.php``, you must add ``--env=dev`` to the PHP command above.
-
-.. vale on
+   If you're accessing Mautic through the development environment via ``index_dev.php``, you must add ``--env=dev`` to the PHP command above.
 
 Vendors
 =======
@@ -128,10 +123,30 @@ This development environment displays the PHP errors, warnings, and notices dire
 
 .. vale off
 
-Regarding assets like JavaScript and CSS, the source files are loaded instead of concatenated, minified files. This way, the changes in those files will be directly visible when refreshed. If you want to see the change in the production environment, run the ``bin/console mautic:assets:generate`` command.
+Regarding assets like JavaScript and CSS, the source files are loaded instead of concatenated, minified files. This way, the changes in those files will be directly visible when refreshed. If you want to see the change in the production environment, run this command:
 
-In many cases, the CSS files are built from LESS files. To compile the changes in the LESS files, run the ``grunt compile-less`` command.
+.. code-block:: bash
 
-If you don't have Grunt installed, first run ``npm install -g grunt-cli`` to install the Grunt CLI globally. Then go to the Mautic root directory and run ``npm install``. After that, you can run the ``grunt compile-less`` command.
+  bin/console mautic:assets:generate
+
+In many cases, the CSS files are built from LESS files, and Mautic uses Grunt to compile the changes in the LESS files. Follow the below steps:
 
 .. vale on
+
+#. Install the Grunt CLI globally, by running:
+  
+   .. code-block:: bash
+
+     npm install -g grunt-cli
+
+#. Go to the Mautic root directory and run:
+
+   .. code-block:: bash
+
+     npm install
+     
+#. Compile the changes in the LESS files by running: 
+
+   .. code-block:: bash
+
+     grunt compile-less
