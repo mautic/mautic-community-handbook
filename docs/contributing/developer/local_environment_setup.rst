@@ -137,8 +137,6 @@ In many cases, the CSS files are built from LESS files, and Mautic uses Grunt to
 
      npm install -g grunt-cli
 
-.. vale on
-
 #. Go to the Mautic root directory and run:
 
    .. code-block:: bash
@@ -150,3 +148,5 @@ In many cases, the CSS files are built from LESS files, and Mautic uses Grunt to
    .. code-block:: bash
 
      grunt compile-less
+
+.. vale on
