@@ -84,7 +84,7 @@ The pull request review process
 
 .. vale off
 
-Every change to Mautic happens via PRs. Every PR must have a number of successful tests and code reviews to be merged to the core and released in the next version - the number required depends on the :doc:`tier of the PR </contributing/governance/code-governance>`. Testing a PR is a great way to move Mautic forward and personally improve its quality and stability.
+Every change to Mautic happens via PRs. Every PR must have a number of successful tests and code reviews to be merged to the core and released in the next version - the number required depends on the :doc:`tier of the PR </governance/code-governance>`. Testing a PR is a great way to move Mautic forward and personally improve its quality and stability.
 
 .. vale on
 
