@@ -131,13 +131,13 @@ Regarding assets like JavaScript and CSS, the source files are loaded instead of
 
 In many cases, the CSS files are built from LESS files, and Mautic uses Grunt to compile the changes in the LESS files. Follow the below steps:
 
-.. vale on
-
 #. Install the Grunt CLI globally, by running:
   
    .. code-block:: bash
 
      npm install -g grunt-cli
+
+.. vale on
 
 #. Go to the Mautic root directory and run:
 
