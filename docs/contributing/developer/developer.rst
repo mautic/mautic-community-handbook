@@ -1,6 +1,8 @@
 Developer
 #########
 
+Mautic development is open to all members of the Mautic community. The codebase is open source and publicly accessible.
+
 There are various ways to contribute to Mautic as a developer, depending on your interests and how your skills align with current projects.
 
 You might want to consider the following areas:
@@ -15,25 +17,14 @@ You might want to consider the following areas:
 * Writing and improving the developer documentation
 * Writing technical articles for the Mautic Community :xref:`Mautic Community Blog`
 
-Contributing to Mautic as a developer
-*************************************
 
-Development is open to all members of the Mautic community. The codebase is open source and publicly accessible. If you'd like to fix or improve the code, you must first make a pull request.
+.. attention:: 
 
-.. tip::
+   If you'd like to fix or improve the code, you must first **make a pull request**.
 
-   As a starting point, you can begin with :doc:`setting up your local environment </contributing/developer/local_environment_setup>`.
+   .. tip::
 
-Table of contents
-*****************
-
-* :doc:`/contributing/developer/local_environment_setup` 
-* Code contributions
-
-   * :doc:`/contributing/developer/bugs`
-   * :doc:`/contributing/developer/pull_requests`
-* :doc:`/contributing/developer/developer_documentation`
-* :doc:`/contributing/developer/community_reviews`
+      As a starting point, you can begin with :doc:`setting up your local environment </contributing/developer/local_environment_setup>`.
 
 Reporting security vulnerabilities
 **********************************
@@ -51,3 +42,13 @@ Reporting security vulnerabilities
       You can read more about Mautic's Security Team, what kind of security issues Mautic responds to, who's on the team, and how to report an issue in the :xref:`Mautic security team` section.
 
 .. vale on
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contributing as a developer
+   :hidden:
+
+   local_environment_setup
+   code
+   community_reviews
+   developer_documentation
