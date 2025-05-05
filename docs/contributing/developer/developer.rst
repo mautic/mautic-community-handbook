@@ -1,6 +1,8 @@
 Developer
 #########
 
+Mautic development is open to all members of the Mautic community. The codebase is open source and publicly accessible. If you'd like to fix or improve the code, you must first **make a pull request**.
+
 There are various ways to contribute to Mautic as a developer, depending on your interests and how your skills align with current projects.
 
 You might want to consider the following areas:
@@ -14,11 +16,6 @@ You might want to consider the following areas:
 * Creating demo applications and Plugins to encourage developers to work with Mautic
 * Writing and improving the developer documentation
 * Writing technical articles for the Mautic Community :xref:`Mautic Community Blog`
-
-Contributing to Mautic as a developer
-*************************************
-
-Development is open to all members of the Mautic community. The codebase is open source and publicly accessible. If you'd like to fix or improve the code, you must first make a pull request.
 
 .. tip::
 
