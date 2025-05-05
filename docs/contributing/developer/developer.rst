@@ -42,3 +42,13 @@ Reporting security vulnerabilities
       You can read more about Mautic's Security Team, what kind of security issues Mautic responds to, who's on the team, and how to report an issue in the :xref:`Mautic security team` section.
 
 .. vale on
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contributing as a developer
+   :hidden:
+
+   local_environment_setup
+   code
+   community_reviews
+   developer_documentation
