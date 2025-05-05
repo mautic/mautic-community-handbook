@@ -108,21 +108,21 @@ Choose the right branch
 
 Before working on a PR, you must determine which branch you need to work on. Mautic follows :xref:`Semver`, best illustrated by the below example.
 
-.. vale off
-
 Assuming that:
 
-``a`` = current major release (for example, ``4`` in ``4.4.5``)
+``a`` = current major release - for example, ``4`` in ``4.4.5``
 
-``b`` = current minor release (for example, ``4.4`` in ``4.4.5``)
+``b`` = current minor release - for example, ``4.4`` in ``4.4.5``
 
-``c`` = future major release (for example, ``5`` in ``5.0``)
+``c`` = future major release - for example, ``5`` in ``5.0``
 
-* All PRs are made against the ``c.x`` branch in the first instance (for example, ``5.x``)
-* If the PR should be merged in an earlier release than the next major release of Mautic, duplicate the PR against the relevant ``a.b`` branch for bug fixes (for example, ``5.0``), or ``a.x`` branch for features and enhancements (for example, ``5.x``).
-* Backwards compatibility breaking changes can only be released in a major version, so they should only ever be made against the ``c.x`` branch (for example, ``5.x``)
+.. vale off
 
-The exception to this rule is if the last feature release (for example, ``5.4``) has already been made, all features would be made against the ``c.x`` branch (for example, ``6.x``) rather than the ``5.x`` branch. This is usually made clear in release notes, but if you're unsure, please ask in :xref:`Mautic product team Slack`.
+* All PRs are made against the ``c.x`` branch in the first instance - for example, ``5.x``.
+* If the PR should be merged in an earlier release than the next major release of Mautic, duplicate the PR against the relevant ``a.b`` branch for bug fixes - for example, ``5.0`` - or ``a.x`` branch for features and enhancements - for example, ``5.x``.
+* Backwards compatibility breaking changes can only be released in a major version, so they should only ever be made against the ``c.x`` branch - for example, ``5.x``.
+
+The exception to this rule is if the last feature release - for example, ``5.4`` - has already been made, all features would be made against the ``c.x`` branch - for example, ``6.x`` rather than the ``5.x`` branch. This is usually made clear in release notes, but if you're unsure, please ask in :xref:`Mautic product team Slack`.
 
 .. vale on
 
@@ -159,7 +159,7 @@ Install Mautic
 
 .. vale off
 
-Please follow the intsructions in the :doc:`/contributing/developer/local_environment_setup` page to install Mautic locally.
+Please follow the instructions in the :doc:`/contributing/developer/local_environment_setup` page to install Mautic locally.
 
 .. vale on
 
@@ -188,7 +188,7 @@ Then create a new branch off the ``5.0`` branch to work on the bug fix:
 
 .. tip::
   
-   Use a descriptive name for your branch. For example, "issue_XXX" is a good convention for bug fixes. Replace the "XXX" with the issue number.
+   Use a descriptive name for your branch. For example, ``issue_XXX`` is a good convention for bug fixes. Replace the "XXX" with the issue number.
 
 .. vale on
 
