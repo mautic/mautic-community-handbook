@@ -1,8 +1,8 @@
-Code
-####
-
 Code contribution
-*****************
+#################
 
-* :doc:`Reporting bugs </contributing/developer/bugs>`
-* :doc:`/contributing/developer/pull_requests`
+.. toctree::
+   :maxdepth: 1
+
+   bugs
+   pull_requests
