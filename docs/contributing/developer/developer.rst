@@ -1,6 +1,16 @@
 Developer
 #########
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Contributing as a developer
+   :hidden:
+
+   local_environment_setup
+   code
+   community_reviews
+   developer_documentation
+
 Mautic development is open to all members of the Mautic community. The codebase is open source and publicly accessible.
 
 There are various ways to contribute to Mautic as a developer, depending on your interests and how your skills align with current projects.
@@ -42,13 +52,3 @@ Reporting security vulnerabilities
       You can read more about Mautic's Security Team, what kind of security issues Mautic responds to, who's on the team, and how to report an issue in the :xref:`Mautic security team` section.
 
 .. vale on
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contributing as a developer
-   :hidden:
-
-   local_environment_setup
-   code
-   community_reviews
-   developer_documentation
