@@ -1,7 +1,7 @@
 Processes
 #########
 
-In this article, we're exploring Processes in the new Mautic community portal - what are they, why we would use them, how you use them, and why they're important in the Mautic community.
+This article explores Processes in the new Mautic community portal, what are they, reasons for their use, how you use them, and why they're important in the Mautic community.
 
 If you prefer to watch this in video format, you can do so here:
 
@@ -13,21 +13,21 @@ If you prefer to watch this in video format, you can do so here:
 
     <br><br>
 
-So let's go ahead and click on Processes in the top main menu, and you will notice that there's some text at the top, just like there was in Assemblies, which explains to you what a participatory process is.
+Navigate to Processes in the top main menu. Introductory text explaining the concept of a participatory process appears at the top, similar to what was present in Assemblies.
 
-What is a participatory process?
-********************************
+What's a participatory process?
+*******************************
 
-Basically, it's a sequence where you go through making a proposal, the proposals are reviewed, they're voted on or prioritized, and then we make a decision on what to do.
+Basically, it's a sequence where someone makes a proposal, the community reviews it, then votes or prioritizes, and finally decides on the course of action.
 
-Processes could be used for anything from voting on who's going to be on the Council, to deciding new features in Mautic, to figuring out what kind of swag we're going to have for the next MautiCon and having people design some proposals, and we then ask the community to vote and then decide which ones we go forward with.
+Processes apply to anything from voting on Council members, to deciding on new Mautic features, to choosing swag for the next MautiCon and having people design proposals. The community votes on submitted proposals, and the highest-voted options move forward for implementation.
 
-So you can see there's lots of different ways that we might use a participatory process within the community. At the moment, we have two processes that are live, and I'm going to talk you through the council elections one to start with, because that's probably the easiest for people to understand.
+There are many ways to apply participatory processes within the community. Currently, two processes are active. The council elections process serves as the first example, as it is likely the easiest to understand.
 
-Voting v endorsing
-******************
+Voting endorsing
+****************
 
-Voting is where your vote is counted formally, but endorsing is just showing that you like this proposal. It's akin to a like on social media, whereas voting is actually casting a vote for that proposal.
+Voting is where the system formally counts your vote, but endorsing is just showing that you like this proposal. It's akin to a like on social media, whereas voting is actually casting a vote for that proposal.
 
 You are able to vote for the proposal as an individual human, and each process may restrict the number of votes that are available per user.
 
@@ -41,14 +41,14 @@ To get to the processes, click on the main menu, then click on the Elections pro
 1. A hashtag which relates to this specific process.
 2. About participatory processes - you can cancel that if you don't want that to show every time.
 3. What this process is about, why it is important.
-4. This tells you about the council. What is the council? Why is this election happening? What is the council's role within our community?
+4. This tells you about the council. What's the council? Why is this election happening? What's the council's role within our community?
 5. Like everything else, you can stop following or follow here using this button.
-6. This process belongs to a process group called governance. So we might have the elections running, but there might also be some other processes that are running which also relate to governance. So this allows us to group active processes together.
+6. This process belongs to a process group called governance. Elections may be running alongside other governance-related processes. So this allows us to group active processes together.
 7. If there are assemblies that are related to this process they will be listed here.
 8. More information about the process can be found in the metadata.
 9. The phases of the process will be listed here.
 
-So what happens with a process, which is different to an assembly, is there are distinct phases. So you'll see at the top of the screenshot above it says we're in phase one of three. These phases are created when we create the process, and they can be specified by the team that are organizing the process. In this case, we've got three phases.
+So what happens with a process, which is different to an assembly, is there are distinct phases. So you'll see at the top of the screenshot above it says we're in phase one of three. The team organizing the process defines these phases when setting up the process. In this case, we've got three phases.
 
 .. image:: images/process-phases.png
     :alt: Screenshot showing Mautic council election process
@@ -59,13 +59,13 @@ So what happens with a process, which is different to an assembly, is there are 
 
     <br><br>
 
-So here we've got nominations open until the end of October. And this is a phase where you could step up and say, I want to stand as a member for the Council. You can propose yourself to actually be considered for nomination for voting for a Council member position. This phase, which will start on the ``28th of October`` and go through to the 8th of November is where all of the nominations are now submitted.
+So here we've got nominations open until the end of October. And this is a phase where you could step up and say, I want to stand as a member for the Council. You can propose yourself to actually be considered for nomination for voting for a Council member position. This phase, which will start on the ``28th of October`` and go through to the ``8th of November`` is where all of the nominations are now submitted.
 
-When the nominations close it means that we don't allow any more nominations, and the community have the option to vote for who they want to be standing on the Council. So every member of the General Assembly will have seven votes to vote for people in the nominations, because there's seven seats on the Council. So if we had 15 people stepping forwards and you have seven votes, obviously you can see that we will figure out in the end that some people will be more highly ranked than others.
+When nominations close, the process stops accepting new nominations, and the community can vote for their preferred candidates for the Council. Each member of the General Assembly gets seven votes, corresponding to the seven available seats on the Council. If 15 people stand for election, each voter has seven votes, so the final result will rank candidates based on the number of votes they receive.
 
-And then on the 8th, we will then make the announcement and tell people what the outcome is of this nomination and election process.
+And then on the ``8th``, the outcome of the nomination and election process is then announced to the community.
 
-In the voting phase, the nominations will be shown randomly and then when we get to the announcements, they will be shown by the highest number of votes.
+In the voting phase, the system displays nominations randomly. During the announcement, it lists them by the highest number of votes.
 
 Creating a proposal
 *******************
@@ -91,7 +91,7 @@ Once you have completed your proposal, you will have the opportunity to preview 
 New features process
 ********************
 
-The other process that we have is proposing new features.
+The other process involves proposing new features.
 
 The way this works is that when we've been discussing a new feature on the forums and the community has got to a point where both marketers and developers are in agreement that it is something that should come into Mautic and there is commitment to actually developing it, a formal proposal is made for the Core Team to consider.
 
@@ -112,4 +112,4 @@ The way this works is that when we've been discussing a new feature on the forum
 6. A list of people, teams and groups who have already endorsed the proposal - note that individuals can select to not be displayed publicly
 7. Option to leave comments with positive neutral or downvote sentiment
 
-So hopefully that makes sense as to what the processes are, how they work. We are just exploring very small areas right now, and there are lots of other ways we can use these features for the benefit of Mautic, but we're just starting in two areas where we think that it would be really beneficial.
+This should clarify how the processes work. We're currently exploring small areas, but there are many other ways these features can benefit Mautic. For now, we’re focusing on two areas where they would be particularly valuable.
