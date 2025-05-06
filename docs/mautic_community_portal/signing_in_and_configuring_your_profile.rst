@@ -238,6 +238,7 @@ When viewing a profile in the front end, there are some fields on the left hand 
     <br><br>
 
 1. Username and profile fields
+
 .. vale off
 
 2. Official role within the project
