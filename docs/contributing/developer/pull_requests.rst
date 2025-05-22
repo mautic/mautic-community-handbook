@@ -260,8 +260,10 @@ Mautic follows Symfony's :xref:`Symfony coding standards` by implementing pre-co
 
 The aforementioned git hook automatically deals with any code styling. If you set the git hook correctly - which is the case if you ever run ``composer install`` or ``composer update`` before creating a PR - you can format your code as you like. The git hook converts it to Mautic's code style automatically.
 
-Documentation
-=============
+.. _PRs Developer documentation:
+
+Developer documentation
+=======================
 
 .. vale off
 
