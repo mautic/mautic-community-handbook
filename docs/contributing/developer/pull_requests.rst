@@ -31,13 +31,8 @@ When there is enough interest, you can officially propose it on the :xref:`Mauti
 
 Features that don't fit within the direction of the Mautic Core goals are more than welcome as third-party Plugins instead. 
 
-Step 3: set up your environment
-*******************************
-
-Install the software stack
-==========================
-
-Please see the instructions in the :doc:`/contributing/developer/local_environment_setup` to install the software stack.
+Step 3: set up your local environment
+*************************************
 
 Get the Mautic source code
 ==========================
@@ -58,13 +53,15 @@ Get the Mautic source code
 
   Cloning your fork creates a ``mautic`` directory in your local machine.
 
-Step 4: work on your pull request
-*********************************
+Install the software stack
+==========================
+
+Please see the instructions in the :doc:`/contributing/developer/local_environment_setup` for installing the software stack.
 
 Choose the right branch
 =======================
 
-Before working on a PR, you must determine which branch you need to work on. Mautic follows :xref:`Semver`, best illustrated by the below example.
+Before working on a PR, you must determine which branch you use as the base branch for your work. Mautic follows :xref:`Semver`, best illustrated by the below example.
 
 Assuming that:
 
@@ -106,25 +103,16 @@ As an example, if Mautic just released a ``4.0.0`` version of Mautic, the follow
       - ✅
       - ✅
 
-You can determine on which branch to work as follows:
+The information below can help you determine which branch you need to choose as your base branch:
 
-* ``4.4``, if you are fixing a bug and want your bug included in a ``4.4.x`` release of Mautic, you must also create a duplicate PR for the ``5.x`` branch.
-* ``4.x``, if you are adding a new feature or enhancing an existing feature to include in a version of Mautic ``4``, which is the current major release.
-* ``5.x``, if you are adding a new feature or enhancing an existing feature that breaks backward compatibility, to include in the next major version of Mautic, Mautic ``5``.
-
-Install Mautic
-==============
-
-.. vale off
-
-Please follow the instructions in the :doc:`/contributing/developer/local_environment_setup` page to install Mautic locally.
-
-.. vale on
+* ``4.4``, if you fix a bug and want your fix included in a ``4.4.x`` release of Mautic. You must also create a duplicate PR for the ``5.x`` branch.
+* ``4.x``, if you add a new feature or enhance an existing one to include in a version of Mautic ``4``, the current major release.
+* ``5.x``, if you add a new feature or enhance an existing one that breaks backward compatibility, to include in the next major version of Mautic, Mautic ``5``.
 
 Create a topic branch
 =====================
 
-Topic branch is a short-live branch that you use when working on a single topic, such as a bug fix, a new feature, etc. Each time you want to work on a PR for a bug or on an enhancement, create a topic branch from the relevant base branch by running:
+A topic branch is a short-lived branch that you use when working on a single topic, such as a bug fix, a new feature, etc. Each time you want to work on a PR for a bug or on an enhancement, create a topic branch from the relevant base branch by running:
 
 .. code-block:: bash
 
@@ -136,7 +124,7 @@ Or, if you want to provide a bug fix for the ``5.0`` branch, first track the rem
 
     git checkout -t origin/5.0
 
-Then create a new branch off the ``5.0`` branch to work on the bug fix:
+Then, create a new branch from the ``5.0`` branch to work on the bug fix:
 
 .. code-block:: bash
 
@@ -152,14 +140,14 @@ Then create a new branch off the ``5.0`` branch to work on the bug fix:
 
 The mentioned ``checkout`` command automatically brings you to the newly created branch. Don't forget to verify the branch you are working on with ``git branch``.
 
-Work on your pull request
-=========================
+Step 4: work on your changes
+****************************
 
 Work on the code as much as you want and commit as much as you want, but keep in mind the following:
 
 .. vale off
 
-* Mautic follows Symfony's :xref:`Symfony coding standards` by implementing a pre-commit git hook running :xref:`PHP-cs-fixer`. Mautic installs and updates this with ``composer install`` and ``composer update``. This handles all code styling automatically.
+* Mautic follows Symfony's :xref:`Symfony coding standards` by implementing a pre-commit git hook that runs :xref:`PHP-cs-fixer`. When you install or update Mautic using Composer with the commands ``composer install`` and ``composer update``, it'll install the git hook. This git hook automatically handles all code styling, so you don't need to worry about anything besides working on your code.
 * Add unit tests to confirm the bug is fixed or the new feature works.
 
 .. vale on
@@ -174,14 +162,14 @@ Try not to break backward compatibility - BC. If you must do so, please provide 
 What is BC break?
 -----------------
 
-Any change that may break a Plugin either using or extending a class. As Mautic has the Plugin ecosystem, we must consider the impact, even on code we might not use ourselves.
+Any change that may break a Plugin, either by using or extending a class. As Mautic has the Plugin ecosystem, we must consider the impact, even on code we might not use ourselves.
 
 .. vale on
 
 Examples:
 
 * Removing or renaming a public or protected method in a non-final class. Create a new method instead and mark the old one :doc:`deprecated </governance/deprecation_policy>`.
-* Changing the signature of a private or public method in a non-final class. This means adding/removing method parameters, or adding/changing parameters or return types. Create a new method instead and mark the old one deprecated.
+* Changing the signature of a private or public method in a non-final class. This means adding/removing method parameters or adding/changing parameters or return types. Create a new method instead and mark the old one deprecated.
 * Changing the behavior of a method so it does something differently.
 * Adding a new method to an existing interface. Create a new interface instead.
 * Whenever you change a :xref:`Symfony Twig` template, think about the Themes that are overwriting this template. For example, changing the template name can cause issues.
@@ -195,24 +183,24 @@ What is not considered a BC break?
 
 Some changes you can make that aren't considered a BC break:
 
-* Changing the constructor of a PHP service. Services are autowired so there is no harm in changing the dependencies.
+* Changing the constructor of a PHP service. Services are autowired, so there is no harm in changing the dependencies.
 
 .. vale off
 
 Write your code with BC breaks in mind
 --------------------------------------
 
-.. vale on
-
 Think about the BC breaks as you write a new code.
 
 * Make new classes final by default. Only remove the final keyword if there is a good reason for it.
 * Make a new method private by default. Make it public only if you need to use it outside of the class.
-* Prefer composition over inheritance. This way you can use final classes.
-* A unit test isn't a good reason why a class shouldn't be final. For example, get the final service from the container instead of mocking it. If it's a final DTO object then you don't need to mock it at all.
+* Prefer composition over inheritance. This way, you can use final classes.
+* A unit test isn't a good reason why a class shouldn't be final. For example, get the final service from the container instead of mocking it. You don't need to mock it if it's a final Data Transfer Object - DTO.
 
-Step 5: migrations needed?
-**************************
+.. vale on
+
+Step 5: are migrations needed?
+******************************
 
 Sometimes, a PR needs a migration. An example is when updating a country's regions. 
 
@@ -228,7 +216,7 @@ To create a migration, you can follow these steps:
 
 #. Run ``bin/console doctrine:migrations:generate`` in your terminal. Doctrine generates a new migration file for you.
 
-#. Open the file by following the path that you can find in your terminal after running the generate command. In this file, you should see two functions, ``preUp()`` and ``up()``:
+#. Open the file by following the path in your terminal after running the generate command. In this file, you should see two functions, ``preUp()`` and ``up()``:
 
    * ``preUp()`` allows you to define scenarios where the migration should or shouldn't run. For example, only when a certain database table exists.
     
@@ -251,14 +239,16 @@ You're almost ready to submit your PR. There are three things you still need to 
 #. Developer documentation
 #. Writing tests
 
-In order to keep Mautic stable and easy to maintain, there is a hard requirement to apply the appropriate code standards and to write automated tests. Mautic can't accept features and/or enhancements without appropriate tests, as it would impact its stability. Why? When you try to build something in a specific part of Mautic, you might accidentally break another part of Mautic. With automated tests, which cover most aspects of Mautic, it's possible to prevent this as much as possible.
+To keep Mautic stable and easy to maintain, applying the appropriate code standards and writing automated tests is a hard requirement. Mautic can't accept features and/or enhancements without proper tests, as it would impact its stability. Why? When you try to build something in a specific part of Mautic, you might accidentally break another part of Mautic. With automated tests, which cover most aspects of Mautic, it's possible to prevent this as much as possible.
 
 Code standards
 ==============
 
-Mautic follows Symfony's :xref:`Symfony coding standards` by implementing pre-commit git hook running :xref:`PHP-cs-fixer`. The commands ``composer install`` and ``composer update`` install and update this automatically.
+.. vale off
 
-The aforementioned git hook automatically deals with any code styling. If you set the git hook correctly - which is the case if you ever run ``composer install`` or ``composer update`` before creating a PR - you can format your code as you like. The git hook converts it to Mautic's code style automatically.
+Mautic follows Symfony's :xref:`Symfony coding standards` by implementing a pre-commit git hook that runs :xref:`PHP-cs-fixer`. When you install or update Mautic using Composer with the commands `composer install` and `composer update`, it'll automatically install the git hook. This git hook automatically deals with any code styling. You can format your code as you like, and then the git hook automatically converts it to Mautic's code style.
+
+.. vale on
 
 .. _PRs Developer documentation:
 
@@ -267,7 +257,7 @@ Developer documentation
 
 .. vale off
 
-Each new feature should include a reference to a PR in the :xref:`Developer Docs GitHub` repository, if applicable. Any enhancements or bug fixes affecting the end-user or developer experience should have a PR mentioned in the description which updates the relevant resources in the documentation.
+Each new feature should include a reference to a PR in the :xref:`Developer Docs GitHub` repository, if applicable. Any enhancements or bug fixes affecting the end-user or developer experience should have a PR mentioned in the description, which updates the relevant resources in the documentation.
 
 .. vale on
 
@@ -281,8 +271,8 @@ Step 7: submit your pull request
 
 .. vale off
 
-Rebase your pull request
-========================
+Update your branch with rebase
+==============================
 
 .. vale on
 
@@ -298,7 +288,7 @@ Before submitting your PR, you need to update your branch:
 
 .. attention::
 
-    Replace ``4.x`` with the branch you selected previously. For example, ``4.4`` if you are working on a bug fix.
+     Replace ``4.x`` with the branch you selected previously. For example, ``4.4`` if you are fixing a bug.
 
 When executing the ``rebase`` command, you might have to fix merge conflicts. Running ``git status`` can show you the un-merged files. Resolve all the conflicts, then continue the rebase:
 
@@ -337,7 +327,7 @@ All contributors need to follow some best practices to ensure a constructive fee
 
 .. vale off
 
-If you think someone fails to keep this advice in mind and you want another perspective, please request a review of the feedback in the ``#dev`` channel on :xref:`Mautic Community Slack`.
+If you think someone fails to keep this advice in mind and want another perspective, please request a review of the feedback in the ``#dev`` channel on :xref:`Mautic Community Slack`.
 
 .. vale on
 
@@ -363,7 +353,7 @@ Step 9: testing
 Pull request testing
 ====================
 
-If you want to test a PR from other developers, see the :ref:`PR review process` section. All PRs require testing by others in the Community, and must have the code reviewed by a member of the Core Team. Read more information in the :doc:`/governance/code-governance` section.
+If you want to test a PR from other developers, see the :ref:`PR review process` section. All PRs require testing by others in the Community and must have the code reviewed by a member of the Core Team. Read more information in the :doc:`/governance/code-governance` section.
 
 Automated testing
 =================
@@ -453,6 +443,6 @@ Static analysis
 
 Mautic uses :xref:`PHPSTAN` for some of its parts during continuous integration tests. To test your specific contribution locally, install PHPSTAN globally with ``composer global require phpstan/phpstan-shim``.
 
-Mautic can't have PHPSTAN as its dev dependency because it requires PHP7+. To execute analysis on a specific bundle, run ``~/.composer/vendor/phpstan/phpstan-shim/phpstan.phar analyse app/bundles/*Bundle``.
+Mautic can't have PHPSTAN as its devDependency because it requires PHP7+. To execute analysis on a specific bundle, run ``~/.composer/vendor/phpstan/phpstan-shim/phpstan.phar analyse app/bundles/*Bundle``.
 
 .. vale on
