@@ -17,7 +17,11 @@ Before submitting a bug:
 
 When you are confident that the problem is a bug, please create a new :xref:`Create a new issue for Mautic` in the repository and provide as many details as possible, such as reproduction steps, Mautic/PHP versions, etc.
 
+.. vale off
+
 Providing step-by-step instructions for reproducing a bug is extremely important because the person who triages your issue might not be a developer.
+
+.. vale on
 
 Fixing a bug
 ============
