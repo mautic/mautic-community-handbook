@@ -7,12 +7,6 @@ Issues and PR reviewers are the backbone of Mautic's success. Everyone can test 
 
 If you don't feel ready to contribute code or patches, reviewing issues and pull requests - PRs - can be a great start to getting involved and giving back. All you have to do is to follow the instructions in this page.
 
-* :ref:`Why reviewing is important`
-* :ref:`Be constructive`
-* :ref:`Create a GitHub account`
-* :ref:`The bug report review process`
-* :ref:`The pull request review process`
-
 .. vale on
 
 Why reviewing is important
@@ -41,15 +35,22 @@ Be constructive
 
 Before you start, remember that you are reviewing the results of someone hard work. A good review comment should express appreciation for the contributor's effort, acknowledge what they did well, point out areas for improvement, and suggest a next step.
 
+Review processes
+****************
+
+.. contents::
+  :local:
+  :depth: 2
+
 Create a GitHub account
-***********************
+=======================
 
 .. vale off
 
 Mautic uses :xref:`GitHub` to manage bug reports and PRs. You must have a :xref:`GitHub signup` account and log in to do reviews.
 
 The bug report review process
-*****************************
+=============================
 
 Here are the steps to review a bug report:
 
@@ -80,7 +81,7 @@ Here are the steps to review a bug report:
 .. _PR review process:
 
 The pull request review process
-*******************************
+===============================
 
 .. vale off
 
