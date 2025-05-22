@@ -5,6 +5,10 @@ Local environment setup
 
 This page guides you through setting up your local environment to use and develop Mautic.
 
+.. contents::
+  :local:
+  :depth: 2
+
 .. vale on
 
 Development/build process requirements
