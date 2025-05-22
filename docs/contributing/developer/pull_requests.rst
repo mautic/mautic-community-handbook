@@ -1,9 +1,6 @@
 Pull requests
 #############
 
-Creating pull requests
-**********************
-
 It's highly appreciated when developers help Mautic by providing pull requests - PRs - against the Mautic code base. To make this process as smooth as possible for everyone, you must thoroughly follow the instructions.
 
 Table of contents
