@@ -1,53 +1,11 @@
 Pull requests
 #############
 
-Creating pull requests
-**********************
-
 It's highly appreciated when developers help Mautic by providing pull requests - PRs - against the Mautic code base. To make this process as smooth as possible for everyone, you must thoroughly follow the instructions.
 
-Table of contents
-*****************
-
-* :ref:`Step 1: review existing issues and pull requests`
-* :ref:`Step 2: review Mautic's roadmap & feature requests`
-* :ref:`Step 3: set up your environment`
-  
-  * :ref:`Install the software stack`
-  * :ref:`Get the Mautic source code`
-
-* :ref:`Step 4: work on your pull request`
-  
-  * :ref:`Choose the right branch`
-  * :ref:`Install Mautic`
-  * :ref:`Create a topic branch`
-  * :ref:`Work on your pull request`
-
-* :ref:`Step 5: migrations needed?`
-* :ref:`Step 6: prepare your pull request for submission`
-  
-  * :ref:`Code standards`
-  * :ref:`Documentation`
-  * :ref:`Writing tests`
-
-* :ref:`Step 7: submit your pull request`
-  
-  .. vale off
-
-  * :ref:`Rebase your pull request`
-  * :ref:`Make a pull request`
-
-  .. vale on
-
-* :ref:`Step 8: receiving feedback`
-  
-  * :ref:`Rework your pull request`
-
-* :ref:`Step 9: testing`
-  
-  * :ref:`Pull request testing`
-  * :ref:`Automated testing`
-  * :ref:`Static analysis`
+.. contents:: Creating pull requests
+  :local:
+  :depth: 2
 
 Step 1: review existing issues and pull requests
 ************************************************
@@ -302,8 +260,10 @@ Mautic follows Symfony's :xref:`Symfony coding standards` by implementing pre-co
 
 The aforementioned git hook automatically deals with any code styling. If you set the git hook correctly - which is the case if you ever run ``composer install`` or ``composer update`` before creating a PR - you can format your code as you like. The git hook converts it to Mautic's code style automatically.
 
-Documentation
-=============
+.. _PRs Developer documentation:
+
+Developer documentation
+=======================
 
 .. vale off
 
