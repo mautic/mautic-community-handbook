@@ -3,48 +3,9 @@ Pull requests
 
 It's highly appreciated when developers help Mautic by providing pull requests - PRs - against the Mautic code base. To make this process as smooth as possible for everyone, you must thoroughly follow the instructions.
 
-Table of contents
-*****************
-
-* :ref:`Step 1: review existing issues and pull requests`
-* :ref:`Step 2: review Mautic's roadmap & feature requests`
-* :ref:`Step 3: set up your environment`
-  
-  * :ref:`Install the software stack`
-  * :ref:`Get the Mautic source code`
-
-* :ref:`Step 4: work on your pull request`
-  
-  * :ref:`Choose the right branch`
-  * :ref:`Install Mautic`
-  * :ref:`Create a topic branch`
-  * :ref:`Work on your pull request`
-
-* :ref:`Step 5: migrations needed?`
-* :ref:`Step 6: prepare your pull request for submission`
-  
-  * :ref:`Code standards`
-  * :ref:`Documentation`
-  * :ref:`Writing tests`
-
-* :ref:`Step 7: submit your pull request`
-  
-  .. vale off
-
-  * :ref:`Rebase your pull request`
-  * :ref:`Make a pull request`
-
-  .. vale on
-
-* :ref:`Step 8: receiving feedback`
-  
-  * :ref:`Rework your pull request`
-
-* :ref:`Step 9: testing`
-  
-  * :ref:`Pull request testing`
-  * :ref:`Automated testing`
-  * :ref:`Static analysis`
+.. contents:: Creating pull requests
+  :local:
+  :depth: 2
 
 Step 1: review existing issues and pull requests
 ************************************************
