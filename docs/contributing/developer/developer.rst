@@ -1,19 +1,9 @@
 Developer
 #########
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contributing as a developer
-   :hidden:
-
-   local_environment_setup
-   code
-   community_reviews
-   developer_documentation
-
 Mautic development is open to all members of the Mautic community. The codebase is open source and publicly accessible.
 
-There are various ways to contribute to Mautic as a developer, depending on your interests and how your skills align with current projects.
+There are :doc:`various ways to contribute to Mautic as a developer </contributing/developer/ways_to_contribute>`, depending on your interests and how your skills align with current projects.
 
 You might want to consider the following areas:
 
@@ -27,28 +17,11 @@ You might want to consider the following areas:
 * Writing and improving the developer documentation
 * Writing technical articles for the Mautic Community :xref:`Mautic Community Blog`
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Contributing as a developer
+   :hidden:
 
-.. attention:: 
-
-   If you'd like to fix or improve the code, you must first **make a pull request**.
-
-   .. tip::
-
-      As a starting point, you can begin with :doc:`setting up your local environment </contributing/developer/local_environment_setup>`.
-
-Reporting security vulnerabilities
-**********************************
-
-.. vale off
-
-.. warning::
-
-   If you have found a security vulnerability, please report it by submitting an :xref:`Mautic GitHub advisory form` with as much detail as possible.
-
-   The Core Team will review the vulnerability and, if found applicable, will create the patch in a private repository. The vulnerability will be disclosed once the patch has been included in a release.
-
-   .. tip::
-
-      You can read more about Mautic's Security Team, what kind of security issues Mautic responds to, who's on the team, and how to report an issue in the :xref:`Mautic security team` section.
-
-.. vale on
+   ways_to_contribute
+   local_environment_setup
+   developer_documentation
