@@ -1,5 +1,5 @@
-Community issues and pull request reviews
-#########################################
+Issues and pull request reviews
+###############################
 
 .. vale off
 
