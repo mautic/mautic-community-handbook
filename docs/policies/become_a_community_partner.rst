@@ -3,9 +3,11 @@
 How to become a Mautic partner
 ##############################
 
-.. vale on
+.. vale off
 
 The Mautic Partners Program showcases organizations that are contributing to Mautic - both financially and practically - so that members of the community can find service providers who are :xref:`Makers rather than takers` to work with. These organizations represent the ideals of providing ongoing contributions that open source software rely upon.
+
+.. vale on
 
 How do organizations become a partner?
 **************************************
@@ -17,16 +19,20 @@ Financial contribution
 
 .. vale off
 
-It's required that all Community Partners are financially supporting the growth of the Mautic community as a :xref:`Corporate Member of Mautic`. Members pay for all memberships annually, and via :xref:`Mautic Open Collective`. Prior to v2 of the Mautic governance model which came into effect on ``12th December 2023``, companies who sponsored Mautic at $100 per month or more were also eligible. Companies who were already sponsoring at this tier when the new governance model came into effect and continue to do so are 'grandfathered' in, providing that their sponsorship continues at this tier, for a period of 12 months. This gives them until ``12th December 2024`` to transition to becoming a Corporate Member to maintain their status as a Mautic Partner.
+It's required that all Community Partners are financially supporting the growth of the Mautic community as a :xref:`Corporate Member of Mautic`. Members pay for all memberships annually, via the website. Prior to v2 of the Mautic governance model which came into effect on ``12th December 2023``, companies who sponsored Mautic at $100 per month or more were also eligible. Companies who were already sponsoring at this tier when the new governance model came into effect and continue to do so are 'grandfathered' in, providing that their sponsorship continues at this tier, for a period of 12 months. This gives them until ``12th December 2024`` to transition to becoming a Corporate Member to maintain their status as a Mautic Partner.
 
 .. vale on
 
 Practical contribution
 ======================
 
+.. vale off
+
 Of course money isn't everything, and in fact contributing to Mautic in practical ways, whether that might be through code contributions, leading a team, organizing official events or meetups, contributing to the Documentation resources or working on tasks in one of the five Community Teams are all vital to the growth of the Mautic project.
 
 For this reason, organizations who are wishing to become and maintain their status as a Mautic Community Partner must demonstrate regular, meaningful contributions to the Mautic project from their staff.
+
+.. vale on
 
 The Community Dashboard, team activity reviews, and project engagement metrics track this in several ways. These tools provide visibility into participation levels and outcomes across various team initiatives.
 
