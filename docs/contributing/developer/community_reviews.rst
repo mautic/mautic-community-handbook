@@ -85,12 +85,13 @@ Every change to Mautic happens via PRs. Every PR must have a number of successfu
 
 .. vale on
 
-#. Find a :xref:`Mautic PRs` to test. You can also seek PRs with the label :xref:`Mautic ready-to-test issue label`
-#. Read the description and steps to test. If it's a bug fix, follow the steps to ensure you can recreate the issue
-#. `Pull the PR <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally#modifying-an-active-pull-request-locally>`_ to your local machine to use the development environment for testing
-#. Clear cache for the development environment by running the ``rm -rf var/cache/*`` or ``bin/console cache:clear -e dev`` command
-#. Follow the steps from the PR description again to see if the result is exactly as described
-#. `Submit a review <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request#submitting-your-review>`_ in the PR. If there is a problem, provide as much information as possible, including error log messages
+#. :doc:`Set up your local environment </contributing/developer/local_environment_setup>` to test PRs locally.
+#. Find a :xref:`Mautic PRs` to test. You can also seek PRs with the label :xref:`Mautic ready-to-test issue label`.
+#. Read the description and steps to test. If it's a bug fix, follow the steps to ensure you can recreate the issue.
+#. `Pull the PR <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally#modifying-an-active-pull-request-locally>`_ to your local machine to use the development environment for testing.
+#. Clear cache for the development environment by running the ``rm -rf var/cache/*`` or ``bin/console cache:clear -e dev`` command.
+#. Follow the steps from the PR description again to see if the result is exactly as described.
+#. `Submit a review <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request#submitting-your-review>`_ in the PR. If there is a problem, provide as much information as possible, including error log messages.
 
 .. vale off
 
