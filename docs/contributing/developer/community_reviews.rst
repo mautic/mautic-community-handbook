@@ -85,6 +85,8 @@ Every change to Mautic happens via PRs. Every PR must have a number of successfu
 
 .. vale on
 
+Here are the steps to review a PR:
+
 #. :doc:`Set up your local environment </contributing/developer/local_environment_setup>` to test PRs locally.
 #. Find a :xref:`Mautic PRs` to test. You can also seek PRs with the label :xref:`Mautic ready-to-test issue label`.
 #. Read the description and steps to test. If it's a bug fix, follow the steps to ensure you can recreate the issue.
