@@ -147,7 +147,7 @@ Work on the code as much as you want and commit as much as you want, but keep in
 
 .. vale off
 
-* Mautic follows Symfony's :xref:`Symfony coding standards` by implementing a pre-commit git hook that runs :xref:`PHP-cs-fixer`. When you install or update Mautic using Composer with the commands ``composer install`` and ``composer update``, it'll install the git hook. This git hook automatically handles all code styling, so you don't need to worry about anything besides working on your code.
+* Mautic follows Symfony's :xref:`Symfony coding standards` by implementing a pre-commit git hook that runs :xref:`PHP-cs-fixer`. When you install or update Mautic using Composer with the commands ``composer install`` and ``composer update``, it installs the git hook. This git hook automatically handles all code styling, so you don't need to worry about anything besides working on your code.
 * Add unit tests to confirm the bug is fixed or the new feature works.
 
 .. vale on
@@ -246,11 +246,9 @@ Code standards
 
 .. vale off
 
-Mautic follows Symfony's :xref:`Symfony coding standards` by implementing a pre-commit git hook that runs :xref:`PHP-cs-fixer`. When you install or update Mautic using Composer with the commands `composer install` and `composer update`, it'll automatically install the git hook. This git hook automatically deals with any code styling. You can format your code as you like, and then the git hook automatically converts it to Mautic's code style.
+Mautic follows Symfony's :xref:`Symfony coding standards` by implementing a pre-commit git hook that runs :xref:`PHP-cs-fixer`. When you install or update Mautic using Composer with the commands `composer install` and `composer update`, it automatically installs the git hook. This git hook automatically deals with any code styling. You can format your code as you like, and then the git hook automatically converts it to Mautic's code style.
 
 .. vale on
-
-.. _PRs Developer documentation:
 
 Developer documentation
 =======================
