@@ -250,8 +250,6 @@ Mautic follows Symfony's :xref:`Symfony coding standards` by implementing a pre-
 
 .. vale on
 
-.. _PRs Developer documentation:
-
 Developer documentation
 =======================
 
