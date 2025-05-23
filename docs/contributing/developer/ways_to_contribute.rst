@@ -2,7 +2,7 @@ Ways to contribute
 ##################
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    bugs
    pull_requests
