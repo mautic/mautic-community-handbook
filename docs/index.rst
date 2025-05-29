@@ -55,6 +55,7 @@ The vision is that it grows over time as the teams and governance structure evol
    :hidden:
 
    policies/request_for_proposals_(RFP)_process
+   policies/become_a_community_partner
    policies/recognizing_contributors_sponsors_and_partners
 
 .. toctree::
