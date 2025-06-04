@@ -434,6 +434,7 @@ Code contributions are very welcome, they are the life-blood of our open source 
 Contributors may be associated with organizations - by employment or otherwise - who have a vested interest in Mautic, or may be individuals who have their own personal stakes in Mautic. We call these organizations and individuals 'stakeholders' throughout this section of the governance model to summarize them.
 
 ### 6.1.1 Expectations of contributors
+
 - Be empathetic and respectful to the reviewers. Reviewing a change can be hard work and time-consuming.
 - Use the PR template in its entirety and provide very clear, step by step instructions on how to reproduce the bug you're fixing  if it's a bugfix, and how your contribution should work/what the feature is you're adding. Screenshots and screen recordings help enormously! 
 - Don't assume the reviewer is a developer, they may be a marketer helping with a user review.
