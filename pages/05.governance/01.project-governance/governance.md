@@ -444,9 +444,11 @@ Contributors may be associated with organizations - by employment or otherwise -
 - Speak up if your contribution appears to be stuck for more than a week. Post it in #t(Opens in new tab)-product on [Slack](https://mautic.org/slack) and ask for assistance to move it forward.
 
 ## 6.2 Maintainers
+
 Among the contributors to Mautic, some people have maintainer status, which consists of elevated write access to the GitHub repository and additional duties. This is an important role which carries much responsibility, so we have quite strong processes around adopting new maintainers.
 
 ### 6.2.1 Expectations and duties of maintainers
+
 - Be an active reviewer and participant.
 - Know which changes are likely to be controversial, and work to resolve the controversy as early as possible.
 - Know when a change needs more reviewers involved.
@@ -456,9 +458,10 @@ Among the contributors to Mautic, some people have maintainer status, which cons
 - Assist with the authoring of release notes.
 
 ### 6.2.2 Who are the current maintainers?
+
 The current list of active maintainers can be found in the [MAINTAINERS](https://github.com/mautic/mautic/blob/7.x/MAINTAINERS.md) list.
 
-Maintainers are people who care about Mautic and want to see it grow and thrive. A maintainer does more than make changes to code, they have demonstrated their ability to collaborate and organize with the team, get the most knowledgeable people to review code or documentation, contribute high-quality code and documentation, as well as follow through to fix issues (in code or tests).
+Maintainers are people who care about Mautic and want to see it grow and thrive. A maintainer does more than make changes to code. They have demonstrated their ability to collaborate and organize with the team, get the most knowledgeable people to review code or documentation, contribute high-quality code and documentation, as well as follow through to fix issues (in code or tests).
 
 Contributing to Mautic does not make you qualified to be a maintainer, it is about building trust with the current maintainers of the project and being a person that they can depend on and trust to make decisions in the best interest of the project, with personal views and preferences being put aside.
 
@@ -475,7 +478,7 @@ Here's some ways that you can work towards what we expect to see in a maintainer
 - Participate in discussions about releases, roadmaps, architecture, and long-term plans
 - Help improve the website and the documentation
 - Help unstick issues that people don't want to (or can't) work on
-Participate in (or even initiate) real-world events such as user/developer meetups, papers/talks at conferences, in-person sprints - etc - having people in the community meeting you in-person human-to-human is an important part of developing trust
+- Participate in (or even initiate) real-world events such as user/developer meetups, papers/talks at conferences, in-person sprints, etc. Having people in the community meeting you in-person, human-to-human, is an important part of developing trust
 - Improve project infrastructure in order to increase the efficiency of maintainers and other contributors
 - Help raise the project's quality bar (e.g. by improving code coverage analysis)
 - As much as possible, keep your activity sustained, rather than sporadic
@@ -491,7 +494,7 @@ It should go without saying, but here it is anyway: your participation in the pr
 
 Periodically, the existing maintainers curate a list of contributors that have shown regular activity on the project over the prior months. From this list, maintainer candidates are selected and proposed in the Core Team private Slack channel. The Core Team will aim to have maintainer representation from different genders, geography, and employers.
 
-There will be a 2 week voting period after the proposed list of candidates is shared ; any abstention will count as a positive vote for the proposed member. In order to be added, a proposed member must carry a ⅔ majority vote of current active and honorary members.
+There will be a 2 week voting period after the proposed list of candidates is shared; any abstention will count as a positive vote for the proposed member. In order to be added, a proposed member must carry a ⅔ majority vote of current active and honorary members.
 
 A temporary private Slack channel will be created for use of discussion of the proposed member (example name: #_tmp-vetting-lee-smith, etc). All Active and Honorary Core Team members will be added to this channel. Responsibility of creating/deletion of this channel falls to the Project Lead.
 
@@ -507,7 +510,7 @@ Maintainers may resign at any time if they feel that they will not be able to co
 
 Maintainers may also be removed if there is prolonged absenteeism, upon failure to fulfill their Maintainer responsibilities or because of violating the Code of Conduct. This also includes actively, persistently, and intentionally trying to harm or successfully harming the code base of Mautic, especially, but not limited to, endangering the security or safety of Mautic. 
 
-Prolonged absenteeism is defined as a period of very low or no activity in the project. All maintainers are expected to lead and assist at least two releases in any calendar year (there must be at least one core team member allocated to every release), and to be actively engaged in reviewing contributions, supporting developers and engaging in discussions in the Core Team Slack channel in order to remain active as a maintainer.
+Prolonged absenteeism is defined as a period of very low or no activity in the project. All maintainers are expected to lead and assist at least two releases in any calendar year (there must be at least one Core Team member allocated to every release), and to be actively engaged in reviewing contributions, supporting developers and engaging in discussions in the Core Team Slack channel in order to remain active as a maintainer.
 
 If a maintainer has shown little to no activity over a six-month period, the maintainer will be contacted to notify them of their activity status and offer a move to an honorary role. There is no automatic change of status in the project from active to honorary role. 
 
@@ -516,15 +519,17 @@ First, the activity status is discussed by the Project Lead directly with the ma
 The honor role is maintained at [https://community.mautic.org/profiles/core-team/](https://community.mautic.org/profiles/core-team/) and in the [MAINTAINERS](https://github.com/mautic/mautic/blob/7.x/MAINTAINERS.md) file.
 
 ### 6.2.6 GitHub Admins
+
 GitHub Admins are a subgroup of the Core Team who have elevated access to the GitHub organization. They can grant access to repositories, add and remove people from teams, and change protections for branches.
 
 Beyond those privileges they do not have any additional responsibilities to Maintainers.
 
 Admins are selected from active Maintainers, and due to the high level of trust required, they tend to be the longest tenured members of the team. The Maintainers try to take care to spread the admin responsibility over several project stakeholders within the Maintainer body. This is to aspire some checks and balances between stakeholders as well as introduce redundancies in case a stakeholder is not able to work on Mautic any more.
 
-GitHub Owners are a sub-group of the Admins, and other than the regular Admin duties they do not have any additional responsibilities.
+GitHub Owners are a sub-group of the Admins, and other than the regular Admin duties, they do not have any additional responsibilities.
 
 ## 6.3 Core Team
+
 The Core Team are the people who take responsibility for Mautic's code base. They review incoming change requests - we call them PRs - while ensuring that security issues are resolved promptly, and also ensure that we are taking proactive steps to keep Mautic at the forefront of marketing automation technologies. They also liaise with other stakeholders across the project when it comes to discussions on new features and enhancements.
 
 The Core Team consists of at least three and up to nine active Maintainers plus the Project Lead, individuals who have the responsibility for merging new code into Mautic.
@@ -540,6 +545,7 @@ The full set of tasks can be found in the document Managing a Release (3). Their
 The upcoming release leads can be found in the [RELEASE_LEADS](https://github.com/mautic/mautic/blob/7.x/RELEASE_LEADS.md) file.
 
 ## 6.5 Security Team
+
 The Mautic Security Team are focused on:
 
 - Resolving reported security issues 
@@ -561,9 +567,11 @@ The Security Team follows the same processes as the Core Team in terms of mainta
 - Support Maintainers and Contributors by providing security-focused reviews of contributions and guiding contributors towards security-first development.
 
 # 6.6 Decision making
+
 Mautic has well documented processes we follow when it comes to decision making in our [Governance Model](https://contribute.mautic.org/governance/governance#2-decision-making). Wherever there is a debate to be had on how to approach a situation, the Community Portal is used, with the Product Team's [Debate section](https://community.mautic.org/assemblies/product-team/f/39/debates) having the ability for discussion, voting and endorsement by teams and individuals. This ensures that both the users (marketers) and developers have the opportunity to know what is being discussed and decided upon.
 
 ## 6.7 Disclosure of sensitive information
+
 In general, information shared within the Core, Security or Release Teams should only be shared outside the team on a 'need to know' basis with full transparency to the rest of the team as to who is being informed, and why. 
 
 For example, if knowledge of team information will allow a contributor to create a patch or provide direct support to the security team in fixing an issue, this satisfies 'need to know' and the contributor should be invited directly to the private fork for collaboration purposes. 
