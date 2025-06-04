@@ -437,7 +437,7 @@ Contributors may be associated with organizations - by employment or otherwise -
 
 - Be empathetic and respectful to the reviewers. Reviewing a change can be hard work and time-consuming.
 - Use the PR template in its entirety and provide very clear, step by step instructions on how to reproduce the bug you're fixing - if it's a bugfix - or what the feature is you're adding - if it's a feature - and how your contribution should work. Screenshots and screen recordings help enormously! 
-- Don't assume the reviewer is a developer, they may be a marketer helping with a user review.
+- Don't assume the reviewer is a developer. They may be a marketer helping with a user review.
 - Keep commits small when possible and provide reasoning and context when submitting changes. Reviews go smoother if you make the reviewer's job easier.
 - Be responsive when changes are requested by the reviewer. It is easier to re-review the modified changes if they are completed shortly after original review.
 - Ask for clarification if you are confused by a suggested change.
