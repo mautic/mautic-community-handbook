@@ -418,6 +418,7 @@ For purposes of this Section, a common affiliation includes all organizations th
 ## 6. Contributors, Maintainers and the Core Team
 
 ### 6.1 Contributors
+
 Contributors are people who contribute their work to Mautic. This includes but is not limited to:
 
 - Code contributions, 
