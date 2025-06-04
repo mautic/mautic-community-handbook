@@ -441,7 +441,7 @@ Contributors may be associated with organizations - by employment or otherwise -
 - Keep commits small when possible and provide reasoning and context when submitting changes. Reviews go smoother if you make the reviewer's job easier.
 - Be responsive when changes are requested by the reviewer. It is easier to re-review the modified changes if they are completed shortly after original review.
 - Ask for clarification if you are confused by a suggested change.
-- Speak up if your contribution appears to be stuck for more than a week. Post it in #t(Opens in new tab)-product on [Slack](https://mautic.org/slack) and ask for assistance to move it forward.
+- Speak up if your contribution appears to be stuck for more than a week. Post it in [#t-product](https://mautic.slack.com/archives/CQMKV0RU1) on [Slack](https://mautic.org/slack) and ask for assistance to move it forward.
 
 ## 6.2 Maintainers
 
