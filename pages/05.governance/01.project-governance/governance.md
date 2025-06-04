@@ -590,7 +590,7 @@ In the course of their duties, members should:
 
 1. Any person who is a member entitled to vote, upon written demand under oath stating the purpose thereof, shall have the right to examine, in person or by agent or attorney, at any time during the Community Council's usual hours for business, for any proper purpose as determined under the laws of the State of California, the project's membership records and its other books and records and to make copies or extracts therefrom.
 
-## 7. Amendment of this Governance Model
+## 8. Amendment of this Governance Model
 
 Members may form Working Groups to consider changes to this Governance Model, and may propose such changes to the Community Council.
 
@@ -598,7 +598,7 @@ However, this Governance Model may be altered, amended or repealed only by actio
 
 No alteration, amendment or repeal of this Governance Model shall be effective unless and until the Community Council attempts, in good faith, to give notice to the members of the Community of such alteration, amendment or repeal at least fifteen (15) days prior to the effective date of such alteration, amendment or repeal, which notice may be by electronic means.
 
-## 8. Credits
+## 9. Credits
 
 The following individuals contributed towards this governance model by providing comments on proposals, discussions and debate on topics, and researching topics contained within:
 
@@ -619,7 +619,7 @@ The following individuals contributed towards this governance model by providing
 - Brad Thompson
 
 -
-## 9. References
+## 10. References
 The following were used in researching and developing this model:
 
 ### Open source project governance examples and resources
