@@ -59,4 +59,4 @@ The community gives priority to projects with an open source nature for listing 
 Conclusion
 **********
 
-The Mautic Integrations directory serves as a dynamic platform to showcase projects that enhance the Mautic experience. The Marketing Team ensures listed projects align with Mautic's mission and provide value to the community, allowing the community to determine which projects to highlight on the homepage. Regular updates and clear communication between project maintainers and the marketing team contributes to the success of this initiative.
+The Mautic Integrations directory serves as a dynamic platform to showcase projects that enhance the Mautic experience. The Marketing Team ensures listed projects align with Mautic's mission and provide value to the community, allowing the community to determine which projects to highlight on the homepage. Regular updates and clear communication between project maintainers and the Marketing Team contributes to the success of this initiative.
