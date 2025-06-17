@@ -2,12 +2,12 @@ Policy on promoting Integrations with Mautic
 ############################################
 
 Introduction
-============
+************
 
 The Mautic website serves as a hub for the Mautic community, showcasing innovative projects that align with the mission and values. The purpose of this policy is to provide clarity on the criteria and process for listing projects and Integrations on the Mautic website.
 
 Criteria for inclusion
-======================
+**********************
 
 A Mautic member must propose projects featured in the Mautic Integrations Directory via the :xref:`Community Portal`. Integrations must receive at least five community votes and gain endorsement from the Marketing Team for inclusion.
 
@@ -27,7 +27,7 @@ The community selects projects for the Mautic website based on their popularity 
    * The community prioritizes projects owned by Mautic members over those that aren't.
 
 Maintenance responsibilities
-============================
+****************************
 
 The maintenance of projects listed on the Mautic website homepage is the responsibility of the Marketing Team. This ensures consistency, accuracy, and a seamless experience for visitors.
 
@@ -42,7 +42,7 @@ The maintenance of projects listed on the Mautic website homepage is the respons
    * The Marketing Team communicates with project maintainers before removal, providing an opportunity for clarification or updates.
 
 Priority for open source projects
-=================================
+*********************************
 
 The community gives priority to projects with an open source nature for listing on the Mautic website homepage. Open source aligns with the collaborative and community-driven spirit of Mautic. The community may also consider projects from official :xref:`Mautic Partners` based on their significance and value to the Mautic ecosystem.
 
@@ -57,6 +57,6 @@ The community gives priority to projects with an open source nature for listing 
    * The community evaluates partner project inclusion on a case-by-case basis, focusing on mutual benefit.
   
 Conclusion
-==========
+**********
 
 The Mautic Integrations directory serves as a dynamic platform to showcase projects that enhance the Mautic experience. The Marketing Team ensures listed projects align with Mautic's mission and provide value to the community, allowing the community to determine which projects to highlight on the homepage. Regular updates and clear communication between project maintainers and the marketing team contributes to the success of this initiative.
