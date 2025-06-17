@@ -55,7 +55,7 @@ cycle, for example, if the project is working on release 4.0, then a current con
 the Mautic Community on a regular basis, listed at :xref:`the Mautic Sponsor page`
 
 **Partner**: an organization who are financially and practically supporting the Mautic Community on a regular basis, and have met 
-the criteria to become a Mautic Community Partner, listed at :xref:`Mautic Community Partners` 
+the criteria to become a Mautic Community Partner, listed at :xref:`Mautic Partners` 
 
 Policy on promotion of contributors
 ************************************
