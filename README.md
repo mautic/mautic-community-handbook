@@ -1,6 +1,6 @@
 # Mautic community handbook
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -36,6 +36,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://adiati.com"><img src="https://avatars.githubusercontent.com/u/45172775?v=4?s=100" width="100px;" alt="Ayu Adiati"/><br /><sub><b>Ayu Adiati</b></sub></a><br /><a href="https://github.com/mautic/mautic-community-handbook/commits?author=adiati98" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Peacesandy"><img src="https://avatars.githubusercontent.com/u/78281826?v=4?s=100" width="100px;" alt="Peace Sandy"/><br /><sub><b>Peace Sandy</b></sub></a><br /><a href="https://github.com/mautic/mautic-community-handbook/commits?author=Peacesandy" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/favour-kelvin/"><img src="https://avatars.githubusercontent.com/u/39309699?v=4?s=100" width="100px;" alt="Favour Kelvin"/><br /><sub><b>Favour Kelvin</b></sub></a><br /><a href="https://github.com/mautic/mautic-community-handbook/pulls?q=is%3Apr+reviewed-by%3Afakela" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ASHMITA489"><img src="https://avatars.githubusercontent.com/u/143288389?v=4?s=100" width="100px;" alt="ashmita_"/><br /><sub><b>ashmita_</b></sub></a><br /><a href="https://github.com/mautic/mautic-community-handbook/commits?author=ASHMITA489" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/favour-chibueze"><img src="https://avatars.githubusercontent.com/u/46398983?v=4?s=100" width="100px;" alt="Favour Chibueze "/><br /><sub><b>Favour Chibueze </b></sub></a><br /><a href="https://github.com/mautic/mautic-community-handbook/commits?author=favour-chibueze" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/susanodii"><img src="https://avatars.githubusercontent.com/u/81011757?v=4?s=100" width="100px;" alt="Susan Odii"/><br /><sub><b>Susan Odii</b></sub></a><br /><a href="https://github.com/mautic/mautic-community-handbook/commits?author=susanodii" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
