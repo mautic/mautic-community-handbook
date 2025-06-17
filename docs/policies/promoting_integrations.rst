@@ -49,7 +49,7 @@ The community gives priority to projects with an open source nature for listing 
 #. Open Source Priority:
 
    * The community favors open source projects for inclusion due to their accessibility, transparency, and collaborative nature.
-   * The Marketing Team encourages the community to actively contribute to Open Source projects.
+   * The Marketing Team encourages the community to actively contribute to open source projects.
   
 #. Partner Projects:
 
