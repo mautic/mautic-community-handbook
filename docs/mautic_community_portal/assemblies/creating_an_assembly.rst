@@ -90,7 +90,7 @@ Once you have decided where the new assembly should sit, follow this process to 
 - Blog - to communicate with the community what your assembly is doing
 
 .. image:: ../images/assembly-components.png
-    :alt: VSCode screenshot showing how to change branches
+    :alt: assembly-components
     :width: 600px
     :align: center
 

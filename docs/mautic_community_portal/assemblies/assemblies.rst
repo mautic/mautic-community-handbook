@@ -21,7 +21,7 @@ Getting started with assemblies
 *******************************
 .. vale off
 
-You can access assemblies via the link on the main menu. When you visit this page, you’ll notice that some assemblies highlight, followed by the full list of top level assemblies.
+You can access assemblies via the link on the main menu. When you visit this page, you’ll notice some highlighted assemblies, followed by the full list of top level assemblies.
 
 .. vale on
 
@@ -31,10 +31,10 @@ There are different reasons for having assemblies. Some of them relate to decisi
 
 An assembly can also contain assemblies within it, for example, the MautiCon Working Group is part of the Community Team, because that's the team in which it belongs. The card shows a stacked appearance and lists the number of assemblies within it, as seen in the Community Team here.
 
-.. image:: ../images/sub-assemblies.png
-    :alt: VSCode screenshot showing how to change branches
-    :width: 600px
-    :align: center
+.. .. image:: ../images/sub-assemblies.png
+..     :alt: screenshot showing sub-assemblies on community portal
+..     :width: 600px
+..     :align: center
 
 Exploring assemblies
 ********************
@@ -45,7 +45,7 @@ When you click through to an assembly, you are presented with the overview page.
 .. vale on
 
 .. image:: ../images/assemblies-overview.png
-    :alt: VSCode screenshot showing how to change branches
+    :alt: assemblies-overview
     :width: 600px
     :align: center
 
@@ -82,7 +82,7 @@ An assembly has formal roles including:
 When you click the members item in the assembly menu it lists the formal members.
 
 .. image:: ../images/assemblies-members.png
-    :alt: VSCode screenshot showing how to change branches
+    :alt: assemblies-members
     :width: 600px
     :align: center
 
@@ -103,7 +103,7 @@ In the Community Team, a blog is available. Anything across the whole of the com
 In this case, an official post from the team invites people interested in promoting Mautic in their local regions to become ambassadors and express their interest.
 
 .. image:: ../images/community-team-blog.png
-    :alt: VSCode screenshot showing how to change branches
+    :alt: community-team-blog
     :width: 600px
     :align: center
 
@@ -189,7 +189,7 @@ In the new features process, the component for debates is included. Any of the a
 If you have a question, and you want the community to be able to give you feedback or discussions, this is a great way to do it within the community portal.
 
 .. image:: ../images/debates.png
-    :alt: VSCode screenshot showing how to change branches
+    :alt: debates
     :width: 600px
     :align: center
 

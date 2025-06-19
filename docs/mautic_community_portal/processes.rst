@@ -1,7 +1,7 @@
 Processes
 #########
 
-This article explores Processes in the new Mautic community portal, what are they, reasons for their use, how you use them, and why they're important in the Mautic community.
+This article explores Processes in the new Mautic Community Portal, what are they, reasons for their use, how you use them, and why they're important in the Mautic community.
 
 If you prefer to watch this in video format, you can do so here:
 
@@ -102,14 +102,14 @@ If I wanted to nominate myself, I would follow this process:
 
 4. Fill out all the required fields in the proposal.
 
-Once you have completed your proposal, you will have the opportunity to preview it before you publish it for people to review, endorse and vote on.
+Once you have completed your proposal, you have the opportunity to preview it before you publish it for people to review, endorse and vote on.
 
 New features process
 ********************
 
 The other process involves proposing new features.
 
-The way this works is that when we've been discussing a new feature on the forums and the community has got to a point where both marketers and developers are in agreement that it's something that should come into Mautic and there is commitment to actually developing it, a formal proposal is made for the Core Team to consider.
+The way this works is that when a new feature is being discussed on the forums and the community has got to a point where both marketers and developers are in agreement that it's something that should come into Mautic and there is commitment to actually developing it, a formal proposal is made for the Core Team to consider.
 
 .. image:: images/features-process.png
     :alt: Screenshot showing Mautic council election process
@@ -128,4 +128,4 @@ The way this works is that when we've been discussing a new feature on the forum
 6. A list of people, teams and groups who have already endorsed the proposal - note that individuals can select to not be displayed publicly
 7. Option to leave comments with positive neutral or downvote sentiment
 
-This should clarify how the processes work. We're currently exploring small areas, but there are many other ways these features can benefit Mautic. For now, we’re focusing on two areas where they would be particularly valuable.
+This should clarify how the processes work.
