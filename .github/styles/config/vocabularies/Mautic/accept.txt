@@ -124,6 +124,7 @@ sublicense
 SugarCRM
 Suhosin
 Symfony
+trojan
 Todo
 Transifex
 triaging
