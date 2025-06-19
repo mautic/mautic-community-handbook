@@ -11,7 +11,7 @@ Code governance
 Tiers for triaging pull requests
 ********************************
 
-We've adopted a tier-based approach to categorising pull requests (PRs) in the Mautic Community. This allows the Product Team to establish clear governance approaches to how PRs will be dealt with and what the criteria will be for merging.
+Mautic uses a tier-based approach to categorising pull requests - PRs - in the Mautic Community. This allows the Product Team to establish clear governance approaches to how PRs are dealt with and what the criteria is for merging.
 
 This allows the processing of minor fixes and improvements more rapidly, while time-boxing community testing for major pull requests, enabling the Product Team to make decisions on whether to merge new features once those time periods have passed.
 
