@@ -37,7 +37,7 @@ The following steps outline the RFP workflow for new projects in Mautic:
 18. Payment disbursed to developers by the Open Source Collective from Mautic Project collective funds.
 
 .. note::
-   :xref:`Mautic Partners` may propose up to three features per calendar year for consideration as an  RFP without going through community voting. These features still require approval by the Product Team and Project Lead.
+   :xref:`Mautic Partners` may propose up to three features per calendar year for consideration as an RFP without going through community voting. These features still require approval by the Product Team and Project Lead.
 
 How to claim a project
 ***********************
