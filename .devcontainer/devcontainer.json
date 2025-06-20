@@ -5,6 +5,9 @@
     },
     "customizations": {
         "vscode": {
+            "settings": {
+                "python.defaultInterpreterPath": "/usr/local/bin/python"
+            },
             "extensions": [
                 "ms-python.python",
                 "swyddfa.esbonio",
