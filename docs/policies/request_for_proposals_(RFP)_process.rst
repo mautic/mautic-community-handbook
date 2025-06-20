@@ -1,5 +1,5 @@
-Request for Proposals (RFP) process
-####################################
+Request for Proposals process
+#############################
 
 Background
 **********
@@ -43,12 +43,12 @@ The following steps outline the RFP workflow for new projects in Mautic:
    :xref:`Mautic Partners` may propose up to three features per calendar year for consideration as an RFP without going through community voting. These features still require approval by the Product Team and Project Lead.
 
 How to claim a project
-***********************
+**********************
 
 To ensure multiple contributors aren't competing on the same project, and to streamline the merging process, follow these steps:
 
 #. Read the Proposal document completely.
-#. If you want to move forward, submit a pitch via the comments on the proposal to the Product Team on your suggested implementation. Be sure to include as many details as requested by the spec, and be sure to address each of the completion criteria. For proposals that include UI changes, mock-ups are strongly encouraged - we use Figma but whatever tool you use, please ensure that it has the ability for everyone to collaborate and provide feedback.
+#. If you want to move forward, submit a pitch via the comments on the proposal to the Product Team on your suggested implementation. Be sure to include as many details as requested by the spec, and be sure to address each of the completion criteria. For proposals that include UI changes, mock-ups are strongly encouraged - Mautic uses Figma, but whatever tool you use, please ensure that it has the ability for everyone to collaborate and provide feedback.
 #. Be sure to consult the :ref:`Tips for writing a good pitch` for advice on how to write a good pitch.
 #. Work with the Product Team to finalize plans for the best implementation. The Core Team judges pitches on their maintainability, design quality, and adherence to spec. Note that other developers may submit competing pitches at this time.
 #. If the Core Team accepts your pitch, you may begin code implementation that adheres to your proposal and following the Mautic contributing guidelines.
