@@ -9,11 +9,7 @@ The Mautic website serves as a hub for the Mautic community, showcasing innovati
 Criteria for inclusion
 **********************
 
-.. vale off
-
 A Mautic member must propose projects featured in the Mautic Integrations Directory via the Mautic :xref:`Integration directory proposals` page. Integrations must receive at least five community votes and gain endorsement from the Marketing Team for inclusion.
-
-.. vale on
 
 The community selects projects for the Mautic website based on their popularity and relevance to Mautic Users, accomplished through a quarterly vote on the Community Portal of all eligible Integrations. Members of Mautic are eligible to vote.
 
