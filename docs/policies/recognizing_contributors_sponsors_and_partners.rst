@@ -6,14 +6,22 @@ Background information
 
 The Mautic Community wishes to encourage initiative/team/working group teams to acknowledge and thank their sponsors and contributors, but without the :xref:`Mautic website` properties or the Mautic application becoming overly cluttered with advertising or promotional messages.
 
+.. vale off
+
 Additionally, the community ensures that companies don't 'game' the system by providing minimal contributions to be recognized, for example, with logo placement or links.
+
+.. vale on
 
 Recognizing that the community norms around such messages are continually changing and that it's probably impossible to codify a process precisely, the recommendation is that Mautic establishes a policy framework for the Community Leadership Team to use when evaluating each situation and leave the final decisions in the case of any disputes to the Community Council.
 
 Definitions
 ***********
 
+.. vale off
+
 **Contributor**: there are many ways to contribute to Mautic projects, including committing code, writing thorough bug reports, assisting with documentation, participating in community outreach, funding developers, or working on the project, among other options. Even organizations and individuals that are “merely” adopting Mautic can be extremely useful contributors if they provide good, detailed, and timely feedback about requirements and bugs.
+
+.. vale on
 
 **Individual Contributor**: a contributor who is a person.
 
@@ -25,16 +33,22 @@ Definitions
 
 **Current Significant Contributor**: a contributor who has made one or more significant contributions that are also current contributions.
 
+.. vale off
+
 **Web resources**: including but not limited to Confluence spaces, :xref:`Mautic website`'s pages, and :xref:`Community Handbook`'s pages.
 
 **Sponsor**: an organization or individual who is financially supporting the Mautic Community regularly, listed on the :xref:`Mautic Sponsor` page.
 
 **Partner**: an organization that's financially and practically supporting the Mautic Community regularly and has met the criteria to become a Mautic Partner, listed on the :xref:`Mautic Partners` page.
 
+.. vale on
+
 Policy on the promotion of contributors
 ***************************************
 
 The Mautic policy on recognizing contributions on the :xref:`Mautic website`, in the Mautic application, and releases is as follows:
+
+.. vale off
 
 #. Contributions to Mautic exclude the contributor's name or affiliation in the application or code. For example, any themes contributed identify the author as ‘Mautic Team’ instead of an individual or organizational contributor.
 #. Mautic recognizes contributors through the All Contributors bot on GitHub, provided they have a GitHub account. Additionally, Mautic can add contributions without a pull request. The bot is enabled across all :xref:`Mautic repositories`, and Mautic soon compiles all contributors into a single list.
@@ -48,10 +62,14 @@ The Mautic policy on recognizing contributions on the :xref:`Mautic website`, in
 #. Individuals or companies so recognized may promote that fact, publish that they have been recognized, and link to the recognition. Such an individual or company may not, however, imply any endorsement of their products or services by Mautic or others based on such recognition.
 #. The Project Lead and Community Council reserve the right to remove any recognition at any time at their discretion.
 
+.. vale on
+
 Policy on promotion of sponsors and partners
 ********************************************
 
 The Mautic policy on recognizing sponsors and partners on the :xref:`Mautic website`, in the Mautic application, and releases is as follows:
+
+.. vale off
 
 #. Sponsors who are contributing over $100/month have their logo and link listed on the :xref:`Mautic Sponsor` page for the duration of their active sponsorship.
 #. Sponsors who are contributing under $100/month have their name or organization name listed on the :xref:`Mautic Sponsor` page.
@@ -66,6 +84,8 @@ Credits and useful resources
 ****************************
 
 This policy is based on those used by several other open source communities, including:
+
+.. vale on
 
 * :xref:`Eclipse Foundation Contributor Recognition Policy`
 * :xref:`KDE Policy`

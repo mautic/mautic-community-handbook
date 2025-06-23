@@ -10,12 +10,12 @@ In 2020, Mautic launched several Strategic Initiatives announced at Mautic Confe
 
 Through experience, Mautic has learned the importance of a well-defined Request for Proposals - RFP - process to manage projects that introduce new features or address major bug fixes in Mautic. This approach takes inspiration from the :xref:`OBS open-source project's model`.
 
-.. vale on
-
 Why does Mautic need an RFP process?
 ************************************
 
 This process aims to establish an open and transparent workflow for large community-driven projects, whether they focus on new features or significant issue resolutions in Mautic. It provides a clear lifecycle from the initial idea through to release, allowing Mautic users to see how features and larger projects get proposed, worked on, and completed.
+
+.. vale on
 
 Additionally, the RFP process helps Mautic better manage compensation for contributors working on these larger projects and provides a means for the community to financially support projects they value.
 
@@ -23,6 +23,8 @@ Workflow
 ********
 
 The following steps outline the RFP workflow for new projects in Mautic:
+
+.. vale off
 
 #. A project idea thread begins in the Mautic Community Forums under the :xref:`Ideas and Feature Requests` section for community discussion.
 #. The Product Team reviews requested features with the Project Lead quarterly and determines which are candidates for consideration on the roadmap. The Product Team reviews requested features with the Project Lead quarterly and determines which ones are candidates for consideration on the roadmap. Note that bugs - such as an Integration needing upgrade or something else requiring considerable work - as well as features can also start life as an RFP.
@@ -46,6 +48,8 @@ The following steps outline the RFP workflow for new projects in Mautic:
 .. note::
    :xref:`Mautic Partners` may propose up to three features per calendar year for consideration as an RFP without going through community voting. These features still require approval by the Product Team and Project Lead.
 
+.. vale on
+
 How to claim a project
 **********************
 
@@ -59,7 +63,7 @@ To ensure multiple contributors aren't competing on the same project and to stre
 #. Submit the code as a draft PR in the appropriate Mautic repositories so that the Core Team can track the progress.
 #. Once the code is complete, remove the draft status and notify the Core Team - use ``@mautic/core-team`` to ping them.
 #. Update the code with feedback from the Core Team as needed.
-#. Write the documentation required - this might include developer and/or end-user documentation.
+#. Write the documentation required - this might include Developer and/or End-User Documentation.
 #. Wait for the maintainers to merge your code into the appropriate branch.
 #. Submit an expense to Open Collective for the amount of the project.
 
@@ -68,9 +72,9 @@ To ensure multiple contributors aren't competing on the same project and to stre
 Collaboration with the Mautic Product Team
 ******************************************
 
-.. vale on
-
 Collaborating with the Product and Core Teams is essential for successful code integration into Mautic. During the proposal process, address any questions early on. During development, use the pull request comment feature for feedback. For additional communication, the ``#dev`` channel in :xref:`Mautic Community Slack` is available, though it's encouraged to keep discussions on the RFP and PRs for transparency.
+
+.. vale on
 
 Deadlines
 *********
@@ -99,9 +103,9 @@ The Product Team has a fixed allocation each year to use for funding these proje
 What about Strategic Initiatives?
 *********************************
 
-.. vale on
-
 Strategic Initiatives follow the same proposal process, but they're separately funded. Proposed by the Project Lead, they don't undergo community voting.
+
+.. vale on
 
 As Strategic Initiatives are larger projects, they may consist of smaller projects. The RFP should clarify how each project fits into the larger initiative.
 
