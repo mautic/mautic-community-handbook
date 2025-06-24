@@ -46,7 +46,7 @@ Minor features or enhancements which do not significantly change any part of Mau
 
 More complex bug fixes are also probably going to be in Tier 2, as well as PRs that are related to external services (for example, Salesforce/HubSpot) for which accounts need to be created in order to test.
 
-Examples (Tier 2)
+Examples - Tier 2
 ------------------
 
 :xref:`github_pr_6090`- new feature, fairly simple and doesn’t significantly change any major part of Mautic
