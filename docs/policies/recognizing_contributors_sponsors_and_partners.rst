@@ -35,9 +35,9 @@ Definitions
 
 **Web resources**: including but not limited to Confluence spaces, :xref:`mautic.org` pages, community handbook pages.
 
-**Sponsor**: an organization or individual who are financially supporting the Mautic Community on a regular basis, listed at :xref:`the Mautic Sponsor page`
+**Sponsor**: an organization or individual who are financially supporting the Mautic Community on a regular basis, listed on the :xref:`Mautic Sponsor` page.
 
-**Partner**: an organization who are financially and practically supporting the Mautic Community on a regular basis, and have met the criteria to become a Mautic Community Partner, listed at :xref:`Mautic Partners`
+**Partner**: an organization who are financially and practically supporting the Mautic Community on a regular basis, and have met the criteria to become a Mautic Community Partner, listed at :xref:`Mautic Partners`.
 
 Policy on promotion of contributors
 ************************************
@@ -61,9 +61,9 @@ Policy on promotion of sponsors and partners
 
 The Mautic policy on recognizing sponsors and partners on mautic.org, in the Mautic application and in releases is as follows:
 
-#. Sponsors who are contributing over $100/mth will have a logo and link listed on :xref:`the Mautic Sponsor page` for the duration of their active sponsorship.
-#. Sponsors who are contributing under $100/mth will have their name or organization name listed on :xref:`the Mautic Sponsor page`.
-#. Infrastructure sponsors who are providing a service used by the Mautic Community at free or discounted price will have a logo and link to the most relevant page on their website for as long as the membership is active, listed at :xref:`the Mautic Sponsor page`.
+#. Sponsors who are contributing over $100/mth will have a logo and link listed on the :xref:`Mautic Sponsor` page for the duration of their active sponsorship.
+#. Sponsors who are contributing under $100/mth will have their name or organization name listed on the :xref:`Mautic Sponsor` page.
+#. Infrastructure sponsors who are providing a service used by the Mautic Community at free or discounted price will have a logo and link to the most relevant page on their website for as long as the membership is active, listed on the :xref:`Mautic Sponsor` page.
 #. If a sponsor cancels their sponsorship or the service is no longer being used, the link will be removed as soon as notification of cancellation is received.
 #. Event sponsors will be listed on the event websites, and will not be eligible to be listed on mautic.org unless they are a regular monthly sponsor in addition to supporting the event.
 #. Partners will be announced on social media and email when they become a partner, announcing their joining of the programme.
