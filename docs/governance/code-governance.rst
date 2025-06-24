@@ -159,7 +159,7 @@ Type-based labels
 * Regression
 
 Status-based labels
---------------------
+-------------------
 * Needs triage
 * Rebase needed
 * WIP
@@ -172,7 +172,6 @@ Status-based labels
 * Ready to test (PR’s only, and only applied when the PR is passing tests, has no conflicts, has automated tests written and is mergeable)
 * Pending test confirmation (PR’s only, and only applied when the PR is passing tests, has no conflicts, has automated tests written and is considered ready for merging)
 * Ready to commit (PR’s only, and only applied when the PR is passing tests, has no conflicts, has automated tests written, has the required signoff/approvals and is considered ready for merging)
-
 
 Area Affected Labels (which part of the product does this affect?)
 ===================================================================
@@ -215,12 +214,12 @@ Area Affected Labels (which part of the product does this affect?)
 * Widgets
 
 Some points of clarification
-=============================
+============================
 **Core Team:** Individuals selected by the Project Lead with technical ability to manage and maintain the core of Mautic - includes Release Leaders, Core Committers, Maintainers (see :xref:`mautic.org/about/governance`). Currently listed here.
 
 **Product Team:** Members of the Mautic Product Team. They may also be part of the Core Team, but not necessarily. Currently listed here .
 
-**Triage Team:** Members of the Mautic Product Team who are responsible for triaging issues and PR’s. They may also be part of the Core Team, but not necessarily. Currently listed here .
+**Triage Team:** Members of the Mautic Product Team who are responsible for triaging issues and PR’s. They may also be part of the Core Team, but not necessarily. Currently listed here.
 
 **Code Review and Testing:** Must not be done by the author of the PR.
 
