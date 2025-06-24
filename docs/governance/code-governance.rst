@@ -53,6 +53,7 @@ Examples - Tier 2
 
 :xref:`github_pr_7432`- a lot of new code which extends an existing feature, enhancing reports with a scheduling option
 
+.. vale off
 
 Requirements for merging a Tier 2 PR
 --------------------------------------
