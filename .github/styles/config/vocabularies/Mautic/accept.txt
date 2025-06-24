@@ -131,6 +131,7 @@ Transifex
 triaging
 TRUE
 Twilio
+Uploader 
 unassign
 unpublish
 Unpublish
