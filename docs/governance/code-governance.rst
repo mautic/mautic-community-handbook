@@ -58,6 +58,8 @@ Examples - Tier 2
 Requirements for merging a Tier 2 PR
 --------------------------------------
 
+.. vale on
+
 * Thorough testing to ensure that it does what it’s expected to do and does not break anything else
 * Full unit testing coverage
 * Full documentation support if it’s a feature change/addition
