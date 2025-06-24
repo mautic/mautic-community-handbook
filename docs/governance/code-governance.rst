@@ -89,7 +89,7 @@ Requirements for Merging a Tier 3 PR
 * Full unit/functional test coverage
 * Full documentation support
 * Code review from 1-2 core team members
-* Full testing and approval by at least two community members (could be the people doing the review, but should not be from the same company/organisation as the person submitting the PR as mentioned above)
+* Full testing and approval by at least two community members - could be the people doing the review, but shouldn't be from the same company/organisation as the person submitting the PR as mentioned above
 * 2 week community review period - after which Product Team decides via a vote in the next available team meeting whether to merge (assuming code review and all other requirements are in place to permit merging)
 
 .. note::
