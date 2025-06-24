@@ -121,7 +121,7 @@ Tier 2 issues
 ==============
 Issues which are more complex and/or which may impact a large volume of users.
 
-Examples (Tier 2 issues)
+Examples - Tier 2 issues
 -------------------------
 :xref:`github_pr_8621`- impacts all SparkPost users
 
