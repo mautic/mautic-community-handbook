@@ -81,6 +81,9 @@ Examples - Tier 3
 
 Requirements for Merging a Tier 3 PR    
 -------------------------------------
+
+.. vale on
+
 * Thorough testing to ensure that it does what it’s expected to do and does not break anything else
 * Thorough testing across the whole product
 * Full unit/functional test coverage
