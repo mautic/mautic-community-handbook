@@ -110,7 +110,7 @@ Tier 1 issues
 
 Minor issues which are non-critical in nature.
 
-Examples (Tier 1 issues)
+Examples - Tier 1 issues
 -------------------------
 :xref:`github_pr_8974` - an issue with translations
 
