@@ -30,6 +30,7 @@ cron
 Cron
 CTRL
 Custom Fields
+Dependabot
 DDEV
 Do Not Contact
 doxing
