@@ -64,7 +64,7 @@ Requirements for merging a Tier 2 PR
 * Full unit testing coverage
 * Full documentation support if it’s a feature change/addition
 * Code review from 1 core team member
-* Full testing and approval by at least one community member (could be the person doing the code review, but should not be from the same company/organisation as the person submitting the PR as mentioned above)
+* Full testing and approval by at least one community member - could be the person doing the code review, but shouldn't be from the same company/organisation as the person submitting the PR as mentioned above.
 
 Tier 3
 ======
