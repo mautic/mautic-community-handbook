@@ -90,6 +90,7 @@ namespace
 Namespace
 noindex
 OAuth
+onebox
 Packagist
 PATCH
 patch
