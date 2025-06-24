@@ -169,7 +169,7 @@ Status-based labels
 * Pending feedback
 * Pending code changes
 * Has conflicts
-* Ready to test (PR’s only, and only applied when the PR is passing tests, has no conflicts, has automated tests written and is mergeable)
+* Ready to test (PR’s only, and only applied when the PR is passing tests, has no conflicts, has automated tests written and is considered ready for merging)
 * Pending test confirmation (PR’s only, and only applied when the PR is passing tests, has no conflicts, has automated tests written and is considered ready for merging)
 * Ready to commit (PR’s only, and only applied when the PR is passing tests, has no conflicts, has automated tests written, has the required signoff/approvals and is considered ready for merging)
 
