@@ -1,6 +1,6 @@
 from . import link
 
-link_name = "mautic.org/about/governance" 
+link_name = "mautic.org/governance" 
 link_text = "mautic.org/governance"
 link_url = "https://mautic.org/governance/" 
 
