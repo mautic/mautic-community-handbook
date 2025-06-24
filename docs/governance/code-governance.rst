@@ -132,7 +132,7 @@ Tier 3 issues
 ==============
 Complex issues which impact multiple areas of Mautic or which require extensive debugging to identify/resolve.
 
-Examples (Tier 3 issues)
+Examples - Tier 3 issues
 -------------------------
 :xref:`github_pr_9072`- will likely touch many areas and is complex to solve, requiring in-depth technical knowledge of PHPUnit
 :xref:`github_pr_7032`- took a lot of time to confirm the issue and find a proper solution without breaking other things
