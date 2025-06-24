@@ -27,6 +27,8 @@ Examples - Tier 1
 :xref:`github_pr_8116`- very simple bug fix
 
 
+.. vale off
+
 Requirements for merging a Tier 1 PR
 -------------------------------------
  
