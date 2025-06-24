@@ -43,7 +43,6 @@ exceptions:
   - POST
   - RAM
   - REPL
-  - RFP
   - RSA
   - SCM
   - SCSS
