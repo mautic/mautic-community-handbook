@@ -124,7 +124,6 @@ Issues which are more complex and/or which may impact a large volume of users.
 Examples - Tier 2 issues
 -------------------------
 :xref:`github_pr_8621`- impacts all SparkPost users
-
 :xref:`github_pr_7062`- appears often but not always when multiple forms are added on a single page, making it tricky to reproduce
 
 
