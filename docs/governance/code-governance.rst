@@ -1,5 +1,5 @@
 Code governance
-################
+###############
 
 .. toctree::
    :maxdepth: 2
