@@ -93,7 +93,7 @@ Requirements for Merging a Tier 3 PR
 * 2 week community review period - after which Product Team decides via a vote in the next available team meeting whether to merge (assuming code review and all other requirements are in place to permit merging)
 
 .. note::
-    Tier 3 PRs which relate to new features that impact users of Mautic **should be linked to in an individual forum thread** at :xref:`Ideas and Feature Requests` and discussed on the forums. This gives the non-technical user base an opportunity to be involved in the discussions on new features. 
+    Tier 3 PRs which relate to new features that impact users of Mautic **should be linked to in an individual forum thread** at :xref:`Ideas and Feature Requests` and discussed on the forums. This gives the non-developer user base an opportunity to be involved in the discussions on new features. 
 
 
 If a thread doesn’t exist prior to the PR being submitted (for example, a feature created without the community suggesting it), it should be created during triage when a Tier 3 & Feature label is added.
