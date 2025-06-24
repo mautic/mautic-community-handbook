@@ -70,7 +70,7 @@ Tier 3
 ======
 Major changes touching multiple parts of Mautic, completely changing the way some aspect of the code works, or large amounts of code changed.
 
-Examples (Tier 3)
+Examples - Tier 3
 ------------------
 
 :xref:`github_pr_6875`- complex code changes across multiple areas, with significant impact
