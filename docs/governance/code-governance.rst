@@ -19,7 +19,7 @@ Tier 1
 ======
 Small changes such as typo fixing, bug fixes, translation changes, minor UI improvements or minor enhancements. Most simple bug fixes are probably going to be in Tier 1.
 
-Examples (Tier 1)
+Examples - Tier 1
 ------------------
 
 :xref:`github_pr_8393`- simple bug fix with very few changes
