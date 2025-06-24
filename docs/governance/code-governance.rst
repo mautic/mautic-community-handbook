@@ -77,6 +77,7 @@ Examples - Tier 3
 
 :xref:`github_pr_6584`- not too complex but a large visual change in the UI with the potential to cause significant disruption to the end user
 
+.. vale off
 
 Requirements for Merging a Tier 3 PR    
 -------------------------------------
