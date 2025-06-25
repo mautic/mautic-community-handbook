@@ -117,8 +117,12 @@ Strategic Initiatives follow the same proposal process, but they're separately f
 
 As Strategic Initiatives are larger projects, they may consist of smaller projects. The RFP should clarify how each project fits into the larger initiative.
 
-How do Mautic budget for funding requests for proposals?
-********************************************************
+.. vale off
+
+How does Mautic budget for funding RFPs?
+****************************************
+
+.. vale on
 
 Starting in 2022, the Council may allocate a portion of the budget to the Product Team to fund the RFP process. These funds exist in a separate project on Mautic Open Collective, allowing targeted donations.
 
