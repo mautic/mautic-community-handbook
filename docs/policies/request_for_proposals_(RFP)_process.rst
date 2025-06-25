@@ -72,7 +72,11 @@ To ensure multiple contributors aren't competing on the same project and to stre
 Collaboration with the Mautic Product Team
 ******************************************
 
-Collaborating with the Product and Core Teams is essential for successful code integration into Mautic. During the proposal process, address any questions early on. During development, use the pull request comment feature for feedback. For additional communication, the ``#dev`` channel on :xref:`Mautic Community Slack` is available, though it's encouraged to keep discussions on the RFP and PRs for transparency.
+Collaborating with the Product and Core Teams is essential for successful code integration into Mautic.
+
+During the proposal process, address any questions early on.
+
+During development, use the pull request comment feature for feedback. For additional communication, the ``#dev`` channel on :xref:`Mautic Community Slack` is available, though it's encouraged to keep discussions on the RFP and PRs for transparency.
 
 .. vale on
 
