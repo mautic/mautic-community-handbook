@@ -415,7 +415,176 @@ A person who would bring the Community Council above the limit on co-affiliation
 
 For purposes of this Section, a common affiliation includes all organizations that, directly or indirectly through one or more intermediary controls, is controlled by, or is under common control with the other entities declared as affiliations by other members of the Community Council.
 
-## 6. Record keeping
+## 6. Contributors, Maintainers and the Core Team
+
+### 6.1 Contributors
+
+Contributors are people who contribute their work to Mautic. This includes but is not limited to:
+
+- Code contributions, 
+- Writing documentation,
+- Submitting bug reports,
+- Other issue reports,
+- Reviewing PRs,
+- Participation in technical as well as non-technical discussions, 
+- Organizational considerations.
+
+Code contributions are very welcome, they are the life-blood of our open source project. In order to streamline and harmonize code quality, contributors must follow the contributing guidelines.
+
+Contributors may be associated with organizations - by employment or otherwise - who have a vested interest in Mautic, or may be individuals who have their own personal stakes in Mautic. We call these organizations and individuals 'stakeholders' throughout this section of the governance model to summarize them.
+
+### 6.1.1 Expectations of contributors
+
+- Be empathetic and respectful to the reviewers. Reviewing a change can be hard work and time-consuming.
+- Use the PR template in its entirety and provide very clear, step by step instructions on how to reproduce the bug you're fixing - if it's a bugfix - or what the feature is you're adding - if it's a feature - and how your contribution should work. Screenshots and screen recordings help enormously! 
+- Don't assume the reviewer is a developer. They may be a marketer helping with a user review.
+- Keep commits small when possible and provide reasoning and context when submitting changes. Reviews go smoother if you make the reviewer's job easier.
+- Be responsive when changes are requested by the reviewer. It is easier to re-review the modified changes if they are completed shortly after original review.
+- Ask for clarification if you are confused by a suggested change.
+- Speak up if your contribution appears to be stuck for more than a week. Post it in [#t-product](https://mautic.slack.com/archives/CQMKV0RU1) on [Slack](https://mautic.org/slack) and ask for assistance to move it forward.
+
+## 6.2 Maintainers
+
+Among the contributors to Mautic, some people have maintainer status, which consists of elevated write access to the GitHub repository and additional duties. This is an important role which carries much responsibility, so we have quite strong processes around adopting new maintainers.
+
+### 6.2.1 Expectations and duties of maintainers
+
+- Be an active reviewer and participant.
+- Know which changes are likely to be controversial, and work to resolve the controversy as early as possible.
+- Know when a change needs more reviewers involved.
+- Add the relevant Tiger Team to reviews when appropriate.
+- Ensure the review of a proposed change is thorough, both user testing and code review.
+- Point out when a contribution appears to be stuck and explain in clear steps how to move forward.
+- Assist with the authoring of release notes.
+
+### 6.2.2 Who are the current maintainers?
+
+The current list of active maintainers can be found in the [MAINTAINERS](https://github.com/mautic/mautic/blob/7.x/MAINTAINERS.md) list.
+
+Maintainers are people who care about Mautic and want to see it grow and thrive. A maintainer does more than make changes to code. They have demonstrated their ability to collaborate and organize with the team, get the most knowledgeable people to review code or documentation, contribute high-quality code and documentation, as well as follow through to fix issues (in code or tests).
+
+Contributing to Mautic does not make you qualified to be a maintainer, it is about building trust with the current maintainers of the project and being a person that they can depend on and trust to make decisions in the best interest of the project, with personal views and preferences being put aside.
+
+## 6.2.3 How do people become a maintainer of Mautic?
+
+So you want to be a maintainer of Mautic? Awesome!
+
+The saying 'If you want to become a maintainer, behave like a maintainer' holds true at Mautic. If you follow this advice, then rest assured that the Core Team will notice, and maintainership will seek you out rather than the other way around.
+
+Here's some ways that you can work towards what we expect to see in a maintainer:
+
+- Help out users and other developers on GitHub, on the forums and on Slack
+- Review and test the PRs submitted by others; this can help to offload the burden on existing maintainers, who will definitely appreciate your efforts
+- Participate in discussions about releases, roadmaps, architecture, and long-term plans
+- Help improve the website and the documentation
+- Help unstick issues that people don't want to (or can't) work on
+- Participate in (or even initiate) real-world events such as user/developer meetups, papers/talks at conferences, in-person sprints, etc. Having people in the community meeting you in-person, human-to-human, is an important part of developing trust
+- Improve project infrastructure in order to increase the efficiency of maintainers and other contributors
+- Help raise the project's quality bar (e.g. by improving code coverage analysis)
+- As much as possible, keep your activity sustained, rather than sporadic
+- Deliver on your promises - if you say you're going to do something, make sure you do it (or inform others as soon as it becomes clear you can't)
+
+It should go without saying, but here it is anyway: your participation in the project should be a natural part of your work with Mautic; if you find yourself undertaking tasks 'so that you can become a maintainer', then you're doing it wrong, young padawan. This is particularly true if your motivations for wanting to become a maintainer are primarily negative, power-focused or self-centered, e.g.
+
+- You desire the power of a -1 vote (these should be used only extremely rarely in a healthy project)
+- You want to push your own changes through unreviewed by others or move things along faster so you can get to your own (or your company's) goal faster (Mautic follows a clear code governance policy where even maintainers need to wait for a +1 from another maintainer)
+- You only want to merge changes from other contributors within a particular affiliation group (e.g. coworkers in the same organization); the maintainer role is about furthering a diverse project, not a narrow agenda.
+
+### 6.2.4 Adding new maintainers
+
+Periodically, the existing maintainers curate a list of contributors that have shown regular activity on the project over the prior months. From this list, maintainer candidates are selected and proposed in the Core Team private Slack channel. The Core Team will aim to have maintainer representation from different genders, geography, and employers.
+
+There will be a 2 week voting period after the proposed list of candidates is shared; any abstention will count as a positive vote for the proposed member. In order to be added, a proposed member must carry a ⅔ majority vote of current active and honorary members.
+
+A temporary private Slack channel will be created for use of discussion of the proposed member (example name: #_tmp-vetting-lee-smith, etc). All Active and Honorary Core Team members will be added to this channel. Responsibility of creating/deletion of this channel falls to the Project Lead.
+
+If a maintainer has a strong objection to the inclusion of a proposed member, they should make this objection known in the temporary vetting channel in Slack. If the objection is sensitive, the objection may be raised privately to the Project Lead.
+
+After voting has concluded on the proposed member, this temporary channel will be deleted.
+
+Once the Core Team decides to consider a candidate as a maintainer, they are contacted by a member of the Core Team to determine their willingness to be considered as a maintainer and availability of their time to ensure they can fully commit to the role in a sustainable way.
+
+### 6.2.5 Removing maintainers
+
+Maintainers may resign at any time if they feel that they will not be able to continue fulfilling their project duties.
+
+Maintainers may also be removed if there is prolonged absenteeism, upon failure to fulfill their Maintainer responsibilities or because of violating the Code of Conduct. This also includes actively, persistently, and intentionally trying to harm or successfully harming the code base of Mautic, especially, but not limited to, endangering the security or safety of Mautic. 
+
+Prolonged absenteeism is defined as a period of very low or no activity in the project. All maintainers are expected to lead and assist at least two releases in any calendar year (there must be at least one Core Team member allocated to every release), and to be actively engaged in reviewing contributions, supporting developers and engaging in discussions in the Core Team Slack channel in order to remain active as a maintainer.
+
+If a maintainer has shown little to no activity over a six-month period, the maintainer will be contacted to notify them of their activity status and offer a move to an honorary role. There is no automatic change of status in the project from active to honorary role. 
+
+First, the activity status is discussed by the Project Lead directly with the maintainer, and second, maintainers discuss whether other non-tracked contributions to the project reflect an ongoing, active participation in the project.
+
+The honor role is maintained at [https://community.mautic.org/profiles/core-team/](https://community.mautic.org/profiles/core-team/) and in the [MAINTAINERS](https://github.com/mautic/mautic/blob/7.x/MAINTAINERS.md) file.
+
+### 6.2.6 GitHub Admins
+
+GitHub Admins are a subgroup of the Core Team who have elevated access to the GitHub organization. They can grant access to repositories, add and remove people from teams, and change protections for branches.
+
+Beyond those privileges they do not have any additional responsibilities to Maintainers.
+
+Admins are selected from active Maintainers, and due to the high level of trust required, they tend to be the longest tenured members of the team. The Maintainers try to take care to spread the admin responsibility over several project stakeholders within the Maintainer body. This is to aspire some checks and balances between stakeholders as well as introduce redundancies in case a stakeholder is not able to work on Mautic any more.
+
+GitHub Owners are a sub-group of the Admins, and other than the regular Admin duties, they do not have any additional responsibilities.
+
+## 6.3 Core Team
+
+The Core Team are the people who take responsibility for Mautic's code base. They review incoming change requests - we call them PRs - while ensuring that security issues are resolved promptly, and also ensure that we are taking proactive steps to keep Mautic at the forefront of marketing automation technologies. They also liaise with other stakeholders across the project when it comes to discussions on new features and enhancements.
+
+The Core Team consists of at least three and up to nine active Maintainers plus the Project Lead, individuals who have the responsibility for merging new code into Mautic.
+
+## 6.4 Release Leads
+
+Each release of Mautic will have a named Release Lead and Assistant Release Lead. At least one of these will be a Core Team member with merging rights. Becoming an Assistant Lead for a release is a great way to get to know the Core Team Maintainers more, and also to understand what goes into making a release happen.
+
+Their duties include setting the dates for feature freeze for the release, enforcing the feature freeze, coordinating the (mostly automated) tests of a release, writing the release notes and creating the tags defining the release and its pre-release versions where appropriate. They are also the primary person responsible for merging the PRs for the release, although other Maintainers may also merge PRs in collaboration with the Release Team.
+
+The full set of tasks can be found in the document Managing a Release (3). Their duties end after the release they managed is out. In the case of a major release, the release team is responsible for Alpha to General Availability releases.
+
+The upcoming release leads can be found in the [RELEASE_LEADS](https://github.com/mautic/mautic/blob/7.x/RELEASE_LEADS.md) file.
+
+## 6.5 Security Team
+
+The Mautic Security Team are focused on:
+
+- Resolving reported security issues 
+- Releasing and disclosing security fixes in an ethical and timely way
+- Providing documentation on how to write secure code
+- Providing documentation on how to secure your Mautic instance
+- Helping the infrastructure team to keep the *.mautic.org infrastructure secure
+
+Members of the Security Team are not always members of the Core Team. As membership in the team gives the individual access to potentially destructive information, membership is limited to people who have a proven track record in the Mautic project.
+
+Similar to the Core Team, Security Team members must maintain a minimum level of activity to be considered active. Exceptions to that can be made for short periods to accommodate other priorities, but people who can't maintain some level of involvement will be asked to reconsider their membership on the team.
+
+The Security Team follows the same processes as the Core Team in terms of maintaining its membership and ensuring that members are actively participating in the team, however one difference is that the Security Team has a Provisional Member status which new members hold for a period of at least 12 months before they are considered full members of the team.
+
+### 6.5.1 Expectations and duties of the Security Team
+
+- Lead and assist at least two security releases per year to maintain their membership.
+- Dedicate at least a few hours every month on security issues.
+- Support Maintainers and Contributors by providing security-focused reviews of contributions and guiding contributors towards security-first development.
+
+# 6.6 Decision making
+
+Mautic has well documented processes we follow when it comes to decision making in our [Governance Model](https://contribute.mautic.org/governance/governance#2-decision-making). Wherever there is a debate to be had on how to approach a situation, the Community Portal is used, with the Product Team's [Debate section](https://community.mautic.org/assemblies/product-team/f/39/debates) having the ability for discussion, voting and endorsement by teams and individuals. This ensures that both the users (marketers) and developers have the opportunity to know what is being discussed and decided upon.
+
+## 6.7 Disclosure of sensitive information
+
+In general, information shared within the Core, Security or Release Teams should only be shared outside the team on a 'need to know' basis with full transparency to the rest of the team as to who is being informed, and why. 
+
+For example, if knowledge of team information will allow a contributor to create a patch or provide direct support to the security team in fixing an issue, this satisfies 'need to know' and the contributor should be invited directly to the private fork for collaboration purposes. 
+
+Offering team information to give others advance knowledge of an upcoming release which is not yet public does not satisfy 'need to know' (e.g. letting an organization know about a zero day for purposes of operational preparedness).
+
+In the course of their duties, members should:
+
+- Avoid creating a situation where people use still-private knowledge which is gained on the team or code released under agreements to get an unfair advantage with no regard for the health of the Mautic ecosystem. For example, a security team member may not publicly post about unreleased fixes, a release lead or security team member may not share the contents of an Extended Long Term Support release with their organization, especially important if that organization is not a subscriber to the programme already.
+
+- Minimize risk that the confidential aspects of their work will be leaked beyond the team and posted to the public, outside of the release window and before a patch is released.
+
+## 7. Record keeping
 
 1. The Community Council shall be responsible for keeping correct and complete books and records of accounts, and shall keep minutes of the proceedings of its members and Community Council.
 
@@ -429,7 +598,7 @@ For purposes of this Section, a common affiliation includes all organizations th
 
 1. Any person who is a member entitled to vote, upon written demand under oath stating the purpose thereof, shall have the right to examine, in person or by agent or attorney, at any time during the Community Council's usual hours for business, for any proper purpose as determined under the laws of the State of California, the project's membership records and its other books and records and to make copies or extracts therefrom.
 
-## 7. Amendment of this Governance Model
+## 8. Amendment of this Governance Model
 
 Members may form Working Groups to consider changes to this Governance Model, and may propose such changes to the Community Council.
 
@@ -437,7 +606,7 @@ However, this Governance Model may be altered, amended or repealed only by actio
 
 No alteration, amendment or repeal of this Governance Model shall be effective unless and until the Community Council attempts, in good faith, to give notice to the members of the Community of such alteration, amendment or repeal at least fifteen (15) days prior to the effective date of such alteration, amendment or repeal, which notice may be by electronic means.
 
-## 8. Credits
+## 9. Credits
 
 The following individuals contributed towards this governance model by providing comments on proposals, discussions and debate on topics, and researching topics contained within:
 
@@ -458,7 +627,7 @@ The following individuals contributed towards this governance model by providing
 - Brad Thompson
 
 -
-## 9. References
+## 10. References
 The following were used in researching and developing this model:
 
 ### Open source project governance examples and resources
