@@ -566,7 +566,7 @@ The Security Team follows the same processes as the Core Team in terms of mainta
 - Dedicate at least a few hours every month on security issues.
 - Support Maintainers and Contributors by providing security-focused reviews of contributions and guiding contributors towards security-first development.
 
-# 6.6 Decision making
+## 6.6 Decision making
 
 Mautic has well documented processes we follow when it comes to decision making in our [Governance Model](https://contribute.mautic.org/governance/governance#2-decision-making). Wherever there is a debate to be had on how to approach a situation, the Community Portal is used, with the Product Team's [Debate section](https://community.mautic.org/assemblies/product-team/f/39/debates) having the ability for discussion, voting and endorsement by teams and individuals. This ensures that both the users (marketers) and developers have the opportunity to know what is being discussed and decided upon.
 
