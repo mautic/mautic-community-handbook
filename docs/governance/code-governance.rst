@@ -1,13 +1,6 @@
 Code governance
 ###############
 
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-
-   deprecation_policy
-
-
 Tiers for triaging pull requests
 ********************************
 
@@ -215,7 +208,7 @@ Area Affected Labels (which part of the product does this affect?)
 
 Some points of clarification
 ============================
-**Core Team:** Individuals selected by the Project Lead with technical ability to manage and maintain the core of Mautic - includes Release Leaders, Core Committers, Maintainers (see :xref:`mautic.org/about/governance`). Currently listed here.
+**Core Team:** Individuals selected by the Project Lead with technical ability to manage and maintain the core of Mautic - includes Release Leaders, Core Committers, Maintainers (see :xref:`Mautic governance`). Currently listed here.
 
 **Product Team:** Members of the Mautic Product Team. They may also be part of the Core Team, but not necessarily. Currently listed here .
 
