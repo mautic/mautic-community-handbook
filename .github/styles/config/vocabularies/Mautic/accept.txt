@@ -30,6 +30,7 @@ cron
 Cron
 CTRL
 Custom Fields
+Dependabot
 DDEV
 Do Not Contact
 doxing
@@ -90,6 +91,7 @@ namespace
 Namespace
 noindex
 OAuth
+onebox
 Packagist
 PATCH
 patch
@@ -126,8 +128,10 @@ Symfony
 trojan
 Todo
 Transifex
+triaging
 TRUE
 Twilio
+Uploader 
 unassign
 unpublish
 Unpublish

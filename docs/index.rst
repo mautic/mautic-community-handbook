@@ -22,14 +22,13 @@ The vision is that it grows over time as the teams and governance structure evol
    :hidden:
 
    about/about
-
+   
 .. toctree::
    :maxdepth: 2
-   :caption: Policies
+   :caption: Governance
    :hidden:
 
-   policies/code_of_conduct/code_of_conduct
- 
+   governance/code-governance
 
 .. toctree::
    :maxdepth: 2
