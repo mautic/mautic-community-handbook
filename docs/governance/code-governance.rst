@@ -30,9 +30,8 @@ Examples - Tier 1
 .. vale off
 
 Requirements for merging a Tier 1 PR
--------------------------------------
+------------------------------------
  
-
  * Thorough testing to ensure that it does what it’s expected to do and doesn't break anything else
  * Full unit testing coverage
  * Code review from 1 core team member
