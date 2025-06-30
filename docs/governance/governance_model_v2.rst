@@ -54,7 +54,7 @@ You qualify as a member through practical contributions if you dedicate at least
 
 You also qualify through practical contributions if you dedicate at least five (5) hours per month working on projects which advance the mission of Mautic by creating or maintaining open source software or resources which are available to the public at no charge.
 
-Members who wish to claim voting rights through this method are required to self-certify via a [form](https://forms.gle/mjRjyEhQbqXA7TNL6) each year.
+Members who wish to claim voting rights through this method are required to self-certify via the :xref:`Practically Contributing Member Self Certification form` each year.
 
 The Community Council will verify all membership requests on a monthly basis. They will use the Savannah CRM tool to verify engagement within Mautic-owned properties, and available tools to verify engagement with external properties.
 
@@ -107,12 +107,16 @@ A member's membership may be terminated by the Community Council (for example as
 
 Upon any withdrawal from or termination of the membership of any member, the membership, including all related voting rights, of such member shall be terminated. After a withdrawal or termination of the membership of any member, such former member may reapply for membership in accordance with the application process detailed above, and after following any reconciliation process that might be deemed appropriate after a termination due to a Code of Conduct breach.
 
+.. _governance-model-decision-making:
+
 \2. Decision making
 *******************
 
 It is recognized that the governance model needs to be flexible enough to accommodate the many and varied kinds of decisions that are made in an open source project on a daily basis.
 
 There are, however, some guiding principles that we recommend are followed, which provide alignment with our core values.
+
+.. _general-guidelines-timing:
 
 2.1 General guidelines - timing
 ===============================
@@ -132,7 +136,7 @@ There are, however, some guiding principles that we recommend are followed, whic
 2.2 General guidelines - methodology
 ====================================
 
-#. In the Mautic community we default to using consensus as a means for establishing support for a decision, often using lazy consensus where the motion is considered passed after a time period is elapsed (see 2.1 for guidance) if there are not any objections.
+#. In the Mautic community we default to using consensus as a means for establishing support for a decision, often using lazy consensus where the motion is considered passed after a time period is elapsed (see :ref:`Section 2.1<general-guidelines-timing>` for guidance) if there are not any objections.
 #. Sometimes there may be a need to request a quorum - a minimum percentage of the people who could vote, to turn up to vote. This helps to ensure that such a consensus decision is taken with the majority being involved in coming to that decision.
 
    #. Any voting member can request a quorum for any decision being made by providing a clear and public statement as to why the community should expect to have a quorum for that decision.
@@ -176,11 +180,13 @@ The following teams currently exist in the Mautic project as established in the 
 4.2 Forming and disbanding teams
 ================================
 
+.. _proposal-to-form-a-new-team:
+
 4.2.1 Proposal to form a new team
 ---------------------------------
 
 #. Any member or group of members may propose a Team. In order to propose a vote to approve a Team, the member(s) proposing the Team must first draft a proposed Team charter that at least specifies the purpose of the Team and its relationship to the Mautic project's mission, the work to be undertaken by such Team, how the members of the Team will be selected, the methods by which the Team will achieve its objectives, the methods of communication to be used by the members of the Team, how, what, and when the Team will report to the membership and/or the Community Council, and how the Team will be managed (including how the Leadership Team will be selected)
-#. The Community Council may add new teams to the governance model by a general vote on a 'whoever turns up' basis of the whole community using lazy consensus, providing that a clear proposal per section 4.2.1.1 has been created and a proto-team established to demonstrate viability of the team
+#. The Community Council may add new teams to the governance model by a general vote on a 'whoever turns up' basis of the whole community using lazy consensus, providing that a clear proposal per :ref:`Section 4.2.1 <proposal-to-form-a-new-team>` has been created and a proto-team established to demonstrate viability of the team
 
 4.2.2 Proposal to disband an existing team
 ------------------------------------------
@@ -289,9 +295,11 @@ Note that members of the Community Council are herewith referred to as Community
 #. Representatives are elected on a yearly basis to the Council from the wider community by a referendum vote using ranked choice to determine the elected representatives. Voting is open to all those eligible to vote at the time of the election.
 #. Any member of the community who is eligible to vote and who does not have any outstanding, unresolved code of conduct breaches or investigations may nominate themselves, or be nominated with consent by another, to stand for election to the Community Council.
 
-   They will provide a proposal for review by the members which must disclose any such affiliations as listed in 5.2.4 and may include any further information as to their suitability for the position.
+   They will provide a proposal for review by the members which must disclose any such affiliations as listed in :ref:`Section 5.2.1<disclosure-of-affiliations>` and may include any further information as to their suitability for the position.
 
 #. The Community Council should be representative of the diverse community that they serve, and the community should ensure that their nominated representatives have the complement of skills and experience that are suited to guide and lead the project. It is important, therefore, for potential candidates to clearly identify the skills and expertise that they bring to the Community Council in their proposal.
+
+.. _disclosure-of-affiliations:
 
 5.2.1 Disclosure of affiliations
 --------------------------------
@@ -420,7 +428,7 @@ No contract or other transaction between the Council and one or more of its repr
 5.13 Limits of co-affiliation of representatives
 ================================================
 
-No more than two (2) of the members of the Community Council may share a common affiliation as defined in Section 5.2.4. If the number of co-affiliated representatives goes above the limit due to a change in employment or a corporate acquisition, then, unless otherwise agreed between the co-affiliated members, the longest-serving member(s) of the Community Council sharing that affiliation must resign before the next meeting of the Community Council to bring the total number of co-affiliated representatives below the limit.
+No more than two (2) of the members of the Community Council may share a common affiliation as defined in :ref:`Section 5.2.1<disclosure-of-affiliations>`. If the number of co-affiliated representatives goes above the limit due to a change in employment or a corporate acquisition, then, unless otherwise agreed between the co-affiliated members, the longest-serving member(s) of the Community Council sharing that affiliation must resign before the next meeting of the Community Council to bring the total number of co-affiliated representatives below the limit.
 
 A person who would bring the Community Council above the limit on co-affiliation is ineligible to be seated or appointed.
 
@@ -455,7 +463,7 @@ Contributors may be associated with organizations - by employment or otherwise -
 * Keep commits small when possible and provide reasoning and context when submitting changes. Reviews go smoother if you make the reviewer's job easier.
 * Be responsive when changes are requested by the reviewer. It is easier to re-review the modified changes if they are completed shortly after original review.
 * Ask for clarification if you are confused by a suggested change.
-* Speak up if your contribution appears to be stuck for more than a week. Post it in [#t-product](https://mautic.slack.com/archives/CQMKV0RU1) on [Slack](https://mautic.org/slack) and ask for assistance to move it forward.
+* Speak up if your contribution appears to be stuck for more than a week. Post it in the :xref:`Mautic product team Slack` and ask for assistance to move it forward.
 
 6.2 Maintainers
 ===============
@@ -476,7 +484,7 @@ Among the contributors to Mautic, some people have maintainer status, which cons
 6.2.2 Who are the current maintainers?
 --------------------------------------
 
-The current list of active maintainers can be found in the [MAINTAINERS](https://github.com/mautic/mautic/blob/7.x/MAINTAINERS.md) list.
+The current list of active maintainers can be found in the :xref:`Mautic Project Maintainers` page.
 
 Maintainers are people who care about Mautic and want to see it grow and thrive. A maintainer does more than make changes to code. They have demonstrated their ability to collaborate and organize with the team, get the most knowledgeable people to review code or documentation, contribute high-quality code and documentation, as well as follow through to fix issues (in code or tests).
 
@@ -536,7 +544,7 @@ If a maintainer has shown little to no activity over a six-month period, the mai
 
 First, the activity status is discussed by the Project Lead directly with the maintainer, and second, maintainers discuss whether other non-tracked contributions to the project reflect an ongoing, active participation in the project.
 
-The honor role is maintained at [https://community.mautic.org/profiles/core-team/](https://community.mautic.org/profiles/core-team/) and in the [MAINTAINERS](https://github.com/mautic/mautic/blob/7.x/MAINTAINERS.md) file.
+The honor role is maintained at the :xref:`Mautic Core Team` and in the :xref:`Mautic Project Maintainers` pages.
 
 6.2.6 GitHub Admins
 -------------------
@@ -565,7 +573,7 @@ Their duties include setting the dates for feature freeze for the release, enfor
 
 The full set of tasks can be found in the document Managing a Release (3). Their duties end after the release they managed is out. In the case of a major release, the release team is responsible for Alpha to General Availability releases.
 
-The upcoming release leads can be found in the [RELEASE_LEADS](https://github.com/mautic/mautic/blob/7.x/RELEASE_LEADS.md) file.
+The upcoming release leads can be found in the :xref:`Mautic release leads` page.
 
 6.5 Security Team
 =================
@@ -594,7 +602,7 @@ The Security Team follows the same processes as the Core Team in terms of mainta
 6.6 Decision making
 ===================
 
-Mautic has well documented processes we follow when it comes to decision making in our [Governance Model](https://contribute.mautic.org/governance/governance#2-decision-making). Wherever there is a debate to be had on how to approach a situation, the Community Portal is used, with the Product Team's [Debate section](https://community.mautic.org/assemblies/product-team/f/39/debates) having the ability for discussion, voting and endorsement by teams and individuals. This ensures that both the users (marketers) and developers have the opportunity to know what is being discussed and decided upon.
+Mautic has well documented processes we follow when it comes to decision making in our :ref:`Governance Model<governance-model-decision-making>`. Wherever there is a debate to be had on how to approach a situation, the Community Portal is used, with the :xref:`Product Team's Debate Section` having the ability for discussion, voting and endorsement by teams and individuals. This ensures that both the users (marketers) and developers have the opportunity to know what is being discussed and decided upon.
 
 6.7 Disclosure of sensitive information
 =======================================
@@ -658,48 +666,48 @@ The following were used in researching and developing this model:
 Open source project governance examples and resources
 =====================================================
 
-[https://www.python.org/psf/bylaws/](https://www.python.org/psf/bylaws/)
+:xref:`PSF Bylaws`
 
-[https://peps.python.org/pep-8002/](https://peps.python.org/pep-8002/)
+:xref:`PEP 8002 – Open Source Governance Survey`
 
-[https://medium.com/the-node-js-collection/healthy-open-source-967fa8be7951](https://medium.com/the-node-js-collection/healthy-open-source-967fa8be7951)
+:xref:`Node.js Collection - Healthy Open Source`
 
-[https://www.zotero.org/groups/2310183/foss\_governance/library](https://www.zotero.org/groups/2310183/foss\_governance/library)
+:xref:`FOSS Governance Libraries`
 
-[https://governingopen.com/](https://governingopen.com/)
+:xref:`Governance of Open Source Software`
 
-[https://github.com/github/MVG](https://github.com/github/MVG)
+:xref:`GitHub MVG`
 
 Decision making models
 ======================
 
-[https://en.wikipedia.org/wiki/Direct%20democracy](https://en.wikipedia.org/wiki/Direct%20democracy)
+:xref:`Direct democracy`
 
-[https://en.wikipedia.org/wiki/Representative%20democracy](https://en.wikipedia.org/wiki/Representative%20democracy)
+:xref:`Representative democracy`
 
-[https://en.wikipedia.org/wiki/Garbage%20can%20model](https://en.wikipedia.org/wiki/Garbage%20can%20model)
+:xref:`Garbage can model`
 
-[https://en.wikipedia.org/wiki/Consensus%20decision-making](https://en.wikipedia.org/wiki/Consensus%20decision-making)
+:xref:`Consensus decision-making`
 
-[https://en.wikipedia.org/wiki/Instant-runoff%20voting](https://en.wikipedia.org/wiki/Instant-runoff%20voting)
+:xref:`Instant-runoff voting`
 
-[https://en.wikipedia.org/wiki/Anarchist%20law](https://en.wikipedia.org/wiki/Anarchist%20law)
+:xref:`Anarchist law`
 
-[https://en.wikipedia.org/wiki/Referendum](https://en.wikipedia.org/wiki/Referendum)
+:xref:`Referendum`
 
 Org structures
 ==============
 
-[https://en.wikipedia.org/wiki/Flat%20organization](https://en.wikipedia.org/wiki/Flat%20organization)
+:xref:`Flat organization`
 
-[https://en.wikipedia.org/wiki/Cooperative](https://en.wikipedia.org/wiki/Cooperative)
+:xref:`Cooperative`
 
 Governance tools
 ================
 
-[https://communityrule.info/templates](https://communityrule.info/templates)
+:xref:`CommunityRule Templates`
 
 Community growth models
 =======================
 
-[https://commonslibrary.org/circles-of-commitment/](https://commonslibrary.org/circles-of-commitment/)
+:xref:`Circles of Commitment: A Model of Engagement`
