@@ -25,6 +25,7 @@ Requirements for merging a Tier 1 PR
  * Full unit testing coverage
  * Code review from 1 core team member
  * Full testing and approval by at least one community member - could be the person doing the code review, but should not be from the same company/organisation as the person submitting the PR.
+
 For example: If an employee or contractor from Company A were to submit a PR, the community testing/approval must come from someone outside Company A’s influence - for example not an employee, contractor etc of Company A
 
 Tier 2
@@ -120,7 +121,7 @@ Examples - Tier 3 issues
 
 Labels
 =======
-We currently have :xref:`Mautic label` which are organised as below
+We currently have :xref:`Mautic labels` which are organised as below
 
 Complexity-based labels
 -----------------------
@@ -213,5 +214,5 @@ Branching strategy
 ******************
 As we maintain multiple major and minor versions of Mautic (5.x, 6.x), we use a defined branching strategy on GitHub.
 Please refer to the resources in the :doc:`Contributing to Mautic </contributing/contributing_docs_rst>` page to understand the branching strategy.
-Mautic has started to create a Supported Versions table on GitHub and updates that throughout the year with more specific dates.
+Mautic has started to create a :xref:`Supported Versions` table on GitHub and updates that throughout the year with more specific dates.
 
