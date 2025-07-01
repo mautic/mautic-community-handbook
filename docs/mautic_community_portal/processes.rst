@@ -24,18 +24,14 @@ Processes apply to anything from voting on Council members, to deciding on new M
 
 There are many ways to apply participatory processes within the community. Currently, two processes are active. The council elections process serves as the first example, as it's likely the easiest to understand.
 
-Voting endorsing
-****************
+Voting and liking  
+*****************
 
-Voting is where the system formally counts your vote, but endorsing is just showing that you like this proposal. It's akin to a like on social media, whereas voting is actually casting a vote for that proposal.
-
-.. vale off
+Voting is where the system formally counts your vote, but liking is just showing that you like this proposal. It's akin to a like on social media, whereas voting is actually casting a vote for that proposal.  
 
 You are able to vote for the proposal as an individual human, and each process may restrict the number of votes that are available per user.
 
-.. vale on
-
-Endorsing can be done on behalf of you as an individual human, but also on behalf of a team or a group. For example you might endorse a proposal on behalf of the Product Team or the Core Team.
+You can like a proposal either as an individual or on behalf of a team or group—for example, the Product Team or the Core Team.
 
 Council elections process
 *************************
@@ -45,20 +41,14 @@ To get to the processes, click the main menu, then click the Elections process.
 1. A hashtag which relates to this specific process.
 2. About participatory processes - you can cancel that if you don't want that to show every time.
 3. What this process is about, why it's important.
-
-.. vale off
-
-4. This tells you about the council. What's the council? Why is this election happening? What's the council's role within our community?
-
-.. vale on
-
+4. This section explains the Council, what it's, why the election is taking place, and the Council's role within the Mautic community.
 5. Like everything else, you can stop following or follow here using this button.
-6. This process belongs to a process group called governance. Elections may be running alongside other governance-related processes. So this allows us to group active processes together.
-7. If there are assemblies that are related to this process they will be listed here.
-8. More information about the process can be found in the metadata.
-9. The phases of the process will be listed here.
+6. This process belongs to a process group called governance. Elections may be running alongside other governance-related processes. So this allows the grouping of similar active processes together.  
+7. If this process relates to any assemblies, the system lists them here.
+8. The metadata provides more information about the process.
+9. This section lists the phases of the process.
 
-So what happens with a process, which is different to an assembly, is there are distinct phases. So you'll see at the top of the screenshot above it says we're in phase one of three. The team organizing the process defines these phases when setting up the process. In this case, we've got three phases.
+With a process, which is different to an assembly, there are distinct phases. At the top of the screenshot it says phase one of three is active. The team organizing the process defines these phases when setting up the process. In this case, there are three phases.  
 
 .. image:: images/process-phases.png
     :alt: Screenshot showing Mautic council election process
@@ -69,9 +59,9 @@ So what happens with a process, which is different to an assembly, is there are 
 
     <br><br>
 
-So here we've got nominations open until the end of October. And this is a phase where you could step up and say, I want to stand as a member for the Council. You can propose yourself to actually be considered for nomination for voting for a Council member position. This phase, which will start on the ``28th of October`` and go through to the ``8th of November`` is where all of the nominations are now submitted.
+Here nominations are open until the end of October. This is a phase where you could step up and say, I want to stand as a member for the Council. You can propose yourself to be considered as a nominee for a Council member position. This phase, which will start on the ``28th of October`` and go through to the ``8th of November`` is where all of the nominations are now submitted.  
 
-When nominations close, the process stops accepting new nominations, and the community can vote for their preferred candidates for the Council. Each member of the General Assembly gets seven votes, corresponding to the seven available seats on the Council. If 15 people stand for election, each voter has seven votes, so the final result will rank candidates based on the number of votes they receive.
+When nominations close, the process stops accepting new nominations, and the community can vote for their preferred candidates for the Council. In this election, each member of the General Assembly gets seven votes, corresponding to the seven available seats on the Council. If 15 people stand for election, each voter has seven votes, so the final result will rank candidates based on the number of votes they receive.  
 
 And then on the ``8th``, the outcome of the nomination and election process is then announced to the community.
 
@@ -92,14 +82,8 @@ If I wanted to nominate myself, I would follow this process:
     <br><br>
 
 1. Click submit nomination.
-
-.. vale off
-
 2. Review the help text, which changes with each stage.
 3. Work through the stages, including comparing what you have proposed with existing proposals.
-
-.. vale on
-
 4. Fill out all the required fields in the proposal.
 
 Once you have completed your proposal, you have the opportunity to preview it before you publish it for people to review, endorse and vote on.
