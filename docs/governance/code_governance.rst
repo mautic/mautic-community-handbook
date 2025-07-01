@@ -23,9 +23,8 @@ Examples - Tier 1
 .. vale off
 
 Requirements for merging a Tier 1 PR
--------------------------------------
+------------------------------------
  
-
  * Thorough testing to ensure that it does what it’s expected to do and doesn't break anything else
  * Full unit testing coverage
  * Code review from 1 core team member
@@ -225,7 +224,7 @@ Branching strategy
 *******************
 As we maintain multiple major and minor versions of Mautic (5.x, 6.x), we use a defined branching strategy on GitHub.
 
-Please refer to the resources in the :doc:`contributing to Mautic </contributing/contributing_docs_rst>` to understand the branching strategy.
+Please refer to the resources in the :doc:`Contributing to Mautic </contributing/contributing_docs_rst>` page to understand the branching strategy.
 
 We’ve started to create a supported versions table on GitHub and will update that throughout the year with more specific dates.
 
