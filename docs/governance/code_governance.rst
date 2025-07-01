@@ -14,6 +14,7 @@ Small changes such as typo fixing, bug fixes, translation changes, minor UI impr
 Examples - Tier 1
 -----------------
 :xref:`github_pr_8393`- simple bug fix with very few changes
+
 :xref:`github_pr_8116`- very simple bug fix
 
 .. vale off
@@ -37,6 +38,7 @@ More complex bug fixes are also probably going to be in Tier 2, as well as PRs t
 Examples - Tier 2
 ------------------
 :xref:`github_pr_6090`- new feature, fairly simple and doesn’t significantly change any major part of Mautic
+
 :xref:`github_pr_7432`- a lot of new code which extends an existing feature, enhancing reports with a scheduling option
 
 .. vale off
@@ -60,6 +62,7 @@ Examples - Tier 3
 -----------------
 
 :xref:`github_pr_6875`- complex code changes across multiple areas, with significant impact
+
 :xref:`github_pr_6584`- not too complex but a large visual change in the UI with the potential to cause significant disruption to the end user
 
 .. vale off
@@ -107,20 +110,22 @@ Issues which are more complex and/or which may impact a large volume of users.
 Examples - Tier 2 issues
 ------------------------
 :xref:`github_pr_8621`- impacts all SparkPost users
+
 :xref:`github_pr_7062`- appears often but not always when multiple forms are added on a single page, making it tricky to reproduce
 
 
 Tier 3 issues
-==============
+=============
 Complex issues which impact multiple areas of Mautic or which require extensive debugging to identify/resolve.
 
 Examples - Tier 3 issues
 ------------------------
 :xref:`github_pr_9072`- will likely touch many areas and is complex to solve, requiring in-depth technical knowledge of PHPUnit
+
 :xref:`github_pr_7032`- took a lot of time to confirm the issue and find a proper solution without breaking other things
 
 Labels
-=======
+======
 We currently have :xref:`Mautic labels` which are organised as below
 
 Complexity-based labels
@@ -157,7 +162,7 @@ Status-based labels
 * Ready to commit (PR’s only, and only applied when the PR is passing tests, has no conflicts, has automated tests written, has the required signoff/approvals and is considered ready for merging)
 
 Area Affected Labels (which part of the product does this affect?)
-===================================================================
+==================================================================
 * Assets
 * Builders (email and LP)
 * Calendar
@@ -198,7 +203,7 @@ Area Affected Labels (which part of the product does this affect?)
 
 Some points of clarification
 ============================
-**Core Team:** individuals selected by the Project Lead with technical ability to manage and maintain the core of Mautic - includes Release Leaders, Core Committers, Maintainers (see :xref:`Mautic governance`). Currently listed here.
+**Core Team:** individuals selected by the Project Lead with technical ability to manage and maintain the core of Mautic - includes Release Leaders, Core Committers, Maintainers (see :xref:`Mautic governance`) currently listed here.
 
 **Product Team:** members of the Mautic Product Team. They may also be part of the Core Team, but not necessarily. Currently listed here .
 
