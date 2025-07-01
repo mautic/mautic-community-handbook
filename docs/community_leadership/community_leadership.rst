@@ -8,6 +8,8 @@ Leadership role definitions
 
 .. vale off
 
+.. _community-leadership-project-lead-definition:
+
 Project Lead
 ============
 
@@ -78,6 +80,7 @@ Working Group Assistant Lead
 
 The **Working Group Assistant Lead** also is a community-elected position that supports the Working Group Lead by assisting with projects and group activities as required.
 
+.. _community-leadership-current-leadership-team:
 
 Current leadership team
 ***********************
