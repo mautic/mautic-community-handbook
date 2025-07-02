@@ -18,9 +18,9 @@ The Mautic Community Marketing Team
 
 We have a Marketing Team which you can read more about on the [Marketing Team] page.
 
-The team holds regular meetings, which anybody can join - just hop into the [Slack channel][marketing-slack] and you'll get a notification when the next meeting is coming up. 
+The team holds regular meetings, which anybody can join - just hop into the :xref:`Mautic marketing team Slack` and you'll get a notification when the next meeting is coming up. 
 
-The Marketing Team work publicly on a [Jira board][tmar-jira] and have our [editorial calendar][mtec-jira] on Jira also, where you can see the tasks that are currently being worked on and their status.
+The Marketing Team work publicly on a :xref:`Jira board marketing team` and have our :xref:`Jira marketing team editorial calendar` on Jira also, where you can see the tasks that are currently being worked on and their status.
 
 Your first task
 ===============
@@ -32,7 +32,7 @@ Leave a comment on the issue to let others know you would like to work on the ta
 Work in the public domain
 -------------------------
 
-Unless there is significant reason not to, we default to being open and transparent. We work in the open, usually on our shared [Google Drive folder][gdrive] or by sharing our work with the team on our Canva account. This ensures that if - for whatever reason - someone is unable to complete a task, it is easy for another contributor to pick up where they left off. It also means we can always find previous work that had been done if it needs to be re-used in the future.
+Unless there is significant reason not to, we default to being open and transparent. We work in the open, usually on our shared :xref:`Mautic Google Drive` or by sharing our work with the team on our Canva account. This ensures that if - for whatever reason - someone is unable to complete a task, it is easy for another contributor to pick up where they left off. It also means we can always find previous work that had been done if it needs to be re-used in the future.
 
 Please always ensure that you upload your work at regular - ideally daily - intervals. You can use the file prefix of WIP-filename to indicate that it is currently in progress.
 
@@ -42,9 +42,3 @@ Update regularly
 Please make sure you provide regular updates on the issue in Jira, and if at any point you're not going to be able to complete the task, please call that out in a comment on the issue - or send your Team Lead a message to inform them - so that somebody else can pick it up. 
 
 We totally understand that life happens and it's easy to take on too much. No judgement at all. We try to be respectful of each other by ensuring we give as much notice as possible if we're not going to be able to fulfil a task assigned to us.
-
-[marketing-team]: </marketing-team>
-[marketing-slack]: <https://mautic.slack.com/archives/CQVHG9X1N>
-[tmar-jira]: <https://mautic.atlassian.net/browse/TMAR>
-[mtec-jira]: <https://mautic.atlassian.net/browse/MTEC>
-[gdrive]: <https://drive.google.com/drive/folders/1OrwJXmDrrlWK3f9nxRuru0YjS7-W-1-e?usp=sharing>
