@@ -1,6 +1,8 @@
 Marketing Team
 ##############
 
+.. vale off
+
 Mission and expectations
 ************************
 
@@ -62,3 +64,5 @@ The marketing team needs the following skills and expertise:
 .. Link to the mautic_marketing_team_slack.py
 
 **Would you like to be involved in this team? Join the [#t-marketing on Slack].**
+
+.. vale on
