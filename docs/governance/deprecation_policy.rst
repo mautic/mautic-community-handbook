@@ -142,7 +142,7 @@ This is free text. Useful things to include are what version the code will break
 The link to the change record - usually the ``upgrade.md`` for the relevant version.
 
 Examples/reference policies that have influenced the Mautic Deprecation Policy
-------------------------------------------------------------------------------
+******************************************************************************
 
 * :xref:`Doctrine deprecation policy`
 * :xref:`Drupal how to deprecate`
