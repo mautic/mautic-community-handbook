@@ -23,7 +23,13 @@ The structure of the community includes five teams, each led by a Team Lead and 
 * Product Team
 
 Each of these teams are responsible for establishing and overseeing working groups within the team.
-![Image of the governance model detailing teams, working groups, steering groups and the community council](Mautic%20Community%20Governance.png)
+
+.. image:: images/mautic_community_governance.png
+    :alt: Governance model detailing teams, working groups, steering groups, and the community council
+    :width: 600px
+    :align: center
+
+|
 
 The Mautic Community Governance Model
 *************************************
@@ -215,19 +221,33 @@ Examples of PACSI Matrices
 Note that if a change includes multiple rows in this table, there will be multiple roles involved.
 
 Below is an example of a matrix that might be used within the Product Team:
-![Example Product Team PACSI](dev-pacsi%20%281%29.png)
 
-* The Project Lead may proactively make or override these decisions if they deem it necessary.
+.. figure:: images/dev_pacsi.png
+   :alt: Example Product Team PACSI
+   :width: 600px
+   :align: center
+
+   \* The Project Lead may proactively make or override these decisions if they deem it necessary.
 
 Each team would develop its own PACSI relating to their own area of stewardship, created in collaboration with Acquia via the Community Manager and Product Lead. 
 
 As an example (provided to illustrate how this might work, rather than using factually correct responsibilities), the Marketing Team might develop the matrix below with examples of tasks that arise within their team, and clarity around who is responsible for making decisions, taking actions, etc.
-![Example Marketing Team PACSI](marketing-pacsi%20%281%29.png)
+
+.. image:: images/marketing_pacsi.png
+    :alt: Example Marketing Team PACSI
+    :width: 600px
+    :align: center
 
 This would be developed and revisited as the team grows and responsibilities are delegated to them.
 
 And the Legal team’s might look like this:
-![Legal Team PACSI](legal-pacsi%20%281%29.png)
+
+.. image:: images/legal_pacsi.png
+    :alt: Example Legal Team PACSI
+    :width: 600px
+    :align: center
+
+|
 
 Credits:
 ********
