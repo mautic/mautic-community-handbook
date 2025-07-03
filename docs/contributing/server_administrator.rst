@@ -1,12 +1,14 @@
 Server Administrator
 ####################
 
+.. vale off
+
 Managing the Mautic infrastructure
 **********************************
 
 Several of our services and websites run on servers which need supporting. Our infrastructure working group monitors and updates these servers, keeping them up to date with the latest security patches and updates.
 
-If you're an experienced Linux systems administrator and would like to support Mautic by maintaining our servers, we'd love to have your help!
+If you're an experienced Linux systems administrator and would like to support Mautic by maintaining our servers, we'd love to have your help.
 
 Getting started
 ***************
@@ -36,4 +38,6 @@ Update regularly
 
 Please make sure you provide regular updates on any tasks you are working on, and if at any point you're not going to be able to complete the task, please call that out by sending the Working Group Lead a message to inform them so that somebody else can pick it up. 
 
-We totally understand that life happens and it's easy to take on too much. No judgement at all! We try to be respectful of each other by ensuring we give as much notice as possible if we're not going to be able to fulfil a task assigned to us.
+We totally understand that life happens and it's easy to take on too much. No judgement at all. We try to be respectful of each other by ensuring we give as much notice as possible if we're not going to be able to fulfil a task assigned to us.
+
+.. vale on
