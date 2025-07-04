@@ -15,6 +15,8 @@ Small changes such as typo fixing, bug fixes, translation changes, minor UI impr
 Examples - Tier 1
 -----------------
 
+.. vale on
+
 :xref:`github_pr_8393`- simple bug fix with very few changes
 
 :xref:`github_pr_8116`- very simple bug fix
