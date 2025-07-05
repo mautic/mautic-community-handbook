@@ -1,5 +1,7 @@
-Governance model v1 (archive)
+Governance model v1 - archive
 #############################
+
+.. vale off
 
 Following the :xref:`Mautic acquisition announcement` in May 2019, which included all assets relating to the Mautic community, a governance model was proposed and adopted following a period of community consultation.
 
@@ -115,9 +117,9 @@ They're the face of the developer community, and a central point of call for any
 
 The Technical Community Lead also has primary responsibility for supporting in-person sprints, releases, and being a bridge between the community and Acquia from the technical perspective.
 
-.. Temporarily comment out below line until further notice because there is no link to "/community-leadership/leadership-role-definitions#community-manager".
+.. There's no link to "/community-leadership/leadership-role-definitions#community-manager".
 
-.. The full responsibilities and expectations of the Technical Community Lead are detailed [here][cm-definition].
+The full responsibilities and expectations of the Technical Community Lead are detailed [here].
 
 The Project Founder
 ===================
@@ -257,3 +259,5 @@ Inspiration and examples have been drawn from several Open Source projects and g
 * :xref:`Drupal governance`
 * :xref:`Ubuntu governance`
 * :xref:`Joomla governance`
+
+.. vale on
