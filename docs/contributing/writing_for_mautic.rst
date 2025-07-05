@@ -1,7 +1,7 @@
 Writing for Mautic
 ##################
 
-We appreciate your interest in contributing to Mautic! Improving existing content is an excellent way to begin contributing. We are always looking for people to help us with writing content for our documentation, marketing and communications, and our social media campaigns. We also have a lot of technical writing opportunities in the Mautic Community, including our [Knowledgebase][kb], [developers blog][dev-blog], and [developer documentation][dev-docs].
+We appreciate your interest in contributing to Mautic! Improving existing content is an excellent way to begin contributing. We are always looking for people to help us with writing content for our documentation, marketing and communications, and our social media campaigns. We also have a lot of technical writing opportunities in the Mautic Community, including Mautic :xref:`Mautic Knowledgebase`, Mautic :xref:`Mautic developers blog`, and Mautic :xref:`Developer Docs`.
 
 As a project, we also apply to the Season of Docs each year - keep an eye on social media for future opportunities.
 
@@ -10,20 +10,22 @@ As a project, we also apply to the Season of Docs each year - keep an eye on soc
 Getting started
 ***************
 
-The first thing to do is to join #t-marketing on [Slack][slack] and introduce yourself!
+The first thing to do is to join ``#t-marketing`` channel on :xref:`Mautic Community Slack` and introduce yourself.
 
 Writing for the blog & website
 ==============================
 
-The Marketing Team maintains a [Jira board][jira-board] specifically for content and editorial work.  Our boards are publicly accessible, but you will need an account to be assigned issues or add responses. Please drop a message in the Marketing Team channel if you need an invitation to Jira.
+.. Add :xref: to "https://mautic.atlassian.net/browse/TMAR" to [Jira board]. It's not added to avoid duplication as this link is available in another PR that hasn't been merged.
 
-Once you have found an article you'd like to work on, please check the writer's brief which will be attached as a Google Doc, located in our shared drive. The brief should explain what the article should include, the audience we are intending to target, and some useful resources to help you get started.
+The Marketing Team maintains a [Jira board] specifically for content and editorial work. Our boards are publicly accessible, but you will need an account to be assigned issues or add responses. Please drop a message in the ``#t-marketing`` channel on Slack if you need an invitation to Jira.
+
+Once you have found an article you'd like to work on, please check the writer's brief which will be attached as a Google Doc, located in :xref:`Mautic Google Drive`. The brief should explain what the article should include, the audience we are intending to target, and some useful resources to help you get started.
 
 Please write the content in the Google Doc, and when you're ready to have it reviewed just drop a message in Jira and let people know in Slack.
 
 Please note that we do check to ensure that articles are not copied from other locations without due credit, so please do not copy/paste chunks from other websites as your content will be rejected.
 
-It helps if you can provide an image to use with the article. This must be royalty free or a license to use the image be granted to the Mautic Community. We use [Unsplash][unsplash] and [Pixabay][pixabay] to find royalty free images.
+It helps if you can provide an image to use with the article. This must be royalty free or a license to use the image be granted to the Mautic Community. We use :xref:`Unsplash` and :xref:`Pixabay` to find royalty free images.
 
 Mautic Community Blog Writer & Editorial Guidelines
 ---------------------------------------------------
@@ -38,7 +40,7 @@ Content Guidelines
 * In case you use copyrighted material that demands authorization from the author, make sure you have that authorization before you post.
 * Do not link to any site that contains adult content, sexually oriented material or might otherwise be considered offensive. Any post containing an inappropriate link will be deleted and the poster will receive a warning.
 * Do not propose/link to any site that contains warez ("stolen" software)/copyrighted software/materials that can be downloaded illegally.
-* **No commercial advertising is permitted.** This includes advertising of any services and/or products not fully compliant with the GPL license. In regards to this, you can post links towards your website at the end of the blog and you can write a sentence that leads to your website. For example: "This information can be found on [this link](# "Empty link just to showcase")"; or "Read more in this article in *<your native language>*". Any posts deemed to be self promotion, advertising, or spam can and will be removed. NO SPAM - NO ADVERTISING eg.  Posting and making excessive, inappropriate and unnecessary references to your products and websites is self promotion.
+* **No commercial advertising is permitted.** This includes advertising of any services and/or products not fully compliant with the GPL license. In regards to this, you can post links towards your website at the end of the blog and you can write a sentence that leads to your website. For example: "This information can be found on <this link>"; or "Read more in this article in <your native language>". Any posts deemed to be self promotion, advertising, or spam can and will be removed. NO SPAM - NO ADVERTISING eg.  Posting and making excessive, inappropriate and unnecessary references to your products and websites is self promotion.
 * This site is centered on Mautic, Open Source software and other Marketing and Development matters. It is not a place to promote ideological, religious, or political matters. All such discussions will be deleted.
 
 Disclosure of Compensated Relationships
@@ -101,7 +103,7 @@ What to avoid
 * Articles that draw attention to issues/problems/concerns. Mautic has other channels for that, but that isn't the purpose of the Community Blog;
 * Articles that are too advertorial in style – rather than blatantly plug the writer’s own business, articles should employ the 'attraction' marketing principle, i.e. the author’s expertise is evident, but not obtrusive. For example, instead of writing about 'Why you need a marketing expert' or 'What a marketing expert can do for you', an article on 'Best practices for marketing’ would work better;
 * Press Releases submitted as articles;
-* Articles that are too similar to existing topics – check for similar content [on our blog][community-blog]
+* Articles that are too similar to existing topics – check for similar content on Mautic :xref:`Mautic community blog`;
 * Articles that require too much editing.
 
 Our expectation is for articles submitted to be as 'publication ready’ as possible. Any submissions requiring significant editing may not be considered. This could include overly long articles or previously published/written items which require excessive modifications. Previously published/written items are fine, provided that, prior to submission, the author has made the necessary edits in accordance with these guidelines.
@@ -116,11 +118,13 @@ Articles will also allow readers to add comments, and we definitely favor articl
 Pre-launch article submission process – what Mautic requires
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-For all articles we require you to submit your pitch via the [Editorial Calendar Jira Board][jira-board].
+.. Add :xref: to "https://mautic.atlassian.net/browse/MTEC" to [Editorial Calendar Jira Board]. It's not added to avoid duplication as this link is available in another PR that hasn't been merged.
+
+For all articles we require you to submit your pitch via the [Editorial Calendar Jira Board].
 
 Your pitch will be moved into either the ‘forming’ stage (where we will ask you to provide more information, research or background detail to help us determine whether it is appropriate for the Community Blog) or directly to the ‘writing’ stage.   
 
-When your pitch is moved into the writing stage, you take up the responsibility for writing the content within the time frame on the card.  Please note the draft due date – this is when you need to have finished writing the article.  
+When your pitch is moved into the writing stage, you take up the responsibility for writing the content within the time frame on the card. Please note the draft due date – this is when you need to have finished writing the article.  
 
 Style Guide summary
 ^^^^^^^^^^^^^^^^^^^
@@ -140,31 +144,31 @@ Style Guide summary
 Questions?
 ----------
 
-If you have questions about submitting an article or other aspects of the Mautic Community Blog, please post on the [Mautic Community Forums][blog-forum] or on the #blog channel in [Slack][slack].
+If you have questions about submitting an article or other aspects of the Mautic Community Blog, please post on the :xref:`Mautic community blog forums` or on the ``#blog`` channel in :xref:`Mautic Community Slack`.
 
 References
 ----------
 
-This is based on the excellent work done by the [Joomla project][joomla-content-guide].
+This is based on the excellent work done by the :xref:`Joomla Disclosure of Compensated Relationships`.
 
 Technical writers
 *****************
 
-If you're a technical writer, or interested in writing content for a technically-minded audience, we have lots of tasks in the [Education Team's Jira board][edu-jira]. There are opportunities to write for the [Knowledgebase][kb] - which may include tutorials, best practice and examples of how to do specific things in Mautic. 
+If you're a technical writer, or interested in writing content for a technically-minded audience, we have lots of tasks in the Education Team's :xref:`Jira board education team`. There are opportunities to write for the :xref:`Mautic Knowledgebase` - which may include tutorials, best practice and examples of how to do specific things in Mautic. 
 
-You can also improve and update the content we have on our [User Guide][user-guide]. We suggest beginning with any section of the documentation that is unclear, out of date, or may benefit from more description or context.
+You can also improve and update the content we have on Mautic :xref:`Mautic user docs`. We suggest beginning with any section of the documentation that is unclear, out of date, or may benefit from more description or context.
 If you're reading a page of documentation and thinking, "I wish this page included more information" or "This is not the manner in which these function", then that is an excellent place to start contributing! 
 
-We can also feature deep dive technical articles on the blog in the [developers section][dev-blog], including code examples and demo applications.
+We can also feature deep dive technical articles on the :xref:`Mautic developers blog`, including code examples and demo applications.
 
-The [developer documentation][dev-docs] is always looking for new contributors, so if you'd like to help by adding more examples, updating and improving the content or making suggestions for improvement, please let us know!
+The :xref:`Developer Docs` is always looking for new contributors, so if you'd like to help by adding more examples, updating and improving the content or making suggestions for improvement, please let us know!
 
 If there are no open issues covering the area you'd like to write on, please contact the Marketing or Education Team on Slack and explain what you'd like to write.
 
 Work in the public domain
 *************************
 
-Unless there is significant reason not to, we default to being open and transparent.  We work in the open, usually on our shared [Google Drive folder][gdrive].  This ensures that if - for whatever reason - someone is unable to complete a task, it is easy for another contributor to pick up where they left off. It also means we can always find previous work that had been done if it needs to be re-used in the future.
+Unless there is significant reason not to, we default to being open and transparent.  We work in the open, usually on the shared :xref:`Mautic Google Drive`. This ensures that if - for whatever reason - someone is unable to complete a task, it is easy for another contributor to pick up where they left off. It also means we can always find previous work that had been done if it needs to be re-used in the future.
 
 Please always ensure that you upload your work at regular (ideally daily) intervals. You can use the prefix of WIP-filename to indicate that it is currently in progress.
 
@@ -174,18 +178,3 @@ Update regularly
 Please make sure you provide regular updates on the issue in Jira, and if at any point you're not going to be able to complete the task, please call that out in a comment on the issue (or send your Team Lead a message to inform them) so that somebody else can pick it up. 
 
 We totally understand that life happens and it's easy to take on too much. No judgement at all! We try to be respectful of each other by ensuring we give as much notice as possible if we're not going to be able to fulfil a task assigned to us.
-
-
-[slack]: <https://mautic.org/slack>
-[jira-board]: <https://mautic.atlassian.net/browse/MTEC>
-[unsplash]: <https://www.unsplash.com>
-[pixabay]: <https://www.pixabay.com>
-[edu-jira]: <https://mautic.atlassian.net/browse/TEDU>
-[kb]: <https://kb.mautic.org>
-[user-guide]: <https://docs.mautic.org/en>
-[dev-blog]: <https://www.mautic.org/category/blog/developer>
-[dev-docs]: <https://developer.mautic.org>
-[gdrive]: <https://drive.google.com/drive/folders/1OrwJXmDrrlWK3f9nxRuru0YjS7-W-1-e?usp=sharing>
-[community-blog]: <https://www.mautic.org/blog>
-[blog-forum]: <https://forum.mautic.org/c/blog>
-[joomla-content-guide]: <https://magazine.joomla.org/faq/authors-faqs/141-content-guide>
