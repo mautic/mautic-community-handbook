@@ -44,9 +44,7 @@ Events like Mautic Conferences will tend to have their own Jira board and meetin
 Starting an event
 *****************
 
-.. Add link to "/community-team/meetup-guidelines". Currently, this section is not existing.
-
-If you want to start an event in your region, that's awesome. We have some clear guidelines around what events are called which you can find in the [Mautic Meetups & Events] page. Determine which kind of event you'd like to run, and then discuss your ideas with the Community Team leadership.  
+If you want to start an event in your region, that's awesome. We have some clear guidelines around what events are called which you can find in the ":ref:`Guidance for establishing official Mautic meetups, groups & events`" section. Determine which kind of event you'd like to run, and then discuss your ideas with the Community Team leadership.  
 
 We highly recommend building a team if you're planning on organizing any kind of event, whether it's a Mautic Meetup or a MautiCamp or something bigger. There is a lot of work involved in running events, and having more than one person in the team makes it a much more sustainable process to organize.
 
@@ -55,12 +53,12 @@ Work in the public domain
 
 Unless there is significant reason not to, we default to being open and transparent. We work in the open, usually on our shared :xref:`Mautic Google Drive`. This ensures that if - for whatever reason - someone is unable to complete a task, it is easy for another contributor to pick up where they left off. It also means we can always find previous work that had been done if it needs to be re-used in the future.
 
-Please always ensure that you upload your work at regular (ideally daily) intervals. You can use the prefix of WIP-filename to indicate that it is currently in progress.
+Please always ensure that you upload your work at regular - ideally daily - intervals. You can use the prefix of WIP-filename to indicate that it is currently in progress.
 
 Update regularly
 ****************
 
-Please make sure you provide regular updates on the issue in Jira, and if at any point you're not going to be able to complete the task, please call that out in a comment on the issue (or send your Team Lead a message to inform them) so that somebody else can pick it up. 
+Please make sure you provide regular updates on the issue in Jira, and if at any point you're not going to be able to complete the task, please call that out in a comment on the issue - or send your Team Lead a message to inform them - so that somebody else can pick it up. 
 
 We totally understand that life happens and it's easy to take on too much. No judgement at all. We try to be respectful of each other by ensuring we give as much notice as possible if we're not going to be able to fulfil a task assigned to us.
 
