@@ -71,6 +71,7 @@ The vision is that it grows over time as the teams and governance structure evol
    :caption: Contributing
    :hidden:
 
+   contributing/contributing_to_mautic
    contributing/designer
    contributing/google_summer_of_code
    contributing/mautic_bounty_programme
