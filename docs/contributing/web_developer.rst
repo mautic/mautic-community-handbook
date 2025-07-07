@@ -1,14 +1,16 @@
 Web developer
 #############
 
+.. vale off
+
 Managing the Mautic websites
 ****************************
 
 The Mautic Community has several web assets which require regular updates, improvements and development of new features. 
 
-If you're a keen web developer and have experience with :xref:`Drupal` or :xref:`Grav`, we'd love to hear from you!  
+If you're a keen web developer and have experience with :xref:`Drupal` or :xref:`Grav`, we'd love to hear from you. 
 
-While our main ``mautic.org`` website is hosted by Dropsolid, it is our responsibility to drive new developments and innovations. 
+While our main ``mautic.org`` website is hosted by Dropsolid, it's our responsibility to drive new developments and innovations. 
 
 We'd love to build a web development team in the community specifically to look after our web properties and keep us moving forward.
 
@@ -22,6 +24,8 @@ Our website is maintained on the :xref:`Mautic website repo`. So, if you're want
 Our other websites are maintained by the Education Team who are on Slack in ``#t-education``. 
 
 The websites supported by this team include:
+
+.. Replace [Knowledgebase] with :xref:`Mautic Knowledgebase`. Currently the link is in an ummerged PR.
 
 * The :xref:`User Documentation` - on Read the Docs
 * The :xref:`Developer Docs` - on Read the Docs
@@ -39,7 +43,7 @@ After joining the Slack channels, ask in the channel for a task to work on. The 
 Work in the public domain
 -------------------------
 
-Unless there is significant reason not to, we default to being open and transparent. We work in the open, usually on shared :xref:`Mautic Google Drive` or on GitHub pull requests. This ensures that if - for whatever reason - someone is unable to complete a task, it is easy for another contributor to pick up where they left off. It also means we can always find previous work that had been done if it needs to be re-used in the future.
+Unless there is significant reason not to, we default to being open and transparent. We work in the open, usually on shared :xref:`Mautic Google Drive` or on GitHub pull requests. This ensures that if - for whatever reason - someone is unable to complete a task, it's easy for another contributor to pick up where they left off. It also means we can always find previous work that had been done if it needs to be re-used in the future.
 
 Please always ensure that you upload/push your work at regular - ideally daily - intervals. You can use the prefix of ``WIP-`` to indicate that your work is currently in progress.
 
@@ -50,3 +54,4 @@ Please make sure you provide regular updates on any tasks you are working on, an
 
 We totally understand that life happens and it's easy to take on too much. No judgement at all. We try to be respectful of each other by ensuring we give as much notice as possible if we're not going to be able to fulfil a task assigned to us.
 
+.. vale on
