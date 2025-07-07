@@ -7,8 +7,6 @@ We appreciate your interest in contributing to Mautic. Improving existing conten
 
 As a project, we also apply to the Season of Docs each year - keep an eye on social media for future opportunities.
 
-.. _getting started writing for mautic:
-
 Getting started
 ***************
 
@@ -53,8 +51,6 @@ The US Government Federal Trade Commission has rules requiring the disclosure of
 The Mautic Community websites fall under these FTC rules.
 
 "When recommending a plugin or other product to help a user solve their issue, you must disclose any affiliations you may have with the company or group that authors that particular product. This includes, but is not limited to: any paid or non-paid relationships past or present, receiving any promotional products or services, or any other similar information."
-
-.. _Mautic writers copyright:
 
 Copyright
 ^^^^^^^^^
