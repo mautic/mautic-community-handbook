@@ -114,7 +114,7 @@ Some manual tweaks can fix this quickly, so drop a message in the channel and th
 
 Managing your account
 **********************
-Check the dropdown menu item underneath your name. This allows you to customize your account, your public profile, and also see notifications and direct messages. If you're an administrator, you access the administrator portal here, too.
+Check the dropdown menu item underneath your name. This allows you to customize your account, your public profile, your timezone, and also see notifications and direct messages. 
 
 .. vale off
 
