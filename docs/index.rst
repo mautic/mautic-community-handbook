@@ -20,7 +20,31 @@ The vision is that it grows over time as the teams and governance structure evol
    :caption: About Mautic
    :hidden:
 
-   about/what_is_mautic
+   about/about
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Policies
+   :hidden:
+
+   policies/code_of_conduct/code_of_conduct
+ 
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Policies
+   :hidden:
+
+   policies/code_of_conduct/code_of_conduct_breaches
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Policies
+   :hidden:
+
+   policies/code_of_conduct/tools_and_resources
+
 
 .. toctree::
    :maxdepth: 2
@@ -28,14 +52,27 @@ The vision is that it grows over time as the teams and governance structure evol
    :hidden:
 
    teams/legal_and_finance_team
+   teams/community_team/community_team
+   teams/product_team/product_team_overview
    teams/education_team/education_team
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Policies
+   :hidden:
+
+   policies/request_for_proposals_(RFP)_process
+   policies/become_a_community_partner
+   policies/recognizing_contributors_sponsors_and_partners
 
 .. toctree::
    :maxdepth: 2
    :caption: Contributing
    :hidden:
 
+   contributing/designer
    contributing/google_summer_of_code
+   contributing/mautic_bounty_programme
    contributing/contributing_docs_rst
 
 .. toctree::
@@ -50,12 +87,10 @@ The vision is that it grows over time as the teams and governance structure evol
    resources/meetings/asynchronous_meetings
    resources/meetings/preparing_and_running_meetings
 
+
 .. toctree::
    :maxdepth: 2
    :caption: Community Leadership
    :hidden:
 
-   community_leadership/community_leadership_overview
-   community_leadership/current_leadership_team
-   community_leadership/leadership_role_definitions
-   community_leadership/community_council
+   community_leadership/community_leadership
