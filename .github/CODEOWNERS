@@ -1,0 +1,21 @@
+# For code owners docs, see: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Global owners
+
+*  @mautic/education-team-leaders
+
+# Policies & governance folders owners
+
+**/policies @RCheesley
+
+**/governance @RCheesley
+
+# Teams folders owners
+# with exception for **/education_team as this team is the global owners,
+# and **/legal_and_finance_team as the team is not available on GitHub.
+
+**/community_team @mautic/community-team-leaders @mautic/education-team-leaders
+
+**/product_team @mautic/product-team-leaders @mautic/education-team-leaders
+
+**/marketing_team @mautic/marketing-team-leaders @mautic/education-team-leaders
