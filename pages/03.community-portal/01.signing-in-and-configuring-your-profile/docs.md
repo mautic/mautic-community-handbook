@@ -43,6 +43,14 @@ Certain cookies permit functionality on the Portal which you can choose to accep
 
 At the top of the page, you'll notice that there are different languages available if you prefer.  Select the language you wish to use and the interface changes into that language. It's worth noting that some aspects of the website may not be fully translated because they're community created, and as a result may only be available in the language they were originally created in. If you would like to help with translating more of the content please post in #translations on [Slack](https://mau.tc/slack-invite).
 
+### Setting your timezone
+
+It's important to set your timezone, because then events will show on the portal at your local time. To do this, log in and click on 'My Account' under your avatar in the top right.
+
+Scroll to the bottom of the page, and select your timezone from the dropdown. Dates and times will now show in your local timezone.
+
+![set-timezone](set-timezone-portal.png "set-timezone")
+
 ## Claiming membership
 
 Once logged in you have the option to claim a Mautic membership.   

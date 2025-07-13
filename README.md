@@ -1,6 +1,6 @@
 # Mautic community handbook
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -40,6 +40,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/favour-chibueze"><img src="https://avatars.githubusercontent.com/u/46398983?v=4?s=100" width="100px;" alt="Favour Chibueze "/><br /><sub><b>Favour Chibueze </b></sub></a><br /><a href="https://github.com/mautic/mautic-community-handbook/commits?author=favour-chibueze" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/susanodii"><img src="https://avatars.githubusercontent.com/u/81011757?v=4?s=100" width="100px;" alt="Susan Odii"/><br /><sub><b>Susan Odii</b></sub></a><br /><a href="https://github.com/mautic/mautic-community-handbook/commits?author=susanodii" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
