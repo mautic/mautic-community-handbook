@@ -23,14 +23,13 @@ jobs:
       run: pip3 install -r docs/requirements.txt
 
     - name: Vale
-      uses: errata-ai/vale-action@reviewdog
+      uses: errata-ai/vale-action@v2.1.1
       with:
-        filter_mode: added
-        # Please keep version in sync with the version in .gitpod.Dockerfile for a consistent experience
-        version: 3.7.1
         files: docs/
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        reporter: github-pr-check
+        filter_mode: added
+        version: 3.7.1
+        token: ${{ secrets.GITHUB_TOKEN }}
 
   build:
     runs-on: ubuntu-latest
