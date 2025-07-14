@@ -19,11 +19,11 @@ General tasks for the Education Team
 
 .. vale on
 
-- Help marketers to contribute their existing content to the Mautic Knowledgebase
-- Ensure that the documentation is up to date with new releases
-- Improve the experience of Mautic Users by ensuring that the documentation is of high quality and comprehensive
-- Moderate the Mautic Community Forums and provide content to answer FAQs
-- Improve the resources available for new and established Users to learn how to use Mautic 
+* Help marketers to contribute their existing content to the Mautic Knowledgebase
+* Ensure that the documentation is up to date with new releases
+* Improve the experience of Mautic Users by ensuring that the documentation is of high quality and comprehensive
+* Moderate the Mautic Community Forums and provide content to answer FAQs
+* Improve the resources available for new and established Users to learn how to use Mautic 
 
 Forum
 *****
@@ -31,22 +31,22 @@ Forum
 Quality of contributions
 ========================
 
-- Are the answers to asked questions correct? Ensure indication of the correct solutions if this is the case.
-- Is it an often asked question? → Add to documentation
-- Are there multiple posts about the same thing? → Merge into a mega-post
+* Are the answers to asked questions correct? Ensure indication of the correct solutions if this is the case.
+* Is it an often asked question? → Add to documentation
+* Are there multiple posts about the same thing? → Merge into a mega-post
 
 Forum rules
 ===========
 
-- Which rules are appropriate
-- Which rules are relevant / needed to keep the forum working fine
-- Moderate Forum / Assign Moderators
-- Moderate posts by themselves
-- Elect moderators who moderate the forum for them
-- Redirect all Support questions from Slack to Forums
-- Very visible hint in Slack that support questions aren't answered there
-- Manually moderating Slack & moving stuff to forums
-- Automatically moving stuff to forums?
+* Which rules are appropriate
+* Which rules are relevant / needed to keep the forum working fine
+* Moderate Forum / Assign Moderators
+* Moderate posts by themselves
+* Elect moderators who moderate the forum for them
+* Redirect all Support questions from Slack to Forums
+* Very visible hint in Slack that support questions aren't answered there
+* Manually moderating Slack & moving stuff to forums
+* Automatically moving stuff to forums?
 
 Documentation
 =============
@@ -54,37 +54,38 @@ Documentation
 Sources
 -------
 
-- User Documentation describes key concepts of Mautic and provides instructions for using and contributing to Mautic.
-- Knowledgebase provides a database of tutorials, FAQs, and how-to articles.
-- Developer Documentation details about the Mautic API, Webhooks, Themes and Plugin development.
-- Community Handbook central point of call for documentation on the organization and management of the Mautic community.
+* User Documentation describes key concepts of Mautic and provides instructions for using and contributing to Mautic.
+* Knowledgebase provides a database of tutorials, FAQs, and how-to articles.
+* Developer Documentation details about the Mautic API, Webhooks, Themes and Plugin development.
+* Community Handbook central point of call for documentation on the organization and management of the Mautic community.
 
 Quality
 -------
-- Maintaining a high quality
-- Review accuracy of the documentation
-- Keeping it easy to understand
+
+* Maintaining a high quality
+* Review accuracy of the documentation
+* Keeping it easy to understand
 
 Completeness
 ------------
 
-- Add missing topics to the documentation
-- Proactively reviewing site/google searches and identifying topics to write if there are missing areas
-- Manage issue queue on the documentation and community handbook GitHub repositories
-- Adding highly requested forum questions
+* Add missing topics to the documentation
+* Proactively reviewing site/google searches and identifying topics to write if there are missing areas
+* Manage issue queue on the documentation and community handbook GitHub repositories
+* Adding highly requested forum questions
 
 Up to date
 ----------
 
-- Ensuring that the documentation is up to date with major releases
-- Document changes coming with those releases
-- Merge PRs when they come in for new features
+* Ensuring that the documentation is up to date with major releases
+* Document changes coming with those releases
+* Merge PRs when they come in for new features
 
 Languages
 ---------
 
-- Keeping native translations accurate
-- If necessary add more translations
+* Keeping native translations accurate
+* If necessary add more translations
 
 Style guide
 -----------
@@ -96,15 +97,15 @@ Any Technical Writer - or other contributor - can make suggestions for documenta
 Educational blog content
 ========================
 
-- Curating and writing content for the community blog
-- Curating and writing how-to articles, tutorials for Mautic Knowledgebase
+* Curating and writing content for the community blog
+* Curating and writing how-to articles, tutorials for Mautic Knowledgebase
   
 Mautic app and website/marketing internationalization
 ========================================================
 
-- Own Transifex and appropriate workflows
-- Manage multilingual marketing materials - for example website, fliers, etc.
-- Work tightly with Community, Product and Marketing teams
+* Own Transifex and appropriate workflows
+* Manage multilingual marketing materials - for example website, fliers, etc.
+* Work tightly with Community, Product and Marketing teams
 
 .. vale off
 
@@ -115,23 +116,23 @@ Profiles of contributors needed in the Education Team
 
 The Education Team need insights from:
 
-- New Users
-- Established Users
-- Administrators
-- Developers
-- Theme builders
-- Business owners considering Mautic
-- Business buyers/procurements
+* New Users
+* Established Users
+* Administrators
+* Developers
+* Theme builders
+* Business owners considering Mautic
+* Business buyers/procurements
 
 The Education Team need people with skills as:
 
-- Trainers
-- Marketers
-- Video producers
-- Content creators
-- Documentation writer
-- Editors
-- Translators
+* Trainers
+* Marketers
+* Video producers
+* Content creators
+* Documentation writer
+* Editors
+* Translators
 
 Would you like to get involved in this team? Join :xref:`Education Team on Slack` on :xref:`Mautic Community Slack`.
 
@@ -156,23 +157,16 @@ Our goals and principles
 The Education Team’s goals and principles are to:
 
 * **Empower.** Help people to understand how to use Mautic more effectively by using language which informs, and encourages them to make the most of Mautic.
-
-* **Respect.** Treat readers with the respect they deserve. Imagine you are in their shoes, and don’t patronize them. Remember they are short of time and need to find the answers to their questions quickly. Be considerate and inclusive with your language.
- 
+* **Respect.** Treat readers with the respect they deserve. Imagine you are in their shoes, and don’t patronize them. Remember they are short of time and need to find the answers to their questions quickly. Be considerate and inclusive with your language. 
 * **Educate.** Tell readers what they need to know, and not just what you want to say. Always keep their needs at the centre of your mind when writing. Give them exactly the information they need, along with opportunities to learn more if they want to.  Remember, you’re the expert - your reader will not have the same knowledge and expertise as you do.
-
 * **Guide.** Imagine that you are a tour guide for our readers. Whether you’re taking them through a tutorial step by step or teaching them how to set something up in Mautic, always communicate in a friendly, helpful way.
 
 In order to achieve our goals, we ensure that all of our content is:
 
 * **Clear.** Make sure you fully understand the topic you are writing about. Use simple words and short sentences.
-
 * **Useful.** Before you start writing a resource, ask yourself: What purpose does this serve? Who is going to read it? What do they need to know?
-
 * **Friendly.** We’re all human beings, so make sure that you write like one!  Don’t be afraid of breaking a few rules if it makes your writing more relatable.  All of the content we write, wherever it appears, should be warm and human.
-
 * **Appropriate.** Write in a way that is appropriate to the situation. The Documentation has a more formal tone, whereas the Knowledgebase is more informal. Just as you do in face-to-face situations, adapt your tone and writing style to cater for the audience you’re writing for, and what you’re writing about.
-
 * **Correct.** There is a responsibility in writing for the Education Team, and an expectation from our readers, that the information is factually correct. Always ask someone to proofread your writing before publishing.
 
 Voice and Tone
@@ -190,9 +184,7 @@ Whether people have a question they need to answer or are just learning more abo
 This means that:
 
 * **We use simple, clear language.** We understand that the world of Marketing is riddled with buzz words, acronyms and confusing terminology.  We strip this back and get down to what the reader needs to know. We always explain terms, phrases and concepts in a clear and concise way, and encourage our readers to explore further.
-
 * **We care.** We have been where our readers are. We care about their success. We want their businesses and organizations to use Mautic to its full potential. We care deeply about helping them to succeed and our writing helps them every step of the way.
-
 * **We demystify.** We make the difficult and complex easy to understand. We bring clarity to marketing jargon, and help our readers succeed with their marketing projects.
 
 Tone
@@ -272,6 +264,7 @@ Always use a descriptive alt text
 The alt text is the most basic form of image description, and should be included with all images.
 
 The language used will depend on the image being included and its purpose:
+
 * If it’s a creative photo or supports a story but does not serve a specific function or explain any information, describe the detail of the image in a brief caption.
 * If the image is serving a specific function, describe what is inside the image in detail. If the reader does not see the image, they should be able to understand the same information as someone who had seen the image.
 * If you are sharing an image which shows a graph or chart, include the data provided in the alt text so that readers have the same information when they do not see the image.
@@ -330,11 +323,8 @@ Take a look at your heading structure. Does it work with the introduction to giv
 To summarize, you should follow these guidelines:
 
 * When writing for the Knowledgebase, keep it short. People come to the Knowledgebase looking for quick solutions. They might not care about the inner workings of Mautic -- they just want to know what they should do to fix their problem. Link out to documentation articles or other resources which might include further details.
-
 * When writing for the End-User Documentation or Developer Documentation, ensure that you fully explain all aspects of the feature or functionality. Do not make assumptions that a user will already know or understand how something works.  Link to other documentation resources as appropriate.
-
 * Use headings to organise your content and allow people to quickly find the relevant part of the resource.
-
 * Avoid jargon. Be specific. Use words in the title and in the article that the reader would use. If a teenager wouldn’t understand what is contained within the article, write it so that they would. See the next section for a more extensive guide.
 
 Read the next section for more comprehensive guidelines which are platform-specific.
@@ -349,9 +339,7 @@ Title
 """""
 
 * When creating a resource on the End-User Documentation or Knowledgebase, ideally your title should be less than Google’s title character count of 65 characters. Your title can be longer than this if necessary but make sure your important keywords are included in the first 65 characters otherwise they will not be seen in search engines.
-
 * Capitalization: The first word in the title should be capitalized, as well as proper nouns and names, not every major word. Use "sentence" style, not "headline" style (the same applies to heading titles.) See the Style guide and copy rules section below for other rules on capitalization.
-
 * Try to vary the way you name articles. Don't use the same verbs or phrases in every title. For example, don't always start articles with "How" and avoid using "-ing" words.
 
 Remember that the entire explanation doesn't have to go into the title! You can use the summary to give the user additional information about what is in the article.
@@ -423,11 +411,8 @@ Writing style for the Knowledgebase
 -----------------------------------
 
 * Use a conversational writing style - an informal, active style similar to the way you'd explain to someone in person.
-
 * Using humor is great in-person, but it's sometimes hard or impossible to localize so we recommend instead conveying emotional responses. Emotions like surprise and "I didn't know that!" might be easier to include as they are easy to understand across cultures.
-
 * Try to provide content that suits multiple learning styles – people learn differently. Also, everyone benefits from seeing the same content expressed in multiple ways.  Work with the Education Team to include videos, images and other media as appropriate.
-
 * Try to include, where appropriate, activities or step-by-step ways people can try out what you are explaining. Especially in a tutorial, it's good to give people something useful to accomplish. It's one thing to read instructions and understand the process, but it's often helpful to remind and enable people to try things out.
 
 Write a good introduction
@@ -462,9 +447,7 @@ If, for example, you have to click "OK" after selecting a preference in order to
 Some additional things to consider:
 
 * There are always multiple ways to achieve a result. We should always pick the most user-friendly way by using the graphical user interface and menus when possible.
-
 * Use full sentences when describing how to access the user interface.
-
 * Include expected results when giving instructions (for example, Click "OK" and the window will close.).
 
 Organising content in the Knowledgebase
@@ -491,15 +474,16 @@ Even if we serve the correct article at the top of the search results list, the 
 A summary for a how-to article should include the topics covered in the article. A troubleshooting article should try to include symptoms. In addition, a summary should follow these guidelines:
 
 * Short and to the point. Remember classified ads? Write it like that. Search engines may cut off anything longer than 140 characters. If you use a longer summary, keep the important information at the beginning. Note: The KB software will show 20 characters remaining when the summary reaches 140 characters because the internal search limit is 160.
-
 * Don't use wiki markup. Just plain text in any of the SEO fields.
-
 * Don't use "This article explains" in every summary. Vary it when possible. Some other phrases to consider:
-	* We'll show you
-	* We'll explain
-	* This page explains
-	* This article describes
-	* Learn how
+
+  * "This page shows you ..."
+
+  * "This page explains ..."
+
+  * "This article describes ..."
+
+  * "Learn how ..."
 
 Style guide and copy rules
 --------------------------
@@ -511,10 +495,12 @@ Avoid saying things like, "If a user's email has been sent" and instead say, "If
 Here are other common style and copy issues you may run into when writing support articles (if you don't see your issue here, there's also a Mautic Style Guide):
 
 Always use terms the way they appear in the Mautic interface. For example:
+
 * Dashboard does not have a hyphen.
 * Plugins does not have a hyphen.
 
 General computing terms:
+
 * The Internet is uppercase.
 * Website is one word. Web page is two words.
 * Log in and log out are verbs. Example: "Log in to the website." The same applies to sign in and sign out. Do not use "log into" or "sign into".
@@ -522,9 +508,11 @@ General computing terms:
 * Use email instead of e-mail.
 
 Links to Mautic.org should not contain the locale:
+
 * Use https://www.mautic.org or https://docs.mautic.org instead of https://www.mautic.org/en or https://docs.mautic.org/en 
  
 Capitalize the following items:
+
 * [Proper nouns][proper-nouns] and names, including brand names, product names and feature names
 * The first word of a complete sentence
 * The letters of abbreviations and acronyms unless they are normally lowercase
