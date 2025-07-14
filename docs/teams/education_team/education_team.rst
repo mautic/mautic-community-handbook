@@ -134,3 +134,10 @@ The Education Team need people with skills as:
 - Translators
 
 Would you like to get involved in this team? Join :xref:`Education Team on Slack` on :xref:`Mautic Community Slack`.
+
+End-user documentation
+**********************
+
+One of the projects that the Education Team are responsible for is the End-User Documentation, found at :xref:`User Documentation`.
+
+This section contains useful information, guides and resources for people interested in contributing to the End-User Documentation.
