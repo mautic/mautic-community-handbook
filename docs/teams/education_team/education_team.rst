@@ -101,7 +101,7 @@ Educational blog content
 * Curating and writing how-to articles, tutorials for Mautic Knowledgebase
   
 Mautic app and website/marketing internationalization
-========================================================
+=====================================================
 
 * Own Transifex and appropriate workflows
 * Manage multilingual marketing materials - for example, website, fliers, etc.
@@ -134,12 +134,16 @@ The Education Team need people with skills as:
 * Editors
 * Translators
 
-Would you like to get involved in this team? Join :xref:`Education Team on Slack` on :xref:`Mautic Community Slack`.
+.. note::
+
+   Would you like to get involved in this team? Join :xref:`Education Team on Slack` on :xref:`Mautic Community Slack`.
+
+.. vale off
 
 End-user documentation
 **********************
 
-One of the projects that the Education Team are responsible for is the End-User Documentation, found at :xref:`User Documentation`.
+One of the projects that the Education Team are responsible for is the :xref:`User Documentation`.
 
 This section contains useful information, guides and resources for people interested in contributing to the End-User Documentation.
 
@@ -374,7 +378,7 @@ Check the Education Team’s [Jira board] for tasks relating to the End-User Doc
 Work with Developer Documentation
 =================================
 
-The [Developer Documentation][dev-docs] uses [Slate][slate], and doesn't have a front-end user interface. Please make any changes via a Pull Request - PR - to the [repository][dev-docs-repo].
+The :xref:`Developer Docs` uses [Slate], and doesn't have a front-end user interface. Please make any changes via a Pull Request - PR - to the :xref:`Developer Docs GitHub`.
 
 .. Add :xref: to "https://mautic.atlassian.net/browse/TEDU" to [Jira board]. It's not added to avoid duplication as this link is available in another PR that hasn't been merged.
 
@@ -541,3 +545,5 @@ Here are other common style and copy issues you may run into when writing suppor
 * Don't use :xref:`Serial comma` in a list of items.
   
   For example, use "Extensions, themes and plugins," without the serial comma, not "Extensions, themes, and plugins."
+
+.. vale on
