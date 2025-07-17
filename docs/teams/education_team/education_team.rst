@@ -490,39 +490,54 @@ A summary for a how-to article should include the topics covered in the article.
 Style guide and copy rules
 --------------------------
 
-Like we said before, you should use an active, conversational style when you write for the Knowledgebase. 
+You should use an active, conversational style when you write for the Knowledgebase. 
 
-Avoid saying things like, "If a user's email has been sent" and instead say, "If you’ve sent the email."
+Avoid saying things like, "If a user's email has been sent" and instead, say, "If you’ve sent the email."
 
 Here are other common style and copy issues you may run into when writing support articles - if you don't see your issue here, there's also a Mautic Style Guide:
 
-Always use terms the way they appear in the Mautic interface. For example:
+* Always use terms the way they appear in the Mautic interface. For example:
 
-* Dashboard doesn't have a hyphen.
-* Plugins doesn't have a hyphen.
+  * Dashboard doesn't have a hyphen.
 
-General computing terms:
+  * Plugins doesn't have a hyphen.
 
-* The Internet is uppercase.
-* Website is one word. Web page is two words.
-* Log in and log out are verbs. Example: "Log in to the website." The same applies to sign in and sign out. Don't use "log into" or "sign into."
-* Login and logout are nouns - usually used as adjectives. Example: "Click the login button."
-* Use email instead of e-mail.
+* General computing terms:
 
-Links to ``mautic.org`` should not contain the locale:
+  * The Internet is uppercase.
+  
+  * Website is one word. Web page is two words.
+  
+  * Log in and log out are verbs. Example: "Log in to the website." The same applies to sign in and sign out. Don't use "log into" or "sign into."
+  
+  * Login and logout are nouns - usually used as adjectives. Example: "Click the login button."
+  
+  * Use email instead of e-mail.
 
-* Use ``https://www.mautic.org`` or ``https://docs.mautic.org`` instead of ``https://www.mautic.org/en`` or ``https://docs.mautic.org/en`` 
+* Links to ``mautic.org`` should not contain the locale.
+
+  Use ``https://www.mautic.org`` or ``https://docs.mautic.org`` instead of ``https://www.mautic.org/en`` or ``https://docs.mautic.org/en`` 
  
-Capitalize the following items:
+* Capitalize the following items:
 
-* :xref:`Proper noun` and names, including brand names, product names and feature names
-* The first word of a complete sentence
-* The letters of abbreviations and acronyms unless they are normally lowercase
-* The first word in numbered or bulleted lists
-* The name of a key on the keyboard
-* The first word of a complete sentence following a colon
-* The first word in a heading or title
+  * :xref:`Proper noun` and names, including brand names, product names and feature names
+  
+  * The first word of a complete sentence
+  
+  * The letters of abbreviations and acronyms unless they are normally lowercase
+  
+  * The first word in numbered or bulleted lists
+  
+  * The name of a key on the keyboard
+  
+  * The first word of a complete sentence following a colon
+  
+  * The first word in a heading or title
 
-Don't use :xref:`i.e. and e.g.`. These Latin abbreviations can confuse people. For the sake of clarity, use "in other words" or "to put it differently" instead of i.e. when you want to explain something in a different way. Use "for instance," "for example" or "such as" instead of e.g. when you want to give examples.
+* Don't use :xref:`i.e. and e.g.`
+  
+  These Latin abbreviations can confuse people. For the sake of clarity, use "in other words" or "to put it differently" instead of i.e. when you want to explain something in a different way. Use "for instance," "for example," or "such as" instead of e.g. when you want to give examples.
 
-Don't use :xref:`Serial comma` in a list of items. For example, use "Extensions, themes and plugins," without the serial comma, not "Extensions, themes, and plugins."
+* Don't use :xref:`Serial comma` in a list of items.
+  
+  For example, use "Extensions, themes and plugins," without the serial comma, not "Extensions, themes, and plugins."
