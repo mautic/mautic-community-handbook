@@ -360,8 +360,8 @@ The slug should be consistent with the title, but given the tighter space restra
 
 The slug can be overridden under the ‘Advanced’ tab. Simply select the checkbox next to ‘slug’ and enter your preferred slug for the article. Note you should not include any paths before the slug for categories/structure, just the article slug.
 
-End-User Documentation
-======================
+Work with End-User Documentation
+================================
 
 To learn how to create a new resource, see Create a new Documentation resource.
 
@@ -371,8 +371,8 @@ See [Contributing to the Documentation][contributing-to-docs] for an overview of
 
 Check the Education Team’s [Jira board] for tasks relating to the End-User Documentation.
 
-Developer Documentation
-=======================
+Work with Developer Documentation
+=================================
 
 The [Developer Documentation][dev-docs] uses [Slate][slate], and doesn't have a front-end user interface. Please make any changes via a Pull Request - PR - to the [repository][dev-docs-repo].
 
@@ -380,8 +380,8 @@ The [Developer Documentation][dev-docs] uses [Slate][slate], and doesn't have a 
 
 Check the Education Team’s [Jira board] and the Product Team’s :xref:`Jira board product team` for outstanding tasks relating to the Developer Documentation.
 
-Knowledgebase
-=============
+Work with Knowledgebase
+=======================
 
 To learn how to create a new resource, see Create a new Knowledgebase resource.
 
