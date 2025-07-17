@@ -146,7 +146,7 @@ This section contains useful information, guides and resources for people intere
 Technical writing style guide
 *****************************
 
-This document is based on the [Mozilla Knowledgebase Styleguide][mozilla-styleguide] and the [Mailchimp StyleGuide][mailchimp-styleguide]. Thank you to the creators of these resources and to the organizations for sharing them publicly.
+This document is based on the :xref:`Mozilla writing guide` and the :xref:`Mailchimp content style guide`. Thank you to the creators of these resources and to the organizations for sharing them publicly.
 
 General guidelines applicable to all resources
 ==============================================
@@ -286,11 +286,11 @@ Images should not be the only way of conveying information, as they may not load
 Accessibility resources
 -----------------------
 
-* [Accessibility cheatsheet][accessibily-cheatsheet]
-* [18F Accessibility Guide][18f-guide]
-* [Designing for Screen Reader Compatibility][screen-reader-compatibility]
-* [Accessible color combinations][accessible-colors]
-* [WAVE Web Accessibility Evaluation Tool][wave-tool]
+* :xref:`The Accessibility Cheatsheet`
+* :xref:`18F Accessibility Guide`
+* :xref:`WebAIM Designing for Screen Reader Compatibility`
+* :xref:`Color Safe accessible color combinations`
+* :xref:`WAVE Web Accessibility Evaluation Tool`
 
 General writing style
 ---------------------
@@ -367,14 +367,18 @@ To learn how to create a new resource, see Create a new Documentation resource.
 
 See [Contributing to the Documentation][contributing-to-docs] for an overview of how the Documentation works and the syntax that should be used.
 
-Check the [Education Team’s Jira board][edu-team-jira] for outstanding tasks relating to the End-User Documentation.
+.. Add :xref: to "https://mautic.atlassian.net/browse/TEDU" to [Jira board]. It's not added to avoid duplication as this link is available in another PR that hasn't been merged.
+
+Check the Education Team’s [Jira board][edu-team-jira] for tasks relating to the End-User Documentation.
 
 Developer Documentation
 =======================
 
 The [Developer Documentation][dev-docs] uses [Slate][slate], and does not have a front-end user interface. Please make any changes via a Pull Request (PR) to the [repository][dev-docs-repo].
 
-Check the [Education Team’s Jira board][edu-team-jira-devdocs] and the [Product Team’s Jira board][product-team-devdocs] for outstanding tasks relating to the Developer Documentation.
+.. Add :xref: to "https://mautic.atlassian.net/browse/TEDU" to [Jira board]. It's not added to avoid duplication as this link is available in another PR that hasn't been merged.
+
+Check the Education Team’s [Jira board] and the Product Team’s :xref:`Jira board product team` for outstanding tasks relating to the Developer Documentation.
 
 Knowledgebase
 =============
@@ -383,7 +387,9 @@ To learn how to create a new resource, see Create a new Knowledgebase resource.
 
 See Contributing to the Knowledgebase for an overview of how the Knowledgebase works.
 
-Check the [Education Team’s Jira board][edu-team-kb] for outstanding tasks relating to the Knowledgebase
+.. Add :xref: to "https://mautic.atlassian.net/browse/TEDU" to [Jira board]. It's not added to avoid duplication as this link is available in another PR that hasn't been merged.
+
+Check the Education Team’s [Jira board] for tasks relating to the Knowledgebase.
 
 Writing for End-User or Developer Documentation
 ===============================================
@@ -394,9 +400,9 @@ Writing style for Documentation projects
 General style requirements
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Review the contribution guidelines for the [End-User Documentation][contributing-to-docs] and [Developer Documentation][contribute-to-devdocs] before contributing.
+* Review the contribution guidelines on :xref:`User Docs GitHub` or :xref:`Developer Docs GitHub` before contributing.
 
-* Use a formal writing style, similar to the way you’d expect to read instructions in a textbook. Please check your spelling, punctuation and grammar (free tools such as [Grammarly][grammarly] can be very helpful with this!)
+* Use a formal writing style, similar to the way you’d expect to read instructions in a textbook. Please check your spelling, punctuation and grammar (free tools such as :xref:`Grammarly` can be very helpful with this!)
 
 * Try to provide visual examples using images and videos where appropriate - work with the Education Team who can support you with this.
 
@@ -450,7 +456,7 @@ Some additional things to consider:
 * Use full sentences when describing how to access the user interface.
 * Include expected results when giving instructions (for example, Click "OK" and the window will close.).
 
-Organising content in the Knowledgebase
+Organizing content in the Knowledgebase
 ---------------------------------------
 
 We currently have six key areas in which we organise content for the Knowledgebase:
@@ -507,13 +513,13 @@ General computing terms:
 * Login and logout are nouns (usually used as adjectives). Example: "Click the login button."
 * Use email instead of e-mail.
 
-Links to Mautic.org should not contain the locale:
+Links to ``mautic.org`` should not contain the locale:
 
-* Use https://www.mautic.org or https://docs.mautic.org instead of https://www.mautic.org/en or https://docs.mautic.org/en 
+* Use ``https://www.mautic.org`` or ``https://docs.mautic.org`` instead of ``https://www.mautic.org/en`` or ``https://docs.mautic.org/en`` 
  
 Capitalize the following items:
 
-* [Proper nouns][proper-nouns] and names, including brand names, product names and feature names
+* :xref:`Proper noun` and names, including brand names, product names and feature names
 * The first word of a complete sentence
 * The letters of abbreviations and acronyms unless they are normally lowercase
 * The first word in numbered or bulleted lists
@@ -521,29 +527,6 @@ Capitalize the following items:
 * The first word of a complete sentence following a colon
 * The first word in a heading or title
 
-Don't use ["i.e." and "e.g."][ie-eg]. These Latin abbreviations can confuse people. For the sake of clarity, use "in other words" or "to put it differently" instead of i.e. when you want to explain something in a different way. Use "for instance", "for example" or "such as" instead of e.g. when you want to give examples.
+Don't use :xref:`i.e. and e.g.`. These Latin abbreviations can confuse people. For the sake of clarity, use "in other words" or "to put it differently" instead of i.e. when you want to explain something in a different way. Use "for instance", "for example" or "such as" instead of e.g. when you want to give examples.
 
-Don't use [serial commas][serial-commas] in a list of items. 
-
-For example, use "Extensions, themes and plugins" (without the serial comma), not "Extensions, themes, and plugins".
-
-[mozilla-styleguide]: <https://support.mozilla.org/en-US/kb/write-articles-knowledge-base>
-[mailchimp-styleguide]: <https://styleguide.mailchimp.com>
-[accessibily-cheatsheet]: <http://bitsofco.de/2015/the-accessibility-cheatsheet/>
-[18f-guide]: <https://pages.18f.gov/accessibility/>
-[screen-reader-compatibility]: <http://webaim.org/techniques/screenreader/>
-[accessible-colors]: <http://colorsafe.co/>
-[wave-tool]: <http://wave.webaim.org/>
-[contributing-to-docs]: <https://docs.mautic.org/en/home/contributing>
-[edu-team-jira]: <https://mautic.atlassian.net/browse/TEDU-54?jql=labels%20%3D%20Docs_Content>
-[dev-docs]: <https://developer.mautic.org>
-[slate]: <https://www.slatejs.org>
-[dev-docs-repo]: <https://github.com/mautic/developer-documentation>
-[edu-team-devdocs]: <https://mautic.atlassian.net/browse/TPROD-43?jql=labels%20%3D%20Dev_Docs>
-[product-team-devdocs]: <https://mautic.atlassian.net/browse/TPROD-55?jql=labels%20%3D%20%22Dev_Docs%22>
-[edu-team-kb]: <https://mautic.atlassian.net/browse/TEDU-50?jql=labels%20%3D%20%22Knowledgebase_Content%22>
-[contribute-to-devdocs]: <https://github.com/mautic/developer-documentation/blob/master/CONTRIBUTING.md>
-[grammarly]: <https://www.grammarly.com>
-[proper-nouns]: <https://wikipedia.org/wiki/Proper_noun>
-[ie-eg]: <http://theoatmeal.com/comics/ie>
-[serial-commas]: <https://en.wikipedia.org/wiki/Serial_comma>
+Don't use :xref:`Serial comma` in a list of items. For example, use "Extensions, themes and plugins" (without the serial comma), not "Extensions, themes, and plugins".
