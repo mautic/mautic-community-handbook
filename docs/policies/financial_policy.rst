@@ -39,7 +39,7 @@ The following policies will govern booking and reimbursing travel on behalf of t
 #. Port of Entry. Transportation to and from the event must be to the closest reasonable Port of Entry. Advance permission must be obtained from the budget line item owner and the Project Lead when the location of the venue does not match the arrival and/or departure city for the event.
 #. Eligible Expenses. Travel-related expenses for the following items are eligible for reimbursement:
  
-   #. Transport to and from place of departure (eg. airport, bus station, train station) will be reimbursed. Use of private/personal vehicles will be reimbursed at the IRS mileage rate. [^1]
+   #. Transport to and from place of departure (eg. airport, bus station, train station) will be reimbursed. Use of private/personal vehicles will be reimbursed at the IRS mileage rate. [1]_ 
   
    #. Parking at place of departure (eg. airport, bus station, train station). Please note maximum days below.
   
@@ -49,7 +49,7 @@ The following policies will govern booking and reimbursing travel on behalf of t
   
    #. Event registration fees will be reimbursed.
   
-   #. WiFi expenses incurred while travelling to and from the event, and while attending the event, will be reimbursed up to $10.00 [^2] per day.
+   #. WiFi expenses incurred while travelling to and from the event, and while attending the event, will be reimbursed up to $10.00 [2]_ per day.
 
 #. Eligible time. Reimbursements for daily expenses will be provided for the number of days of the event plus:
   
@@ -70,7 +70,7 @@ The following policies will govern booking and reimbursing travel on behalf of t
    #. Expenses that promote any 3rd-party organizations or businesses, including those owned (in full or in part) by the traveller.
 
 #. Documentation required. Receipts for all expenses — including, meals, taxis and incidental expenses — are required for all reimbursements.
-#. Conflict of Interest. When travel costs are paid by the project, it is important that travellers properly manage any real or perceived conflict of interest (see also: Mautic Conflict of Interest policy document [^3]). To manage Conflict of Interest, attendees will disclose any 3rd-party organizations they own (in full or in part) as follows:
+#. Conflict of Interest. When travel costs are paid by the project, it is important that travellers properly manage any real or perceived conflict of interest (see also: Mautic Conflict of Interest policy document [3]_). To manage Conflict of Interest, attendees will disclose any 3rd-party organizations they own (in full or in part) as follows:
  
    #. By completing an annual COI disclosure form.
   
@@ -79,14 +79,14 @@ The following policies will govern booking and reimbursing travel on behalf of t
    #. By not wearing any branded clothes related to any 3rd-party organisations they own (in full or in part) when representing the project in an official capacity.
 
 #. Exceptional circumstances. On rare occasions, it may be necessary to book travel or incur expenses in a way that contradicts the above travel policy (i.e. illness preventing travel resulting in substitute speaker; cheap, last-minute flights). These rare exceptions will be approved or denied on a case-by-case basis by the Legal & Finance Team.
-#. Optional per diem limits. Reimbursements for accommodations, meals, and incidental expenses may be limited to the calculated per diem lodging rates based on the event location [^4], at the discretion of the Project Lead.
+#. Optional per diem limits. Reimbursements for accommodations, meals, and incidental expenses may be limited to the calculated per diem lodging rates based on the event location [4]_, at the discretion of the Project Lead.
 
 \3. Reimbursement Processing
 ============================
 
 To simplify reimbursements and the accounting of personally incurred expenses, the reimbursement workflow will adhere to these guidelines:
 
-#. All reimbursements will be processed through the official, project-wide reimbursement form [^5].
+#. All reimbursements will be processed through the official, project-wide reimbursement form [5]_.
 #. Reimbursement requests must be submitted within sixty (60) days of the event or sixty within (60) days incurring the last expense in the request. Requests received after 60 days may be rejected at the discretion of the Project Lead.
 #. For each person, one reimbursement will be processed per event/meeting.
 #. Reimbursements will be only processed following the meeting.
@@ -103,7 +103,7 @@ Requests for payment for products and services will be similar to the reimbursem
 \5. Financial Transparency
 ==========================
 
-Every open source project needs to build a culture of transparency and accountability [^6], and maintain an expectation of auditing by federal and state agencies. Items below will be implemented to facilitate this:
+Every open source project needs to build a culture of transparency and accountability [6]_, and maintain an expectation of auditing by federal and state agencies. Items below will be implemented to facilitate this:
 
 #. Financial decision making and responsibility will be decentralized by assigning a line item owner to each line item in the budget.
 #. Line item owners will have the following responsibilities:
@@ -124,7 +124,7 @@ Every open source project needs to build a culture of transparency and accountab
 As a condition of funding/sponsorship for MautiCamps and related events, the Community Team will facilitate the signing of an agreement between event organizers (and/or organizing corporations) and the Mautic Community with the following terms:
 
 #. The organizer(s) agree to protect and hold harmless the Mautic project, its leadership team, volunteers, and representatives from any cost, injury, and damage incurred by, or to any person, or property whatsoever, during the event. In the event of an action, court costs, expenses of litigation and reasonable attorneys&#39; fees will be carried out by the event organizer.
-#. The organizer(s) agree to abide by the terms of the Mautic Code of Conduct [^7].
+#. The organizer(s) agree to abide by the terms of the Mautic Code of Conduct [7]_.
 #. The organizer(s) agree that funds/sponsorship will be returned if not used (i.e. if there is a budget surplus).
 #. The organizer(s) agree that funds/sponsorship will be returned if the event is cancelled.
 #. The organizers agree that no payments will be made to personal bank accounts or PayPal accounts. Open Collective should be used, with personal expenses being reimbursed directly via the relevant event's funds. Any exceptions must be granted in advance by the Project Lead.
@@ -198,7 +198,7 @@ The budget process should focus on balancing expenses against revenue, providing
 \10. Foreign Assets Control
 ===========================
 
-The Office of Foreign Assets Control (OFAC) of the US Department of the Treasury administers and enforces economic and trade sanctions against targeted foreign countries and regimes, terrorists, international narcotics traffickers, etc. Our banking providers (Stripe, TransferWise and PayPal) will not knowingly send funds to nor receive funds from any country, corporation or individual listed in the OFAC database. [^9]
+The Office of Foreign Assets Control (OFAC) of the US Department of the Treasury administers and enforces economic and trade sanctions against targeted foreign countries and regimes, terrorists, international narcotics traffickers, etc. Our banking providers (Stripe, TransferWise and PayPal) will not knowingly send funds to nor receive funds from any country, corporation or individual listed in the OFAC database. [8]_
 
 \11. Policy Changes
 ===================
@@ -208,7 +208,7 @@ This Financial Policy document should be reviewed annually by the Legal & Financ
 Appendix A - Contributors
 *************************
 
-This policy is based on the Open Source Matters Financial Policy v1.0 [^10].
+This policy is based on the Open Source Matters Financial Policy v1.0 [9]_.
 
 Appendix B - Changelog
 **********************
@@ -218,22 +218,22 @@ Appendix B - Changelog
 * 25th June 2024 v1.1 remove references to Acquia and propose motion for General Assembly to accept updated policy 
 
 
-[^1]: Mileage rates can be found here: [https://www.irs.gov/credits-deductions/individuals/standard-mileage-rates-at-a-glance](https://www.irs.gov/credits-deductions/individuals/standard-mileage-rates-at-a-glance)
+.. rubric:: Footnotes
 
-[^2]: All financial references in this document will be in US Dollars (USD) unless otherwise noted.
+.. [1] Mileage rates can be found here: [https://www.irs.gov/credits-deductions/individuals/standard-mileage-rates-at-a-glance](https://www.irs.gov/credits-deductions/individuals/standard-mileage-rates-at-a-glance)
 
-[^3]: Conflict of Interest Policy: [https://docs.google.com/document/d/14IJnEBwJw4Kf5_0fi9aWI6hlsGlPcM60EWtwFGDO6zw/edit?usp=sharing](https://docs.google.com/document/d/14IJnEBwJw4Kf5_0fi9aWI6hlsGlPcM60EWtwFGDO6zw/edit?usp=sharing)
+.. [2] All financial references in this document will be in US Dollars (USD) unless otherwise noted.
 
-[^4]: Worldwide per diem rates will be calculated here: [http://www.defensetravel.dod.mil/site/perdiemCalc.cfm](http://www.defensetravel.dod.mil/site/perdiemCalc.cfm)
+.. [3] Conflict of Interest Policy: [https://docs.google.com/document/d/14IJnEBwJw4Kf5_0fi9aWI6hlsGlPcM60EWtwFGDO6zw/edit?usp=sharing](https://docs.google.com/document/d/14IJnEBwJw4Kf5_0fi9aWI6hlsGlPcM60EWtwFGDO6zw/edit?usp=sharing)
 
-[^5]: Submit a new expense here: [https://opencollective.com/mautic/expenses/new](https://opencollective.com/mautic/expenses/new)
+.. [4] Worldwide per diem rates will be calculated here: [http://www.defensetravel.dod.mil/site/perdiemCalc.cfm](http://www.defensetravel.dod.mil/site/perdiemCalc.cfm)
 
-[^6]: What Practices Demonstrate Transparency and Accountability?: [https://docs.google.com/document/d/1kJyBj22MzpjSMabwMJoZdIS3p0binHknPcIyyTKy-RA/edit?usp=sharing](https://docs.google.com/document/d/1kJyBj22MzpjSMabwMJoZdIS3p0binHknPcIyyTKy-RA/edit?usp=sharing)
+.. [5] Submit a new expense here: [https://opencollective.com/mautic/expenses/new](https://opencollective.com/mautic/expenses/new)
 
-[^7]: Mautic Community Code of Conduct: [https://contribute.mautic.org/policies/code-of-conduct](https://contribute.mautic.org/policies/code-of-conduct)
+.. [6] What Practices Demonstrate Transparency and Accountability?: [https://docs.google.com/document/d/1kJyBj22MzpjSMabwMJoZdIS3p0binHknPcIyyTKy-RA/edit?usp=sharing](https://docs.google.com/document/d/1kJyBj22MzpjSMabwMJoZdIS3p0binHknPcIyyTKy-RA/edit?usp=sharing)
 
-[^8]: Cheap/simple tools like SurveyMonkey allow for easy ranking forms. eg. [http://help.surveymonkey.com/articles/en\_US/kb/How-do-I-create-a-Ranking-type-question ](http://help.surveymonkey.com/articles/en\_US/kb/How-do-I-create-a-Ranking-type-question)
+.. [7] Mautic Community Code of Conduct: [https://contribute.mautic.org/policies/code-of-conduct](https://contribute.mautic.org/policies/code-of-conduct)
 
-[^9]: OFAC countries can be found online: [http://www.treasury.gov/resource-center/sanctions/Programs/Pages/Programs.aspx](http://www.treasury.gov/resource-center/sanctions/Programs/Pages/Programs.aspx).) The complete, searchable database is also available here: [https://sdnsearch.ofac.treas.gov](https://sdnsearch.ofac.treas.gov). Stripe's list of restricted businesses can be found here: [https://stripe.com/gb/restricted-businesses](https://stripe.com/gb/restricted-businesses), TransferWise's can be found here: [https://transferwise.com/acceptable-use-policy](https://transferwise.com/acceptable-use-policy) and countries where PayPal is offered can be found here: [https://www.paypal.com/uk/webapps/mpp/country-worldwide](https://www.paypal.com/uk/webapps/mpp/country-worldwide).
+.. [8] OFAC countries can be found online: [http://www.treasury.gov/resource-center/sanctions/Programs/Pages/Programs.aspx](http://www.treasury.gov/resource-center/sanctions/Programs/Pages/Programs.aspx).) The complete, searchable database is also available here: [https://sdnsearch.ofac.treas.gov](https://sdnsearch.ofac.treas.gov). Stripe's list of restricted businesses can be found here: [https://stripe.com/gb/restricted-businesses](https://stripe.com/gb/restricted-businesses), TransferWise's can be found here: [https://transferwise.com/acceptable-use-policy](https://transferwise.com/acceptable-use-policy) and countries where PayPal is offered can be found here: [https://www.paypal.com/uk/webapps/mpp/country-worldwide](https://www.paypal.com/uk/webapps/mpp/country-worldwide).
 
-[^10]: Open Source Matters Financial Policy: [https://www.opensourcematters.org/organisation/finances/financial-policy.html](https://www.opensourcematters.org/organisation/finances/financial-policy.html)
+.. [9] Open Source Matters Financial Policy: [https://www.opensourcematters.org/organisation/finances/financial-policy.html](https://www.opensourcematters.org/organisation/finances/financial-policy.html)
