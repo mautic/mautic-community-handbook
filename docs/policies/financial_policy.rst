@@ -217,23 +217,25 @@ Appendix B - Changelog
 * 15th September 2020 v1.0 accepted by Acquia Finance team and published
 * 25th June 2024 v1.1 remove references to Acquia and propose motion for General Assembly to accept updated policy 
 
+----
 
 .. rubric:: Footnotes
 
-.. [1] Mileage rates can be found here: [https://www.irs.gov/credits-deductions/individuals/standard-mileage-rates-at-a-glance](https://www.irs.gov/credits-deductions/individuals/standard-mileage-rates-at-a-glance)
+.. [1] Mileage rates can be found at :xref:`IRS Standard mileage rates`
 
 .. [2] All financial references in this document will be in US Dollars (USD) unless otherwise noted.
 
-.. [3] Conflict of Interest Policy: [https://docs.google.com/document/d/14IJnEBwJw4Kf5_0fi9aWI6hlsGlPcM60EWtwFGDO6zw/edit?usp=sharing](https://docs.google.com/document/d/14IJnEBwJw4Kf5_0fi9aWI6hlsGlPcM60EWtwFGDO6zw/edit?usp=sharing)
+.. [3] :xref:`Mautic Conflict of Interest Policy`
 
-.. [4] Worldwide per diem rates will be calculated here: [http://www.defensetravel.dod.mil/site/perdiemCalc.cfm](http://www.defensetravel.dod.mil/site/perdiemCalc.cfm)
+.. [4] Worldwide per diem rates will be calculated on :xref:`Defense Travel Management Office` website
 
-.. [5] Submit a new expense here: [https://opencollective.com/mautic/expenses/new](https://opencollective.com/mautic/expenses/new)
+.. [5] Submit a new expense at :xref:`Mautic open collective new expense`
 
-.. [6] What Practices Demonstrate Transparency and Accountability?: [https://docs.google.com/document/d/1kJyBj22MzpjSMabwMJoZdIS3p0binHknPcIyyTKy-RA/edit?usp=sharing](https://docs.google.com/document/d/1kJyBj22MzpjSMabwMJoZdIS3p0binHknPcIyyTKy-RA/edit?usp=sharing)
+.. [6] :xref:`What Practices Demonstrate Transparency and Accountability?`
 
-.. [7] Mautic Community Code of Conduct: [https://contribute.mautic.org/policies/code-of-conduct](https://contribute.mautic.org/policies/code-of-conduct)
+.. [7] Mautic Community :doc:`/policies/code_of_conduct/code_of_conduct`
 
-.. [8] OFAC countries can be found online: [http://www.treasury.gov/resource-center/sanctions/Programs/Pages/Programs.aspx](http://www.treasury.gov/resource-center/sanctions/Programs/Pages/Programs.aspx).) The complete, searchable database is also available here: [https://sdnsearch.ofac.treas.gov](https://sdnsearch.ofac.treas.gov). Stripe's list of restricted businesses can be found here: [https://stripe.com/gb/restricted-businesses](https://stripe.com/gb/restricted-businesses), TransferWise's can be found here: [https://transferwise.com/acceptable-use-policy](https://transferwise.com/acceptable-use-policy) and countries where PayPal is offered can be found here: [https://www.paypal.com/uk/webapps/mpp/country-worldwide](https://www.paypal.com/uk/webapps/mpp/country-worldwide).
+.. [8] OFAC countries can be found online at :xref:`OFAC Sanctions Programs and Country Information` website. The complete, searchable database is also available at :xref:`OFAC Sanctions List Search Tool` page. Stripe's list of restricted businesses can be found at :xref:`Stripe Prohibited and Restricted Businesses` page, Wise's can be found at :xref:`Wise Acceptable Use Policy` page, and countries where PayPal is offered can be found at the :xref:`Paypal countries list` page.
 
-.. [9] Open Source Matters Financial Policy: [https://www.opensourcematters.org/organisation/finances/financial-policy.html](https://www.opensourcematters.org/organisation/finances/financial-policy.html)
+.. [9] :xref:`Open Source Matters Financial Policy`
+
