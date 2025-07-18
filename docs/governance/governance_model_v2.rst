@@ -743,7 +743,7 @@ Each release of Mautic will have a named Release Lead and Assistant Release Lead
 
 Their duties include setting the dates for feature freeze for the release, enforcing the feature freeze, coordinating the - mostly automated - tests of a release, writing the release notes and creating the tags defining the release and its pre-release versions where appropriate. They're also the primary person responsible for merging the PRs for the release, although other Maintainers may also merge PRs in collaboration with the Release Team.
 
-The full set of tasks can be found in the document Managing a Release (3). Their duties end after the release they managed is out. In the case of a major release, the release team is responsible for Alpha to General Availability releases.
+The full set of tasks can be found in the (currently internal use only) document Managing a Release. Their duties end after the release they managed is out. In the case of a major release, the release team is responsible for Alpha to General Availability releases.
 
 The upcoming release leads can be found on the :xref:`Mautic release leads` page.
 
