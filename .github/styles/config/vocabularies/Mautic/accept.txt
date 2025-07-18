@@ -31,6 +31,7 @@ Cron
 CTRL
 Custom Fields
 DDEV
+diem
 Do Not Contact
 doxing
 DNC
@@ -128,6 +129,7 @@ Todo
 Transifex
 TRUE
 Twilio
+Uber
 unassign
 unpublish
 Unpublish
