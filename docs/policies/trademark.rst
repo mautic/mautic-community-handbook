@@ -5,25 +5,25 @@ Trademark
 
 .. note:: 
 
-   To report a trademark infringement, make a request for a license, ask a question or to join the team, please use the :xref:`Mautic Trademark Request Form`.
+   To report a trademark infringement, make a request for a license, ask a question, or to join the team, please use the :xref:`Mautic Trademark Request Form`.
 
 \1. Background information
 **************************
 
 Open Source Collective holds the Mautic trademark - for example the word “Mautic” - whether or not in capitals, on behalf of the Mautic project.
 
-You may use the Mautic trademarks - including accompanying :xref:`Mautic's brand and logos`, which is itself a use of the Mautic trademark - for your own purposes, but you must first obtain a license. You can either obtain this license automatically, or through a license grant procedure, as further explained below in this policy.
+You may use the Mautic trademarks - including accompanying :xref:`Mautic's brand and logos`, which is itself a use of the Mautic trademark - for your own purposes, but you must first obtain a license. You can either obtain this license automatically or through a license grant procedure, as further explained below in this policy.
 
-This policy therefore first explains whether you receive an automatic license, or whether you need to obtain a license through the license grant procedure. In addition, this policy explains which "rules of use" apply when you use the Mautic trademark - whether you obtained the license automatically, or through the license grant procedure.
+This policy, therefore, first explains whether you receive an automatic license or whether you need to obtain a license through the license grant procedure. In addition, this policy explains which "rules of use" apply when you use the Mautic trademark, whether you obtained the license automatically or through the license grant procedure.
 
 \2. Purpose
 ***********
 
 Open Source Collective holds the Mautic trademark on behalf of the Mautic project.
 
-The goal of the Mautic project is to grow the Mautic community by encouraging businesses of all sizes to bring creativity, innovation and contributions to the project. This policy helps to preserve the Mautic trademark and brand, as well as to provide guidance and resources to those who wish to use the Mautic name, logo or trademark in any capacity.
+The goal of the Mautic project is to grow the Mautic community by encouraging businesses of all sizes to bring creativity, innovation, and contributions to the project. This policy helps to preserve the Mautic trademark and brand, as well as to provide guidance and resources to those who wish to use the Mautic name, logo, or trademark in any capacity.
 
-Mautic trademarks, service marks, and logos - collectively “Mautic Trademarks” - are particularly valuable because they represent the unrivaled commitment and standards of excellence associated with the Mautic brand. This policy is in response to the questions received from various persons and organizations and aims to cover the most typical situations for use of the Mautic Trademarks. This policy contains detailed information about how to properly refer to Mautic Trademarks.
+Mautic trademarks, service marks, and logos - collectively “Mautic Trademarks” - are particularly valuable because they represent the unrivaled commitment and standards of excellence associated with the Mautic brand. This policy is in response to the questions received from various persons and organizations and aims to cover the most typical situations for the use of the Mautic Trademarks. This policy contains detailed information about how to properly refer to Mautic Trademarks.
 
 \3. Limitations of this policy
 ******************************
@@ -59,23 +59,23 @@ Below are some examples of Mautic Trademarks and their associated designations. 
           :width: 400
           :alt: Alternative text
 
-You can view the specified Mautic Registrations may at the :xref:`USPTO Trademark Search` website.
+You can view the specified Mautic Registrations at the :xref:`USPTO Trademark Search` website.
  	 
 \6. General rules of trademark use
 **********************************
 
-The following set of rules governs all use of the Mautic Trademarks, with the exception of any nominative fair use - outlined below - and regardless of whether you followed the license grant procedure or obtained an automatic license for such use.
+The following set of rules governs all use of the Mautic Trademarks, with the exception of any nominative fair use, outlined below, and regardless of whether you followed the license grant procedure or obtained an automatic license for such use.
 
 #. Any use of the Mautic Trademarks constitutes an acceptance of this policy.
 #. You may not use the Mautic Trademarks in a company name, in part or in whole - for example, Mauticorp, Mautibiz.
 #. You may not use the Mautic Trademarks in any domain name or sub-domain name, in part or whole, regardless of domain extension.
-#. You may not use the Mautic Trademarks in any social media title, alias, handle or name, in part or whole, in any manner that may suggest affiliation with or endorsement by Mautic except where Mautic grants you a license and the Community Team creates the profiles.
-#. You must accompany any use of the Mautic Trademarks by the appropriate attribution, including use of the proper trademark symbol - “®” or “™” - on all occurrences of Mautic Trademarks.
+#. You may not use the Mautic Trademarks in any social media title, alias, handle, or name, in part or whole, in any manner that may suggest affiliation with or endorsement by Mautic except where Mautic grants you a license and the Community Team creates the profiles.
+#. You must accompany any use of the Mautic Trademarks with the appropriate attribution, including use of the proper trademark symbol - “®” or “™” - on all occurrences of Mautic Trademarks.
 #. You can't use the Mautic Trademarks for any illegal, defamatory, vulgar, obscene or indecent purposes, or any other purposes that may negatively impact the Mautic platform or community.
-#. You can't use the name of your company or organization in combination with the Mautic Trademark to be sure there is no confusion about the true source - company, organization, association or author - of your product or service. The combination of the name of your product or service with the Mautic trademark must be unique and identifiable.
-#. You aren't allowed to use the Mautic Trademark/s in online advertising, including Google AdSense, AdWords, Facebook, Twitter, LinkedIn or other advertising platforms.
+#. You can't use the name of your company or organization in combination with the Mautic Trademark to be sure there is no confusion about the true source - company, organization, association, or author - of your product or service. The combination of the name of your product or service with the Mautic trademark must be unique and identifiable.
+#. You aren't allowed to use the Mautic Trademark/s in online advertising, including Google AdSense, AdWords, Facebook, X, LinkedIn, or other advertising platforms.
 #. You must use the Mautic Trademarks in their exact form without any alteration in size, color, ratio, or other dimensions, unless otherwise agreed upon in writing by both parties.
-#. You must use the Mautic Trademarks independently and separately from your trade names, service marks, logos or trademarks, combining marks isn't permitted.
+#. You must use the Mautic Trademarks independently and separately from your trade names, service marks, logos, or trademarks; combining marks isn't permitted.
 #. You agree to comply with any Mautic request to correct, change, or cease any use of the Mautic Trademarks as determined by Mautic to be improper under these guidelines. This section applies notwithstanding any license agreement you may have with Mautic.
 
 \7. Nominative fair use - permitted use without license
@@ -88,14 +88,14 @@ You may identify a Mautic product or service in text or indicate a relation of y
 \8. Promotional use
 *******************
 
-If your business has developed products and/or services that contribute to the installation, configuration, implementation, and use of Mautic, you're encouraged to promote it. You're also encouraged to include links to Mautic.org on such web pages or emails. The Mautic community becomes richer when the community contributes to the project in this way.
+If your business has developed products and/or services that contribute to the installation, configuration, implementation, and use of Mautic, you're encouraged to promote them. You're also encouraged to include links to Mautic.org on such web pages or emails. The Mautic community becomes richer when the community contributes to the project in this way.
 
-You may use the Mautic name and approved logo in content that describes the products and services offered by your business and when it resides on pages that clearly articulate them. To access authorized Mautic community branding resources, go to the :xref:`Mautic's brand and logos` page.
+You may use the Mautic name and approved logo in content that describes the products and services offered by your business, and when it resides on pages that clearly articulate them. To access authorized Mautic community branding resources, go to the :xref:`Mautic's brand and logos` page.
 
 \9. Automatic license or license grant procedure?
 *************************************************
 
-This section explains the situations when entitlement to an automatic license exist (in which case you can use the Mautic Trademarks without having to complete or receive any document), or situations which require the license grant procedure. Entitlement to an automatic license only exists if you're in any of the situations described under :ref:`subsection 9.1<9.1 automatic license>`, and not simultaneously in any of the situations described under :ref:`subsection 9.2<9.2 license grant>`.
+This section explains the situations when entitlement to an automatic license exists, in which case you can use the Mautic Trademarks without having to complete or receive any document, or situations that require the license grant procedure. Entitlement to an automatic license only exists if you're in any of the situations described under :ref:`subsection 9.1<9.1 automatic license>`, and not simultaneously in any of the situations described under :ref:`subsection 9.2<9.2 license grant>`.
 
 9.1 Automatic license
 =====================
@@ -124,24 +124,24 @@ Examples of not “exclusively to foster the Mautic platform”
 
 You must always follow the license grant procedure when:
 
-#. There is a perception due to the use of the Mautic Trademarks which suggests or indicates an affiliation or endorsement of Mautic or the product or service emanating from Mautic.
+#. There is a perception due to the use of the Mautic Trademarks, which suggests or indicates an affiliation or endorsement of Mautic or the product or service emanating from Mautic.
 
    A few non-exhaustive examples:
 
-   * A consulting company can describe its business as “123 Web Services, offering Mautic consulting for small businesses,” but can't call itself “The Mautic Consulting Company” or “The Mautic Experts”;
+   * A consulting company can describe its business as “123 Web Services, offering Mautic consulting for small businesses,” but can't call itself “The Mautic Consulting Company” or “The Mautic Experts.”;
 
-   * A business that creates Mautic plug-ins can describe itself as “XYZ Plug-ins, the world’s best Mautic plug-ins,” but can't call itself “The Mautic Plug-in Portal”;
+   * A business that creates Mautic plug-ins can describe itself as “XYZ Plug-ins, the world’s best Mautic plug-ins,” but can't call itself “The Mautic Plug-in Portal.”;
 
-   * A hosting company can state that it “hosts, configures and supports Mautic”, but it can't say that it offers a solution called “Mautic-as-a-Service”;
+   * A hosting company can state that it “hosts, configures and supports Mautic”, but it can't say that it offers a solution called “Mautic-as-a-Service.”;
 
-   * A course could be titled ‘Company XYZ’s guide to getting started with Mautic’ but not “Mautic Training.”
+   * A course could be titled ‘Company XYZ’s guide to getting started with Mautic’ but not 'Mautic Training'.
 
 #. Using the Mautic Trademark(s) in combination with the words "conference", "convention" or "association", as well as any translation, abbreviation or variation thereof.
 #. Using the Mautic Trademark(s) as part of another registered trademark.
 #. Using the Mautic Trademark(s) as part of a domain name.
-#. Using the Mautic Trademark(s) as part of a domain name that covers either an entire category of products or services that are relevant to the Mautic community, that covers an entire target group of Mautic users or that's otherwise too generic.
+#. Using the Mautic Trademark(s) as part of a domain name that covers either an entire category of products or services that are relevant to the Mautic community, that covers an entire target group of Mautic users, or that's otherwise too generic.
 #. Using the Mautic Trademark(s) in a domain name, title of website, title of a seminar, title of a course or title of a software package that's not exclusively intended to foster the Mautic platform and community, and this domain name or title doesn't also mention your trademark - or trade name, name of your company, name of your organization, name of your association.
-#. Using the Mautic Trademark(s) as part of the name of a company, organization, trade name, association.
+#. Using the Mautic Trademark(s) as part of the name of a company, organization, trade name, or association.
 #. Using the Mautic Trademark(s) in altered form or as part of another logo.
 #. Using the Mautic Trademark(s) in connection with any commercial activity that doesn't otherwise exclusively foster the Mautic platform as described in :ref:`subsection 9.1<9.1 automatic license>`.
 #. There is any doubt as to how to interpret or apply this policy to a specific case.
@@ -151,11 +151,11 @@ You must always follow the license grant procedure when:
 
 In the license grant procedure, you must complete the :xref:`Mautic Trademark Request Form` with your contact details and a description of the intended use of the Mautic trademark.
 
-It may take a month or more for the team to evaluate your application, and the team may reject applications may for any reason - you may, however, reapply as often as you like. Furthermore, the Mautic project may request a license fee for any commercial use of the Mautic trademark.
+It may take a month or more for the team to evaluate your application, and the team may reject applications for any reason - you may, however, reapply as often as you like. Furthermore, the Mautic project may request a license fee for any commercial use of the Mautic trademark.
 
-Although the Legal and Finance Team grants licenses at their sole discretion, and they may impose specific conditions or obligations, they take following factors into account during the license grant procedure:
+Although the Legal and Finance Team grants licenses at their sole discretion, and they may impose specific conditions or obligations, they take the following factors into account during the license grant procedure:
 
-With respect to a Mautic-related product or service, the Legal and Finance team consider whether the product or service:
+With respect to a Mautic-related product or service, the Legal and Finance team considers whether the product or service:
 
 * doesn't suggest an official link;
 * promotes or expands Mautic adoption and usage;
@@ -167,12 +167,12 @@ With respect to a Mautic-related product or service, the Legal and Finance team 
 * created by those with a track record of liberally "giving back" to their communities;
 * in the case of a domain name, doesn't create an unfair monopoly towards others because it spans a relevant category of services.
 
-With respect to the name of a company, organization, or association it's considered whether:
+With respect to the name of a company, organization, or association, it's considered whether:
 
 * the name doesn't suggest an official link;
 * the founder/s of the company/organization or association are significant contributors to the Mautic project, who have a track record of liberally "giving back" to their communities.
 
-The Legal and Finance Team reviews this policy on a recurring basis, and publishes updates and additions, as needs and use cases evolve. Thank you for your support in protecting the Mautic trademark.
+The Legal and Finance Team reviews this policy on a recurring basis and publishes updates and additions as needs and use cases evolve. Thank you for your support in protecting the Mautic trademark.
 
 Submitting a request
 ********************
