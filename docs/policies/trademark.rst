@@ -95,7 +95,7 @@ You may use the Mautic name and approved logo in content that describes the prod
 \9. Automatic license or license grant procedure?
 *************************************************
 
-This section explains the situations when entitlement to an automatic license exist (in which case you can use the Mautic Trademarks without having to complete or receive any document), or situations which require the license grant procedure. Entitlement to an automatic license only exists if you're in any of the situations described under subsection A below, and not simultaneously in any of the situations described under subsection B below.
+This section explains the situations when entitlement to an automatic license exist (in which case you can use the Mautic Trademarks without having to complete or receive any document), or situations which require the license grant procedure. Entitlement to an automatic license only exists if you're in any of the situations described under :ref:`subsection 9.1<9.1 automatic license>`, and not simultaneously in any of the situations described under :ref:`subsection 9.2<9.2 license grant>`.
 
 9.1 Automatic license
 =====================
@@ -119,7 +119,7 @@ Examples of not “exclusively to foster the Mautic platform”
 * A charitable organization selling t-shirts with the Mautic Trademarks to sponsor its fight against global warming
 * A company selling t-shirts with the Mautic Trademarks, while only donating 25% of profits to the Mautic Community.
 
-9.1 License grant
+9.2 License grant
 =================
 
 You must always follow the license grant procedure when:
@@ -143,7 +143,7 @@ You must always follow the license grant procedure when:
 #. Using the Mautic Trademark(s) in a domain name, title of website, title of a seminar, title of a course or title of a software package that's not exclusively intended to foster the Mautic platform and community, and this domain name or title doesn't also mention your trademark - or trade name, name of your company, name of your organization, name of your association.
 #. Using the Mautic Trademark(s) as part of the name of a company, organization, trade name, association.
 #. Using the Mautic Trademark(s) in altered form or as part of another logo.
-#. Using the Mautic Trademark(s) in connection with any commercial activity that doesn't otherwise exclusively foster the Mautic platform as described in subsection A above.
+#. Using the Mautic Trademark(s) in connection with any commercial activity that doesn't otherwise exclusively foster the Mautic platform as described in :ref:`subsection 9.1<9.1 automatic license>`.
 #. There is any doubt as to how to interpret or apply this policy to a specific case.
 
 \10. License grant procedure
@@ -178,8 +178,6 @@ Submitting a request
 ********************
 
 Please use the :xref:`Mautic Trademark Request Form` to submit a request.
-
-|
 
 **Last update:** May 16, 2023
 
