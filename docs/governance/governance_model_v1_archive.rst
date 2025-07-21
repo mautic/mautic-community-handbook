@@ -251,8 +251,8 @@ And the Legal team’s might look like this:
 
 |
 
-Credits:
-********
+Credits
+*******
 
 Inspiration and examples have been drawn from several Open Source projects and governance models in preparing this proposed model, including:
 
