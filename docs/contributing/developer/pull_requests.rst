@@ -7,8 +7,8 @@ It's highly appreciated when developers help Mautic by providing pull requests -
   :local:
   :depth: 2
 
-Step 1: review existing issues and pull requests
-************************************************
+Step 1: review existing issues and PRs
+**************************************
 
 Before working on a change, review the existing issues and PRs to see if someone else raised the same topic or maybe even started working on one by searching :xref:`Mautic repository open issues` on GitHub. You can also ask in the :xref:`Mautic product team Slack`.
 
@@ -230,8 +230,8 @@ To create a migration, you can follow these steps:
 
    You can find an example of migration scenario and code in `this PR <https://github.com/mautic/mautic/pull/8134/files>`_.
 
-Step 6: prepare your pull request for submission
-************************************************
+Step 6: prepare your PR for submission
+**************************************
 
 You're almost ready to submit your PR. There are three things you still need to look into:
 
@@ -264,8 +264,8 @@ Writing tests
 
 All code contributions - especially enhancements/features - should include adequate and appropriate unit tests using `PHPUnit <https://phpunit.de/manual/5.7/en/index.html>`_ and/or `Symfony functional tests <https://symfony.com/doc/2.8/testing.html>`_. The Core Team won't merge PRs without these tests. See the :ref:`Automated testing` section for more extensive information.
 
-Step 7: submit your pull request
-********************************
+Step 7: submit your PR
+**********************
 
 .. vale off
 
@@ -307,8 +307,8 @@ Sometimes if there are a lot of merge conflicts, it can be easier to re-create y
 
 .. vale on
 
-Make a pull request
-===================
+Make a PR
+=========
 
 You can now make a PR on the  :xref:`Mautic GitHub repository`.
 
@@ -331,8 +331,8 @@ If you think someone fails to keep this advice in mind and want another perspect
 
 The :xref:`Mautic Product Team` decides which PRs get merged, so their feedback is the most relevant. Please don't feel pressured to refactor your code immediately when someone provides feedback and wait for the Product Team to review it.
 
-Rework your pull request
-========================
+Rework your PR
+==============
 
 Based on the feedback on your PR, you might need to make some changes. Before re-submitting the PR, rebase with ``upstream/4.x`` or ``upstream/4.4`` as appropriate - but *don't merge* - and force the push to the origin:
 
@@ -348,8 +348,8 @@ Based on the feedback on your PR, you might need to make some changes. Before re
 Step 9: testing
 ***************
 
-Pull request testing
-====================
+PR testing
+==========
 
 If you want to test a PR from other developers, see the :ref:`PR review process` section. All PRs require testing by others in the Community and must have the code reviewed by a member of the Core Team. Read more information in the :doc:`/governance/code-governance` section.
 
