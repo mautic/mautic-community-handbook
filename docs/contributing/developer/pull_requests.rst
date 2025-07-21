@@ -56,7 +56,9 @@ Get the Mautic source code
 Install the software stack
 ==========================
 
-Please see the instructions in the :doc:`/contributing/developer/local_environment_setup` for installing the software stack.
+.. Replace [Local environment setup] with :doc:`/contributing/developer/local_environment_setup`. This file isn't available yet during convertion of this section to RST.
+
+Please see the instructions in the [Local environment setup] section for installing the software stack.
 
 Choose the right branch
 =======================
@@ -168,7 +170,9 @@ Any change that may break a Plugin, either by using or extending a class. As Mau
 
 Examples:
 
-* Removing or renaming a public or protected method in a non-final class. Create a new method instead and mark the old one :doc:`deprecated </governance/deprecation_policy>`.
+.. Replace [depcrecated] with :doc:`deprecated</governance/deprecation_policy>`. This file isn't available yet during this section convertion to RST.
+
+* Removing or renaming a public or protected method in a non-final class. Create a new method instead and mark the old one [depcrecated].
 * Changing the signature of a private or public method in a non-final class. This means adding/removing method parameters or adding/changing parameters or return types. Create a new method instead and mark the old one deprecated.
 * Changing the behavior of a method so it does something differently.
 * Adding a new method to an existing interface. Create a new interface instead.
@@ -220,7 +224,7 @@ To create a migration, you can follow these steps:
 
    * ``preUp()`` allows you to define scenarios where the migration should or shouldn't run. For example, only when a certain database table exists.
     
-   * ``up()`` runs the actual migration and allows you to make changes in Mautic's database. You can either take inspiration from other migrations in the ``app/migrations`` folder or learn more about migrations in the `Doctrine's documentation <https://symfony.com/bundles/DoctrineMigrationsBundle/current/index.html>`_.
+   * ``up()`` runs the actual migration and allows you to make changes in Mautic's database. You can either take inspiration from other migrations in the ``app/migrations`` folder or learn more about migrations in the :xref:`DoctrineMigrationsBundle`.
 
 #. When you're done, test your migrations by running ``migrations:execute --up VERSION``.
 
@@ -228,7 +232,7 @@ To create a migration, you can follow these steps:
 
 .. tip::
 
-   You can find an example of migration scenario and code in `this PR <https://github.com/mautic/mautic/pull/8134/files>`_.
+   You can find an example of migration scenario and code on :xref:`github_pr_8134`.
 
 Step 6: prepare your PR for submission
 **************************************
@@ -246,7 +250,7 @@ Code standards
 
 .. vale off
 
-Mautic follows Symfony's :xref:`Symfony coding standards` by implementing a pre-commit git hook that runs :xref:`PHP-cs-fixer`. When you install or update Mautic using Composer with the commands `composer install` and `composer update`, it automatically installs the git hook. This git hook automatically deals with any code styling. You can format your code as you like, and then the git hook automatically converts it to Mautic's code style.
+Mautic follows Symfony's :xref:`Symfony coding standards` by implementing a pre-commit git hook that runs :xref:`PHP-cs-fixer`. When you install or update Mautic using Composer with the commands ``composer install`` and ``composer update``, it automatically installs the git hook. This git hook automatically deals with any code styling. You can format your code as you like, and then the git hook automatically converts it to Mautic's code style.
 
 .. vale on
 
@@ -262,7 +266,7 @@ Each new feature should include a reference to a PR in the :xref:`Developer Docs
 Writing tests
 =============
 
-All code contributions - especially enhancements/features - should include adequate and appropriate unit tests using `PHPUnit <https://phpunit.de/manual/5.7/en/index.html>`_ and/or `Symfony functional tests <https://symfony.com/doc/2.8/testing.html>`_. The Core Team won't merge PRs without these tests. See the :ref:`Automated testing` section for more extensive information.
+All code contributions, especially enhancements/features, should include adequate and appropriate unit tests using :xref:`PHPUnit` and/or :xref:`Symfony functional tests`. The Core Team won't merge PRs without these tests. See the :ref:`Automated testing` section for more extensive information.
 
 Step 7: submit your PR
 **********************
@@ -303,7 +307,7 @@ Check that all tests still pass and push your branch remotely:
 
 .. vale off
 
-Sometimes if there are a lot of merge conflicts, it can be easier to re-create your PR on an updated version of the branch, especially if you aren't confident in correctly resolving the conflicts. Please ask for help in :xref:`Mautic product team Slack` if you are struggling with rebasing your PR.
+Sometimes, if there are a lot of merge conflicts, it can be easier to re-create your PR on an updated version of the branch, especially if you aren't confident in correctly resolving the conflicts. Please ask for help in :xref:`Mautic product team Slack` if you are struggling with rebasing your PR.
 
 .. vale on
 
@@ -351,7 +355,11 @@ Step 9: testing
 PR testing
 ==========
 
-If you want to test a PR from other developers, see the :ref:`PR review process` section. All PRs require testing by others in the Community and must have the code reviewed by a member of the Core Team. Read more information in the :doc:`/governance/code-governance` section.
+.. Replace [Testing PRs] with reference to this link within community handbook: https://contribute.mautic.org/contributing-to-mautic/developer/community-reviews#the-pull-request-review-process
+
+.. Replace [Code governance] with :doc:`/governance/code-governance`. This file isn't available yet during this section convertion to RST.
+
+If you want to test a PR from other developers, see the [Testing PRs] section. All PRs require testing by others in the Community and must have the code reviewed by a member of the Core Team. Read more information in the [Code governance] section.
 
 Automated testing
 =================
