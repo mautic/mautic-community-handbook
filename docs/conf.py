@@ -71,4 +71,9 @@ linkcheck_ignore = [
     r"https://docs.mautic.org/policies/financial-policy#10-foreign-assets-control",
     # The GitHub Search UI requires users to be authenticated with session cookies, which we can't set up programmatically
     r"https://github.com/search*",
+    r"https://mau.tc/*",
+    r"https://creativecommons.org/licenses/by-sa/3.0/legalcode",
+    r"https://creativecommons.org/licenses/by-sa/3.0/",
+    r"https://www.opensourcematters.org/organisation.html",
+    r"https://www.drupal.org/governance",
 ]
