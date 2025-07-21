@@ -5,8 +5,6 @@ Writing for Mautic
 
 We appreciate your interest in contributing to Mautic. Improving existing content is an excellent way to begin contributing. We are always looking for people to help us with writing content for our documentation, marketing and communications, and our social media campaigns. We also have a lot of technical writing opportunities in the Mautic Community, including Mautic :xref:`Mautic Knowledgebase`, Mautic :xref:`Mautic developers blog`, and Mautic :xref:`Developer Docs`.
 
-As a project, we also apply to the Season of Docs each year - keep an eye on social media for future opportunities.
-
 Getting started with writing for Mautic
 ***************************************
 
@@ -21,7 +19,7 @@ The Marketing Team maintains a [Jira board] specifically for content and editori
 
 Once you have found an article you'd like to work on, please check the writer's brief which will be attached as a Google Doc, located in :xref:`Mautic Google Drive`. The brief should explain what the article should include, the audience we are intending to target, and some useful resources to help you get started.
 
-Please write the content in the Google Doc, and when you're ready to have it reviewed just drop a message in Jira and let people know in Slack.
+Please write the content in the Google Doc. When you're ready to have it reviewed, drop a message in Jira and let people know in Slack.
 
 Please note that we do check to ensure that articles are not copied from other locations without due credit, so please do not copy/paste chunks from other websites as your content will be rejected.
 
@@ -40,13 +38,13 @@ Content Guidelines
 * In case you use copyrighted material that demands authorization from the author, make sure you have that authorization before you post.
 * Do not link to any site that contains adult content, sexually oriented material or might otherwise be considered offensive. Any post containing an inappropriate link will be deleted and the poster will receive a warning.
 * Do not propose/link to any site that contains warez ("stolen" software)/copyrighted software/materials that can be downloaded illegally.
-* **No commercial advertising is permitted.** This includes advertising of any services and/or products not fully compliant with the GPL license. In regards to this, you can post links towards your website at the end of the blog and you can write a sentence that leads to your website. For example: "This information can be found on <this link>"; or "Read more in this article in <your native language>." Any posts deemed to be self promotion, advertising, or spam can and will be removed. NO SPAM - NO ADVERTISING. For example, posting and making excessive, inappropriate and unnecessary references to your products and websites is self promotion.
+* **No commercial advertising is permitted.** This includes advertising of any services and/or products not fully compliant with the GPL license. In regards to this, you can post links towards your website at the end of the blog and you can write a sentence that leads to your website. For example: "This information can be found on <this link>" or "Read more in this article in <your native language>." Any posts deemed to be self promotion, advertising, or spam can and will be removed. NO SPAM - NO ADVERTISING. For example, posting and making excessive, inappropriate and unnecessary references to your products and websites is self promotion.
 * This site is centered on Mautic, Open Source software and other Marketing and Development matters. It is not a place to promote ideological, religious, or political matters. All such discussions will be deleted.
 
 Disclosure of Compensated Relationships
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The US Government Federal Trade Commission has rules requiring the disclosure of any compensated relationship (employment, for pay, or in return for free/discounted products and/or services) that an author has when they review/evaluate/recommend a product or service.
+The US Government Federal Trade Commission has rules requiring the disclosure of any compensated relationship - employment, for pay, or in return for free/discounted products and/or services - that an author has when they review/evaluate/recommend a product or service.
 
 The Mautic Community websites fall under these FTC rules.
 
@@ -95,7 +93,7 @@ Successful article submissions will have the following in common:
 What to avoid
 ^^^^^^^^^^^^^
 
-* **Important:** all article must abide by our **Content Guidelines**;
+* **Important:** all article must abide by our :ref:`content guidelines`;
 * Articles that do not have a direct connection to Mautic;
 * Self-promotional articles. For example: an article about a plugin or service written by the developer themselves, or an employee. Even if the plugin or service in question is free, the article will not be published;
 * Articles that draw attention to issues/problems/concerns. Mautic has other channels for that, but that isn't the purpose of the Community Blog;
@@ -118,11 +116,11 @@ Pre-launch article submission process
 
 .. Add :xref: to "https://mautic.atlassian.net/browse/MTEC" to [Editorial Calendar Jira Board]. It's not added to avoid duplication as this link is available in another PR that hasn't been merged.
 
-For all articles we require you to submit your pitch via the [Editorial Calendar Jira Board].
+For all articles, we require you to submit your pitch via the [Editorial Calendar Jira Board].
 
-Your pitch will be moved into either the ‘forming’ stage (where we will ask you to provide more information, research or background detail to help us determine whether it is appropriate for the Community Blog) or directly to the ‘writing’ stage.   
+Your pitch will be moved into either the ‘forming’ stage where we will ask you to provide more information, research or background detail to help us determine whether it is appropriate for the Community Blog, or directly to the ‘writing’ stage.
 
-When your pitch is moved into the writing stage, you take up the responsibility for writing the content within the time frame on the card. Please note the draft due date - this is when you need to have finished writing the article.  
+When your pitch is moved into the writing stage, you take up the responsibility for writing the content within the time frame on the card. Please note the draft due date - this is when you need to have finished writing the article.
 
 Style Guide summary
 ~~~~~~~~~~~~~~~~~~~
@@ -133,7 +131,7 @@ Style Guide summary
 * If you want to emphasize a phrase or word, use italics rather than underlining. Readers assume underlined text is hyperlinked.
 * Titles of books should be presented in italics.
 * Our preferred date format is month/day/year, for example, January 1, 2011.
-* Write "20 to 30," not "20-30."
+* Write '20 to 30', not '20-30'.
 * For most subjects, we are looking for articles consisting of approximately 400 to 650 words, with 500 words as a good target.
 * The style and tone should be clear, concise, positive, and upbeat.
 * Sign your article using some variation of the template: "<Author name> is a <job title> at <company name>. You can follow <pronouce> on <social networks/GitHub repository> and read more of <pronounce> <concentration area of knowledge> on <external company/personal blog URL>."
