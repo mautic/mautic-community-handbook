@@ -177,7 +177,7 @@ Voice and tone
 --------------
 
 Voice
-^^^^^
+~~~~~
 
 Most of us writing for the Mautic project have been in the shoes of our readers. We know what it’s like to be where they are. We know that Mautic and Marketing Automation can be a minefield of confusing terms, abbreviations, and complicated workflows.
 
@@ -192,7 +192,7 @@ This means that:
 * **We demystify.** We make the difficult and complex easy to understand. We bring clarity to marketing jargon, and help our readers succeed with their marketing projects.
 
 Tone
-^^^^
+~~~~
 
 The tone we use varies depending on the context. Each resource will explain the expected tone in further detail below.
 
@@ -218,7 +218,7 @@ Depending on the audience and country, there may be laws in place governing the 
 Accessibility includes being inclusive of all mental and physical capabilities, whether situational - broken glasses - or more permanent.
 
 Some basic requirements
-^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Our community will interact with our content in a variety of ways. They will come from many different cultures, and we want everybody to feel welcome, and be able to engage with our resources.  
 
@@ -232,17 +232,17 @@ As you write, consider the following:
 * Does this resource work well on mobile devices with accessibility features enabled?
 
 Guidelines
-^^^^^^^^^^
+~~~~~~~~~~
 
 Avoid directional language
-""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Avoid using language which infers a direction based on what the reader sees on the screen. Mautic’s interface will change depending on the device being used and the layout of the page.
 
 Instead of ‘Select from the options on the right menu’, use ‘Select from these options’, and list the options.
 
 Use headers
-"""""""""""
+^^^^^^^^^^^
 
 As already mentioned, headers are important to structure the resource, but they're also important for readers who might be using a screen reader which can hop between headers.
 
@@ -251,19 +251,19 @@ Headers must always be nested and consecutive. Don't skip a header level for sty
 The page title should be H1, main titles should be H2, and sub-topics use H3 and beyond. Try to avoid excessive nesting where possible.
 
 Use descriptive text for links
-""""""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Links should provide clear descriptions on the associated action or destination and not assume that the reader has understood from the surrounding text what the action or destination will be. 
 
 For example, ‘visit the Bounce Management page on the Documentation’ gives the reader a very clear understanding of where the link will take them, rather than ‘learn more’ which assumes the reader has understood the destination or action from the preceding text.
 
 Use plain language
-""""""""""""""""""
+^^^^^^^^^^^^^^^^^^
 
 Write in short sentences and using familiar words. Don't use jargon or slang. Always provide the full text of any abbreviations followed by the abbreviation in brackets. For example, Sender Policy Framework (SPF).
 
 Always use a descriptive alt text
-"""""""""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The alt text is the most basic form of image description, and should be included with all images.
 
@@ -276,12 +276,12 @@ The language used will depend on the image being included and its purpose:
 Each browser will handle alt tags differently - include an image caption where possible in addition to the alt text.
 
 Always include closed captioning and transcripts for videos
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 All videos should include closed captioning and transcripts. Information presented in videos should be available in other formats.
 
 Be aware of visual elements
-"""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Always aim for a high contrast between fonts and background colours in all resources.
 
@@ -300,7 +300,7 @@ General writing style
 ---------------------
 
 Audiences
-^^^^^^^^^
+~~~~~~~~~
 
 Write for a general, non-technical audience when contributing to the End-User Documentation and the Knowledgebase. Write for the developer audience when contributing to the Developer Documentation.
 
@@ -309,7 +309,7 @@ We want our resources to be usable by everyone, at any stage of their journey wi
 Assume the person you're writing for doesn't know how to use Mautic, or doesn’t know how to use the API without step-by-step instructions. 
 
 Clear explanations
-^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 If you're describing something that people may not understand - for example, how to reset file and folder permissions via SSH in the end-user documentation, or how to authenticate to use the API - ensure you link to resources that explain any assumed knowledge and provide links for basic tasks such as how to connect via SSH. Also, ensure that you explain the commands being used fully.  
 
@@ -318,7 +318,7 @@ This educates our community, reduces the chance of misunderstanding, and gives t
 We should write based on the assumptions that the user has the default settings in Mautic and are using the currently available stable release.
 
 Use descriptive heading titles
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Our articles are usually comprehensive. So, it's important to use descriptive headings to help people find the part of the article that they need. 
 
@@ -337,10 +337,10 @@ Technical guidelines
 --------------------
 
 General guidelines
-^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 Title
-"""""
+^^^^^
 
 * When creating a resource on the End-User Documentation or Knowledgebase, ideally, your title should be less than Google’s title character count of 65 characters. Your title can be longer than this if necessary. But make sure your important keywords are included in the first 65 characters, otherwise they will not be seen in search engines.
 * Capitalization: the first word in the title should be capitalized, as well as proper nouns and names, not every major word. Use "sentence" style, not "headline" style - the same applies to heading titles. See the :ref:`Style guide and copy rules` section below for other rules on capitalization.
@@ -349,14 +349,14 @@ Title
 Remember that the entire explanation doesn't have to go into the title. You can use the summary to give the user additional information about what's in the article.
 
 Search Engine Optimization
-""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Each article created or edited in the End-User Documentation and Knowledgebase user interface will have a tab called ‘SEO’. In this tab, you can override the default title, description, and other fields to ensure maximal optimisation for search engines.
 
 If you don't override these fields, the defaults will be used.
 
 Fix the slug
-""""""""""""
+^^^^^^^^^^^^
 
 When you create an article for the End-User Documentation or the Knowledgebase, Grav will automatically create a slug - the end of the URL for the article - based on the item title. Spaces are rendered as dashes. 
 
@@ -402,7 +402,7 @@ Writing style for Documentation projects
 ----------------------------------------
 
 General style requirements
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Review the contribution guidelines on :xref:`User Docs GitHub` or :xref:`Developer Docs GitHub` before contributing.
 * Use a formal writing style, similar to the way you’d expect to read instructions in a textbook. Please check your spelling, punctuation and grammar. **Tip:** free tools such as :xref:`Grammarly` can be very helpful with this.
