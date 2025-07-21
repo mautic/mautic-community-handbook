@@ -30,7 +30,7 @@ Unless such member affirmatively declines such right in writing, any existing me
 1.2 Voting member
 =================
 
-To gain voting rights, there are two ways: financially or practically contributing to Mautic.
+There are two ways to gain voting rights: financially and practically contributing to Mautic.
 
 1.2.1 Financial contributor
 ---------------------------
@@ -66,7 +66,7 @@ You also qualify through practical contributions if you dedicate at least five (
 
 Members who wish to claim voting rights through this method are required to self-certify via the :xref:`Practically Contributing Member Self Certification form` each year.
 
-The Community Council will verify all membership requests on a monthly basis. They will use the Savannah CRM tool to verify engagement within Mautic-owned properties and available tools to verify engagement with external properties.
+The Community Council verifies all membership requests on a monthly basis. They use the :xref:`Savannah CRM` tool to verify engagement within Mautic-owned properties and available tools to verify engagement with external properties.
 
 The name, affiliation, Working Group and Project associations of voting Members will be published to the Mautic membership once a suitable mechanism for doing so has been determined.
 
@@ -228,7 +228,7 @@ The following teams currently exist in the Mautic project as established in the 
 .. vale off
 
 #. Any member or group of members may propose a Team. In order to propose a vote to approve a Team, the members proposing the Team must first draft a proposed Team charter that at least specifies the purpose of the Team and its relationship to the Mautic project's mission, the work to be undertaken by such Team, how the members of the Team will be selected, the methods by which the Team will achieve its objectives, the methods of communication to be used by the members of the Team, how, what, and when the Team will report to the membership and/or the Community Council, and how the Team will be managed - including how the Leadership Team will be selected
-#. The Community Council may add new teams to the governance model by a general vote on a 'whoever turns up' basis of the whole community using lazy consensus, providing that a clear proposal per :ref:`Section 4.2.1 <proposal-to-form-a-new-team>` has been created and a proto-team established to demonstrate the viability of the team
+#. The Community Council may add new teams to the governance model by a general vote on a 'whoever turns up' basis of the whole community using lazy consensus, providing that a clear proposal per :ref:`Section 4.2.1<proposal-to-form-a-new-team>` has been created and a proto-team established to demonstrate the viability of the team
 
 .. vale on
 
@@ -270,7 +270,7 @@ Team Leads or voting members may establish one or more Working Groups as require
 
 #. Any voting member or group of voting members may propose a Working Group.
 
-   In order to propose a vote to approve a Working Group, the members proposing the Working Group must first draft a proposed Working Group charter that at least specifies the purpose of the Working Group and its relationship to the Mautic project's mission, the expected duration of the Working Group's existence, which may in some cases be ongoing, the work to be undertaken by such Working Group, how the members of the Working Group will be selected, the methods by which the Working Group will achieve its objectives, the methods of communication to be used by the members of the Working Group, how, what, and when the Working Group will report to the membership and/or their associated Team Lead, and how the Working Group will be managed (including how the leadership will be selected).
+   In order to propose a vote to approve a Working Group, the members proposing the Working Group must first draft a proposed Working Group charter that at least specifies the purpose of the Working Group and its relationship to the Mautic project's mission, the expected duration of the Working Group's existence, which may in some cases be ongoing, the work to be undertaken by such Working Group, how the members of the Working Group will be selected, the methods by which the Working Group will achieve its objectives, the methods of communication to be used by the members of the Working Group, how, what, and when the Working Group will report to the membership and/or their associated Team Lead, and how the Working Group will be managed, including how the leadership will be selected.
 
 #. Where a Working Group is expected to be created for a fixed duration, clear exit criteria must be determined in the charter at whose attainment the Working Group will be disbanded.
 #. The Community Council may, by vote, dissolve a Working Group at any time with agreement of the Team Lead under which the Working Group sits and any existing Working Group leaders.
@@ -286,7 +286,7 @@ Team Leads or voting members may establish one or more Working Groups as require
 
 .. vale off
 
-Any member of the community who is eligible to vote and who doesn't have any outstanding, unresolved code of conduct breaches or investigations may nominate themselves, or be nominated with consent by another, to stand for election to the role of Team Lead or Assistant Team Lead, Working Group Lead or Assistant Working Group Lead.
+Any member of the community who is eligible to vote and who doesn't have any outstanding, unresolved Code of Conduct breaches or investigations may nominate themselves, or be nominated with consent by another, to stand for election to the role of Team Lead or Assistant Team Lead, Working Group Lead or Assistant Working Group Lead.
 
 .. vale on
 
@@ -346,13 +346,13 @@ The Community Council shall, among other things:
 
 .. vale off
 
-* Determine and regularly report on the budget of the project - including the budgets of any team, committee, or Working Group which will be determined on an annual basis in collaboration with leaders of those entities
+* Determine and regularly report on the budget of the project. This includes the budgets of any team, committee, or Working Group, which will be determined on an annual basis in collaboration with leaders of those entities
 * Manage all fiscal operations and relationships, including the approval of expenditures
 * Manage any employees and contractors working for the Mautic project
 * Monitor and regularly report on the health of the project as a whole
-* Lead on strategic fundraising planning to support the long-term strategy and growth of Mautic - in collaboration with the fundraising working group
+* Lead on strategic fundraising planning to support the long-term strategy and growth of Mautic, in collaboration with the fundraising working group
 * Communicate and drive progress on the project's long term strategy
-* Manage, safeguard, and enforce the trademarks and brand assets of the Mautic project - in collaboration with the Legal and Finance Team
+* Manage, safeguard, and enforce the trademarks and brand assets of the Mautic project, in collaboration with the Legal and Finance Team
 * Review and sign any contractual agreements relating to the Mautic project
 * Review, document, communicate, and adopt any such policies and procedures as may be determined necessary by any team, committee, or Working Group
 * Execute any recommendations in relation to breaches of the Code of Conduct
@@ -497,7 +497,7 @@ The most important aspect of the role is to enable Mautic to succeed and, more s
 * Have a casting vote in the Mautic Community Council and other situations within the community where a tie-break situation may need resolving
 * Represent Mautic in public
 * Provide deep knowledge of all areas of the product, and also of the industry
-* Ensure that the community teams are on track, removing bottlenecks and addressing any conflicts that hold back progress
+* Ensure that the community teams are on track, removing bottlenecks, and addressing any conflicts that hold back progress
 * Generally, lead in the best sense of the word
 
 .. vale on
@@ -582,7 +582,7 @@ Contributors are people who contribute their work to Mautic. This includes but i
 * Participation in technical as well as non-technical discussions, 
 * Organizational considerations.
 
-Code contributions are very welcome, they're the life-blood of Mautic's open source project. In order to streamline and harmonize code quality, contributors must follow the contributing guidelines.
+Code contributions are very welcome. They're the life-blood of Mautic's open source project. In order to streamline and harmonize code quality, contributors must follow the contributing guidelines.
 
 .. vale off
 
@@ -632,7 +632,7 @@ Among the contributors to Mautic, some people have maintainer status, which cons
 
 The current list of active maintainers can be found on the :xref:`Mautic Project Maintainers` page.
 
-Maintainers are people who care about Mautic and want to see it grow and thrive. A maintainer does more than make changes to code. They have demonstrated their ability to collaborate and organize with the team, get the most knowledgeable people to review code or documentation, contribute high-quality code and documentation, as well as follow through to fix issues - in code or tests.
+Maintainers are people who care about Mautic and want to see it grow and thrive. A maintainer does more than make changes to code. They have demonstrated their ability to collaborate and organize with the team, get the most knowledgeable people to review code or documentation, contribute high-quality code and documentation, as well as follow through to fix issues in code or tests.
 
 Contributing to Mautic doesn't make you qualified to be a maintainer; it's about building trust with the current maintainers of the project and being a person that they can depend on and trust to make decisions in the best interest of the project, with personal views and preferences being put aside.
 
@@ -643,7 +643,7 @@ Contributing to Mautic doesn't make you qualified to be a maintainer; it's about
 
 .. vale off
 
-The saying 'If you want to become a maintainer, behave like a maintainer' holds true at Mautic. If you follow this advice, then rest assured that the Core Team will notice, and maintainer role will seek you out rather than the other way around.
+The saying "If you want to become a maintainer, behave like a maintainer" holds true at Mautic. If you follow this advice, then rest assured that the Core Team will notice, and maintainer role will seek you out rather than the other way around.
 
 .. vale on
 
@@ -651,22 +651,22 @@ Here are some ways that you can work towards what Mautic expects to see in a mai
 
 .. vale off
 
-* Help out users and other developers on GitHub, on the forums and on Slack
+* Help out users and other developers on GitHub, on the forums, and on Slack
 * Review and test the PRs submitted by others; this can help to offload the burden on existing maintainers, who will definitely appreciate your efforts
 * Participate in discussions about releases, roadmaps, architecture, and long-term plans
 * Help improve the website and the documentation
-* Help unstick issues that people don't want to - or can't - work on
+* Help unstick issues that people don't want to or can't work on
 * Participate in - or even initiate - real-world events such as user/developer meetups, papers/talks at conferences, in-person sprints, etc. Having people in the community meeting you in-person, human-to-human, is an important part of developing trust
 * Improve project infrastructure to increase the efficiency of maintainers and other contributors
-* Help raise the project's quality bar - for example, by improving code coverage analysis
+* Help raise the project's quality bar, for example, by improving code coverage analysis
 * As much as possible, keep your activity sustained rather than sporadic
 * Deliver on your promises - if you say you're going to do something, make sure you do it - or inform others as soon as it becomes clear you can't
 
 It should go without saying, but here it comes anyway: your participation in the project should be a natural part of your work with Mautic. If you find yourself undertaking tasks 'so that you can become a maintainer', then you're doing it wrong. This is particularly true if your motivations for wanting to become a maintainer are primarily negative, power-focused, or self-centered, for example:
 
-* You desire the power of a -1 vote - these should be used only extremely rarely in a healthy project
-* You want to push your own changes through unreviewed by others or move things along faster so you can get to your own - or your company's - goal faster. Mautic follows a clear code governance policy where even maintainers need to wait for a +1 from another maintainer
-* You only want to merge changes from other contributors within a particular affiliation group, for example, coworkers in the same organization; the maintainer role is about furthering a diverse project, not a narrow agenda.
+* You desire the power of a -1 vote. This should be used only extremely rarely in a healthy project.
+* You want to push your own changes through unreviewed by others or move things along faster so you can get to your own - or your company's - goal faster. Mautic follows a clear code governance policy where even maintainers need to wait for a +1 from another maintainer.
+* You only want to merge changes from other contributors within a particular affiliation group, for example, coworkers in the same organization. The maintainer role is about furthering a diverse project, not a narrow agenda.
 
 .. vale on
 
@@ -711,7 +711,7 @@ The honor role is maintained at the :xref:`Mautic Core Team` and in the :xref:`M
 
 .. vale on
 
-GitHub Admins are a subgroup of the Core Team who have elevated access to the GitHub organization. They can grant access to repositories, add, and remove people from teams, and change protections for branches.
+GitHub Admins are a subgroup of the Core Team who have elevated access to the GitHub organization. They can grant access to repositories, add and remove people from teams, and change protections for branches.
 
 Beyond those privileges they don't have any additional responsibilities to Maintainers.
 
@@ -743,7 +743,7 @@ Each release of Mautic will have a named Release Lead and Assistant Release Lead
 
 Their duties include setting the dates for feature freeze for the release, enforcing the feature freeze, coordinating the - mostly automated - tests of a release, writing the release notes and creating the tags defining the release and its pre-release versions where appropriate. They're also the primary person responsible for merging the PRs for the release, although other Maintainers may also merge PRs in collaboration with the Release Team.
 
-The full set of tasks can be found in the (currently internal use only) document Managing a Release. Their duties end after the release they managed is out. In the case of a major release, the release team is responsible for Alpha to General Availability releases.
+The full set of tasks can be found in the - currently internal use only - document Managing a Release. Their duties end after the release they managed is out. In the case of a major release, the release team is responsible for Alpha to General Availability releases.
 
 The upcoming release leads can be found on the :xref:`Mautic release leads` page.
 
@@ -756,7 +756,7 @@ The Mautic Security Team is focused on:
 * Releasing and disclosing security fixes in an ethical and timely way
 * Providing documentation on how to write secure code
 * Providing documentation on how to secure your Mautic instance
-* Helping the infrastructure team to keep the \*mautic.org infrastructure secure
+* Helping the infrastructure team to keep the ``mautic.org`` infrastructure secure
 
 Members of the Security Team aren't always members of the Core Team. As membership in the team gives the individual access to potentially destructive information, membership is limited to people who have a proven track record in the Mautic project.
 
@@ -793,7 +793,7 @@ For example, if knowledge of team information will allow a contributor to create
 
 .. vale on
 
-Offering team information to give others advance knowledge of an upcoming release that isn't yet public doesn't satisfy the 'need to know' - for example, letting an organization know about a zero-day for purposes of operational preparedness.
+Offering team information to give others advance knowledge of an upcoming release that isn't yet public doesn't satisfy the 'need to know'. For example, letting an organization know about a zero-day for purposes of operational preparedness.
 
 In the course of their duties, members should:
 
@@ -862,43 +862,31 @@ Open source project governance examples and resources
 
 .. vale off
 
-:xref:`PSF Bylaws`
-
-:xref:`PEP 8002 - Open Source Governance Survey`
-
-:xref:`Node.js Collection - Healthy Open Source`
-
-:xref:`FOSS Governance Libraries`
-
-:xref:`Governance of Open Source Software`
-
-:xref:`GitHub MVG`
+* :xref:`PSF Bylaws`
+* :xref:`PEP 8002 - Open Source Governance Survey`
+* :xref:`Node.js Collection - Healthy Open Source`
+* :xref:`FOSS Governance Libraries`
+* :xref:`Governance of Open Source Software`
+* :xref:`GitHub MVG`
 
 .. vale on
 
 Decision making models
 ======================
 
-:xref:`Direct democracy`
-
-:xref:`Representative democracy`
-
-:xref:`Garbage can model`
-
-:xref:`Consensus decision-making`
-
-:xref:`Instant-runoff voting`
-
-:xref:`Anarchist law`
-
-:xref:`Referendum`
+* :xref:`Direct democracy`
+* :xref:`Representative democracy`
+* :xref:`Garbage can model`
+* :xref:`Consensus decision-making`
+* :xref:`Instant-runoff voting`
+* :xref:`Anarchist law`
+* :xref:`Referendum`
 
 Org structures
 ==============
 
-:xref:`Flat organization`
-
-:xref:`Cooperative`
+* :xref:`Flat organization`
+* :xref:`Cooperative`
 
 Governance tools
 ================
