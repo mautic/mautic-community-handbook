@@ -37,8 +37,13 @@ Content Guidelines
 * Do not use any copyrighted material unless it's released under a free use license such as Creative Commons or compatible. If such copyrighted material is used, proper credit/attribution must be given.
 * In case you use copyrighted material that demands authorization from the author, make sure you have that authorization before you post.
 * Do not link to any site that contains adult content, sexually oriented material or might otherwise be considered offensive. Any post containing an inappropriate link will be deleted and the poster will receive a warning.
-* Do not propose/link to any site that contains warez ("stolen" software)/copyrighted software/materials that can be downloaded illegally.
-* **No commercial advertising is permitted.** This includes advertising of any services and/or products not fully compliant with the GPL license. In regards to this, you can post links towards your website at the end of the blog and you can write a sentence that leads to your website. For example: "This information can be found on <this link>" or "Read more in this article in <your native language>." Any posts deemed to be self promotion, advertising, or spam can and will be removed. NO SPAM - NO ADVERTISING. For example, posting and making excessive, inappropriate and unnecessary references to your products and websites is self promotion.
+* Do not propose/link to any site that contains warez ('stolen' software)/copyrighted software/materials that can be downloaded illegally.
+* **No commercial advertising is permitted.** This includes advertising of any services and/or products not fully compliant with the GPL license.
+  
+  In regards to this, you can post links towards your website at the end of the blog and you can write a sentence that leads to your website. For example, "This information can be found on <this link>" or "Read more in this article in <your native language>."
+
+  Any posts deemed to be self promotion, advertising, or spam can and will be removed. NO SPAM - NO ADVERTISING. For example, posting and making excessive, inappropriate and unnecessary references to your products and websites is self promotion.
+
 * This site is centered on Mautic, Open Source software and other Marketing and Development matters. It is not a place to promote ideological, religious, or political matters. All such discussions will be deleted.
 
 Disclosure of Compensated Relationships
