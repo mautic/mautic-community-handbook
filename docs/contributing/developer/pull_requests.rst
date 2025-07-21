@@ -255,7 +255,7 @@ Developer documentation
 
 .. vale off
 
-Each new feature should include a reference to a PR in the :xref:`Developer Docs GitHub` repository, if applicable. Any enhancements or bug fixes affecting the end-user or developer experience should have a PR mentioned in the description, which updates the relevant resources in the documentation.
+Each new feature should include a reference to a PR in the :xref:`Developer Docs GitHub`, if applicable. Any enhancements or bug fixes affecting the end-user or developer experience should have a PR mentioned in the description, which updates the relevant resources in the documentation.
 
 .. vale on
 
