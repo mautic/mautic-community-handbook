@@ -7,8 +7,8 @@ We appreciate your interest in contributing to Mautic. Improving existing conten
 
 As a project, we also apply to the Season of Docs each year - keep an eye on social media for future opportunities.
 
-Getting started
-***************
+Getting started with writing for Mautic
+***************************************
 
 The first thing to do is to join ``#t-marketing`` channel on :xref:`Mautic Community Slack` and introduce yourself.
 
@@ -31,7 +31,7 @@ Mautic Community Blog Writer & Editorial Guidelines
 ---------------------------------------------------
 
 Content Guidelines
-^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 * All posts must be in English, unless posted in a specific international area. If posting in an international area, please use the language of that area, and not English.  
 * Do not discuss illegal activities. Our servers are hosted in the USA and so it is subject to US law. Please do not expose us to any unnecessary legal liability.
@@ -44,7 +44,7 @@ Content Guidelines
 * This site is centered on Mautic, Open Source software and other Marketing and Development matters. It is not a place to promote ideological, religious, or political matters. All such discussions will be deleted.
 
 Disclosure of Compensated Relationships
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The US Government Federal Trade Commission has rules requiring the disclosure of any compensated relationship (employment, for pay, or in return for free/discounted products and/or services) that an author has when they review/evaluate/recommend a product or service.
 
@@ -53,7 +53,7 @@ The Mautic Community websites fall under these FTC rules.
 "When recommending a plugin or other product to help a user solve their issue, you must disclose any affiliations you may have with the company or group that authors that particular product. This includes, but is not limited to: any paid or non-paid relationships past or present, receiving any promotional products or services, or any other similar information."
 
 Copyright
-^^^^^^^^^
+~~~~~~~~~
 
 The Mautic Project reserves the right to remove any content at any time without notice.  
 
@@ -64,27 +64,27 @@ As a matter of general practice, Mautic's Legal and Finance Team does not get in
 Community blog authors keep their copyright but the Mautic Project also has the right to reuse the work. If someone does not want to give the Mautic Project that right, it should be discussed with the Project Lead.
 
 Article Submission Guide
-^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-Our audience
-""""""""""""
+Audience
+^^^^^^^^
 
 The international Mautic community includes everyone, from first time users to experienced developers. We also talk to marketers that may be using other platforms, but that might want to migrate to Mautic once they get to know our tool a little better. All submissions should be provided in US English.
 
 Word count
-""""""""""
+^^^^^^^^^^
 
 For most subjects, we are looking for articles consisting of approximately 400 to 650 words, with 500 words as a good target.
 
 More in-depth articles will be considered depending on the subject matter. If you are interested in writing about a subject that is extremely long, consider breaking it up into a series of multiple articles. If this is the case, please submit a summary of your subject.
 
 Submission deadline
-"""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^
 
 Please submit articles at least seven calendar days before the expected publish date. This allows time for editorial review, amendments and publishing. Also, please be available to review any questions or suggestions that you may get before publishing your article.
 
 What Mautic looks for
-"""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^
 
 Successful article submissions will have the following in common:
 
@@ -93,7 +93,7 @@ Successful article submissions will have the following in common:
 * Authors are members of the Mautic community, for example, users, commentators, forum members, developers, documentation writers, etc.
 
 What to avoid
-"""""""""""""
+^^^^^^^^^^^^^
 
 * **Important:** all article must abide by our **Content Guidelines**;
 * Articles that do not have a direct connection to Mautic;
@@ -109,12 +109,12 @@ Our expectation is for articles submitted to be as 'publication ready’ as poss
 **Articles which are not in accordance with these guidelines may be rejected**.
 
 Interaction with readers
-""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 Articles will also allow readers to add comments, and we definitely favor articles that will generate constructive discussion. The Mautic Community Blog’s most popular articles will likely succeed in encouraging discussions with readers, so keep this in mind when writing your article.
 
 Pre-launch article submission process
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. Add :xref: to "https://mautic.atlassian.net/browse/MTEC" to [Editorial Calendar Jira Board]. It's not added to avoid duplication as this link is available in another PR that hasn't been merged.
 
@@ -125,7 +125,7 @@ Your pitch will be moved into either the ‘forming’ stage (where we will ask 
 When your pitch is moved into the writing stage, you take up the responsibility for writing the content within the time frame on the card. Please note the draft due date - this is when you need to have finished writing the article.  
 
 Style Guide summary
-^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~
 
 * All spelling should be in US English.
 * Write numbers one to nine as words and numbers 10 and above as numerals.
