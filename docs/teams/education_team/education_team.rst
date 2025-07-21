@@ -140,7 +140,7 @@ The Education Team need people with skills as:
 
 .. vale off
 
-End-user documentation
+End-User Documentation
 **********************
 
 One of the projects that the Education Team are responsible for is the :xref:`User Documentation`.
@@ -155,8 +155,8 @@ This document is based on the :xref:`Mozilla writing guide` and the :xref:`Mailc
 General guidelines applicable to all resources
 ==============================================
 
-Our goals and principles
-------------------------
+Goals and principles
+--------------------
 
 The Education Team’s goals and principles are to:
 
@@ -187,9 +187,9 @@ Whether people have a question they need to answer or are just learning more abo
 
 This means that:
 
-* **We use simple, clear language.** We understand that the world of Marketing is riddled with buzz words, acronyms and confusing terminology. We strip this back and get down to what the reader needs to know. We always explain terms, phrases and concepts in a clear and concise way, and encourage our readers to explore further.
-* **We care.** We've been where our readers are. We care about their success. We want their businesses and organizations to use Mautic to its full potential. We care deeply about helping them to succeed and our writing helps them every step of the way.
-* **We demystify.** We make the difficult and complex easy to understand. We bring clarity to marketing jargon, and help our readers succeed with their marketing projects.
+* **Use simple, clear language.** We understand that the world of Marketing is riddled with buzz words, acronyms and confusing terminology. We strip this back and get down to what the reader needs to know. We always explain terms, phrases and concepts in a clear and concise way, and encourage our readers to explore further.
+* **Care.** We've been where our readers are. We care about their success. We want their businesses and organizations to use Mautic to its full potential. We care deeply about helping them to succeed and our writing helps them every step of the way.
+* **Demystify.** We make the difficult and complex easy to understand. We bring clarity to marketing jargon, and help our readers succeed with their marketing projects.
 
 Tone
 ~~~~
@@ -220,12 +220,12 @@ Accessibility includes being inclusive of all mental and physical capabilities, 
 Some basic requirements
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Our community will interact with our content in a variety of ways. They will come from many different cultures, and we want everybody to feel welcome, and be able to engage with our resources.  
+Our community interact with our content in a variety of ways. They come from many different cultures, and we want everybody to feel welcome, and be able to engage with our resources.  
 
 As you write, consider the following:
 
 * Would the language in this resource make sense to someone who doesn’t know about Mautic?
-* Does the language in this resource alienate any groups of people? We do not use gendered terms in any of our resources. Where a pronoun is considered important for the flow of the resource we use they/them/theirs.
+* Does the language in this resource alienate any groups of people? We don't use gendered terms in any of our resources. Where a pronoun is considered important for the flow of the resource we use they/them/theirs.
 * Could someone quickly understand this resource and scan to the part that's relevant for them?
 * If the colours, images, video or other resources aren't visible, could the reader still understand the content in the resource?
 * Is the markup clear and structured? Are headings structured to ensure that the reader is guided from step to step?
@@ -239,7 +239,7 @@ Avoid directional language
 
 Avoid using language which infers a direction based on what the reader sees on the screen. Mautic’s interface will change depending on the device being used and the layout of the page.
 
-Instead of ‘Select from the options on the right menu’, use ‘Select from these options’, and list the options.
+Instead of "Select from the options on the right menu," use "Select from these options," and list the options.
 
 Use headers
 ^^^^^^^^^^^
@@ -255,12 +255,12 @@ Use descriptive text for links
 
 Links should provide clear descriptions on the associated action or destination and not assume that the reader has understood from the surrounding text what the action or destination will be. 
 
-For example, ‘visit the Bounce Management page on the Documentation’ gives the reader a very clear understanding of where the link will take them, rather than ‘learn more’ which assumes the reader has understood the destination or action from the preceding text.
+For example, "visit the Bounce Management page on the Documentation" gives the reader a very clear understanding of where the link will take them rather than "learn more," which assumes the reader has understood the destination or action from the preceding text.
 
 Use plain language
 ^^^^^^^^^^^^^^^^^^
 
-Write in short sentences and using familiar words. Don't use jargon or slang. Always provide the full text of any abbreviations followed by the abbreviation in brackets. For example, Sender Policy Framework (SPF).
+Write in short sentences and using familiar words. Don't use jargon or slang. Always provide the full text of any abbreviations followed by the abbreviation in brackets. For example, Sender Policy Framework - SPF.
 
 Always use a descriptive alt text
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -273,7 +273,7 @@ The language used will depend on the image being included and its purpose:
 * If the image is serving a specific function, describe what's inside the image in detail. If the reader doesn't see the image, they should be able to understand the same information as someone who had seen the image.
 * If you're sharing an image which shows a graph or chart, include the data provided in the alt text so that readers have the same information when they don't see the image.
 
-Each browser will handle alt tags differently - include an image caption where possible in addition to the alt text.
+Each browser handles alt text differently. You need to include an image caption where possible, in addition to the alt text.
 
 Always include closed captioning and transcripts for videos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -304,23 +304,23 @@ Audiences
 
 Write for a general, non-technical audience when contributing to the End-User Documentation and the Knowledgebase. Write for the developer audience when contributing to the Developer Documentation.
 
-We want our resources to be usable by everyone, at any stage of their journey with Mautic. Our resources shouldn't be biased or feature references to any third party providers. If you're unsure, always ask the Education team before making any contributions.
+All resources should be usable by everyone at any stage of their journey with Mautic, and shouldn't be biased or feature references to any third-party providers. If you're unsure, always ask the Education Team before making any contributions.
 
-Assume the person you're writing for doesn't know how to use Mautic, or doesn’t know how to use the API without step-by-step instructions. 
+Assume the person you're writing for doesn't know how to use Mautic or doesn’t know how to use the API without step-by-step instructions. 
 
 Clear explanations
 ~~~~~~~~~~~~~~~~~~
 
-If you're describing something that people may not understand - for example, how to reset file and folder permissions via SSH in the end-user documentation, or how to authenticate to use the API - ensure you link to resources that explain any assumed knowledge and provide links for basic tasks such as how to connect via SSH. Also, ensure that you explain the commands being used fully.  
+If you're describing something that people may not understand - for example, how to reset file and folder permissions via SSH in the End-User Documentation, or how to authenticate to use the API - ensure you link to resources that explain any assumed knowledge and provide links for basic tasks such as how to connect via SSH. Also, ensure that you explain the commands being used fully.  
 
-This educates our community, reduces the chance of misunderstanding, and gives the user further resources to learn more if they wish.
+Doing so educates the community, reduces the chance of misunderstanding, and gives the user further resources to learn more if they wish.
 
-We should write based on the assumptions that the user has the default settings in Mautic and are using the currently available stable release.
+You should write based on the assumptions that the user has the default settings in Mautic and are using the currently available stable release.
 
 Use descriptive heading titles
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Our articles are usually comprehensive. So, it's important to use descriptive headings to help people find the part of the article that they need. 
+Mautic's articles are usually comprehensive. So, it's important to use descriptive headings to help people find the part of the article that they need. 
 
 Take a look at your heading structure. Does it work with the introduction to give you a nice overview of the scope of the article? Do the links in the Table of Contents make sense?
 
@@ -329,9 +329,9 @@ To summarize, you should follow these guidelines:
 * When writing for the Knowledgebase, keep it short. People come to the Knowledgebase looking for quick solutions. They might not care about the inner workings of Mautic. They just want to know what they should do to fix their problem. Link out to documentation articles or other resources which might include further details.
 * When writing for the End-User Documentation or Developer Documentation, ensure that you fully explain all aspects of the feature or functionality. Don't make assumptions that a user will already know or understand how something works. Link to other documentation resources as appropriate.
 * Use headings to organize your content and allow people to quickly find the relevant part of the resource.
-* Avoid jargon. Be specific. Use words in the title and in the article that the reader would use. If a teenager wouldn’t understand what's contained within the article, write it so that they would. See the next section for a more extensive guide.
+* Avoid jargon. Be specific. Use words in the title and in the article that the reader would use. If a teenager wouldn’t understand what's contained within the article, write it so that they would.
 
-Read the next section for more comprehensive guidelines which are platform-specific.
+Read the next section for more comprehensive guidelines, which are platform-specific.
 
 Technical guidelines
 --------------------
@@ -342,25 +342,25 @@ General guidelines
 Title
 ^^^^^
 
-* When creating a resource on the End-User Documentation or Knowledgebase, ideally, your title should be less than Google’s title character count of 65 characters. Your title can be longer than this if necessary. But make sure your important keywords are included in the first 65 characters, otherwise they will not be seen in search engines.
-* Capitalization: the first word in the title should be capitalized, as well as proper nouns and names, not every major word. Use "sentence" style, not "headline" style - the same applies to heading titles. See the :ref:`Style guide and copy rules` section below for other rules on capitalization.
-* Try to vary the way you name articles. Don't use the same verbs or phrases in every title. For example, don't always start articles with "How" and avoid using "-ing" words.
+* When creating a resource on the End-User Documentation or Knowledgebase, ideally, your title should be less than Google’s title character count of 65 characters. Your title can be longer than this if necessary. But make sure your important keywords are included in the first 65 characters, otherwise, they're not seen in search engines.
+* Capitalization. The first word in the title should be capitalized, as well as proper nouns and names, not every major word. Use 'sentence' style, not 'headline' style. The same applies to heading titles. See the :ref:`Style guide and copy rules` section below for other rules on capitalization.
+* Try to vary the way you name articles. Don't use the same verbs or phrases in every title. For example, don't always start articles with 'How' and avoid using '-ing' words.
 
 Remember that the entire explanation doesn't have to go into the title. You can use the summary to give the user additional information about what's in the article.
 
 Search Engine Optimization
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Each article created or edited in the End-User Documentation and Knowledgebase user interface will have a tab called ‘SEO’. In this tab, you can override the default title, description, and other fields to ensure maximal optimisation for search engines.
+Each article created or edited in the End-User Documentation and Knowledgebase user interface will have a tab called ‘SEO’. In this tab, you can override the default title, description, and other fields to ensure maximal optimization for search engines.
 
-If you don't override these fields, the defaults will be used.
+If you don't override these fields, the defaults are used.
 
 Fix the slug
 ^^^^^^^^^^^^
 
 When you create an article for the End-User Documentation or the Knowledgebase, Grav will automatically create a slug - the end of the URL for the article - based on the item title. Spaces are rendered as dashes. 
 
-The slug should be consistent with the title, but given the tighter space restraint, doesn’t need to be the same. Be sure to check the end of the auto-generated slug once the item is saved. Sometimes a word gets cut off or it ends in a dash - please fix things like that.
+The slug should be consistent with the title, but given the tighter space restraint, doesn’t need to be the same. Be sure to check the end of the auto-generated slug once the item is saved. Sometimes, a word gets cut off or it ends in a dash - please fix things like that.
 
 The slug can be overridden under the ‘Advanced’ tab. Simply select the checkbox next to ‘slug’ and enter your preferred slug for the article. Note you should not include any paths before the slug for categories/structure, just the article slug.
 
@@ -369,7 +369,7 @@ Work with End-User Documentation
 
 To learn how to create a new resource, see Create a new Documentation resource.
 
-See :doc:`/contributing/contributing_docs_rst` for an overview of how the Documentation works and the syntax that should be used.
+See :doc:`/contributing/contributing_docs_rst` for an overview of how the documentation works and the syntax that should be used.
 
 .. Add :xref: to "https://mautic.atlassian.net/browse/TEDU" to [Jira board]. It's not added to avoid duplication as this link is available in another PR that hasn't been merged.
 
@@ -448,13 +448,13 @@ Make step-by-step instructions easy to follow
 
 The main thing to keep in mind when writing step-by-step instructions is to be careful to include all the actions needed to complete the task. 
 
-If, for example, you have to click "OK" after selecting a preference to move to the next step, be sure to include clicking "OK" as part of that step. 
+If, for example, you have to click 'OK' after selecting a preference to move to the next step, be sure to include clicking 'OK' as part of that step. 
 
 Some additional things to consider:
 
 * There are always multiple ways to achieve a result. We should always pick the most user-friendly way by using the graphical user interface and menus when possible.
 * Use full sentences when describing how to access the user interface.
-* Include expected results when giving instructions. For example, "Click "OK" and the window will close."
+* Include expected results when giving instructions. For example, "Click 'OK' to close the window."
 
 Organizing content in the Knowledgebase
 ---------------------------------------
@@ -496,7 +496,7 @@ Style guide and copy rules
 
 You should use an active, conversational style when you write for the Knowledgebase. 
 
-Avoid saying things like, "If a user's email has been sent" and instead, say, "If you’ve sent the email."
+Avoid saying things like, "If a user's email has been sent," and instead, say, "If you’ve sent the email."
 
 Here are other common style and copy issues you may run into when writing support articles - if you don't see your issue here, there's also a Mautic Style Guide:
 
