@@ -369,7 +369,7 @@ Work with End-User Documentation
 
 To learn how to create a new resource, see Create a new Documentation resource.
 
-See [Contributing to the Documentation][contributing-to-docs] for an overview of how the Documentation works and the syntax that should be used.
+See :doc:`/contributing/contributing_docs_rst` for an overview of how the Documentation works and the syntax that should be used.
 
 .. Add :xref: to "https://mautic.atlassian.net/browse/TEDU" to [Jira board]. It's not added to avoid duplication as this link is available in another PR that hasn't been merged.
 
