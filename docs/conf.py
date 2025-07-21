@@ -69,7 +69,6 @@ locale_dirs = ['locale']
 linkcheck_ignore = [
       # Anchors are picked up as broken
     r"https://docs.mautic.org/policies/financial-policy#10-foreign-assets-control",
-    r"https://github.com/abiosoft/colima?tab=readme-ov-file#installation",
     # The GitHub Search UI requires users to be authenticated with session cookies, which we can't set up programmatically
     r"https://github.com/search*",
     r"https://mau.tc/*",
