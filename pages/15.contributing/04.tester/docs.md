@@ -143,6 +143,24 @@ Once this process has completed, you will be able to access your local testing i
 
 Log in with the credentials above, and you're ready to go!
 
+>>>>>> If you're testing multiple versions of Mautic (e.g. 4.x, 5.x, 6.x, or 7.x), it's best to clone each into a separate folder using:
+
+>>>>>> ```bash
+>>>>>> git clone --branch 4.x https://github.com/mautic/mautic.git mautic4
+>>>>>> git clone --branch 5.x https://github.com/mautic/mautic.git mautic5
+>>>>>> git clone --branch 6.x https://github.com/mautic/mautic.git mautic6
+>>>>>> git clone --branch 7.x https://github.com/mautic/mautic.git mautic7
+>>>>>> ```
+
+>>>>>> DDEV uses the folder name as the project name, so this automatically gives you clean URLs like:
+
+>>>>>> * [https://mautic4.ddev.site](https://mautic4.ddev.site)
+>>>>>> * [https://mautic5.ddev.site](https://mautic5.ddev.site)
+>>>>>> * [https://mautic6.ddev.site](https://mautic6.ddev.site)
+>>>>>> * [https://mautic7.ddev.site](https://mautic7.ddev.site)
+
+>>>>>> No need to manually change the `name:` in `.ddev/config.yaml`.
+
 ## Using developer mode
 When testing Mautic, it is important that you are notified of any errors rather than having them output to the logs.  We also don't want to have to constantly rebuild the Javascript and CSS files when changes are made.
 
