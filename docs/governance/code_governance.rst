@@ -15,6 +15,8 @@ Small changes such as typo fixing, bug fixes, translation changes, minor UI impr
 Examples - Tier 1
 -----------------
 
+.. vale on
+
 :xref:`github_pr_8393`- simple bug fix with very few changes
 
 :xref:`github_pr_8116`- very simple bug fix
@@ -24,10 +26,10 @@ Examples - Tier 1
 Requirements for merging a Tier 1 PR
 ------------------------------------
  
- * Thorough testing to ensure that it does what its expected to do and doesn't break anything else
- * Full unit testing coverage
- * Code review from 1 Core Team member
- * Full testing and approval by at least one community member - could be the person doing the code review, but should not be from the same company/organization as the person submitting the PR
+* Thorough testing to ensure that it does what its expected to do and doesn't break anything else
+* Full unit testing coverage
+* Code review from 1 Core Team member
+* Full testing and approval by at least one community member - could be the person doing the code review, but should not be from the same company/organization as the person submitting the PR
 
 For example, if an employee or contractor from Company A were to submit a PR, the community testing/approval must come from someone outside Company A influence - not an employee, contractor, etc, of Company A
 
@@ -108,7 +110,6 @@ Examples - Tier 1 issues
 
 :xref:`github_pr_8986` - checkbox in the wrong place
 
-
 Tier 2 issues
 ==============
 
@@ -120,7 +121,6 @@ Examples - Tier 2 issues
 :xref:`github_pr_8621`- impacts all SparkPost users
 
 :xref:`github_pr_7062`- appears often but not always when multiple forms are added on a single page, making it tricky to reproduce
-
 
 Tier 3 issues
 =============
@@ -137,7 +137,7 @@ Examples - Tier 3 issues
 Labels
 ======
 
-We currently have quite a lot of :xref:`Mautic labels` which are organized as below
+We currently have quite a lot of :xref:`Mautic labels`, which are organized as below:
 
 Complexity-based labels
 -----------------------
@@ -222,13 +222,13 @@ Some points of clarification
 
 **Core Team:** individuals selected by the Project Lead with technical ability to manage and maintain the core of Mautic - includes Release Leaders, Core Committers, Maintainers (see :xref:`Mautic governance`) currently listed here.
 
-**Product Team:** members of the Mautic Product Team. They may also be part of the Core Team, but not necessarily. Currently listed here .
+**Product Team:** members of the Mautic Product Team. They may also be part of the Core Team, but not necessarily. Currently listed on the :xref:`Mautic Product Team` page.
 
 **Triage Team:**  members of the Mautic Product Team who are responsible for triaging issues and PRs. They may also be part of the Core Team, but not necessarily. Currently listed here.
 
 **Code review and testing:** must not be done by the author of the PR.
 
-**Closing Stale Prs:** if the PR is pending feedback or inactive for over 30 days, the Product Team may decide to close the PR.
+**Closing Stale PRs:** if the PR is pending feedback or inactive for over 30 days, the Product Team may decide to close the PR.
 
 **Closing stale issues:** if the issue is pending feedback or inactive for over 14 days, the Product Team may decide to close the issue.
 
@@ -238,4 +238,3 @@ Branching strategy
 As Mautic maintains multiple major and minor versions of Mautic (``5.x``, ``6.x``), a defined branching strategy on GitHub is used.
 Please refer to the resources in the :doc:`Contributing to Mautic </contributing/contributing_docs_rst>` page to understand the branching strategy.
 Mautic has started to create a :xref:`Supported Versions` table on GitHub and updates that throughout the year with more specific dates.
-
