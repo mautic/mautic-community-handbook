@@ -11,6 +11,19 @@ To contribute please make a PR for review by the Community Leadership Team.
 [![Documentation Status](https://readthedocs.org/projects/mautic-community-handbook/badge/?version=latest)](https://mautic-community-handbook.readthedocs.io/en/latest/?badge=latest)
 
 
+## Build documentation locally using DDEV
+
+We now support [DDEV](https://ddev.com) to simplify local development and testing of documentation updates.
+
+Follow these steps:
+
+1. Clone this repository to your local machine.
+2. Navigate into the project directory: `cd mautic-community-handbook`
+3. Start the DDEV environment: `ddev start`
+4. After making changes to documentation files, build the updated docs using: `ddev exec make html`
+5. Open your browser and navigate to [https://mautic-community-handbook.ddev.site/](https://mautic-community-handbook.ddev.site/) to view your changes.
+
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
