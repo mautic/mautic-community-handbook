@@ -408,10 +408,9 @@ PR testing
 
 .. vale on
 
-.. Replace [Testing PRs] with reference to https://contribute.mautic.org/contributing-to-mautic/developer/community-reviews#the-pull-request-review-process
 .. Replace [Code governance] with :doc:`/governance/code_governance`
 
-If you want to test a PR from other developers, see the [Testing PRs] section. All PRs require testing by others in the Community and must have the code reviewed by a member of the Core Team. Read more information in the [Code governance] section.
+If you want to test a PR from other developers, see the :ref:`PR review process` section. All PRs require testing by others in the Community and must have the code reviewed by a member of the Core Team. Read more information in the [Code governance] section.
 
 Automated testing
 -----------------
@@ -492,3 +491,86 @@ Static analysis
 Mautic uses :xref:`PHPSTAN` for some of its parts during continuous integration tests. To test your specific contribution locally, install PHPSTAN globally with ``composer global require phpstan/phpstan-shim``.
 
 Mautic can't have PHPSTAN as its devDependency because it requires PHP7+. To execute analysis on a specific bundle, run ``~/.composer/vendor/phpstan/phpstan-shim/phpstan.phar analyse app/bundles/*Bundle``.
+
+Issues and PRs review
+*********************
+
+Issues and PRs reviewers are the backbone of Mautic's success. Anyone familiar with Mautic and PHP is welcome to review bug reports and PRs. You don't need to be an expert to help.
+
+If you don't feel ready to contribute code or patches, reviewing issues and PRs can be a great start to getting involved and giving back.
+
+Why reviewing is important
+==========================
+
+There are significantly more PRs and bug reports than members of the Mautic Core Team available to review, fix, and merge them. Community reviews are essential to ensure that reported bugs are happening and that new features and fixes are working as expected and not introducing new problems.
+
+Things to pay attention to when reviewing an issue or a PR:
+
+* **Bug Reports**: Ensure the accuracy and completeness of the issue. Can you reproduce the bug? Is any important information missing?
+
+* **PRs**: PRs contain code that fixes bugs or implements new functionality. When you review a PR, you want to ensure that the fixes or enhancements are implemented correctly and covered by test cases, that new bugs aren't introduced, and that backward compatibility is maintained.
+
+.. note::
+
+   Before you start, remember that you are reviewing the results of someone's hard work. A good review comment should express appreciation for the contributor's effort, acknowledge what they did well, point out areas for improvement, and suggest a next step.
+
+Review processes
+================
+
+.. note::
+
+   Mautic uses :xref:`GitHub` to manage bug reports and PRs. You must have an account and log in to do reviews.
+
+Bug report review process
+-------------------------
+
+If you'd like to help triage an issue, explore the :xref:`Mautic open issues list` in the Mautic repository to find new issues.
+
+Here are the steps to triage a bug report:
+
+.. replace [set up your local environment] in point 2 with reference to /contributing/developer/local_environment_setup
+
+#. **Is the report complete?**
+
+   Good bug reports contain enough information, such as a detailed description of the bug, how to reproduce it, and environment details, for example, Mautic version, operation system - OS, etc. It may sometimes include code samples and screenshots or screen recordings.
+
+   Issue forms ensure the basic information set, but sometimes, this may not be enough to reproduce the issue. If you are not sure, ask for clarification.
+
+#. **Reproduce the bug**
+
+   You can [set up your local environment] and test whether you can reproduce the bug on your system. If the reporter did not provide enough information, ask for clarification.
+
+#. **Leave a comment**
+
+   At last, add a comment to the bug report. Thank the reporter for reporting the bug. Here is an example:
+
+   ::
+
+    Thank you, @mautibot, for creating this bug report. I could reproduce the bug on my end.
+    Please let me know if you'd like to work on it.
+
+PR review process
+-----------------
+
+.. Replace [tier of the PR] with :doc:`tier of the PR </governance/code_governance>`
+
+Every change to Mautic happens via PRs. Every PR must have a number of successful tests and code reviews to be merged to the core and released in the next version - the number required depends on the [tier of the PR]. Testing a PR is a great way to move Mautic forward and personally improve its quality and stability.
+
+Here are the steps to review a PR:
+
+.. Reference [Set up your local environment] to /contributing/developer/local_environment_setup
+
+#. [Set up your local environment] to test PRs locally.
+#. Find a :xref:`Mautic PRs` to test. You can also seek PRs with the label :xref:`Mautic ready-to-test issue label`.
+#. Read the description and steps to test. If it's a bug fix, follow the steps to ensure you can recreate the issue.
+#. Pull the PR to your local machine to use the development environment for testing.
+
+   To do this, see :xref:`Checking out pull requests locally` section on GitHub Docs or run ``gh pr checkout <number>`` command if you're using GitHub CLI.
+
+#. Clear cache for the development environment by running the ``rm -rf var/cache/*`` or ``bin/console cache:clear -e dev`` command.
+#. Follow the steps from the PR description again to see if the result is exactly as described.
+#. Submit a review in the PR - see :xref:`Submitting your review` section on GitHub Docs. If there is a problem, provide as much information as possible, including error log messages.
+
+.. note::
+
+   The Education Team plans to provide more thorough guidelines for triaging bug reports and reviewing PRs in the near future.
