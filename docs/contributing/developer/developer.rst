@@ -96,7 +96,11 @@ Get the Mautic source code
 
       git clone https://github.com/USERNAME/mautic.git
 
+  .. vale off
+
   Or, you can :xref:`install GitHub CLI` and run:
+
+  .. vale on
 
   .. code-block:: bash
 
@@ -114,7 +118,7 @@ Please see the instructions in the [Local development setup] for installing the 
 Choose the right branch
 -----------------------
 
-Before working on a PR, you must determine which branch you use as the base branch for your work. Mautic follows :xref:`Semver`, best illustrated by the below example.
+Before working on a PR, you must determine the base branch for your work. Mautic follows :xref:`Semver`, best illustrated by the below example.
 
 Assuming that:
 
@@ -124,11 +128,15 @@ Assuming that:
 
 ``c`` = future major release - for example, ``5`` in ``5.0``
 
-* All PRs are made against the ``c.x`` branch in the first instance - for example, ``5.x``.
+.. vale off
+
+* All PRs are made against the ``c.x`` branch in the first instance, for instance, ``5.x``.
 * If the PR should be merged in an earlier release than the next major release of Mautic, duplicate the PR against the relevant ``a.b`` branch for bug fixes - for example, ``5.0`` - or ``a.x`` branch for features and enhancements - for example, ``5.x``.
-* Backwards compatibility breaking changes can only be released in a major version, so they should only ever be made against the ``c.x`` branch - for example, ``5.x``.
+* Backwards compatibility breaking changes can only be released in a major version, so they should only ever be made against the ``c.x`` branch, such as, ``5.x``.
 
 The exception to this rule is if the last feature release - for example, ``5.4`` - has already been made, all features would be made against the ``c.x`` branch - for example, ``6.x`` rather than the ``5.x`` branch. This is usually made clear in release notes, but if you're unsure, please ask in :xref:`Mautic product team Slack`.
+
+.. vale on
 
 As an example, if Mautic just released a ``4.0.0`` version of Mautic, the following would apply:
 
@@ -179,9 +187,13 @@ Then, create a new branch from the ``5.0`` branch to work on the bug fix:
 
     git checkout -b BRANCH_NAME 5.0
 
+.. vale off
+
 .. tip::
 
    Use a descriptive name for your branch. For example, ``issue_XXX`` is a good convention for bug fixes. Replace the 'XXX' with the issue number.
+
+.. vale on
 
 The mentioned ``checkout`` command automatically brings you to the newly created branch. Don't forget to verify the branch you are working on with ``git branch``.
 
@@ -190,36 +202,52 @@ Step 4: work on changes
 
 Work on the code as much as you want and commit as much as you want, but keep in mind the following:
 
+.. vale off
+
 * Mautic follows :xref:`Symfony coding standards` by implementing a pre-commit git hook that runs :xref:`PHP-cs-fixer`. When you install or update Mautic using Composer with the commands ``composer install`` and ``composer update``, it installs the git hook. This git hook automatically handles all code styling, so you don't need to worry about anything besides working on your code.
 * Add unit tests to confirm the bug is fixed or the new feature works.
+
+.. vale on
 
 Backward compatibility breaks
 -----------------------------
 
 Try not to break backward compatibility - BC. If you must do so, please provide a compatibility layer to support the old way. PRs that break BC have less chance of acceptance, as they must wait for a major release.
 
+.. vale off
+
 What is BC break?
 ~~~~~~~~~~~~~~~~~
 
-Any change that may break a Plugin, either by using or extending a class. As Mautic has the Plugin ecosystem, we must consider the impact, even on code we might not use ourselves.
+.. vale on
+
+BC break is any change that may break a Plugin, either by using or extending a class. Given that Mautic has a Plugin ecosystem, it's important to consider the impact, even on code that may not be directly used.
 
 Examples:
 
 .. Replace [deprecated] with :doc:`deprecated </governance/deprecation_policy>`
 
-* Removing or renaming a public or protected method in a non-final class. Create a new method instead and mark the old one [depcrecated].
+* Removing or renaming a public or protected method in a non-final class. Create a new method instead and mark the old one [deprecated].
 * Changing the signature of a private or public method in a non-final class. This means adding/removing method parameters or adding/changing parameters or return types. Create a new method instead and mark the old one deprecated.
 * Changing the behavior of a method so it does something differently.
 * Adding a new method to an existing interface. Create a new interface instead.
 * Whenever you change a :xref:`Symfony Twig` template, think about the Themes that are overwriting this template. For example, changing the template name can cause issues.
 
+.. vale off
+
 What is not considered a BC break?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. vale on
+
 Changing the constructor of a PHP service isn't considered a BC break. Services are autowired, so there is no harm in changing the dependencies.
+
+.. vale off
 
 Write your code with BC breaks in mind
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. vale on
 
 Think about the BC breaks as you write a new code.
 
@@ -275,15 +303,23 @@ Code standards
 
 Mautic follows Symfony's :xref:`Symfony coding standards` by implementing a pre-commit git hook that runs :xref:`PHP-cs-fixer`. When you install or update Mautic using Composer with the commands ``composer install`` and ``composer update``, it automatically installs the git hook. This git hook automatically deals with any code styling. You can format your code as you like, and then the git hook automatically converts it to Mautic's code style.
 
+.. vale off
+
 Developer Documentation
 -----------------------
+
+.. vale on
 
 Each new feature should include a reference to a PR in the :xref:`Developer Docs GitHub`, if applicable. Any enhancements or bug fixes affecting the end-user or developer experience should have a PR mentioned in the description, which updates the relevant resources in the documentation.
 
 Writing tests
 -------------
 
+.. vale off
+
 All code contributions - especially enhancements/features - should include adequate and appropriate unit tests using :xref:`PHPUnit` and/or :xref:`Symfony functional tests`. The Core Team won't merge PRs without these tests. See the :ref:`Automated testing` section for more extensive information.
+
+.. vale on
 
 Step 7: submit a PR
 ===================
@@ -318,10 +354,14 @@ Check that all tests still pass and push your branch remotely:
 
     git push --force origin BRANCH_NAME
 
-Sometimes, if there are a lot of merge conflicts, it can be easier to re-create your PR on an updated version of the branch, especially if you aren't confident in correctly resolving the conflicts. Please ask for help in :xref:`Mautic product team Slack` if you are struggling with rebasing your PR.
+Sometimes, if there are a lot of merge conflicts, it can be easier to re-create your PR on an updated version of the branch, especially if you aren't confident in correctly resolving the conflicts. Please ask for help in :xref:`Mautic product team Slack` if you are struggling with PR rebase.
+
+.. vale off
 
 Make a PR
 ---------
+
+.. vale on
 
 You can now make a PR on the :xref:`Mautic GitHub repository`.
 
@@ -340,8 +380,12 @@ If you think someone fails to keep this advice in mind and want another perspect
 
 The :xref:`Mautic Product Team` decides which PRs get merged, so their feedback is the most relevant. Please don't feel pressured to refactor your code immediately when someone provides feedback and wait for the Product Team to review it.
 
+.. vale off
+
 Rework PR
 ---------
+
+.. vale on
 
 Based on the feedback on your PR, you might need to make some changes. Before re-submitting the PR, rebase with ``upstream/4.x`` or ``upstream/4.4`` as appropriate - but *don't merge* - and force the push to the origin:
 
@@ -357,8 +401,12 @@ Based on the feedback on your PR, you might need to make some changes. Before re
 Step 9: testing
 ===============
 
+.. vale off
+
 PR testing
 ----------
+
+.. vale on
 
 .. Replace [Testing PRs] with reference to https://contribute.mautic.org/contributing-to-mautic/developer/community-reviews#the-pull-request-review-process
 .. Replace [Code governance] with :doc:`/governance/code_governance`
