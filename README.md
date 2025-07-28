@@ -20,7 +20,7 @@ Follow these steps:
 1. Clone this repository to your local machine.
 2. Navigate into the project directory: `cd mautic-community-handbook`
 3. Start the DDEV environment: `ddev start`
-4. After making changes to documentation files, build the updated docs using: `ddev exec make html`
+4. After making changes to documentation files, build the updated docs using: `ddev build-docs`
 5. Open your browser and navigate to [https://mautic-community-handbook.ddev.site/](https://mautic-community-handbook.ddev.site/) to view your changes.
 
 

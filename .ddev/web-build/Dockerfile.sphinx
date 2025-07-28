@@ -2,7 +2,7 @@
 RUN apt-get update && apt-get install -y python3-pip python3-venv
 
 # Define the virtual environment location and create it
-ENV VENV_DIR=/opt/venv
+ENV VENV_DIR=/opt/mautic-docs-venv
 RUN python3 -m venv $VENV_DIR
 
 # Copy Python dependencies into the container and install them in the virtualenv
@@ -10,7 +10,7 @@ COPY requirements.txt /tmp/requirements.txt
 RUN . $VENV_DIR/bin/activate && pip install --upgrade pip && pip install -r /tmp/requirements.txt
 
 # Ensure the virtualenv's bin directory is added to PATH so that its tools (like sphinx-build) are accessible in all contexts
-ENV PATH="/opt/venv/bin:$PATH"
+ENV PATH="$PATH:/opt/mautic-docs-venv/bin"
 
 # Persist the updated PATH for interactive shells (e.g., when using `ddev ssh`)
-RUN echo 'export PATH="/opt/venv/bin:$PATH"' > /etc/profile.d/venv-path.sh
+RUN echo 'export PATH="$PATH:$VENV_DIR/bin"' > /etc/profile.d/venv-path.sh
