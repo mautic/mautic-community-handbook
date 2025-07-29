@@ -51,7 +51,7 @@ If you're able to fix a bug, whether you discovered it or something reported by 
 Reporting a security vulnerability
 ==================================
 
-Please read the :xref:`Mautic security team` page for complete information about security issues.
+Please read the :xref:`Mautic security team` page for complete information about security issues and how to report them.
 
 Pull requests
 *************
@@ -227,11 +227,11 @@ Examples:
 
 .. Replace [deprecated] with :doc:`deprecated </governance/deprecation_policy>`
 
-* Removing or renaming a public or protected method in a non-final class. Create a new method instead and mark the old one [deprecated].
-* Changing the signature of a private or public method in a non-final class. This means adding/removing method parameters or adding/changing parameters or return types. Create a new method instead and mark the old one deprecated.
-* Changing the behavior of a method so it does something differently.
-* Adding a new method to an existing interface. Create a new interface instead.
-* Whenever you change a :xref:`Symfony Twig` template, think about the Themes that are overwriting this template. For example, changing the template name can cause issues.
+* Remove or rename a public or protected method in a non-final class. Create a new method instead and mark the old one [deprecated].
+* Change the signature of a private or public method in a non-final class. This means adding/removing method parameters or adding/changing parameters or return types. Create a new method instead and mark the old one [deprecated].
+* Change the behavior of a method so it does something differently.
+* Add a new method to an existing interface. Create a new interface instead.
+* Whenever you change a :xref:`Symfony Twig` template, think about the Themes that are overwriting this template. For instance, changing the template name can cause issues.
 
 .. vale off
 
@@ -508,7 +508,7 @@ Why reviewing is important
 
 There are significantly more PRs and bug reports than members of the Mautic Core Team available to review, fix, and merge them. Community reviews are essential to ensure that reported bugs are happening and that new features and fixes are working as expected and not introducing new problems.
 
-Things to pay attention to when reviewing an issue or a PR:
+Things to pay attention to when you triage an issue or review a PR:
 
 * **Bug Reports**: ensure the accuracy and completeness of the issue. Can you reproduce the bug? Is any important information missing?
 * **PRs**: ensure that the bug fixes or new enhancements are implemented correctly and covered by test cases - that new bugs aren't introduced and that backward compatibility is maintained.
@@ -520,7 +520,7 @@ Things to pay attention to when reviewing an issue or a PR:
 Review processes
 ================
 
-.. note::
+.. important::
 
    Mautic uses :xref:`GitHub` to manage bug reports and PRs. You must have an account and log in to do reviews.
 
@@ -549,7 +549,7 @@ Here are the steps to triage a bug report:
 
    ::
 
-    Thank you, @mautibot, for creating this bug report. I could reproduce the bug on my end.
+    Thank you for creating this bug report, @mautibot. I could reproduce the bug on my end.
     Please let me know if you'd like to work on it.
 
 .. vale off
@@ -574,7 +574,7 @@ Here are the steps to review a PR:
 #. Read the description and steps to test. If it's a bug fix, follow the steps to ensure you can recreate the issue.
 #. Pull the PR to your local machine to use the development environment for testing.
 
-   To do this, see :xref:`Checking out pull requests locally` section on GitHub Docs or, if you're using GitHub CLI, run ``gh pr checkout <number>`` command.
+   To do this, follow the instructions at the :xref:`Checking out pull requests locally` section on GitHub Docs or, if you're using GitHub CLI, run ``gh pr checkout <number>`` command.
 
 #. Clear cache for the development environment by running the ``rm -rf var/cache/*`` or ``bin/console cache:clear -e dev`` command.
 #. Follow the steps from the PR description again to see if the result is exactly as described.
