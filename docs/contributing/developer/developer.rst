@@ -488,6 +488,12 @@ Mautic uses :xref:`PHPSTAN` for some of its parts during continuous integration 
 
 Mautic can't have PHPSTAN as its devDependency because it requires PHP7+. To execute analysis on a specific bundle, run ``~/.composer/vendor/phpstan/phpstan-shim/phpstan.phar analyse app/bundles/*Bundle``.
 
+.. attention::
+
+   If you've added a new feature or changed any UI to Mautic, please add it to the :xref:`Developer Docs` and/or :xref:`User Documentation`.
+
+   Read the :doc:`/contributing/contributing_docs_rst` section to work with all documentation.
+
 .. vale off
 
 Issues and PRs review
