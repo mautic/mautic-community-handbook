@@ -44,9 +44,7 @@ Providing step-by-step instructions for reproducing a bug is extremely important
 Fixing a bug
 ------------
 
-.. ref to Pull Requests section
-
-If you're able to fix a bug, whether you discovered it or something reported by someone in the community, please make a pull request - PR - by following the instructions on the [Pull Requests] page.
+If you're able to fix a bug, whether you discovered it or something reported by someone in the community, please make a pull request - PR - by following the instructions on the :ref:`Pull requests` section.
 
 Reporting a security vulnerability
 ==================================
@@ -111,9 +109,7 @@ Get the Mautic source code
 Install the software stack
 --------------------------
 
-.. reference to local env setup section
-
-Please see the instructions in the [Local development setup] for installing the software stack.
+Please see the instructions in the :ref:`Local environment setup` for installing the software stack.
 
 Choose the right branch
 -----------------------
@@ -531,8 +527,6 @@ If you'd like to help triage an issue, explore the :xref:`Mautic open issues lis
 
 Here are the steps to triage a bug report:
 
-.. replace [set up your local environment] in point 2 with reference to /contributing/developer/local_environment_setup
-
 #. **Is the report complete?**
 
    Good bug reports contain enough information, such as a detailed description of the bug, how to reproduce it, and environment details, for example, Mautic version, operation system - OS, etc. It may sometimes include code samples and screenshots or screen recordings.
@@ -541,7 +535,7 @@ Here are the steps to triage a bug report:
 
 #. **Reproduce the bug**
 
-   You can [set up your local environment] and test whether you can reproduce the bug on your system. If the reporter didn't provide enough information, ask for clarification.
+   You can :ref:`set up your local environment<Local environment setup>` and test whether you can reproduce the bug on your system. If the reporter didn't provide enough information, ask for clarification.
 
 #. **Leave a comment**
 
@@ -565,16 +559,14 @@ Every change to Mautic happens via PRs. Every PR must have a number of successfu
 
 Here are the steps to review a PR:
 
-.. Reference [Set up your local environment] to /contributing/developer/local_environment_setup
-
 .. vale off
 
-#. [Set up your local environment] to test PRs locally.
+#. :ref:`Set up your local environment<Local environment setup>` to test PRs locally.
 #. Find a :xref:`Mautic PRs` to test. You can also seek PRs with the label :xref:`Mautic ready-to-test issue label`.
 #. Read the description and steps to test. If it's a bug fix, follow the steps to ensure you can recreate the issue.
 #. Pull the PR to your local machine to use the development environment for testing.
 
-   To do this, follow the instructions at the :xref:`Checking out pull requests locally` section on GitHub Docs or, if you're using GitHub CLI, run ``gh pr checkout <number>`` command.
+   To do this, follow the instructions at the :xref:`Checking out pull requests locally` section on GitHub Docs or, if you're using GitHub CLI, run the ``gh pr checkout <number>`` command.
 
 #. Clear cache for the development environment by running the ``rm -rf var/cache/*`` or ``bin/console cache:clear -e dev`` command.
 #. Follow the steps from the PR description again to see if the result is exactly as described.
@@ -585,3 +577,157 @@ Here are the steps to review a PR:
 .. note::
 
    The Education Team plans to provide more thorough guidelines about bug reports triage and PRs review in the near future.
+
+Local environment setup
+***********************
+
+This page guides you through setting up your local environment to use and develop Mautic.
+
+.. contents::
+  :local:
+  :depth: 2
+
+Development/build process requirements
+======================================
+
+.. tip::
+
+   Working with :xref:`DDEV` is recommended, since it includes almost all required software out of the box - PHP, Composer, MySQL - and has some handy features like MailHog, PHPMyAdmin, dynamic PHP version switching, and much more.
+
+   You can find Mautic-specific installation instructions for DDEV in the :xref:`Local Mautic development with DDEV` blog post.
+
+.. vale off
+
+#. Mautic uses Git as a version control system. Download and install :xref:`Git` for your OS
+#. Install a server, PHP, and MySQL to run Mautic locally. Read :xref:`Local Mautic development with DDEV` blog post to use DDEV or use :xref:`AMP software bundle` packages for your OS
+#. Install :xref:`Composer`, the dependency manager for PHP
+#. Install :xref:`npm`
+#. Install :xref:`Grunt`
+#. Install :xref:`GitHub CLI`
+
+.. vale on
+
+Mautic requirements
+===================
+
+#. See the :xref:`Mautic requirements` page for details of the required PHP version, PHP extensions, database, and web servers
+#. PHP modules - already included in DDEV and most AMP packages:
+
+   * required: ``zip``, ``xml``, ``mcrypt``, ``imap``, ``mailparse``
+   * recommended: ``openssl``, ``opcache`` / ``apcu`` / ``memcached``
+   * recommended for development: ``xdebug``
+
+#. Recommended memory limit: minimal 256 MB for testing and 512 MB or more for production
+#. Recommended MySQL defaults. Set it by running: 
+
+   .. code-block:: bash
+
+      SET GLOBAL innodb_default_row_format=DYNAMIC; SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
+
+
+Installation
+============
+
+#. Open a terminal/console window
+#. Change directory to the server root. For example, ``cd /var/www`` if your local server root is at ``/var/www``
+#. Clone the repository by running ``gh repo clone mautic/mautic``
+#. Change directory to ``mautic`` by running ``cd mautic``
+#. Install dependencies with ``composer install``. If you're using DDEV, run ``ddev start``
+#. Open Mautic in a browser - probably at ``http://localhost/mautic`` - and follow the installation steps. If you're using DDEV, the installer sets up Mautic for you. Then you can access the instance at ``https://mautic.ddev``
+
+Keeping up-to-date
+==================
+
+Source files
+------------
+
+Each time you update Mautic's source after the initial setup/installation via a new checkout, download, git pull, etc., you need to clear the cache. To do so, run the following command:
+
+ .. code-block:: bash
+
+	$ cd /your/mautic/directory
+
+	$ php bin/console cache:clear
+
+.. note::
+
+   If you're accessing Mautic through the development environment via ``index_dev.php``, you must add ``--env=dev`` to the PHP command above.
+
+Vendors
+-------
+
+Run ``composer install`` to install new vendors and upgrade the existing ones.
+
+.. vale off
+
+Database Schema
+---------------
+
+.. vale on
+
+.. important::
+
+   Before running these commands, please make a backup of your database.
+
+Updating from a :xref:`Mautic tagged releases` to a tagged release includes Schema changes in a migrations file. To apply the changes, run:
+
+.. code-block:: php
+
+	$ php bin/console doctrine:migrations:migrate
+
+If you are updating to the latest source - remember, this is alpha - first run:
+
+.. code-block:: php
+
+    $ php bin/console doctrine:schema:update --dump-sql
+
+This list out the queries Doctrine wants to execute to get the schema up-to-date. No queries are actually executed. Review the queries to ensure there is nothing detrimental to your data.
+
+If you're satisfied with the queries, execute them with:
+
+.. code-block:: php
+
+    $ php bin/console doctrine:schema:update --force
+
+Your schema should now be up-to-date with the source.
+
+Development environment
+=======================
+
+Mautic downloaded from GitHub has the development environment. You can access it by adding ``index_dev.php`` after the Mautic URL. For example, ``http://localhost/mautic/index_dev.php/s/``. In case of CLI commands, add ``--env=dev`` attribute to it.
+
+This development environment displays the PHP errors, warnings, and notices directly as the output, so you don't have to open the log to see them. It also loads translations without a cache, so every change you make is visible without clearing it. The only changes which require clearing the cache are in the ``config.php`` files.
+
+.. vale off
+
+Regarding assets like JavaScript and CSS, the source files are loaded instead of concatenated, minified files. This way, the changes in those files will be directly visible when refreshed. If you want to see the change in the production environment, run this command:
+
+.. vale on
+
+.. code-block:: bash
+
+  bin/console mautic:assets:generate
+
+In many cases, LESS files builds the CSS files. Mautic uses Grunt to compile the changes in the LESS files. Follow the below steps:
+
+.. vale off
+
+#. Install the Grunt CLI globally, by running:
+
+   .. code-block:: bash
+
+     npm install -g grunt-cli
+
+#. Go to the Mautic root directory and run:
+
+   .. code-block:: bash
+
+     npm install
+     
+#. Compile the changes in the LESS files by running: 
+
+   .. code-block:: bash
+
+     grunt compile-less
+
+.. vale on
