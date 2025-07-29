@@ -492,10 +492,14 @@ Mautic uses :xref:`PHPSTAN` for some of its parts during continuous integration 
 
 Mautic can't have PHPSTAN as its devDependency because it requires PHP7+. To execute analysis on a specific bundle, run ``~/.composer/vendor/phpstan/phpstan-shim/phpstan.phar analyse app/bundles/*Bundle``.
 
+.. vale off
+
 Issues and PRs review
 *********************
 
-Issues and PRs reviewers are the backbone of Mautic's success. Anyone familiar with Mautic and PHP is welcome to review bug reports and PRs. You don't need to be an expert to help.
+.. vale on
+
+Issues and PRs reviewers are the backbone of Mautic's success. Anyone familiar with Mautic and PHP is welcome to triage bug reports and review PRs. You don't need to be an expert to help.
 
 If you don't feel ready to contribute code or patches, reviewing issues and PRs can be a great start to getting involved and giving back.
 
@@ -506,9 +510,8 @@ There are significantly more PRs and bug reports than members of the Mautic Core
 
 Things to pay attention to when reviewing an issue or a PR:
 
-* **Bug Reports**: Ensure the accuracy and completeness of the issue. Can you reproduce the bug? Is any important information missing?
-
-* **PRs**: PRs contain code that fixes bugs or implements new functionality. When you review a PR, you want to ensure that the fixes or enhancements are implemented correctly and covered by test cases, that new bugs aren't introduced, and that backward compatibility is maintained.
+* **Bug Reports**: ensure the accuracy and completeness of the issue. Can you reproduce the bug? Is any important information missing?
+* **PRs**: ensure that the bug fixes or new enhancements are implemented correctly and covered by test cases - that new bugs aren't introduced and that backward compatibility is maintained.
 
 .. note::
 
@@ -534,11 +537,11 @@ Here are the steps to triage a bug report:
 
    Good bug reports contain enough information, such as a detailed description of the bug, how to reproduce it, and environment details, for example, Mautic version, operation system - OS, etc. It may sometimes include code samples and screenshots or screen recordings.
 
-   Issue forms ensure the basic information set, but sometimes, this may not be enough to reproduce the issue. If you are not sure, ask for clarification.
+   Issue forms ensure the basic information set, but sometimes, this may not be enough to reproduce the issue. If you aren't sure, ask for clarification.
 
 #. **Reproduce the bug**
 
-   You can [set up your local environment] and test whether you can reproduce the bug on your system. If the reporter did not provide enough information, ask for clarification.
+   You can [set up your local environment] and test whether you can reproduce the bug on your system. If the reporter didn't provide enough information, ask for clarification.
 
 #. **Leave a comment**
 
@@ -549,8 +552,12 @@ Here are the steps to triage a bug report:
     Thank you, @mautibot, for creating this bug report. I could reproduce the bug on my end.
     Please let me know if you'd like to work on it.
 
+.. vale off
+
 PR review process
 -----------------
+
+.. vale on
 
 .. Replace [tier of the PR] with :doc:`tier of the PR </governance/code_governance>`
 
@@ -560,17 +567,21 @@ Here are the steps to review a PR:
 
 .. Reference [Set up your local environment] to /contributing/developer/local_environment_setup
 
+.. vale off
+
 #. [Set up your local environment] to test PRs locally.
 #. Find a :xref:`Mautic PRs` to test. You can also seek PRs with the label :xref:`Mautic ready-to-test issue label`.
 #. Read the description and steps to test. If it's a bug fix, follow the steps to ensure you can recreate the issue.
 #. Pull the PR to your local machine to use the development environment for testing.
 
-   To do this, see :xref:`Checking out pull requests locally` section on GitHub Docs or run ``gh pr checkout <number>`` command if you're using GitHub CLI.
+   To do this, see :xref:`Checking out pull requests locally` section on GitHub Docs or, if you're using GitHub CLI, run ``gh pr checkout <number>`` command.
 
 #. Clear cache for the development environment by running the ``rm -rf var/cache/*`` or ``bin/console cache:clear -e dev`` command.
 #. Follow the steps from the PR description again to see if the result is exactly as described.
 #. Submit a review in the PR - see :xref:`Submitting your review` section on GitHub Docs. If there is a problem, provide as much information as possible, including error log messages.
 
+.. vale on
+
 .. note::
 
-   The Education Team plans to provide more thorough guidelines for triaging bug reports and reviewing PRs in the near future.
+   The Education Team plans to provide more thorough guidelines about bug reports triage and PRs review in the near future.
