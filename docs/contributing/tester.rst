@@ -11,16 +11,16 @@ Here is a video which explains the easy way as outlined below:
 
 <div class="grav-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/fqnT3kaDaW4?si=KXwViqwFBZzfog9h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 
-We maintain a board which shows you a list of all of the bugs and features that we want to get tested -  check it out here: [Open Source Friday board][open-source-friday-board].
+Mautic maintains :xref:`Mautic OSS Fridays board` which shows you a list of all of the bugs and features that we want to get tested.
 
 The easy way: using Gitpod
 **************************
 
-Since the [4.1 release][mautic-4.1] support for [Gitpod][gitpod] has been introduced. 
+Since the :xref:`Mautic 4.1 release` support for :xref:`Gitpod` has been introduced. 
 
 This allows you to quickly spin up a Mautic instance with a pull request applied, in the cloud. The Mautic instance also has a mail catching tool (Mailhog) and PHPMyAdmin available to view database tables.  While there will be some pull requests which can't be tested in this way (for example if they are testing the installation process) the vast majority can be.
 
-Testing  a bug or a new feature with Gitpod is as simple as clicking a button once you have installed the [Gitpod Browser Extension][gitpod-browser] in Chrome and Firefox. 
+Testing  a bug or a new feature with Gitpod is as simple as clicking a button once you have installed the :xref:`Gitpod Browser Extension` in Chrome and Firefox. 
 
 This will add a green 'Gitpod' button on the right hand side of every pull request, and has the added benefit of also adding the button on the main repository and any branch or tag, allowing you to quickly spin up a specific version of Mautic in Gitpod. You can also copy the URL of the PR and open a Gitpod instance manually on your Gitpod dashboard, or using various automation tools like Alfred or Raycast.  
 
@@ -28,13 +28,13 @@ Once you have the browser extension installed, click the green button -  the fir
 
 Once the installer is done, it shows the URLs for the Mautic user interface, as well as for Mailhog and PHPMyAdmin (in case you need to check outgoing emails or test things in the database). It also shows you the default credentials to use for the login. Sometimes it can take a few minutes for the process to complete, so please wait until it does!
 
-Then follow the test instructions in the pull request, and [report back your findings][report-findings]. The default username will always be admin, and the password will be ``Maut1cR0cks!``.
+Then follow the test instructions in the pull request, and :ref:`report back your findings<Leaving your review>`. The default username will always be admin, and the password will be ``Maut1cR0cks!``.
 
 .. note::
 
    If you're testing an older version of Mautic than ``5.1``, use the password ``mautic``.
 
-If you are testing a bug and you need to reproduce this before you apply the pull request, you can use the link [https://gitpod.io/#https://github.com/mautic/mautic][gitpod-default] to spin up a Mautic instance based on our default branch.
+If you are testing a bug and you need to reproduce this before you apply the pull request, you can use this link :xref:`Mautic Gitpod link` to spin up a Mautic instance based on our default branch.
 
 Top tips
 ========
@@ -78,7 +78,7 @@ In DDEV we can set the database and PHP version in a file located in the folder 
 Resetting your local testing environment
 ----------------------------------------
 
-To quickly reset your local testing environment by deleting the DDEV containers without a database snapshot, removing the cache directory, and removing the ``local.php`` file you can run ``ddev delete --omit-snapshot --yes && rm -rf var/cache && rm app/config/local.php``. 
+To quickly reset your local testing environment by deleting the DDEV containers without a database snapshot, removing the cache directory, and removing the ``local.php`` file, you can run ``ddev delete --omit-snapshot --yes && rm -rf var/cache && rm app/config/local.php``. 
 
 Note that from Mautic 5, the location of the ``local.php`` file is now ``config/local.php``.
 
@@ -89,14 +89,15 @@ Prerequisites
 =============
 
 Before starting, you will need a few pieces of software on your computer:
-* [Docker Desktop][docker-desktop]
-* [DDEV][ddev]
-* [Git][git]
-* [GitHub CLI][github-cli]
 
-Once you have these installed, we recommend that you use an editor such as [Visual Studio Code][vscode] which will allow you to interact with files, folders and the command line. There are other editors and Integrated Development Environments (IDEs) so if you already have one that you like, by all means use that!
+* :xref:`Docker Desktop`
+* :xref:`DDEV get started`
+* :xref:`Git downloads`
+* :xref:`GitHub CLI`
 
-You will also need to register for an account at [github.com][github] if you don't already have one. This allows you to leave comments when you've tested things, and also means you can make fixes yourself in the future.
+Once you have these installed, we recommend that you use an editor such as :xref:`VS Code` which will allow you to interact with files, folders and the command line. There are other editors and Integrated Development Environments (IDEs) so if you already have one that you like, by all means use that!
+
+You will also need to register for an account at :xref:`GitHub signup` if you don't already have one. This allows you to leave comments when you've tested things, and also means you can make fixes yourself in the future.
 
 Downloading Mautic
 ==================
@@ -127,7 +128,7 @@ Once you are in the folder you want to work from, we need to pull down a copy of
 
 The first time you run this command, it will ask you to authenticate with GitHub. Just follow the steps, and once you've set up the authentication it won't bother you for some time.
 
-This will pull down the GitHub repository at [https://github.com/mautic/mautic][mautic-repo] to your local machine, ready for you to start testing with.
+This will pull down the GitHub repository at :xref:`Mautic GitHub repository` to your local machine, ready for you to start testing with.
 
 Setting up a local DDEV instance
 ================================
@@ -190,7 +191,7 @@ Using developer mode
 
 When testing Mautic, it is important that you are notified of any errors rather than having them output to the logs.  We also don't want to have to constantly rebuild the JavaScript and CSS files when changes are made.
 
-For this reason, we use developer mode when testing in the Mautic Community, which is set in the local environment file.  DDEV has dev mode enabled by default - read more about [environments][environments].  
+For this reason, we use developer mode when testing in the Mautic Community, which is set in the local environment file.  DDEV has dev mode enabled by default - read more about :xref:`Mautic environments docs` on Mautic Developer Documentation.  
 
 Testing your first pull request
 *******************************
@@ -240,19 +241,3 @@ Once you are done with testing the pull request, it is good practice to get back
 Where 5.x is the branch that you want to return to.
 
 This will check out the branch called ``5.x`` which is where we started from.  Now you're ready to go and find another pull request to test! Have a little celebration, you helped make Mautic even more awesome! THANK YOU!
-
-
-[gitpod-browser]: <https://www.gitpod.io/docs/configure/user-settings/browser-extension>
-[docker-desktop]: <https://www.docker.com/products/docker-desktop>
-[ddev]: <https://ddev.readthedocs.io/en/stable/#installation>
-[github-cli]: <https://cli.github.com>
-[git]: <https://git-scm.com/download/>
-[vscode]: <https://code.visualstudio.com/download>
-[github]: <https://github.com/join>
-[mautic-repo]: <https://github.com/mautic/mautic>
-[environments]: <https://devdocs.mautic.org/en/5.x/development-environment/environments.html>
-[mautic-4.1]: <https://github.com/mautic/mautic/releases/tag/4.1.0>
-[gitpod]: <https://www.gitpod.io>
-[gitpod-default]: <https://gitpod.io/#https://github.com/mautic/mautic>
-[report-findings]: <https://contribute.mautic.org/contributing-to-mautic/tester#leaving-your-review>
-[open-source-friday-board]: <https://github.com/orgs/mautic/projects/13?pane=info>
