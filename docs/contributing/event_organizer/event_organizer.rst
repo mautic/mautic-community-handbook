@@ -24,9 +24,7 @@ Finding open tasks
 
 Each team maintains its own Jira board, where you can find the current open tasks and a backlog of things that the team plans to work on.
 
-.. Add link to the Community Team's Jira board. It's in "jira_community_team_board.py" at the "links" folder
-
-Feel free to access the Community Team's [Jira board].
+Feel free to access the Community Team's :xref:`Jira board community team`.
 
 If you don't already have a Jira account, please sign up for one and then ask one of the team to invite your email address to our Jira and Confluence instances.
 
