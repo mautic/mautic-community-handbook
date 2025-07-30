@@ -7,9 +7,9 @@ We are always looking out for people to help us with these processes. Even if yo
 
 Once you have a local testing environment established (or you have a free account on GitHub which allows you to use Gitpod), it is very quick and easy to test bugs and features.
 
-Here is a video which explains the easy way as outlined below:
+.. tip::
 
-<div class="grav-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/fqnT3kaDaW4?si=KXwViqwFBZzfog9h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+  You can watch the short tutorial about :xref:`How to test bugs and features in Mautic` on YouTube, which explains the easy way to do it.
 
 Mautic maintains :xref:`Mautic OSS Fridays board` which shows you a list of all of the bugs and features that we want to get tested.
 
