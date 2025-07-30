@@ -1,6 +1,8 @@
 Tester
 ######
 
+.. vale off
+
 Every new feature and bug fix that is released in Mautic has undergone testing and code review by members of the community before it makes it into a release.
 
 We are always looking out for people to help us with these processes. Even if you can spare an hour or two a week, it would significantly increase the number of bugs and features that make it out into the hands of Mautic users.
@@ -18,15 +20,15 @@ The easy way: using Gitpod
 
 Since the :xref:`Mautic 4.1 release` support for :xref:`Gitpod` has been introduced. 
 
-This allows you to quickly spin up a Mautic instance with a pull request applied, in the cloud. The Mautic instance also has a mail catching tool (Mailhog) and PHPMyAdmin available to view database tables.  While there will be some pull requests which can't be tested in this way (for example if they are testing the installation process) the vast majority can be.
+This allows you to quickly spin up a Mautic instance with a pull request applied, in the cloud. The Mautic instance also has a mail catching tool (MailHog) and PHPMyAdmin available to view database tables. While there will be some pull requests which can't be tested in this way (for example if they are testing the installation process) the vast majority can be.
 
 Testing  a bug or a new feature with Gitpod is as simple as clicking a button once you have installed the :xref:`Gitpod Browser Extension` in Chrome and Firefox. 
 
 This will add a green 'Gitpod' button on the right hand side of every pull request, and has the added benefit of also adding the button on the main repository and any branch or tag, allowing you to quickly spin up a specific version of Mautic in Gitpod. You can also copy the URL of the PR and open a Gitpod instance manually on your Gitpod dashboard, or using various automation tools like Alfred or Raycast.  
 
-Once you have the browser extension installed, click the green button -  the first time it will ask you to log in with GitHub.  You may wish to open in a new tab, so that it's easy to reference back to the pull request. Now you just have to wait for Mautic to be installed for you. 
+Once you have the browser extension installed, click the green button - the first time it will ask you to log in with GitHub. You may wish to open in a new tab, so that it's easy to reference back to the pull request. Now you just have to wait for Mautic to be installed for you. 
 
-Once the installer is done, it shows the URLs for the Mautic user interface, as well as for Mailhog and PHPMyAdmin (in case you need to check outgoing emails or test things in the database). It also shows you the default credentials to use for the login. Sometimes it can take a few minutes for the process to complete, so please wait until it does!
+Once the installer is done, it shows the URLs for the Mautic user interface, as well as for MailHog and PHPMyAdmin (in case you need to check outgoing emails or test things in the database). It also shows you the default credentials to use for the login. Sometimes, it can take a few minutes for the process to complete, so please wait until it does.
 
 Then follow the test instructions in the pull request, and :ref:`report back your findings<Leaving your review>`. The default username will always be admin, and the password will be ``Maut1cR0cks!``.
 
@@ -42,7 +44,7 @@ Top tips
 Installing sample data
 ----------------------
 
-To quickly install sample data, use the command ``ddev exec bin/console d:f:l`` which loads the Doctrine fixtures. It gives you a big head start with testing! 
+To quickly install sample data, use the command ``ddev exec bin/console d:f:l`` which loads the Doctrine fixtures. It gives you a big head start with testing.
 
 Build the segments after install
 --------------------------------
@@ -71,7 +73,7 @@ In DDEV we can set the database and PHP version in a file located in the folder 
 
 #. Check you are using the right version in the system information within Mautic.
 
-#. Remember to make sure you are using dev mode - DDEV should start in dev mode by default with the Symfony toolbar at the bottom of the page.
+#. Remember to make sure you are using dev mode - DDEV should start in dev mode by default, with the Symfony toolbar at the bottom of the page.
 
 #. If you make a mistake, open your Gitpod dashboard and delete the instance and start again.
 
@@ -95,7 +97,7 @@ Before starting, you will need a few pieces of software on your computer:
 * :xref:`Git downloads`
 * :xref:`GitHub CLI`
 
-Once you have these installed, we recommend that you use an editor such as :xref:`VS Code` which will allow you to interact with files, folders and the command line. There are other editors and Integrated Development Environments (IDEs) so if you already have one that you like, by all means use that!
+Once you have these installed, we recommend that you use an editor such as :xref:`VS Code` which will allow you to interact with files, folders, and the command line. There are other editors and Integrated Development Environments (IDEs) so if you already have one that you like, by all means use that.
 
 You will also need to register for an account at :xref:`GitHub signup` if you don't already have one. This allows you to leave comments when you've tested things, and also means you can make fixes yourself in the future.
 
@@ -108,13 +110,13 @@ Before we do that, let's create a folder in your local computer where you'll loc
 
 Open your editor, and within the editor, open a terminal window.  
 
-In the terminal, we need to move into the directory we just created.  Use the following commands:
+In the terminal, we need to move into the directory we just created. Use the following commands:
 
 .. code-block:: bash
 
    cd users/yourusername/yourfolder/mautic4
 
-If you need to move up an directory, for example back to ``/yourfolder/``, you can use the command:
+If you need to move up an directory, for example, back to ``/yourfolder/``, you can use the command:
 
 .. code-block:: bash
 
@@ -162,11 +164,11 @@ This will install all the dependencies that Mautic requires to run, and will ins
 
    If you're testing an older version of Mautic than ``5.1``, use the password ``mautic``.
 
-It will also install some software which allows you to capture outgoing emails, called Mailhog, and PHPMyAdmin, which enables you to view and interact with the database.
+It will also install some software which allows you to capture outgoing emails, called MailHog, and PHPMyAdmin, which enables you to view and interact with the database.
 
 Once this process has completed, you will be able to access your local testing instance at ``https://mautic.ddev.site``.
 
-Log in with the credentials above, and you're ready to go!
+Log in with the credentials above, and you're ready to go.
 
 .. tip::
 
@@ -189,16 +191,16 @@ Log in with the credentials above, and you're ready to go!
 Using developer mode
 ********************
 
-When testing Mautic, it is important that you are notified of any errors rather than having them output to the logs.  We also don't want to have to constantly rebuild the JavaScript and CSS files when changes are made.
+When testing Mautic, it is important that you are notified of any errors rather than having them output to the logs. We also don't want to have to constantly rebuild the JavaScript and CSS files when changes are made.
 
-For this reason, we use developer mode when testing in the Mautic Community, which is set in the local environment file.  DDEV has dev mode enabled by default - read more about :xref:`Mautic environments docs` on Mautic Developer Documentation.  
+For this reason, we use developer mode when testing in the Mautic Community, which is set in the local environment file. DDEV has dev mode enabled by default - read more about :xref:`Mautic environments docs` on Mautic Developer Documentation.  
 
 Testing your first pull request
 *******************************
 
 The first step when testing a bug is to attempt reproducing the bug and making sure that you are experiencing the problem that the developer is fixing.
 
-Generally there will be instructions in the description of the pull request, but sometimes you might have to refer to an issue which reported the bug in order to find instructions for reproducing the issue.  If you don't understand, or can't reproduce the issue, please leave a comment and the developer will get back to you with further instructions.
+Generally there will be instructions in the description of the pull request, but sometimes you might have to refer to an issue which reported the bug in order to find instructions for reproducing the issue. If you don't understand, or can't reproduce the issue, please leave a comment and the developer will get back to you with further instructions.
 
 Once you have confirmed the bug, we need to apply the fix. We do this with another GitHub CLI command:
 
@@ -218,26 +220,33 @@ If you ever need to clear the cache, you can either delete the cache folder manu
 
 Note that we have to prefix any commands with ``ddev exec`` so that they run inside the Docker container. We also use the ``--env=dev`` argument to specify that we need to clear the development (rather than production) cache.
 
-Now that you have the pull request applied, the next step is to re-test the bug or check out the new feature.  Make sure you are thorough in your testing. Really think about every possible thing that might be affected by the changes being made in the pull request, and test it in detail.
+Now that you have the pull request applied, the next step is to re-test the bug or check out the new feature. Make sure you are thorough in your testing. Really think about every possible thing that might be affected by the changes being made in the pull request, and test it in detail.
 
 It's very helpful if you can write a comment and explain what you have tested.
 
 Leaving your review
 *******************
 
-Within GitHub, there is a built-in system for people to leave reviews.  At the top of the pull request you will see a tab which is called 'Files Changed'. In this tab, at the top right, you'll see a green button which allows you to start a review.
+Within GitHub, there is a built-in system for people to leave reviews. At the top of the pull request you will see a tab which is called 'Files Changed'. In this tab, at the top right, you'll see a green button which allows you to start a review.
 
-From this point, you can write what you have found when testing the pull request. You can select whether you approve the pull request, whether you think there are changes needed (e.g. if you weren't able to get the results that you expected) or just leave a comment if you're not sure either way, or just want to leave some feedback.
+From this point, you can write what you have found when testing the pull request. You can select whether you:
+
+* approve the pull request,
+* need to ask for some changes, for instance, if you weren't able to get the results that you expected,
+* leave a comment if you're not sure either way,
+* want to leave some feedback.
 
 Unloading the pull request
 **************************
 
-Once you are done with testing the pull request, it is good practice to get back to the original state. To do this use the command:
+Once you are done with testing the pull request, it is good practice to get back to the original state. To do this, use the command:
 
 .. code-block:: bash
 
    git checkout 5.x
 
-Where 5.x is the branch that you want to return to.
+Where ``5.x`` is the branch that you want to return to.
 
-This will check out the branch called ``5.x`` which is where we started from.  Now you're ready to go and find another pull request to test! Have a little celebration, you helped make Mautic even more awesome! THANK YOU!
+This will check out the branch called ``5.x`` which is where we started from. Now you're ready to go and find another pull request to test. Have a little celebration because you helped make Mautic even more awesome. Thank you for your contribution.
+
+.. vale on
