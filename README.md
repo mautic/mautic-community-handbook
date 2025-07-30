@@ -10,6 +10,51 @@ To contribute please make a PR for review by the Community Leadership Team.
 
 [![Documentation Status](https://readthedocs.org/projects/mautic-community-handbook/badge/?version=latest)](https://mautic-community-handbook.readthedocs.io/en/latest/?badge=latest)
 
+## Local development setup
+
+Mautic uses [DDEV](https://ddev.com) to simplify local development and testing of documentation updates.
+
+Go to the [Get Started](https://ddev.com/get-started/) page for instructions to install DDEV on your local machine.
+
+---
+
+> [!NOTE]
+> **For Windows users**: You can install and run DDEV on [traditional Windows](https://ddev.readthedocs.io/en/stable/#system-requirements-traditional-windows). However, it's recommended that you use [Windows Subsystem for Linux 2 (WSL2)](https://learn.microsoft.com/en-us/windows/wsl/about) for faster and better performance.
+>
+> If you're new to WSL, follow the instructions on the [DDEV blog](https://ddev.com/blog/watch-new-windows-installer/) to install and set up WSL and DDEV. 
+
+---
+
+After you've installed DDEV, follow these steps:
+
+1. [Fork and clone](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository to your local machine.
+2. Navigate into the project directory by running: 
+
+   ```bash
+   cd mautic-community-handbook
+   ```
+3. Start the DDEV environment with this command:
+
+   ```bash
+   ddev start
+   ```
+4. After making changes to documentation files, you need to build the updated docs by running:
+
+   ```bash
+   ddev build-docs
+   ```
+5. Run the below command to view your changes live on your browser:
+
+   ```bash
+   ddev launch
+   ```
+   
+   This automatically opens your browser and navigates to `https://mautic-community-handbook.ddev.site/`.
+
+   **Note:** You must ensure that your changes work as expected. Every time you make changes, run `ddev build-docs` and refresh the page in your browser to see the changes.
+
+> [!TIP]
+> If you don't see the configuration take effect, run `ddev restart` to restart the project.
 
 ## Contributors ✨
 
