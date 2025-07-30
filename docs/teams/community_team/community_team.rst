@@ -6,8 +6,12 @@ Mission and expectations
 
    The Community Team wants more and more people to feel at home in the Mautic community, and to inspire & enable them to contribute to Mautic in whatever way they can.
 
+.. vale off
+
 General Community Team tasks
 ****************************
+
+.. vale on
 
 *  Support growth of the global as well as the local communities
 *  Help the Mautic community be most ethical, accessible and inclusive
@@ -16,11 +20,15 @@ General Community Team tasks
 *  Continue to improve community infrastructure
 *  Connect with other Open Source communities
 
+.. vale off
+
 Sample activities for the Community Team
 ****************************************
 
 General activities of the Community Team
 ========================================
+
+.. vale on
 
 * Keep rethinking community and contribution structures
 * Improve global community infrastructure, rearrange forums, etc
@@ -44,8 +52,12 @@ Global communities
 *  Organize global events
 *  Develop an easy path from local community to global contribution
 
+.. vale off
+
 Local Communities
 =================
+
+.. vale on
 
 * Know and work with all local communities - even Facebook/LinkedIn groups etc.
 * Define and support official ways for building local communities - and steer existing ones to becoming official - plus inspire new ones, help them to network and learn from each other
@@ -54,11 +66,17 @@ Local Communities
 * Identify per-region 'liaisons', especially in countries where Mautic isn't known - not the same as ambassadors - and establish ways of working with them, without demotivating potential others from the region .
 * Select priority regions and work actively to spark local communities there
 
+.. vale off
+
 Profiles of contributors needed in the Community Team
 *****************************************************
 
+.. vale on
+
 * Everyone who is enthusiastic enough
 * As ambassadors: people in different countries who are already well-connected through other activities, and have a broad understanding of Mautic's facets - both from the user's and from the MarTech and even developer side, but no actual developer knowledge required
+
+.. vale off
 
 Community Team definitions
 **************************
@@ -66,11 +84,13 @@ Community Team definitions
 Who is a Community member?
 ==========================
 
+.. vale on
+
 Everyone who
 
 * Contributed code or content to Mautic
 * Visited a website to ask for Mautic support
-* Is interested in Mautic, even without ever contributing
+* Has an interest in Mautic, even without ever contributing
 
 What's a contribution?
 ======================
@@ -145,24 +165,36 @@ These events - commonly referred to as “meetups”, which can be confusing sin
 
 Official Mautic Meetup groups are also eligible for sponsorship by Mautic Partners - for example, to cover the cost of food for a sprint event or to bring in a speaker who needs travel or accommodation.
 
+.. vale off
+
 Mautic Meetups Online
 *********************
 
+.. vale on
+
 These are an online variation of the traditional meetup. There are no restrictions on region, and they can span any geographic area.
 
-These meetups will have a category created in the Mautic Meetups category on the forums through which members can find information and discuss any relevant issues.
+These meetups have a category created in the Mautic Meetups category on the forums through which members can find information and discuss any relevant issues.
 
 Official online Mautic Meetups agree to the same general guidelines as physical meetups - see previous.
 
+.. vale off
+
 MautiCamps
 **********
+
+.. vale on
 
 Where there is a strong local presence, organizers may wish to create an informal regional event or conference, called a MautiCamp.
 
 These is regional in nature and organized with support of the Community Team.
 
+.. vale off
+
 Mautic Conferences
 ******************
+
+.. vale on
 
 The Mautic project holds annual Mautic Conference events which bring together the international community for a formal conference. Mautic Conference exists in two flavors:
 
@@ -171,4 +203,4 @@ The Mautic project holds annual Mautic Conference events which bring together th
 
 The first such event took place in 2020 - originally planned as an on-premise event, but converted to a virtual event due to the 2020 pandemic.
 
-Mautic Conference is organised by the community and invites sponsors to support the event. If you're interested in getting involved in any way, please join :xref:`Mauticon Slack` on Slack - get an invitation at :xref:`Mautic Community Slack`.
+The community organizes Mautic Conference and invites sponsors to support the event. If you're interested in getting involved in any way, please join :xref:`Mauticon Slack` on Slack - get an invitation at :xref:`Mautic Community Slack`.
