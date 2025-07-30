@@ -1,4 +1,4 @@
-Deprecation Policy
+Deprecation policy
 ##################
 
 .. vale off
