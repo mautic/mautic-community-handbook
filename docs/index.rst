@@ -28,6 +28,7 @@ The vision is that it grows over time as the teams and governance structure evol
    :caption: Governance
    :hidden:
 
+   governance/deprecation_policy
    governance/governance
    governance/governance_model_v2
 
@@ -48,9 +49,11 @@ The vision is that it grows over time as the teams and governance structure evol
    policies/code_of_conduct/code_of_conduct_breaches
    policies/tools_and_resources
    policies/request_for_proposals_(RFP)_process
+   policies/paying_contributors
    policies/become_a_community_partner
    policies/recognizing_contributors_sponsors_and_partners
    policies/trademark
+   policies/financial_policy
 
 .. toctree::
    :maxdepth: 2
@@ -79,7 +82,11 @@ The vision is that it grows over time as the teams and governance structure evol
    :caption: Contributing
    :hidden:
 
+   contributing/contributing_to_mautic
    contributing/designer
+   contributing/translator
+   contributing/developer
+   contributing/tester
    contributing/community_builder
    contributing/web_developer
    contributing/server_administrator
