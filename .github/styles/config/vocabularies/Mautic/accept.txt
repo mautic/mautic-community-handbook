@@ -19,6 +19,7 @@ CCPA
 Citrix
 Clearbit
 CloudAMQP
+Codeception
 config
 Company(ies)
 Composer
@@ -30,6 +31,7 @@ cron
 Cron
 CTRL
 Custom Fields
+devDependency
 DDEV
 dev
 diem

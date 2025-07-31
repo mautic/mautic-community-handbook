@@ -55,7 +55,6 @@ The vision is that it grows over time as the teams and governance structure evol
    policies/trademark
    policies/financial_policy
 
-
 .. toctree::
    :maxdepth: 2
    :caption: Resources
@@ -84,14 +83,10 @@ The vision is that it grows over time as the teams and governance structure evol
    :hidden:
 
    contributing/designer
+   contributing/developer
    contributing/tester
    contributing/community_builder
    contributing/server_administrator
    contributing/google_summer_of_code
    contributing/mautic_bounty_programme
    contributing/contributing_docs_rst
-
-
-
-
-
