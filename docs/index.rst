@@ -28,6 +28,7 @@ The vision is that it grows over time as the teams and governance structure evol
    :caption: Governance
    :hidden:
 
+   governance/deprecation_policy
    governance/governance
    governance/governance_model_v2
 
