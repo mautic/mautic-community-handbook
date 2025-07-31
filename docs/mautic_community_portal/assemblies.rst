@@ -3,15 +3,9 @@ Assemblies
 
 This documentation explores assemblies, what they're, why they're important, why you might want to get involved with using them, and what you can do.
 
-If you prefer to watch this in video form, you can do that here:
+.. tip::
 
-.. raw:: html
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/fYg8yPQcgxM" frameborder="0" allowfullscreen></iframe>
-
-.. raw:: html
-
-    <br><br>
+   You can watch the short tutorial :xref:`Mautic community portal assemblies` on YouTube, if you prefer video format.
 
 Getting started with assemblies
 *******************************
