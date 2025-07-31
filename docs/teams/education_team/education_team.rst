@@ -1,8 +1,6 @@
 Education Team
 ##############
 
-The Education Team is responsible for the Forum, Mautic Documentation and Internationalization. The team's mission is to keep the forum clean and constructive; the documentation to be high quality, understandable, and accurate; and to ensure multilingual availability.
-
 .. vale off
 
 Missions and expectations of the Education Team
@@ -10,7 +8,12 @@ Missions and expectations of the Education Team
 
 .. vale on
 
-To improve the resources available for new and established Users to learn how to use Mautic
+ The Education Team is responsible for the Forum, Mautic Documentation and Internationalization. The team's missions and expectations are to:
+
+* keep the forum clean and constructive,
+* keep the documentation to be high quality, understandable, and accurate,
+* improve the resources available for new and established Users to learn how to use Mautic,
+* ensure multilingual availability.
 
 .. vale off
 
@@ -348,37 +351,14 @@ Title
 
 Remember that the entire explanation doesn't have to go into the title. You can use the summary to give the user additional information about what's in the article.
 
-Search Engine Optimization
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Each article created or edited in the End-User Documentation and Knowledgebase user interface will have a tab called 'SEO'. In this tab, you can override the default title, description, and other fields to ensure maximal optimization for search engines.
-
-If you don't override these fields, the defaults are used.
-
-Fix the slug
-^^^^^^^^^^^^
-
-When you create an article for the End-User Documentation or the Knowledgebase, Grav will automatically create a slug - the end of the URL for the article - based on the item title. Spaces are rendered as dashes. 
-
-The slug should be consistent with the title, but given the tighter space restraint, doesn't need to be the same. Be sure to check the end of the auto-generated slug once the item is saved. Sometimes, a word gets cut off or it ends in a dash - please fix things like that.
-
-The slug can be overridden under the 'Advanced' tab. Simply select the checkbox next to 'slug' and enter your preferred slug for the article. Note you should not include any paths before the slug for categories/structure, just the article slug.
-
-Work with End-User Documentation
-================================
+Work with End-User and Developer Documentation 
+==============================================
 
 To learn how to create a new resource, see Create a new Documentation resource.
 
 See :doc:`/contributing/contributing_docs_rst` for an overview of how the documentation works and the syntax that should be used.
 
 Check the Education Team's :xref:`Jira board education team` for tasks relating to the End-User Documentation.
-
-Work with Developer Documentation
-=================================
-
-The :xref:`Developer Docs` uses :xref:`Slatejs`, and doesn't have a front-end user interface. Please make any changes via a Pull Request - PR - to the :xref:`Developer Docs GitHub`.
-
-Check the Education Team's :xref:`Jira board education team` and the Product Team's :xref:`Jira board product team` for outstanding tasks relating to the Developer Documentation.
 
 Work with Knowledgebase
 =======================
