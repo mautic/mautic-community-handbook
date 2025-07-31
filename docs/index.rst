@@ -25,28 +25,48 @@ The vision is that it grows over time as the teams and governance structure evol
 
 .. toctree::
    :maxdepth: 2
+   :caption: Governance
+   :hidden:
+
+   governance/governance
+   governance/governance_model_v2
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Community leadership
+   :hidden:
+
+   community_leadership/community_leadership
+
+.. toctree::
+   :maxdepth: 2
    :caption: Policies
    :hidden:
 
+   policies/policies
    policies/code_of_conduct/code_of_conduct
- 
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Policies
-   :hidden:
-
    policies/code_of_conduct/code_of_conduct_breaches
+   policies/tools_and_resources
+   policies/request_for_proposals_(RFP)_process
+   policies/paying_contributors
+   policies/become_a_community_partner
+   policies/recognizing_contributors_sponsors_and_partners
+   policies/trademark
+   policies/financial_policy
 
 
 .. toctree::
    :maxdepth: 2
-   :caption: Policies
+   :caption: Resources
    :hidden:
 
-   policies/code_of_conduct/tools_and_resources
-
-
+   resources/community_wide_resources/community_wide_resources
+   resources/community_wide_resources/avoiding_burnout
+   resources/community_wide_resources/getting_help_in_a_crisis
+   resources/meetings/meetings
+   resources/meetings/asynchronous_meetings
+   resources/meetings/preparing_and_running_meetings
+   
 .. toctree::
    :maxdepth: 2
    :caption: Teams
@@ -57,15 +77,6 @@ The vision is that it grows over time as the teams and governance structure evol
    teams/product_team/product_team_overview
    teams/education_team/education_team
    
-.. toctree::
-   :maxdepth: 2
-   :caption: Policies
-   :hidden:
-
-   policies/request_for_proposals_(RFP)_process
-   policies/become_a_community_partner
-   policies/recognizing_contributors_sponsors_and_partners
-
 .. toctree::
    :maxdepth: 2
    :caption: Contributing
@@ -79,22 +90,7 @@ The vision is that it grows over time as the teams and governance structure evol
    contributing/mautic_bounty_programme
    contributing/contributing_docs_rst
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Resources
-   :hidden:
-
-   resources/community_wide_resources/community_wide_resources
-   resources/community_wide_resources/avoiding_burnout
-   resources/community_wide_resources/getting_help_in_a_crisis
-   resources/meetings/meetings
-   resources/meetings/asynchronous_meetings
-   resources/meetings/preparing_and_running_meetings
 
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Community Leadership
-   :hidden:
 
-   community_leadership/community_leadership
+
