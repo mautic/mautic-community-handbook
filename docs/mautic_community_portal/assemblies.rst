@@ -221,7 +221,7 @@ Once you have decided where the new assembly should sit, follow this process to 
 
 #. Complete the forum
 
-   * Check the :xref:`decidim-docs` for an explanation of the fields.
+   * Check the :xref:`Decidim new assembly form` for an explanation of the fields.
 
    * Please follow existing naming conventions when it comes to the URL slug and hashtag.
 
@@ -231,7 +231,7 @@ Once you have decided where the new assembly should sit, follow this process to 
 
    * Please don't highlight the assembly unless agreed with the Community Portal working group.
 
-   * If your assembly needs to be invite only as far as who can engage in it, you should set it to private. This means you have to maintain a list of ':xref:`private-participants`' who can engage in the assembly. This is quite an overhead, and individuals may also need adding as a member of the group as well to engage in activities, so only use this where absolutely essential. The General Assembly uses this for example. If required, it's highly recommended that you also set the assembly to transparent, so that the community can see what happens in the space, if they can't engage. Private participants receive an invitation to join the assembly, which they must accept. Ensure you use the same email address they use on the portal, otherwise duplicate accounts can arise.
+   * If your assembly needs to be invite only as far as who can engage in it, you should set it to private. This means you have to maintain a list of ':xref:`Decidim private participants`' who can engage in the assembly. This is quite an overhead, and individuals may also need adding as a member of the group as well to engage in activities, so only use this where absolutely essential. The General Assembly uses this for example. If required, it's highly recommended that you also set the assembly to transparent, so that the community can see what happens in the space, if they can't engage. Private participants receive an invitation to join the assembly, which they must accept. Ensure you use the same email address they use on the portal, otherwise duplicate accounts can arise.
 
    * Ensure you select the assembly type from the dropdown options.
 

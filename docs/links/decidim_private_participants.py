@@ -1,6 +1,6 @@
 from . import link
 
-link_name = "private-participants" 
+link_name = "Decidim private participants" 
 link_text = "private participants" 
 link_url = "https://docs.decidim.org/en/develop/admin/spaces/assemblies/private_participants" 
 
