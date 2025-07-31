@@ -31,9 +31,9 @@ Creating a meeting
 
 To create a meeting you need to log in as an administrator.
 
-#. Go to the administrator's panel at [https://community.mautic.org/admin](https://community.mautic.org/admin) and find your assembly
+#. Go to the :xref:`Mautic community portal admin` at Mautic Community Portal and find your assembly
 #. Click on the meetings component
-#. Click new meeting and fill out the form - review the [Decidim documentation](https://docs.decidim.org/en/develop/admin/components/meetings.html#_create_a_new_meeting) for guidance on the different form fields.
+#. Click new meeting and fill out the form - review the :xref:`Decidim create a new meeting` for guidance on the different form fields.
 #. Ensure that you select the 'open in a new tab' option in the embed dropdown when using online meeting links such as Zoom.
 
 .. note::
@@ -67,7 +67,7 @@ Turning on registrations
 
 To enable registrations for a meeting:
 
-#. Sign in as an administrator at [https://community.mautic.org/admin](https://community.mautic.org/admin)
+#. Sign in as an administrator at :xref:`Mautic community portal admin`
 #. In the main sidebar, click in the button for the space that you want to configure the component for. For instance, it could be 'Processes', 'Assemblies', or 'Conferences'
 #. Click on 'Meetings'
 #. Search the meeting that you want to enable registrations for
@@ -99,7 +99,7 @@ To add a custom registration form, follow these steps in this order:
 Etherpad note taking
 ====================
 
-Instead of using external tools for taking notes, Mautic has an [Etherpad](https://etherpad.org/) instance, which is fully integrated with the community portal. This allows for live note taking embedded within meetings - also allowing people to take part asynchronously - which becomes available 24 hours before the meeting starts, and becomes read only 72 hours after the finish time of the event passes. You must first log in to interact on the pad.
+Instead of using external tools for taking notes, Mautic has an :xref:`Etherpad` instance, which is fully integrated with the community portal. This allows for live note taking embedded within meetings - also allowing people to take part asynchronously - which becomes available 24 hours before the meeting starts, and becomes read only 72 hours after the finish time of the event passes. You must first log in to interact on the pad.
 
 #. **Before the meeting:** attendees can review the agenda and add any comments before the meeting starts
 #. **During the meeting:** attendees can collaboratively take notes
@@ -118,7 +118,7 @@ The agenda feature allows an administrator to define the schedule for a meeting.
 
 To define an agenda for a meeting:
 
-#. Sign in as administrator at [https://community.mautic.org/admin](https://community.mautic.org/admin)
+#. Sign in as administrator at :xref:`Mautic community portal admin`
 #. In the main sidebar, click in the button for the space that you want to configure the component for. For instance, it could be 'Processes', 'Assemblies', or 'Conferences'
 #. Click on 'Meetings'
 #. Search the meeting that you want to add the agenda to
@@ -145,14 +145,14 @@ It’s also possible to add other kind of metadata to the meeting, such as what 
 
 To close a meeting:
 
-#. Sign in as an administrator at [https://community.mautic.org/admin](https://community.mautic.org/admin)
+#. Sign in as an administrator at :xref:`Mautic community portal admin`
 #. In the main sidebar, click in the button for the space that you want to configure the component for. For instance, it could be 'Processes', 'Assemblies', or 'Conferences'
 #. Click on 'Meetings'
 #. Search the meeting that you want to close
 #. Click on the 'Close' button Close button
 #. Fill the form
 
-Please be sure to provide a link to the meeting recording - upload the recordings to the community shared Google Drive.
+Please be sure to provide a link to the meeting recording - upload the recordings to the community shared :xref:`Mautic Google Drive`.
 
 When you associate a proposal with a meeting, it's also shown in the proposal overview.
 
