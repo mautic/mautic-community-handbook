@@ -71,4 +71,18 @@ linkcheck_ignore = [
     r"https://docs.mautic.org/policies/financial-policy#10-foreign-assets-control",
     # The GitHub Search UI requires users to be authenticated with session cookies, which we can't set up programmatically
     r"https://github.com/search*",
+    # Gitpod URLs often follow the pattern https://gitpod.io/#<repository_url>, which is not in the traditional sense for an HTML page
+    r'https://gitpod\.io/.*',
+    # The domain is blocking the link checker
+    r'https://www.travel.dod.mil/Travel-Transportation-Rates/Per-Diem/Rate-Lookup/',
+    # Frequent timeouts and errors when checking this link
+    r"https://savannahcrm.com/public/*",
+    # 403 errors from this domain
+    r"https://www.glassdoor.co.uk/*",
+    # 403 blocked errors
+    r"https://www.drupal.org/governance/d8accelerate",
+    # Broken link due to anchor
+    r"https://github.com/mautic/mautic/blob/8a57278758e2c3e1c1ca987aaf9ebd5f05b3c877/app/bundles/CampaignBundle/Executioner/Dispatcher/LegacyEventDispatcher.php#L201",
+    # 403 errors from this domain
+    r"https://www.drupal.org/about/core/policies/core-change-policies/drupal-deprecation-policy",
 ]
