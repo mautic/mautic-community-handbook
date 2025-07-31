@@ -24,7 +24,7 @@ There are different reasons for having assemblies. Some of them relate to decisi
 
 An assembly can also contain assemblies within it, for example, the MautiCon Working Group is part of the Community Team, because that's the team in which it belongs. The card shows a stacked appearance and lists the number of assemblies within it, as seen in the Community Team here.
 
-.. image:: ../images/sub-assemblies.png
+.. image:: images/sub-assemblies.png
   :width: 300px
   :alt: screenshot showing sub-assemblies on community portal
   :align: center
@@ -36,7 +36,7 @@ Exploring assemblies
 
 When you click through to an assembly, you are presented with the overview page.
 
-.. image:: ../images/assemblies-overview.png
+.. image:: images/assemblies-overview.png
   :width: 800px
   :alt: assemblies-overview
 
@@ -61,7 +61,7 @@ An assembly has formal roles including:
 
 When you click the members item in the assembly menu, it lists the formal members.
 
-.. image:: ../images/assemblies-members.png
+.. image:: images/assemblies-members.png
   :width: 800px
   :alt: assemblies-members
 
@@ -77,7 +77,7 @@ In the Community Team, a blog is available. Anything across the whole of the com
 
 In this case, an official post from the team invites people interested in promoting Mautic in their local regions to become ambassadors and express their interest.
 
-.. image:: ../images/community-team-blog.png
+.. image:: images/community-team-blog.png
   :width: 800px
   :alt: community-team-blog
 
@@ -88,7 +88,7 @@ Another popular component used in the portal is meetings. Meetings can be online
 
 There is an option to export the calendar, which is great if you want to ensure that the meetings for a particular assembly are in your personal calendar. This creates a URL which you can subscribe to in your calendar of choice, so it's updated automatically.
 
-.. image:: ../images/community-team-meetings.png
+.. image:: images/community-team-meetings.png
   :width: 800px
   :alt: VSCode screenshot showing how to change branches
 
@@ -96,7 +96,7 @@ There is an option to export the calendar, which is great if you want to ensure 
 
 Click the 'Meeting' to learn more about what is being discussed.
 
-.. image:: ../images/community-team-meeting-with-agenda.png
+.. image:: images/community-team-meeting-with-agenda.png
   :width: 800px    
   :alt: VSCode screenshot showing how to change branches
 
@@ -108,7 +108,7 @@ Click the 'Meeting' to learn more about what is being discussed.
 
    |
 
-   .. image:: ../images/meeting-attend-popup.png
+   .. image:: images/meeting-attend-popup.png
      :width: 800px
      :alt: VSCode screenshot showing how to change branches
 
@@ -131,7 +131,7 @@ Subscribing to the calendar
 
 To subscribe to an Assembly's calendar, click the Meetings link in the Assembly menu, then click Export Calendar. This provides a link for you to add the Assembly calendar in your tool of choice.
 
-.. image:: ../images/subscribe-assembly-calendar.png
+.. image:: images/subscribe-assembly-calendar.png
   :width: 800px
   :alt: VSCode screenshot showing how to change branches
 
@@ -144,7 +144,7 @@ In the new features process, the component for debates is included. Any of the a
 
 If you have a question, and you want the community to be able to give you feedback or discussions, this is a great way to do it within the community portal.
 
-.. image:: ../images/debates.png
+.. image:: images/debates.png
   :width: 800px
   :alt: debates
 
@@ -154,7 +154,7 @@ If you have a question, and you want the community to be able to give you feedba
 
 In this case, the team was working on CKEditor, and a question arose about what should be changeable in the WYSIWYG editor when using the GrapesJS Builder. Since many things can change directly in the GrapesJS Builder, the question is how much control you should give to the WYSIWYG editor. This presents an opportunity for discussion and debate.
 
-.. image:: ../images/individual-debate.png
+.. image:: images/individual-debate.png
   :width: 800px
   :alt: VSCode screenshot showing how to change branches
 
@@ -207,7 +207,7 @@ Once you have decided where the new assembly should sit, follow this process to 
 
    |
 
-   .. image:: ../images/assemblies-admin-portal.png
+   .. image:: images/assemblies-admin-portal.png
      :width: 800px
      :alt: VSCode screenshot showing how to change branches
 
@@ -219,7 +219,7 @@ Once you have decided where the new assembly should sit, follow this process to 
 
    |
 
-   .. image:: ../images/new-assembly-button.png
+   .. image:: images/new-assembly-button.png
      :width: 800px
      :alt: VSCode screenshot showing how to change branches
     
@@ -245,7 +245,7 @@ Once you have decided where the new assembly should sit, follow this process to 
 
    |
 
-   .. image:: ../images/assembly-unpublished.png
+   .. image:: images/assembly-unpublished.png
      :width: 800px 
      :alt: VSCode screenshot showing how to change branches
 
@@ -263,8 +263,8 @@ Once you have decided where the new assembly should sit, follow this process to 
 
    |
 
-   .. image:: ../images/assembly-components.png
-     :width: 600px
+   .. image:: images/assembly-components.png
+     :width: 800px
      :alt: assembly-components
 
    |
@@ -279,7 +279,7 @@ Once you have decided where the new assembly should sit, follow this process to 
 
    |
 
-   .. image:: ../images/assembly-publish.png
+   .. image:: images/assembly-publish.png
      :width: 800px
      :alt: VSCode screenshot showing how to change branches
 

@@ -30,8 +30,7 @@ The vision is that it grows over time as the teams and governance structure evol
 
    mautic_community_portal/mautic_community_portal
    mautic_community_portal/signing_in_and_configuring_your_profile
-   mautic_community_portal/assemblies/assemblies
-   mautic_community_portal/assemblies/creating_an_assembly
+   mautic_community_portal/assemblies
    mautic_community_portal/processes
    mautic_community_portal/meetings
    mautic_community_portal/groups
