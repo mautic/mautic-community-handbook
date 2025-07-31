@@ -67,7 +67,7 @@ Here is an explanation of the roles that we have available if you would like to 
 
 All roles will require you to work well with others, as our team is distributed around the world. Time commitments are estimates based on experiences of running previous events.
 
-Note that this would be a best case scenario of having a larger team with people taking on smaller amounts of responsibility. In reality, it might end up that the lead takes on some of the contributor roles, if there are not enough volunteers. We should (in my opinion) try as hard as we can to build out these teams rather than have lots of work fall on a small number of shoulders.
+Note that this would be a best case scenario of having a larger team with people taking on smaller amounts of responsibility. In reality, it might end up that the lead takes on some of the contributor roles, if there are not enough volunteers. 
 
 Generally speaking, the team meets once a week for a 1 hour meeting on a Monday, this has been included in the estimates.
 
