@@ -1,6 +1,8 @@
 Meetings
 ########
 
+.. vale off 
+
 About meetings
 **************
 
@@ -149,7 +151,7 @@ To close a meeting:
 #. In the main sidebar, click in the button for the space that you want to configure the component for. For instance, it could be 'Processes', 'Assemblies', or 'Conferences'
 #. Click on 'Meetings'
 #. Search the meeting that you want to close
-#. Click on the 'Close' button Close button
+#. Click on the 'Close' button
 #. Fill the form
 
 Please be sure to provide a link to the meeting recording - upload the recordings to the community shared :xref:`Mautic Google Drive`.
@@ -159,3 +161,5 @@ When you associate a proposal with a meeting, it's also shown in the proposal ov
 .. image:: images/proposal-related-meetings.png
   :width: 800
   :alt: Meeting proposal overview
+
+.. vale on
