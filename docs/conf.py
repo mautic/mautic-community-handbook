@@ -73,4 +73,12 @@ linkcheck_ignore = [
     r"https://github.com/search*",
     # Gitpod URLs often follow the pattern https://gitpod.io/#<repository_url>, which is not in the traditional sense for an HTML page
     r'https://gitpod\.io/.*',
+    # The domain is blocking the link checker
+    r'https://www.travel.dod.mil/Travel-Transportation-Rates/Per-Diem/Rate-Lookup/',
+    # Frequent timeouts and errors when checking this link
+    r"https://savannahcrm.com/public/*",
+    # 403 errors from this domain
+    r"https://www.glassdoor.co.uk/*",
+    # 403 blocked errors
+    r"https://www.drupal.org/governance/d8accelerate",
 ]
