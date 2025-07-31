@@ -61,8 +61,6 @@ The marketing team needs the following skills and expertise:
 * SEOs
 * Social Media Management
 
-.. Link to the mautic_marketing_team_slack.py
-
-**Would you like to be involved in this team? Join the [#t-marketing on Slack].**
+**Would you like to be involved in this team? Join the :xref:`Mautic marketing team Slack` on Slack.**
 
 .. vale on
