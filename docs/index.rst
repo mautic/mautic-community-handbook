@@ -51,6 +51,8 @@ The vision is that it grows over time as the teams and governance structure evol
    policies/become_a_community_partner
    policies/recognizing_contributors_sponsors_and_partners
    policies/trademark
+   policies/financial_policy
+
 
 .. toctree::
    :maxdepth: 2
