@@ -76,4 +76,5 @@ linkcheck_ignore = [
     r"https://creativecommons.org/licenses/by-sa/3.0/",
     r"https://www.opensourcematters.org/organisation.html",
     r"https://www.drupal.org/governance",
+    r"https://github.com/mautic/mautic-community-handbook/blob/6956b3d3b4297735133717536d197c607c0bfa41/pages/04.community-leadership/02.leadership-role-definitions/docs.md#technical-community-lead",
 ]
