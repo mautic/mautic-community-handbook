@@ -10,7 +10,7 @@ The Mautic Community has several web assets which require regular updates, impro
 
 If you're a keen web developer and have experience with :xref:`Drupal` or :xref:`Grav`, we'd love to hear from you. 
 
-While our main ``mautic.org`` website is hosted by Dropsolid, it's our responsibility to drive new developments and innovations. 
+While our main ``mautic.org`` website is hosted by Hostnet, it's our responsibility to drive new developments and innovations. 
 
 We'd love to build a web development team in the community specifically to look after our web properties and keep us moving forward.
 
