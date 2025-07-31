@@ -46,7 +46,7 @@ The vision is that it grows over time as the teams and governance structure evol
    policies/policies
    policies/code_of_conduct/code_of_conduct
    policies/code_of_conduct/code_of_conduct_breaches
-   policies/code_of_conduct/tools_and_resources
+   policies/tools_and_resources
    policies/request_for_proposals_(RFP)_process
    policies/become_a_community_partner
    policies/recognizing_contributors_sponsors_and_partners
