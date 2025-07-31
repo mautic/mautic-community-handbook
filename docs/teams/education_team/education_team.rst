@@ -31,8 +31,12 @@ General tasks for the Education Team
 Forum
 *****
 
+.. vale off
+
 Quality of contributions
 ========================
+
+.. vale on
 
 * Are the answers to asked questions correct? Ensure indication of the correct solutions if this is the case.
 * Is it an often asked question? → Add to documentation
@@ -60,7 +64,7 @@ Sources
 * User Documentation describes key concepts of Mautic and provides instructions for using and contributing to Mautic.
 * Knowledgebase provides a database of tutorials, FAQs, and how-to articles.
 * Developer Documentation details about the Mautic API, Webhooks, Themes and Plugin development.
-* Community Handbook central point of call for documentation on the organization and management of the Mautic community.
+* Community Handbook is a central point of call for documentation on the organization and management of the Mautic community.
 
 Quality
 -------
@@ -363,9 +367,7 @@ Check the Education Team's :xref:`Jira board education team` for tasks relating 
 Work with Knowledgebase
 =======================
 
-To learn how to create a new resource, see Create a new Knowledgebase resource.
-
-See Contributing to the Knowledgebase for an overview of how the Knowledgebase works.
+To learn how to create a new resource, check the :xref:`contribute to the Knowledgebase` article.
 
 Check the Education Team's :xref:`Jira board education team` for tasks relating to the Knowledgebase.
 
@@ -442,12 +444,10 @@ We currently have six key areas in which we organize content for the Knowledgeba
 * Best practice manuals
 * Developing with Mautic
 
-Grav organises these by nesting the articles underneath the top-level category. If a top-level category is required, please use the 'blog' page type - clone an existing one for a quick setup. If you're writing an individual article, use the 'item' page type.
-
 Write a good search summary
 ---------------------------
 
-The article summary along with the title are the only things that the user has to judge whether or not an article will answer their question. We call this "User Confidence" and it directly impacts click through rates.
+The article summary along with the title are the only things that the user has to judge whether or not an article will answer their question. We call this 'User Confidence' and it directly impacts click through rates.
 
 Even if we serve the correct article at the top of the search results list, the user needs to make the mental connection between the search query and the results we display in order for them to click through to the article.
 
@@ -470,7 +470,7 @@ Style guide and copy rules
 
 You should use an active, conversational style when you write for the Knowledgebase. 
 
-Avoid saying things like, "If a user's email has been sent," and instead, say, "If you've sent the email."
+Avoid saying things like, 'If a user's email has been sent,' and instead, say, 'If you've sent the email.'
 
 Here are other common style and copy issues you may run into when writing support articles - if you don't see your issue here, there's also a Mautic Style Guide:
 
@@ -486,9 +486,9 @@ Here are other common style and copy issues you may run into when writing suppor
   
   * Website is one word. Web page is two words.
   
-  * Log in and log out are verbs. Example: "Log in to the website." The same applies to sign in and sign out. Don't use "log into" or "sign into."
+  * Log in and log out are verbs. Example: 'Log in to the website.' The same applies to sign in and sign out. Don't use 'log into' or 'sign into.'
   
-  * Login and logout are nouns - usually used as adjectives. Example: "Click the login button."
+  * Login and logout are nouns - usually used as adjectives. Example: 'Click the login button.'
   
   * Use email instead of e-mail.
 
