@@ -119,7 +119,7 @@ The Technical Community Lead also has primary responsibility for supporting in-p
 
 .. There's no link to "/community-leadership/leadership-role-definitions#community-manager".
 
-The full responsibilities and expectations of the Technical Community Lead are detailed [here].
+The full responsibilities and expectations of the Technical Community Lead are detailed in the :xref:`Mautic technical community lead archive` page.
 
 The Project Founder
 ===================
