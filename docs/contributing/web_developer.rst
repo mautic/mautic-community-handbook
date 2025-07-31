@@ -25,8 +25,6 @@ Our other websites are maintained by the Education Team who are on Slack in ``#t
 
 The websites supported by this team include:
 
-.. Replace [Knowledgebase] with :xref:`Mautic Knowledgebase`. Currently the link is in an ummerged PR.
-
 * The :xref:`User Documentation` - on Read the Docs
 * The :xref:`Developer Docs` - on Read the Docs
 * The :xref:`Mautic Knowledgebase` - on PHPKB
