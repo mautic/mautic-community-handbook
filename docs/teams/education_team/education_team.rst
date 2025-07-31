@@ -351,7 +351,7 @@ Remember that the entire explanation doesn't have to go into the title. You can 
 Search Engine Optimization
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Each article created or edited in the End-User Documentation and Knowledgebase user interface will have a tab called ‘SEO'. In this tab, you can override the default title, description, and other fields to ensure maximal optimization for search engines.
+Each article created or edited in the End-User Documentation and Knowledgebase user interface will have a tab called 'SEO'. In this tab, you can override the default title, description, and other fields to ensure maximal optimization for search engines.
 
 If you don't override these fields, the defaults are used.
 
@@ -362,7 +362,7 @@ When you create an article for the End-User Documentation or the Knowledgebase, 
 
 The slug should be consistent with the title, but given the tighter space restraint, doesn't need to be the same. Be sure to check the end of the auto-generated slug once the item is saved. Sometimes, a word gets cut off or it ends in a dash - please fix things like that.
 
-The slug can be overridden under the ‘Advanced' tab. Simply select the checkbox next to ‘slug' and enter your preferred slug for the article. Note you should not include any paths before the slug for categories/structure, just the article slug.
+The slug can be overridden under the 'Advanced' tab. Simply select the checkbox next to 'slug' and enter your preferred slug for the article. Note you should not include any paths before the slug for categories/structure, just the article slug.
 
 Work with End-User Documentation
 ================================
@@ -462,7 +462,7 @@ We currently have six key areas in which we organize content for the Knowledgeba
 * Best practice manuals
 * Developing with Mautic
 
-Grav organises these by nesting the articles underneath the top-level category. If a top-level category is required, please use the ‘blog' page type - clone an existing one for a quick setup. If you're writing an individual article, use the ‘item' page type.
+Grav organises these by nesting the articles underneath the top-level category. If a top-level category is required, please use the 'blog' page type - clone an existing one for a quick setup. If you're writing an individual article, use the 'item' page type.
 
 Write a good search summary
 ---------------------------
