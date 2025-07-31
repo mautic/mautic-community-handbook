@@ -25,6 +25,14 @@ The vision is that it grows over time as the teams and governance structure evol
 
 .. toctree::
    :maxdepth: 2
+   :caption: Governance
+   :hidden:
+
+   governance/governance
+   governance/governance_model_v2
+
+.. toctree::
+   :maxdepth: 2
    :caption: Policies
    :hidden:
 
