@@ -6,9 +6,7 @@ Paying Contributors
 Background information
 **********************
 
-.. Replace [GitHub Sponsors] with :xref:`Mautic GitHub sponsor`. The link is currently in a PR that hasn't been merged yet.
-
-In 2020, the Mautic Community launched on :xref:`Mautic Open Collective` and [GitHub Sponsors], providing an opportunity for individuals and organizations to financially support the Mautic Project.
+In 2020, the Mautic Community launched on :xref:`Mautic Open Collective` and :xref:`Mautic GitHub sponsor`, providing an opportunity for individuals and organizations to financially support the Mautic Project.
 
 This policy sets out how Mautic plans to use the funds raised through these channels to support the development of Mautic.
 
@@ -26,9 +24,9 @@ This policy provides a guideline on how Mautic uses the funds available for use 
 Proposing sponsored contributors
 ================================
 
-.. Replace [Financial Policy] with :doc:`</policies/financial_policy>`.
+.. Replace "Financial Policy" with :doc:`</policies/financial_policy>`.
 
-Team Leads can propose that the Mautic Community sponsor any contributor from their teams who are in good standing within the community. The Community Council reviews these, with the final decision being approved by the Project Lead. It's important to note that the Mautic Community is unable to pay people who live in certain countries for legal reasons. Please check the [Financial Policy] for further details.
+Team Leads can propose that the Mautic Community sponsor any contributor from their teams who are in good standing within the community. The Community Council reviews these, with the final decision being approved by the Project Lead. It's important to note that the Mautic Community is unable to pay people who live in certain countries for legal reasons. Please check the Financial Policy for further details.
 
 A clear proposal will be made, which outlines the benefits to the Mautic Project through sponsoring the individual, with examples of their previous contributions and a plan for the first three months of what they will work on. This should also specify the number of hours per week that the individual will be sponsored for, and which budget the funds are to be allocated from. If fundraising is required, a project on the :xref:`Mautic Open Collective` can be established.
 
