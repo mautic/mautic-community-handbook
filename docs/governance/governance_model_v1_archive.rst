@@ -117,8 +117,6 @@ They're the face of the developer community, and a central point of call for any
 
 The Technical Community Lead also has primary responsibility for supporting in-person sprints, releases, and being a bridge between the community and Acquia from the technical perspective.
 
-.. There's no link to "/community-leadership/leadership-role-definitions#community-manager".
-
 The full responsibilities and expectations of the Technical Community Lead are detailed in the :xref:`Mautic technical community lead archive` page.
 
 The Project Founder
