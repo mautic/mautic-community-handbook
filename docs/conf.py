@@ -81,4 +81,6 @@ linkcheck_ignore = [
     r"https://www.glassdoor.co.uk/*",
     # 403 blocked errors
     r"https://www.drupal.org/governance/d8accelerate",
+    # Broken link due to anchor
+    r"https://github.com/mautic/mautic/blob/8a57278758e2c3e1c1ca987aaf9ebd5f05b3c877/app/bundles/CampaignBundle/Executioner/Dispatcher/LegacyEventDispatcher.php#L201"
 ]
