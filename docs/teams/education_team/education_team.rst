@@ -56,10 +56,10 @@ Forum rules
 * Automatically moving stuff to forums?
 
 Documentation
-=============
+*************
 
 Sources
--------
+=======
 
 * User Documentation describes key concepts of Mautic and provides instructions for using and contributing to Mautic.
 * Knowledgebase provides a database of tutorials, FAQs, and how-to articles.
@@ -67,14 +67,14 @@ Sources
 * Community Handbook is a central point of call for documentation on the organization and management of the Mautic community.
 
 Quality
--------
+=======
 
 * Maintaining a high quality
 * Review accuracy of the documentation
 * Keeping it easy to understand
 
 Completeness
-------------
+============
 
 * Add missing topics to the documentation
 * Proactively reviewing site/Google searches and identifying topics to write if there are missing areas
@@ -82,33 +82,33 @@ Completeness
 * Adding highly requested forum questions
 
 Up to date
-----------
+==========
 
 * Ensuring that the documentation is up to date with major releases
 * Document changes coming with those releases
 * Merge PRs when they come in for new features
 
 Languages
----------
+=========
 
 * Keeping native translations accurate
 * If necessary add more translations
 
 Style guide
------------
+===========
 
 The Mautic Style Guide recommends best practices that aims to bring about a consistent style, voice, and tone across all documentation.
 
 Any Technical Writer - or other contributor - can make suggestions for documentation style updates.
 
 Educational blog content
-========================
+************************
 
 * Curating and writing content for the community blog
 * Curating and writing how-to articles, tutorials for Mautic Knowledgebase
   
 Mautic app and website/marketing internationalization
-=====================================================
+*****************************************************
 
 * Own Transifex and appropriate workflows
 * Manage multilingual marketing materials - for example, website, fliers, etc.
