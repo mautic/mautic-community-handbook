@@ -71,4 +71,6 @@ linkcheck_ignore = [
     r"https://docs.mautic.org/policies/financial-policy#10-foreign-assets-control",
     # The GitHub Search UI requires users to be authenticated with session cookies, which we can't set up programmatically
     r"https://github.com/search*",
+    # Gitpod URLs often follow the pattern https://gitpod.io/#<repository_url>, which is not in the traditional sense for an HTML page
+    r'https://gitpod\.io/.*',
 ]
