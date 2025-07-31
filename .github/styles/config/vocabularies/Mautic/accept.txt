@@ -19,6 +19,7 @@ CCPA
 Citrix
 Clearbit
 CloudAMQP
+Codeception
 config
 Company(ies)
 Composer
@@ -30,7 +31,10 @@ cron
 Cron
 CTRL
 Custom Fields
+devDependency
 DDEV
+dev
+diem
 Do Not Contact
 doxing
 DNC
@@ -104,6 +108,7 @@ PUT
 Rackspace
 Rebase
 rebase
+Raycast
 Remarketing
 Salesforce
 Stumptown
@@ -128,6 +133,7 @@ Todo
 Transifex
 TRUE
 Twilio
+Uber
 unassign
 unpublish
 Unpublish
