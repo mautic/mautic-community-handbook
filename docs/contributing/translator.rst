@@ -8,9 +8,7 @@ Translating Mautic
 
 Mautic uses :xref:`Transifex` to manage the translations for the application.
 
-.. Make link for [sign up for an account at Transifex]. Previous link is broken: https://www.transifex.com/signup/?join_project=mautic
-
-To get started with translating, please [sign up for an account at Transifex] and request to join the Mautic project.
+To get started with translating, please :xref:`mautic transifex signup` and request to join the Mautic project.
 
 Please also join the :xref:`Translations channel on Slack` channel on Slack, which is the central place to ask any questions you may have regarding translations.
 
