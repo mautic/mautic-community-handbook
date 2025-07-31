@@ -13,9 +13,7 @@ The first thing to do is to join ``#t-marketing`` channel on :xref:`Mautic Commu
 Writing for the blog & website
 ==============================
 
-.. Add :xref: to "https://mautic.atlassian.net/browse/TMAR" to [Jira board]. It's not added to avoid duplication as this link is available in another PR that hasn't been merged.
-
-The Marketing Team maintains a [Jira board] specifically for content and editorial work. Our boards are publicly accessible, but you will need an account to be assigned issues or add responses. Please drop a message in the ``#t-marketing`` channel on Slack if you need an invitation to Jira.
+The Marketing Team maintains a :xref:`Jira board marketing team` specifically for content and editorial work. Our boards are publicly accessible, but you will need an account to be assigned issues or add responses. Please drop a message in the ``#t-marketing`` channel on Slack if you need an invitation to Jira.
 
 Once you have found an article you'd like to work on, please check the writer's brief which will be attached as a Google Doc, located in :xref:`Mautic Google Drive`. The brief should explain what the article should include, the audience we are intending to target, and some useful resources to help you get started.
 
@@ -119,9 +117,7 @@ Articles will also allow readers to add comments, and we definitely favor articl
 Pre-launch article submission process
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. Add :xref: to "https://mautic.atlassian.net/browse/MTEC" to [Editorial Calendar Jira Board]. It's not added to avoid duplication as this link is available in another PR that hasn't been merged.
-
-For all articles, we require you to submit your pitch via the [Editorial Calendar Jira Board].
+For all articles, we require you to submit your pitch via the :xref:`Jira marketing team editorial calendar`.
 
 Your pitch will be moved into either the ‘forming’ stage where we will ask you to provide more information, research or background detail to help us determine whether it is appropriate for the Community Blog, or directly to the ‘writing’ stage.
 
