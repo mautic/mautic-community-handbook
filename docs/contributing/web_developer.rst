@@ -8,7 +8,7 @@ Managing the Mautic websites
 
 The Mautic Community has several web assets which require regular updates, improvements and development of new features. 
 
-If you're a keen web developer and have experience with :xref:`Drupal` or :xref:`Grav`, we'd love to hear from you. 
+If you're a keen web developer and have experience with :xref:`WordPress`, we'd love to hear from you. 
 
 While our main ``mautic.org`` website is hosted by Hostnet, it's our responsibility to drive new developments and innovations. 
 
