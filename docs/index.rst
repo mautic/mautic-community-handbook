@@ -28,6 +28,7 @@ The vision is that it grows over time as the teams and governance structure evol
    :caption: Governance
    :hidden:
 
+   governance/deprecation_policy
    governance/governance
    governance/governance_model_v2
 
@@ -48,6 +49,7 @@ The vision is that it grows over time as the teams and governance structure evol
    policies/code_of_conduct/code_of_conduct_breaches
    policies/tools_and_resources
    policies/request_for_proposals_(RFP)_process
+   policies/paying_contributors
    policies/become_a_community_partner
    policies/recognizing_contributors_sponsors_and_partners
    policies/trademark
@@ -81,7 +83,8 @@ The vision is that it grows over time as the teams and governance structure evol
    :hidden:
 
    contributing/designer
-   contributing/developer/developer
+   contributing/developer
+   contributing/tester
    contributing/community_builder
    contributing/server_administrator
    contributing/google_summer_of_code
