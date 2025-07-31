@@ -29,7 +29,7 @@ The websites supported by this team include:
 
 * The :xref:`User Documentation` - on Read the Docs
 * The :xref:`Developer Docs` - on Read the Docs
-* The [Knowledgebase] - on PHPKB
+* The :xref:`Mautic Knowledgebase` - on PHPKB
 * The :xref:`Community Handbook` - on Grav
 * The :xref:`Mauticon website` - on WordPress
 
