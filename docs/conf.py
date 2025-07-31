@@ -77,4 +77,6 @@ linkcheck_ignore = [
     r'https://www.travel.dod.mil/Travel-Transportation-Rates/Per-Diem/Rate-Lookup/',
     # Frequent timeouts and errors when checking this link
     r"https://savannahcrm.com/public/*",
+    # 403 errors from this domain
+    r"https://www.glassdoor.co.uk/*",
 ]
