@@ -31,6 +31,8 @@ Cron
 CTRL
 Custom Fields
 DDEV
+dev
+diem
 Do Not Contact
 doxing
 DNC
@@ -104,6 +106,7 @@ PUT
 Rackspace
 Rebase
 rebase
+Raycast
 Remarketing
 Salesforce
 Stumptown
@@ -128,6 +131,7 @@ Todo
 Transifex
 TRUE
 Twilio
+Uber
 unassign
 unpublish
 Unpublish
