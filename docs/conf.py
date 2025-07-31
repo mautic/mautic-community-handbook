@@ -79,4 +79,6 @@ linkcheck_ignore = [
     r"https://savannahcrm.com/public/*",
     # 403 errors from this domain
     r"https://www.glassdoor.co.uk/*",
+    # 403 blocked errors
+    r"https://www.drupal.org/governance/d8accelerate",
 ]
