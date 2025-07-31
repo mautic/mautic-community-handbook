@@ -31,6 +31,7 @@ Cron
 CTRL
 Custom Fields
 DDEV
+dev
 diem
 Do Not Contact
 doxing
@@ -105,6 +106,7 @@ PUT
 Rackspace
 Rebase
 rebase
+Raycast
 Remarketing
 Salesforce
 Stumptown

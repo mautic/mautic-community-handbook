@@ -83,6 +83,7 @@ The vision is that it grows over time as the teams and governance structure evol
    :hidden:
 
    contributing/designer
+   contributing/tester
    contributing/community_builder
    contributing/server_administrator
    contributing/google_summer_of_code
