@@ -33,6 +33,7 @@ Cron
 CTRL
 Custom Fields
 DDEV
+Decidim
 dev
 diem
 Do Not Contact

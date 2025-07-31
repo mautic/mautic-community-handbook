@@ -12,7 +12,7 @@ Joining a group
 
 If you would like to join a team, working group or other entity within the community, the first step is to request to join the group. This allows you to become a member of the connected assembly as a contributor, when approved.
 
-#. Find the group you want to join - either via the assembly homepage, or by [searching for the group](https://community.mautic.org/search?filter%5Bterm%5D=&filter%5Bwith_resource_type%5D=Decidim%3A%3AUserGroup&filter%5Bwith_scope%5D=).
+#. Find the group you want to join - either via the assembly homepage or :xref:`Mautic groups search`.
 #. Click to request to join the group, and wait for request approval:
 
   .. image:: images/request-to-join-group.png
@@ -26,7 +26,7 @@ When a new member requests to join a group which you are an administrator of, yo
 
 .. image:: images/notification-inapp-group-join-request.png
   :width: 800
-  :alt: Inapp notification from a user to join the group
+  :alt: In-app notification from a user to join the group
 
 .. image:: images/notification-email-group-join-request.png
   :width: 800
@@ -64,7 +64,7 @@ Individuals have to create Groups rather than via the administrator portal, and 
      :width: 800
      :alt: Create group button
 
-#. Use the team email address with your group as a suffix - for example community-team+portalwg@mautic.org - the team receives and confirms via email.
+#. Use the team email address with your group as a suffix, for example, ``community-team+portalwg@mautic.org``. The team receives and confirms via email.
 
 #. For official groups, use the Mautic logo for the avatar.
 
@@ -74,20 +74,20 @@ Individuals have to create Groups rather than via the administrator portal, and 
      :width: 800
      :alt: Invite participants link
 
-#. Ensure that you add at least one other administrator, ideally someone from the [Community Portal Working Group](https://community.mautic.org/assemblies/community-portal-working-group/members).
+#. Ensure that you add at least one other administrator, ideally someone from the :xref:`Community Portal Working Group`.
 
-Once created, you can find groups via the Groups menu or when [searching and filtering by Groups](https://community.mautic.org/search?filter%5Bterm%5D=&filter%5Bwith_resource_type%5D=Decidim%3A%3AUserGroup&filter%5Bwith_scope%5D=).
+Once created, you can find groups via the Groups menu or by searching and filtering on :xref:`Mautic groups search`.
 
 Official groups have a blue circle with a white star inside to signify their status.
 
 .. image:: images/official-groups.png 
   :width: 800
-  :alt: Offical groups list
+  :alt: Official groups list
 
 Adding a group as a member of an entity
 ***************************************
 
-You can add a group in the same way you add a user to an assembly, process, etc. by logging in as an administrator, going to the entity in the administrator panel and going to Members > Add new member and typing the group name.
+You can add a group in the same way you add a user to an assembly, process, etc. by logging in as an administrator, going to the entity in the administrator panel and going to ``Members > Add new member``, and typing the group name.
 
 Remember that adding the group means that **all members** of the group become a member of that entity immediately.
 
