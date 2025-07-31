@@ -109,16 +109,12 @@ Whether you want to help with the big international events or the regional and l
 
 Find out how to get involved.
 
-.. Replace the title with :doc:`/contributing/web_developer`. See line 22 as an example.
+:doc:`Web developer </contributing/web_developer>`
+==================================================
 
-Web developer
-=============
+The Mautic Community has several web assets which require regular updates, improvements and development of new features. If you're a keen web developer and have experience with WordPress, we'd love to hear from you. While our website is hosted by Hostnet, it is our responsibility to drive new developments and innovations. We'd love to build a web development team in the community specifically to look after our web properties and keep us moving forward.
 
-The Mautic Community has several web assets which require regular updates, improvements and development of new features. If you're a keen web developer and have experience with Drupal or Grav, we'd love to hear from you. While our website is hosted by Dropsolid, it is our responsibility to drive new developments and innovations. We'd love to build a web development team in the community specifically to look after our web properties and keep us moving forward.
-
-.. Replace "how to get involved" with :doc:`how to get involved</contributing/web_developer>`. See line 29 as an example.
-
-Find out how to get involved
+Find out :doc:`how to get involved</contributing/web_developer>`
 
 :doc:`Server Administrator </contributing/server_administrator>`
 ================================================================
