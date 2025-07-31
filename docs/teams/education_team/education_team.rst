@@ -371,18 +371,14 @@ To learn how to create a new resource, see Create a new Documentation resource.
 
 See :doc:`/contributing/contributing_docs_rst` for an overview of how the documentation works and the syntax that should be used.
 
-.. Add :xref: to "https://mautic.atlassian.net/browse/TEDU" to [Jira board]. It's not added to avoid duplication as this link is available in another PR that hasn't been merged.
-
-Check the Education Team’s [Jira board] for tasks relating to the End-User Documentation.
+Check the Education Team’s :xref:`Jira board education team` for tasks relating to the End-User Documentation.
 
 Work with Developer Documentation
 =================================
 
-The :xref:`Developer Docs` uses [Slate], and doesn't have a front-end user interface. Please make any changes via a Pull Request - PR - to the :xref:`Developer Docs GitHub`.
+The :xref:`Developer Docs` uses :xref:`Slatejs`, and doesn't have a front-end user interface. Please make any changes via a Pull Request - PR - to the :xref:`Developer Docs GitHub`.
 
-.. Add :xref: to "https://mautic.atlassian.net/browse/TEDU" to [Jira board]. It's not added to avoid duplication as this link is available in another PR that hasn't been merged.
-
-Check the Education Team’s [Jira board] and the Product Team’s :xref:`Jira board product team` for outstanding tasks relating to the Developer Documentation.
+Check the Education Team’s :xref:`Jira board education team` and the Product Team’s :xref:`Jira board product team` for outstanding tasks relating to the Developer Documentation.
 
 Work with Knowledgebase
 =======================
@@ -391,9 +387,7 @@ To learn how to create a new resource, see Create a new Knowledgebase resource.
 
 See Contributing to the Knowledgebase for an overview of how the Knowledgebase works.
 
-.. Add :xref: to "https://mautic.atlassian.net/browse/TEDU" to [Jira board]. It's not added to avoid duplication as this link is available in another PR that hasn't been merged.
-
-Check the Education Team’s [Jira board] for tasks relating to the Knowledgebase.
+Check the Education Team’s :xref:`Jira board education team` for tasks relating to the Knowledgebase.
 
 Writing for End-User or Developer Documentation
 ===============================================
@@ -405,7 +399,7 @@ General style requirements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Review the contribution guidelines on :xref:`User Docs GitHub` or :xref:`Developer Docs GitHub` before contributing.
-* Use a formal writing style, similar to the way you’d expect to read instructions in a textbook. Please check your spelling, punctuation and grammar. **Tip:** free tools such as :xref:`Grammarly` can be very helpful with this.
+* Use a formal writing style, similar to the way you’d expect to read instructions in a textbook. Please check your spelling, punctuation and grammar. **Tip:** free tools such as :xref:`Grammarly` can be very helpful for this task.
 * Try to provide visual examples using images and videos where appropriate - work with the Education Team who can support you with this.
 * When writing for the Developer Documentation, always include at least one code sample.
 * Use headings to break down the article into relevant chunks. Links are automatically created based on heading tags, which allows for easy navigation to specific parts of the article.
@@ -479,9 +473,9 @@ Even if we serve the correct article at the top of the search results list, the 
 
 A summary for a how-to article should include the topics covered in the article. A troubleshooting article should try to include symptoms. In addition, a summary should follow these guidelines:
 
-* Short and to the point. Remember classified ads? Write it like that. Search engines may cut off anything longer than 140 characters. If you use a longer summary, keep the important information at the beginning. **Note:** the KB software will show 20 characters remaining when the summary reaches 140 characters because the internal search limit is 160.
-* Don't use wiki markup. Just plain text in any of the SEO fields.
-* Don't use "This article explains" in every summary. Vary it when possible. Some other phrases to consider:
+* **Short and to the point**. Remember classified ads? Write it like that. Search engines may cut off anything longer than 140 characters. If you use a longer summary, keep the important information at the beginning. **Note:** the KB software will show 20 characters remaining when the summary reaches 140 characters because the internal search limit is 160.
+* **Don't use wiki markup**. Just plain text in any of the SEO fields.
+* **Don't use "This article explains" in every summary**. Vary it when possible. Some other phrases to consider:
 
   * This page shows you ...
 
