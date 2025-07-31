@@ -81,4 +81,10 @@ linkcheck_ignore = [
     r"https://www.glassdoor.co.uk/*",
     # 403 blocked errors
     r"https://www.drupal.org/governance/d8accelerate",
+    # 403 client error
+    r"https://www.canva.com/login/?redirect=%2Fdesign%2FDAFvp3RX9E4%2Ft7lTTciFvSBcdA_94XbTiQ%2Fview"
+    # Ancor is picked up as not found
+    r"https://docs.decidim.org/en/develop/admin/spaces/assemblies#_new_assembly_form"
+    # Anchor is picked up as not found
+    r"https://docs.decidim.org/en/develop/admin/components/meetings.html#_create_a_new_meeting"
 ]
