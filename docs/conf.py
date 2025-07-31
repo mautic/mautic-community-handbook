@@ -75,4 +75,6 @@ linkcheck_ignore = [
     r'https://gitpod\.io/.*',
     # The domain is blocking the link checker
     r'https://www.travel.dod.mil/Travel-Transportation-Rates/Per-Diem/Rate-Lookup/',
+    # Frequent timeouts and errors when checking this link
+    r"https://savannahcrm.com/public/*",
 ]
