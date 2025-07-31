@@ -83,6 +83,7 @@ The vision is that it grows over time as the teams and governance structure evol
    :hidden:
 
    contributing/designer
+   contributing/translator
    contributing/developer
    contributing/tester
    contributing/community_builder
