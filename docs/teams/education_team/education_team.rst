@@ -377,9 +377,6 @@ Writing for End-User or Developer Documentation
 Writing style for Documentation projects
 ----------------------------------------
 
-General style requirements
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 * Review the contribution guidelines on :xref:`User Docs GitHub` or :xref:`Developer Docs GitHub` before contributing.
 * Use a formal writing style, similar to the way you'd expect to read instructions in a textbook. Please check your spelling, punctuation and grammar. **Tip:** free tools such as :xref:`Grammarly` can be very helpful for this task.
 * Try to provide visual examples using images and videos where appropriate - work with the Education Team who can support you with this.
