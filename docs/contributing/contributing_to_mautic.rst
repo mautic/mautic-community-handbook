@@ -19,8 +19,8 @@ We have developed formalized processes for contributing as a designer, developer
     
     You must join Mautic Slack workspace first before contributing. Get an invite at :xref:`Mautic Community Slack`.
 
-:doc:`/contributing/designer`
-=============================
+:doc:`Designer </contributing/designer>`
+========================================
 
 There are many opportunities for designers to get involved with the Mautic Community. Some examples of tasks that you might work on, include creating logos or icon sets for use in promotional material, designing a pitch deck to help people promote Mautic, and creating imagery for use at events or in social media/email campaigns.
 
@@ -89,8 +89,8 @@ Content makes the world go round, right? We have many opportunities for writers 
 
 Find out how to get involved.
 
-:doc:`/contributing/community_builder`
-======================================
+:doc:`Community Builder </contributing/community_builder>`
+==========================================================
 
 Our community is at the heart of Mautic, and community builders are the people who help us to grow and nurture that community. The Community Team have quite a wide remit, and there are a lot of opportunities to get involved with supporting Mautic as a community builder. Whether you want to support local communities, or help people to get started as a contributor, or want to find ways to reach out into other open source communities, we've got lots of ways to get involved.
 
@@ -120,8 +120,8 @@ The Mautic Community has several web assets which require regular updates, impro
 
 Find out how to get involved
 
-:doc:`/contributing/server_administrator`
-=========================================
+:doc:`Server Administrator </contributing/server_administrator>`
+================================================================
 
 Several of our services and websites run on servers which need supporting. Our infrastructure working group monitors and updates these servers, keeping them up to date with the latest security patches and updates.
 
