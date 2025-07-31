@@ -88,5 +88,5 @@ linkcheck_ignore = [
     # 403 errors from this domain
     r"https://pixabay.com",
     # 403 errors from this domain
-    r"https://unsplash.com",
+    r"https://www.unsplash.com",
 ]
