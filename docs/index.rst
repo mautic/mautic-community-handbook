@@ -25,25 +25,29 @@ The vision is that it grows over time as the teams and governance structure evol
 
 .. toctree::
    :maxdepth: 2
-   :caption: Community Leadership
+   :caption: Governance
+   :hidden:
+
+   governance/governance
+   governance/governance_model_v2
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Community leadership
    :hidden:
 
    community_leadership/community_leadership
 
 .. toctree::
    :maxdepth: 2
-   :caption: Governance
-   :hidden:
-
-
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Code of Conduct
+   :caption: Policies
    :hidden:
 
    policies/code_of_conduct/code_of_conduct
    policies/code_of_conduct/code_of_conduct_breaches
+   policies/code_of_conduct/tools_and_resources
+   policies/request_for_proposals_(RFP)_process
+   policies/become_a_community_partner
    policies/recognizing_contributors_sponsors_and_partners
 
 .. toctree::
@@ -57,12 +61,7 @@ The vision is that it grows over time as the teams and governance structure evol
    resources/meetings/meetings
    resources/meetings/asynchronous_meetings
    resources/meetings/preparing_and_running_meetings
-
-.. toctree::
-   :maxdepth: 2
-   :caption: On-boarding
-   :hidden:
-
+   
 .. toctree::
    :maxdepth: 2
    :caption: Teams
@@ -71,7 +70,6 @@ The vision is that it grows over time as the teams and governance structure evol
    teams/legal_and_finance_team
    teams/community_team/community_team
    teams/product_team/product_team_overview
-   teams/product_team/request_for_proposals_(RFP)_process
    teams/education_team/education_team
    
 .. toctree::
@@ -80,6 +78,8 @@ The vision is that it grows over time as the teams and governance structure evol
    :hidden:
 
    contributing/designer
+   contributing/community_builder
+   contributing/server_administrator
    contributing/google_summer_of_code
    contributing/mautic_bounty_programme
    contributing/contributing_docs_rst
