@@ -69,7 +69,40 @@ locale_dirs = ['locale']
 linkcheck_ignore = [
       # Anchors are picked up as broken
     r"https://docs.mautic.org/policies/financial-policy#10-foreign-assets-control",
-    r"https://github.com/abiosoft/colima?tab=readme-ov-file#installation",
     # The GitHub Search UI requires users to be authenticated with session cookies, which we can't set up programmatically
     r"https://github.com/search*",
+    r"https://mau.tc/*",
+    r"https://creativecommons.org/licenses/by-sa/3.0/legalcode",
+    r"https://creativecommons.org/licenses/by-sa/3.0/",
+    r"https://www.opensourcematters.org/organisation.html",
+    r"https://www.drupal.org/governance",
+    r"https://github.com/mautic/mautic-community-handbook/blob/6956b3d3b4297735133717536d197c607c0bfa41/pages/04.community-leadership/02.leadership-role-definitions/docs.md#technical-community-lead",
+    # Gitpod URLs often follow the pattern https://gitpod.io/#<repository_url>, which is not in the traditional sense for an HTML page
+    r'https://gitpod\.io/.*',
+    # The domain is blocking the link checker
+    r'https://www.travel.dod.mil/Travel-Transportation-Rates/Per-Diem/Rate-Lookup/',
+    # Frequent timeouts and errors when checking this link
+    r"https://savannahcrm.com/public/*",
+    # 403 errors from this domain
+    r"https://www.glassdoor.co.uk/*",
+    # 403 blocked errors
+    r"https://www.drupal.org/governance/d8accelerate",
+    # 403 client error
+    r"https://www.canva.com/login/?redirect=%2Fdesign%2FDAFvp3RX9E4%2Ft7lTTciFvSBcdA_94XbTiQ%2Fview"
+    # Ancor is picked up as not found
+    r"https://docs.decidim.org/en/develop/admin/spaces/assemblies#_new_assembly_form"
+    # Anchor is picked up as not found
+    r"https://docs.decidim.org/en/develop/admin/components/meetings.html#_create_a_new_meeting"
+    # Broken link due to anchor
+    r"https://github.com/mautic/mautic/blob/8a57278758e2c3e1c1ca987aaf9ebd5f05b3c877/app/bundles/CampaignBundle/Executioner/Dispatcher/LegacyEventDispatcher.php#L201",
+    # 403 errors from this domain
+    r"https://www.drupal.org/about/core/policies/core-change-policies/drupal-deprecation-policy",
+    # 403 errors from this domain
+    r"https://pixabay.com",
+    # 403 errors from this domain
+    r"https://www.unsplash.com",
+    # Anchor is picked up as not found
+    r"https://github.com/mautic/mautic/blob/8a57278758e2c3e1c1ca987aaf9ebd5f05b3c877/app/bundles/CampaignBundle/Executioner/Dispatcher/LegacyEventDispatcher.php#L201",
+    # 403 errors from this domain
+    r"https://www.canva.com/*"
 ]
