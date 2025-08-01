@@ -20,7 +20,7 @@ The structure of the community includes five teams, each led by a Team Lead and 
 * :doc:`/teams/education_team`
 * :doc:`/teams/legal_and_finance_team`
 * :doc:`/teams/marketing_team`
-* :doc:`/teams/product_team_overview`
+* :doc:`/teams/product_team`
 
 Each of these teams are responsible for establishing and overseeing working groups within the team.
 
