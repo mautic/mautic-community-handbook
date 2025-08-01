@@ -248,9 +248,9 @@ Some points of clarification
 
 **Core Team:** individuals with technical ability to manage and maintain the core of Mautic - includes Release Leaders, Core Committers, Maintainers - see :ref:`6. Contributors, Maintainers, and the Core Team` for more details.
 
-**Product Team:** members of the Mautic Product Team. They may also be part of the Core Team, but not necessarily. Currently listed on the :xref:`Mautic Product Team` page.
+**Product Team:** members of the Mautic :doc:`product_team`. They may also be part of the Core Team, but not necessarily. Currently listed on the :xref:`Mautic Product Team` page.
 
-**Triage Team:**  members of the Mautic Product Team who are responsible for triaging issues and PRs. They may also be part of the Core Team, but not necessarily. Currently listed here.
+**Triage Team:**  members of the Mautic Product Team who are responsible for triaging issues and PRs. They may also be part of the Core Team, but not necessarily.
 
 **Code review and testing:** by people other than the author of the PR.
 
