@@ -17,6 +17,7 @@ bitwise
 blocklist
 boolean
 booleans
+Canva
 cc
 CCPA
 Citrix
@@ -30,16 +31,20 @@ configurator
 ConnectWise
 Contribution(s)
 CORS
+CKEditor
 cron
 Cron
+CSV
 CTRL
 Custom Fields
 devDependency
 DDEV
+Decidim
 dev
 diem
 Do Not Contact
 doxing
+downvote
 DNC
 Dripflow
 Dynamic Web Content
