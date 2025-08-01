@@ -7,7 +7,7 @@ This documentation explores assemblies, what they are, why they're important, wh
 
 .. tip::
 
-   You can watch the short tutorial :xref:`Mautic community portal assemblies` on YouTube, if you prefer video format.
+   You can watch the short tutorial :xref:`Mautic community portal assemblies` on YouTube, if you prefer a video format.
 
 Getting started with assemblies
 *******************************
