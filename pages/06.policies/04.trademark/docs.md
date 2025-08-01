@@ -83,7 +83,8 @@ You receive an automatic license when:
 #### Examples of “fostering the Mautic platform and community”
 
 * A course entitled “How to use Mautic in your business” organized by a local non-profit organization
-* "How-to" video(s), article(s) or blog post(s) on topics related to the Mautic platform
+* A website “mautichalloffame.com” with pictures of Mautic contributors
+* Administering a database with Mautic bugs and corresponding workarounds
 
 #### Examples of not “exclusively to foster the Mautic platform”
 
