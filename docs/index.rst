@@ -42,6 +42,7 @@ The vision is that it grows over time as the teams and governance structure evol
    :caption: Governance
    :hidden:
 
+   governance/deprecation_policy
    governance/governance
    governance/governance_model_v2
 
@@ -95,9 +96,14 @@ The vision is that it grows over time as the teams and governance structure evol
    :caption: Contributing
    :hidden:
 
+   contributing/contributing_to_mautic
    contributing/designer
+   contributing/translator
+   contributing/developer
    contributing/tester
    contributing/community_builder
+   contributing/event_organizer
+   contributing/web_developer
    contributing/server_administrator
    contributing/google_summer_of_code
    contributing/mautic_bounty_programme
