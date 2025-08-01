@@ -1,6 +1,6 @@
 # Mautic community handbook
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-17-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -87,6 +87,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/favour-chibueze"><img src="https://avatars.githubusercontent.com/u/46398983?v=4?s=100" width="100px;" alt="Favour Chibueze "/><br /><sub><b>Favour Chibueze </b></sub></a><br /><a href="https://github.com/mautic/mautic-community-handbook/commits?author=favour-chibueze" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/susanodii"><img src="https://avatars.githubusercontent.com/u/81011757?v=4?s=100" width="100px;" alt="Susan Odii"/><br /><sub><b>Susan Odii</b></sub></a><br /><a href="https://github.com/mautic/mautic-community-handbook/commits?author=susanodii" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://gemission.org"><img src="https://avatars.githubusercontent.com/u/89047449?v=4?s=100" width="100px;" alt="Dalton McGehee"/><br /><sub><b>Dalton McGehee</b></sub></a><br /><a href="https://github.com/mautic/mautic-community-handbook/commits?author=daltonm-GEM" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://second-gazelle-cd0.notion.site/Judith-Etugbo-226582d0eba680e88616f4f60a2d9c5e"><img src="https://avatars.githubusercontent.com/u/110067624?v=4?s=100" width="100px;" alt="Judith Etugbo"/><br /><sub><b>Judith Etugbo</b></sub></a><br /><a href="https://github.com/mautic/mautic-community-handbook/commits?author=Nickyshe" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
