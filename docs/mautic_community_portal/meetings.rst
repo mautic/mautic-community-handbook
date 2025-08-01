@@ -49,14 +49,14 @@ To create a meeting you need to log in as an administrator.
 Registration
 ============
 
-Through registrations you can have capacity control of the attendance for a meeting. With this feature, for instance, you can limit how many people could attend to the meeting, or you can know before the start of a meeting if you need to find a bigger room to have the meeting.
+Through registrations, you can have capacity control of the attendance for a meeting. With this feature, for instance, you can limit how many people could attend to the meeting, or you can know before the start of a meeting if you need to find a bigger room to have the meeting.
 
 Enabling this feature adds a button so that participants can express their wish to go to the meeting. Depending on the configuration:
 
 * It’s possible to define how many slots are available for controlling the maximum capacity for this meeting
 * You can configure a custom registration form for asking information from participants 
 * Administrators can make invitations to other participants or people that aren’t registered on the platform
-* It’s possible to control attendance to the meeting through registration codes - for example if you want to verify attendees have a valid ticket when they arrive at an event.
+* It’s possible to control attendance to the meeting through registration codes - for example, if you want to verify attendees have a valid ticket when they arrive at an event.
 
 When registering to attend a meeting, users have the option to show their attendance publicly, and also whether they're attending on behalf of another group.
 
@@ -73,11 +73,11 @@ To enable registrations for a meeting:
 #. In the main sidebar, click in the button for the space that you want to configure the component for. For instance, it could be 'Processes', 'Assemblies', or 'Conferences'
 #. Click on 'Meetings'
 #. Search the meeting that you want to enable registrations for
-#. Click on the 'Edit' button Edit button
+#. Click on the 'Edit' button
 #. Change the 'Registration type' field to 'On this platform' *
 #. Define how many slots are available in 'Available slots for this meeting'
 #. Click on the 'Update' button
-#. Click on the 'Registrations' button Registrations button
+#. Click on the 'Registrations' button
 #. Check the 'Registrations enabled' checkbox
 #. Fill the form
 
@@ -90,9 +90,9 @@ To add a custom registration form, follow these steps in this order:
 
 #. Open the assembly containing the meeting you wish to use the form with
 #. Click on the icon which resembles two people, shown in the list of meetings against the relevant meeting
-#. Check the box 'Registration form enabled' and enter something in the Registration terms box - use a '.' if you don't need to use terms, and click save
-#. Open the meeting, click the blue button top right, and write a title, description and terms of service for the form, and click save - you must save these first before adding fields, otherwise it won't work
-#. Open the form settings, and click 'Add question' or 'Add separator' as required, to build the form. Remember to press 'save' at the bottom of the page.
+#. Check the box 'Registration form enabled' and enter something in the Registration terms box - use a '.' if you don't need to use terms, and click 'Save'
+#. Open the meeting, click the blue button top right, and write a title, description and terms of service for the form, and click 'Save'. You must save these first before adding fields, otherwise it won't work
+#. Open the form settings, and click 'Add question' or 'Add separator' as required, to build the form. Remember to click 'Save' at the bottom of the page.
 
 .. image:: images/meeting-registration-form.png
   :width: 800
@@ -134,12 +134,12 @@ It's a good idea to make an announcement on Slack / Social the day before the me
 
 Refer to the agenda, and have someone take notes - rotate this person each meeting - on the Etherpad.
 
-Take note of who is in attendance - individuals, companies, groups represented - and if any proposals discussed, and be sure to record the meeting as appropriate.
+Take note of who is in attendance - individuals, companies, groups represented - and if any proposals discussed. Ensure to record the meeting, as appropriate.
 
 Closing a meeting
 *****************
 
-After a meeting has passed it’s possible and recommended to close the meeting. This allows you to add the minutes, the notes that gives a summary on the meeting, the agreements reached, decisions made, etc.
+After a meeting has passed, it’s possible and recommended to close the meeting. This allows you to add the minutes, the notes that gives a summary on the meeting, the agreements reached, decisions made, etc.
 
 This allows you to bring transparency to the meeting and also serves as a record of the different meetings.
 
@@ -148,10 +148,10 @@ It’s also possible to add other kind of metadata to the meeting, such as what 
 To close a meeting:
 
 #. Sign in as an administrator at :xref:`Mautic community portal admin`
-#. In the main sidebar, click in the button for the space that you want to configure the component for. For instance, it could be 'Processes', 'Assemblies', or 'Conferences'
-#. Click on 'Meetings'
+#. In the main sidebar, click the button for the space that you want to configure the component for. For instance, it could be 'Processes', 'Assemblies', or 'Conferences'
+#. Click 'Meetings'
 #. Search the meeting that you want to close
-#. Click on the 'Close' button
+#. Click the 'Close' button
 #. Fill the form
 
 Please be sure to provide a link to the meeting recording - upload the recordings to the community shared :xref:`Mautic Google Drive`.

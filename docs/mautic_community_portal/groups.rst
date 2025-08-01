@@ -1,9 +1,11 @@
 Groups
 ######
 
+.. vale off
+
 Groups in Decidim serve several purposes:
 
-* To allow you to participate on behalf of an entity - for example joining a meeting or endorsing a proposal on behalf of your team
+* To allow you to participate on behalf of an entity, for example, joining a meeting or endorsing a proposal on behalf of your team
 * To allow groups of people to automatically join an assembly by virtue of their group membership
 * To allow groups of people to have conversations together
 
@@ -12,8 +14,8 @@ Joining a group
 
 If you would like to join a team, working group or other entity within the community, the first step is to request to join the group. This allows you to become a member of the connected assembly as a contributor, when approved.
 
-#. Find the group you want to join - either via the assembly homepage or :xref:`Mautic groups search`.
-#. Click to request to join the group, and wait for request approval:
+#. Find the group you want to join, either via the assembly homepage or :xref:`Mautic groups search`.
+#. Click to request to join the group, and wait for request approval.
 
   .. image:: images/request-to-join-group.png
     :width: 800
@@ -34,7 +36,7 @@ When a new member requests to join a group which you are an administrator of, yo
 
 |
 
-Use the link in the notification to jump straight to the request, and click Accept to allow the request, or reject to prevent the user joining the group.
+Use the link in the notification to jump straight to the request, and click 'Accept' to allow the request, or 'Reject' to prevent the user joining the group.
 
 .. image:: images/request-to-join-group-accept-reject.png
   :width: 800
@@ -45,7 +47,7 @@ On approval, they're added to the group and any related assemblies.
 Managing members
 ****************
 
-If you need to promote a member to an administrator of a group, or remove a member, click Manage Members within the group, and then click the relevant button.
+If you need to promote a member to an administrator of a group or remove a member, click 'Manage members' within the group, and then click the relevant button.
 
 .. image:: images/group-manage-members.png
   :width: 800
@@ -68,7 +70,7 @@ Individuals have to create Groups rather than via the administrator portal, and 
 
 #. For official groups, use the Mautic logo for the avatar.
 
-#. Click 'invite participants' to add other members - you need to know their nickname for the community portal, from their profile:
+#. Click 'Invite participants' to add other members. You need to know their nickname for the community portal, from their profile.
 
    .. image:: images/invite-participant-group.png 
      :width: 800
@@ -87,7 +89,7 @@ Official groups have a blue circle with a white star inside to signify their sta
 Adding a group as a member of an entity
 ***************************************
 
-You can add a group in the same way you add a user to an assembly, process, etc. by logging in as an administrator, going to the entity in the administrator panel and going to ``Members > Add new member``, and typing the group name.
+You can add a group in the same way you add a user to an assembly, process, etc. by logging in as an administrator, going to the entity in the administrator panel, navigating to ``Members > Add new member``, and typing the group name.
 
 Remember that adding the group means that **all members** of the group become a member of that entity immediately.
 
@@ -99,10 +101,12 @@ When you are an administrator of a group, you have the ability to act on behalf 
 * Attending a meeting or event on behalf of a group
 * Endorsing a proposal on behalf of a group
 
-When eligible, a checkbox displays when registering to attend a meeting or endorsing a proposal for example, which allows you to take action on behalf of the group:
+When eligible, a checkbox displays when registering - for example, to attend a meeting or endorsing a proposal - which allows you to take action on behalf of the group.
 
 .. image:: images/register-meeting.png 
   :width: 800
   :alt: Register meeting checkboxes
 
-By checking the box, the group name - rather than your name - shows in relation to the action - for example as an attendee of a meeting, or endorsing a proposal.
+By checking the box, the group name - rather than your name - shows in relation to the action, for example, as an attendee of a meeting or endorsing a proposal.
+
+.. vale on

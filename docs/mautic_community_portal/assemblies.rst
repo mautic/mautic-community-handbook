@@ -166,7 +166,7 @@ Creating an assembly
 
 An assembly is a grouping of people who come together to make decisions about specific things or to run different parts of the community.
 
-There are different reasons for having assemblies. Some of them are relating to decision making and governance - such as the Council and the General Assembly - but there are also assemblies for Teams, Meetup Groups and Working Groups as well.
+There are different reasons for having assemblies. Some of them are relating to decision-making and governance - such as the Council and the General Assembly - but there are also assemblies for Teams, Meetup Groups and Working Groups as well.
 
 An assembly can also have assemblies nested within it - for example, the MautiCon Working Group sits within the Community Team because that's the team in which it belongs.
 
@@ -179,7 +179,7 @@ How to create a new assembly
 
 The first step before you create an assembly is to decide what the parent assembly should be.
 
-The following top-level assemblies exist:
+The following are existing top-level assemblies:
 
 * Community Team
 * Education Team
@@ -197,7 +197,7 @@ Once you have decided where the new assembly should sit, follow this process to 
 
 #. Log in as an administrator at :xref:`Mautic community portal admin`.
 
-#. Browse to the Assemblies section in the administrators portal.
+#. Browse to the 'Assemblies' section in the administrators portal.
 
 #. Find the assembly which you want as your parent assembly - note that this icon is black if there are sub-assemblies within the assembly, while clicking it reveals the list of sub-assemblies.
 
@@ -233,11 +233,11 @@ Once you have decided where the new assembly should sit, follow this process to 
 
    * Please don't highlight the assembly unless agreed with the Community Portal working group.
 
-   * If your assembly needs to be invitations only, as far as who can engage in it, you should set it to private. This means, you have to maintain a list of ':xref:`Decidim private participants`' who can engage in the assembly. This is quite an overhead, and individuals may also need adding as a member of the group as well to engage in activities. So, only use this where absolutely essential. The General Assembly uses this for example. If required, it's highly recommended that you also set the assembly to transparent so that the community can see what happens in the space, if they can't engage. Private participants receive an invitation to join the assembly, which they must accept. Ensure you use the same email address they use on the portal, otherwise duplicate accounts can arise.
+   * If your assembly needs to be invitations only, as far as who can engage in it, you should set it to private. This means, you have to maintain a list of ':xref:`Decidim private participants`' who can engage in the assembly. This is quite an overhead, and individuals may also need adding as a member of the group as well to engage in activities. So, only use this where absolutely essential. As an example, the General Assembly uses this. If required, it's highly recommended that you also set the assembly to transparent so that the community can see what happens in the space, even if they can't engage. Private participants receive an invitation to join the assembly, which they must accept. Ensure you use the same email address they use on the portal, otherwise duplicate accounts can arise.
 
    * Ensure you select the assembly type from the dropdown options.
 
-#. Once saved successfully, go back to the list and you'll notice it's showing as unpublished.
+#. Once saved successfully, go back to the list. You'll notice it's showing as unpublished.
 
    |
 
@@ -251,11 +251,11 @@ Once you have decided where the new assembly should sit, follow this process to 
 
 #. Add the components you require by clicking on ``Components > Add Component``. Generally, most assemblies require:
 
-   * Page: to explain in more detail what they do
+   * **Page**: to explain in more detail what they do
 
-   * Meetings: for online/hybrid/in-person meetings
+   * **Meetings**: for online/hybrid/in-person meetings
 
-   * Blog: to communicate with the community what your assembly is doing
+   * **Blog**: to communicate with the community what your assembly is doing
 
    |
 
@@ -265,11 +265,11 @@ Once you have decided where the new assembly should sit, follow this process to 
 
    |
          
-#. Add the Lead, Assistant Lead, and any contributors under the Members section by searching for the existing user. Note you can also create your own role name using 'other' as the option when selecting a role.
+#. Add the Lead, Assistant Lead, and any contributors under the 'Members' section by searching for the existing user. Note that you can also create your own role name using 'other' as the option when selecting a role.
 
-#. If you want people to be able to become a member of your assembly without you needing to manually add them, you can create a group which they can join, automatically granting them membership to your assembly. Check the documentation on groups for how to create them, and then add the group in the Members section as previously described.
+#. If you want people to be able to become a member of your assembly without you needing to manually add them, you can create a group which they can join, automatically granting them membership to your assembly. Check the documentation on groups for how to create them, and then add the group in the 'Members' section as previously described.
 
-#. Add any assembly admins. This gives the user full administrator rights over only this specific assembly. You need to know the email address they use, which you can find via ``Admin panel > Participants > Participants > Show email address``. **Note:** The 'Show email address' icon resembles an open envelope.
+#. Add any assembly admins. This gives the user full administrator rights over only this specific assembly. You need to know the email address they use, which you can find via ``Admin panel > Participants > Participants > Show email address``. The 'Show email address' icon resembles an open envelope.
 
 #. Once configured, go to 'Info' on the left menu when configuring the assembly, and click the 'Publish' button at the very bottom of the page.
 
@@ -277,11 +277,11 @@ Once you have decided where the new assembly should sit, follow this process to 
 
    .. image:: images/assembly-publish.png
      :width: 800px
-     :alt: Assembly 'publish' button on Mautic community portal
+     :alt: 'Publish' button on Assembly page on Mautic community portal
 
    |
 
-#. If the assembly is private, you'll need to invite members in the 'private members' section, once published.
+#. If the assembly is private, you'll need to invite members in the 'Private Members' section, once published.
 
 Assembly types
 ==============

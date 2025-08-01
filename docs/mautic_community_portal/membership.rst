@@ -12,9 +12,9 @@ Uploading the list
 
 This is currently a manual task which is carried out at least once a week, usually on a Friday.
 
-#. Download :xref:`Mautic open collective transactions` from Open Collective, including the name and email address of the 'opposite account' via a custom export. Filter the list by text in the description field containing 'General Assembly'.
+#. Download :xref:`Mautic open collective transactions` from Open Collective - including the name and email address of the 'opposite account' - via a custom export. Filter the list by text in the description field containing 'General Assembly'.
 
-#. Paste the email addresses only - no header row - into the first sheet in this :xref:`Mautic transactions google spreadsheets` - request access if needed - and go to ``file > download`` to export to csv.
+#. Paste the email addresses only - no header row - into the first sheet in this :xref:`Mautic transactions google spreadsheets` - please request access if needed - and go to ``file > download`` to export to CSV.
 
 #. Upload the CSV file under ``admin panel > membership list > Mautic membership list`` in the Community Portal.
 
@@ -26,7 +26,7 @@ This is currently a manual task which is carried out at least once a week, usual
      :width: 800
      :alt: Upload private members
 
-#. You may need to manually re-send the invitations using 'refresh' icon, if the user didn't act on the invitation yet.
+#. You may need to manually re-send the invitations using 'refresh' icon on the right side, if the user didn't act on the invitation yet.
 
    .. image:: images/resend-invite-private-participant.png
      :width: 800
