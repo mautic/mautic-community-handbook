@@ -564,7 +564,7 @@ A person who would bring the Community Council above the limit on co-affiliation
 
 For purposes of this Section, a common affiliation includes all organizations that - directly or indirectly through one or more intermediary controls - are controlled by or are under common control with the other entities declared as affiliations by other members of the Community Council.
 
-.. _6. Contributors, Maintainers, and the Core Team:
+.. _Contributors, Maintainers, and the Core Team:
 
 \6. Contributors, Maintainers, and the Core Team
 ************************************************

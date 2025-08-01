@@ -246,7 +246,7 @@ Area Affected Labels - which part of the product does this affect?
 Some points of clarification
 ============================
 
-**Core Team:** individuals with technical ability to manage and maintain the core of Mautic - includes Release Leaders, Core Committers, Maintainers - see :ref:`6. Contributors, Maintainers, and the Core Team` for more details.
+**Core Team:** individuals with technical ability to manage and maintain the core of Mautic - includes Release Leaders, Core Committers, Maintainers - see :ref:`Contributors, Maintainers, and the Core Team` for more details.
 
 **Product Team:** members of the Mautic :doc:`product_team`. They may also be part of the Core Team, but not necessarily. Currently listed on the :xref:`Mautic Product Team` page.
 
