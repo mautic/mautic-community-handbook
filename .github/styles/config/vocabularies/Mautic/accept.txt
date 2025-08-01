@@ -1,3 +1,6 @@
+Acquia
+Acquian
+Acquians
 AJAX
 allowlist
 Amazon SES
@@ -14,11 +17,13 @@ bitwise
 blocklist
 boolean
 booleans
+Canva
 cc
 CCPA
 Citrix
 Clearbit
 CloudAMQP
+Codeception
 config
 Company(ies)
 Composer
@@ -26,14 +31,21 @@ configurator
 ConnectWise
 Contribution(s)
 CORS
+CKEditor
 cron
 Cron
+CSV
 CTRL
 Custom Fields
 Dependabot
+devDependency
 DDEV
+Decidim
+dev
+diem
 Do Not Contact
 doxing
+downvote
 DNC
 Dripflow
 Dynamic Web Content
@@ -106,6 +118,7 @@ PUT
 Rackspace
 Rebase
 rebase
+Raycast
 Remarketing
 Salesforce
 Stumptown
@@ -132,6 +145,7 @@ triaging
 TRUE
 Twilio
 Uploader 
+Uber
 unassign
 unpublish
 Unpublish
