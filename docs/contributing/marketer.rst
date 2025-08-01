@@ -20,7 +20,7 @@ The Mautic Community Marketing Team
 
 We have a Marketing Team which you can read more about on the Marketing Team section.
 
-The team holds regular meetings, which anybody can join - just hop into the :xref:`Mautic marketing team Slack` and you'll get a notification when the next meeting is coming up. 
+The team holds regular meetings, which anybody can join - just hop into the :xref:`Mautic marketing team Slack` channel on Slack, and you'll get a notification when the next meeting is coming up. 
 
 The Marketing Team work publicly on a :xref:`Jira board marketing team` and have our :xref:`Jira marketing team editorial calendar` on Jira also, where you can see the tasks that are currently being worked on and their status.
 
