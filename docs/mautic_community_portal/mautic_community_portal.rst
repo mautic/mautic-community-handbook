@@ -3,7 +3,7 @@ Mautic Community Portal
 
 .. vale off
 
-The Community Portal exists at :xref:`community-portal`.
+The heart of the Mautic Community is the :xref:`Community Portal`.
 
 It's the central place where everything relating to the community happens. Everything from proposing and organizing meetup groups, teams, and working groups to voting on the next members of the Mautic Council happens on the portal.
 
