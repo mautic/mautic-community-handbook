@@ -4,8 +4,9 @@ Code governance
 Tiers for triaging pull requests
 ********************************
 
-Mautic uses a tier-based approach to categorising pull requests - PRs - in the Mautic Community. This allows the Product Team to establish clear governance approaches to how PRs are dealt with and what the criteria is for merging.
-This allows the processing of minor fixes and improvements more rapidly, while time-boxing community testing for major pull requests, enabling the Product Team to make decisions on whether to merge new features once those time periods have passed.
+Mautic uses a tier-based approach to categorising pull requests - PRs - in the Mautic Community. This allows the Product Team to establish clear governance approaches for dealing with PRs and what the criteria is for merging.
+
+This permits the processing of minor fixes and improvements more rapidly, while time-boxing community testing for major pull requests, enabling the Product Team to make decisions on whether to merge new features once those time periods have passed.
 
 Tier 1
 ======
@@ -248,7 +249,7 @@ Some points of clarification
 
 **Core Team:** individuals with technical ability to manage and maintain the core of Mautic - includes Release Leaders, Core Committers, Maintainers - see :ref:`Contributors, Maintainers, and the Core Team` for more details.
 
-**Product Team:** members of the Mautic :doc:`product_team`. They may also be part of the Core Team, but not necessarily. Currently listed on the :xref:`Mautic Product Team` page.
+**Product Team:** members of the Mautic :doc:`/teams/product_team`. They may also be part of the Core Team, but not necessarily. Currently listed on the :xref:`Mautic Product Team` page.
 
 **Triage Team:**  members of the Mautic Product Team who are responsible for triaging issues and PRs. They may also be part of the Core Team, but not necessarily.
 
