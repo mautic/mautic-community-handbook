@@ -16,11 +16,11 @@ Community structure
 
 The structure of the community includes five teams, each led by a Team Lead and Assistant Team Lead, with working groups under them.
 
-* :doc:`/teams/community_team/community_team`
-* :doc:`/teams/education_team/education_team`
-* :doc:`/teams/legal_and_finance_team/legal_and_finance_team`
-* Marketing Team
-* :doc:`/teams/product_team/product_team_overview`
+* :doc:`/teams/community_team`
+* :doc:`/teams/education_team`
+* :doc:`/teams/legal_and_finance_team`
+* :doc:`/teams/marketing_team`
+* :doc:`/teams/product_team_overview`
 
 Each of these teams are responsible for establishing and overseeing working groups within the team.
 
