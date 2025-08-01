@@ -37,6 +37,7 @@ Cron
 CSV
 CTRL
 Custom Fields
+Dependabot
 devDependency
 DDEV
 Decidim
@@ -102,6 +103,7 @@ namespace
 Namespace
 noindex
 OAuth
+onebox
 Packagist
 PATCH
 patch
@@ -139,8 +141,10 @@ Symfony
 trojan
 Todo
 Transifex
+triaging
 TRUE
 Twilio
+Uploader 
 Uber
 unassign
 unpublish

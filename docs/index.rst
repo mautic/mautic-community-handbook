@@ -41,11 +41,12 @@ The vision is that it grows over time as the teams and governance structure evol
    :maxdepth: 2
    :caption: Governance
    :hidden:
-
-   governance/governance_model_v1_archive
-   governance/deprecation_policy
+   
    governance/governance
    governance/governance_model_v2
+   governance/governance_model_v1_archive
+   governance/code_governance
+   governance/deprecation_policy
 
 .. toctree::
    :maxdepth: 2
