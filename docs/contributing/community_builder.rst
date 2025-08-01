@@ -8,7 +8,7 @@ Building the Mautic Community
 
 Our community is at the heart of Mautic, and community builders are the people who help us to grow and nurture that community.  
 
-The :doc:`/teams/community_team/community_team` have quite a wide remit, and there are a lot of opportunities to get involved with supporting Mautic as a community builder.  
+The :doc:`/teams/community_team` have quite a wide remit, and there are a lot of opportunities to get involved with supporting Mautic as a community builder.  
 
 Whether you want to support local communities or help people to get started as a contributor, or want to find ways to reach out into other open source communities, we've got lots of ways to get involved.
 

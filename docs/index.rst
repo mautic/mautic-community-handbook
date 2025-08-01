@@ -42,6 +42,7 @@ The vision is that it grows over time as the teams and governance structure evol
    :caption: Governance
    :hidden:
 
+   governance/governance_model_v1_archive
    governance/deprecation_policy
    governance/governance
    governance/governance_model_v2
@@ -87,9 +88,10 @@ The vision is that it grows over time as the teams and governance structure evol
    :hidden:
 
    teams/legal_and_finance_team
-   teams/community_team/community_team
-   teams/product_team/product_team_overview
-   teams/education_team/education_team
+   teams/community_team
+   teams/product_team
+   teams/education_team
+   teams/marketing_team
    
 .. toctree::
    :maxdepth: 2
@@ -98,6 +100,9 @@ The vision is that it grows over time as the teams and governance structure evol
 
    contributing/contributing_to_mautic
    contributing/designer
+   contributing/marketer
+   contributing/writing_for_mautic
+   contributing/contributing_docs_rst
    contributing/translator
    contributing/developer
    contributing/tester
@@ -105,6 +110,7 @@ The vision is that it grows over time as the teams and governance structure evol
    contributing/event_organizer
    contributing/web_developer
    contributing/server_administrator
+   contributing/contributing_financially
    contributing/google_summer_of_code
    contributing/mautic_bounty_programme
-   contributing/contributing_docs_rst
+
