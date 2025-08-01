@@ -20,7 +20,7 @@ General on-boarding - tools
 
 Anybody involved with the Mautic Community needs a Slack account - go to :xref:`Mautic Community Slack` to sign up.
 
-Anybody contributing to Mautic teams needs a Google Account to save their work in the shared :xref:`Google Drive` folder.
+Anybody contributing to Mautic teams needs a Google Account to save their work in the shared :xref:`Mautic Google Drive` folder.
 
 .. vale off
 
