@@ -150,6 +150,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "daltonm-GEM",
+      "name": "Dalton McGehee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89047449?v=4",
+      "profile": "http://gemission.org",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
