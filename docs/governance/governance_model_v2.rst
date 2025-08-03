@@ -13,6 +13,12 @@ Within the project, Mautic governance is driven by Mautic's core values:
 #. **Action and Accountability** - This includes taking action to achieve project goals, being accountable for project outcomes, and valuing a project over individual interests.
 #. **Fairness and Inclusivity** - This includes creating a level playing field, ensuring equal opportunity, and being inclusive of people and perspectives.
 
+.. figure:: images/governance_model_v2.png
+   :alt: Diagram showing the structure of the governance model.
+   :align: center
+
+   **Figure:** Visual representation of the governance model.
+
 \1. Membership
 **************
 
