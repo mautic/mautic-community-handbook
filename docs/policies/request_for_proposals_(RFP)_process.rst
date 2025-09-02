@@ -83,7 +83,7 @@ During development, use the pull request comment feature for feedback. For addit
 Deadlines
 *********
 
-If no code commits or interactions happen over two weeks in an accepted project, the Core Team may reassign the RFP to another developer. If the task remains in the Accepting Proposals state, and the team can demonstrate work on the feature, they can reclaim the task. Notify the Product Team if you wish to withdraw from a granted project, allowing it to be reset to "Accepting Proposals."
+If no code commits or interactions happen over two weeks in an accepted project, the Core Team may reassign the RFP to another developer. If the task remains in the Accepting Proposals state, and the team can demonstrate work on the feature, they can reclaim the task. Notify the Product Team if you wish to withdraw from a granted project, allowing it to be reset to 'Accepting Proposals.'
 
 Funding evaluation
 ******************
