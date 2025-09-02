@@ -150,6 +150,24 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "daltonm-GEM",
+      "name": "Dalton McGehee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89047449?v=4",
+      "profile": "http://gemission.org",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Nickyshe",
+      "name": "Judith Etugbo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/110067624?v=4",
+      "profile": "https://second-gazelle-cd0.notion.site/Judith-Etugbo-226582d0eba680e88616f4f60a2d9c5e",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
