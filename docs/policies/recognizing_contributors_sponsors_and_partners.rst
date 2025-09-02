@@ -31,7 +31,7 @@ Definitions
 
 **Significant Contribution**: a significant contribution is defined by its significance to the outcome of the project, not by the size of the contribution. Typically larger contributions are more significant, but that doesn't preclude an extremely valuable two-line fix to a critical but difficult-to-find bug from being 'significant.' Nor does it preclude a giant code dump of rarely used code from being 'not significant.' As a general rule of thumb, somewhere between 25% and 50% of the contributions to a project are significant.
 
-**Current Contribution**: a current contribution is one that's included in the current major release cycle. For example, if the project is working on release ``4.0``, then a current contribution is a contribution whose code or effect is still significant in the ``4.0`` code base. The currency of a contribution fades with time, even if that contribution is still part of the code base. For example, bug fixes to release ``1.0`` are probably no longer 'current' when the current major release is ``4.0``.
+**Current Contribution**: a current contribution is one that's included in the current major release cycle. For example, if the project is working on release ``7.0``, then a current contribution is a contribution whose code or effect is still significant in the ``7.0`` code base. The currency of a contribution fades with time, even if that contribution is still part of the code base. For example, bug fixes to release ``4.0`` are probably no longer 'current' when the current major release is ``7.0``.
 
 .. vale on
 
