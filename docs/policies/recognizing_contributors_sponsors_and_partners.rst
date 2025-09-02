@@ -19,7 +19,7 @@ Definitions
 
 .. vale off
 
-**Contributor**: there are many ways to contribute to Mautic projects, ranging from committing code to writing good bug reports to helping with documentation to doing community outreach to funding developers to work on the project. Even organizations and individuals that are "merely" adopting Mautic can be extremely useful contributors if they provide good, detailed, and timely feedback about requirements and bugs.
+**Contributor**: there are many ways to contribute to Mautic projects, ranging from committing code to writing good bug reports to helping with documentation to doing community outreach to funding developers to work on the project. Even organizations and individuals that are 'merely' adopting Mautic can be extremely useful contributors if they provide good, detailed, and timely feedback about requirements and bugs.
 
 .. vale on
 
@@ -29,9 +29,9 @@ Definitions
 
 .. vale off
 
-**Significant Contribution**: a significant contribution is defined by its significance to the outcome of the project, not by the size of the contribution. Typically larger contributions are more significant, but that doesn't preclude an extremely valuable two-line fix to a critical but difficult-to-find bug from being "significant." Nor does it preclude a giant code dump of rarely used code from being "not significant." As a general rule of thumb, somewhere between 25% and 50% of the contributions to a project are significant.
+**Significant Contribution**: a significant contribution is defined by its significance to the outcome of the project, not by the size of the contribution. Typically larger contributions are more significant, but that doesn't preclude an extremely valuable two-line fix to a critical but difficult-to-find bug from being 'significant.' Nor does it preclude a giant code dump of rarely used code from being 'not significant.' As a general rule of thumb, somewhere between 25% and 50% of the contributions to a project are significant.
 
-**Current Contribution**: a current contribution is one that's included in the current major release cycle. For example, if the project is working on release ``4.0``, then a current contribution is a contribution whose code or effect is still significant in the ``4.0`` code base. The currency of a contribution fades with time, even if that contribution is still part of the code base. For example, bug fixes to release ``1.0`` are probably no longer "current" when the current major release is ``4.0``.
+**Current Contribution**: a current contribution is one that's included in the current major release cycle. For example, if the project is working on release ``4.0``, then a current contribution is a contribution whose code or effect is still significant in the ``4.0`` code base. The currency of a contribution fades with time, even if that contribution is still part of the code base. For example, bug fixes to release ``1.0`` are probably no longer 'current' when the current major release is ``4.0``.
 
 .. vale on
 
@@ -59,7 +59,7 @@ The Mautic policy on recognizing contributions on mautic.org, in the Mautic appl
 #. All conversations about which contributions will be recognized as significant by the initiative/team/working group must occur in a public location such as Slack, GitHub, or the Community Forums.
 #. Team meetings in the Product Team Slack channel are preferred, but publicly posted meeting minutes may be acceptable, provided that those minutes clearly document any conversations about the suitability of any contribution, including both pros and cons and the +1/0/-1 position of all meeting participants.
 #. Each initiative/team/working group is encouraged to list and update its current significant contributors - both individuals and organizations - on its web resources. If more than 50% of the work for an initiative/feature has been carried out and/or funded by an organization contributor, the initiative/project/feature may be communicated as 'sponsored by ' in communications, where appropriate, including a logo and/or link to their homepage.
-#. Current significant contributors can be listed by name and photo or corporate logo as applicable or, at the initiative/team/working group's discretion, by name only. All contributors must be given the opportunity to be listed the same way, and all contributors must be given the opportunity to anonymize. For example, "Developer from Organization" or using an avatar rather than a photo or opt out of any such listing if they'd like their contribution to be less public.
+#. Current significant contributors can be listed by name and photo or corporate logo as applicable or, at the initiative/team/working group's discretion, by name only. All contributors must be given the opportunity to be listed the same way, and all contributors must be given the opportunity to anonymize. For example, 'Developer from Organization' or using an avatar rather than a photo or opt out of any such listing if they'd like their contribution to be less public.
 #. Each initiative/team/working group that's recognizing or promoting the work from current significant contributors in a release must state that it's doing so as part of each release planning meeting and must provide the list of contributors to be recognized to the release leader at least one week prior to the GA release date.
 #. Each initiative/team/working group's leadership chain - leads and assistant leads - are responsible for vetting, and potentially filtering, the current significant contributor list to conform to the overall goal and community norms of this policy.
 #. Persons or companies who believe they're being unfairly precluded from being identified as a current significant contributor can contact the Project Lead to discuss and, where appropriate, resolve the issue.
