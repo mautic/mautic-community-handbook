@@ -17,7 +17,7 @@ The community selects projects for the Mautic website based on their popularity 
 
    * Popular projects within the Mautic community have a higher chance of appearing on the homepage as members are more likely to vote for them.
    
-#. Use Cases:
+#. Use cases:
 
    * The community prioritizes projects that clearly align with Mautic's use cases and goals.
    * The Marketing Team assesses how well a project addresses the needs of Mautic Users and enhances their experience.
@@ -31,12 +31,12 @@ Maintenance responsibilities
 
 The maintenance of projects listed on the Mautic website homepage is the responsibility of the Marketing Team. This ensures consistency, accuracy, and a seamless experience for visitors.
 
-#. Content Updates:
+#. Content updates:
 
    * The Marketing Team regularly reviews and updates project information to reflect current status, features, and relevant changes
    * Project maintainers should communicate updates to the Marketing Team for timely inclusion.
   
-#. Removal of Inactive Projects:
+#. Removal of inactive projects:
 
    * The community may remove inactive projects or those that no longer align with Mautic's goals from the homepage to maintain relevance.  
    * The Marketing Team communicates with project maintainers before removal, providing an opportunity for clarification or updates.
@@ -46,12 +46,12 @@ Priority for open source projects
 
 The community gives priority to projects with an open source nature for listing on the Mautic website homepage. Open source aligns with the collaborative and community-driven spirit of Mautic. The community may also consider projects from official :xref:`Mautic Partners` based on their significance and value to the Mautic ecosystem.
 
-#. Open Source Priority:
+#. Open Source priority:
 
    * The community favors open source projects for inclusion due to their accessibility, transparency, and collaborative nature.
    * The Marketing Team encourages the community to actively contribute to open source projects.
   
-#. Partner Projects:
+#. Partner projects:
 
    * The community may consider projects from official Mautic Partners, even if not open source, if they provide substantial value to the Mautic community.
    * The community evaluates partner project inclusion on a case-by-case basis, focusing on mutual benefit.
