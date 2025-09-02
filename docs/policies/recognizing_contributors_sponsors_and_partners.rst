@@ -54,7 +54,6 @@ Policy on promotion of contributors
 
 The Mautic policy on recognizing contributions on mautic.org, in the Mautic application, and in releases is as follows:
 
-#. Contributions to Mautic won't have the contributor/s visibly identifiable in the application or the code. For example, any Themes which are contributed will have the author marked as 'Mautic Team' rather than an individual or organization contributor.
 #. Contributors will be recognized using the All Contributors bot on GitHub, where they have a GitHub account - contributions without a pull request can be added on this issue. The bot is enabled on all :xref:`Mautic repositories`, and we will soon be rolling up contributors into one single list.
 #. All conversations about which contributions will be recognized as significant by the initiative/team/working group must occur in a public location such as Slack, GitHub, or the Community Forums.
 #. Team meetings in the Product Team Slack channel are preferred, but publicly posted meeting minutes may be acceptable, provided that those minutes clearly document any conversations about the suitability of any contribution, including both pros and cons and the +1/0/-1 position of all meeting participants.
