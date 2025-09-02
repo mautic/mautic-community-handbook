@@ -74,16 +74,6 @@ The vision is that it grows over time as the teams and governance structure evol
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contributing
-   :hidden:
-
-   contributing/designer
-   contributing/google_summer_of_code
-   contributing/mautic_bounty_programme
-   contributing/contributing_docs_rst
-
-.. toctree::
-   :maxdepth: 2
    :caption: Resources
    :hidden:
 
