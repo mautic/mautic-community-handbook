@@ -17,6 +17,7 @@ bitwise
 blocklist
 boolean
 booleans
+Canva
 cc
 CCPA
 Citrix
@@ -30,16 +31,21 @@ configurator
 ConnectWise
 Contribution(s)
 CORS
+CKEditor
 cron
 Cron
+CSV
 CTRL
 Custom Fields
+Dependabot
 devDependency
 DDEV
+Decidim
 dev
 diem
 Do Not Contact
 doxing
+downvote
 DNC
 Dripflow
 Dynamic Web Content
@@ -97,6 +103,7 @@ namespace
 Namespace
 noindex
 OAuth
+onebox
 Packagist
 PATCH
 patch
@@ -134,8 +141,10 @@ Symfony
 trojan
 Todo
 Transifex
+triaging
 TRUE
 Twilio
+Uploader 
 Uber
 unassign
 unpublish

@@ -25,13 +25,28 @@ The vision is that it grows over time as the teams and governance structure evol
 
 .. toctree::
    :maxdepth: 2
-   :caption: Governance
+   :caption: Mautic Community Portal
    :hidden:
 
-   governance/governance_model_v1_archive
-   governance/deprecation_policy
+   mautic_community_portal/mautic_community_portal
+   mautic_community_portal/signing_in_and_configuring_your_profile
+   mautic_community_portal/assemblies
+   mautic_community_portal/processes
+   mautic_community_portal/meetings
+   mautic_community_portal/groups
+   mautic_community_portal/membership
+   mautic_community_portal/conversations
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Governance
+   :hidden:
+   
    governance/governance
    governance/governance_model_v2
+   governance/governance_model_v1_archive
+   governance/code_governance
+   governance/deprecation_policy
 
 .. toctree::
    :maxdepth: 2
@@ -53,6 +68,7 @@ The vision is that it grows over time as the teams and governance structure evol
    policies/paying_contributors
    policies/become_a_community_partner
    policies/recognizing_contributors_sponsors_and_partners
+   policies/promoting_integrations
    policies/trademark
    policies/financial_policy
 
@@ -73,11 +89,18 @@ The vision is that it grows over time as the teams and governance structure evol
    :caption: Teams
    :hidden:
 
-   teams/legal_and_finance_team/legal_and_finance_team
-   teams/community_team/community_team
-   teams/product_team/product_team_overview
-   teams/education_team/education_team
-   teams/marketing_team/marketing_team
+   teams/legal_and_finance_team
+   teams/community_team
+   teams/product_team
+   teams/education_team
+   teams/marketing_team
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: On-boarding
+   :hidden:
+
+   onboarding/onboarding
    
 .. toctree::
    :maxdepth: 2
@@ -86,6 +109,7 @@ The vision is that it grows over time as the teams and governance structure evol
 
    contributing/contributing_to_mautic
    contributing/designer
+   contributing/marketer
    contributing/writing_for_mautic
    contributing/contributing_docs_rst
    contributing/translator
@@ -95,6 +119,7 @@ The vision is that it grows over time as the teams and governance structure evol
    contributing/event_organizer
    contributing/web_developer
    contributing/server_administrator
+   contributing/contributing_financially
    contributing/google_summer_of_code
    contributing/mautic_bounty_programme
 

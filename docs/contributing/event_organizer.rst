@@ -15,7 +15,7 @@ Whether you want to help with the big international events or the regional and l
 Getting started
 ===============
 
-Events fall under the :doc:`/teams/community_team/community_team`, so your first step is to join the Community Team Slack channel. Get an invite to join :xref:`Mautic Community Slack` if you aren't there already, and then you can join the ``#t-community`` channel.
+Events fall under the :doc:`/teams/community_team`, so your first step is to join the Community Team Slack channel. Get an invite to join :xref:`Mautic Community Slack` if you aren't there already, and then you can join the ``#t-community`` channel.
 
 The team meets fortnightly on Slack, so you can scroll back and check what was being discussed in previous meetings.
 
