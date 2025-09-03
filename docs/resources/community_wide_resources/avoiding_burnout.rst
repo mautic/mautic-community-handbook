@@ -4,15 +4,13 @@ Avoiding burnout
 .. vale off 
 .. # Turning Vale off as this is a direct quote from Jono's book
 
-From The Art Of Community by O'Reilly :xref:`The Art of Community` by Jono Bacon, reproduced with permission.
+From :xref:`The Art of Community` by Jono Bacon, published by O'Reilly, reproduced with permission.
 
-.. raw:: html
+.. tip::
 
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://www.youtube.com/watch?v=WC1bpYGoB7s" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
+   You can watch Jono Bacon's :xref:`How to Prevent Burnout in the Workplace` video on YouTube, if you prefer a video format.
 
-:xref:`Jono Bacon's how to prevent burnout video` on YouTube.
+----
 
 Unfortunately, there is one other element in life that very specifically falls into the “not fun” category: burnout.
 

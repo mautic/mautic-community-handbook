@@ -49,6 +49,16 @@ templates_path = ['_templates']
 
 html_static_path = ['css']
 
+# GH Edit button
+
+html_context = {
+    "display_github": True,  # Integrate GitHub
+    "github_user": "mautic",  # Username
+    "github_repo": "mautic-community-handbook",  # Repository name
+    "github_version": "main/",  # Branch name
+    "conf_py_path": "/docs/",  # Path in the repository to conf.py
+}
+
 # -- Options for HTML output
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
