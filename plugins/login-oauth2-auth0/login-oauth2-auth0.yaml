@@ -1,5 +1,0 @@
-enabled: true
-client_id: ''
-client_secret: ''
-domain: ''
-scope: ['openid','profile','email']
