@@ -31,8 +31,8 @@ The following steps outline the RFP workflow for new projects in Mautic:
 #. The Product Team considers the feedback from the community, and where there's a clear interest in moving forward with an idea, collaborates with the original proposer to prepare a detailed proposal, including budget estimates from the Product Team and any necessary community fundraising. The Project Lead reviews this.
 #. If the proposal impacts any areas covered by Tiger Teams, the Tiger Teams are key stakeholders throughout the process of the RFP and must sign off before release.
 #. When the Product Team and proposer create the proposal, it's uploaded to the :xref:`Mautic community portal roadmap process` for wider discussion and debate. The proposer tags the key stakeholders in the proposal to ensure they're aware of the proposal, and they must formally endorse it prior to acceptance.
-#. If the budget exceeds what the Product Team can provide, the Proposal Status 'Funding required' applies until such a time as the required funds become available. Mautic can create an Open Collective project to raise the necessary funds.
-#. When reaching the funding target, the proposal Status moves to 'ready for development'.
+#. If the budget exceeds what the Product Team can provide, the Proposal status 'Funding required' applies until such a time as the required funds become available. Mautic can create an Open Collective project to raise the necessary funds.
+#. When reaching the funding target, the proposal status moves to 'ready for development'.
 #. Where the proposer is a developer, they commence work. Where a developer isn't yet identified, Mautic creates a post in the Commercial forum category and ``#jobs`` channel on :xref:`Mautic Community Slack` advertising the project opportunity. The proposer can also source their own developers to work on the project.
 #. The Mautic Core Team works with interested developers within the Community Portal to clarify and refine their proposals for implementing the feature.
 #. A developer is selected. They become responsible for the proposal work to implement the feature according to their proposal.
