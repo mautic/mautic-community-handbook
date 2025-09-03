@@ -10,6 +10,8 @@ From :xref:`The Art of Community` by Jono Bacon, published by O'Reilly, reproduc
 
    You can watch Jono Bacon's :xref:`How to Prevent Burnout in the Workplace` video on YouTube, if you prefer a video format.
 
+----
+
 Unfortunately, there is one other element in life that very specifically falls into the “not fun” category: burnout.
 
 NOTE:
