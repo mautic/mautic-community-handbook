@@ -76,7 +76,7 @@ Collaborating with the Product and Core Teams is essential for successful code i
 
 During the proposal process, address any questions early on.
 
-During development, use the pull request comment feature for feedback. For additional communication, the ``#dev`` channel on :xref:`Mautic Community Slack` is available, though it's encouraged to keep discussions on the RFP and PRs for transparency.
+During development, use the pull request comment feature for feedback. For additional communication, the ``#dev`` channel on :xref:`Mautic Community Slack` is available, though it's encouraged to keep discussions on the RFP and pull requests for transparency.
 
 .. vale on
 
