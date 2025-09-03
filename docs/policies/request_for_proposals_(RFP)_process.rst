@@ -38,11 +38,11 @@ The following steps outline the RFP workflow for new projects in Mautic:
 #. A developer is selected. They become responsible for the proposal work to implement the feature according to their proposal.
 #. Proposal status changed to 'In Progress'.
 #. Pull requests submitted by the developers to implement the proposal.
-#. Proposal status changed to Under Review.
+#. Proposal status changed to 'Under Review'.
 #. Pull requests are reviewed by the Core Team, and the pull request developers make any changes to the pull requests accordingly.
 #. Pull requests merged into the appropriate branch.
 #. Developers submit an invoice to the Mautic Project Open Collective project for the amount associated with the RFP, which the Project Lead reviews and approves for payment.
-#. Proposal status changed to Completed.
+#. Proposal status changed to 'Completed'.
 #. Payment disbursed to developers by the Open Source Collective from Mautic Project collective funds.
 
 .. note::
