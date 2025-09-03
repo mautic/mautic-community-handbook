@@ -57,7 +57,7 @@ To ensure multiple contributors aren't competing on the same project and to stre
 
 .. vale off
 
-#. Read the Proposal document completely.
+#. Read the proposal document completely.
 #. If you want to move forward, submit a pitch via the comments on the proposal to the Product Team on your suggested implementation. Be sure to include as many details as requested by the spec, and be sure to address each of the completion criteria. For proposals that include UI changes, mock-ups are strongly encouraged - Mautic uses Figma, but whatever tool you use, please ensure that it has the ability for everyone to collaborate and provide feedback.
 #. Be sure to consult the :ref:`Tips for writing a good pitch` for advice on how to write a good pitch.
 #. Work with the Product Team to finalize plans for the best implementation. The Core Team judges pitches on their maintainability, design quality, and adherence to spec. Note that other developers may submit competing pitches at this time.
