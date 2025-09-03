@@ -36,7 +36,7 @@ The following steps outline the RFP workflow for new projects in Mautic:
 #. Where the proposer is a developer, they commence work. Where a developer isn't yet identified, Mautic creates a post in the Commercial forum category and ``#jobs`` channel on :xref:`Mautic Community Slack` advertising the project opportunity. The proposer can also source their own developers to work on the project.
 #. The Mautic Core Team works with interested developers within the Community Portal to clarify and refine their proposals for implementing the feature.
 #. A developer is selected. They become responsible for the proposal work to implement the feature according to their proposal.
-#. Proposal status changed to In Progress.
+#. Proposal status changed to 'In Progress'.
 #. Pull requests submitted by the developers to implement the proposal.
 #. Proposal status changed to Under Review.
 #. Pull requests are reviewed by the Core Team, and the pull request developers make any changes to the pull requests accordingly.
