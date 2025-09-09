@@ -22,7 +22,7 @@ body:
     attributes:
       label: Relevant Documentation URL
       description: Please provide a link to the exact documentation page that needs to be updated.
-      placeholder: "e.g., https://my-docs-repo.com/page-to-fix"
+      placeholder: "e.g., https://contribute.mautic.org/page-to-fix"
   
   - type: textarea
     id: suggestions
