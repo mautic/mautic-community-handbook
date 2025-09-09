@@ -1,0 +1,42 @@
+name: 🐛 Bug Report
+description: Do you find a bug? Create a report to help us improve.
+title: "[BUG]:"
+labels: ["bug", "blocked"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill out the details below to help us understand and resolve it.
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide a clear and concise description of the bug. Include steps to reproduce the behavior, the expected result, and the actual result.
+      placeholder: "e.g., Clicking the submit button goes to 404. Steps to reproduce: 1. Click on X. 2. Observe Y. 3. Z happens instead of A."
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestions
+    attributes:
+      label: Suggestions (Optional)
+      description: How do you suggest this bug could be fixed?
+      placeholder: "e.g., I think changing X to Y would solve the issue."
+  
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: |
+        Please provide details about your environment where the bug occurred.
+        - OS/Platform
+        - Browser & Version
+      placeholder: "e.g., Windows 11, Chrome v125"
+  
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screenshots or Screen Recordings (Optional)
+      description: To help us understand the issue visually, please attach any relevant images or recordings.
+      placeholder: "Drag and drop the files here."
