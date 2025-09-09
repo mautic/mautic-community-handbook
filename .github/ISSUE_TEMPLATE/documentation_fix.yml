@@ -1,0 +1,39 @@
+name: 📝 Documentation Fix
+description: Point out an error or suggest a change in the documentation.
+title: "[DOCS]:"
+labels: ["documentation", "blocked"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve our documentation! Please fill out the details below so we can fix it.
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please describe what is inaccurate, missing, or confusing in the documentation.
+      placeholder: "e.g., The example code on page X is out of date and no longer works."
+    validations:
+      required: true
+  
+  - type: textarea
+    id: doc-link
+    attributes:
+      label: Relevant Documentation URL
+      description: Please provide a link to the exact documentation page that needs to be updated.
+      placeholder: "e.g., https://my-docs-repo.com/page-to-fix"
+  
+  - type: textarea
+    id: suggestions
+    attributes:
+      label: Suggestions (Optional)
+      description: How do you suggest the documentation could be fixed or improved?
+      placeholder: "e.g., I think changing the example code to this would solve the issue..."
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Screen Recordings (Optional)
+      description: To help us understand the issue visually, please attach any relevant images or recordings.
+      placeholder: "Drag and drop the files here."
