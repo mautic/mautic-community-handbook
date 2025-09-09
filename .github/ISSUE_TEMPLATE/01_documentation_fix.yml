@@ -6,8 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping improve our documentation! Please fill out the details below so we can fix it.
-  
+        Thanks for helping improve the Mautic Community Handbook! Please fill out the details below so we can fix it.
+
   - type: textarea
     id: description
     attributes:
