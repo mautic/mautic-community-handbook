@@ -1,7 +1,7 @@
 name: 📝 Documentation Fix
 description: Point out an error or suggest a change in the documentation.
 title: "[DOCS]:"
-labels: ["documentation", "blocked"]
+labels: ["documentation", "needs-triage"]
 body:
   - type: markdown
     attributes:

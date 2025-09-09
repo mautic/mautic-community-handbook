@@ -1,7 +1,7 @@
 name: 🌱 Feature Request
 description: Request a new feature or enhancement.
 title: "[FEAT]:"
-labels: ["enhancement", "blocked"]
+labels: ["enhancement", "needs-triage"]
 body:
   - type: markdown
     attributes:
