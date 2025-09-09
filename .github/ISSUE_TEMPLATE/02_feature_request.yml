@@ -6,14 +6,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for suggesting a new feature! Please fill out the details below to help us understand and prioritize it.
+        Thanks for suggesting a new feature for the Mautic Community Handbook! Please fill out the details below to help us understand and prioritize it.
   
   - type: textarea
     id: description
     attributes:
       label: Description
       description: Please provide a clear and concise description of the feature you would like to see.
-      placeholder: "e.g., I'd like to be able to upload multiple files at once. This would be useful because..."
+      placeholder: "e.g., I'd like to be able to edit the documentation directly on GitHub. This would be useful because..."
     validations:
       required: true
 
@@ -35,4 +35,4 @@ body:
     attributes:
       label: Suggestions (Optional)
       description: How do you suggest this feature should be implemented?
-      placeholder: "e.g., A user could press the CTRL key while selecting files to choose more than one."
+      placeholder: "e.g., A user could click the edit button on the documentation page to make changes."
