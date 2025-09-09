@@ -1,19 +1,19 @@
-name: 🐛 Bug Report
-description: Do you find a bug? Create a report to help us improve.
+name: 🐛 Technical Bug Report
+description: Did you find a bug with the documentation system or with our automations? Create a report to help us improve.
 title: "[BUG]:"
 labels: ["bug", "needs-triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to report a bug! Please fill out the details below to help us understand and resolve it.
+        Thanks for taking the time to report a technical bug within the Mautic Community Handbook! Please fill out the details below to help us understand and resolve it.
   
   - type: textarea
     id: description
     attributes:
       label: Description
       description: Provide a clear and concise description of the bug. Include steps to reproduce the behavior, the expected result, and the actual result.
-      placeholder: "e.g., Clicking the submit button goes to 404. Steps to reproduce: 1. Click on X. 2. Observe Y. 3. Z happens instead of A."
+      placeholder: "e.g., Running make html command didn't build the docs. Steps to reproduce: 1. Go to the /docs directory. 2. Run make html command. 3. Nothing happens."
     validations:
       required: true
 
