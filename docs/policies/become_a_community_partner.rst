@@ -54,6 +54,6 @@ Mautic needs every kind of skill from development to marketers, documentation wr
 
 After you have been actively contributing in both financial and practical terms to Mautic for at least 3 months as an organization, please fill out :xref:`this form`.
 
-Be sure to include the names of team members to allow for verification of contribution history..
+Be sure to include the names of team members to allow for verification of contribution history.
 
 The application review takes a few weeks, with a response provided as soon as possible.
