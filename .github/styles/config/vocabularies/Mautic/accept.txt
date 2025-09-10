@@ -30,6 +30,7 @@ Composer
 configurator
 ConnectWise
 Contribution(s)
+contribution(s)
 CORS
 CKEditor
 cron
