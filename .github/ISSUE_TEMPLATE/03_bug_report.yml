@@ -1,5 +1,5 @@
 name: 🐛 Technical Bug Report
-description: Did you find a bug with the documentation system or with our automations? Create a report to help us improve.
+description: Did you find a bug with the documentation system or automations? Create a report to help us improve.
 title: "[BUG]:"
 labels: ["bug", "needs-triage"]
 body:
