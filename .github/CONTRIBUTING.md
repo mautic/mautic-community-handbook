@@ -1,6 +1,6 @@
 # Contributing to Mautic Community Handbook
 
-Contributions are always welcome, no matter how large or small, or at whatever skill level you are. Before contributing, please read the [Code of Conduct](https://contribute.mautic.org/policies/code-of-conduct) and follow the directions in this guide.
+Contributions are always welcome, no matter how large or small, or at whatever skill level you are. Before contributing, please read the [Code of Conduct](../docs/policies/code_of_conduct/code_of_conduct.rst) and follow the directions in this guide.
 
 ---
 
