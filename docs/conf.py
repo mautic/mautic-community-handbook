@@ -114,5 +114,7 @@ linkcheck_ignore = [
     # Anchor is picked up as not found
     r"https://github.com/mautic/mautic/blob/8a57278758e2c3e1c1ca987aaf9ebd5f05b3c877/app/bundles/CampaignBundle/Executioner/Dispatcher/LegacyEventDispatcher.php#L201",
     # 403 errors from this domain
-    r"https://www.canva.com/*"
+    r"https://www.canva.com/*",
+    # Anchor is picked up as not found
+    r"https://github.com/mautic/mautic-community-handbook/blob/main/.github/CONTRIBUTING.md#create-a-new-link",
 ]
