@@ -1,6 +1,6 @@
 # Contributing to Mautic Community Handbook
 
-Contributions are always welcome, no matter how large or small, or at whatever skill level you are. Before contributing, please read the [Code of Conduct](../docs/policies/code_of_conduct/code_of_conduct.rst) and follow the directions in this guide.
+Contributions are always welcome, no matter how large or small, or at whatever skill level you are. Before contributing, please read the [Code of Conduct](https://contribute.mautic.org/policies/code-of-conduct) and follow the directions in this guide.
 
 ---
 
@@ -12,14 +12,20 @@ Contributions are always welcome, no matter how large or small, or at whatever s
   - [Before Submitting a PR](#before-submitting-a-pr)
   - [Submitting a PR](#submitting-a-pr)
   - [After Submitting a PR](#after-submitting-a-pr)
+- [Contributing Workflow](#contributing-workflow)
+  - [Forking The Repository](#forking-the-repository)
+  - [Clone The Repository](#clone-the-repository)
+  - [Create a New Branch](#create-a-new-branch)
+  - [Push Changes to Remote Repository](#push-changes-to-remote-repository)
+  - [Create a PR](#create-a-pr)
 - [Getting Started](#getting-started)
-- [1. On GitHub](#1-on-github)
-- [2. GitHub Codespaces](#2-github-codespaces)
-  - [Setting Up a Codespace](#setting-up-a-codespace)
-  - [Live Preview on Codespace](#live-preview-on-codespace)
-- [3. Local Development](#3-local-development)
-  - [Prerequisite](#prerequisite)
-  - [Setting Up Local Environment](#setting-up-local-environment)
+  - [1. On GitHub](#1-on-github)
+  - [2. GitHub Codespaces](#2-github-codespaces)
+    - [Setting Up a Codespace](#setting-up-a-codespace)
+    - [Live Preview on Codespace](#live-preview-on-codespace)
+  - [3. Local Development](#3-local-development)
+    - [Prerequisite](#prerequisite)
+    - [Setting Up Local Environment](#setting-up-local-environment)
 - [Working With Links](#working-with-links)
   - [Create a New Link](#create-a-new-link)
   - [Check Broken Links](#check-broken-links)
@@ -43,7 +49,7 @@ Contributions are always welcome, no matter how large or small, or at whatever s
 
   If an issue isn't assigned, it's assumed to be available for anyone to work on. So, ensure that you're assigned to an issue **before** beginning work to avoid conflicts.
 
-  **Note:** please don't ask maintainers to assign you to another issue before you have finished working on yours and created a PR.
+  **Note:** Please don't ask maintainers to assign you to another issue before you have finished working on yours and created a PR.
 
 - Did you spot a bug or have an idea for enhancing the Mautic Community Handbook? You can [create an issue](https://github.com/mautic/mautic-community-handbook/issues/new?q=is%3Aissue+state%3Aopen+label%3A%22help+wanted%22) to address it.
 
@@ -79,6 +85,118 @@ PRs are always welcome. However, before working on changes, you must ensure that
 3. Keep your branch up to date while waiting for review.
 4. Respond and address the reviewer's feedback. Please don't request a review until you've addressed all feedback.
 
+## Contributing Workflow
+
+In this section, you can find the contributing workflow and best practices for contributing to this project.
+
+### Forking The Repository
+
+Forking this repository is the first thing you need to do before anything else. Fork means make a copy of a repository to your GitHub account.
+
+To fork this repository:
+
+1. In the main page of [mautic/mautic-community-handbook](https://github.com/mautic/mautic-community-handbook), click the 'Fork' button at the top.
+   
+2. Choose your username in the 'Choose the owner' dropdown menu.
+
+3. Click the green 'Create fork' button at the bottom.
+
+### Clone The Repository
+
+After you forked the repository, you need to clone it. Cloning means making a copy of a repository in your local environment. In this case, you want to clone your forked repository.
+
+Follow the steps below to clone your forked repository:
+
+1. Click your avatar on the top right.
+2. Click 'Repositories'.
+3. Open your forked mautic-community-handbook repository. The URL should have your username. For example: `https://github.com/USERNAME/mautic-community-handbook`.
+4. Click the green 'Code' button on top.
+5. Select 'HTTPS' and copy the URL if you work with traditional Git, or select 'GitHub CLI' and copy the command if you work with GitHub CLI.
+6. In your terminal, go to your local directory where you want to save this project.
+7. If you work with GitHub CLI, paste the command and hit enter. For traditional Git, run the command below and hit enter:
+
+   ```bash
+   git clone https://github.com/USERNAME/mautic-community-handbook
+   ```
+
+### Create a New Branch
+
+Before working on changes, ensure that you create a new branch and work on this branch. You don't want to directly work on the default — such as `main` — or any other base branch to avoid breaking production.
+
+There are two ways to create a new branch:
+
+1. **With Git Source Control in VS Code**
+
+   Working with [Git source control](https://code.visualstudio.com/docs/sourcecontrol/overview?originUrl=%2Fdocs%2Fsourcecontrol%2Fintro-to-git) in VS Code is more comfortable if you're not technical and prefer a Graphical User Interface (GUI) over a terminal.
+
+   To create a new branch with Git source control:
+
+   1. Click the 'main' button at the bottom left. It opens a dropdown menu at the top.
+      
+   2. Click 'Create new branch...'
+
+   3. Type the branch name with anything you like. Preferably, it reflects your changes, for example, `fix-typo`.
+
+   4. Hit enter.
+  
+3. **On terminal**
+
+   If you prefer working with the terminal, run the following command:
+
+   ```bash
+   git checkout -b YOUR-BRANCH-NAME
+   ```
+
+### Push Changes to Remote Repository
+
+If you have finished with your changes, you can push them to the remote repository to create a PR. Push means moving your commits from your local to the remote repository.
+
+There are two ways to push your changes to the remote repository:
+
+1. **With Git Source Control in VS Code**
+
+   1. On the left panel, click the 'Source Control' — resembles the git branches icon. 
+
+   2. Click the '+' icon next to the name of the file to move it to the 'stage' phase. It means you're adding this file as 'ready' to commit.
+
+   3. After you add all the files that you want to commit, add a commit message describing the changes you made. For example, `fix broken links`.
+
+   4. Click the green 'Commit' button.
+   
+   5. Click the 'Publish Branch', which opens a dropdown menu.
+
+   6. Select `origin: <YOUR-FORKED-REPOSITORY-URL>`.
+  
+3. **On terminal**
+
+   1. Run `git status`. It gives you file paths of the files that you've worked on. You can later copy these paths for the next step.
+   2. Add the file path(s) that hold your changes to the 'stage' phase by running this command:
+
+      ```bash
+      git add file-path-1 file-path-2
+      ```
+   3. Commit your changes with this command:
+
+      ```bash
+      git commit -m "your message"
+      ```
+      Change `your message` to briefly describe your changes. For example, `fix broken links`.
+   4. Push your changes to the remote repository:
+
+      ```bash
+      git push -u origin YOUR-BRANCH-NAME
+      ```
+
+### Create a PR
+
+Once you've pushed your changes, you are ready to create a PR. To do so:
+
+1. Go to [https://github.com/mautic/mautic-community-handbook](https://github.com/mautic/mautic-community-handbook) and a green button prompts you to create a PR.
+
+2. Fill in the PR template. Please read the "[Submitting a PR](#submitting-a-pr)" section for all the information you need to include in your PR for the reviewers.
+
+3. Submit it for review.
+
 ## Getting Started
 
 This project is built with [Sphinx](https://www.sphinx-doc.org/en/master/) and hosted on the [Read the Docs platform](https://readthedocs.org). The contents are written in [reStructuredText (RST)](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html).
@@ -87,15 +205,15 @@ There are three ways to work on changes for the Mautic Community Handbook:
 
 1. Directly on GitHub
 2. With [GitHub Codespaces](https://github.com/features/codespaces) on your browser
-3. With code editor, such as [VSCode](https://code.visualstudio.com/), on your local machine—**recommended**
+3. With code editor, such as [VSCode](https://code.visualstudio.com/), on your local machine — **recommended**
 
-## 1. On GitHub
+### 1. On GitHub
 
 Making changes directly on GitHub is suitable for minor changes, such as fixing a typo. For bigger and more complex changes, please use GitHub Codespaces or work locally.
 
 To work directly on GitHub, follow the steps below:
 
-1. Click the "Edit on GitHub" button on the top right of the page where you noticed the mistake. It takes you to the correct resource on GitHub.
+1. Click the 'Edit on GitHub' button on the top right of the page where you noticed the mistake. It takes you to the correct resource on GitHub.
 
    ![Screenshot of community handbook with a red box highlighting the Edit on GitHub button](edit-on-github.png)
    
@@ -105,13 +223,13 @@ To work directly on GitHub, follow the steps below:
 
 3. Follow the instructions to commit the changes.
 4. Select to commit to a new branch. Call the branch something relative to what you are updating.
-5. Go back to [https://github.com/mautic/mautic-community-handbook](https://github.com/mautic/mautic-community-handbook) and a green button prompts you to create a PR.
-6. Add a description to explain what has changed.
-7. Submit it for review.
+5. [Create a PR](#create-a-pr). Read the "[Submitting a PR](#submitting-a-pr)" section about all info that you need to include in your PR.
 
-## 2. GitHub Codespaces
+### 2. GitHub Codespaces
 
 Using GitHub Codespaces enables you to spin up the project in the cloud quickly. Before you start, it's highly recommended to use Chrome or Firefox to work with Codespaces.
+
+<br />
 
 <details>
   <summary><strong>Tips to maximize free tier of Codespaces</strong></summary>
@@ -136,39 +254,37 @@ Using GitHub Codespaces enables you to spin up the project in the cloud quickly.
   </ol>
 </details>
 
-### Setting Up a Codespace
+<br />
 
-Follow the instructions below to set up a codespace:
+#### Setting Up a Codespace
 
-1. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this repository to your own GitHub account.
+1. [Fork](#forking-the-repository) this repository to your own GitHub account.
 2. Go to your forked repository on GitHub.
 3. Click the green 'Code' button and select the 'Codespaces' tab.
 4. Click the green 'Create codespace on main' button to create a new codespace. Codespace automatically sets up the project and opens Visual Studio Code.
 5. Wait until the codespace finishes building. Once it's finished, the build prompt closes, and the README preview opens. You can close this preview.
-6. Create a new branch to work on your changes:
+6. [Create a new branch](#create-a-new-branch) to work on your changes.
 
-   - Click the "main" button at the bottom left. It opens a dropdown menu at the top.
-   - Click "Create new branch."
-   - Type the branch name with anything you like. Preferably, it reflects your changes, for example, `fix-typo`.
-   - Hit enter.
-
-     **Info:** once you create a new branch, it automatically switches to your new branch. If you haven't seen the branch changes in your terminal, run `git status`, and you should see your branch name.
+   **Info:** Once you create a new branch, it automatically switches to your new branch. If you haven't seen the branch changes in your terminal, run `git status`, and you should see your branch name.
 
 7. All contents of the Mautic Community Handbook are available in the `docs/` directory. In your terminal, navigate to the `docs` directory with `cd docs`.
 8. Find the folder and file that you need to work on.
 9. Work on your changes and use the live preview to view and test your changes in real-time.
 
-### Live Preview on Codespace
+#### Live Preview on Codespace
 
-1. Run `make html` that generates the `build` folder.
+1. Run `make html`. It generates the `build` folder.
+   
 2. Click the preview button at the top to trigger Esbonio, a tool used for live preview. A tab opens, but the preview won't work. You can safely close this tab.
+   
 3. At the bottom panel, click 'Port'.
+   
 4. Click the globe icon to open the live preview in your browser. Now you can see the project in real-time on localhost.
 
 <br />
 
 <details>
-  <summary><strong>Troubleshooting live preview</strong></summary>
+  <summary id="troubleshooting-live-preview"><strong>Troubleshooting live preview</strong></summary>
 
   <br />
   <p><strong>Troubleshooting #1</strong></p>
@@ -202,17 +318,21 @@ Follow the instructions below to set up a codespace:
 > [!TIP]
 > - Always refresh the page to view the new changes you have applied.
 > - All commands only work within the `docs/`directory. So, if you can't run a command, check if you're in the right directory.
-> - Read the "Troubleshooting live preview" if you encounter trouble with the live preview on the codespace.
+> - Read the "[Troubleshooting live preview](#troubleshooting-live-preview)" if you encounter trouble with the live preview on the codespace.
 
-## 3. Local Development
+<br />
 
-### Prerequisite
+If you're ready to push your changes to the remote repository and create a PR, please read the "[Push Changes to Remote Repository](#push-changes-to-remote-repository)" and "[Create a PR](#create-a-pr)" sections.
+
+### 3. Local Development
+
+#### Prerequisite
 
 To work locally, you first need to install these on your machine:
 
 1. **VS Code**
 
-   If you haven't, [download and install VS Code](https://code.visualstudio.com/download) on your computer.
+   If you haven't, [download and install VS Code](https://code.visualstudio.com/download) on your computer.   
 
 2. **DDEV**
 
@@ -224,14 +344,21 @@ To work locally, you first need to install these on your machine:
 
    Mautic uses [Vale](https://vale.sh/) to maintain style guide consistency across the docs. Go to the "[Install](https://vale.sh/docs/install)" page on the official docs to install Vale on your computer.
 
-### Setting Up Local Environment
+4. **GitHub CLI (Optional)**
 
-1. [Fork and clone](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository to your local machine.
+   You can [download and install GitHub CLI](https://cli.github.com/) on your computer if you'd like. It could save you some time to work on your GitHub workflow with GitHub CLI, particularly if you want to help with code review.
+
+<br />
+
+#### Setting Up Local Environment
+
+1. [Fork](#forking-the-repository) and [clone](#clone-the-repository) this repository to your local machine.
 2. Navigate into the project directory by running: 
 
    ```bash
    cd mautic-community-handbook
    ```
+2. [Create a new branch](#create-a-new-branch) to work on your changes.
 3. Start the DDEV environment with this command:
 
    ```bash
@@ -243,7 +370,7 @@ To work locally, you first need to install these on your machine:
    cd docs
    ```
 5. Find the folder and file that you want to work on.
-6. Make changes.
+6. Make changes and live preview your changes to ensure everything works as intended.
 7. Build the project by running:
 
    ```bash
@@ -257,9 +384,15 @@ To work locally, you first need to install these on your machine:
    
    This automatically opens your browser and navigates to `https://mautic-community-handbook.ddev.site/`.
 
+<br />
+
 > [!TIP]
 > - Every time you make changes, run `ddev build-docs` and refresh the page in your browser to see the changes. 
 > - If you don't see the configuration take effect, run `ddev restart` to restart the project.
+
+<br />
+
+If you're ready to push your changes to the remote repository and create a PR, please read the "[Push Changes to Remote Repository](#push-changes-to-remote-repository)" and "[Create a PR](#create-a-pr)" sections.
 
 ## Working With Links
 
@@ -267,7 +400,7 @@ In this section, you can find the commands that you need for working with links.
 
 ### Create a New Link
 
-When you need to add a link, you can do so by running the command below—depending on where you work on your changes—in the terminal.
+When you need to add a link, you can do so by running the command below — depending on where you work on your changes — in the terminal.
 
 If you work with Codespaces:
 
@@ -283,13 +416,17 @@ ddev exec make link
 
 Then input the answer to all prompts:
 
-- **Enter a Unique Link Name:** the name of the link. 
-- **Enter the link text the user sees:** the link that appears on the website.
-- **Enter the URL:** the link URL.
-- **Enter the .py file name (use_lower_case_and_underscore of link name):** the name of the file.
+- **Enter a Unique Link Name:** The name of the link. 
+- **Enter the link text the user sees:** The link that appears on the website.
+- **Enter the URL:** The link URL.
+- **Enter the .py file name (use_lower_case_and_underscore of link name):** The name of the file.
+
+<br />
 
 > [!TIP]
 > Ensure that all entries are clear and general so that anyone working with this project can easily search and reuse them.
+
+<br />
 
 Here's an example:
 
@@ -302,7 +439,7 @@ Enter the .py file name (use_lower_case_and_underscore of link name): mautic_com
 
 ### Check Broken Links
 
-When there's a broken link, the build fails. So, you need to ensure that there's no broken link. You can check the links by following the instructions below— depending on where you work on your changes—in the terminal.
+When there's a broken link, the build fails. So, you need to ensure that there's no broken link. You can check the links by following the instructions below — depending on where you work on your changes — in the terminal.
 
 If you work with Codespaces:
 
@@ -318,20 +455,10 @@ ddev exec make checklinks
 
 You should see a list of links. Find the broken link and fix it. Here's an example of a broken link:
 
-## Push Changes to Remote Repository
-
-If you have finished with your changes and are ready to push them to the remote repository:
-
-1. On the left panel, click the '+' icon next to the name of the file to move it to the 'stage' phase. It means you're adding this file as 'ready' to commit.
-2. After you add all the files that you want to commit, add a commit message describing the changes you made. For example, `fix broken links`.
-3. Click the green 'Commit' button.
-4. Click the 'Publish Branch', which opens a dropdown menu.
-5. Select `origin: <YOUR-FORKED-REPOSITORY-URL>`.
-6. On the left panel, click the 'Create PR' button.
-7. Insert a brief and clear title, along with a detailed description that clearly outlines your changes. Include here your issue number. For example, `Closes #123` or `Fixes #123`.
-
 ## Credit
 
 These contributing guidelines are adapted from [OpenSource-Communities/intro](https://github.com/OpenSource-Communities/intro/blob/main/contributing/CONTRIBUTING.md) repository.
 
-Thank you for contributing.
+---
+
+Thank you for contributing to improving the Mautic Community Handbook.
