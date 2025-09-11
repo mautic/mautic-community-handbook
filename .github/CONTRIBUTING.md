@@ -96,9 +96,16 @@ Forking this repository is the first thing you need to do before anything else. 
 To fork this repository:
 
 1. In the main page of [mautic/mautic-community-handbook](https://github.com/mautic/mautic-community-handbook), click the 'Fork' button at the top.
+
+   ![Fork button on GitHub](../assets/images/fork_button_github.png)
+
 2. Choose your username in the 'Choose the owner' dropdown menu. Do not select a company here, always choose your personal account — otherwise, maintainers can't collaborate and fix things for you on your PR.
 
+   ![Choose fork owner on GitHub](../assets/images/choose_fork_owner_github.png)
+
 3. Click the green 'Create fork' button at the bottom.
+
+   ![Create fork button on GitHub](../assets/images/create_fork_button_github.png)
 
 ### Clone the repository
 
@@ -108,9 +115,15 @@ Follow the steps below to clone your forked repository:
 
 1. Click your avatar on the top right.
 2. Click 'Repositories'.
+
+   ![Repositores option from a dropdown menu on GitHub](../assets/images/repositories_option_github.png)
+
 3. Open your forked mautic-community-handbook repository. The URL should have your username. For example: `https://github.com/USERNAME/mautic-community-handbook`.
 4. Click the green 'Code' button on top.
 5. Select 'HTTPS' and copy the URL if you work with traditional Git, or select 'GitHub CLI' and copy the command if you work with [GitHub CLI](https://cli.github.com) (recommended - it makes commands much easier to remember!)
+
+   ![Highlight of code button, copy symbol, HTTPS and GitHub CLI tabs on GitHub](../assets/images/code_button_https_tab_github.png)
+
 6. In your terminal, go to your local directory where you want to save this project.
 7. If you work with GitHub CLI, paste the command and hit enter. For traditional Git, run the command below and hit enter:
 
@@ -130,8 +143,13 @@ There are two ways to create a new branch:
 
    To create a new branch with Git source control:
 
-   1. Click the 'main' button at the bottom left. It opens a dropdown menu at the top.
+   1. Click the 'main' branch tab at the bottom left. It opens a dropdown menu at the top.
+
+      ![Branch tab at the bottom left of VS Code](../assets/images/bottom_branch_tab_vscode.png)
+
    2. Click 'Create new branch...'
+
+      ![Create a new branch option in a dropdown menu on VS Code](../assets/images/create_a_new_branch_vscode.png)
 
    3. Type the branch name with anything you like. Preferably, it reflects your changes, for example, `fix-typo`.
 
@@ -155,11 +173,15 @@ There are two ways to push your changes to the remote repository:
 
    1. On the left panel, click the 'Source Control' — resembles the git branches icon.
 
+      ![Source control icon on VS Code](../assets/images/git_source_control_vscode.png)
+
    2. Click the '+' icon next to the name of the file to move it to the 'stage' phase. It means you're adding this file as 'ready' to commit.
 
    3. After you add all the files that you want to commit, add a commit message describing the changes you made. For example, `fix broken links`.
 
-   4. Click the green 'Commit' button.
+   4. Click the 'Commit' button.
+
+      ![Highlight plus icon to stage files, commit message input, and commit button at Source Control at VS Code](../assets/images/stage_and_commit_source_control_vscode.png)
 
    5. Click the 'Publish Branch', which opens a dropdown menu.
 
@@ -258,7 +280,10 @@ Using GitHub Codespaces enables you to spin up the project in the cloud quickly.
 1. [Fork](#forking-the-repository) this repository to your own GitHub account.
 2. Go to your forked repository on GitHub.
 3. Click the green 'Code' button and select the 'Codespaces' tab.
-4. Click the green 'Create codespace on main' button to create a new codespace. Codespace automatically sets up the project and opens Visual Studio Code.
+4. Click the green 'Create codespace on main' or 'plus' button to create a new codespace. Codespace automatically sets up the project and opens Visual Studio Code.
+
+   ![Highlight Codespaces tab, plus icon, and Create codepace on main at GitHub](../assets/images/codespaces_tab_github.png)
+
 5. Wait until the codespace finishes building. Once it's finished, the build prompt closes, and the README preview opens. You can close this preview.
 6. [Create a new branch](#create-a-new-branch) to work on your changes.
 
@@ -267,14 +292,19 @@ Using GitHub Codespaces enables you to spin up the project in the cloud quickly.
 7. All contents of the Mautic Community Handbook are available in the `docs/` directory. In your terminal, navigate to the `docs` directory with `cd docs`.
 8. Find the folder and file that you need to work on.
 9. Work on your changes and use the live preview to view and test your changes in real-time.
-10. Ensure that the changes you made follow Mautic's style guide by running the Vale lint. Please read the "[Working With Vale](#working-with-vale)" section to use Vale.
+10. Ensure that the changes you made follow Mautic's style guide by running the Vale lint. Please read the "[Working with Vale](#working-with-vale)" section to use Vale.
 
 #### Live preview on codespace
 
 1. Run `make html`. It generates the `build` folder.
 2. Click the preview button at the top to trigger Esbonio, a tool used for live preview. A tab opens, but the preview won't work. You can safely close this tab.
+
+   ![Highlight preview button on the top bar of VS Code on codespace](../assets/images/preview_button_vscode_codespace.png)
+
 3. At the bottom panel, click 'Port'.
 4. Click the globe icon to open the live preview in your browser. Now you can see the project in real-time on localhost.
+
+   ![Highlight port tab and globe icon to open preview in browser at VS Code on codespace](../assets/images/port_and_open_browser_vscode_codespace.png)
 
 <br />
 
@@ -455,6 +485,8 @@ ddev exec make checklinks
 ```
 
 You should see a list of links. Find the broken link and fix it. Here's an example of a broken link:
+
+![Example of a broken link with error message: (contributing/contributing_docs_rst: line  198) broken    https://sublime-and-sphinx-guide.readthedocs.io/en/latest/references.html#add-link-make-command - 404 Client Error: Not Found for url: https://sublime-and-sphinx-guide.readthedocs.io/en/latest/references.html](../assets/images/broken_link_example.png)
 
 ## Working with Vale
 
