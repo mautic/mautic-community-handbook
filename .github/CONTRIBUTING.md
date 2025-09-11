@@ -185,6 +185,8 @@ There are two ways to push your changes to the remote repository:
 
    5. Click the 'Publish Branch', which opens a dropdown menu.
 
+      ![Publish branch button on source control at VS Code](../assets/images/publish_branch_button_github.png)
+
    6. Select `origin: <YOUR-FORKED-REPOSITORY-URL>`.
 
 2. **On terminal**
