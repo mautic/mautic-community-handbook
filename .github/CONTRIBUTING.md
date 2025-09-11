@@ -16,7 +16,7 @@ Contributions are always welcome, no matter how large or small, or at whatever s
   - [Forking the repository](#forking-the-repository)
   - [Clone the repository](#clone-the-repository)
   - [Create a new branch](#create-a-new-branch)
-  - [Push changes to remote repository](#push-changes-to-remote-repository)
+  - [Push changes to the remote repository](#push-changes-to-the-remote-repository)
   - [Create a PR](#create-a-pr)
 - [Getting started](#getting-started)
   - [1. On GitHub](#1-on-github)
@@ -99,7 +99,7 @@ To fork this repository:
 
    ![Fork button on GitHub](../assets/images/fork_button_github.png)
 
-2. Choose your username in the 'Choose the owner' dropdown menu. Do not select a company here, always choose your personal account — otherwise, maintainers can't collaborate and fix things for you on your PR.
+2. Choose your username in the 'Choose the owner' dropdown menu. Do not select a company here; always choose your personal account — otherwise, maintainers can't collaborate and fix things for you on your PR.
 
    ![Choose fork owner on GitHub](../assets/images/choose_fork_owner_github.png)
 
@@ -163,7 +163,7 @@ There are two ways to create a new branch:
    git checkout -b YOUR-BRANCH-NAME
    ```
 
-### Push changes to remote repository
+### Push changes to the remote repository
 
 If you have finished with your changes, you can push them to the remote repository to create a PR. Push means moving your commits from your local to the remote repository.
 
@@ -348,7 +348,7 @@ Using GitHub Codespaces enables you to spin up the project in the cloud quickly.
 
 <br />
 
-If you're ready to push your changes to the remote repository and create a PR, please read the "[Push changes to remote repository](#push-changes-to-remote-repository)" and "[Create a PR](#create-a-pr)" sections.
+If you're ready to push your changes to the remote repository and create a PR, please read the "[Push changes to the remote repository](#push-changes-to-the-remote-repository)" and "[Create a PR](#create-a-pr)" sections.
 
 ### 3. Local development
 
@@ -425,7 +425,7 @@ To work locally, you first need to install these on your machine:
 
 <br />
 
-If you're ready to push your changes to the remote repository and create a PR, please read the "[Push changes to remote repository](#push-changes-to-remote-repository)" and "[Create a PR](#create-a-pr)" sections.
+If you're ready to push your changes to the remote repository and create a PR, please read the "[Push changes to the remote repository](#push-changes-to-the-remote-repository)" and "[Create a PR](#create-a-pr)" sections.
 
 ## Working with links
 
