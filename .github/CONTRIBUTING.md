@@ -189,6 +189,8 @@ There are two ways to push your changes to the remote repository:
 
    6. Select `origin: <YOUR-FORKED-REPOSITORY-URL>`.
 
+      ![Highlight origin remote repository in a dropdown menu on Source Control at VS Code](../assets/images/select_remote_dropdown_menu_source_control_vscode.png)
+
 2. **On terminal**
 
    1. Run `git status`. It gives you file paths of the files that you've worked on. You can later copy these paths for the next step.
