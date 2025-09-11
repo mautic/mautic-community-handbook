@@ -216,11 +216,11 @@ To work directly on GitHub, follow the steps below:
 
 1. Click the 'Edit on GitHub' button on the top right of the page where you noticed the mistake. It takes you to the correct resource on GitHub.
 
-   ![Screenshot of community handbook with a red box highlighting the Edit on GitHub button](edit-on-github.png)
+   ![Screenshot of community handbook with a red box highlighting the Edit on GitHub button](../assets/images/edit-on-github.png)
 
 2. Click the edit button - which resembles a pencil - and make the necessary changes.
 
-   ![Screenshot of community handbook with a red box highlighting the Edit on GitHub button](edit-button-github.png)
+   ![Screenshot of community handbook with a red box highlighting the Edit on GitHub button](../assets/images/edit-button-github.png)
 
 3. Follow the instructions to commit the changes.
 4. Select to commit to a new branch. Call the branch something relative to what you are updating.
