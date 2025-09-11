@@ -78,9 +78,9 @@ PRs are always welcome. However, before working on changes, you must ensure that
 ### After submitting a PR
 
 1. Ensure that all checks pass. If you see the linting build or prose failed, try to debug and fix it until all of them pass. If you have questions or need help, feel free to tag the `@mautic/education-team-leaders` in the comment.
-2. Please don't DM maintainers on Slack to review or ask feedback and questions about your PR. 
+2. Please don't DM maintainers on Slack to review or ask feedback and questions about your PR.
 
-   If you'd like feedback or ask questions about your PR, tag `@mautic/education-team-leaders` in the comment of your PR or use the `#t-education` channel on Slack. That way, not only maintainers, but the community can help you get unstuck. The team always gets a notification whenever there is an incoming PR. If you haven't received a review within a week, you can tag them in the PR comments to ask for an estimated review time. 
+   If you'd like feedback or ask questions about your PR, tag `@mautic/education-team-leaders` in the comment of your PR or use the `#t-education` channel on Slack. That way, not only maintainers, but the community can help you get unstuck. The team always gets a notification whenever there is an incoming PR. If you haven't received a review within a week, you can tag them in the PR comments to ask for an estimated review time.
 
 3. Keep your branch up to date while waiting for review.
 4. Respond and address the reviewer's feedback. Please don't request a review until you've addressed all feedback.
@@ -96,7 +96,6 @@ Forking this repository is the first thing you need to do before anything else. 
 To fork this repository:
 
 1. In the main page of [mautic/mautic-community-handbook](https://github.com/mautic/mautic-community-handbook), click the 'Fork' button at the top.
-   
 2. Choose your username in the 'Choose the owner' dropdown menu. Do not select a company here, always choose your personal account — otherwise, maintainers can't collaborate and fix things for you on your PR.
 
 3. Click the green 'Create fork' button at the bottom.
@@ -121,7 +120,7 @@ Follow the steps below to clone your forked repository:
 
 ### Create a new branch
 
-Before working on changes, ensure that you create a new branch and work on this branch. You don't want to directly work on the default — such as `main` — or any other base branch, because you won't be able to work on lots of things at the same time. If you make all those changes on one branch, it's not possible to separate them out and only merge one change at a time. 
+Before working on changes, ensure that you create a new branch and work on this branch. You don't want to directly work on the default — such as `main` — or any other base branch, because you won't be able to work on lots of things at the same time. If you make all those changes on one branch, it's not possible to separate them out and only merge one change at a time.
 
 There are two ways to create a new branch:
 
@@ -132,14 +131,13 @@ There are two ways to create a new branch:
    To create a new branch with Git source control:
 
    1. Click the 'main' button at the bottom left. It opens a dropdown menu at the top.
-      
    2. Click 'Create new branch...'
 
    3. Type the branch name with anything you like. Preferably, it reflects your changes, for example, `fix-typo`.
 
    4. Hit enter.
-  
-3. **On terminal**
+
+2. **On terminal**
 
    If you prefer working with the terminal, run the following command:
 
@@ -155,19 +153,19 @@ There are two ways to push your changes to the remote repository:
 
 1. **With Git Source Control in VS Code**
 
-   1. On the left panel, click the 'Source Control' — resembles the git branches icon. 
+   1. On the left panel, click the 'Source Control' — resembles the git branches icon.
 
    2. Click the '+' icon next to the name of the file to move it to the 'stage' phase. It means you're adding this file as 'ready' to commit.
 
    3. After you add all the files that you want to commit, add a commit message describing the changes you made. For example, `fix broken links`.
 
    4. Click the green 'Commit' button.
-   
+
    5. Click the 'Publish Branch', which opens a dropdown menu.
 
    6. Select `origin: <YOUR-FORKED-REPOSITORY-URL>`.
-  
-3. **On terminal**
+
+2. **On terminal**
 
    1. Run `git status`. It gives you file paths of the files that you've worked on. You can later copy these paths for the next step.
    2. Add the file path(s) that hold your changes to the 'stage' phase by running this command:
@@ -175,12 +173,15 @@ There are two ways to push your changes to the remote repository:
       ```bash
       git add file-path-1 file-path-2
       ```
+
    3. Commit your changes with this command:
 
       ```bash
       git commit -m "your message"
       ```
+
       Change `your message` to briefly describe your changes. For example, `fix broken links`.
+
    4. Push your changes to the remote repository:
 
       ```bash
@@ -216,7 +217,7 @@ To work directly on GitHub, follow the steps below:
 1. Click the 'Edit on GitHub' button on the top right of the page where you noticed the mistake. It takes you to the correct resource on GitHub.
 
    ![Screenshot of community handbook with a red box highlighting the Edit on GitHub button](edit-on-github.png)
-   
+
 2. Click the edit button - which resembles a pencil - and make the necessary changes.
 
    ![Screenshot of community handbook with a red box highlighting the Edit on GitHub button](edit-button-github.png)
@@ -228,8 +229,6 @@ To work directly on GitHub, follow the steps below:
 ### 2. GitHub Codespaces
 
 Using GitHub Codespaces enables you to spin up the project in the cloud quickly. Before you start, it's highly recommended to use Chrome or Firefox to work with Codespaces.
-
-<br />
 
 <details>
   <summary><strong>Tips to maximize free tier of Codespaces</strong></summary>
@@ -254,8 +253,6 @@ Using GitHub Codespaces enables you to spin up the project in the cloud quickly.
   </ol>
 </details>
 
-<br />
-
 #### Setting up a codespace
 
 1. [Fork](#forking-the-repository) this repository to your own GitHub account.
@@ -275,11 +272,8 @@ Using GitHub Codespaces enables you to spin up the project in the cloud quickly.
 #### Live preview on codespace
 
 1. Run `make html`. It generates the `build` folder.
-   
 2. Click the preview button at the top to trigger Esbonio, a tool used for live preview. A tab opens, but the preview won't work. You can safely close this tab.
-   
 3. At the bottom panel, click 'Port'.
-   
 4. Click the globe icon to open the live preview in your browser. Now you can see the project in real-time on localhost.
 
 <br />
@@ -317,6 +311,7 @@ Using GitHub Codespaces enables you to spin up the project in the cloud quickly.
 <br />
 
 > [!TIP]
+>
 > - Always refresh the page to view the new changes you have applied.
 > - All commands only work within the `docs/`directory. So, if you can't run a command, check if you're in the right directory.
 > - Read the "[Troubleshooting live preview](#troubleshooting-live-preview)" if you encounter trouble with the live preview on the codespace.
@@ -333,13 +328,13 @@ To work locally, you first need to install these on your machine:
 
 1. **VS Code (recommended) or your preferred IDE**
 
-   If you haven't, [download and install VS Code](https://code.visualstudio.com/download) on your computer.   
+   If you haven't, [download and install VS Code](https://code.visualstudio.com/download) on your computer.
 
 2. **DDEV**
 
    Mautic uses [DDEV](https://ddev.com) to simplify local development and testing of documentation updates. Go to the [Get Started](https://ddev.com/get-started/) page on their website for instructions to install DDEV on your local machine.
 
-   **For Windows users**: you can install and run DDEV on [traditional Windows](https://ddev.readthedocs.io/en/stable/#system-requirements-traditional-windows). However, using [Windows Subsystem for Linux 2 (WSL2)](https://learn.microsoft.com/en-us/windows/wsl/about) gives you faster and better performance. If you're new to WSL, follow the instructions on the [DDEV blog](https://ddev.com/blog/watch-new-windows-installer/) to install and set up WSL and DDEV. 
+   **For Windows users**: you can install and run DDEV on [traditional Windows](https://ddev.readthedocs.io/en/stable/#system-requirements-traditional-windows). However, using [Windows Subsystem for Linux 2 (WSL2)](https://learn.microsoft.com/en-us/windows/wsl/about) gives you faster and better performance. If you're new to WSL, follow the instructions on the [DDEV blog](https://ddev.com/blog/watch-new-windows-installer/) to install and set up WSL and DDEV.
 
 3. **Vale**
 
@@ -354,41 +349,46 @@ To work locally, you first need to install these on your machine:
 #### Setting up local environment
 
 1. [Fork](#forking-the-repository) and [clone](#clone-the-repository) this repository to your local machine.
-2. Navigate into the project directory by running: 
+2. Navigate into the project directory by running:
 
    ```bash
    cd mautic-community-handbook
    ```
-2. [Create a new branch](#create-a-new-branch) to work on your changes.
-3. Start the DDEV environment with this command:
+
+3. [Create a new branch](#create-a-new-branch) to work on your changes.
+4. Start the DDEV environment with this command:
 
    ```bash
    ddev start
    ```
-4. Go to the `docs/` directory:
+
+5. Go to the `docs/` directory:
 
    ```bash
    cd docs
    ```
-5. Find the folder and file that you want to work on.
-6. Make changes and ensure that the changes you made follow Mautic's style guide by running the Vale lint. Please read the "[Working with Vale](#working-with-vale)" section to use Vale. Use the live preview to ensure everything works as intended in real time.
-7. Build the project by running:
+
+6. Find the folder and file that you want to work on.
+7. Make changes and ensure that the changes you made follow Mautic's style guide by running the Vale lint. Please read the "[Working with Vale](#working-with-vale)" section to use Vale. Use the live preview to ensure everything works as intended in real time.
+8. Build the project by running:
 
    ```bash
    ddev build-docs
    ```
-8. Run the below command to view your changes live on your browser:
+
+9. Run the below command to view your changes live on your browser:
 
    ```bash
    ddev launch
    ```
-   
+
    This command automatically opens your browser and navigates to `https://mautic-community-handbook.ddev.site/`.
 
 <br />
 
 > [!TIP]
-> - Every time you make changes, run `ddev build-docs` and refresh the page in your browser to see the changes. 
+>
+> - Every time you make changes, run `ddev build-docs` and refresh the page in your browser to see the changes.
 > - If you don't see the configuration take effect, run `ddev restart` to restart the project.
 
 <br />
@@ -417,7 +417,7 @@ ddev exec make link
 
 Then input the answer to all prompts:
 
-- **Enter a Unique Link Name:** The name of the link. 
+- **Enter a Unique Link Name:** The name of the link.
 - **Enter the link text the user sees:** The link that appears on the website.
 - **Enter the URL:** The link URL.
 - **Enter the .py file name (use_lower_case_and_underscore of link name):** The name of the file.
@@ -436,7 +436,7 @@ Enter a Unique Link Name: Community Handbook
 Enter the link text the user sees: Community Handbook
 Enter the URL: https://contribute.mautic.org
 Enter the .py file name (use_lower_case_and_underscore of link name): mautic_community_handbook
-```   
+```
 
 ### Check broken links
 
@@ -460,19 +460,23 @@ You should see a list of links. Find the broken link and fix it. Here's an examp
 
 Your changes must follow Mautic's style guide. To ensure that the changes are consistent with the style guide, in your terminal:
 
-1. Ensure that you're in your working folder. For example, `docs/contributing`. If you're not, and assuming you're in the project's root, you can run this command:
+1. Ensure that you're in the `docs/` directory.
+
+   If you're not, and assuming you're in the project's root, you can run this command:
 
    ```bash
-   cd docs/your-working-folder
+   cd docs
+   ```
+
 2. Run Vale:
 
    ```bash
-   vale .
+   vale folder_name/file_name.rst
    ```
-3. Find the file that you're working on.
-4. Look at the errors, warnings, and suggestions.
-5. Address all of them and rerun Vale to ensure they pass the checks.
-6. If you're sure that the style is good but Vale still gives suggestions, you can wrap the sentence in `.. vale off` and `vale on` statements. Here's an example:
+
+3. Look at the errors, warnings, and suggestions.
+4. Address all of them and rerun Vale to ensure they pass the checks.
+5. If you're sure that the style is good but Vale still gives suggestions, you can wrap the sentence in `.. vale off` and `.. vale on` statements. Here's an example:
 
    ```rst
    .. vale off
@@ -484,19 +488,20 @@ Your changes must follow Mautic's style guide. To ensure that the changes are co
 
    If the suggestion targets a point in a list, you first need to ensure that the whole list follows the style guide. Then, wrap the entire list in the `.. vale off` and `.. vale on` statements as example below:
 
-    ```rst
-    .. vale off
+   ```rst
+   .. vale off
 
-    * All PRs are made against the ``c.x`` branch in the first instance, for instance, ``5.x``.
-    * If the PR should be merged in an earlier release than the next major release of Mautic, duplicate the PR against the relevant ``a.b`` branch for bug fixes - for example, ``5.0`` - or ``a.x`` branch for features and enhancements - for example, ``5.x``.
-    * Backwards compatibility breaking changes can only be released in a major version, so they should only ever be made against the ``c.x`` branch, such as, ``5.x``.
+   * All PRs are made against the ``c.x`` branch in the first instance, for instance, ``5.x``.
+   * If the PR should be merged in an earlier release than the next major release of Mautic, duplicate the PR against the relevant ``a.b`` branch for bug fixes - for example, ``5.0`` - or ``a.x`` branch for features and enhancements - for example, ``5.x``.
+   * Backwards compatibility breaking changes can only be released in a major version, so they should only ever be made against the ``c.x`` branch, such as, ``5.x``.
 
-    .. vale on
-    ```
+   .. vale on
+   ```
 
 <br />
 
 > [!IMPORTANT]
+>
 > - Ensure that you wrap the sentences that you'd like Vale to skip with both `.. vale off` and `.. vale on` statements, in order. Failing to do so results in Vale lint skipping the rest of the contents.
 > - Don't add the statements to skip the lint when it's not necessary. If you're uncertain, it's best not to wrap them in the statements and let the team review and provide suggestions.
 
