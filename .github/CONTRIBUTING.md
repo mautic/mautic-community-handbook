@@ -70,7 +70,7 @@ PRs are always welcome. However, before working on changes, you must ensure that
 2. Make sure you give clear information about your changes in your PR:
 
    - **A title**. The PR title must describe your changes. For example: `Convert Marketer section into RST`.
-   - **A description**. A clear description can help PR reviewers understand what kind of changes you made in your PR. It's always good to walk through the process of how a reviewer can test your changes. See an example in #369.
+   - **A description**. A clear description can help PR reviewers understand what kind of changes you made in your PR. It's always good to walk through the process of how a reviewer can test your changes. See an example in the [PR #369](https://github.com/mautic/mautic-community-handbook/pull/369) at Mautic Community Handbook.
    - **A related issue**. [Link the issue number](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) that you worked on and add a keyword of 'Closes', 'Fixes', or 'Resolves' in front of it. For example, `Closes #123`, `Fixes #234`, etc. You can find the issue number right next to the issue's title. Linking the issue number automatically closes your issue once your PR gets merged.
 
 3. Provide screenshots for visual changes if necessary.
