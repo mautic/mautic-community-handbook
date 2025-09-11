@@ -11,7 +11,7 @@ If the request is not complete but you want feedback or have quetions, you can s
 
 -->
 
-## Linked Issue
+## Linked issue
 
 
 <!-- PLEASE WRITE ABOVE THIS COMMENT. -->
@@ -28,10 +28,10 @@ Doing so will automatically close the issue when one of our maintainers merges y
 
 -->
 
-## Screenshots or Screen Recordings
+## Screenshots or screen recordings
 
 <!-- 
 
-Provide screenshots or screen recordings before and after the changes, if it's a UI changes. You can simply drag your files above this comment.
+Provide screenshots or screen recordings before and after the changes, if it's a UI changes. You can simply drag and drop your files above this comment.
 
 -->
