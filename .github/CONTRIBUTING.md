@@ -299,7 +299,7 @@ Using GitHub Codespaces enables you to spin up the project in the cloud quickly.
 #### Live preview on codespace
 
 1. Run `make html`. It generates the `build` folder.
-2. Click the preview button at the top to trigger Esbonio, a tool used for live preview. A tab opens, but the preview won't work. You can safely close this tab.
+2. Click the preview button — resembles book and magnifying glass — at the top to trigger Esbonio, a tool used for live preview. A tab opens, but the preview won't work. You can safely close this tab.
 
    ![Highlight preview button on the top bar of VS Code on codespace](../assets/images/preview_button_vscode_codespace.png)
 
