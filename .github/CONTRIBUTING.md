@@ -61,7 +61,7 @@ PRs are always welcome. However, before working on changes, you must ensure that
 
 ### Before submitting a PR
 
-1. Ensure that you work on your changes in a new branch.
+1. Ensure that you work on your changes in a new branch on your fork. Create one branch for each task you work on.
 2. Run and check your changes locally. Ensure that everything functions as intended.
 
 ### Submitting a PR
@@ -97,7 +97,7 @@ To fork this repository:
 
 1. In the main page of [mautic/mautic-community-handbook](https://github.com/mautic/mautic-community-handbook), click the 'Fork' button at the top.
    
-2. Choose your username in the 'Choose the owner' dropdown menu.
+2. Choose your username in the 'Choose the owner' dropdown menu. Do not select a company here, always choose your personal account — otherwise, maintainers can't collaborate and fix things for you on your PR.
 
 3. Click the green 'Create fork' button at the bottom.
 
@@ -111,7 +111,7 @@ Follow the steps below to clone your forked repository:
 2. Click 'Repositories'.
 3. Open your forked mautic-community-handbook repository. The URL should have your username. For example: `https://github.com/USERNAME/mautic-community-handbook`.
 4. Click the green 'Code' button on top.
-5. Select 'HTTPS' and copy the URL if you work with traditional Git, or select 'GitHub CLI' and copy the command if you work with GitHub CLI.
+5. Select 'HTTPS' and copy the URL if you work with traditional Git, or select 'GitHub CLI' and copy the command if you work with [GitHub CLI](https://cli.github.com) (recommended - it makes commands much easier to remember!)
 6. In your terminal, go to your local directory where you want to save this project.
 7. If you work with GitHub CLI, paste the command and hit enter. For traditional Git, run the command below and hit enter:
 
@@ -121,7 +121,7 @@ Follow the steps below to clone your forked repository:
 
 ### Create a new branch
 
-Before working on changes, ensure that you create a new branch and work on this branch. You don't want to directly work on the default — such as `main` — or any other base branch to avoid breaking production.
+Before working on changes, ensure that you create a new branch and work on this branch. You don't want to directly work on the default — such as `main` — or any other base branch, because you won't be able to work on lots of things at the same time. If you make all those changes on one branch, it's not possible to separate them out and only merge one change at a time. 
 
 There are two ways to create a new branch:
 
@@ -331,7 +331,7 @@ If you're ready to push your changes to the remote repository and create a PR, p
 
 To work locally, you first need to install these on your machine:
 
-1. **VS Code**
+1. **VS Code (recommended) or your preferred IDE**
 
    If you haven't, [download and install VS Code](https://code.visualstudio.com/download) on your computer.   
 
