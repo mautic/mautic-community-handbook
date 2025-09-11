@@ -378,35 +378,37 @@ To work locally, you first need to install these on your machine:
 
 #### Setting up local environment
 
-1. [Fork](#forking-the-repository) and [clone](#clone-the-repository) this repository to your local machine.
-2. Navigate into the project directory by running:
+1. [Fork](#forking-the-repository) this repository to your own GitHub account.
+2. Go to your forked repository on GitHub.
+3. [Clone](#clone-the-repository) your forked repository.
+4. Navigate into the project directory by running:
 
    ```bash
    cd mautic-community-handbook
    ```
 
-3. [Create a new branch](#create-a-new-branch) to work on your changes.
-4. Start the DDEV environment with this command:
+5. [Create a new branch](#create-a-new-branch) to work on your changes.
+6. Start the DDEV environment with this command:
 
    ```bash
    ddev start
    ```
 
-5. Go to the `docs/` directory:
+7. Go to the `docs/` directory:
 
    ```bash
    cd docs
    ```
 
-6. Find the folder and file that you want to work on.
-7. Make changes and ensure that the changes you made follow Mautic's style guide by running the Vale lint. Please read the "[Working with Vale](#working-with-vale)" section to use Vale. Use the live preview to ensure everything works as intended in real time.
-8. Build the project by running:
+8. Find the folder and file that you want to work on.
+9. Make changes and ensure that the changes you made follow Mautic's style guide by running the Vale lint. Please read the "[Working with Vale](#working-with-vale)" section to use Vale. Use the live preview to ensure everything works as intended in real time.
+10. Build the project by running:
 
    ```bash
    ddev build-docs
    ```
 
-9. Run the below command to view your changes live on your browser:
+11. Run the below command to view your changes live on your browser:
 
    ```bash
    ddev launch
