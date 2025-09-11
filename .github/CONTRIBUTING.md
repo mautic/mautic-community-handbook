@@ -189,7 +189,7 @@ There are two ways to push your changes to the remote repository:
 
    6. Select `origin: <YOUR-FORKED-REPOSITORY-URL>`.
 
-      ![Highlight origin remote repository in a dropdown menu on Source Control at VS Code](../assets/images/select_remote_dropdown_menu_source_control_vscode.png)
+      ![Highlight origin remote repository in a dropdown menu on Source Control at VS Code](../assets/images/select_remote_repo_dropdown_menu_source_control_vscode.png)
 
 2. **On terminal**
 
