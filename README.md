@@ -12,7 +12,7 @@ A handbook for all things related to the Mautic Community.
 
 All kinds of contributions are encouraged. For information on how to contribute to the Mautic Community Handbook repository, please read the [Contributing Guidelines](.github/CONTRIBUTING.md).
 
-All contributors are required to abide by our [Code of Conduct](./docs/policies/code_of_conduct/code_of_conduct.rst).
+All contributors are required to abide by our [Code of Conduct](https://mautic.org/code-of-conduct/).
 
 ## Contributors ✨
 
