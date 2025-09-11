@@ -6,35 +6,35 @@ Contributions are always welcome, no matter how large or small, or at whatever s
 
 ## Table of Contents
 
-- [Communication Expectation](#communication-expectation)
+- [Communication expectation](#communication-expectation)
 - [Issues](#issues)
-- [Pull Requests (PRs)](#pull-requests-prs)
-  - [Before Submitting a PR](#before-submitting-a-pr)
+- [Pull requests (PRs)](#pull-requests-prs)
+  - [Before submitting a PR](#before-submitting-a-pr)
   - [Submitting a PR](#submitting-a-pr)
-  - [After Submitting a PR](#after-submitting-a-pr)
-- [Contributing Workflow](#contributing-workflow)
-  - [Forking The Repository](#forking-the-repository)
-  - [Clone The Repository](#clone-the-repository)
-  - [Create a New Branch](#create-a-new-branch)
-  - [Push Changes to Remote Repository](#push-changes-to-remote-repository)
+  - [After submitting a PR](#after-submitting-a-pr)
+- [Contributing workflow](#contributing-workflow)
+  - [Forking the repository](#forking-the-repository)
+  - [Clone the repository](#clone-the-repository)
+  - [Create a new branch](#create-a-new-branch)
+  - [Push changes to remote repository](#push-changes-to-remote-repository)
   - [Create a PR](#create-a-pr)
-- [Getting Started](#getting-started)
+- [Getting started](#getting-started)
   - [1. On GitHub](#1-on-github)
   - [2. GitHub Codespaces](#2-github-codespaces)
-    - [Setting Up a Codespace](#setting-up-a-codespace)
-    - [Live Preview on Codespace](#live-preview-on-codespace)
-  - [3. Local Development](#3-local-development)
+    - [Setting up a codespace](#setting-up-a-codespace)
+    - [Live preview on codespace](#live-preview-on-codespace)
+  - [3. Local development](#3-local-development)
     - [Prerequisite](#prerequisite)
-    - [Setting Up Local Environment](#setting-up-local-environment)
-- [Working With Links](#working-with-links)
-  - [Create a New Link](#create-a-new-link)
-  - [Check Broken Links](#check-broken-links)
-- [Working With Vale](#working-with-vale)
+    - [Setting up local environment](#setting-up-local-environment)
+- [Working with links](#working-with-links)
+  - [Create a new link](#create-a-new-link)
+  - [Check broken links](#check-broken-links)
+- [Working with Vale](#working-with-vale)
 - [Credit](#credit)
 
 ---
 
-## Communication Expectation
+## Communication expectation
 
 1. Always leave a detailed description in the pull request (PR). Leave nothing ambiguous for the reviewers.
 2. Provide screenshots for visual changes.
@@ -55,7 +55,7 @@ Contributions are always welcome, no matter how large or small, or at whatever s
 
   However, the Education Team needs to triage the issue before you can work on it. If you wish to work on the issue you submitted, please inform and tag the `@mautic/education-team-leaders` in the comment.
 
-## Pull Requests (PRs)
+## Pull requests (PRs)
 
 PRs are always welcome. However, before working on changes, you must ensure that **you are assigned** to an existing issue and **link your work to the issue in your PR**.
 
@@ -256,7 +256,7 @@ Using GitHub Codespaces enables you to spin up the project in the cloud quickly.
 
 <br />
 
-#### Setting up a Codespace
+#### Setting up a codespace
 
 1. [Fork](#forking-the-repository) this repository to your own GitHub account.
 2. Go to your forked repository on GitHub.
@@ -272,7 +272,7 @@ Using GitHub Codespaces enables you to spin up the project in the cloud quickly.
 9. Work on your changes and use the live preview to view and test your changes in real-time.
 10. Ensure that the changes you made follow Mautic's style guide by running the Vale lint. Please read the "[Working With Vale](#working-with-vale)" section to use Vale.
 
-#### Live preview on Codespace
+#### Live preview on codespace
 
 1. Run `make html`. It generates the `build` folder.
    
@@ -323,7 +323,7 @@ Using GitHub Codespaces enables you to spin up the project in the cloud quickly.
 
 <br />
 
-If you're ready to push your changes to the remote repository and create a PR, please read the "[Push Changes to Remote Repository](#push-changes-to-remote-repository)" and "[Create a PR](#create-a-pr)" sections.
+If you're ready to push your changes to the remote repository and create a PR, please read the "[Push changes to remote repository](#push-changes-to-remote-repository)" and "[Create a PR](#create-a-pr)" sections.
 
 ### 3. Local development
 
@@ -371,7 +371,7 @@ To work locally, you first need to install these on your machine:
    cd docs
    ```
 5. Find the folder and file that you want to work on.
-6. Make changes and ensure that the changes you made follow Mautic's style guide by running the Vale lint. Please read the "[Working With Vale](#working-with-vale)" section to use Vale. Use the live preview to ensure everything works as intended in real time.
+6. Make changes and ensure that the changes you made follow Mautic's style guide by running the Vale lint. Please read the "[Working with Vale](#working-with-vale)" section to use Vale. Use the live preview to ensure everything works as intended in real time.
 7. Build the project by running:
 
    ```bash
@@ -393,7 +393,7 @@ To work locally, you first need to install these on your machine:
 
 <br />
 
-If you're ready to push your changes to the remote repository and create a PR, please read the "[Push Changes to Remote Repository](#push-changes-to-remote-repository)" and "[Create a PR](#create-a-pr)" sections.
+If you're ready to push your changes to the remote repository and create a PR, please read the "[Push changes to remote repository](#push-changes-to-remote-repository)" and "[Create a PR](#create-a-pr)" sections.
 
 ## Working with links
 
@@ -456,7 +456,7 @@ ddev exec make checklinks
 
 You should see a list of links. Find the broken link and fix it. Here's an example of a broken link:
 
-## Working With Vale
+## Working with Vale
 
 Your changes must follow Mautic's style guide. To ensure that the changes are consistent with the style guide, in your terminal:
 
@@ -497,7 +497,7 @@ Your changes must follow Mautic's style guide. To ensure that the changes are co
 <br />
 
 > [!IMPORTANT]
-> - Ensure that you wrap the sentences that you'd like Vale to skip with both `.. vale off` and `vale on` statements, in order. Failing to do so results in Vale lint skipping the rest of the contents.
+> - Ensure that you wrap the sentences that you'd like Vale to skip with both `.. vale off` and `.. vale on` statements, in order. Failing to do so results in Vale lint skipping the rest of the contents.
 > - Don't add the statements to skip the lint when it's not necessary. If you're uncertain, it's best not to wrap them in the statements and let the team review and provide suggestions.
 
 <br />
