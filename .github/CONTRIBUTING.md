@@ -29,7 +29,7 @@ Contributions are always welcome, no matter how large or small, or at whatever s
 - [Working With Links](#working-with-links)
   - [Create a New Link](#create-a-new-link)
   - [Check Broken Links](#check-broken-links)
-- [Push Changes to Remote Repository](#push-changes-to-remote-repository)
+- [Working With Vale](#working-with-vale)
 - [Credit](#credit)
 
 ---
@@ -270,6 +270,7 @@ Using GitHub Codespaces enables you to spin up the project in the cloud quickly.
 7. All contents of the Mautic Community Handbook are available in the `docs/` directory. In your terminal, navigate to the `docs` directory with `cd docs`.
 8. Find the folder and file that you need to work on.
 9. Work on your changes and use the live preview to view and test your changes in real-time.
+10. Ensure that the changes you made follow Mautic's style guide by running the Vale lint. Please read the "[Working With Vale](#working-with-vale)" section to use Vale.
 
 #### Live Preview on Codespace
 
@@ -370,7 +371,7 @@ To work locally, you first need to install these on your machine:
    cd docs
    ```
 5. Find the folder and file that you want to work on.
-6. Make changes and live preview your changes to ensure everything works as intended.
+6. Make changes and ensure that the changes you made follow Mautic's style guide by running the Vale lint. Please read the "[Working With Vale](#working-with-vale)" section to use Vale. Use the live preview to ensure everything works as intended in real time.
 7. Build the project by running:
 
    ```bash
@@ -382,7 +383,7 @@ To work locally, you first need to install these on your machine:
    ddev launch
    ```
    
-   This automatically opens your browser and navigates to `https://mautic-community-handbook.ddev.site/`.
+   This command automatically opens your browser and navigates to `https://mautic-community-handbook.ddev.site/`.
 
 <br />
 
@@ -454,6 +455,52 @@ ddev exec make checklinks
 ```
 
 You should see a list of links. Find the broken link and fix it. Here's an example of a broken link:
+
+## Working With Vale
+
+Your changes must follow Mautic's style guide. To ensure that the changes are consistent with the style guide, in your terminal:
+
+1. Ensure that you're in your working folder. For example, `docs/contributing`. If you're not, and assuming you're in the project's root, you can run this command:
+
+   ```bash
+   cd docs/your-working-folder
+2. Run Vale:
+
+   ```bash
+   vale .
+   ```
+3. Find the file that you're working on.
+4. Look at the errors, warnings, and suggestions.
+5. Address all of them and rerun Vale to ensure they pass the checks.
+6. If you're sure that the style is good but Vale still gives suggestions, you can wrap the sentence in `.. vale off` and `vale on` statements. Here's an example:
+
+   ```rst
+   .. vale off
+
+   Regarding assets like JavaScript and CSS, the source files are loaded instead of concatenated, minified files. This way, the changes in those files will be directly visible when refreshed. If you want to see the change in the production environment, run this command:
+
+   .. vale on
+   ```
+
+   If the suggestion targets a point in a list, you first need to ensure that the whole list follows the style guide. Then, wrap the entire list in the `.. vale off` and `.. vale on` statements as example below:
+
+    ```rst
+    .. vale off
+
+    * All PRs are made against the ``c.x`` branch in the first instance, for instance, ``5.x``.
+    * If the PR should be merged in an earlier release than the next major release of Mautic, duplicate the PR against the relevant ``a.b`` branch for bug fixes - for example, ``5.0`` - or ``a.x`` branch for features and enhancements - for example, ``5.x``.
+    * Backwards compatibility breaking changes can only be released in a major version, so they should only ever be made against the ``c.x`` branch, such as, ``5.x``.
+
+    .. vale on
+    ```
+
+<br />
+
+> [!IMPORTANT]
+> - Ensure that you wrap the sentences that you'd like Vale to skip with both `.. vale off` and `vale on` statements, in order. Failing to do so results in Vale lint skipping the rest of the contents.
+> - Don't add the statements to skip the lint when it's not necessary. If you're uncertain, it's best not to wrap them in the statements and let the team review and provide suggestions.
+
+<br />
 
 ## Credit
 
