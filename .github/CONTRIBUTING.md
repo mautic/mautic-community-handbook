@@ -59,7 +59,7 @@ Contributions are always welcome, no matter how large or small, or at whatever s
 
 PRs are always welcome. However, before working on changes, you must ensure that **you are assigned** to an existing issue and **link your work to the issue in your PR**.
 
-### Before Submitting a PR
+### Before submitting a PR
 
 1. Ensure that you work on your changes in a new branch.
 2. Run and check your changes locally. Ensure that everything functions as intended.
@@ -75,7 +75,7 @@ PRs are always welcome. However, before working on changes, you must ensure that
 
 3. Provide screenshots for visual changes if necessary.
 
-### After Submitting a PR
+### After submitting a PR
 
 1. Ensure that all checks pass. If you see the linting build or prose failed, try to debug and fix it until all of them pass. If you have questions or need help, feel free to tag the `@mautic/education-team-leaders` in the comment.
 2. Please don't DM maintainers on Slack to review or ask feedback and questions about your PR. 
@@ -85,11 +85,11 @@ PRs are always welcome. However, before working on changes, you must ensure that
 3. Keep your branch up to date while waiting for review.
 4. Respond and address the reviewer's feedback. Please don't request a review until you've addressed all feedback.
 
-## Contributing Workflow
+## Contributing workflow
 
 In this section, you can find the contributing workflow and best practices for contributing to this project.
 
-### Forking The Repository
+### Forking the repository
 
 Forking this repository is the first thing you need to do before anything else. Fork means make a copy of a repository to your GitHub account.
 
@@ -101,7 +101,7 @@ To fork this repository:
 
 3. Click the green 'Create fork' button at the bottom.
 
-### Clone The Repository
+### Clone the repository
 
 After you forked the repository, you need to clone it. Cloning means making a copy of a repository in your local environment. In this case, you want to clone your forked repository.
 
@@ -119,7 +119,7 @@ Follow the steps below to clone your forked repository:
    git clone https://github.com/USERNAME/mautic-community-handbook
    ```
 
-### Create a New Branch
+### Create a new branch
 
 Before working on changes, ensure that you create a new branch and work on this branch. You don't want to directly work on the default — such as `main` — or any other base branch to avoid breaking production.
 
@@ -147,7 +147,7 @@ There are two ways to create a new branch:
    git checkout -b YOUR-BRANCH-NAME
    ```
 
-### Push Changes to Remote Repository
+### Push changes to remote repository
 
 If you have finished with your changes, you can push them to the remote repository to create a PR. Push means moving your commits from your local to the remote repository.
 
@@ -197,7 +197,7 @@ Once you've pushed your changes, you are ready to create a PR. To do so:
 
 3. Submit it for review.
 
-## Getting Started
+## Getting started
 
 This project is built with [Sphinx](https://www.sphinx-doc.org/en/master/) and hosted on the [Read the Docs platform](https://readthedocs.org). The contents are written in [reStructuredText (RST)](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html).
 
@@ -256,7 +256,7 @@ Using GitHub Codespaces enables you to spin up the project in the cloud quickly.
 
 <br />
 
-#### Setting Up a Codespace
+#### Setting up a Codespace
 
 1. [Fork](#forking-the-repository) this repository to your own GitHub account.
 2. Go to your forked repository on GitHub.
@@ -272,7 +272,7 @@ Using GitHub Codespaces enables you to spin up the project in the cloud quickly.
 9. Work on your changes and use the live preview to view and test your changes in real-time.
 10. Ensure that the changes you made follow Mautic's style guide by running the Vale lint. Please read the "[Working With Vale](#working-with-vale)" section to use Vale.
 
-#### Live Preview on Codespace
+#### Live preview on Codespace
 
 1. Run `make html`. It generates the `build` folder.
    
@@ -325,7 +325,7 @@ Using GitHub Codespaces enables you to spin up the project in the cloud quickly.
 
 If you're ready to push your changes to the remote repository and create a PR, please read the "[Push Changes to Remote Repository](#push-changes-to-remote-repository)" and "[Create a PR](#create-a-pr)" sections.
 
-### 3. Local Development
+### 3. Local development
 
 #### Prerequisite
 
@@ -351,7 +351,7 @@ To work locally, you first need to install these on your machine:
 
 <br />
 
-#### Setting Up Local Environment
+#### Setting up local environment
 
 1. [Fork](#forking-the-repository) and [clone](#clone-the-repository) this repository to your local machine.
 2. Navigate into the project directory by running: 
@@ -395,11 +395,11 @@ To work locally, you first need to install these on your machine:
 
 If you're ready to push your changes to the remote repository and create a PR, please read the "[Push Changes to Remote Repository](#push-changes-to-remote-repository)" and "[Create a PR](#create-a-pr)" sections.
 
-## Working With Links
+## Working with links
 
 In this section, you can find the commands that you need for working with links. Ensure that you're in the `docs/` directory to work with these commands.
 
-### Create a New Link
+### Create a new link
 
 When you need to add a link, you can do so by running the command below — depending on where you work on your changes — in the terminal.
 
@@ -438,7 +438,7 @@ Enter the URL: https://contribute.mautic.org
 Enter the .py file name (use_lower_case_and_underscore of link name): mautic_community_handbook
 ```   
 
-### Check Broken Links
+### Check broken links
 
 When there's a broken link, the build fails. So, you need to ensure that there's no broken link. You can check the links by following the instructions below — depending on where you work on your changes — in the terminal.
 
