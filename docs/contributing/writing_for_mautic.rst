@@ -13,11 +13,11 @@ The first thing to do is to join ``#t-marketing`` channel on :xref:`Mautic Commu
 Writing for the blog & website
 ==============================
 
-The Marketing Team maintains a :xref:`Jira board marketing team` specifically for content and editorial work. Our boards are publicly accessible, but you will need an account to be assigned issues or add responses. Please drop a message in the ``#t-marketing`` channel on Slack if you need an invitation to Jira.
+The Marketing Team manages a `GitHub Project Board <https://github.com/orgs/mautic/projects/21/views/8>`_. To get involved, simply browse the board, pick a task/issue that interests you, and leave a comment to indicate your interest.
 
 Once you have found an article you'd like to work on, please check the writer's brief which will be attached as a Google Doc, located in :xref:`Mautic Google Drive`. The brief should explain what the article should include, the audience we are intending to target, and some useful resources to help you get started.
 
-Please write the content in the Google Doc. When you're ready to have it reviewed, drop a message in Jira and let people know in Slack.
+Please write the content in the Google Doc. When you're ready to have it reviewed, drop a comment on the Github issue and let the team know in Slack.
 
 Please note that we do check to ensure that articles are not copied from other locations without due credit, so please do not copy/paste chunks from other websites as your content will be rejected.
 
@@ -117,11 +117,11 @@ Articles will also allow readers to add comments, and we definitely favor articl
 Pre-launch article submission process
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-For all articles, we require you to submit your pitch via the :xref:`Jira marketing team editorial calendar`.
+For all articles, we require you to share your pitch in the #t-marketing channel on Slack.
 
-Your pitch will be moved into either the ‘forming’ stage where we will ask you to provide more information, research or background detail to help us determine whether it is appropriate for the Community Blog, or directly to the ‘writing’ stage.
+Your pitch will then be discussed and either moved into the forming stage where you may be asked to provide more information, research, or background detail to help determine whether it is appropriate for the Community Blog or directly into the writing stage.
 
-When your pitch is moved into the writing stage, you take up the responsibility for writing the content within the time frame on the card. Please note the draft due date - this is when you need to have finished writing the article.
+When your pitch is accepted and moved into the writing stage, you take responsibility for drafting the content within the agreed timeframe. Please pay attention to the draft due date, as that is when you are expected to have completed the article.
 
 Style Guide summary
 ~~~~~~~~~~~~~~~~~~~
@@ -151,7 +151,7 @@ This is based on the excellent work done by the :xref:`Joomla Disclosure of Comp
 Technical writers
 *****************
 
-If you're a technical writer, or interested in writing content for a technical-minded audience, we have lots of tasks in the Education Team's :xref:`Jira board education team`. There are opportunities to write for the :xref:`Mautic Knowledgebase` - which may include tutorials, best practice and examples of how to do specific things in Mautic. 
+If you're a technical writer, or interested in writing content for a technical-minded audience, we have tasks on the `GitHub Project Board <https://github.com/orgs/mautic/projects/21/views/8>`_. There are opportunities to write for the :xref:`Mautic Knowledgebase` - which may include tutorials, best practice and examples of how to do specific things in Mautic. 
 
 You can also improve and update the content we have on Mautic :xref:`User Documentation`. We suggest beginning with any section of the documentation that is unclear, out of date, or may benefit from more description or context.
 
@@ -173,7 +173,7 @@ Please always ensure that you upload your work at regular (ideally daily) interv
 Update regularly
 ****************
 
-Please make sure you provide regular updates on the issue in Jira, and if at any point you're not going to be able to complete the task, please call that out in a comment on the issue (or send your Team Lead a message to inform them) so that somebody else can pick it up. 
+Please make sure you provide regular updates on the issue, and if at any point you're not going to be able to complete the task, please call that out in a comment on the issue (or send your Team Lead a message to inform them) so that somebody else can pick it up. 
 
 We totally understand that life happens and it's easy to take on too much. No judgement at all. We try to be respectful of each other by ensuring we give as much notice as possible if we're not going to be able to fulfil a task assigned to us.
 
