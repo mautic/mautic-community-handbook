@@ -22,14 +22,27 @@ We have a Marketing Team which you can read more about on the Marketing Team sec
 
 The team holds regular meetings, which anybody can join - just hop into the :xref:`Mautic marketing team Slack` channel on Slack, and you'll get a notification when the next meeting is coming up. 
 
-The Marketing Team work publicly on a :xref:`Jira board marketing team` and have our :xref:`Jira marketing team editorial calendar` on Jira also, where you can see the tasks that are currently being worked on and their status.
 
 Your first task
 ===============
 
-After joining the Jira board and the Slack channel, find a task in the Jira board that you would like to help with. Ask one of the team to add you to Jira and then assign yourself to the issue.
+After joining the Slack channel, the best way to find tasks to work on is to check Mautic’s GitHub Projects board:  
+`Marketing Task <https://github.com/orgs/mautic/projects/21/views/7>`_
 
-Leave a comment on the issue to let others know you would like to work on the task, and ask any questions or raise any points of clarification. Please ask if you need any help from the team. When you start working on the task, move it to the 'in progress' status.
+This board is organized in a kanban style, where each card represents a marketing task and typically includes:
+
+- **Description** – what the task is about  
+- **Status** – e.g. *Ready*, *In Progress*, or *Done*  
+- **Priority** – how urgent or important the task is  
+- **Size** – an estimate of the effort required  
+
+How to get involved:
+
+- Browse the board to find tasks/issues that match your skills and availability.
+- Leave a comment on the task/issue stating you’re interested in working on it.
+  
+Please ask if you need any help from the team. When you start working on the task, let others know in the Slack channel.  
+
 
 Work in the public domain
 -------------------------
@@ -41,7 +54,7 @@ Please always ensure that you upload your work at regular - ideally daily - inte
 Update regularly
 ----------------
 
-Please make sure you provide regular updates on the issue in Jira, and if at any point you're not going to be able to complete the task, please call that out in a comment on the issue - or send your Team Lead a message to inform them - so that somebody else can pick it up. 
+Please make sure you provide regular updates via the github issue or send your Team Lead a message to inform them - so that somebody else can pick it up. 
 
 We totally understand that life happens and it's easy to take on too much. No judgement at all. We try to be respectful of each other by ensuring we give as much notice as possible if we're not going to be able to fulfil a task assigned to us.
 
