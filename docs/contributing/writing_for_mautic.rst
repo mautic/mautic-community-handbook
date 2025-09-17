@@ -151,9 +151,9 @@ This is based on the excellent work done by the :xref:`Joomla Disclosure of Comp
 Technical writers
 *****************
 
-If you're a technical writer, or interested in writing content for a technical-minded audience, we have tasks on the `GitHub Project Board <https://github.com/orgs/mautic/projects/21/views/8>`_. There are opportunities to write for the :xref:`Mautic Knowledgebase` - which may include tutorials, best practice and examples of how to do specific things in Mautic. 
+If you're a technical writer, or interested in writing content for a technical-minded audience, we have tasks on the `GitHub Project Board <https://github.com/orgs/mautic/projects/21/views/1>`_. There are opportunities to write for the :xref:`Mautic Knowledgebase` - which may include tutorials, best practice and examples of how to do specific things in Mautic. 
 
-You can also improve and update the content we have on Mautic :xref:`User Documentation`. We suggest beginning with any section of the documentation that is unclear, out of date, or may benefit from more description or context.
+You can also improve and update the content we have on the `End-User Documentation <https://github.com/orgs/mautic/projects/21/views/3>`_. We suggest beginning with any section of the documentation that is unclear, out of date, or may benefit from more description or context.
 
 If you're reading a page of documentation and thinking, "I wish this page included more information" or "This is not the manner in which these function," then that is an excellent place to start contributing. 
 
