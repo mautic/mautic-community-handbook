@@ -221,10 +221,8 @@ BC break is any change that may break a Plugin, either by using or extending a c
 
 Examples:
 
-.. Replace [deprecated] with :doc:`deprecated </governance/deprecation_policy>`
-
-* Remove or rename a public or protected method in a non-final class. Create a new method instead and mark the old one [deprecated].
-* Change the signature of a private or public method in a non-final class. This means adding/removing method parameters or adding/changing parameters or return types. Create a new method instead and mark the old one [deprecated].
+* Remove or rename a public or protected method in a non-final class. Create a new method instead and mark the old one :doc:`deprecated </governance/deprecation_policy>`.
+* Change the signature of a private or public method in a non-final class. This means adding/removing method parameters or adding/changing parameters or return types. Create a new method instead and mark the old one :doc:`deprecated </governance/deprecation_policy>`.
 * Change the behavior of a method so it does something differently.
 * Add a new method to an existing interface. Create a new interface instead.
 * Whenever you change a :xref:`Symfony Twig` template, think about the Themes that are overwriting this template. For instance, changing the template name can cause issues.
@@ -404,9 +402,7 @@ PR testing
 
 .. vale on
 
-.. Replace [Code governance] with :doc:`/governance/code_governance`
-
-If you want to test a PR from other developers, see the :ref:`PR review process` section. All PRs require testing by others in the Community and must have the code reviewed by a member of the Core Team. Read more information in the [Code governance] section.
+If you want to test a PR from other developers, see the :ref:`PR review process` section. All PRs require testing by others in the Community and must have the code reviewed by a member of the Core Team. Read more information in the :doc:`/governance/code_governance` section.
 
 Automated testing
 -----------------
@@ -559,9 +555,7 @@ PR review process
 
 .. vale on
 
-.. Replace [tier of the PR] with :doc:`tier of the PR </governance/code_governance>`
-
-Every change to Mautic happens via PRs. Every PR must have a number of successful tests and code reviews to be merged to the core and released in the next version - the number required depends on the [tier of the PR]. Testing a PR is a great way to move Mautic forward and personally improve its quality and stability.
+Every change to Mautic happens via PRs. Every PR must have a number of successful tests and code reviews to be merged to the core and released in the next version - the number required depends on the :doc:`tier of the PR </governance/code_governance>`. Testing a PR is a great way to move Mautic forward and personally improve its quality and stability.
 
 Here are the steps to review a PR:
 
