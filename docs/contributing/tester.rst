@@ -7,7 +7,12 @@ Every new feature and bug fix that is released in Mautic has undergone testing a
 
 We are always looking out for people to help us with these processes. Even if you can spare an hour or two a week, it would significantly increase the number of bugs and features that make it out into the hands of Mautic users.
 
-Once you have a local testing environment established (or you have a free account on GitHub which allows you to use Gitpod), it is very quick and easy to test bugs and features.
+There are two ways to set up your testing environment:
+
+1. On GitHub Codespaces
+2. On your local machine with DDEV — **recommended**
+
+Once your testing environment is established, it is very quick and easy to test bugs and features.
 
 .. tip::
 
@@ -15,28 +20,82 @@ Once you have a local testing environment established (or you have a free accoun
 
 Mautic maintains :xref:`Mautic OSS Fridays board` which shows you a list of all of the bugs and features that we want to get tested.
 
-The easy way: using Gitpod
-**************************
+Setting up a testing environment on GitHub Codespaces
+*****************************************************
 
-Since the :xref:`Mautic 4.1 release` support for :xref:`Gitpod` has been introduced. 
+:xref:`GitHub Codespaces` allows you to spin up a Mautic instance in the cloud, with a pull request — PR — applied. The Mautic instance also has a mail catching tool, MailHog, and PHPMyAdmin available to view database tables. While there are some PRs that can't be tested in this way, such as if they are testing the installation process, the vast majority can.
 
-This allows you to quickly spin up a Mautic instance with a pull request applied, in the cloud. The Mautic instance also has a mail catching tool (MailHog) and PHPMyAdmin available to view database tables. While there will be some pull requests which can't be tested in this way (for example if they are testing the installation process) the vast majority can be.
+Setting up a codespace
+======================
 
-Testing  a bug or a new feature with Gitpod is as simple as clicking a button once you have installed the :xref:`Gitpod Browser Extension` in Chrome and Firefox. 
+#. Go to :xref:`Mautic GitHub repository`.
+#. Open the PR that you need to test.
+#. Click the '<> Code' button on the right top, next to PR's title.
+#. Click the 'Codespaces' tab.
+#. Click the green 'Create codespace on BRANCH-NAME' or '+' sign to create a codespace.
+#. Wait until the codespace finish building and the ``postCreateCommand`` finished its task. It may take a while, so please be patient.
 
-This will add a green 'Gitpod' button on the right hand side of every pull request, and has the added benefit of also adding the button on the main repository and any branch or tag, allowing you to quickly spin up a specific version of Mautic in Gitpod. You can also copy the URL of the PR and open a Gitpod instance manually on your Gitpod dashboard, or using various automation tools like Alfred or Raycast.  
+   **Note:** If you get a warning of configuration error, follow the instructions in the :ref:`Rebuild a codespace` section.
 
-Once you have the browser extension installed, click the green button - the first time it will ask you to log in with GitHub. You may wish to open in a new tab, so that it's easy to reference back to the pull request. Now you just have to wait for Mautic to be installed for you. 
+#. Run ``ddev start`` to install Mautic and the dependencies.
+#. Type 'Y' and press Enter when you get prompted to ``Permission to beam up? [Y/n] (yes):``.
 
-Once the installer is done, it shows the URLs for the Mautic user interface, as well as for MailHog and PHPMyAdmin (in case you need to check outgoing emails or test things in the database). It also shows you the default credentials to use for the login. Sometimes, it can take a few minutes for the process to complete, so please wait until it does.
+   It can take a few minutes for the process to complete, so please wait until it does.
 
-Then follow the test instructions in the pull request, and :ref:`report back your findings<Leaving your review>`. The default username will always be admin, and the password will be ``Maut1cR0cks!``.
+   Once the installer is done, it shows the URLs for the Mautic user interface, as well as MailHog and PHPMyAdmin URLs in case you need to check outgoing emails or test things in the database. It also provides you the default credentials to use for the login.
+
+#. Hover over to the URL that you want to open and ``Ctrl + click`` to open it in the browser.
+
+   **Note:** If you can't see the URLs, please read the :ref:`Live preview` section. 
+
+#. Login to Mautic. 
 
 .. note::
 
+   The default username to login to Mautic is always ``admin``, and the password is ``Maut1cR0cks!``.
+   
    If you're testing an older version of Mautic than ``5.1``, use the password ``mautic``.
 
-If you are testing a bug and you need to reproduce this before you apply the pull request, you can use this link :xref:`Mautic Gitpod link` to spin up a Mautic instance based on our default branch.
+After you setup the environment, you can follow the test instructions in the PR and :ref:`report back your findings<Leaving your review>`. 
+
+Rebuild a codespace
+-------------------
+
+Follow this steps to rebuild your codespace:
+
+#. Press ``Cmd/Ctrl + Shift + P``
+#. Search for 'Codespaces: Rebuild Container', select, and click it.
+#. Click the 'Rebuild' button.
+
+It may take a while for the codespace to rebuild. So, please wait for the process.
+
+Live preview
+------------
+
+If for some reasons you can't see the project URLs in the terminal and need to launch the live preview:
+
+#. Run ``ddev restart`` to restart the DDEV.
+#. Click 'Ports' tab.
+#. Find the port that you need to open.
+#. Hover over the 'Forwarded Address' tab, right next to the port.
+#. Click the globe icon to open the port in the browser.
+#. Login to Mautic.
+
+.. tip::
+
+   You can run ``ddev describe`` command to see the list and detail of available URLs and ports.
+
+Reproduce a bug
+---------------
+
+When you need to reproduce a bug before you apply the PR, create a codespace from the branch that you need to test:
+
+#. Go to :xref:`Mautic GitHub repository`.
+#. Click the branch dropdown menu on the top left.
+#. Select the branch that you need to test.
+#. Click the green '<> Code' button at the top right.
+
+Then, follow step 4 onwards in the :ref:`Setting up a codespace` section.
 
 Top tips
 ========
