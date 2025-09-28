@@ -100,52 +100,6 @@ When you need to reproduce a bug before you apply the PR, create a codespace fro
 #. Click the green '<> Code' button at the top right.
 #. Follow step 4 onwards in the :ref:`Setting up a codespace` section.
 
-Top tips
-========
-
-Installing sample data
-----------------------
-
-To quickly install sample data, use the command ``ddev exec bin/console d:f:l`` which loads the Doctrine fixtures. It gives you a big head start with testing.
-
-Build the segments after install
---------------------------------
-
-It's always worth building the segments once you install the sample data, using the command ``ddev exec bin/console m:s:r``.  
-
-Testing with different databases / PHP versions
------------------------------------------------
-
-In DDEV we can set the database and PHP version in a file located in the folder ``.ddev/config.yaml``. 
-
-#. Open Gitpod from the PR you are testing and immediately stop the build process as soon as the terminal window is displayed, using ``command+c`` or ``ctrl+c`` on your keyboard.
-
-#. Delete anything that has already been started with the command ``ddev delete --omit-snapshot --yes && rm -rf var/cache && rm app/config/local.php``
-
-#. Edit the file in ``.ddev/config.yaml`` and change the setting. For instance, change DB from mariaDB 10.3 to mysql8. Always remember to save the file.
-
-   .. code-block:: yaml
-
-      mariadb_version: ""
-      mysql_version: "8.0"
-
-#. Type ``ddev start`` in the console to continue with installation.
-
-#. Run the installer in the UI or command line as preferred.
-
-#. Check you are using the right version in the system information within Mautic.
-
-#. Remember to make sure you are using dev mode - DDEV should start in dev mode by default, with the Symfony toolbar at the bottom of the page.
-
-#. If you make a mistake, open your Gitpod dashboard and delete the instance and start again.
-
-Resetting your local testing environment
-----------------------------------------
-
-To quickly reset your local testing environment by deleting the DDEV containers without a database snapshot, removing the cache directory, and removing the ``local.php`` file, you can run ``ddev delete --omit-snapshot --yes && rm -rf var/cache && rm app/config/local.php``. 
-
-Note that from Mautic 5, the location of the ``local.php`` file is now ``config/local.php``.
-
 Setting up a local testing environment
 **************************************
 
@@ -285,6 +239,52 @@ Note that we have to prefix any commands with ``ddev exec`` so that they run ins
 Now that you have the pull request applied, the next step is to re-test the bug or check out the new feature. Make sure you are thorough in your testing. Really think about every possible thing that might be affected by the changes being made in the pull request, and test it in detail.
 
 It's very helpful if you can write a comment and explain what you have tested.
+
+Top tips
+========
+
+Installing sample data
+----------------------
+
+To quickly install sample data, use the command ``ddev exec bin/console d:f:l`` which loads the Doctrine fixtures. It gives you a big head start with testing.
+
+Build the segments after install
+--------------------------------
+
+It's always worth building the segments once you install the sample data, using the command ``ddev exec bin/console m:s:r``.  
+
+Testing with different databases / PHP versions
+-----------------------------------------------
+
+In DDEV we can set the database and PHP version in a file located in the folder ``.ddev/config.yaml``. 
+
+#. Open Gitpod from the PR you are testing and immediately stop the build process as soon as the terminal window is displayed, using ``command+c`` or ``ctrl+c`` on your keyboard.
+
+#. Delete anything that has already been started with the command ``ddev delete --omit-snapshot --yes && rm -rf var/cache && rm app/config/local.php``
+
+#. Edit the file in ``.ddev/config.yaml`` and change the setting. For instance, change DB from mariaDB 10.3 to mysql8. Always remember to save the file.
+
+   .. code-block:: yaml
+
+      mariadb_version: ""
+      mysql_version: "8.0"
+
+#. Type ``ddev start`` in the console to continue with installation.
+
+#. Run the installer in the UI or command line as preferred.
+
+#. Check you are using the right version in the system information within Mautic.
+
+#. Remember to make sure you are using dev mode - DDEV should start in dev mode by default, with the Symfony toolbar at the bottom of the page.
+
+#. If you make a mistake, open your Gitpod dashboard and delete the instance and start again.
+
+Resetting your local testing environment
+----------------------------------------
+
+To quickly reset your local testing environment by deleting the DDEV containers without a database snapshot, removing the cache directory, and removing the ``local.php`` file, you can run ``ddev delete --omit-snapshot --yes && rm -rf var/cache && rm app/config/local.php``. 
+
+Note that from Mautic 5, the location of the ``local.php`` file is now ``config/local.php``.
 
 Leaving your review
 *******************
