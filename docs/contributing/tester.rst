@@ -33,9 +33,16 @@ Setting up a codespace
 #. Click the '<> Code' button on the right top, next to PR's title.
 #. Click the 'Codespaces' tab.
 #. Click the green 'Create codespace on BRANCH-NAME' or '+' sign to create a codespace.
+
+   .. image:: images/open_codespace_github.png
+    :alt: Screenshot highlighting code button and codespaces tab
+
 #. Wait until the codespace finish building and the ``postCreateCommand`` finished its task. It may take a while, so please be patient.
 
-   **Note:** If you get a warning of configuration error, follow the instructions in the :ref:`Rebuild a codespace` section.
+   **Note:** If you get a warning that the codespace is currently running in recovery mode due to a configuration error as in the following screenshot, follow the instructions in the :ref:`Rebuild a codespace` section.
+
+   .. image:: images/codespace_recovery_mode_warning.png
+    :alt: Warning message that says this codespace is currently running in recovery mode dues to a container error.
 
 #. Run ``ddev start`` to install Mautic and the dependencies.
 #. Type 'Y' and press Enter when you get prompted to ``Permission to beam up? [Y/n] (yes):``.
@@ -44,46 +51,39 @@ Setting up a codespace
 
    Once the installer is done, it shows the URLs for the Mautic user interface, as well as MailHog and PHPMyAdmin URLs in case you need to check outgoing emails or test things in the database. It also provides you the default credentials to use for the login.
 
-#. Hover over to the URL that you want to open and ``Ctrl + click`` to open it in the browser.
+#. Click 'Ports' tab.
+#. Find the port that you need to open.
+#. Hover over the 'Forwarded Address' tab, right next to the port.
+#. Click the globe icon to open the port in the browser.
 
-   **Note:** If you can't see the URLs, please read the :ref:`Live preview` section. 
+   .. image:: images/vscode_terminal_ports_tab.png
+    :alt: Screenshot of ports tab in vscode terminal highlighting globe icon 
 
-#. Login to Mautic. 
-
-.. note::
-
-   The default username to login to Mautic is always ``admin``, and the password is ``Maut1cR0cks!``.
-   
-   If you're testing an older version of Mautic than ``5.1``, use the password ``mautic``.
+#. Login to Mautic. See the tip below to login to Mautic.
 
 After you setup the environment, you can follow the test instructions in the PR and :ref:`report back your findings<Leaving your review>`. 
+
+.. tip::
+
+   * The default username to login to Mautic is always ``admin``, and the password is ``Maut1cR0cks!``.
+   * If you're testing an older version of Mautic than ``5.1``, use the password ``mautic``.
+   * You can run ``ddev describe`` command to see the list and detail of available URLs and ports.
 
 Rebuild a codespace
 -------------------
 
 Follow this steps to rebuild your codespace:
 
-#. Press ``Cmd/Ctrl + Shift + P``
+#. Press ``Cmd/Ctrl + Shift + P``. It opens a search bar on top.
 #. Search for 'Codespaces: Rebuild Container', select, and click it.
-#. Click the 'Rebuild' button.
 
-It may take a while for the codespace to rebuild. So, please wait for the process.
+   .. image:: images/codespaces_rebuild_container.png
+    :alt: Screenshot of codespaces rebuild container selection
 
-Live preview
-------------
+#. Click the 'Full Rebuild' button.
 
-If for some reasons you can't see the project URLs in the terminal and need to launch the live preview:
-
-#. Run ``ddev restart`` to restart the DDEV.
-#. Click 'Ports' tab.
-#. Find the port that you need to open.
-#. Hover over the 'Forwarded Address' tab, right next to the port.
-#. Click the globe icon to open the port in the browser.
-#. Login to Mautic.
-
-.. tip::
-
-   You can run ``ddev describe`` command to see the list and detail of available URLs and ports.
+   .. image:: images/codespaces_rebuild_button.png
+    :alt: Screenshot highlighting full rebuild button on Codespaces
 
 Reproduce a bug
 ---------------
@@ -93,9 +93,12 @@ When you need to reproduce a bug before you apply the PR, create a codespace fro
 #. Go to :xref:`Mautic GitHub repository`.
 #. Click the branch dropdown menu on the top left.
 #. Select the branch that you need to test.
-#. Click the green '<> Code' button at the top right.
 
-Then, follow step 4 onwards in the :ref:`Setting up a codespace` section.
+   .. image:: images/switch_branch_dropwdown_menu_github.png
+    :alt: Screenshot highlighting branch dropdown menu on a repository at GitHub
+
+#. Click the green '<> Code' button at the top right.
+#. Follow step 4 onwards in the :ref:`Setting up a codespace` section.
 
 Top tips
 ========
