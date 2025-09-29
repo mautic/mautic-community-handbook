@@ -117,4 +117,6 @@ linkcheck_ignore = [
     r"https://www.canva.com/*",
     # Anchor is picked up as not found
     r"https://github.com/mautic/mautic-community-handbook/blob/main/.github/CONTRIBUTING.md#create-a-new-link",
+    # 403 errors from this domain
+    r"https://www.npmjs.com/"
 ]
