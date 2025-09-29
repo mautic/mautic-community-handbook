@@ -275,12 +275,12 @@ Now that you have the PR in your environment, the next step is to retest the bug
 It would be very helpful if you could :ref:`write a comment<Leaving a PR review>` explaining what you have tested.
 
 Reproducing a bug
-*****************
+=================
 
 Depending on your testing environment, follow the instructions below to reproduce the bug.
 
 GitHub Codespaces
-=================
+-----------------
 
 #. Go to your forked repository: ``https://github.com/YOUR-GITHUB-USERNAME/mautic``.
 #. Click the branch dropdown menu on the top left.
@@ -305,7 +305,7 @@ GitHub Codespaces
 #. Follow step 4 onwards in the :ref:`Setting up a codespace` section.
 
 Local environments
-==================
+------------------
 
 #. Follow steps 1 - 4 in the :ref:`GitHub Codespaces` section.
 #. Open the branch folder that you need to test in your code editor.
@@ -328,27 +328,27 @@ Local environments
       git pull
 
 Using developer mode
-********************
+====================
 
 When testing Mautic, it is important that you are notified of any errors rather than having them output to the logs. We also don't want to have to constantly rebuild the JavaScript and CSS files when changes are made.
 
 For this reason, we use developer mode when testing in the Mautic Community, which is set in the local environment file. DDEV has dev mode enabled by default - read more about :xref:`Mautic environments docs` on Mautic Developer Documentation.
 
 Testing top tips
-****************
+================
 
 Installing sample data
-======================
+----------------------
 
 To quickly install sample data, use the command ``ddev exec bin/console d:f:l`` which loads the Doctrine fixtures. It gives you a big head start with testing.
 
 Build the segments after install
-================================
+--------------------------------
 
 It's always worth building the segments once you install the sample data, using the command ``ddev exec bin/console m:s:r``.  
 
 Testing with different databases / PHP versions
-===============================================
+-----------------------------------------------
 
 In DDEV we can set the database and PHP version in a file located in the folder ``.ddev/config.yaml``. 
 
@@ -374,7 +374,7 @@ In DDEV we can set the database and PHP version in a file located in the folder 
 #. If you make a mistake, open your :xref:`GitHub Codespaces` dashboard, delete the codespace, and start again.
 
 Resetting your local testing environment
-========================================
+----------------------------------------
 
 To quickly reset your local testing environment by deleting the DDEV containers without a database snapshot, removing the cache directory, and removing the ``local.php`` file, you can run ``ddev delete --omit-snapshot --yes && rm -rf var/cache && rm app/config/local.php``. 
 
