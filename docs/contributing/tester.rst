@@ -366,9 +366,11 @@ In DDEV, you can set the database and PHP version in a file located in the ``.dd
 Resetting your local testing environment
 ----------------------------------------
 
-To quickly reset your local testing environment by deleting the DDEV containers without a database snapshot, removing the cache directory, and removing the ``local.php`` file, you can run ``ddev delete --omit-snapshot --yes && rm -rf var/cache && rm app/config/local.php``. 
+To quickly reset your local testing environment by deleting the DDEV containers without a database snapshot, removing the cache directory, and removing the ``local.php`` file, you can run this command:
 
-Note that, starting with Mautic 5, the location of the ``local.php`` file has changed to ``config/local.php``.
+.. code-block::
+   
+   ddev delete --omit-snapshot --yes && rm -rf var/cache && rm app/config/local.php
 
 Leaving a PR review
 *******************
