@@ -277,10 +277,7 @@ It would be very helpful if you could :ref:`write a comment<Leaving a PR review>
 Reproducing a bug
 =================
 
-Depending on your testing environment, follow the instructions below.
-
-GitHub Codespaces
------------------
+First, you need to update the base branch in your forked repository:
 
 #. Go to your forked repository: ``https://github.com/YOUR-GITHUB-USERNAME/mautic``.
 #. Click the branch dropdown menu on the top left.
@@ -297,17 +294,20 @@ GitHub Codespaces
 
    However, if you need to update your branch, click the green 'Update branch' button.
 
-#. Click the green 'Code' button at the top right.
-
    .. image:: images/sync_fork_update_branch_code_buttons_github.png
     :alt: Screenshot highlighting the sync fork, update branch, and code buttons at GitHub
 
+Then, follow the instructions below, depending on your testing environment.
+
+GitHub Codespaces
+-----------------
+
+#. Click the green 'Code' button at the top right.
 #. Follow the instructions starting from step 4 in the :ref:`Setting up a codespace` section.
 
 Local environments
 ------------------
 
-#. Follow steps 1 - 4 in the :ref:`GitHub Codespaces` section.
 #. Open the branch folder that you need to test in your code editor.
 #. Run ``git status`` to ensure you're on the correct branch.
 
