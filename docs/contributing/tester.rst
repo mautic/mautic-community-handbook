@@ -30,7 +30,7 @@ Setting up a codespace
 
 #. Go to :xref:`Mautic GitHub repository`.
 #. Open the PR that you need to test.
-#. Click the '<> Code' button on the right top, next to PR's title.
+#. Click the 'Code' button on the right top, next to PR's title.
 #. Click the 'Codespaces' tab.
 #. Click the green 'Create codespace on BRANCH-NAME' or '+' sign to create a codespace.
 
@@ -87,23 +87,6 @@ Follow these steps to rebuild your codespace:
     :align: center
     :scale: 70 %
 
-Reproduce a bug
----------------
-
-When you need to reproduce a bug before you apply the PR, create a codespace from the branch that you need to test:
-
-#. Go to :xref:`Mautic GitHub repository`.
-#. Click the branch dropdown menu on the top left.
-#. Select the branch that you need to test.
-
-   .. image:: images/switch_branch_dropwdown_menu_github.png
-    :alt: Screenshot highlighting the branch dropdown menu on a repository at GitHub
-    :scale: 70 %
-    :align: center
-
-#. Click the green '<> Code' button at the top right.
-#. Follow step 4 onwards in the :ref:`Setting up a codespace` section.
-
 Setting up a local testing environment
 **************************************
 
@@ -117,7 +100,7 @@ Before starting, you will need a few pieces of software on your computer:
 * :xref:`Git downloads`
 * :xref:`GitHub CLI`
 
-Once you have these installed, we recommend that you use an editor such as :xref:`VS Code`, which allows you to interact with files, folders, and the command line. There are other editors and Integrated Development Environments (IDEs). So if you already have a preference, by all means, use that.
+Once you have these installed, we recommend that you use a code editor such as :xref:`VS Code`, which allows you to interact with files, folders, and the command line. There are other editors and Integrated Development Environments (IDEs). So if you already have a preference, by all means, use that.
 
 You also need to register for an account at :xref:`GitHub signup` if you don't already have one. It allows you to leave comments when you've tested things, and also means you can make fixes yourself in the future.
 
@@ -206,7 +189,7 @@ Setting up a local DDEV instance
 
 Now that you have the repository's branch that you need to test locally, let's set up a local DDEV instance so you can use PHP, MySQL, and all the other components that Mautic requires to run.
 
-#. Move into the directory using the command, where 'X' is the version of Mautic that you saved in your folder:
+#. Move into the directory using the command, where 'X' is the version of Mautic that you saved in your ``mautic`` folder:
 
    .. code-block:: bash
 
@@ -284,6 +267,59 @@ Note that we have to prefix any commands with ``ddev exec`` so that they run ins
 Now that you have the pull request applied, the next step is to re-test the bug or check out the new feature. Make sure you are thorough in your testing. Really think about every possible thing that might be affected by the changes being made in the pull request, and test it in detail.
 
 It's very helpful if you can write a comment and explain what you have tested.
+
+Reproducing a bug
+*****************
+
+Depending on your testing environment, follow the instructions below to reproduce the bug.
+
+GitHub Codespaces
+=================
+
+#. Go to your forked repository: ``https://github.com/YOUR-GITHUB-USERNAME/mautic``.
+#. Click the branch dropdown menu on the top left.
+#. Select the branch where you need to reproduce the bug from.
+
+   .. image:: images/switch_branch_dropwdown_menu_github.png
+    :alt: Screenshot highlighting the branch dropdown menu on a repository at GitHub
+    :scale: 70 %
+    :align: center
+
+#. Click the 'Sync fork' button on the top right to ensure that the branch in your forked repository is up to date. 
+
+   If your branch is up to date, it shows "This branch is not behind the upstream ``mautic/BRANCH-NAME``" message.
+
+   However, if you need to update your branch, click the green 'Update branch' button.
+
+#. Click the green 'Code' button at the top right.
+
+   .. image:: images/sync_fork_update_branch_code_buttons_github.png
+    :alt: Screenshot highlighting the sync fork, update branch, and code buttons at GitHub
+
+#. Follow step 4 onwards in the :ref:`Setting up a codespace` section.
+
+Local environments
+==================
+
+#. Follow steps 1 - 4 in the :ref:`GitHub Codespaces` section.
+#. Open the branch folder that you need to test in your code editor.
+#. Run ``git status`` to ensure you're on the correct branch.
+
+   If you're not on the correct branch, run ``git switch BRANCH-NAME`` to switch the branch.
+
+   Here are some examples:
+
+   .. code-block::
+
+      git switch 5.x
+      git switch 6.x
+      git switch 7.x
+
+#. Run the following command to fetch new changes from your forked repository:
+
+   .. code-block::
+
+      git pull
 
 Top tips
 ========
