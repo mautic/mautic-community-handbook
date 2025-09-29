@@ -277,7 +277,7 @@ It would be very helpful if you could :ref:`write a comment<Leaving a PR review>
 Reproducing a bug
 =================
 
-Depending on your testing environment, follow the instructions below to reproduce the bug.
+Depending on your testing environment, follow the instructions below.
 
 GitHub Codespaces
 -----------------
@@ -401,14 +401,22 @@ From this point, you can share what you have found when testing the PR. You can 
 Unloading the PR
 ****************
 
-Once you are done with testing the PR, it is good practice to get back to the original state. To do this, use the command:
+Once you have finished testing the PR, it is good practice to revert to the original state. To do this, use the command:
+
+.. code-block:: bash
+
+   git checkout BASE-BRANCH-NAME
+
+The BASE-BRANCH-NAME is the branch that you want to return to. This command checks you out from the PR to the base branch, where you started from.
+
+For example:
 
 .. code-block:: bash
 
    git checkout 5.x
+   git checkout 6.x
+   git checkout 7.x
 
-Where ``5.x`` is the branch that you want to return to.
-
-This will check out the branch called ``5.x`` which is where we started from. Now you're ready to go and find another PR to test. Have a little celebration because you helped make Mautic even more awesome. Thank you for your contribution.
+Now you're ready to go and find another PR to test. Have a little celebration because you helped make Mautic even more awesome. Thank you for your contribution.
 
 .. vale on
