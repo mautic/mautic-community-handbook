@@ -23,7 +23,7 @@ Once your testing environment is established, it's very quick and easy to test b
 Setting up a testing environment on GitHub Codespaces
 *****************************************************
 
-:xref:`GitHub Codespaces` allows you to spin up a Mautic instance in the cloud, with a pull request—also known as PR—applied. The Mautic instance also has a mail catching tool, MailPit, and PHPMyAdmin available to view database tables. While some PRs can't be tested in this way, such as when testing the installation process, the vast majority can.
+:xref:`GitHub Codespaces` allows you to spin up a Mautic instance in the cloud, with a pull request—also known as PR—applied. The Mautic instance also has a mail catching tool, Mailpit, and PHPMyAdmin available to view database tables. While some PRs can't be tested in this way, such as when testing the installation process, the vast majority can.
 
 Setting up a codespace
 ======================
@@ -220,7 +220,7 @@ Now that you have the repository's branch that you need to test locally, it's ti
 Live preview the Mautic instance
 ================================
    
-Once the installation process finishes, it displays the URL for the Mautic instance, as well as the URLs for MailPit and PHPMyAdmin, in case you need to test outgoing emails or database operations. It also provides you with the default credentials to use for the login.
+Once the installation process finishes, it displays the URL for the Mautic instance, as well as the URLs for Mailpit and PHPMyAdmin, in case you need to test outgoing emails or database operations. It also provides you with the default credentials to use for the login.
 
 .. image:: images/ddev_information_after_built.png
     :alt: Screenshot of information to run DDEV that highlights Mautic login credentials and live preview URLs
