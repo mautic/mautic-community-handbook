@@ -23,7 +23,7 @@ Mautic maintains :xref:`Mautic OSS Fridays board` which shows you a list of all 
 Setting up a testing environment on GitHub Codespaces
 *****************************************************
 
-:xref:`GitHub Codespaces` allows you to spin up a Mautic instance in the cloud, with a pull request — PR — applied. The Mautic instance also has a mail catching tool, MailHog, and PHPMyAdmin available to view database tables. While some PRs can't be tested in this way, such as when you need to test the installation process, the vast majority can.
+:xref:`GitHub Codespaces` allows you to spin up a Mautic instance in the cloud, with a pull request — also known as PR — applied. The Mautic instance also has a mail catching tool, MailHog, and PHPMyAdmin available to view database tables. While some PRs can't be tested in this way, such as when you need to test the installation process, the vast majority can.
 
 Setting up a codespace
 ======================
@@ -232,34 +232,43 @@ Follow the steps below to open the Mautic instance:
    * The default username to login to Mautic is always ``admin``, and the password is ``Maut1cR0cks!``.
    * If you're testing an older version of Mautic than ``5.1``, use the password ``mautic``.
 
-Testing your first pull request
-*******************************
+Testing your first PR
+*********************
 
-The first step when testing a bug is to attempt reproducing the bug and making sure that you are experiencing the problem that the developer is fixing.
+The first step when testing a bug is to attempt to reproduce the bug and ensure that you are experiencing the same problem that the developer is trying to fix. Please read the :ref:`Reproducing a bug` section for the complete steps.
 
-Generally there will be instructions in the description of the pull request, but sometimes you might have to refer to an issue which reported the bug in order to find instructions for reproducing the issue. If you don't understand, or can't reproduce the issue, please leave a comment and the developer will get back to you with further instructions.
+Generally, instructions are included in the PR description, but you may need to refer to an issue that reports the bug to find instructions for reproducing the problem. If you don't understand or are unable to reproduce the issue, please leave a comment, and the developer will respond with further instructions.
 
-Once you have confirmed the bug, we need to apply the fix. We do this with another GitHub CLI command:
+Once you have confirmed the bug, you can start testing the PR:
 
-.. code-block:: bash
+#. Ensure the base branch that the PR made changes for. It should target the branch of the Mautic release version that's reported on the issue. You can see the base branch right under the PR's title.
 
-   gh pr checkout <number>
+   .. image:: images/pr_base_branch_github.png
+    :alt: Screenshot highlighting a PR base branch at GitHub
 
-Replace ``<number>`` with the ID number of the pull request. You can see this in the address bar, or next to the title of the pull request.
+#. In the terminal, run the GitHub CLI command below:
 
-This command pulls down the changes that the developer has made, and applies it to your local Mautic instance. It will also clear your cache automatically.
+   .. code-block:: bash
 
-If you ever need to clear the cache, you can either delete the cache folder manually or use the command:
+      gh pr checkout NUMBER
 
-.. code-block:: bash
+   Replace ``NUMBER`` with the ID number of the PR. You can find this next to the PR's title.
 
-   ddev exec bin/console cache:clear --env=dev
+   This command pulls down the changes made by the developer and applies them to your local Mautic instance. It will also clear your cache automatically.
 
-Note that we have to prefix any commands with ``ddev exec`` so that they run inside the Docker container. We also use the ``--env=dev`` argument to specify that we need to clear the development (rather than production) cache.
+.. note::
 
-Now that you have the pull request applied, the next step is to re-test the bug or check out the new feature. Make sure you are thorough in your testing. Really think about every possible thing that might be affected by the changes being made in the pull request, and test it in detail.
+   If you ever need to clear the cache, you can either delete the cache folder manually or use the command:
 
-It's very helpful if you can write a comment and explain what you have tested.
+   .. code-block:: bash
+
+      ddev exec bin/console cache:clear --env=dev
+
+   You must prefix any commands with ``ddev exec`` so that they run within the Docker container. The ``--env=dev`` argument specifies that the development — rather than production — cache needs to be cleared.
+
+Now that you have the PR in your environment, the next step is to retest the bug or check out the new feature. Make sure you are thorough in your testing. Really think about every possible thing that might be affected by the changes being made in the PR, and test it in detail.
+
+It would be very helpful if you could :ref:`write a comment<Leaving your review>` explaining what you have tested.
 
 Reproducing a bug
 *****************
@@ -370,19 +379,19 @@ Note that from Mautic 5, the location of the ``local.php`` file is now ``config/
 Leaving your review
 *******************
 
-Within GitHub, there is a built-in system for people to leave reviews. At the top of the pull request you will see a tab which is called 'Files Changed'. In this tab, at the top right, you'll see a green button which allows you to start a review.
+Within GitHub, there is a built-in system for people to leave reviews. At the top of the PR, you will see a tab which is called 'Files Changed'. In this tab, at the top right, you'll see a green button which allows you to start a review.
 
-From this point, you can write what you have found when testing the pull request. You can select whether you:
+From this point, you can write what you have found when testing the PR. You can select whether you:
 
-* approve the pull request,
+* approve the PR,
 * need to ask for some changes, for instance, if you weren't able to get the results that you expected,
 * leave a comment if you're not sure either way,
 * want to leave some feedback.
 
-Unloading the pull request
-**************************
+Unloading the PR
+****************
 
-Once you are done with testing the pull request, it is good practice to get back to the original state. To do this, use the command:
+Once you are done with testing the PR, it is good practice to get back to the original state. To do this, use the command:
 
 .. code-block:: bash
 
@@ -390,6 +399,6 @@ Once you are done with testing the pull request, it is good practice to get back
 
 Where ``5.x`` is the branch that you want to return to.
 
-This will check out the branch called ``5.x`` which is where we started from. Now you're ready to go and find another pull request to test. Have a little celebration because you helped make Mautic even more awesome. Thank you for your contribution.
+This will check out the branch called ``5.x`` which is where we started from. Now you're ready to go and find another PR to test. Have a little celebration because you helped make Mautic even more awesome. Thank you for your contribution.
 
 .. vale on
