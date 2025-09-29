@@ -23,7 +23,7 @@ Once your testing environment is established, it's very quick and easy to test b
 Setting up a testing environment on GitHub Codespaces
 *****************************************************
 
-:xref:`GitHub Codespaces` allows you to spin up a Mautic instance in the cloud, with a pull request—also known as PR—applied. The Mautic instance also has a mail catching tool, MailHog, and PHPMyAdmin available to view database tables. While some PRs can't be tested in this way, such as when testing the installation process, the vast majority can.
+:xref:`GitHub Codespaces` allows you to spin up a Mautic instance in the cloud, with a pull request—also known as PR—applied. The Mautic instance also has a mail catching tool, MailPit, and PHPMyAdmin available to view database tables. While some PRs can't be tested in this way, such as when testing the installation process, the vast majority can.
 
 Setting up a codespace
 ======================
@@ -141,7 +141,7 @@ After you forked the repository, you need to clone it. Cloning means making a co
 
 The :xref:`Mautic GitHub repository` contains multiple branches that represent specific release versions of Mautic. You should clone the branch that you need to test into its own dedicated folder.
 
-For example, when you need to test Mautic versions 6 and 7, clone the branch ``6.x`` and save it in a folder. Then, clone the branch ``7.x`` and save it in a separate folder. You can name the folder anything you want, but it's best to reflect the branch name. For example, use names like ``mautic6``, ``mautic7``, and so on.
+For example, when you need to test Mautic versions 6 and 7, clone the branch ``6.0`` and save it in a folder. Then, clone the branch ``7.x`` and save it in a separate folder. You can name the folder anything you want, but it's best to reflect the branch name. For example, use names like ``mautic6``, ``mautic7``, and so on.
 
 Follow the steps below to clone your forked repository:
 
@@ -176,8 +176,8 @@ Follow the steps below to clone your forked repository:
 
    .. code-block:: bash
 
-      git clone --branch 5.x https://github.com/YOUR-GITHUB-USERNAME/mautic.git mautic5
-      git clone --branch 6.x https://github.com/YOUR-GITHUB-USERNAME/mautic.git mautic6
+      git clone --branch 5.2 https://github.com/YOUR-GITHUB-USERNAME/mautic.git mautic5
+      git clone --branch 6.0 https://github.com/YOUR-GITHUB-USERNAME/mautic.git mautic6
       git clone --branch 7.x https://github.com/YOUR-GITHUB-USERNAME/mautic.git mautic7
 
 .. note::
@@ -213,14 +213,14 @@ Now that you have the repository's branch that you need to test locally, it's ti
 
    The first time you run this command, it might take a little while to run through the process.
 
-#. When prompted to install Mautic, choose 'Yes'.
+#. If prompted to install Mautic, choose 'Yes'.
 
    This installs all the dependencies that Mautic requires to run.
 
 Live preview the Mautic instance
 ================================
    
-Once the installation process finishes, it displays the URL for the Mautic instance, as well as the URLs for MailHog and PHPMyAdmin, in case you need to test outgoing emails or database operations. It also provides you with the default credentials to use for the login.
+Once the installation process finishes, it displays the URL for the Mautic instance, as well as the URLs for MailPit and PHPMyAdmin, in case you need to test outgoing emails or database operations. It also provides you with the default credentials to use for the login.
 
 .. image:: images/ddev_information_after_built.png
     :alt: Screenshot of information to run DDEV that highlights Mautic login credentials and live preview URLs
@@ -245,7 +245,7 @@ Generally, instructions are included in the PR description, but you may need to 
 
 Once you have confirmed the bug, you can start testing the PR:
 
-#. Ensure the base branch that the PR was made against. It should target the branch of the Mautic release version that's reported on the issue. You can see the base branch right under the PR title.
+#. Ensure you reproduce the bug using the base branch that the PR was made against. It should target the branch of the Mautic release version that's reported on the issue. You can see the base branch right under the PR title.
 
    .. image:: images/pr_base_branch_github.png
     :alt: Screenshot highlighting a PR base branch at GitHub
@@ -317,8 +317,8 @@ Local environments
 
    .. code-block::
 
-      git switch 5.x
-      git switch 6.x
+      git switch 5.2
+      git switch 6.0
       git switch 7.x
 
 #. Run the following command to fetch new changes from your forked repository:
@@ -365,7 +365,7 @@ In DDEV, you can set the database and PHP version in a file located in the ``.dd
 
 #. Type ``ddev start`` in the terminal to continue with installation.
 
-#. Run the installer in the UI or on the command line, as preferred.
+#. Run the installer in the UI or on the command line, as preferred.  All the credentials for the database are ``db``.
 
 #. Check that you're using the right version in the system information within Mautic.
 
@@ -413,8 +413,8 @@ For example:
 
 .. code-block:: bash
 
-   git checkout 5.x
-   git checkout 6.x
+   git checkout 5.2
+   git checkout 6.0
    git checkout 7.x
 
 Now you're ready to go and find another PR to test. Have a little celebration because you helped make Mautic even more awesome. Thank you for your contribution.
