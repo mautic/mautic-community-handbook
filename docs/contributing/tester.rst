@@ -260,16 +260,6 @@ Once you have confirmed the bug, you can start testing the PR:
 
    This command pulls down the changes made by the developer and applies them to your local Mautic instance. It also clears your cache automatically.
 
-.. note::
-
-   If you ever need to clear the cache, you can either delete the cache folder manually or use the command:
-
-   .. code-block:: bash
-
-      ddev exec bin/console cache:clear --env=dev
-
-   You must prefix any commands with ``ddev exec`` so that they run within the Docker container. The ``--env=dev`` argument specifies that the development — rather than production — cache needs to be cleared.
-
 Now that you have the PR in your environment, the next step is to retest the bug or check out the new feature. Make sure you are thorough in your testing. Really think about every possible thing that might be affected by the changes being made in the PR, and test it in detail.
 
 It would be very helpful if you could :ref:`write a comment<Leaving a PR review>` explaining what you have tested.
