@@ -321,27 +321,27 @@ When testing Mautic, it is important that you are notified of any errors rather 
 
 For this reason, we use developer mode when testing in the Mautic Community, which is set in the local environment file. DDEV has dev mode enabled by default - read more about :xref:`Mautic environments docs` on Mautic Developer Documentation.
 
-Top tips
-========
+Testing top tips
+****************
 
 Installing sample data
-----------------------
+======================
 
 To quickly install sample data, use the command ``ddev exec bin/console d:f:l`` which loads the Doctrine fixtures. It gives you a big head start with testing.
 
 Build the segments after install
---------------------------------
+================================
 
 It's always worth building the segments once you install the sample data, using the command ``ddev exec bin/console m:s:r``.  
 
 Testing with different databases / PHP versions
------------------------------------------------
+===============================================
 
 In DDEV we can set the database and PHP version in a file located in the folder ``.ddev/config.yaml``. 
 
-#. Open Gitpod from the PR you are testing and immediately stop the build process as soon as the terminal window is displayed, using ``command+c`` or ``ctrl+c`` on your keyboard.
+#. :ref:`Set up a GitHub codespace<Setting up a codespace>` from the PR you are testing and immediately stop the build process as soon as the terminal window is displayed by pressing ``Cmd/Ctrl + C`` on your keyboard.
 
-#. Delete anything that has already been started with the command ``ddev delete --omit-snapshot --yes && rm -rf var/cache && rm app/config/local.php``
+#. Delete anything that has already been started with the command ``ddev delete --omit-snapshot --yes && rm -rf var/cache && rm app/config/local.php``.
 
 #. Edit the file in ``.ddev/config.yaml`` and change the setting. For instance, change DB from mariaDB 10.3 to mysql8. Always remember to save the file.
 
@@ -356,12 +356,12 @@ In DDEV we can set the database and PHP version in a file located in the folder 
 
 #. Check you are using the right version in the system information within Mautic.
 
-#. Remember to make sure you are using dev mode - DDEV should start in dev mode by default, with the Symfony toolbar at the bottom of the page.
+#. Remember to make sure you are :ref:`using developer mode<Using developer mode>`. DDEV should start in developer mode by default, with the Symfony toolbar at the bottom of the page.
 
-#. If you make a mistake, open your Gitpod dashboard and delete the instance and start again.
+#. If you make a mistake, open your :xref:`GitHub Codespaces` dashboard, delete the codespace, and start again.
 
 Resetting your local testing environment
-----------------------------------------
+========================================
 
 To quickly reset your local testing environment by deleting the DDEV containers without a database snapshot, removing the cache directory, and removing the ``local.php`` file, you can run ``ddev delete --omit-snapshot --yes && rm -rf var/cache && rm app/config/local.php``. 
 
