@@ -24,6 +24,8 @@ Citrix
 Clearbit
 CloudAMQP
 Codeception
+codespace
+Codespaces
 config
 Company(ies)
 Composer
