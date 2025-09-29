@@ -272,7 +272,7 @@ Once you have confirmed the bug, you can start testing the PR:
 
 Now that you have the PR in your environment, the next step is to retest the bug or check out the new feature. Make sure you are thorough in your testing. Really think about every possible thing that might be affected by the changes being made in the PR, and test it in detail.
 
-It would be very helpful if you could :ref:`write a comment<Leaving your review>` explaining what you have tested.
+It would be very helpful if you could :ref:`write a comment<Leaving a PR review>` explaining what you have tested.
 
 Reproducing a bug
 *****************
@@ -380,12 +380,18 @@ To quickly reset your local testing environment by deleting the DDEV containers 
 
 Note that from Mautic 5, the location of the ``local.php`` file is now ``config/local.php``.
 
-Leaving your review
+Leaving a PR review
 *******************
 
-Within GitHub, there is a built-in system for people to leave reviews. At the top of the PR, you will see a tab which is called 'Files Changed'. In this tab, at the top right, you'll see a green button which allows you to start a review.
+Within GitHub, there is a built-in system that allows users to leave reviews:
 
-From this point, you can write what you have found when testing the PR. You can select whether you:
+#. Click the 'Files changed' tab, under the PR's title.
+#. Click the green 'Review changes' button at the top right, which allows you to start a review.
+
+.. image:: images/pr_review_github.png
+    :alt: Screenshot of a PR review page at GitHub, highlighting the files changed and review changes buttons
+
+From this point, you can share what you have found when testing the PR. You can select whether you:
 
 * approve the PR,
 * need to ask for some changes, for instance, if you weren't able to get the results that you expected,
