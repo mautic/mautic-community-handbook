@@ -3,39 +3,39 @@ Tester
 
 .. vale off
 
-Every new feature and bug fix that is released in Mautic has undergone testing and code review by members of the community before it makes it into a release.
+Every new feature and bug fix released in Mautic undergoes testing and code review by community members before it's included in a release.
 
-We are always looking out for people to help us with these processes. Even if you can spare an hour or two a week, it would significantly increase the number of bugs and features that make it out into the hands of Mautic users.
+Mautic is always looking out for people to help with these processes. Even if you can spare an hour or two a week, it significantly increases the number of bugs and features that reach the hands of Mautic users.
+
+Mautic maintains :xref:`Mautic OSS Fridays board`, which shows you a list of all of the bugs and features that need to get tested.
 
 There are two ways to set up your testing environment:
 
 1. On GitHub Codespaces
-2. On your local machine with DDEV — **recommended**
+2. On your local machine with DDEV—**recommended**
 
-Once your testing environment is established, it is very quick and easy to test bugs and features.
+Once your testing environment is established, it's very quick and easy to test bugs and features.
 
 .. tip::
 
   You can watch the short tutorial about :xref:`How to test bugs and features in Mautic` on YouTube, which explains the easy way to do it.
 
-Mautic maintains :xref:`Mautic OSS Fridays board` which shows you a list of all of the bugs and features that we want to get tested.
-
 Setting up a testing environment on GitHub Codespaces
 *****************************************************
 
-:xref:`GitHub Codespaces` allows you to spin up a Mautic instance in the cloud, with a pull request — also known as PR — applied. The Mautic instance also has a mail catching tool, MailHog, and PHPMyAdmin available to view database tables. While some PRs can't be tested in this way, such as when you need to test the installation process, the vast majority can.
+:xref:`GitHub Codespaces` allows you to spin up a Mautic instance in the cloud, with a pull request—also known as PR—applied. The Mautic instance also has a mail catching tool, MailHog, and PHPMyAdmin available to view database tables. While some PRs can't be tested in this way, such as when testing the installation process, the vast majority can.
 
 Setting up a codespace
 ======================
 
 #. Go to :xref:`Mautic GitHub repository`.
 #. Open the PR that you need to test.
-#. Click the 'Code' button on the right top, next to PR's title.
+#. Click the 'Code' button on the right top, next to the PR title.
 #. Click the 'Codespaces' tab.
 #. Click the green 'Create codespace on BRANCH-NAME' or '+' sign to create a codespace.
 
    .. image:: images/open_codespace_github.png
-    :alt: Screenshot highlighting code button and codespaces tab
+    :alt: Screenshot highlighting Code button and Codespaces tab
 
 #. Wait until the codespace finishes building and the ``postCreateCommand`` finishes its task. Please be patient, as it may take some time.
 
@@ -49,7 +49,7 @@ Setting up a codespace
 #. Run ``ddev start`` to install Mautic and its dependencies.
 #. Type 'Y' and press Enter when you get prompted to ``Permission to beam up? [Y/n] (yes):``.
 
-   Please wait until the process is complete, which may take a few minutes.
+   Please wait until the process is complete, which may take a few minutes to complete.
 
 #. Click 'Ports' tab.
 #. Find the port that you need to open.
@@ -61,7 +61,7 @@ Setting up a codespace
 
 #. Log in to Mautic. See the tip below to log in to Mautic.
 
-After you set up the environment, you can follow the test instructions in the PR and :ref:`report back your findings<Leaving your review>`. 
+After you set up the environment, you can follow the test instructions in the PR and :ref:`report back your findings<Leaving a PR review>`.
 
 .. tip::
 
@@ -78,7 +78,7 @@ Follow these steps to rebuild your codespace:
 #. Search for 'Codespaces: Rebuild Container', select it, and click it.
 
    .. image:: images/codespaces_rebuild_container.png
-    :alt: Screenshot of codespaces rebuild container selection
+    :alt: Screenshot of Codespaces rebuild container selection
 
 #. Click the 'Full Rebuild' button.
 
@@ -97,14 +97,14 @@ Setting up a local testing environment
 Prerequisites
 =============
 
-Before starting, you will need a few pieces of software on your computer:
+Before starting, you need a few pieces of software on your computer:
 
 * :xref:`Docker Desktop`
 * :xref:`DDEV get started`
 * :xref:`Git downloads`
 * :xref:`GitHub CLI`
 
-Once you have these installed, we recommend that you use a code editor such as :xref:`VS Code`, which allows you to interact with files, folders, and the command line. There are other editors and Integrated Development Environments (IDEs). So if you already have a preference, by all means, use that.
+Once you have these installed, use a code editor such as :xref:`VS Code`, which allows you to interact with files, folders, and the command line. There are other editors and Integrated Development Environments (IDEs). So if you already have a preference, by all means, use that.
 
 You also need to register for an account at :xref:`GitHub signup` if you don't already have one. It allows you to leave comments when you've tested things, and also means you can make fixes yourself in the future.
 
@@ -191,7 +191,7 @@ Follow the steps below to clone your forked repository:
 Setting up a local DDEV instance
 ================================
 
-Now that you have the repository's branch that you need to test locally, let's set up a local DDEV instance so you can use PHP, MySQL, and all the other components that Mautic requires to run.
+Now that you have the repository's branch that you need to test locally, it's time to set up a local DDEV instance so you can use PHP, MySQL, and all the other components that Mautic requires to run.
 
 #. Move into the directory using the command, where 'X' is the version of Mautic that you saved in your ``mautic`` folder:
 
@@ -215,12 +215,12 @@ Now that you have the repository's branch that you need to test locally, let's s
 
 #. When prompted to install Mautic, choose 'Yes'.
 
-   This will install all the dependencies that Mautic requires to run.
+   This installs all the dependencies that Mautic requires to run.
 
 Live preview the Mautic instance
 ================================
    
-Once the installation process finishes, it displays the URL for the Mautic instance, as well as the URLs for MailHog and PHPMyAdmin, in case you need to check outgoing emails or test database operations. It also provides you with the default credentials to use for the login.
+Once the installation process finishes, it displays the URL for the Mautic instance, as well as the URLs for MailHog and PHPMyAdmin, in case you need to test outgoing emails or database operations. It also provides you with the default credentials to use for the login.
 
 .. image:: images/ddev_information_after_built.png
     :alt: Screenshot of information to run DDEV that highlights Mautic login credentials and live preview URLs
@@ -241,11 +241,11 @@ Testing your first PR
 
 The first step when testing a bug is to attempt to reproduce the bug and ensure that you are experiencing the same problem that the developer is trying to fix. Please read the :ref:`Reproducing a bug` section for the complete steps.
 
-Generally, instructions are included in the PR description, but you may need to refer to an issue that reports the bug to find instructions for reproducing the problem. If you don't understand or are unable to reproduce the issue, please leave a comment, and the developer will respond with further instructions.
+Generally, instructions are included in the PR description, but you may need to refer to an issue that reports the bug to find instructions for reproducing the problem. If you don't understand or are unable to reproduce the issue, please leave a comment, and the developer would respond with further instructions.
 
 Once you have confirmed the bug, you can start testing the PR:
 
-#. Ensure the base branch that the PR made changes for. It should target the branch of the Mautic release version that's reported on the issue. You can see the base branch right under the PR's title.
+#. Ensure the base branch that the PR was made against. It should target the branch of the Mautic release version that's reported on the issue. You can see the base branch right under the PR title.
 
    .. image:: images/pr_base_branch_github.png
     :alt: Screenshot highlighting a PR base branch at GitHub
@@ -256,9 +256,9 @@ Once you have confirmed the bug, you can start testing the PR:
 
       gh pr checkout NUMBER
 
-   Replace ``NUMBER`` with the ID number of the PR. You can find this next to the PR's title.
+   Replace ``NUMBER`` with the ID number of the PR. You can find this next to the PR title.
 
-   This command pulls down the changes made by the developer and applies them to your local Mautic instance. It will also clear your cache automatically.
+   This command pulls down the changes made by the developer and applies them to your local Mautic instance. It also clears your cache automatically.
 
 .. note::
 
@@ -293,7 +293,7 @@ GitHub Codespaces
 
 #. Click the 'Sync fork' button on the top right to ensure that the branch in your forked repository is up to date. 
 
-   If your branch is up to date, it shows "This branch is not behind the upstream ``mautic/BRANCH-NAME``" message.
+   If your branch is up to date, it shows "This branch isn't behind the upstream ``mautic/BRANCH-NAME``" message.
 
    However, if you need to update your branch, click the green 'Update branch' button.
 
@@ -302,7 +302,7 @@ GitHub Codespaces
    .. image:: images/sync_fork_update_branch_code_buttons_github.png
     :alt: Screenshot highlighting the sync fork, update branch, and code buttons at GitHub
 
-#. Follow step 4 onwards in the :ref:`Setting up a codespace` section.
+#. Follow the instructions starting from step 4 in the :ref:`Setting up a codespace` section.
 
 Local environments
 ------------------
@@ -330,9 +330,9 @@ Local environments
 Using developer mode
 ====================
 
-When testing Mautic, it is important that you are notified of any errors rather than having them output to the logs. We also don't want to have to constantly rebuild the JavaScript and CSS files when changes are made.
+When testing Mautic, it's important that you're notified of any errors rather than having them output to the logs. To avoid the need for constantly rebuilding the JavaScript and CSS files when changes are made, developer mode is used in the Mautic Community. This mode is configured in the local environment file.
 
-For this reason, we use developer mode when testing in the Mautic Community, which is set in the local environment file. DDEV has dev mode enabled by default - read more about :xref:`Mautic environments docs` on Mautic Developer Documentation.
+DDEV has developer mode enabled by default. Read more about :xref:`Mautic environments docs` on Mautic Developer Documentation.
 
 Testing top tips
 ================
@@ -350,24 +350,24 @@ It's always worth building the segments once you install the sample data, using 
 Testing with different databases / PHP versions
 -----------------------------------------------
 
-In DDEV we can set the database and PHP version in a file located in the folder ``.ddev/config.yaml``. 
+In DDEV, you can set the database and PHP version in a file located in the ``.ddev/config.yaml``folder.
 
 #. :ref:`Set up a GitHub codespace<Setting up a codespace>` from the PR you are testing and immediately stop the build process as soon as the terminal window is displayed by pressing ``Cmd/Ctrl + C`` on your keyboard.
 
 #. Delete anything that has already been started with the command ``ddev delete --omit-snapshot --yes && rm -rf var/cache && rm app/config/local.php``.
 
-#. Edit the file in ``.ddev/config.yaml`` and change the setting. For instance, change DB from mariaDB 10.3 to mysql8. Always remember to save the file.
+#. Edit the file in ``.ddev/config.yaml`` and change the setting—for instance, change DB from MariaDB 10.3 to MySQL 8. Always remember to save the file.
 
    .. code-block:: yaml
 
       mariadb_version: ""
       mysql_version: "8.0"
 
-#. Type ``ddev start`` in the console to continue with installation.
+#. Type ``ddev start`` in the terminal to continue with installation.
 
-#. Run the installer in the UI or command line as preferred.
+#. Run the installer in the UI or on the command line, as preferred.
 
-#. Check you are using the right version in the system information within Mautic.
+#. Check that you're using the right version in the system information within Mautic.
 
 #. Remember to make sure you are :ref:`using developer mode<Using developer mode>`. DDEV should start in developer mode by default, with the Symfony toolbar at the bottom of the page.
 
@@ -378,14 +378,14 @@ Resetting your local testing environment
 
 To quickly reset your local testing environment by deleting the DDEV containers without a database snapshot, removing the cache directory, and removing the ``local.php`` file, you can run ``ddev delete --omit-snapshot --yes && rm -rf var/cache && rm app/config/local.php``. 
 
-Note that from Mautic 5, the location of the ``local.php`` file is now ``config/local.php``.
+Note that, starting with Mautic 5, the location of the ``local.php`` file has changed to ``config/local.php``.
 
 Leaving a PR review
 *******************
 
 Within GitHub, there is a built-in system that allows users to leave reviews:
 
-#. Click the 'Files changed' tab, under the PR's title.
+#. Click the 'Files changed' tab, under the PR title.
 #. Click the green 'Review changes' button at the top right, which allows you to start a review.
 
 .. image:: images/pr_review_github.png
@@ -401,7 +401,7 @@ From this point, you can share what you have found when testing the PR. You can 
 Unloading the PR
 ****************
 
-Once you have finished testing the PR, it is good practice to revert to the original state. To do this, use the command:
+Once you have finished testing the PR, it's good practice to revert to the original state. To do this, use the command:
 
 .. code-block:: bash
 
