@@ -23,7 +23,7 @@ Mautic maintains :xref:`Mautic OSS Fridays board` which shows you a list of all 
 Setting up a testing environment on GitHub Codespaces
 *****************************************************
 
-:xref:`GitHub Codespaces` allows you to spin up a Mautic instance in the cloud, with a pull request — PR — applied. The Mautic instance also has a mail catching tool, MailHog, and PHPMyAdmin available to view database tables. While there are some PRs that can't be tested in this way, such as if they are testing the installation process, the vast majority can.
+:xref:`GitHub Codespaces` allows you to spin up a Mautic instance in the cloud, with a pull request — PR — applied. The Mautic instance also has a mail catching tool, MailHog, and PHPMyAdmin available to view database tables. While some PRs can't be tested in this way, such as when you need to test the installation process, the vast majority can.
 
 Setting up a codespace
 ======================
@@ -37,19 +37,19 @@ Setting up a codespace
    .. image:: images/open_codespace_github.png
     :alt: Screenshot highlighting code button and codespaces tab
 
-#. Wait until the codespace finish building and the ``postCreateCommand`` finished its task. It may take a while, so please be patient.
+#. Wait until the codespace finishes building and the ``postCreateCommand`` finishes its task. Please be patient, as it may take some time.
 
-   **Note:** If you get a warning that the codespace is currently running in recovery mode due to a configuration error as in the following screenshot, follow the instructions in the :ref:`Rebuild a codespace` section.
+   **Note:** If you get a warning that the codespace is currently running in recovery mode due to a configuration error, as in the following screenshot, follow the instructions in the :ref:`Rebuild a codespace` section.
 
    .. image:: images/codespace_recovery_mode_warning.png
-    :alt: Warning message that says this codespace is currently running in recovery mode dues to a container error.
+    :alt: Warning message that says this codespace is currently running in recovery mode due to a container error.
+    :scale: 80 %
+    :align: center
 
-#. Run ``ddev start`` to install Mautic and the dependencies.
+#. Run ``ddev start`` to install Mautic and its dependencies.
 #. Type 'Y' and press Enter when you get prompted to ``Permission to beam up? [Y/n] (yes):``.
 
-   It can take a few minutes for the process to complete, so please wait until it does.
-
-   Once the installer is done, it shows the URLs for the Mautic user interface, as well as MailHog and PHPMyAdmin URLs in case you need to check outgoing emails or test things in the database. It also provides you the default credentials to use for the login.
+   Please wait until the process is complete, which may take a few minutes.
 
 #. Click 'Ports' tab.
 #. Find the port that you need to open.
@@ -57,25 +57,25 @@ Setting up a codespace
 #. Click the globe icon to open the port in the browser.
 
    .. image:: images/vscode_terminal_ports_tab.png
-    :alt: Screenshot of ports tab in vscode terminal highlighting globe icon 
+    :alt: Screenshot of ports tab in VS Code terminal, highlighting globe icon 
 
-#. Login to Mautic. See the tip below to login to Mautic.
+#. Log in to Mautic. See the tip below to log in to Mautic.
 
-After you setup the environment, you can follow the test instructions in the PR and :ref:`report back your findings<Leaving your review>`. 
+After you set up the environment, you can follow the test instructions in the PR and :ref:`report back your findings<Leaving your review>`. 
 
 .. tip::
 
    * The default username to login to Mautic is always ``admin``, and the password is ``Maut1cR0cks!``.
    * If you're testing an older version of Mautic than ``5.1``, use the password ``mautic``.
-   * You can run ``ddev describe`` command to see the list and detail of available URLs and ports.
+   * You can run the ``ddev describe`` command to see the list and details of available URLs and ports.
 
 Rebuild a codespace
 -------------------
 
-Follow this steps to rebuild your codespace:
+Follow these steps to rebuild your codespace:
 
 #. Press ``Cmd/Ctrl + Shift + P``. It opens a search bar on top.
-#. Search for 'Codespaces: Rebuild Container', select, and click it.
+#. Search for 'Codespaces: Rebuild Container', select it, and click it.
 
    .. image:: images/codespaces_rebuild_container.png
     :alt: Screenshot of codespaces rebuild container selection
@@ -83,7 +83,9 @@ Follow this steps to rebuild your codespace:
 #. Click the 'Full Rebuild' button.
 
    .. image:: images/codespaces_rebuild_button.png
-    :alt: Screenshot highlighting full rebuild button on Codespaces
+    :alt: Screenshot highlighting the full rebuild button on Codespaces
+    :align: center
+    :scale: 70 %
 
 Reproduce a bug
 ---------------
@@ -95,7 +97,9 @@ When you need to reproduce a bug before you apply the PR, create a codespace fro
 #. Select the branch that you need to test.
 
    .. image:: images/switch_branch_dropwdown_menu_github.png
-    :alt: Screenshot highlighting branch dropdown menu on a repository at GitHub
+    :alt: Screenshot highlighting the branch dropdown menu on a repository at GitHub
+    :scale: 70 %
+    :align: center
 
 #. Click the green '<> Code' button at the top right.
 #. Follow step 4 onwards in the :ref:`Setting up a codespace` section.
@@ -113,96 +117,137 @@ Before starting, you will need a few pieces of software on your computer:
 * :xref:`Git downloads`
 * :xref:`GitHub CLI`
 
-Once you have these installed, we recommend that you use an editor such as :xref:`VS Code` which will allow you to interact with files, folders, and the command line. There are other editors and Integrated Development Environments (IDEs) so if you already have one that you like, by all means use that.
+Once you have these installed, we recommend that you use an editor such as :xref:`VS Code`, which allows you to interact with files, folders, and the command line. There are other editors and Integrated Development Environments (IDEs). So if you already have a preference, by all means, use that.
 
-You will also need to register for an account at :xref:`GitHub signup` if you don't already have one. This allows you to leave comments when you've tested things, and also means you can make fixes yourself in the future.
+You also need to register for an account at :xref:`GitHub signup` if you don't already have one. It allows you to leave comments when you've tested things, and also means you can make fixes yourself in the future.
 
-Downloading Mautic
-==================
+Forking the repository
+======================
 
-To start testing, we need to download a copy of Mautic for us to work with.
+Forking the repository is the first step you need to take before proceeding. Forking means making a copy of a repository to your GitHub account.
 
-Before we do that, let's create a folder in your local computer where you'll locate all your local working environments. It's up to you where you save it and what you call it. Within that folder, create a folder where you'll work on this project - perhaps call it mautic4 for example.
+To fork the repository:
 
-Open your editor, and within the editor, open a terminal window.  
+#. Go to :xref:`Mautic GitHub repository`.
+#. Click the 'Fork' button at the top.
 
-In the terminal, we need to move into the directory we just created. Use the following commands:
+   .. image:: images/fork_button_github.png
+    :alt: Screenshot highlighting the fork button on GitHub
 
-.. code-block:: bash
+#. Choose your username in the 'Owner \*' dropdown menu. **Don't select an organization here. Always choose your personal account**.
 
-   cd users/yourusername/yourfolder/mautic4
+   .. image:: images/owner_dropdown_menu_github.png
+    :alt: Screenshot highlighting the choose fork owner dropdown menu on GitHub
+    :scale: 50 %
+    :align: center
 
-If you need to move up an directory, for example, back to ``/yourfolder/``, you can use the command:
+#. Uncheck the option of 'Copy the DEFAULT-BRANCH-NAME branch only' because later on, you want to be able to clone multiple branches.
+#. Click the green 'Create fork' button at the bottom.
 
-.. code-block:: bash
+   .. image:: images/uncheck_option_and_create_fork_button_github.png
+    :alt: Screenshot of an unchecked state option to copy only the default branch and a create fork button on GitHub
 
-   cd ..
+Cloning the repository
+======================
 
-Once you are in the folder you want to work from, we need to pull down a copy of Mautic. To do this, we use a GitHub CLI command:
+After you forked the repository, you need to clone it. Cloning means making a copy of a repository in your local environment. In this case, you want to clone your forked repository.
 
-.. code-block:: bash
+The :xref:`Mautic GitHub repository` contains multiple branches that represent specific release versions of Mautic. You should clone the branch that you need to test into its own dedicated folder.
 
-   gh repo clone mautic/mautic
+For example, when you need to test Mautic versions 6 and 7, clone the branch ``6.x`` and save it in a folder. Then, clone the branch ``7.x`` and save it in a separate folder. You can name the folder anything you want, but it's best to reflect the branch name. For example, use names like ``mautic6``, ``mautic7``, and so on.
 
-The first time you run this command, it will ask you to authenticate with GitHub. Just follow the steps, and once you've set up the authentication it won't bother you for some time.
+Follow the steps below to clone your forked repository:
 
-This will pull down the GitHub repository at :xref:`Mautic GitHub repository` to your local machine, ready for you to start testing with.
+#. Create a folder in your local computer where you'll locate all your local working environments. It's up to you what to name it and where you save it.
+#. Inside the newly created folder, create another folder and name it ``mautic``.
+#. Open your editor, and within the editor, open a terminal window.  
+#. In the terminal, move into the directory you just created. Use the following command:
+
+   .. code-block:: bash
+
+      cd YOUR-FOLDER/mautic
+
+   If you're unsure where you are, run the following command to see the list of the directories and files of the current folder that you're at:
+
+   .. code-block:: bash
+
+      ls
+
+   If you need to move up a directory, for example, back to ``/YOUR-FOLDER/``, you can use the command:
+
+   .. code-block:: bash
+
+      cd ..
+
+#. Run the ``git clone`` command specifying the branch you need to test and a folder name to save it, then hit Enter:
+
+   .. code-block:: bash
+
+      git clone --branch BRANCH-NAME https://github.com/YOUR-GITHUB-USERNAME/mautic FOLDER-NAME
+
+   Here are some examples:
+
+   .. code-block:: bash
+
+      git clone --branch 5.x https://github.com/YOUR-GITHUB-USERNAME/mautic.git mautic5
+      git clone --branch 6.x https://github.com/YOUR-GITHUB-USERNAME/mautic.git mautic6
+      git clone --branch 7.x https://github.com/YOUR-GITHUB-USERNAME/mautic.git mautic7
+
+.. note::
+
+   DDEV uses the folder name as the project name, so later on, this automatically gives you clean URLs like:
+
+   * ``https://mautic5.ddev.site``
+   * ``https://mautic6.ddev.site``
+   * ``https://mautic7.ddev.site``
 
 Setting up a local DDEV instance
 ================================
 
-Now we have the files locally, we need to move into the directory which was created using the command:
+Now that you have the repository's branch that you need to test locally, let's set up a local DDEV instance so you can use PHP, MySQL, and all the other components that Mautic requires to run.
 
-.. code-block:: bash
-
-   cd mautic
-
-Now we need to spin up a server on our local computer, so that we can use PHP, MySQL and everything else that Mautic needs to run.
-
-To do this, use the command:
-
-.. code-block:: bash
-
-   ddev start
-
-The first time you run this command it might take a little while to run through the process.
-
-When you are prompted whether to install Mautic, choose 'yes'.
-
-This will install all the dependencies that Mautic requires to run, and will install Mautic with a default username and password:
-
-.. code-block:: text
-
-   username: admin
-   password: Maut1cR0cks!
-
-.. note::
-
-   If you're testing an older version of Mautic than ``5.1``, use the password ``mautic``.
-
-It will also install some software which allows you to capture outgoing emails, called MailHog, and PHPMyAdmin, which enables you to view and interact with the database.
-
-Once this process has completed, you will be able to access your local testing instance at ``https://mautic.ddev.site``.
-
-Log in with the credentials above, and you're ready to go.
-
-.. tip::
-
-   If you're testing multiple versions of Mautic, such as ``4.x``, ``5.x``, ``6.x``, or ``7.x``, you don't need to manually change the ``name:`` in ``.ddev/config.yaml``. It's best to clone each into a separate folder by running:
+#. Move into the directory using the command, where 'X' is the version of Mautic that you saved in your folder:
 
    .. code-block:: bash
 
-      git clone --branch 4.x https://github.com/mautic/mautic.git mautic4
-      git clone --branch 5.x https://github.com/mautic/mautic.git mautic5
-      git clone --branch 6.x https://github.com/mautic/mautic.git mautic6
-      git clone --branch 7.x https://github.com/mautic/mautic.git mautic7
+      cd mauticX
 
-   DDEV uses the folder name as the project name, so this automatically gives you clean URLs like:
+   For example:
 
-   * ``https://mautic4.ddev.site``
-   * ``https://mautic5.ddev.site``
-   * ``https://mautic6.ddev.site``
-   * ``https://mautic7.ddev.site``
+   .. code-block:: bash
+
+      cd mautic7
+
+#. Start the DDEV environment with this command:
+
+   .. code-block:: bash
+
+      ddev start
+
+   The first time you run this command, it might take a little while to run through the process.
+
+#. When prompted to install Mautic, choose 'Yes'.
+
+   This will install all the dependencies that Mautic requires to run.
+
+Live preview the Mautic instance
+================================
+   
+Once the installation process finishes, it displays the URL for the Mautic instance, as well as the URLs for MailHog and PHPMyAdmin, in case you need to check outgoing emails or test database operations. It also provides you with the default credentials to use for the login.
+
+.. image:: images/ddev_information_after_built.png
+    :alt: Screenshot of information to run DDEV that highlights Mautic login credentials and live preview URLs
+
+Follow the steps below to open the Mautic instance:
+
+#. Hover over the link to the URL of the Mautic instance.
+#. Open the link in the browser by pressing ``Alt + click``.
+#. Log in to Mautic. See the tip below to log in to Mautic.
+
+.. tip::
+
+   * The default username to login to Mautic is always ``admin``, and the password is ``Maut1cR0cks!``.
+   * If you're testing an older version of Mautic than ``5.1``, use the password ``mautic``.
 
 Using developer mode
 ********************
