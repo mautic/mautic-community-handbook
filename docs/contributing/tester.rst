@@ -87,6 +87,10 @@ Follow these steps to rebuild your codespace:
     :align: center
     :scale: 70 %
 
+.. note::
+
+   Now that you've set up the codespace, go to the :ref:`Testing your first PR` section to start testing a PR. 
+
 Setting up a local testing environment
 **************************************
 
