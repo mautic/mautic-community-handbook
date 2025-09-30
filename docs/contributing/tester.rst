@@ -32,7 +32,7 @@ Setting up a codespace
 #. Open the PR that you need to test.
 #. Click the 'Code' button on the right top, next to the PR title.
 #. Click the 'Codespaces' tab.
-#. Click the green 'Create codespace on BRANCH-NAME' or '+' sign to create a codespace.
+#. Click the green 'Create codespace on ``BRANCH-NAME``' or '+' sign to create a codespace.
 
    .. image:: images/open_codespace_github.png
     :alt: Screenshot highlighting Code button and Codespaces tab
@@ -99,10 +99,12 @@ Prerequisites
 
 Before starting, you need a few pieces of software on your computer:
 
-* :xref:`Docker Desktop`
+* A Docker provider \*
 * :xref:`DDEV get started`
 * :xref:`Git downloads`
 * :xref:`GitHub CLI`
+
+\* Please read the :xref:`Docker installation` section on the DDEV official website to learn which Docker provider is suitable for your operating system.
 
 Once you have these installed, use a code editor such as :xref:`VS Code`, which allows you to interact with files, folders, and the command line. There are other editors and Integrated Development Environments (IDEs). So if you already have a preference, by all means, use that.
 
@@ -128,11 +130,11 @@ To fork the repository:
     :scale: 50 %
     :align: center
 
-#. Uncheck the option of 'Copy the DEFAULT-BRANCH-NAME branch only' because later on, you want to be able to clone multiple branches.
+#. Uncheck the checkbox of 'Copy the ``DEFAULT-BRANCH-NAME`` branch only' because later on, you want to be able to clone multiple branches.
 #. Click the green 'Create fork' button at the bottom.
 
    .. image:: images/uncheck_option_and_create_fork_button_github.png
-    :alt: Screenshot of an unchecked state option to copy only the default branch and a create fork button on GitHub
+    :alt: Screenshot of an unchecked state checkbox to copy only the default branch and a create fork button on GitHub
 
 Cloning the repository
 ======================
@@ -340,7 +342,7 @@ It's always worth building the segments once you install the sample data, using 
 Testing with different databases / PHP versions
 -----------------------------------------------
 
-In DDEV, you can set the database and PHP version in a file located in the ``.ddev/config.yaml``folder.
+In DDEV, you can set the database and PHP version in a file located in the ``.ddev/config.yaml`` folder.
 
 #. :ref:`Set up a GitHub codespace<Setting up a codespace>` from the PR you are testing and immediately stop the build process as soon as the terminal window is displayed by pressing ``Cmd/Ctrl + C`` on your keyboard.
 
@@ -355,7 +357,7 @@ In DDEV, you can set the database and PHP version in a file located in the ``.dd
 
 #. Type ``ddev start`` in the terminal to continue with installation.
 
-#. Run the installer in the UI or on the command line, as preferred.  All the credentials for the database are ``db``.
+#. Run the installer in the UI or on the command line, as preferred. All the credentials for the database are ``db``.
 
 #. Check that you're using the right version in the system information within Mautic.
 
@@ -399,7 +401,7 @@ Once you have finished testing the PR, it's good practice to revert to the origi
 
    git checkout BASE-BRANCH-NAME
 
-The BASE-BRANCH-NAME is the branch that you want to return to. This command checks you out from the PR to the base branch, where you started from.
+The ``BASE-BRANCH-NAME`` is the branch that you want to return to. This command checks you out from the PR to the base branch, where you started from.
 
 For example:
 
