@@ -22,15 +22,21 @@ The team meets fortnightly on Slack, so you can scroll back and check what was b
 Finding open tasks
 ------------------
 
-Each team maintains its own Jira board, where you can find the current open tasks and a backlog of things that the team plans to work on.
+The best way to find tasks to work on is by checking Mautic’s `GitHub Projects board <https://github.com/orgs/mautic/projects/21/views/1>`_
 
-Feel free to access the Community Team's :xref:`Jira board community team`.
+This board is organized in a kanban style, where each card represents a task and typically includes:
 
-If you don't already have a Jira account, please sign up for one and then ask one of the team to invite your email address to our Jira and Confluence instances.
+- **Description** – what the task is about  
+- **Status** – e.g. *Ready*, *In Progress*, or *Done*  
+- **Priority** – how urgent or important the task is  
+- **Size** – an estimate of the effort required  
 
-Once you have access, you can assign yourself to a task.
+How to get involved:
 
-Please try to chunk down larger tasks into sub-tasks, and then work on each sub-task in turn. You can add comments to the main top-level task, which makes it easier for people to keep up to date with progress.
+- Browse the board to find tasks/issues that match your skills and availability.
+- Leave a comment on the task/issue stating you’re interested in working on it.
+  
+If you need any help, feel free to reach out to the team. Once you begin working on a task, please inform others in the Slack channel.
 
 Supporting a specific event
 ===========================
@@ -56,7 +62,7 @@ Please always ensure that you upload your work at regular - ideally daily - inte
 Update regularly
 ================
 
-Please make sure you provide regular updates on the issue in Jira, and if at any point you're not going to be able to complete the task, please call that out in a comment on the issue - or send your Team Lead a message to inform them - so that somebody else can pick it up. 
+Please make sure you provide regular updates on the issue, and if at any point you're not going to be able to complete the task, please call that out in a comment on the issue - or send your Team Lead a message to inform them - so that somebody else can pick it up. 
 
 We totally understand that life happens and it's easy to take on too much. No judgement at all. We try to be respectful of each other by ensuring we give as much notice as possible if we're not going to be able to fulfil a task assigned to us.
 

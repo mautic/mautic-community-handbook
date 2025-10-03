@@ -36,30 +36,33 @@ However, one recommendation is to join the :xref:`Mautic design team Slack` chan
 Finding tasks to work on
 ************************
 
-Jira issues
+GitHub Projects
 ===========
 
-The best way to find issues to work on is to look at Mautic's Jira boards. There are two main ways to find tasks of interest:
+The best way to find design-related tasks is to check Mautic’s GitHub Projects board:  
+`Design Task <https://github.com/orgs/mautic/projects/21/views/5>`_
 
-- Search for :xref:`Jira issues label design`
-- Search for :xref:`Jira issues text phrase design`
+This board is organized in a kanban style, where each card represents a design task and typically includes:
 
-An issue on Jira is generally associated with a team or project board. It's a good idea to join the relevant Slack channel and let people know that you're interested in tackling the specific task you've found.
+- **Description** – what the task is about
+- **Status** – e.g. *Ready*, *In Progress*, or *Done*
+- **Priority** – how urgent or important the task is
+- **Size** – an estimate of the effort required
+
+How to get involved:
+
+- Browse the board columns and cards to find tasks that match your skills and availability.
+- Open the issue linked from the project card and leave a comment stating you’re interested in working on it.
 
 .. hint::
 
   All of Mautic's teams in Slack have a channel prefixed with #t-, initiatives with #i-, tiger teams with #tt-, and working groups with #wg-.
 
-If you haven't done so, you can :xref:`Jira create account`. If you already have an account and need access to Mautic’s instance, please request it in the :xref:`Mautic community channel Slack` channel on Slack.
-
-Once you log into Mautic's instance, you can assign the issue to yourself and add comments. Please transition the status as you work on it, and if you need to chunk the task down into smaller parts, make sure to add sub-tasks.
-
-Mautic's teams generally meet fortnightly and asynchronously on Slack channels for teams, working groups, and tiger teams. This is a great opportunity to report to the team what you’re working on, how you’re progressing, and to let people know if you need feedback.
 
 GitHub issues and pull requests
 ===============================
 
-The best way to find tasks that require input relating to the user experience (UX) or user interface (UI) within Mautic product is to look at the GitHub issue queue and pull requests.
+Another way to find tasks that require input relating to the user experience (UX) or user interface (UI) within Mautic product is to look at the GitHub issue queue and pull requests.
 
 - Search the GitHub issue queue for :xref:`Mautic UX issues` or :xref:`Mautic UI issues` issues
 - Search GitHub pull requests to find new features and bug fixes to test relating to :xref:`Mautic UX pull requests` or :xref:`Mautic UI pull requests` improvements
