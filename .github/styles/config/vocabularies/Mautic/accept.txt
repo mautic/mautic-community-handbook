@@ -24,6 +24,8 @@ Citrix
 Clearbit
 CloudAMQP
 Codeception
+codespace
+Codespaces
 config
 Company(ies)
 Composer
@@ -89,6 +91,7 @@ Libre
 Licensor
 LinkedIn
 Mailjet
+Mailpit
 Marketing Messages
 Mautic
 MaxMind

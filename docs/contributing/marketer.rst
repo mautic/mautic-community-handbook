@@ -16,9 +16,7 @@ That's why we need your help.
 The Mautic Community Marketing Team
 ***********************************
 
-.. Link the "Marketing Team" section to the "Marketing Team" section in the community handbook. 
-
-We have a Marketing Team which you can read more about on the Marketing Team section.
+We have a Marketing Team which you can read more about on the :doc:`Marketing Team </teams/marketing_team>` section.
 
 The team holds regular meetings, which anybody can join - just hop into the :xref:`Mautic marketing team Slack` channel on Slack, and you'll get a notification when the next meeting is coming up. 
 
