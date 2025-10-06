@@ -37,7 +37,7 @@ Setting up a codespace
    .. image:: images/open_codespace_github.png
     :alt: Screenshot highlighting Code button and Codespaces tab
 
-#. Wait until the codespace finishes building and the ``postCreateCommand`` finishes its task as in the screenshot below. Please be patient, as it may take some time.
+#. Wait until the codespace finishes building and the ``postCreateCommand`` finishes its task, as shown in the screenshot below. Please be patient, as it may take some time.
 
    .. image:: images/postcreatecommand_task_done.png
     :alt: Screenshot of postCreateCommand task is done
