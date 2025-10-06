@@ -37,7 +37,10 @@ Setting up a codespace
    .. image:: images/open_codespace_github.png
     :alt: Screenshot highlighting Code button and Codespaces tab
 
-#. Wait until the codespace finishes building and the ``postCreateCommand`` finishes its task. Please be patient, as it may take some time.
+#. Wait until the codespace finishes building and the ``postCreateCommand`` finishes its task as in the screenshot below. Please be patient, as it may take some time.
+
+   .. image:: images/postcreatecommand_task_done.png
+    :alt: Screenshot of postCreateCommand task is done
 
    **Note:** If you get a warning that the codespace is currently running in recovery mode due to a configuration error, as in the following screenshot, follow the instructions in the :ref:`Rebuild a codespace` section.
 
@@ -46,12 +49,12 @@ Setting up a codespace
     :scale: 80 %
     :align: center
 
-#. Run ``ddev start`` to install Mautic and its dependencies.
+#. Once the ``postCreateCommand`` is done, run ``ddev start`` to install Mautic and its dependencies.
 #. Type 'Y' and press Enter when you get prompted to ``Permission to beam up? [Y/n] (yes):``.
 
    Please wait until the process is complete, which may take a few minutes to complete.
 
-#. Click 'Ports' tab.
+#. Click the 'Ports' tab.
 #. Find the port that you need to open.
 #. Hover over the 'Forwarded Address' tab, right next to the port.
 #. Click the globe icon to open the port in the browser.
@@ -86,6 +89,8 @@ Follow these steps to rebuild your codespace:
     :alt: Screenshot highlighting the full rebuild button on Codespaces
     :align: center
     :scale: 70 %
+
+#. Follow the instructions starting from step 6 in the :ref:`Setting up a codespace` section.
 
 .. note::
 
