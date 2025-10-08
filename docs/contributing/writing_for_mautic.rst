@@ -1,8 +1,6 @@
 Writing for Mautic
 ##################
 
-.. vale off
-
 We appreciate your interest in contributing to Mautic. Improving existing content is an excellent way to begin contributing. We are always looking for people to help us with writing content for our documentation, marketing and communications, and our social media campaigns. We also have a lot of technical writing opportunities in the Mautic Community, including Mautic :xref:`Mautic Knowledgebase`, Mautic :xref:`Mautic developers blog`, and Mautic :xref:`Developer Docs`.
 
 Getting started with writing for Mautic
@@ -13,7 +11,7 @@ The first thing to do is to join ``#t-marketing`` channel on :xref:`Mautic Commu
 Writing for the blog & website
 ==============================
 
-The Marketing Team manages a `GitHub Project Board <https://github.com/orgs/mautic/projects/21/views/8>`_. To get involved, simply browse the board, pick a task/issue that interests you, and leave a comment to indicate your interest.
+We maintain a :xref:`Mautic No Code Tasks Board` for no/low code tasks including content and editorial work. To get involved, simply browse the board, pick a task/issue that interests you, and leave a comment to indicate your interest.
 
 Once you have found an article you'd like to work on, please check the writer's brief which will be attached as a Google Doc, located in :xref:`Mautic Google Drive`. The brief should explain what the article should include, the audience we are intending to target, and some useful resources to help you get started.
 
@@ -151,9 +149,9 @@ This is based on the excellent work done by the :xref:`Joomla Disclosure of Comp
 Technical writers
 *****************
 
-If you're a technical writer, or interested in writing content for a technical-minded audience, we have tasks on the `GitHub Project Board <https://github.com/orgs/mautic/projects/21/views/1>`_. There are opportunities to write for the :xref:`Mautic Knowledgebase` - which may include tutorials, best practice and examples of how to do specific things in Mautic. 
+If you're a technical writer, or interested in writing content for a technical-minded audience, we have tasks on the :xref:`Mautic No Code Tasks Board`. There are opportunities to write for the :xref:`Mautic Knowledgebase` - which may include tutorials, best practice and examples of how to do specific things in Mautic. 
 
-You can also improve and update the content we have on the `End-User Documentation <https://github.com/orgs/mautic/projects/21/views/3>`_. We suggest beginning with any section of the documentation that is unclear, out of date, or may benefit from more description or context.
+You can also improve and update the content we have on the :xref:`User Documentation`. We suggest beginning with any section of the documentation that is unclear, out of date, or may benefit from more description or context.
 
 If you're reading a page of documentation and thinking, "I wish this page included more information" or "This is not the manner in which these function," then that is an excellent place to start contributing. 
 
@@ -176,5 +174,3 @@ Update regularly
 Please make sure you provide regular updates on the issue, and if at any point you're not going to be able to complete the task, please call that out in a comment on the issue (or send your Team Lead a message to inform them) so that somebody else can pick it up. 
 
 We totally understand that life happens and it's easy to take on too much. No judgement at all. We try to be respectful of each other by ensuring we give as much notice as possible if we're not going to be able to fulfil a task assigned to us.
-
-.. vale on
