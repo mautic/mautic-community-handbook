@@ -1,19 +1,13 @@
 Designer
 ########
 
-.. vale off
-
 Hello, designer. Welcome to the Mautic Community!
-
-.. vale on
 
 Thank you for considering contributing to Mautic. Currently, there aren’t many designers actively contributing to Mautic, so this is a great opportunity for you to make a big difference.
 
 As a designer, you can contribute in various ways, depending on your interests and how you can apply your skills to current projects.
 
 Some areas you may want to consider:
-
-.. vale off
 
 - Supporting the Product Team by creating visual resources to explain new features and improving the user experience of Mautic
 - Helping the Marketing Team with designing their monthly newsletters
@@ -36,13 +30,12 @@ However, one recommendation is to join the :xref:`Mautic design team Slack` chan
 Finding tasks to work on
 ************************
 
-GitHub Projects
+Project Board
 ===========
 
-The best way to find design-related tasks is to check Mautic’s GitHub Projects board:  
-`Design Task <https://github.com/orgs/mautic/projects/21/views/5>`_
+To find design-related tasks, check :xref:`Mautic No Code Tasks Board`.
 
-This board is organized in a kanban style, where each card represents a design task and typically includes:
+This board is organized in a kanban style, where each card represents a task and typically includes:
 
 - **Description** – what the task is about
 - **Status** – e.g. *Ready*, *In Progress*, or *Done*
@@ -82,19 +75,13 @@ Any images you use must have the appropriate copyright permissions, and you shou
 
 When working on web-based tools, please use a personal account whenever possible. This will ensure that your work remains accessible if you change jobs. Additionally, share full access to your account with the relevant team lead so they can interact with the resources as needed. Ask the team lead if there is a community account or team to which they can add you before you start working with a specific tool.
 
-.. vale on
-
 Reporting problems with design
 ******************************
 
 Positive, constructive feedback on a design is always welcome. It’s even better if it includes a proposal for fixing the issue.
 
-.. vale off
-
 Within the Mautic product
 =========================
-
-.. vale on
 
 If you notice something that needs attention in Mautic, please:
 
@@ -102,11 +89,7 @@ If you notice something that needs attention in Mautic, please:
 2. Indicate this in the issue if you can address the problem. You can always ask for help with how to do this if needed.
 3. Leave a hint in the issue if you can't address the bug but know where it probably comes from. Doing so helps people follow up and get a jump start.
 
-.. vale off
-
 Outside of the Mautic product
 =============================
-
-.. vale on
 
 Please first report the issue in the relevant Slack channel for the team responsible for the defect you have spotted. They'll then be able to direct you on how best to proceed with reporting the issue and having it addressed.
