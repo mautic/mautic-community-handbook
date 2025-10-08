@@ -30,32 +30,33 @@ However, one recommendation is to join the :xref:`Mautic design team Slack` chan
 Finding tasks to work on
 ************************
 
-Project Board
+Project board
 ===========
 
-To find design-related tasks, check :xref:`Mautic No Code Tasks Board`.
+To find design tasks, browse the :xref:`Mautic No Code Tasks Board`.
 
-This board is organized in a kanban style, where each card represents a task and typically includes:
+The board uses a layout, where each card represents a task and includes:
 
-- **Description** – what the task is about
-- **Status** – e.g. *Ready*, *In Progress*, or *Done*
-- **Priority** – how urgent or important the task is
-- **Size** – an estimate of the effort required
+- **Description**—what the task is about
+- **Status**—for example, *Ready*, *In Progress*, or *Done*
+- **Priority**—how urgent or important the task is
+- **Size**—an estimate of the effort required
 
-How to get involved:
+**How to get involved**
 
-- Browse the board columns and cards to find tasks that match your skills and availability.
-- Open the issue linked from the project card and leave a comment stating you’re interested in working on it.
+- Browse the board to find tasks or issues that match your skills and availability.
+- Leave a comment on the task or issue to indicate your interest in working on it.
+
+If you need help, reach out to the team. When you start working on a task, let others know in the Slack channel.
 
 .. hint::
 
-  All of Mautic's teams in Slack have a channel prefixed with #t-, initiatives with #i-, tiger teams with #tt-, and working groups with #wg-.
-
+All Mautic Slack team channels use the prefix #t-, initiatives use #i-, tiger teams use #tt-, and working groups use #wg-.
 
 GitHub issues and pull requests
 ===============================
 
-Another way to find tasks that require input relating to the user experience (UX) or user interface (UI) within Mautic product is to look at the GitHub issue queue and pull requests.
+Another way to find tasks related to user experience UX or user interface UI in the Mautic product is to review the GitHub issue queue and pull requests.
 
 - Search the GitHub issue queue for :xref:`Mautic UX issues` or :xref:`Mautic UI issues` issues
 - Search GitHub pull requests to find new features and bug fixes to test relating to :xref:`Mautic UX pull requests` or :xref:`Mautic UI pull requests` improvements
