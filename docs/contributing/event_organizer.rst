@@ -1,8 +1,6 @@
 Event organizer
 ###############
 
-.. vale off
-
 Organizing Mautic events
 ************************
 
@@ -22,7 +20,7 @@ The team meets fortnightly on Slack, so you can scroll back and check what was b
 Finding open tasks
 ------------------
 
-The best way to find tasks to work on is by checking Mautic’s `GitHub Projects board <https://github.com/orgs/mautic/projects/21/views/1>`_
+To find tasks, check :xref:`Mautic No Code Tasks Board`.
 
 This board is organized in a kanban style, where each card represents a task and typically includes:
 
@@ -229,5 +227,3 @@ Leads will have their ticket, travel, and accommodation covered by the event. Co
    * - Contribution mentor
      - During the contribution day, you will help new contributors with getting started. We will need mentors from all the teams who are willing to spend time welcoming newcomers. Patience and a willingness to explain our processes in a simple way are very important in this role.
      - 1 to 2 hours a week in the months leading up to the event, working with the Mautic leadership team to determine best tasks for new contributors and setting up onboarding workflows.
-
-.. vale on
