@@ -1,8 +1,6 @@
 Community builder
 #################
 
-.. vale off
-
 Building the Mautic Community
 *****************************
 
@@ -22,9 +20,9 @@ The team meets fortnightly on Slack, so you can scroll back and check what was b
 Finding open tasks
 ==================
 
-After joining the Slack channel, the best way to find tasks to work on is to check Mautic’s GitHub Projects board: `Community Building Tasks <https://github.com/orgs/mautic/projects/21/views/9>`_
+To find community building tasks, check :xref:`Mautic No Code Tasks Board`.
 
-This board is organized in a kanban style, where each card represents a community building task and typically includes:
+This board is organized in a kanban style, where each card represents a task and typically includes:
 
 - **Description** – what the task is about
 - **Status** – e.g. *Ready*, *In Progress*, or *Done*
@@ -36,7 +34,7 @@ How to get involved:
 - Browse the board to find tasks/issues that match your skills and availability.
 - Leave a comment on the task/issue stating you’re interested in working on it.
 
-Please ask if you need any help from the team. When you start working on the task, let others know in the Slack channel.
+If you need any help, feel free to reach out to the team. Once you begin working on a task, please inform others in the Slack channel.
 
 Work in the public domain
 =========================
@@ -51,5 +49,3 @@ Update regularly
 Please make sure you provide regular updates on the issue, and if at any point you're not going to be able to complete the task, please call that out in a comment on the issue - or send your Team Lead a message to inform them - so that somebody else can pick it up. 
 
 We totally understand that life happens and it's easy to take on too much. No judgement at all. We try to be respectful of each other by ensuring we give as much notice as possible if we're not going to be able to fulfil a task assigned to us.
-
-.. vale on
