@@ -22,21 +22,21 @@ The team holds regular meetings, which anybody can join - just hop into the :xre
 Your first task
 ===============
 
-To find marketing tasks, check :xref:`Mautic No Code Tasks Board`.
+To find marketing tasks, browse the :xref:`Mautic No Code Tasks Board`.
 
-This board is organized in a kanban style, where each card represents a task and typically includes:
+The board uses a layout, where each card represents a task and includes:
 
-- **Description** – what the task is about  
-- **Status** – e.g. *Ready*, *In Progress*, or *Done*  
-- **Priority** – how urgent or important the task is  
-- **Size** – an estimate of the effort required  
+- **Description**—what the task is about
+- **Status**—for example, *Ready*, *In Progress*, or *Done*
+- **Priority**—how urgent or important the task is
+- **Size**—an estimate of the effort required
 
-How to get involved:
+**How to get involved**
 
-- Browse the board to find tasks/issues that match your skills and availability.
-- Leave a comment on the task/issue stating you’re interested in working on it.
-  
-If you need any help, feel free to reach out to the team. Once you begin working on a task, please inform others in the Slack channel.
+- Browse the board to find tasks or issues that match your skills and availability.
+- Leave a comment on the task or issue to indicate your interest in working on it.
+
+If you need help, reach out to the team. When you start working on a task, let others know in the Slack channel.
 
 Work in the public domain
 -------------------------
@@ -48,6 +48,6 @@ Please always ensure that you upload your work at regular - ideally daily - inte
 Update regularly
 ----------------
 
-Please make sure you provide regular updates via the github issue or send your Team Lead a message to inform them - so that somebody else can pick it up. 
+Provide regular updates on the issue. If you can’t complete the task, add a comment on the issue or message your Team Lead to let them know so someone else can take it over.
 
 We totally understand that life happens and it's easy to take on too much. No judgement at all. We try to be respectful of each other by ensuring we give as much notice as possible if we're not going to be able to fulfil a task assigned to us.
