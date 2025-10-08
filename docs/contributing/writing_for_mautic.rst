@@ -11,11 +11,11 @@ The first thing to do is to join ``#t-marketing`` channel on :xref:`Mautic Commu
 Writing for the blog & website
 ==============================
 
-We maintain a :xref:`Mautic No Code Tasks Board` for no/low code tasks including content and editorial work. To get involved, simply browse the board, pick a task/issue that interests you, and leave a comment to indicate your interest.
+The :xref:`Mautic No Code Tasks Board` provides no/low-code tasks, including content and editorial work. To get involved, browse the board, select a task or issue that interests you, and leave a comment to show your interest.
 
 Once you have found an article you'd like to work on, please check the writer's brief which will be attached as a Google Doc, located in :xref:`Mautic Google Drive`. The brief should explain what the article should include, the audience we are intending to target, and some useful resources to help you get started.
 
-Please write the content in the Google Doc. When you're ready to have it reviewed, drop a comment on the Github issue and let the team know in Slack.
+Please write the content in the Google Doc. When you're ready to have it reviewed, drop a comment on the GitHub issue and let the team know in Slack.
 
 Please note that we do check to ensure that articles are not copied from other locations without due credit, so please do not copy/paste chunks from other websites as your content will be rejected.
 
@@ -115,11 +115,11 @@ Articles will also allow readers to add comments, and we definitely favor articl
 Pre-launch article submission process
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-For all articles, we require you to share your pitch in the #t-marketing channel on Slack.
+Share all article pitches in the #t-marketing channel on Slack.
 
-Your pitch will then be discussed and either moved into the forming stage where you may be asked to provide more information, research, or background detail to help determine whether it is appropriate for the Community Blog or directly into the writing stage.
+After submitting your pitch, the team reviews it and decides whether to move it into the forming stage or directly into the writing stage. In the forming stage, you may need to provide additional information, research, or background details to help assess its suitability for the Community Blog.
 
-When your pitch is accepted and moved into the writing stage, you take responsibility for drafting the content within the agreed timeframe. Please pay attention to the draft due date, as that is when you are expected to have completed the article.
+Once your pitch moves to the writing stage, you are responsible for drafting the content within the agreed time. Make sure you meet the draft due date and submit the completed article on time.
 
 Style Guide summary
 ~~~~~~~~~~~~~~~~~~~
@@ -149,9 +149,9 @@ This is based on the excellent work done by the :xref:`Joomla Disclosure of Comp
 Technical writers
 *****************
 
-If you're a technical writer, or interested in writing content for a technical-minded audience, we have tasks on the :xref:`Mautic No Code Tasks Board`. There are opportunities to write for the :xref:`Mautic Knowledgebase` - which may include tutorials, best practice and examples of how to do specific things in Mautic. 
+If you're a technical writer or interested in creating content for a technical audience, explore tasks on the :xref:`Mautic No Code Tasks Board`. There are opportunities to write for the :xref:`Mautic Knowledgebase` including tutorials, best practices, and examples that show how to accomplish specific tasks in Mautic.
 
-You can also improve and update the content we have on the :xref:`User Documentation`. We suggest beginning with any section of the documentation that is unclear, out of date, or may benefit from more description or context.
+You can also improve and update existing content in the :xref:`User Documentation`. Start with any section that seems unclear, outdated, or could benefit from additional explanation or context.
 
 If you're reading a page of documentation and thinking, "I wish this page included more information" or "This is not the manner in which these function," then that is an excellent place to start contributing. 
 
@@ -171,6 +171,6 @@ Please always ensure that you upload your work at regular (ideally daily) interv
 Update regularly
 ****************
 
-Please make sure you provide regular updates on the issue, and if at any point you're not going to be able to complete the task, please call that out in a comment on the issue (or send your Team Lead a message to inform them) so that somebody else can pick it up. 
+Please provide regular updates on the issue. If you can’t complete the task, add a comment on the issue or message your Team Lead to let them know so someone else can take it over.
 
 We totally understand that life happens and it's easy to take on too much. No judgement at all. We try to be respectful of each other by ensuring we give as much notice as possible if we're not going to be able to fulfil a task assigned to us.
