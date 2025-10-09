@@ -46,6 +46,6 @@ Please always ensure that you upload your work at regular - ideally daily - inte
 Update regularly
 ================
 
-Provide regular updates on the issue. If you can’t complete the task, add a comment on the issue or message your Team Lead to let them know so someone else can take it over.
+Provide regular updates on the issue. If you can’t complete the task, leave a comment on the issue or let your Team Lead know so someone else can take it over.
 
 We totally understand that life happens and it's easy to take on too much. No judgement at all. We try to be respectful of each other by ensuring we give as much notice as possible if we're not going to be able to fulfil a task assigned to us.
