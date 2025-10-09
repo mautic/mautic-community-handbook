@@ -1,6 +1,8 @@
 Writing for Mautic
 ##################
 
+.. vale off
+
 We appreciate your interest in contributing to Mautic. Improving existing content is an excellent way to begin contributing. We are always looking for people to help us with writing content for our documentation, marketing and communications, and our social media campaigns. We also have a lot of technical writing opportunities in the Mautic Community, including Mautic :xref:`Mautic Knowledgebase`, Mautic :xref:`Mautic developers blog`, and Mautic :xref:`Developer Docs`.
 
 Getting started with writing for Mautic
@@ -174,3 +176,5 @@ Update regularly
 Please provide regular updates on the issue. If you can’t complete the task, leave a comment on the issue or let your Team Lead know so someone else can take it over.
 
 We totally understand that life happens and it's easy to take on too much. No judgement at all. We try to be respectful of each other by ensuring we give as much notice as possible if we're not going to be able to fulfil a task assigned to us.
+
+.. vale on
