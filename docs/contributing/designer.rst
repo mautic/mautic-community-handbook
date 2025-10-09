@@ -31,7 +31,7 @@ Finding tasks to work on
 ************************
 
 Project board
-===========
+=============
 
 To find design tasks, browse the :xref:`Mautic No Code Tasks Board`.
 
