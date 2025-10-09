@@ -149,7 +149,7 @@ This is based on the excellent work done by the :xref:`Joomla Disclosure of Comp
 Technical writers
 *****************
 
-If you're a technical writer or interested in creating content for a technical audience, explore tasks on the :xref:`Mautic No Code Tasks Board`. There are opportunities to write for the :xref:`Mautic Knowledgebase` including tutorials, best practices, and examples that show how to accomplish specific tasks in Mautic.
+If you're a technical writer or interested in creating content for a technical audience, explore tasks on the :xref:`Mautic No Code Tasks Board`. There are opportunities to write for the :xref:`Mautic Knowledgebase`, including tutorials, best practices, and examples that show how to accomplish specific tasks in Mautic.
 
 You can also improve and update existing content in the :xref:`User Documentation`. Start with any section that seems unclear, outdated, or could benefit from additional explanation or context.
 
