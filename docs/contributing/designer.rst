@@ -51,7 +51,7 @@ If you need help, reach out to the team. When you start working on a task, let o
 
 .. hint::
 
-All Mautic Slack team channels use the prefix #t-, initiatives use #i-, tiger teams use #tt-, and working groups use #wg-.
+All Mautic Slack team channels use the prefix ``#t-``, initiatives use ``#i-``, tiger teams use ``#tt-``, and working groups use ``#wg-``.
 
 GitHub issues and pull requests
 ===============================
