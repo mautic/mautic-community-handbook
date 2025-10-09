@@ -56,7 +56,7 @@ All Mautic Slack team channels use the prefix ``#t-``, initiatives use ``#i-``, 
 GitHub issues and pull requests
 ===============================
 
-Another way to find tasks related to user experience UX or user interface UI in the Mautic product is to review the GitHub issue queue and pull requests.
+Another way to find tasks related to user experience or user interface—also known as UX/UI—in the Mautic product is to review the GitHub issue queue and pull requests.
 
 - Search the GitHub issue queue for :xref:`Mautic UX issues` or :xref:`Mautic UI issues` issues
 - Search GitHub pull requests to find new features and bug fixes to test relating to :xref:`Mautic UX pull requests` or :xref:`Mautic UI pull requests` improvements
