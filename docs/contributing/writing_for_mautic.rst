@@ -115,7 +115,7 @@ Articles will also allow readers to add comments, and we definitely favor articl
 Pre-launch article submission process
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Share all article pitches in the #t-marketing channel on Slack.
+Share all article pitches in the ``#t-marketing`` channel on Slack.
 
 After submitting your pitch, the team reviews it and decides whether to move it into the forming stage or directly into the writing stage. In the forming stage, you may need to provide additional information, research, or background details to help assess its suitability for the Community Blog.
 
