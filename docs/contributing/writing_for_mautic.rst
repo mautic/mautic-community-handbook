@@ -13,7 +13,7 @@ The first thing to do is to join ``#t-marketing`` channel on :xref:`Mautic Commu
 Writing for the blog & website
 ==============================
 
-The :xref:`Mautic No Code Tasks Board` provides no/low-code tasks, including content and editorial work. To get involved, browse the board, select a task or issue that interests you, and leave a comment to show your interest.
+The :xref:`Mautic low- and no-code projects board` provides no/low-code tasks, including content and editorial work. To get involved, browse the board, select a task or issue that interests you, and leave a comment to show your interest.
 
 Once you have found an article you'd like to work on, please check the writer's brief which will be attached as a Google Doc, located in :xref:`Mautic Google Drive`. The brief should explain what the article should include, the audience we are intending to target, and some useful resources to help you get started.
 
@@ -151,7 +151,7 @@ This is based on the excellent work done by the :xref:`Joomla Disclosure of Comp
 Technical writers
 *****************
 
-If you're a technical writer or interested in creating content for a technical audience, explore tasks on the :xref:`Mautic No Code Tasks Board`. There are opportunities to write for the :xref:`Mautic Knowledgebase`, including tutorials, best practices, and examples that show how to accomplish specific tasks in Mautic.
+If you're a technical writer or interested in creating content for a technical audience, explore tasks on the :xref:`Mautic low- and no-code projects board`. There are opportunities to write for the :xref:`Mautic Knowledgebase`, including tutorials, best practices, and examples that show how to accomplish specific tasks in Mautic.
 
 You can also improve and update the existing content in the :xref:`User Documentation`. Start with any section that seems unclear, outdated, or could benefit from additional explanation or context.
 
