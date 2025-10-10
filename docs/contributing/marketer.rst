@@ -21,8 +21,8 @@ We have a Marketing Team which you can read more about on the :doc:`Marketing Te
 The team holds regular meetings, which anybody can join - just hop into the :xref:`Mautic marketing team Slack` channel on Slack, and you'll get a notification when the next meeting is coming up. 
 
 
-Your first task
-===============
+Finding a marketing task
+------------------------
 
 To find marketing tasks, browse the :xref:`Mautic No Code Tasks Board`.
 
