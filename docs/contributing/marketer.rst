@@ -33,10 +33,7 @@ The board uses a layout, where each card represents a task and includes:
 - **Priority:** how urgent or important the task is
 - **Size:** an estimate of the effort required
 
-**How to get involved**
-
-- Browse the board to find tasks or issues that match your skills and availability.
-- Leave a comment on the task or issue to indicate your interest in working on it.
+If you've identified a task you'd like to work on, leave a comment on the task or issue so that a team member can assign it to you.
 
 If you need help, please reach out to the team. When you start working on a task, let others know in the Slack channel.
 
