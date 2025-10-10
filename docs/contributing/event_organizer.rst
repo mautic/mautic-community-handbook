@@ -13,7 +13,7 @@ Whether you want to help with the big international events or the regional and l
 .. _Getting started event organizer:
 
 Getting started
-===============
+***************
 
 Events fall under the :doc:`/teams/community_team`, so your first step is to join the Community Team Slack channel. Get an invite to join :xref:`Mautic Community Slack` if you aren't there already, and then you can join the ``#t-community`` channel.
 
