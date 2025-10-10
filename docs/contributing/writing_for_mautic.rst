@@ -121,7 +121,7 @@ Share all article pitches in the ``#t-marketing`` channel on Slack.
 
 After submitting your pitch, the team reviews it and decides whether to move it into the 'forming' stage or directly into the 'writing' stage. In the 'forming' stage, you may need to provide additional information, research, or background details to help assess its suitability for the Community Blog.
 
-Once your pitch moves to the writing stage, you are responsible for drafting the content within the agreed time. Make sure you meet the draft due date and submit the completed article on time.
+Once your pitch moves to the 'writing' stage, you're responsible for drafting the content within the agreed time. Make sure you meet the draft due date and submit the completed article on time.
 
 Style Guide summary
 ~~~~~~~~~~~~~~~~~~~
