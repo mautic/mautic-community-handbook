@@ -19,8 +19,8 @@ Events fall under the :doc:`/teams/community_team`, so your first step is to joi
 
 The team meets fortnightly on Slack, so you can scroll back and check what was being discussed in previous meetings.
 
-Finding open tasks
-------------------
+Finding an event organizing task
+--------------------------------
 
 To find tasks, browse the :xref:`Mautic No Code Tasks Board`.
 
