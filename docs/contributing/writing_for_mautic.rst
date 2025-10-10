@@ -10,8 +10,8 @@ Getting started with writing for Mautic
 
 The first thing to do is to join ``#t-marketing`` channel on :xref:`Mautic Community Slack` and introduce yourself.
 
-Writing for the blog & website
-==============================
+Finding a writing task
+======================
 
 The :xref:`Mautic low- and no-code projects board` provides no/low-code tasks, including content and editorial work. To get involved, browse the board, select a task or issue that interests you, and leave a comment to show your interest.
 

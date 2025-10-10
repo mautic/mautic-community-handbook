@@ -10,17 +10,15 @@ Events are the beating heart of a thriving open source community, and we have qu
 
 Whether you want to help with the big international events or the regional and local events, there are lots of opportunities to put your expertise to good use and help bring Mauticians together in-person, online, or in a combination of the two.
 
-.. _Getting started event organizer:
-
-Getting started
-***************
+Getting started as an event organizer
+*************************************
 
 Events fall under the :doc:`/teams/community_team`, so your first step is to join the Community Team Slack channel. Get an invite to join :xref:`Mautic Community Slack` if you aren't there already, and then you can join the ``#t-community`` channel.
 
 The team meets fortnightly on Slack, so you can scroll back and check what was being discussed in previous meetings.
 
 Finding an event organizing task
---------------------------------
+================================
 
 You can browse the :xref:`Mautic low- and no-code projects board` to find tasks or issues that match your skills and availability.
 
@@ -50,14 +48,14 @@ If you want to start an event in your region, that's awesome. We have some clear
 We highly recommend building a team if you're planning on organizing any kind of event, whether it's a Mautic Meetup or a MautiCamp or something bigger. There is a lot of work involved in running events, and having more than one person in the team makes it a much more sustainable process to organize.
 
 Work in the public domain
-=========================
+*************************
 
 Unless there is significant reason not to, we default to being open and transparent. We work in the open, usually on our shared :xref:`Mautic Google Drive`. This ensures that if - for whatever reason - someone is unable to complete a task, it is easy for another contributor to pick up where they left off. It also means we can always find previous work that had been done if it needs to be re-used in the future.
 
 Please always ensure that you upload your work at regular - ideally daily - intervals. You can use the prefix of WIP-filename to indicate that it is currently in progress.
 
 Update regularly
-================
+****************
 
 Please provide regular updates on the issue. If you can’t complete the task, leave a comment on the issue or let your Team Lead know so someone else can take it over.
 
