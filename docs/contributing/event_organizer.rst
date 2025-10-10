@@ -36,7 +36,7 @@ The board uses a layout, where each card represents a task and includes:
 - Browse the board to find tasks or issues that match your skills and availability.
 - Leave a comment on the task or issue to indicate your interest in working on it.
 
-If you need help, reach out to the team. When you start working on a task, let others know in the Slack channel.
+If you need help, please reach out to the team. When you start working on a task, let others know in the Slack channel.
 
 Supporting a specific event
 ===========================
