@@ -36,7 +36,7 @@ However, one recommendation is to join the :xref:`Mautic design team Slack` chan
 Finding a design task
 *********************
 
-To find design tasks, browse the :xref:`Mautic No Code Tasks Board`.
+You can browse the :xref:`Mautic No Code Tasks Board` to find tasks or issues that match your skills and availability.
 
 The board uses a layout, where each card represents a task and includes:
 
