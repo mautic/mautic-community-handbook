@@ -118,5 +118,7 @@ linkcheck_ignore = [
     # Anchor is picked up as not found
     r"https://github.com/mautic/mautic-community-handbook/blob/main/.github/CONTRIBUTING.md#create-a-new-link",
     # 403 errors from this domain
-    r"https://www.npmjs.com/"
+    r"https://www.npmjs.com/",
+    # 403 errors from this domain
+    r"https://opencollective.com/*",
 ]
