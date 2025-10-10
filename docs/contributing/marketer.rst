@@ -13,13 +13,12 @@ You can imagine, therefore, how many people actually know about Mautic.
 
 That's why we need your help.
 
-The Mautic Community Marketing Team
-***********************************
+Getting started
+***************
 
 We have a Marketing Team which you can read more about on the :doc:`Marketing Team </teams/marketing_team>` section.
 
 The team holds regular meetings, which anybody can join - just hop into the :xref:`Mautic marketing team Slack` channel on Slack, and you'll get a notification when the next meeting is coming up. 
-
 
 Finding a marketing task
 ------------------------
