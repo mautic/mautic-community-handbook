@@ -46,10 +46,9 @@ The board uses a layout, where each card represents a task and includes:
 - **Size:** an estimate of the effort required
 
 If you've identified a task you'd like to work on, leave a comment on the task or issue so that a team member can assign it to you. If you need help, reach out to the team. When you start working on a task, let others know in the Slack channel.
+.. tip::
 
-.. hint::
-
-All Mautic Slack team channels use the prefix ``#t-``, initiatives use ``#i-``, tiger teams use ``#tt-``, and working groups use ``#wg-``.
+   All Mautic Slack team channels use the prefix ``#t-``, initiatives use ``#i-``, tiger teams use ``#tt-``, and working groups use ``#wg-``.
 
 GitHub issues and pull requests
 ===============================
