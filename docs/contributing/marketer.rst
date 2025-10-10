@@ -24,7 +24,7 @@ The team holds regular meetings, which anybody can join - just hop into the :xre
 Finding a marketing task
 ------------------------
 
-You can browse the :xref:`Mautic No Code Tasks Board` to find tasks or issues that match your skills and availability.
+You can browse the :xref:`Mautic low- and no-code projects board` to find tasks or issues that match your skills and availability.
 
 The board uses a layout, where each card represents a task and includes:
 
