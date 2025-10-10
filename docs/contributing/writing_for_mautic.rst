@@ -13,9 +13,9 @@ The first thing to do is to join ``#t-marketing`` channel on :xref:`Mautic Commu
 Finding a writing task
 ======================
 
-The :xref:`Mautic low- and no-code projects board` provides no/low-code tasks, including content and editorial work. To get involved, browse the board, select a task or issue that interests you, and leave a comment to show your interest.
+The :xref:`Mautic low- and no-code projects board` provides no/low-code tasks, including content and editorial work. To get involved, browse the board, select a task or issue that interests you, and leave a comment on it so that a team member can assign it to you.
 
-Once you have found an article you'd like to work on, please check the writer's brief which will be attached as a Google Doc, located in :xref:`Mautic Google Drive`. The brief should explain what the article should include, the audience we are intending to target, and some useful resources to help you get started.
+Once you've been assigned to the task or issue, please check the writer's brief which is attached as a Google Doc, located in :xref:`Mautic Google Drive`. The brief should explain what the article should include, the audience we are intending to target, and some useful resources to help you get started.
 
 Please write the content in the Google Doc. When you're ready to have it reviewed, drop a comment on the GitHub issue and let the team know in Slack.
 
