@@ -19,8 +19,8 @@ The first thing to do is to join the Community Team Slack channel. Get an invite
 
 The team meets fortnightly on Slack, so you can scroll back and check what was being discussed in previous meetings.
 
-Finding open tasks
-==================
+Finding a community building task
+=================================
 
 To find community building tasks, browse the :xref:`Mautic No Code Tasks Board`.
 
