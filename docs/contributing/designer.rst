@@ -33,11 +33,8 @@ Design tasks are primarily cross-project rather than specific to a team. You're 
 However, one recommendation is to join the :xref:`Mautic design team Slack` channel on Slack to see requests for design-related tasks. Introduce yourself in the channel and share how you want to get involved. If you're unsure how to participate, don't worry—support is available to help you find your way.
 
 
-Finding tasks to work on
-************************
-
-Project board
-=============
+Finding a design task
+*********************
 
 To find design tasks, browse the :xref:`Mautic No Code Tasks Board`.
 
