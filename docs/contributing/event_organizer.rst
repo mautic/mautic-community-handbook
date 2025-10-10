@@ -26,10 +26,10 @@ To find tasks, browse the :xref:`Mautic No Code Tasks Board`.
 
 The board uses a layout, where each card represents a task and includes:
 
-- **Description**—what the task is about
-- **Status**—for example, *Ready*, *In Progress*, or *Done*
-- **Priority**—how urgent or important the task is
-- **Size**—an estimate of the effort required
+- **Description:** what the task is about
+- **Status:** status of the task, such as 'Ready', 'In Progress', or 'Done'
+- **Priority:** how urgent or important the task is
+- **Size:** an estimate of the effort required
 
 **How to get involved**
 
