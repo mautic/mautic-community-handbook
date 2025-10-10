@@ -22,7 +22,7 @@ The team meets fortnightly on Slack, so you can scroll back and check what was b
 Finding an event organizing task
 --------------------------------
 
-To find tasks, browse the :xref:`Mautic No Code Tasks Board`.
+You can browse the :xref:`Mautic No Code Tasks Board` to find tasks or issues that match your skills and availability.
 
 The board uses a layout, where each card represents a task and includes:
 
