@@ -34,7 +34,7 @@ However, one recommendation is to join the :xref:`Mautic design team Slack` chan
 
 
 Finding a design task
-*********************
+=====================
 
 You can browse the :xref:`Mautic low- and no-code projects board` to find tasks or issues that match your skills and availability.
 
