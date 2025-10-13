@@ -118,11 +118,6 @@ The current leadership team and their terms are as follows:
      - favour.kelvin@mautic.org
      - 2021
      - 2024
-   * - Favour Chibueze
-     - Education Team Assistant Lead
-     - favour.chibueze@mautic.org
-     - 2024
-     - 2026
    * - Ruth Cheesley
      - Legal & Finance Team Lead
      - ruth.cheesley@mautic.org
@@ -229,9 +224,9 @@ The Mautic Council is a governing body that addresses topics impacting the Mauti
    * - Name
      - Role
      - Email Address
-   * - Andy Towne
-     - Senior Customer Value Manager at Acquia
-     - andy.towne@mautic.org
+   * - Simran Sethi
+     - Council Member
+     - simran.sethi@mautic.org
    * - Dominique De Cooman
      - Co-founder and co-CEO at Dropsolid
      - dominique.decooman@mautic.org
@@ -241,9 +236,9 @@ The Mautic Council is a governing body that addresses topics impacting the Mauti
    * - John Linhart
      - Principal Software Engineer at Acquia
      - john.linhart@mautic.org
-   * - Favour Chibueze
-     - Front End Engineer at Eden Life Inc.
-     - favour.chibueze@mautic.org
+   * - Adrian Schimpf
+     - Council Member
+     - adrian.schimpf@mautic.org
    * - Norman Pracht
      - Associate General Manager at Webmecanik
      - norman.pracht@mautic.org
