@@ -13,33 +13,40 @@ You can imagine, therefore, how many people actually know about Mautic.
 
 That's why we need your help.
 
-The Mautic Community Marketing Team
-***********************************
+Getting started as a marketer
+*****************************
 
 We have a Marketing Team which you can read more about on the :doc:`Marketing Team </teams/marketing_team>` section.
 
 The team holds regular meetings, which anybody can join - just hop into the :xref:`Mautic marketing team Slack` channel on Slack, and you'll get a notification when the next meeting is coming up. 
 
-The Marketing Team work publicly on a :xref:`Jira board marketing team` and have our :xref:`Jira marketing team editorial calendar` on Jira also, where you can see the tasks that are currently being worked on and their status.
+Finding a marketing task
+========================
 
-Your first task
-===============
+You can browse the :xref:`Mautic low- and no-code projects board` to find tasks or issues that match your skills and availability.
 
-After joining the Jira board and the Slack channel, find a task in the Jira board that you would like to help with. Ask one of the team to add you to Jira and then assign yourself to the issue.
+The board uses a layout, where each card represents a task and includes:
 
-Leave a comment on the issue to let others know you would like to work on the task, and ask any questions or raise any points of clarification. Please ask if you need any help from the team. When you start working on the task, move it to the 'in progress' status.
+- **Description:** what the task is about
+- **Status:** status of the task, such as 'Ready', 'In Progress', or 'Done'
+- **Priority:** how urgent or important the task is
+- **Size:** an estimate of the effort required
+
+If you've identified a task you'd like to work on, leave a comment on the task or issue so that a team member can assign it to you.
+
+If you need help, please reach out to the team. When you start working on a task, let others know in the Slack channel.
 
 Work in the public domain
--------------------------
+*************************
 
 Unless there is significant reason not to, we default to being open and transparent. We work in the open, usually on our shared :xref:`Mautic Google Drive` or by sharing our work with the team on our Canva account. This ensures that if - for whatever reason - someone is unable to complete a task, it is easy for another contributor to pick up where they left off. It also means we can always find previous work that had been done if it needs to be re-used in the future.
 
 Please always ensure that you upload your work at regular - ideally daily - intervals. You can use the file prefix of WIP-filename to indicate that it is currently in progress.
 
 Update regularly
-----------------
+****************
 
-Please make sure you provide regular updates on the issue in Jira, and if at any point you're not going to be able to complete the task, please call that out in a comment on the issue - or send your Team Lead a message to inform them - so that somebody else can pick it up. 
+Please provide regular updates on the issue. If you can’t complete the task, add a comment on the issue or let your Team Lead know so someone else can take it over.
 
 We totally understand that life happens and it's easy to take on too much. No judgement at all. We try to be respectful of each other by ensuring we give as much notice as possible if we're not going to be able to fulfil a task assigned to us.
 
