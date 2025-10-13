@@ -10,14 +10,14 @@ Getting started with writing for Mautic
 
 The first thing to do is to join ``#t-marketing`` channel on :xref:`Mautic Community Slack` and introduce yourself.
 
-Writing for the blog & website
-==============================
+Finding a writing task
+======================
 
-The Marketing Team maintains a :xref:`Jira board marketing team` specifically for content and editorial work. Our boards are publicly accessible, but you will need an account to be assigned issues or add responses. Please drop a message in the ``#t-marketing`` channel on Slack if you need an invitation to Jira.
+The :xref:`Mautic low- and no-code projects board` provides no/low-code tasks, including content and editorial work. To get involved, browse the board, select a task or issue that interests you, and leave a comment on it so that a team member can assign it to you.
 
-Once you have found an article you'd like to work on, please check the writer's brief which will be attached as a Google Doc, located in :xref:`Mautic Google Drive`. The brief should explain what the article should include, the audience we are intending to target, and some useful resources to help you get started.
+Once you've been assigned to the task or issue, please check the writer's brief which is attached as a Google Doc, located in :xref:`Mautic Google Drive`. The brief should explain what the article should include, the audience we are intending to target, and some useful resources to help you get started.
 
-Please write the content in the Google Doc. When you're ready to have it reviewed, drop a message in Jira and let people know in Slack.
+Please write the content in the Google Doc. When you're ready to have it reviewed, drop a comment on the GitHub issue and let the team know in Slack.
 
 Please note that we do check to ensure that articles are not copied from other locations without due credit, so please do not copy/paste chunks from other websites as your content will be rejected.
 
@@ -117,11 +117,11 @@ Articles will also allow readers to add comments, and we definitely favor articl
 Pre-launch article submission process
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-For all articles, we require you to submit your pitch via the :xref:`Jira marketing team editorial calendar`.
+Share all article pitches in the ``#t-marketing`` channel on Slack.
 
-Your pitch will be moved into either the ‘forming’ stage where we will ask you to provide more information, research or background detail to help us determine whether it is appropriate for the Community Blog, or directly to the ‘writing’ stage.
+After submitting your pitch, the team reviews it and decides whether to move it into the 'forming' stage or directly into the 'writing' stage. In the 'forming' stage, you may need to provide additional information, research, or background details to help assess its suitability for the Community Blog.
 
-When your pitch is moved into the writing stage, you take up the responsibility for writing the content within the time frame on the card. Please note the draft due date - this is when you need to have finished writing the article.
+Once your pitch moves to the 'writing' stage, you're responsible for drafting the content within the agreed time. Make sure you meet the draft due date and submit the completed article on time.
 
 Style Guide summary
 ~~~~~~~~~~~~~~~~~~~
@@ -151,9 +151,9 @@ This is based on the excellent work done by the :xref:`Joomla Disclosure of Comp
 Technical writers
 *****************
 
-If you're a technical writer, or interested in writing content for a technical-minded audience, we have lots of tasks in the Education Team's :xref:`Jira board education team`. There are opportunities to write for the :xref:`Mautic Knowledgebase` - which may include tutorials, best practice and examples of how to do specific things in Mautic. 
+If you're a technical writer or interested in creating content for a technical audience, explore tasks on the :xref:`Mautic low- and no-code projects board`. There are opportunities to write for the :xref:`Mautic Knowledgebase`, including tutorials, best practices, and examples that show how to accomplish specific tasks in Mautic.
 
-You can also improve and update the content we have on Mautic :xref:`User Documentation`. We suggest beginning with any section of the documentation that is unclear, out of date, or may benefit from more description or context.
+You can also improve and update the existing content in the :xref:`User Documentation`. Start with any section that seems unclear, outdated, or could benefit from additional explanation or context.
 
 If you're reading a page of documentation and thinking, "I wish this page included more information" or "This is not the manner in which these function," then that is an excellent place to start contributing. 
 
@@ -173,7 +173,7 @@ Please always ensure that you upload your work at regular (ideally daily) interv
 Update regularly
 ****************
 
-Please make sure you provide regular updates on the issue in Jira, and if at any point you're not going to be able to complete the task, please call that out in a comment on the issue (or send your Team Lead a message to inform them) so that somebody else can pick it up. 
+Please provide regular updates on the issue. If you can’t complete the task, leave a comment on the issue or let your Team Lead know so someone else can take it over.
 
 We totally understand that life happens and it's easy to take on too much. No judgement at all. We try to be respectful of each other by ensuring we give as much notice as possible if we're not going to be able to fulfil a task assigned to us.
 
