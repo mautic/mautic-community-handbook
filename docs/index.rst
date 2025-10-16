@@ -54,6 +54,7 @@ The vision is that it grows over time as the teams and governance structure evol
    :hidden:
 
    community_leadership/community_leadership
+   community_leadership/community_council
 
 .. toctree::
    :maxdepth: 2

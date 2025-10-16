@@ -39,6 +39,9 @@ myst_enable_extensions = [
     "linkify",
 ]
 
+# Avoid duplicate labels when multiple documents share identical headings
+autosectionlabel_prefix_document = True
+
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
