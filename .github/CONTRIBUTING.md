@@ -51,7 +51,7 @@ Contributions are always welcome, no matter how large or small, or at whatever s
 
   **Note:** Please don't ask maintainers to assign you to another issue before you have finished working on yours and created a PR.
 
-- Did you spot a bug or have an idea for enhancing the Mautic Community Handbook? You can [create an issue](https://github.com/mautic/mautic-community-handbook/issues/new/choose) to address it.
+- Did you spot a typo, missing information, or have an idea for enhancing the Mautic Community Handbook? You can [create an issue](https://github.com/mautic/mautic-community-handbook/issues/new/choose) to address it.
 
   However, the Education Team needs to triage the issue before you can work on it. If you wish to work on the issue you submitted, please inform and tag the `@mautic/education-team-leaders` in the comment.
 
@@ -103,7 +103,7 @@ To fork this repository:
 
    ![Fork button on GitHub](../assets/images/fork_button_github.png)
 
-2. Choose your username in the 'Choose the owner' dropdown menu. Do not select a company here; always choose your personal account — otherwise, maintainers can't collaborate and fix things for you on your PR.
+2. Choose your username in the 'Owner *' dropdown menu. **Don't select an organization here. Always choose your personal account**; otherwise, maintainers can't collaborate and fix things for you on your PR.
 
    ![Choose fork owner on GitHub](../assets/images/choose_fork_owner_github.png)
 
@@ -122,7 +122,7 @@ Follow the steps below to clone your forked repository:
 
    ![Repositores option from a dropdown menu on GitHub](../assets/images/repositories_option_github.png)
 
-3. Open your forked mautic-community-handbook repository. The URL should have your username. For example: `https://github.com/USERNAME/mautic-community-handbook`.
+3. Open your forked mautic-community-handbook repository. The URL should have your username. For example: `https://github.com/YOUR-GITHUB-USERNAME/mautic-community-handbook`.
 4. Click the green 'Code' button on top.
 5. Select 'HTTPS' and copy the URL if you work with traditional Git, or select 'GitHub CLI' and copy the command if you work with [GitHub CLI](https://cli.github.com) (recommended - it makes commands much easier to remember!)
 
@@ -132,7 +132,7 @@ Follow the steps below to clone your forked repository:
 7. If you work with GitHub CLI, paste the command and hit enter. For traditional Git, run the command below and hit enter:
 
    ```bash
-   git clone https://github.com/USERNAME/mautic-community-handbook
+   git clone https://github.com/YOUR-GITHUB-USERNAME/mautic-community-handbook
    ```
 
 ### Create a new branch
