@@ -276,7 +276,7 @@ To work directly on GitHub, follow the steps below:
 
 ### 2. GitHub Codespaces
 
-Using GitHub Codespaces enables you to spin up the project in the cloud quickly. Before you start, it's highly recommended to use Chrome or Firefox to work with Codespaces.
+Using GitHub Codespaces enables you to spin up the project in the cloud quickly. For a smooth process, use the Chrome or Firefox browser to work with Codespaces.
 
 <details>
   <summary><strong>Tips to maximize free tier of Codespaces</strong></summary>
@@ -306,7 +306,7 @@ Using GitHub Codespaces enables you to spin up the project in the cloud quickly.
 1. [Fork](#forking-the-repository) this repository to your own GitHub account.
 2. Go to your forked repository on GitHub.
 3. Click the green 'Code' button and select the 'Codespaces' tab.
-4. Click the green 'Create codespace on main' or 'plus' button to create a new codespace. Codespace automatically sets up the project and opens Visual Studio Code.
+4. Click the green 'Create codespace on main' or '+' button to create a new codespace. Codespace automatically sets up the project and opens Visual Studio Code.
 
    ![Highlight Codespaces tab, plus icon, and Create codepace on main at GitHub](../assets/images/codespaces_tab_github.png)
 
@@ -322,13 +322,16 @@ Using GitHub Codespaces enables you to spin up the project in the cloud quickly.
 
 #### Live preview on codespace
 
-1. Run `make html`. It generates the `build` folder.
-2. Click the preview button — resembles book and magnifying glass — at the top to trigger Esbonio, a tool used for live preview. A tab opens, but the preview won't work. You can safely close this tab.
+1. Ensure that you're in the `docs/` directory.
+2. Run `make html`. It generates the `build` folder.
+
+   **Tip:** If you get `make: *** No rule to make target 'html'.  Stop.` error message after running the `make html` command, you should check if you're in the correct directory. You must be in the `docs/` directory to run this command.
+3. Click the preview button — resembles book and magnifying glass — at the top to trigger Esbonio, a tool used for live preview. A tab opens, but the preview won't work. You can safely close this tab.
 
    ![Highlight preview button on the top bar of VS Code on codespace](../assets/images/preview_button_vscode_codespace.png)
 
-3. At the bottom panel, click 'Port'.
-4. Click the globe icon to open the live preview in your browser. Now you can see the project in real-time on localhost.
+4. At the bottom panel, click the 'Ports' tab.
+5. Click the globe icon to open the live preview in your browser. Now you can see the project in real-time on localhost.
 
    ![Highlight port tab and globe icon to open preview in browser at VS Code on codespace](../assets/images/port_and_open_browser_vscode_codespace.png)
 
