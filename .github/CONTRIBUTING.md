@@ -139,6 +139,24 @@ Follow the steps below to clone your forked repository:
 
 Before working on changes, ensure that you create a new branch and work on this branch. You don't want to directly work on the default — such as `main` — or any other base branch, because you won't be able to work on lots of things at the same time. If you make all those changes on one branch, it's not possible to separate them out and only merge one change at a time.
 
+#### Ensure the correct base branch
+
+Before you create a new branch, you must ensure that you're on the branch that you need to base your changes on. Here's how to do it:
+
+1. In the bottom left of your VS Code, look at the branch tab — it has a git branch symbol with a branch name. It should indicate the branch from which you need to base your changes.
+
+   ![Branch tab at the bottom left of VS Code](../assets/images/bottom_branch_tab_vscode.png)
+   
+2. If you're not on the correct branch, click the branch tab and select the correct branch from the dropdown menu at the top.
+
+   If you prefer to switch it from the terminal, run the command below:
+
+   ```bash
+   git switch BRANCH-NAME
+   ```
+
+#### Ways to create a new branch
+
 There are two ways to create a new branch:
 
 1. **With Git Source Control in VS Code**
@@ -147,7 +165,7 @@ There are two ways to create a new branch:
 
    To create a new branch with Git source control:
 
-   1. Click the 'main' branch tab at the bottom left. It opens a dropdown menu at the top.
+   1. Click the branch tab — it has a git branch symbol with a branch name — at the bottom left of your VS Code. It opens a dropdown menu at the top.
 
       ![Branch tab at the bottom left of VS Code](../assets/images/bottom_branch_tab_vscode.png)
 
