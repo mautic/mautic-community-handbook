@@ -51,7 +51,7 @@ Contributions are always welcome, no matter how large or small, or at whatever s
 
   **Note:** Please don't ask maintainers to assign you to another issue before you have finished working on yours and created a PR.
 
-- Did you spot a bug or have an idea for enhancing the Mautic Community Handbook? You can [create an issue](https://github.com/mautic/mautic-community-handbook/issues/new?q=is%3Aissue+state%3Aopen+label%3A%22help+wanted%22) to address it.
+- Did you spot a bug or have an idea for enhancing the Mautic Community Handbook? You can [create an issue](https://github.com/mautic/mautic-community-handbook/issues/new/choose) to address it.
 
   However, the Education Team needs to triage the issue before you can work on it. If you wish to work on the issue you submitted, please inform and tag the `@mautic/education-team-leaders` in the comment.
 
