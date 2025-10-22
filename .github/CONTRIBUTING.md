@@ -51,7 +51,7 @@ Contributions are always welcome, no matter how large or small, or at whatever s
 
   **Note:** Please don't ask maintainers to assign you to another issue before you have finished working on yours and created a PR.
 
-- Did you spot a bug or have an idea for enhancing the Mautic Community Handbook? You can [create an issue](https://github.com/mautic/mautic-community-handbook/issues/new?q=is%3Aissue+state%3Aopen+label%3A%22help+wanted%22) to address it.
+- Did you spot a typo, missing information, or have an idea for enhancing the Mautic Community Handbook? You can [create an issue](https://github.com/mautic/mautic-community-handbook/issues/new/choose) to address it.
 
   However, the Education Team needs to triage the issue before you can work on it. If you wish to work on the issue you submitted, please inform and tag the `@mautic/education-team-leaders` in the comment.
 
@@ -103,7 +103,7 @@ To fork this repository:
 
    ![Fork button on GitHub](../assets/images/fork_button_github.png)
 
-2. Choose your username in the 'Choose the owner' dropdown menu. Do not select a company here; always choose your personal account — otherwise, maintainers can't collaborate and fix things for you on your PR.
+2. Choose your username in the 'Owner *' dropdown menu. **Don't select an organization here. Always choose your personal account**; otherwise, maintainers can't collaborate and fix things for you on your PR.
 
    ![Choose fork owner on GitHub](../assets/images/choose_fork_owner_github.png)
 
@@ -122,7 +122,7 @@ Follow the steps below to clone your forked repository:
 
    ![Repositores option from a dropdown menu on GitHub](../assets/images/repositories_option_github.png)
 
-3. Open your forked mautic-community-handbook repository. The URL should have your username. For example: `https://github.com/USERNAME/mautic-community-handbook`.
+3. Open your forked mautic-community-handbook repository. The URL should have your username. For example: `https://github.com/YOUR-GITHUB-USERNAME/mautic-community-handbook`.
 4. Click the green 'Code' button on top.
 5. Select 'HTTPS' and copy the URL if you work with traditional Git, or select 'GitHub CLI' and copy the command if you work with [GitHub CLI](https://cli.github.com) (recommended - it makes commands much easier to remember!)
 
@@ -132,12 +132,30 @@ Follow the steps below to clone your forked repository:
 7. If you work with GitHub CLI, paste the command and hit enter. For traditional Git, run the command below and hit enter:
 
    ```bash
-   git clone https://github.com/USERNAME/mautic-community-handbook
+   git clone https://github.com/YOUR-GITHUB-USERNAME/mautic-community-handbook
    ```
 
 ### Create a new branch
 
 Before working on changes, ensure that you create a new branch and work on this branch. You don't want to directly work on the default — such as `main` — or any other base branch, because you won't be able to work on lots of things at the same time. If you make all those changes on one branch, it's not possible to separate them out and only merge one change at a time.
+
+#### Ensure the correct base branch
+
+Before you create a new branch, you must ensure that you're on the branch that you need to base your changes on. Here's how to do it:
+
+1. In the bottom left of your VS Code, look at the branch tab — it has a git branch symbol with a branch name. It should indicate the branch from which you need to base your changes.
+
+   ![Branch tab at the bottom left of VS Code](../assets/images/bottom_branch_tab_vscode.png)
+   
+2. If you're not on the correct branch, click the branch tab and select the correct branch from the dropdown menu at the top.
+
+   If you prefer to switch it from the terminal, run the command below:
+
+   ```bash
+   git switch BRANCH-NAME
+   ```
+
+#### Ways to create a new branch
 
 There are two ways to create a new branch:
 
@@ -147,7 +165,7 @@ There are two ways to create a new branch:
 
    To create a new branch with Git source control:
 
-   1. Click the 'main' branch tab at the bottom left. It opens a dropdown menu at the top.
+   1. Click the branch tab — it has a git branch symbol with a branch name — at the bottom left of your VS Code. It opens a dropdown menu at the top.
 
       ![Branch tab at the bottom left of VS Code](../assets/images/bottom_branch_tab_vscode.png)
 
@@ -258,7 +276,7 @@ To work directly on GitHub, follow the steps below:
 
 ### 2. GitHub Codespaces
 
-Using GitHub Codespaces enables you to spin up the project in the cloud quickly. Before you start, it's highly recommended to use Chrome or Firefox to work with Codespaces.
+Using GitHub Codespaces enables you to spin up the project in the cloud quickly. For a smooth process, use the Chrome or Firefox browser to work with Codespaces.
 
 <details>
   <summary><strong>Tips to maximize free tier of Codespaces</strong></summary>
@@ -288,7 +306,7 @@ Using GitHub Codespaces enables you to spin up the project in the cloud quickly.
 1. [Fork](#forking-the-repository) this repository to your own GitHub account.
 2. Go to your forked repository on GitHub.
 3. Click the green 'Code' button and select the 'Codespaces' tab.
-4. Click the green 'Create codespace on main' or 'plus' button to create a new codespace. Codespace automatically sets up the project and opens Visual Studio Code.
+4. Click the green 'Create codespace on main' or '+' button to create a new codespace. Codespace automatically sets up the project and opens Visual Studio Code.
 
    ![Highlight Codespaces tab, plus icon, and Create codepace on main at GitHub](../assets/images/codespaces_tab_github.png)
 
@@ -304,13 +322,16 @@ Using GitHub Codespaces enables you to spin up the project in the cloud quickly.
 
 #### Live preview on codespace
 
-1. Run `make html`. It generates the `build` folder.
-2. Click the preview button — resembles book and magnifying glass — at the top to trigger Esbonio, a tool used for live preview. A tab opens, but the preview won't work. You can safely close this tab.
+1. Ensure that you're in the `docs/` directory.
+2. Run `make html`. It generates the `build` folder.
+
+   **Tip:** If you get `make: *** No rule to make target 'html'.  Stop.` error message after running the `make html` command, you should check if you're in the correct directory. You must be in the `docs/` directory to run this command.
+3. Click the preview button — resembles book and magnifying glass — at the top to trigger Esbonio, a tool used for live preview. A tab opens, but the preview won't work. You can safely close this tab.
 
    ![Highlight preview button on the top bar of VS Code on codespace](../assets/images/preview_button_vscode_codespace.png)
 
-3. At the bottom panel, click 'Port'.
-4. Click the globe icon to open the live preview in your browser. Now you can see the project in real-time on localhost.
+4. At the bottom panel, click the 'Ports' tab.
+5. Click the globe icon to open the live preview in your browser. Now you can see the project in real-time on localhost.
 
    ![Highlight port tab and globe icon to open preview in browser at VS Code on codespace](../assets/images/port_and_open_browser_vscode_codespace.png)
 
