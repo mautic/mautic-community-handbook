@@ -47,11 +47,11 @@ Contracts
 
 When the Mautic Community hires a freelancer, it uses the UpWork team account to post roles, interview candidates, and hire the candidate.
 
-If the Mautic Community sponsors a contributor outside UpWork, Open Collective’s HR provider draws up a contract, ``remote.com``. All contributors the Mautic Project pays in a freelance consultant capacity, as opposed to when it employs them, are responsible for managing their tax and insurance obligations in their locality.
+If the Mautic Community sponsors a contributor outside UpWork, Open Collective’s HR provider draws up a contract. All contributors the Mautic Project pays in a freelance consultant capacity, as opposed to when it employs them, are responsible for managing their tax and insurance obligations in their locality.
 
 ========================
 
-Generally speaking, Mautic subjects agreements to sponsor a contributor to the delivery of expected performance and outcomes, whether an ongoing or project-based agreement. 
+Generally speaking, Mautic agrees to sponsor a contributor subject to the delivery of expected performance and outcomes, whether an ongoing or project-based agreement. 
 
 The contributor or the Mautic Project may decide to end the agreement with four weeks' notice for any reason in the case of an ongoing agreement, or one week’s notice in the case of a project-based agreement. The final invoice includes payment for all work completed up to the end of the contract.
 
@@ -69,7 +69,7 @@ Initiatives and new feature development
 
 .. vale off
 
-The :doc:`RFP process</policies/request_for_proposals_(RFP)_process>` outlines how contributors propose projects and Strategic Initiatives. The Mautic Open Collective manages these as individual projects.
+The :doc:`RFP process</policies/request_for_proposals_(RFP)_process>` outlines how contributors propose projects and Strategic Initiatives. Mautic manages these as individual projects on Open Collective.
 
 .. vale on
 
