@@ -1,8 +1,6 @@
 Paying Contributors
 ###################
 
-.. vale off
-
 Background information
 **********************
 
@@ -15,7 +13,7 @@ Sponsoring contributors
 
 With a largely volunteer-driven community, it can be difficult to have a reliable cadence of resources available both to support the ‘keep the lights on’ activity, such as reviewing pull requests and answering forum threads, and to ensure that Mautic is able to proactively respond to bug reports and issues that require timely attention.
 
-While many individual contributors do work for or on behalf of organizations that financially support them to contribute to Mautic, there is a large body of people for whom this isn't an option, and who can't afford to consistently contribute to Mautic without being financially compensated to do so.
+While many organizations financially support individual contributors to work for or on behalf of them on Mautic, a large body of people can't consistently contribute unless the Mautic project compensates them.
 
 There are also situations where the Mautic Project requires expertise and skills that aren't found in the community, therefore needing to seek freelancers to work on clearly defined tasks.
 
@@ -24,40 +22,38 @@ This policy provides a guideline on how Mautic uses the funds available for use 
 Proposing sponsored contributors
 ================================
 
-Team Leads can propose that the Mautic Community sponsor any contributor from their teams who are in good standing within the community. The Community Council reviews these, with the final decision being approved by the Project Lead. It's important to note that the Mautic Community is unable to pay people who live in certain countries for legal reasons. Please check the :doc:`Financial Policy </policies/financial_policy>` for further details.
+Team Leads can propose that the Mautic Community sponsor any contributor from their teams who are in good standing within the community. The Community Council reviews these, and the Project Lead approves the final decision.. It's important to note that the Mautic Community is unable to pay people who live in certain countries for legal reasons. Please check the :doc:`Financial Policy </policies/financial_policy>` for further details.
 
-A clear proposal will be made, which outlines the benefits to the Mautic Project through sponsoring the individual, with examples of their previous contributions and a plan for the first three months of what they will work on. This should also specify the number of hours per week that the individual will be sponsored for, and which budget the funds are to be allocated from. If fundraising is required, a project on the :xref:`Mautic Open Collective` can be established.
+The community makes a clear proposal that outlines the benefits to the Mautic Project from sponsoring the individual. This proposal includes examples of the person's previous contributions and a plan for what they work on during the first three months.
 
 The proposal should include clear outcomes that are demonstrable. For example, they refactor the top three sections on the developer documentation and publish the work via pull requests on the new developer documentation repository, or they work on reducing the backlog of open pull requests by 20% by testing and code reviewing outstanding pull requests.
 
-Sponsored contributors will initially be supported for a period of three months, with a review at the end of this period.
-
+Mautic supports sponsored contributors for an initial three month period, and the community conducts a review at the end of this period.
 Rate of remuneration
 ====================
 
 Finding an hourly amount which is appropriate worldwide for all levels of experience is always going to be a challenge. 
 
-At this early stage, the Mautic Community has taken into consideration information from salary surveys from :xref:`Stack Overflow Annual Developer Survey` and other sites such as :xref:`Glassdoor PHP Developer Salary` alongside learnings from other open source projects such as :xref:`ESLint A year of paying contributors review` and :xref:`Drupal 8 Accelerate Fund`, who have implemented similar policies.
+At this early stage, the Mautic Community has taken into consideration information from salary surveys from :xref:`Stack Overflow Annual Developer Survey` and other sites such as :xref:`Glassdoor PHP Developer Salary` alongside insights from other open source projects such as :xref:`ESLint A year of paying contributors review` and :xref:`Drupal 8 Accelerate Fund`, who have implemented similar policies.
  
-The Community Council has agreed that from the date of this policy, an hourly rate of $40 will be the standard rate for sponsored developers who are contributing to Mautic. The Community Council reviews this rate on an annual basis. Sponsored contributors will have an agreed maximum weekly limit of hours to be worked and an ideal range agreed with the Project Lead.  
+The Community Council agrees that, from the date of this policy, an hourly rate of $40 is the standard rate for sponsored developers who contribute to Mautic. The Community Council reviews this rate annually. The Project Lead agrees on an ideal range and an agreed maximum weekly limit of hours that sponsored contributors work.
 
 Contributors won't be able to claim any incidental expenses without explicit approval from the Project Lead in writing, in advance of incurring any costs.
 
-All sponsored contributors will be required to raise an invoice on :xref:`Mautic Open Collective` at the end of each month for the hours worked the previous month, or have a regular monthly sponsor tier on Open Collective, which Mautic can select to sponsor them for ongoing agreements.
+All sponsored contributors need to raise an invoice on :xref:`Mautic Open Collective` at the end of each month for the hours worked the previous month, or have a regular monthly sponsor tier on Open Collective, which Mautic can select to sponsor them for ongoing agreements.
 
 Contracts
 =========
 
-Where a freelancer is being hired, the Mautic Community will use the UpWork team account to post roles, interview candidates, and hire the candidate.
+When the Mautic Community hires a freelancer, it uses the UpWork team account to post roles, interview candidates, and hire the candidate.
 
-Where a contributor is being sponsored outside UpWork, a contract will be drawn up by Open Collective’s HR provider, ``remote.com``. All contributors being paid by the Mautic Project in a freelance consultant capacity, as opposed to being employed, are responsible for managing their tax and insurance obligations in their locality.
+If the Mautic Community sponsors a contributor outside UpWork, Open Collective’s HR provider draws up a contract, ``remote.com``. All contributors the Mautic Project pays in a freelance consultant capacity, as opposed to when it employs them, are responsible for managing their tax and insurance obligations in their locality.
 
-Terminating an agreement
 ========================
 
-Generally speaking, agreements to sponsor a contributor are subject to the expected performance and outcomes being delivered, whether an ongoing or project-based agreement. 
+Generally speaking, Mautic subjects agreements to sponsor a contributor to the delivery of expected performance and outcomes, whether an ongoing or project-based agreement. 
 
-The contributor or the Mautic Project may decide to end the agreement with four weeks' notice for any reason in the case of an ongoing agreement, or one week’s notice in the case of a project-based agreement. All work completed up to the point of the contract ceasing will be paid in the final invoice.
+The contributor or the Mautic Project may decide to end the agreement with four weeks' notice for any reason in the case of an ongoing agreement, or one week’s notice in the case of a project-based agreement. The final invoice includes payment for all work completed up to the end of the contract.
 
 Bounty programme
 ****************
@@ -71,17 +67,19 @@ Read more about :doc:`BountySource</contributing/mautic_bounty_programme>`.
 Initiatives and new feature development
 ***************************************
 
-There is an :doc:`RFP process</policies/request_for_proposals_(RFP)_process>` which is used for the proposing of projects and Strategic Initiatives, which may have a financial compensation allocated to the project. These is managed through the Mautic Open Collective as individual projects.
+.. vale off
+
+The :doc:`RFP process</policies/request_for_proposals_(RFP)_process>` outlines how contributors propose projects and Strategic Initiatives. The Mautic Open Collective manages these as individual projects.
+
+.. vale on
 
 Credits
 *******
 
-Inspiration has been drawn from numerous sources, including:
+The Mautic Community drew inspiration from numerous sources, including:
 
 * :xref:`ArduPilot`
 * :xref:`RudderStack`
-* :xref:`OBS open-source project's model`
+* :xref:`OBS open source project's model`
 * :xref:`Drupal 8 Accelerate Fund`
 * :xref:`ESLint A year of paying contributors review`
-
-.. vale on
