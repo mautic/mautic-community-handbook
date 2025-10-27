@@ -29,13 +29,14 @@ The community makes a clear proposal that outlines the benefits to the Mautic Pr
 The proposal should include clear outcomes that are demonstrable. For example, they refactor the top three sections on the developer documentation and publish the work via pull requests on the new developer documentation repository, or they work on reducing the backlog of open pull requests by 20% by testing and code reviewing outstanding pull requests.
 
 Mautic supports sponsored contributors for an initial three month period, and the community conducts a review at the end of this period.
+
 Rate of remuneration
 ====================
 
 Finding an hourly amount which is appropriate worldwide for all levels of experience is always going to be a challenge. 
 
 At this early stage, the Mautic Community has taken into consideration information from salary surveys from :xref:`Stack Overflow Annual Developer Survey` and other sites such as :xref:`Glassdoor PHP Developer Salary` alongside insights from other open source projects such as :xref:`ESLint A year of paying contributors review` and :xref:`Drupal 8 Accelerate Fund`, who have implemented similar policies.
- 
+
 The Community Council agrees that, from the date of this policy, an hourly rate of $40 is the standard rate for sponsored developers who contribute to Mautic. The Community Council reviews this rate annually. The Project Lead agrees on an ideal range and an agreed maximum weekly limit of hours that sponsored contributors work.
 
 Contributors won't be able to claim any incidental expenses without explicit approval from the Project Lead in writing, in advance of incurring any costs.
