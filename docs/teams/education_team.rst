@@ -145,7 +145,6 @@ The Education Team need people with skills as:
 
    Would you like to get involved in this team? Join :xref:`Education Team on Slack` on :xref:`Mautic Community Slack`.
 
-.. vale off
 
 End-User Documentation
 **********************
@@ -516,5 +515,3 @@ Here are other common style and copy issues you may run into when writing suppor
 * Don't use :xref:`Serial comma` in a list of items.
   
   For example, use "Extensions, themes and plugins," without the serial comma, not "Extensions, themes, and plugins."
-
-.. vale on
