@@ -198,6 +198,13 @@ These are individuals who have previously served on the Mautic Community Leaders
    * - Nico Grienauer
      - Community Team Assistant Lead
      - 2020
+   * - Andy Towne
+     - Mautic Council Member
+     - 2023
+     - 2024
+   * - Favour Chibueze
+     - Education Team Assistant Lead
+     - 2024
      - 2024
    * - Oluwatobi Owolabi
      - Marketing Team Lead
