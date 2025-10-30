@@ -13,4 +13,4 @@ Please also join the :xref:`Translations channel on Slack` channel on Slack, whi
 Translating other resources
 ***************************
 
-Mautic is in the early stages of investigating projects to deploy multilingual features on website, documentation, community handbook, and Knowledgebase. If you want to contribute, join the :xref:`Translations channel on Slack` and :xref:`Education Team on Slack` channels.
+Mautic is in the early stages of investigating projects to deploy multilingual features on website, documentation, community handbook, and Knowledgebase. If you want to contribute, join the :xref:`Translations channel on Slack` and :xref:`Education Team on Slack` channels on Slack.
