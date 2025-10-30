@@ -193,7 +193,7 @@ Whether people have a question they need to answer or are just learning more abo
 
 This means that:
 
-* **Use simple, clear language.** We understand that the world of Marketing is riddled with buzz words, acronyms and confusing terminology. We strip this back and get down to what the reader needs to know. We always explain terms, phrases and concepts in a clear and concise way, and encourage our readers to explore further.
+* **Use simple, clear language.** We understand that the world of Marketing often contains buzzwords, acronyms and confusing terminology. We strip this back and get down to what the reader needs to know. We always explain terms, phrases and concepts in a clear and concise way, and encourage our readers to explore further.
 * **Care.** We've been where our readers are. We care about their success. We want their businesses and organizations to use Mautic to its full potential. We care deeply about helping them to succeed and our writing helps them every step of the way.
 * **Demystify.** We make the difficult and complex easy to understand. We bring clarity to marketing jargon, and help our readers succeed with their marketing projects.
 
@@ -204,7 +204,7 @@ The tone we use varies depending on the context. Each resource will explain the 
 
 Always consider the reader's state of mind when writing.  
 
-As an example, if you're explaining how to fix an error or problem for the Knowledgebase, remember that horrible feeling when something has gone badly wrong and you're panicking. Put yourself in their shoes as they try to fix it.
+As an example, if you're explaining how to fix an error or problem for the Knowledgebase, remember that horrible feeling when something has gone badly wrong and you're panicking. Imagine yourself in their shoes as they try to fix it.
 
 Your writing tone will need to be calming, clear, concise, and have step-by-step instructions covering all eventualities to support the reader in their time of crisis.
 
@@ -243,7 +243,7 @@ Guidelines
 Avoid directional language
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Avoid using language which infers a direction based on what the reader sees on the screen. Mautic's interface will change depending on the device being used and the layout of the page.
+Avoid using language which infers a direction based on what the reader sees on the screen. The Mautic interface changes depending on the device and the page layout.
 
 Instead of "Select from the options on the right menu," use "Select from these options," and list the options.
 
@@ -359,7 +359,7 @@ Work with End-User and Developer Documentation
 
 To learn how to create a new resource, see Create a new Documentation resource.
 
-See :doc:`/contributing/contributing_docs_rst` for an overview of how the documentation works and the syntax that should be used.
+See :doc:`/contributing/contributing_docs_rst` for an overview of how the documentation works and the syntax you should use.
 
 Check the Education Team's :xref:`Jira board education team` for tasks relating to the End-User Documentation.
 
@@ -398,7 +398,7 @@ Write a good introduction
 
 Along with the title and the table of contents, the introduction is what people will use to quickly determine if they're in the right place.
 
-* **For a tutorial or how-to article:** give a brief summary of what things can be learned.
+* **For a tutorial or how-to article:** give a brief summary of what readers can learn.
 * **For a reference article:** give a brief explanation of the feature.
 * **For a troubleshooting article:** give a brief summary of the problem and its symptoms.
 
