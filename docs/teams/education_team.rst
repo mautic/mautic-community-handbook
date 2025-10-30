@@ -333,7 +333,7 @@ Take a look at your heading structure. Does it work with the introduction to giv
 To summarize, you should follow these guidelines:
 
 * When writing for the Knowledgebase, keep it short. People come to the Knowledgebase looking for quick solutions. They might not care about the inner workings of Mautic. They just want to know what they should do to fix their problem. Link out to documentation articles or other resources which might include further details.
-* When writing for the End-User Documentation or Developer Documentation, ensure that you fully explain all aspects of the feature or functionality. Don't make assumptions that a user will already know or understand how something works. Link to other documentation resources as appropriate.
+* When writing for the End-User Documentation or Developer Documentation, ensure that you fully explain all aspects of the feature or functionality. Don't assume that a user already knows or understands how something works. Link to other documentation resources as appropriate.
 * Use headings to organize your content and allow people to quickly find the relevant part of the resource.
 * Avoid jargon. Be specific. Use words in the title and in the article that the reader would use. If a teenager wouldn't understand what's contained within the article, write it so that they would.
 
@@ -396,7 +396,7 @@ Writing style for the Knowledgebase
 Write a good introduction
 -------------------------
 
-Along with the title and the table of contents, the introduction is what people will use to quickly determine if they're in the right place.
+Along with the title and the table of contents, the introduction helps people quickly determine if they're in the right place.
 
 * **For a tutorial or how-to article:** give a brief summary of what readers can learn.
 * **For a reference article:** give a brief explanation of the feature.
@@ -431,7 +431,7 @@ Some additional things to consider:
 Organizing content in the Knowledgebase
 ---------------------------------------
 
-We currently have six key areas in which we organize content for the Knowledgebase:
+The Knowledgebase organizes content into six key areas:
 
 * Installation
 * FAQs
@@ -443,14 +443,13 @@ We currently have six key areas in which we organize content for the Knowledgeba
 Write a good search summary
 ---------------------------
 
-The article summary along with the title are the only things that the user has to judge whether or not an article will answer their question. We call this 'User Confidence' and it directly impacts click through rates.
+The article summary along with the title are the only things that users have to judge whether an article answers their question. We call this 'User Confidence' and it directly impacts click through rates.
 
 Even if we serve the correct article at the top of the search results list, the user needs to make the mental connection between the search query and the results we display in order for them to click through to the article.
 
 A summary for a how-to article should include the topics covered in the article. A troubleshooting article should try to include symptoms. In addition, a summary should follow these guidelines:
 
-* **Short and to the point**. Remember classified ads? Write it like that. Search engines may cut off anything longer than 140 characters. If you use a longer summary, keep the important information at the beginning. **Note:** the KB software will show 20 characters remaining when the summary reaches 140 characters because the internal search limit is 160.
-* **Don't use wiki markup**. Just plain text in any of the SEO fields.
+* **Short and to the point**. Remember classified ads? Write it like that. Search engines may cut off anything longer than 140 characters. If you use a longer summary, keep the important information at the beginning. **Note:** the KB software shows 20 characters remaining when the summary reaches 140 characters because the internal search limit is 160
 * **Don't use "This article explains" in every summary**. Vary it when possible. Some other phrases to consider:
 
   * This page shows you ...
