@@ -22,7 +22,7 @@ This policy provides a guideline on how Mautic uses the funds available for use 
 Proposing sponsored contributors
 ================================
 
-Team Leads can propose that the Mautic Community sponsor any contributor from their teams who are in good standing within the community. The Community Council reviews these, and the Project Lead approves the final decision.. It's important to note that the Mautic Community is unable to pay people who live in certain countries for legal reasons. Please check the :doc:`Financial Policy </policies/financial_policy>` for further details.
+Team Leads can propose that the Mautic Community sponsor any contributor from their teams who are in good standing within the community. The Community Council reviews these, and the Project Lead approves the final decision. It's important to note that the Mautic Community is unable to pay people who live in certain countries for legal reasons. Please read the :doc:`Financial Policy </policies/financial_policy>` for further details.
 
 The community makes a clear proposal that outlines the benefits to the Mautic Project from sponsoring the individual. This proposal includes examples of the person's previous contributions and a plan for what they work on during the first three months.
 
@@ -50,20 +50,12 @@ When the Mautic Community hires a freelancer, it uses the UpWork team account to
 
 If the Mautic Community sponsors a contributor outside UpWork, Open Collective’s HR provider draws up a contract. All contributors the Mautic Project pays in a freelance consultant capacity, as opposed to when it employs them, are responsible for managing their tax and insurance obligations in their locality.
 
+Terminating an agreement
 ========================
 
 Generally speaking, Mautic agrees to sponsor a contributor subject to the delivery of expected performance and outcomes, whether an ongoing or project-based agreement. 
 
 The contributor or the Mautic Project may decide to end the agreement with four weeks' notice for any reason in the case of an ongoing agreement, or one week’s notice in the case of a project-based agreement. The final invoice includes payment for all work completed up to the end of the contract.
-
-Bounty programme
-****************
-
-Any repositories within the Mautic organization on GitHub that are eligible have the BountySource integration enabled. This allows individuals and organizations - including the Mautic Project - to add a bounty to issues that they want to see fixed.
-
-The Product Team can place bounties on issues that they need to have addressed in a forthcoming release, with the funds coming from their budget line for this purpose.
-
-Read more about :doc:`BountySource</contributing/mautic_bounty_programme>`.
 
 Initiatives and new feature development
 ***************************************
