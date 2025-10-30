@@ -185,9 +185,9 @@ Voice and tone
 Voice
 ~~~~~
 
-Most of us writing for the Mautic project have been in the shoes of our readers. We know what it's like to be where they're. We know that Mautic and Marketing Automation can be a minefield of confusing terms, abbreviations, and complicated workflows.
+Anyone writing for the Mautic project has been in the shoes of readers. We know what it's like to be where they're. We know that Mautic and Marketing Automation can be a minefield of confusing terms, abbreviations, and complicated workflows.
 
-When we write, we speak like the experienced partner that we all wish we'd had, holding our hand and pointing us to the useful resources when we were back at the start of our Mautic journey. We treat every reader seriously. We want to educate our readers, without patronizing them or confusing them.
+When writing, adopt the tone of an experienced partner readers wish they had: guide gently and point to useful resources for those starting the Mautic journey. Treat every reader seriously. Aim to educate readers without patronizing or causing confusion.
 
 Whether people have a question they need to answer or are just learning more about Mautic, every word we write informs and encourages. We share our expertise with clarity and empathy.
 
