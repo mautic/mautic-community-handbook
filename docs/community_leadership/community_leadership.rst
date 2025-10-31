@@ -118,6 +118,11 @@ The current leadership team and their terms are as follows:
      - favour.chibueze@mautic.org
      - 2024
      - 2026
+   * - Ayu Adiati
+     - Assistant Team Lead, Education
+     - ayu.adiati@mautic.org
+     - 2025
+     - 2027
    * - Ruth Cheesley
      - Legal & Finance Team Lead
      - ruth.cheesley@mautic.org
