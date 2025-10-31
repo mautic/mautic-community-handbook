@@ -180,10 +180,6 @@ These are individuals who have previously served on the Mautic Community Leaders
      - Assistant Team Lead, Marketing
      - 2021
      - 2023
-   * - Joey Keller
-     - Assistant Team Lead, Product (Product)
-     - 2021
-     - 2023
    * - Oluwatobi Owolabi
      - Marketing Team Lead
      - 2021
@@ -199,10 +195,6 @@ These are individuals who have previously served on the Mautic Community Leaders
    * - Mattias Michaux
      - Product Team Lead
      - 2023
-     - 2024
-   * - Favour Chibueze
-     - Assistant Team Lead, Education
-     - 2024
      - 2024
    * - Norman Pracht
      - Assistant Team Lead, Product (Development)
