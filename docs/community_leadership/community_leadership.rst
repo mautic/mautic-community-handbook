@@ -167,7 +167,7 @@ These are individuals who have previously served on the Mautic Community Leaders
    * - Nico Grienauer
      - Assistant Team Lead, Community
      - 2020
-     - 
+     - 2023
    * - Mohit Aghera
      - Assistant Team Lead, Product (Development)
      - 2020
