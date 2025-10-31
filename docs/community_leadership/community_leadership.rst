@@ -134,7 +134,7 @@ The current leadership team and their terms are as follows:
      - 2024
      - 2027
    * - Sven Döring
-     - Marketing Team Assistant Lead
+     - Assistant Team Lead, Marketing
      - sven.doering@mautic.org
      - 2023
      - 2025
@@ -152,22 +152,6 @@ These are individuals who have previously served on the Mautic Community Leaders
      - **Role**
      - **Term Commenced**
      - **Term Ended**
-   * - Mohit Aghera
-     - Assistant Team Lead, Product (Development)
-     - 2020
-     - 2023
-   * - Norman Pracht
-     - Product Team Lead
-     - 2020
-     - 2023
-   * - John Linhart
-     - Technical Community Lead
-     - 2022
-     - 2024
-   * - Déborah Salves
-     - Assistant Team Lead, Marketing
-     - 2021
-     - 2023
    * - Dennis Ameling
      - Assistant Team Lead, Product
      - 2020
@@ -184,29 +168,45 @@ These are individuals who have previously served on the Mautic Community Leaders
      - Assistant Team Lead, Community
      - 2020
      - 
-   * - Andy Towne
-     - Mautic Council Member
+   * - Mohit Aghera
+     - Assistant Team Lead, Product (Development)
+     - 2020
      - 2023
-     - 2024
-   * - Favour Chibueze
-     - Assistant Team Lead, Education
-     - 2024
+   * - Norman Pracht
+     - Product Team Lead
+     - 2020
+     - 2023
+   * - Déborah Salves
+     - Assistant Team Lead, Marketing
+     - 2021
+     - 2023
+   * - Joey Keller
+     - Assistant Team Lead, Product (Product)
+     - 2021
+     - 2023
+   * - John Linhart
+     - Technical Community Lead
+     - 2022
      - 2024
    * - Oluwatobi Owolabi
      - Marketing Team Lead
      - 2021
      - 2024
+   * - Favour Kelvin
+     - Education Team Lead
+     - 2021
+     - 2024
+   * - Andy Towne
+     - Mautic Council Member
+     - 2023
+     - 2024
    * - Mattias Michaux
      - Product Team Lead
      - 2023
      - 2024
-   * - Joey Keller
-     - Assistant Team Lead, Product (Product)
-     - 2021
-     - 2023
-   * - Favour Kelvin
-     - Education Team Lead
-     - 2021
+   * - Favour Chibueze
+     - Assistant Team Lead, Education
+     - 2024
      - 2024
    * - Norman Pracht
      - Assistant Team Lead, Product (Development)
