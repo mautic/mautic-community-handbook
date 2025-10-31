@@ -8,7 +8,7 @@ Background
 
 In 2020, Mautic launched several Strategic Initiatives announced at Mautic Conference Global. Over the past two years, there have also been numerous community-generated ideas for new features. Some of these ideas require funding and are at various stages of development.
 
-Through experience, Mautic has learned the importance of a well-defined Request for Proposals - RFP - process to manage projects that introduce new features or address major bug fixes in Mautic. This approach takes inspiration from the :xref:`OBS open-source project's model`.
+Through experience, Mautic has learned the importance of a well-defined Request for Proposals - RFP - process to manage projects that introduce new features or address major bug fixes in Mautic. This approach takes inspiration from the :xref:`OBS open source project's model`.
 
 .. vale on
 
@@ -149,6 +149,6 @@ Credits
 
 .. vale off
 
-This process is heavily inspired by the :xref:`OBS open-source project's model`, which uses a similar workflow for its bounty program.
+This process is heavily inspired by the :xref:`OBS open source project's model`, which uses a similar workflow for its bounty program.
 
 .. vale on
