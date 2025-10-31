@@ -113,11 +113,6 @@ The current leadership team and their terms are as follows:
      - joey.keller@mautic.org
      - 2024
      - 2027
-   * - Favour Kelvin
-     - Education Team Lead
-     - favour.kelvin@mautic.org
-     - 2021
-     - 2024
    * - Favour Chibueze
      - Education Team Assistant Lead
      - favour.chibueze@mautic.org
@@ -159,7 +154,7 @@ Honor roll
 
 These are individuals who have previously served on the Mautic Community Leadership Team:
 
-.. list-table:: Honour Roll
+.. list-table:: Honor Roll
    :header-rows: 1
    :widths: 15 30 20 20
 
@@ -219,6 +214,10 @@ These are individuals who have previously served on the Mautic Community Leaders
      - Product Team Assistant Lead (Product)
      - 2021
      - 2023
+   * - Favour Kelvin
+     - Education Team Lead
+     - 2021
+     - 2024
 
 .. vale off
 
