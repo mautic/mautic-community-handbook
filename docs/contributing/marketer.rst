@@ -1,24 +1,20 @@
 Marketer
 ########
 
-.. vale off
+As the world's first Open Source Marketing Automation platform, Mautic faces a unique challenges.
 
-As the world's first Open Source Marketing Automation platform, we have quite a challenge on our hands.
-
-Most people in Open Source circles have never heard of Marketing Automation. They don't even know there's an Open Source alternative to the tools they are using. 
-
-Many people in the wider world have never heard of Marketing Automation - they don't know what benefits it could bring to their organizations, or that they could access these benefits by using an Open Source tool.
+Marketing automation is a term unfamiliar to many, including most people in open source communities, who may not realize there are open source alternatives to the tools they use. Similarly, many people in the wider world are unaware of marketing automation's potential benefits for their organizations or that these advantages are accessible through open source software.
 
 You can imagine, therefore, how many people actually know about Mautic.
 
-That's why we need your help.
+That's why your contributions matter.
 
 Getting started as a marketer
 *****************************
 
-We have a Marketing Team which you can read more about on the :doc:`Marketing Team </teams/marketing_team>` section.
+Mautic has a Marketing Team, which you can learn more about in the :doc:`Marketing Team </teams/marketing_team>` section.
 
-The team holds regular meetings, which anybody can join - just hop into the :xref:`Mautic marketing team Slack` channel on Slack, and you'll get a notification when the next meeting is coming up. 
+The team holds regular meetings that anyone can participate in. Join the :xref:`Mautic marketing team Slack` channel on Slack to get a notification when the next meeting is coming up. 
 
 Finding a marketing task
 ========================
@@ -39,15 +35,13 @@ If you need help, please reach out to the team. When you start working on a task
 Work in the public domain
 *************************
 
-Unless there is significant reason not to, we default to being open and transparent. We work in the open, usually on our shared :xref:`Mautic Google Drive` or by sharing our work with the team on our Canva account. This ensures that if - for whatever reason - someone is unable to complete a task, it is easy for another contributor to pick up where they left off. It also means we can always find previous work that had been done if it needs to be re-used in the future.
+Unless there's a significant reason not to, prioritize openness and transparency in the work process. Collaboration usually occurs in shared :xref:`Mautic Google Drive` or through the team Canva account. This ensures that if a contributor is unable to complete a task, it's easy for someone else to pick up where they left off. It also means anyone can always find previous work if needed for future re-use.
 
-Please always ensure that you upload your work at regular - ideally daily - intervals. You can use the file prefix of WIP-filename to indicate that it is currently in progress.
+Please always ensure that you upload work at regular—ideally daily—intervals. Use the file prefix of ``WIP-``, followed by the filename, to indicate that it's currently in progress.
 
 Update regularly
 ****************
 
 Please provide regular updates on the issue. If you can’t complete the task, add a comment on the issue or let your Team Lead know so someone else can take it over.
 
-We totally understand that life happens and it's easy to take on too much. No judgement at all. We try to be respectful of each other by ensuring we give as much notice as possible if we're not going to be able to fulfil a task assigned to us.
-
-.. vale on
+Life can be unpredictable, and it's easy to take on too much at once. There's no judgment here. The team's goal is to show respect for one another by providing as much notice as possible when unable to fulfill an assigned task.
