@@ -134,7 +134,7 @@ The current leadership team and their terms are as follows:
      - 2024
      - 2027
    * - Sven Döring
-     - Assistant Team Lead, Marketing
+     - Marketing Team Lead
      - sven.doering@mautic.org
      - 2023
      - 2025
