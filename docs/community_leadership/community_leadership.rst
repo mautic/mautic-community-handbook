@@ -114,7 +114,7 @@ The current leadership team and their terms are as follows:
      - 2024
      - 2027
    * - Favour Chibueze
-     - Education Team Assistant Lead
+     - Education Team Lead
      - favour.chibueze@mautic.org
      - 2024
      - 2026
