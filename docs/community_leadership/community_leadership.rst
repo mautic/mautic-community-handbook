@@ -138,21 +138,6 @@ The current leadership team and their terms are as follows:
      - sven.doering@mautic.org
      - 2023
      - 2025
-   * - Mike Van Hemelrijck
-     - Assistant Team Lead, Marketing
-     - mike.hemelrijck@mautic.org
-     - 2024
-     - 2027
-   * - Norman Pracht
-     - Product Team Assistant Lead (Development)
-     - norman.pracht@mautic.org
-     - 2023
-     - 2025
-   * - Avinash Dalvi
-     - Assistant Team Lead, Community
-     - avinash.dalvi@mautic.org
-     - 2024
-     - 2027
 
 Honor roll
 ==========
@@ -168,7 +153,7 @@ These are individuals who have previously served on the Mautic Community Leaders
      - **Term Commenced**
      - **Term Ended**
    * - Mohit Aghera
-     - Product Team Assistant Lead (Development)
+     - Assistant Team Lead, Product (Development)
      - 2020
      - 2023
    * - Norman Pracht
@@ -180,11 +165,11 @@ These are individuals who have previously served on the Mautic Community Leaders
      - 2022
      - 2024
    * - Déborah Salves
-     - Marketing Team Assistant Lead
+     - Assistant Team Lead, Marketing
      - 2021
      - 2023
    * - Dennis Ameling
-     - Product Team Assistant Lead
+     - Assistant Team Lead, Product
      - 2020
      - 2021
    * - Leon Oltmanns
@@ -196,7 +181,7 @@ These are individuals who have previously served on the Mautic Community Leaders
      - 2020
      - 2021
    * - Nico Grienauer
-     - Community Team Assistant Lead
+     - Assistant Team Lead, Community
      - 2020
      - 
    * - Andy Towne
@@ -204,7 +189,7 @@ These are individuals who have previously served on the Mautic Community Leaders
      - 2023
      - 2024
    * - Favour Chibueze
-     - Education Team Assistant Lead
+     - Assistant Team Lead, Education
      - 2024
      - 2024
    * - Oluwatobi Owolabi
@@ -216,13 +201,25 @@ These are individuals who have previously served on the Mautic Community Leaders
      - 2023
      - 2024
    * - Joey Keller
-     - Product Team Assistant Lead (Product)
+     - Assistant Team Lead, Product (Product)
      - 2021
      - 2023
    * - Favour Kelvin
      - Education Team Lead
      - 2021
      - 2024
+   * - Norman Pracht
+     - Assistant Team Lead, Product (Development)
+     - 2023
+     - 2025
+   * - Avinash Dalvi
+     - Assistant Team Lead, Community
+     - 2024
+     - 2025
+   * - Mike Van Hemelrijck
+     - Assistant Team Lead, Marketing
+     - 2024
+     - 2025
 
 .. vale off
 
