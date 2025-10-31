@@ -184,10 +184,6 @@ These are individuals who have previously served on the Mautic Community Leaders
      - Assistant Team Lead, Product (Product)
      - 2021
      - 2023
-   * - John Linhart
-     - Technical Community Lead
-     - 2022
-     - 2024
    * - Oluwatobi Owolabi
      - Marketing Team Lead
      - 2021
@@ -195,6 +191,10 @@ These are individuals who have previously served on the Mautic Community Leaders
    * - Favour Kelvin
      - Education Team Lead
      - 2021
+     - 2024
+   * - John Linhart
+     - Technical Community Lead
+     - 2022
      - 2024
    * - Mattias Michaux
      - Product Team Lead
