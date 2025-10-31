@@ -142,7 +142,7 @@ The current leadership team and their terms are as follows:
 Leadership honor roll
 =====================
 
-These are individuals who have previously served on the Mautic Community Leadership Team:
+These are individuals who have previously served on the Mautic Leadership Team:
 
 .. list-table:: Leadership Honor Roll
    :header-rows: 1
