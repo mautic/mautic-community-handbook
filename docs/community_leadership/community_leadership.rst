@@ -107,7 +107,7 @@ The current leadership team and their terms are as follows:
      - Community Team Lead
      - ekke.guembel@mautic.org
      - 2020
-     - 2023
+     - 2025
    * - Joey Keller
      - Product Team Lead
      - joey.keller@mautic.org
