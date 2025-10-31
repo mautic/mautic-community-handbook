@@ -1,6 +1,6 @@
 from . import link
 
-link_name = "Mautic Transifex signup" 
+link_name = "mautic transifex signup" 
 link_text = "sign up for an account on Transifex" 
 link_url = "https://app.transifex.com/join/?o=mautic&p=mautic&t=opensource" 
 
