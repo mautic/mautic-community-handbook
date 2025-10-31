@@ -139,12 +139,12 @@ The current leadership team and their terms are as follows:
      - 2023
      - 2025
 
-Honor roll
-==========
+Leadership honor roll
+=====================
 
 These are individuals who have previously served on the Mautic Community Leadership Team:
 
-.. list-table:: Honor Roll
+.. list-table:: Leadership Honor Roll
    :header-rows: 1
    :widths: 15 30 20 20
 
@@ -256,7 +256,7 @@ The Mautic Council is a governing body that addresses topics impacting the Mauti
      - Director of Digital Experience Services at Axelerant
      - prateek.jain@mautic.org
 
-Mautic Council Honor Roll
+Mautic Council honor roll
 =========================
 
 The Mautic Council would like to thank the following individuals who have previously served on the Council:
