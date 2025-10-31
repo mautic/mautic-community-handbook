@@ -198,6 +198,14 @@ These are individuals who have previously served on the Mautic Community Leaders
    * - Nico Grienauer
      - Community Team Assistant Lead
      - 2020
+     - 
+   * - Andy Towne
+     - Mautic Council Member
+     - 2023
+     - 2024
+   * - Favour Chibueze
+     - Education Team Assistant Lead
+     - 2024
      - 2024
    * - Oluwatobi Owolabi
      - Marketing Team Lead
@@ -229,9 +237,12 @@ The Mautic Council is a governing body that addresses topics impacting the Mauti
    * - Name
      - Role
      - Email Address
-   * - Andy Towne
-     - Senior Customer Value Manager at Acquia
-     - andy.towne@mautic.org
+   * - Simran Sethi
+     -  Council Member
+     - simran.sethi@mautic.org
+   * - Adrian Schimpf
+     - Council Member
+     - adrian.schimpf@mautic.org
    * - Dominique De Cooman
      - Co-founder and co-CEO at Dropsolid
      - dominique.decooman@mautic.org
@@ -241,14 +252,33 @@ The Mautic Council is a governing body that addresses topics impacting the Mauti
    * - John Linhart
      - Principal Software Engineer at Acquia
      - john.linhart@mautic.org
-   * - Favour Chibueze
-     - Front End Engineer at Eden Life Inc.
-     - favour.chibueze@mautic.org
    * - Norman Pracht
      - Associate General Manager at Webmecanik
      - norman.pracht@mautic.org
    * - Prateek Jain
      - Director of Digital Experience Services at Axelerant
      - prateek.jain@mautic.org
+
+Mautic Council Honor Roll
+=========================
+
+The Mautic Council would like to thank the following individuals who have previously served on the Council:
+
+.. list-table::  Mautic Council Honor Roll
+   :header-rows: 1
+   :widths: 20 35 25 20
+
+   * - Name
+     - Role
+     - Email Address
+     - Term Ended
+   * - Andy Towne
+     - Council Member
+     - andy.towne@mautic.org
+     - 2025
+   * - Favour Chibueze
+     - Council Member
+     - favour.chibueze@mautic.org
+     - 2025
 
 .. vale on
