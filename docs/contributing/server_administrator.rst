@@ -20,7 +20,7 @@ Initially, you start by shadowing one of the existing team members and help with
 Accessing the Jira board
 ************************
 
-Once you sign the NDA, the team invites you to the Jira board for the Infrastructure Working Group. From here, you can start to interact with outstanding tasks and request assignment to any that you feel able to take on.
+Once you sign the NDA, you receive an invitation to the Jira board for the Infrastructure Working Group. From there, you can begin interacting with outstanding tasks and request assignment to any task that you feel capable of handling.
 
 The board and issues are private due to the nature of the work.
 
