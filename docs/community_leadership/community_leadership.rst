@@ -260,7 +260,7 @@ The Mautic Council is a governing body that addresses topics impacting the Mauti
      - prateek.jain@mautic.org
 
 Mautic Council Honor Roll
-========================
+=========================
 
 The Mautic Council would like to thank the following individuals who have previously served on the Council:
 
@@ -273,11 +273,11 @@ The Mautic Council would like to thank the following individuals who have previo
      - Email Address
      - Term Ended
    * - Andy Towne
-     - Senior Customer Value Manager at Acquia
+     - Council Member
      - andy.towne@mautic.org
      - 2025
    * - Favour Chibueze
-     - Front End Engineer at Eden Life Inc.
+     - Council Member
      - favour.chibueze@mautic.org
      - 2025
 
