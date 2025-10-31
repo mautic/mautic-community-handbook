@@ -14,7 +14,7 @@ Getting started as a marketer
 
 Mautic has a Marketing Team, which you can learn more about in the :doc:`Marketing Team </teams/marketing_team>` section.
 
-The team holds regular meetings, which anybody can participate. Join the :xref:`Mautic marketing team Slack` channel on Slack to get a notification when the next meeting is coming up. 
+The team holds regular meetings that anyone can participate in. Join the :xref:`Mautic marketing team Slack` channel on Slack to get a notification when the next meeting is coming up. 
 
 Finding a marketing task
 ========================
