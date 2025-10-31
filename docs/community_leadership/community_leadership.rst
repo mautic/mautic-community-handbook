@@ -196,10 +196,6 @@ These are individuals who have previously served on the Mautic Community Leaders
      - Education Team Lead
      - 2021
      - 2024
-   * - Andy Towne
-     - Mautic Council Member
-     - 2023
-     - 2024
    * - Mattias Michaux
      - Product Team Lead
      - 2023
