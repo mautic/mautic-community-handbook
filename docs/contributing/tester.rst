@@ -351,7 +351,7 @@ In DDEV, you can set the database and PHP version in a file located in the ``.dd
 
 #. :ref:`Set up a GitHub codespace<Setting up a codespace>` from the PR you are testing and immediately stop the build process as soon as the terminal window is displayed by pressing ``Cmd/Ctrl + C`` on your keyboard.
 
-#. Delete anything that has already been started with the command ``ddev delete --omit-snapshot --yes && rm -rf var/cache && rm app/config/local.php``.
+#. Delete anything that has already been started with the command ``ddev delete --omit-snapshot --yes && rm -rf var/cache && rm config/local.php``.
 
 #. Edit the file in ``.ddev/config.yaml`` and change the setting—for instance, change DB from MariaDB 10.3 to MySQL 8. Always remember to save the file.
 
@@ -362,7 +362,7 @@ In DDEV, you can set the database and PHP version in a file located in the ``.dd
 
 #. Type ``ddev start`` in the terminal to continue with installation.
 
-#. Run the installer in the UI or on the command line, as preferred. All the credentials for the database are ``db``.
+#. Run the installer in the UI or on the command line, as preferred. All the credentials for the database are ``db``. The database hostname is ``ddev-mautic-db``.
 
 #. Check that you're using the right version in the system information within Mautic.
 
@@ -377,7 +377,7 @@ To quickly reset your local testing environment by deleting the DDEV containers 
 
 .. code-block::
    
-   ddev delete --omit-snapshot --yes && rm -rf var/cache && rm app/config/local.php
+   ddev delete --omit-snapshot --yes && rm -rf var/cache && rm config/local.php
 
 Leaving a PR review
 *******************
