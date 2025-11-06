@@ -454,7 +454,7 @@ Persons elected as at-large representatives are considered to be seated in order
 5.5.2 Re-election terms
 -----------------------
 
-A Council member may stand for re-election up to three times in a row, subject to the same election process as any other candidate. After serving three consecutive terms, they must step down for at least one term before being eligible to stand for election again.
+A Council member may be re-elected up to two times in a row - a maximum term of six years - subject to the same election process as any other candidate. After serving two consecutive terms, they must step down for at least one term before being eligible to stand for election again.
 
 .. vale on
 
