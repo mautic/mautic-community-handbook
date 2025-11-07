@@ -123,7 +123,7 @@ Scope
 
 All community participants, including contributors, moderators, and guests, must abide by this Code of Conduct in all community venues—online and in person—as well as in one-on-one interactions and communications related to community affairs.
 
-While this code of conduct is specifically aimed at Mautic's official resources and community, actions taken outside of Mautic's official online or in-person spaces can have a significant impact on community health.
+While this Code of Conduct is specifically aimed at Mautic's official resources and community, actions taken outside of Mautic's official online or in-person spaces can have a significant impact on community health.
 
 .. vale off
 
