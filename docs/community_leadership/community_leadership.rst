@@ -107,22 +107,22 @@ The current leadership team and their terms are as follows:
      - Community Team Lead
      - ekke.guembel@mautic.org
      - 2020
-     - 2023
+     - 2025
    * - Joey Keller
      - Product Team Lead
      - joey.keller@mautic.org
      - 2024
      - 2027
-   * - Favour Kelvin
-     - Education Team Lead
-     - favour.kelvin@mautic.org
-     - 2021
-     - 2024
    * - Favour Chibueze
-     - Education Team Assistant Lead
+     - Education Team Lead
      - favour.chibueze@mautic.org
      - 2024
      - 2026
+   * - Ayu Adiati
+     - Assistant Team Lead, Education
+     - ayu.adiati@mautic.org
+     - 2025
+     - 2027
    * - Ruth Cheesley
      - Legal & Finance Team Lead
      - ruth.cheesley@mautic.org
@@ -134,32 +134,17 @@ The current leadership team and their terms are as follows:
      - 2024
      - 2027
    * - Sven Döring
-     - Marketing Team Assistant Lead
+     - Marketing Team Lead
      - sven.doering@mautic.org
      - 2023
      - 2025
-   * - Mike Van Hemelrijck
-     - Assistant Team Lead, Marketing
-     - mike.hemelrijck@mautic.org
-     - 2024
-     - 2027
-   * - Norman Pracht
-     - Product Team Assistant Lead (Development)
-     - norman.pracht@mautic.org
-     - 2023
-     - 2025
-   * - Avinash Dalvi
-     - Assistant Team Lead, Community
-     - avinash.dalvi@mautic.org
-     - 2024
-     - 2027
 
-Honor roll
-==========
+Leadership honor roll
+=====================
 
-These are individuals who have previously served on the Mautic Community Leadership Team:
+These are individuals who have previously served on the Mautic Leadership Team:
 
-.. list-table:: Honour Roll
+.. list-table:: Leadership Honor Roll
    :header-rows: 1
    :widths: 15 30 20 20
 
@@ -167,24 +152,8 @@ These are individuals who have previously served on the Mautic Community Leaders
      - **Role**
      - **Term Commenced**
      - **Term Ended**
-   * - Mohit Aghera
-     - Product Team Assistant Lead (Development)
-     - 2020
-     - 2023
-   * - Norman Pracht
-     - Product Team Lead
-     - 2020
-     - 2023
-   * - John Linhart
-     - Technical Community Lead
-     - 2022
-     - 2024
-   * - Déborah Salves
-     - Marketing Team Assistant Lead
-     - 2021
-     - 2023
    * - Dennis Ameling
-     - Product Team Assistant Lead
+     - Assistant Team Lead, Product
      - 2020
      - 2021
    * - Leon Oltmanns
@@ -196,21 +165,49 @@ These are individuals who have previously served on the Mautic Community Leaders
      - 2020
      - 2021
    * - Nico Grienauer
-     - Community Team Assistant Lead
+     - Assistant Team Lead, Community
      - 2020
-     - 2024
+     - 2023
+   * - Mohit Aghera
+     - Assistant Team Lead, Product (Development)
+     - 2020
+     - 2023
+   * - Norman Pracht
+     - Product Team Lead
+     - 2020
+     - 2023
+   * - Déborah Salves
+     - Assistant Team Lead, Marketing
+     - 2021
+     - 2023
    * - Oluwatobi Owolabi
      - Marketing Team Lead
      - 2021
+     - 2024
+   * - Favour Kelvin
+     - Education Team Lead
+     - 2021
+     - 2024
+   * - John Linhart
+     - Technical Community Lead
+     - 2022
      - 2024
    * - Mattias Michaux
      - Product Team Lead
      - 2023
      - 2024
-   * - Joey Keller
-     - Product Team Assistant Lead (Product)
-     - 2021
+   * - Norman Pracht
+     - Assistant Team Lead, Product (Development)
      - 2023
+     - 2025
+   * - Avinash Dalvi
+     - Assistant Team Lead, Community
+     - 2024
+     - 2025
+   * - Mike Van Hemelrijck
+     - Assistant Team Lead, Marketing
+     - 2024
+     - 2025
 
 .. vale off
 
@@ -229,9 +226,12 @@ The Mautic Council is a governing body that addresses topics impacting the Mauti
    * - Name
      - Role
      - Email Address
-   * - Andy Towne
-     - Senior Customer Value Manager at Acquia
-     - andy.towne@mautic.org
+   * - Simran Sethi
+     -  Council Member
+     - simran.sethi@mautic.org
+   * - Adrian Schimpf
+     - Council Member
+     - adrian.schimpf@mautic.org
    * - Dominique De Cooman
      - Co-founder and co-CEO at Dropsolid
      - dominique.decooman@mautic.org
@@ -241,14 +241,33 @@ The Mautic Council is a governing body that addresses topics impacting the Mauti
    * - John Linhart
      - Principal Software Engineer at Acquia
      - john.linhart@mautic.org
-   * - Favour Chibueze
-     - Front End Engineer at Eden Life Inc.
-     - favour.chibueze@mautic.org
    * - Norman Pracht
      - Associate General Manager at Webmecanik
      - norman.pracht@mautic.org
    * - Prateek Jain
      - Director of Digital Experience Services at Axelerant
      - prateek.jain@mautic.org
+
+Mautic Council honor roll
+=========================
+
+The Mautic Council would like to thank the following individuals who have previously served on the Council:
+
+.. list-table::  Mautic Council Honor Roll
+   :header-rows: 1
+   :widths: 20 35 25 20
+
+   * - Name
+     - Role
+     - Email Address
+     - Term Ended
+   * - Andy Towne
+     - Council Member
+     - andy.towne@mautic.org
+     - 2025
+   * - Favour Chibueze
+     - Council Member
+     - favour.chibueze@mautic.org
+     - 2025
 
 .. vale on
