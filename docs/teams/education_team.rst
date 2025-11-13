@@ -145,19 +145,18 @@ The Education Team need people with skills as:
 
    Would you like to get involved in this team? Join :xref:`Education Team on Slack` on :xref:`Mautic Community Slack`.
 
-.. vale off
 
 End-User Documentation
 **********************
 
 One of the projects that the Education Team are responsible for is the :xref:`User Documentation`.
 
-This section contains useful information, guides and resources for people interested in contributing to the End-User Documentation.
+This section contains useful information, guides, and resources for people interested in contributing to the End-User Documentation.
 
 Technical writing style guide
 *****************************
 
-This document is based on the :xref:`Mozilla writing guide` and the :xref:`Mailchimp content style guide`. Thank you to the creators of these resources and to the organizations for sharing them publicly.
+This document draws on the :xref:`Mozilla writing guide` and the :xref:`Mailchimp content style guide`. Thank you to the creators of these resources and to the organizations for sharing them publicly.
 
 General guidelines applicable to all resources
 ==============================================
@@ -168,17 +167,17 @@ Goals and principles
 The Education Team's goals and principles are to:
 
 * **Empower.** Help people to understand how to use Mautic more effectively by using language which informs, and encourages them to make the most of Mautic.
-* **Respect.** Treat readers with the respect they deserve. Imagine you are in their shoes, and don't patronize them. Remember they are short of time and need to find the answers to their questions quickly. Be considerate and inclusive with your language. 
-* **Educate.** Tell readers what they need to know, and not just what you want to say. Always keep their needs at the centre of your mind when writing. Give them exactly the information they need, along with opportunities to learn more if they want to. Remember, you're the expert. Your reader will not have the same knowledge and expertise as you do.
-* **Guide.** Imagine that you are a tour guide for our readers. Whether you're taking them through a tutorial step by step or teaching them how to set something up in Mautic, always communicate in a friendly, helpful way.
+* **Respect.** Treat readers with the respect they deserve. Imagine you are in their shoes, and don't patronize them. Remember they're short of time and need to find the answers to their questions quickly. Be considerate and inclusive with your language. 
+* **Educate.** Tell readers what they need to know, and not just what you want to say. Always keep their needs at the centre of your mind when writing. Give them exactly the information they need, along with opportunities to learn more if they want to. Remember, you're the expert. Your reader won't have the same knowledge and expertise as you do.
+* **Guide.** Imagine that you are a tour guide for readers. Whether taking them through a tutorial step by step or teaching them how to set something up in Mautic, always communicate in a friendly, helpful way.
 
-In order to achieve our goals, we ensure that all of our content is:
+To achieve these goals, ensure that all content is:
 
 * **Clear.** Make sure you fully understand the topic you are writing about. Use simple words and short sentences.
 * **Useful.** Before you start writing a resource, ask yourself: what purpose does this serve? Who is going to read it? What do they need to know?
 * **Friendly.** We're all human beings, so make sure that you write like one. Don't be afraid of breaking a few rules if it makes your writing more relatable. All of the content we write, wherever it appears, should be warm and human.
 * **Appropriate.** Write in a way that's appropriate to the situation. The Documentation has a more formal tone, whereas the Knowledgebase is more informal. Just as you do in face-to-face situations, adapt your tone and writing style to cater for the audience you're writing for, and what you're writing about.
-* **Correct.** There is a responsibility in writing for the Education Team, and an expectation from our readers, that the information is factually correct. Always ask someone to proofread your writing before publishing.
+* **Correct.** There is a responsibility in writing for the Education Team, and readers expect that the information is factually correct. Always ask someone to proofread your writing before publishing.
 
 Voice and tone
 --------------
@@ -186,15 +185,15 @@ Voice and tone
 Voice
 ~~~~~
 
-Most of us writing for the Mautic project have been in the shoes of our readers. We know what it's like to be where they are. We know that Mautic and Marketing Automation can be a minefield of confusing terms, abbreviations, and complicated workflows.
+Anyone writing for the Mautic project has been in the shoes of readers. We know what it's like to be where they're. We know that Mautic and Marketing Automation can be a minefield of confusing terms, abbreviations, and complicated workflows.
 
-When we write, we speak like the experienced partner that we all wish we'd had, holding our hand and pointing us to the useful resources when we were back at the start of our Mautic journey. We treat every reader seriously. We want to educate our readers, without patronizing them or confusing them.
+When writing, adopt the tone of an experienced partner readers wish they had: guide gently and point to useful resources for those starting the Mautic journey. Treat every reader seriously. Aim to educate readers without patronizing or causing confusion.
 
 Whether people have a question they need to answer or are just learning more about Mautic, every word we write informs and encourages. We share our expertise with clarity and empathy.
 
 This means that:
 
-* **Use simple, clear language.** We understand that the world of Marketing is riddled with buzz words, acronyms and confusing terminology. We strip this back and get down to what the reader needs to know. We always explain terms, phrases and concepts in a clear and concise way, and encourage our readers to explore further.
+* **Use simple, clear language.** We understand that the world of Marketing often contains buzzwords, acronyms and confusing terminology. We strip this back and get down to what the reader needs to know. We always explain terms, phrases and concepts in a clear and concise way, and encourage our readers to explore further.
 * **Care.** We've been where our readers are. We care about their success. We want their businesses and organizations to use Mautic to its full potential. We care deeply about helping them to succeed and our writing helps them every step of the way.
 * **Demystify.** We make the difficult and complex easy to understand. We bring clarity to marketing jargon, and help our readers succeed with their marketing projects.
 
@@ -205,7 +204,7 @@ The tone we use varies depending on the context. Each resource will explain the 
 
 Always consider the reader's state of mind when writing.  
 
-As an example, if you're explaining how to fix an error or problem for the Knowledgebase, remember that horrible feeling when something has gone badly wrong and you're panicking. Put yourself in their shoes as they try to fix it.
+As an example, if you're explaining how to fix an error or problem for the Knowledgebase, remember that horrible feeling when something has gone badly wrong and you're panicking. Imagine yourself in their shoes as they try to fix it.
 
 Your writing tone will need to be calming, clear, concise, and have step-by-step instructions covering all eventualities to support the reader in their time of crisis.
 
@@ -244,7 +243,7 @@ Guidelines
 Avoid directional language
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Avoid using language which infers a direction based on what the reader sees on the screen. Mautic's interface will change depending on the device being used and the layout of the page.
+Avoid using language which infers a direction based on what the reader sees on the screen. The Mautic interface changes depending on the device and the page layout.
 
 Instead of "Select from the options on the right menu," use "Select from these options," and list the options.
 
@@ -334,7 +333,7 @@ Take a look at your heading structure. Does it work with the introduction to giv
 To summarize, you should follow these guidelines:
 
 * When writing for the Knowledgebase, keep it short. People come to the Knowledgebase looking for quick solutions. They might not care about the inner workings of Mautic. They just want to know what they should do to fix their problem. Link out to documentation articles or other resources which might include further details.
-* When writing for the End-User Documentation or Developer Documentation, ensure that you fully explain all aspects of the feature or functionality. Don't make assumptions that a user will already know or understand how something works. Link to other documentation resources as appropriate.
+* When writing for the End-User Documentation or Developer Documentation, ensure that you fully explain all aspects of the feature or functionality. Don't assume that a user already knows or understands how something works. Link to other documentation resources as appropriate.
 * Use headings to organize your content and allow people to quickly find the relevant part of the resource.
 * Avoid jargon. Be specific. Use words in the title and in the article that the reader would use. If a teenager wouldn't understand what's contained within the article, write it so that they would.
 
@@ -360,7 +359,7 @@ Work with End-User and Developer Documentation
 
 To learn how to create a new resource, see Create a new Documentation resource.
 
-See :doc:`/contributing/contributing_docs_rst` for an overview of how the documentation works and the syntax that should be used.
+See :doc:`/contributing/contributing_docs_rst` for an overview of how the documentation works and the syntax you should use.
 
 Check the Education Team's :xref:`Jira board education team` for tasks relating to the End-User Documentation.
 
@@ -390,16 +389,16 @@ Writing style for the Knowledgebase
 -----------------------------------
 
 * Use a conversational writing style - an informal, active style similar to the way you'd explain to someone in person.
-* Using humor is great in-person, but it's sometimes hard or impossible to localize so we recommend instead conveying emotional responses. Emotions like surprise and "I didn't know that!" might be easier to include as they are easy to understand across cultures.
+* Using humor is great in-person, but it's sometimes hard or impossible to localize so we recommend instead conveying emotional responses. Emotions like surprise and "I didn't know that!" might be easier to include as they're easy to understand across cultures.
 * Try to provide content that suits multiple learning styles - people learn differently. Also, everyone benefits from seeing the same content expressed in multiple ways. Work with the Education Team to include videos, images and other media as appropriate.
 * Try to include, where appropriate, activities or step-by-step ways people can try out what you are explaining. Especially in a tutorial, it's good to give people something useful to accomplish. It's one thing to read instructions and understand the process, but it's often helpful to remind and enable people to try things out.
 
 Write a good introduction
 -------------------------
 
-Along with the title and the table of contents, the introduction is what people will use to quickly determine if they're in the right place.
+Along with the title and the table of contents, the introduction helps people quickly determine if they're in the right place.
 
-* **For a tutorial or how-to article:** give a brief summary of what things can be learned.
+* **For a tutorial or how-to article:** give a brief summary of what readers can learn.
 * **For a reference article:** give a brief explanation of the feature.
 * **For a troubleshooting article:** give a brief summary of the problem and its symptoms.
 
@@ -432,7 +431,7 @@ Some additional things to consider:
 Organizing content in the Knowledgebase
 ---------------------------------------
 
-We currently have six key areas in which we organize content for the Knowledgebase:
+The Knowledgebase organizes content into six key areas:
 
 * Installation
 * FAQs
@@ -444,14 +443,13 @@ We currently have six key areas in which we organize content for the Knowledgeba
 Write a good search summary
 ---------------------------
 
-The article summary along with the title are the only things that the user has to judge whether or not an article will answer their question. We call this 'User Confidence' and it directly impacts click through rates.
+The article summary along with the title are the only things that users have to judge whether an article answers their question. We call this 'User Confidence' and it directly impacts click through rates.
 
 Even if we serve the correct article at the top of the search results list, the user needs to make the mental connection between the search query and the results we display in order for them to click through to the article.
 
 A summary for a how-to article should include the topics covered in the article. A troubleshooting article should try to include symptoms. In addition, a summary should follow these guidelines:
 
-* **Short and to the point**. Remember classified ads? Write it like that. Search engines may cut off anything longer than 140 characters. If you use a longer summary, keep the important information at the beginning. **Note:** the KB software will show 20 characters remaining when the summary reaches 140 characters because the internal search limit is 160.
-* **Don't use wiki markup**. Just plain text in any of the SEO fields.
+* **Short and to the point**. Remember classified ads? Write it like that. Search engines may cut off anything longer than 140 characters. If you use a longer summary, keep the important information at the beginning. **Note:** the KB software shows 20 characters remaining when the summary reaches 140 characters because the internal search limit is 160
 * **Don't use "This article explains" in every summary**. Vary it when possible. Some other phrases to consider:
 
   * This page shows you ...
@@ -470,6 +468,8 @@ You should use an active, conversational style when you write for the Knowledgeb
 Avoid saying things like, 'If a user's email has been sent,' and instead, say, 'If you've sent the email.'
 
 Here are other common style and copy issues you may run into when writing support articles - if you don't see your issue here, there's also a Mautic Style Guide:
+
+.. vale off 
 
 * Always use terms the way they appear in the Mautic interface. For example:
 
@@ -498,9 +498,9 @@ Here are other common style and copy issues you may run into when writing suppor
   * :xref:`Proper noun` and names, including brand names, product names and feature names
   
   * The first word of a complete sentence
-  
-  * The letters of abbreviations and acronyms unless they are normally lowercase
-  
+
+  * The letters of abbreviations and acronyms unless they're normally lowercase
+
   * The first word in numbered or bulleted lists
   
   * The name of a key on the keyboard
