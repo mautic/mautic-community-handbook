@@ -121,4 +121,6 @@ linkcheck_ignore = [
     r"https://www.npmjs.com/",
     # 403 errors from this domain
     r"https://opencollective.com/*",
+    # 403 errors from this domain
+    r"https://medium.com/the-node-js-collection/healthy-open-source-967fa8be7951",
 ]
