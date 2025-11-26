@@ -356,11 +356,8 @@ Work with End-User and Developer Documentation
 
 .. vale on
 
-To learn how to create a new resource, see Create a new Documentation resource.
-
-See :doc:`/contributing/contributing_docs_rst` for an overview of how the documentation works and the syntax you should use.
-
-Check the Education Team's :xref:`Jira board education team` for tasks relating to the End-User Documentation.
+* Read the :doc:`/contributing/contributing_docs_rst` for an overview of how the documentation works and the syntax you should use.
+* Check out the Education Team's :xref:`Jira board education team` for tasks relating to the End-User Documentation.
 
 .. vale off
 
@@ -369,9 +366,8 @@ Work with Knowledgebase
 
 .. vale on
 
-To learn how to create a new resource, read the :xref:`contribute to the Knowledgebase` article.
-
-Check out the Education Team's :xref:`Jira board education team` for tasks relating to the Knowledgebase.
+* Read the :xref:`contribute to the Knowledgebase` article to learn how to create a new resource.
+* Check out the Education Team's :xref:`Jira board education team` for tasks relating to the Knowledgebase.
 
 .. vale off
 
