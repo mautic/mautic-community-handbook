@@ -50,12 +50,12 @@ Forums rules
 ============
 
 * Which rules are appropriate
-* What rules are necessary to ensure that the forums work effectively?
+* Which rules are relevant / needed to keep the Forums working fine
 * Moderate Forums or assign moderators
 * Moderate posts by themselves
 * Elect moderators who moderate the Forums for them
 * Redirect all Support questions from Slack to Forums
-* Obvious hint in Slack that support questions aren't answered there
+* Very visible hint in Slack that support questions aren’t answered there
 * Manually moderating Slack & moving stuff to Forums
 * Automatically moving stuff to Forums?
 
