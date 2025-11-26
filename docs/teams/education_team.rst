@@ -50,7 +50,7 @@ Forums rules
 ============
 
 * Which rules are appropriate
-* Which rules are relevant or are needed to keep the Forums working well
+* What rules are necessary to ensure that the forums work effectively?
 * Moderate Forums or assign moderators
 * Moderate posts by themselves
 * Elect moderators who moderate the Forums for them
@@ -200,7 +200,7 @@ Whether people have a question they need to answer or are just learning more abo
 
 This means that:
 
-* **Use simple, clear language.** The world of marketing is filled with buzzwords, acronyms, and complex terminology. It's important to simplify this language and focus on what the reader truly needs to know. Always explain terms, phrases, and concepts clearly and concisely, and encourage readers to explore further.
+* **Use simple, clear language.** The marketing world uses a lot of jargon, acronyms, and complicated terms. It's important to simplify this language and focus on what the reader truly needs to know. Always explain terms, phrases, and concepts clearly and concisely, and encourage readers to explore further.
 * **Care.** You care because you know the reader's starting point. Make their success the top priority, ensuring their businesses and organizations use Mautic to its full potential. The content must actively help them succeed and guide them every step of the way.
 * **Demystify.** Making the difficult and complex easy to understand. This involves clarifying marketing jargon and helping readers succeed with their marketing projects.
 
@@ -484,7 +484,11 @@ Style guide and copy rules
 
 Use an active, conversational style when writing for the Knowledgebase.
 
+.. vale off
+
 Avoid saying things like "If a user's email has been sent," and instead say "If you've sent the email."
+
+.. vale on
 
 Here are other common style and copy issues you may run into when writing support articles - if you don't see your issue here, there's also a Mautic Style Guide:
 
