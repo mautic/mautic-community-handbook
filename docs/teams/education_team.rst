@@ -43,8 +43,8 @@ Quality of contributions
 ========================
 
 * Are the answers to the asked questions correct? Ensure indication of the correct solutions if this is the case.
-* Is it an often asked question? Then, add it to the documentation
-* Are there multiple posts about the same thing? Then, merge into a mega-post
+* Is it an often asked question? Then, add it to the documentation.
+* Are there multiple posts about the same thing? Then, merge into a mega-post.
 
 Forums rules
 ============
@@ -65,10 +65,10 @@ Documentation
 Sources
 =======
 
-* User Documentation describes key concepts of Mautic and provides instructions for using and contributing to Mautic.
-* Knowledgebase provides a database of tutorials, FAQs, and how-to articles.
-* Developer Documentation details about the Mautic API, Webhooks, Themes and Plugin development.
-* Community Handbook is a central point of call for documentation on the organization and management of the Mautic community.
+* **User Documentation** describes key concepts of Mautic and provides instructions for using and contributing to Mautic.
+* **Knowledgebase** provides a database of tutorials, FAQs, and how-to articles.
+* **Developer Documentation** details about the Mautic API, Webhooks, Themes and Plugin development.
+* **Community Handbook** is a central point of call for documentation on the organization and management of the Mautic community.
 
 Quality
 =======
@@ -151,14 +151,14 @@ The Education Team needs people with skills as:
 
 .. vale off
 
-End-User Documentation
-**********************
+User Documentation
+******************
 
 .. vale on
 
 One of the projects that the Education Team is responsible for is the :xref:`User Documentation`.
 
-This section contains helpful information, guides, and resources for people interested in contributing to the End-User Documentation.
+This section contains helpful information, guides, and resources for people interested in contributing to the User Documentation.
 
 Technical writing style guide
 *****************************
@@ -311,7 +311,7 @@ General writing style
 Audiences
 ~~~~~~~~~
 
-Write for a general, non-technical audience when contributing to the End-User Documentation and the Knowledgebase. Write for the developer audience when contributing to the Developer Documentation.
+Write for a general, non-technical audience when contributing to the User Documentation and the Knowledgebase. Write for the developer audience when contributing to the Developer Documentation.
 
 All resources should be usable by everyone at any stage of their journey with Mautic and must avoid bias. They must not feature references to any third-party providers. If you're unsure, always ask the Education Team before making any contributions.
 
@@ -320,7 +320,7 @@ Assume the person you're writing for doesn't know how to use Mautic or doesn't k
 Clear explanations
 ~~~~~~~~~~~~~~~~~~
 
-If you're describing something that people may not understand - for example, how to reset file and folder permissions via SSH in the End-User Documentation, or how to authenticate to use the API - ensure you link to resources that explain any assumed knowledge and provide links for basic tasks such as how to connect via SSH. Also, give a full explanation for every command you use.
+If you're describing something that people may not understand - for example, how to reset file and folder permissions via SSH in the User Documentation, or how to authenticate to use the API - ensure you link to resources that explain any assumed knowledge and provide links for basic tasks such as how to connect via SSH. Also, give a full explanation for every command you use.
 
 Doing so educates the community, reduces the chance of misunderstanding, and gives the user further resources to learn more if they wish.
 
@@ -336,7 +336,7 @@ Take a look at your heading structure. Does it work with the introduction to giv
 To summarize, you should follow these guidelines:
 
 * When writing for the Knowledgebase, keep it short. People come to the Knowledgebase looking for quick solutions. They might not care about the inner workings of Mautic. They want to know what they should do to fix their problem. Link out to documentation articles or other resources that include further details.
-* When writing for the End-User Documentation or Developer Documentation, ensure that you fully explain all aspects of the feature and capability. Don't assume that a user already knows or understands how something works. Link to other documentation resources as appropriate.
+* When writing for the User Documentation or Developer Documentation, ensure that you fully explain all aspects of the feature and capability. Don't assume that a user already knows or understands how something works. Link to other documentation resources as appropriate.
 * Use headings to organize your content and allow people to find the relevant part of the resource quickly.
 * Avoid jargon. Be specific. Use words in the title and in the article that the reader would use. If a teenager wouldn't understand what's in the article, write it so they would.
 
@@ -351,7 +351,7 @@ General guidelines
 Title
 ^^^^^
 
-* When creating a resource on the End-User Documentation or Knowledgebase, ideally, your title should be less than Google's title character count of 65 characters. Your title can be longer than this if necessary. But include your important keywords in the first 65 characters; otherwise, search engines won't see them.
+* When creating a resource on the User Documentation or Knowledgebase, ideally, your title should be less than Google's title character count of 65 characters. Your title can be longer than this if necessary. But include your important keywords in the first 65 characters; otherwise, search engines won't see them.
 * Capitalize the first word in the title, as well as proper nouns and names, but don't capitalize every major word. Use 'sentence' style, not 'headline' style. The same applies to heading titles. See the :ref:`Style guide and copy rules` section below for other rules on capitalization.
 * Try to vary the way you name articles. Don't use the same verbs or phrases in every title. For example, don't always start articles with 'How' and avoid using '-ing' words.
 
@@ -359,13 +359,13 @@ Remember that the entire explanation doesn't have to go into the title. You can 
 
 .. vale off
 
-Work with End-User and Developer Documentation
-==============================================
+Work with User and Developer Documentation
+==========================================
 
 .. vale on
 
 * Read the :doc:`/contributing/contributing_docs_rst` for an overview of how the documentation works and the syntax you should use.
-* Check out the Education Team's :xref:`Jira board education team` for tasks relating to the End-User Documentation.
+* Check out the Education Team's :xref:`Jira board education team` for tasks relating to the User Documentation.
 
 .. vale off
 
@@ -379,8 +379,8 @@ Work with Knowledgebase
 
 .. vale off
 
-Writing for End-User or Developer Documentation
-===============================================
+Writing for User or Developer Documentation
+===========================================
 
 Writing style for Documentation projects
 ----------------------------------------
