@@ -8,12 +8,7 @@ Missions and expectations of the Education Team
 
 .. vale on
 
-The Education Team is responsible for the Forums, Mautic Documentation and Internationalization. The team's missions and expectations are to:
-
-* keep the Forums clean and constructive,
-* keep the documentation to be high quality, understandable, and accurate,
-* improve the resources available for new and established Users to learn how to use Mautic,
-* ensure multilingual availability.
+The Education Team is responsible for the Forums, Mautic documentation and translations.
 
 .. vale off
 
@@ -22,11 +17,22 @@ General tasks for the Education Team
 
 .. vale on
 
-* Help marketers contribute their existing content to the Mautic Knowledgebase
-* Ensure that the documentation is up to date with new releases
-* Improve the experience of Mautic Users by ensuring that the documentation is of high quality and comprehensive
-* Moderate the Mautic Community Forums and provide content to answer FAQs
-* Improve the resources available for new and established Users to learn how to use Mautic
+* **Maintaining high-quality and current documentation**
+   
+   * Keep the documentation high-quality, clear, and accurate.
+   * Ensure that the documentation is up to date with new releases.
+   * Improve the experience of Mautic Users by ensuring that the documentation is of high quality and comprehensive.
+   * Help marketers contribute their existing content to the Mautic Knowledgebase.
+
+* **Fostering a constructive community**
+
+   * Keep the Forums clean and constructive.
+   * Moderate the Mautic Community Forums and provide content to answer FAQs.
+
+* **Enhancing user learning and global accessibility**
+
+   * Improve the resources available for new and established Users to learn how to use Mautic.
+   * Ensure multilingual availability for documentation and key user resources.
 
 Forums
 ******
