@@ -8,9 +8,9 @@ Missions and expectations of the Education Team
 
 .. vale on
 
- The Education Team is responsible for the Forum, Mautic Documentation and Internationalization. The team's missions and expectations are to:
+The Education Team is responsible for the Forums, Mautic Documentation and Internationalization. The team's missions and expectations are to:
 
-* keep the forum clean and constructive,
+* keep the Forums clean and constructive,
 * keep the documentation to be high quality, understandable, and accurate,
 * improve the resources available for new and established Users to learn how to use Mautic,
 * ensure multilingual availability.
@@ -26,30 +26,30 @@ General tasks for the Education Team
 * Ensure that the documentation is up to date with new releases
 * Improve the experience of Mautic Users by ensuring that the documentation is of high quality and comprehensive
 * Moderate the Mautic Community Forums and provide content to answer FAQs
-* Improve the resources available for new and established Users to learn how to use Mautic 
+* Improve the resources available for new and established Users to learn how to use Mautic
 
-Forum
-*****
+Forums
+******
 
 Quality of contributions
 ========================
 
 * Are the answers to the asked questions correct? Ensure indication of the correct solutions if this is the case.
-* Is it an often asked question? → Add to documentation
-* Are there multiple posts about the same thing? → Merge into a mega-post
+* Is it an often asked question? Then, add it to the documentation
+* Are there multiple posts about the same thing? Then, merge into a mega-post
 
-Forum rules
-===========
+Forums rules
+============
 
 * Which rules are appropriate
-* Which rules are relevant / needed to keep the forum working fine
-* Moderate Forum or assign moderators
+* Which rules are relevant or are needed to keep the Forums working well
+* Moderate Forums or assign moderators
 * Moderate posts by themselves
-* Elect moderators who moderate the forum for them
+* Elect moderators who moderate the Forums for them
 * Redirect all Support questions from Slack to Forums
 * Obvious hint in Slack that support questions aren't answered there
-* Manually moderating Slack & moving stuff to forums
-* Automatically moving stuff to forums?
+* Manually moderating Slack & moving stuff to Forums
+* Automatically moving stuff to Forums?
 
 Documentation
 *************
@@ -75,7 +75,7 @@ Completeness
 * Add missing topics to the documentation
 * Proactively reviewing site/Google searches and identifying topics to write if there are missing areas
 * Manage issue queue on the documentation and community handbook GitHub repositories
-* Adding highly requested forum questions
+* Adding highly requested Forums questions
 
 Up to date
 ==========
@@ -166,7 +166,7 @@ Goals and principles
 The Education Team's goals and principles are to:
 
 * **Empower.** Help people to understand how to use Mautic more effectively by using language that informs and encourages them to make the most of Mautic.
-* **Respect.** Treat readers with the respect they deserve. Imagine you are in their shoes, and don't patronize them. Remember, they're short of time and need to find the answers to their questions quickly. Be considerate and inclusive with your language. 
+* **Respect.** Treat readers with the respect they deserve. Imagine you are in their shoes, and don't patronize them. Remember, they're short of time and need to find the answers to their questions quickly. Be considerate and inclusive with your language.
 * **Educate.** Tell readers what they need to know, and not just what you want to say. Always keep their needs at the centre of your mind when writing. Give them exactly the information they need, along with opportunities to learn more if they want to. Remember, you're the expert. Your reader won't have the same knowledge and expertise as you do.
 * **Guide.** Imagine that you are a tour guide for readers. Whether taking them through a step-by-step tutorial or teaching them how to set something up in Mautic, always communicate in a friendly, helpful way.
 
@@ -272,7 +272,7 @@ The language used depends on the image and its purpose:
 
 * If it's a creative photo or supports a story but doesn't serve a specific function or explain any information, describe the detail of the image in a brief caption.
 * If the image is serving a specific function, describe what's inside the image in detail. If the reader doesn't see the image, they should still be able to understand the same information as someone who did.
-* If you're sharing an image which shows a graph or chart, include the data provided in the alt text so that readers have the same information when they don't see the image.
+* If you're sharing an image that shows a graph or chart, include the data provided in the alt text so that readers have the same information when they don't see the image.
 
 Each browser handles alt text differently. You need to include an image caption where possible, in addition to the alt text.
 
@@ -307,7 +307,7 @@ Write for a general, non-technical audience when contributing to the End-User Do
 
 All resources should be usable by everyone at any stage of their journey with Mautic and must avoid bias. They must not feature references to any third-party providers. If you're unsure, always ask the Education Team before making any contributions.
 
-Assume the person you're writing for doesn't know how to use Mautic or doesn't know how to use the API without step-by-step instructions. 
+Assume the person you're writing for doesn't know how to use Mautic or doesn't know how to use the API without step-by-step instructions.
 
 Clear explanations
 ~~~~~~~~~~~~~~~~~~
@@ -316,14 +316,14 @@ If you're describing something that people may not understand - for example, how
 
 Doing so educates the community, reduces the chance of misunderstanding, and gives the user further resources to learn more if they wish.
 
-You should write based on the assumptions that the user has the default settings in Mautic and are using the currently available stable release.
+You should write based on the assumptions that the user has the default settings in Mautic and is using the currently available stable release.
 
 Use descriptive heading titles
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Mautic's articles are usually comprehensive. So, it's important to use descriptive headings to help people find the part of the article that they need. 
+Mautic's articles are usually comprehensive. So, it's important to use descriptive headings to help people find the part of the article that they need.
 
-Take a look at your heading structure. Does it work with the introduction to give you a nice overview of the scope of the article? Do the links in the Table of Contents make sense?
+Take a look at your heading structure. Does it work with the introduction to give you a nice overview of the article's scope? Do the links in the table of contents make sense?
 
 To summarize, you should follow these guidelines:
 
@@ -347,11 +347,11 @@ Title
 * Capitalize the first word in the title, as well as proper nouns and names, but don't capitalize every major word. Use 'sentence' style, not 'headline' style. The same applies to heading titles. See the :ref:`Style guide and copy rules` section below for other rules on capitalization.
 * Try to vary the way you name articles. Don't use the same verbs or phrases in every title. For example, don't always start articles with 'How' and avoid using '-ing' words.
 
-Remember that the entire explanation doesn't have to go into the title. You can use the summary to give the user additional information about what's in the article.
+Remember that the entire explanation doesn't have to go into the title. You can use the summary to provide the user with additional information about the article.
 
 .. vale off
 
-Work with End-User and Developer Documentation 
+Work with End-User and Developer Documentation
 ==============================================
 
 .. vale on
@@ -383,7 +383,7 @@ Writing style for Documentation projects
 * Use a formal writing style, similar to the way you'd expect to read instructions in a textbook. Please review your spelling, punctuation and grammar. **Tip:** free tools such as :xref:`Grammarly` can be very helpful for this task.
 * Try to provide visual examples using images and videos where appropriate - work with the Education Team, who can support you with this.
 * When writing for the Developer Documentation, always include at least one code sample.
-* Use headings to break down the article into relevant chunks. Links are automatically created based on heading tags, which allows for easy navigation to specific parts of the article.
+* Use headings to break down the article into relevant chunks. Links are automatically generated from heading tags, allowing easy navigation to specific parts of the article.
 
 .. vale off
 
@@ -397,7 +397,7 @@ Writing style for the Knowledgebase
 
 * Use a conversational writing style - an informal, active style similar to the way you'd explain to someone in person.
 * Using humor is great in person, but it's sometimes hard or impossible to localize. So, convey emotional responses instead. Emotions like surprise and "I didn't know that!" might be easier to include as they're easy to understand across cultures.
-* Try to provide content that suits multiple learning styles - people learn differently. Also, everyone benefits from seeing the same content expressed in multiple ways. Work with the Education Team to include videos, images and other media as appropriate.
+* Try to provide content that suits multiple learning styles - people learn differently. Also, everyone benefits from seeing the same content expressed in multiple ways. Work with the Education Team to include videos, images, and other media as appropriate.
 * Try to include, where appropriate, activities or step-by-step ways people can try out what you are explaining. Especially in a tutorial, it's good to give people something useful to accomplish. It's one thing to read instructions and understand the process, but it's often helpful to remind and enable people to try things out.
 
 Write a good introduction
@@ -409,7 +409,7 @@ Along with the title and the table of contents, the introduction helps people qu
 * **For a reference article:** give a brief explanation of the feature.
 * **For a troubleshooting article:** give a brief summary of the problem and its symptoms.
 
-When writing for the Knowledgebase, try to tell a story. Have a beginning, a middle and an end. But don't write a novel.
+When writing for the Knowledgebase, try to tell a story. Have a beginning, a middle, and an end. But don't write a novel.
 
 * **Beginning:** this gives the reader some context. What's this article about and why should the reader care? What's the problem this is addressing? Keep it short.
 * **Middle:** the instructions go here. This should answer "How does the reader do this?"
@@ -418,16 +418,16 @@ When writing for the Knowledgebase, try to tell a story. Have a beginning, a mid
 Organize the article effectively
 --------------------------------
 
-The general idea here is to build skills from simple to complex while keeping the information most people need near the top. 
+The general idea here is to build skills from simple to complex while keeping the information most people need near the top.
 
 A simple, common solution usually comes before a complex or edge-case solution.
 
 Make step-by-step instructions easy to follow
 ---------------------------------------------
 
-The main thing to keep in mind when writing step-by-step instructions is to include all the actions needed to complete the task. 
+The main thing to keep in mind when writing step-by-step instructions is to include all the actions needed to complete the task.
 
-If, for example, you have to click 'OK' after selecting a preference to move to the next step, be sure to include clicking 'OK' as part of that step. 
+If, for example, you have to click 'OK' after selecting a preference to move to the next step, be sure to include clicking 'OK' as part of that step.
 
 Some additional things to consider:
 
@@ -460,7 +460,7 @@ Even if the correct article appears at the top of the search results list, the u
 
 A summary for a how-to article should include the topics covered in the article. A troubleshooting article should include symptoms. In addition, a summary should follow these guidelines:
 
-* **Short and to the point**. Remember classified ads? Write it like that. Search engines may cut off anything longer than 140 characters. If you use a longer summary, keep the important information at the beginning. **Note:** the Knowledgebase software shows 20 characters remaining when the summary reaches 140 characters because the internal search limit is 160
+* **Short and to the point**. Remember classified ads? Write it like that. Search engines may cut off anything longer than 140 characters. If you use a longer summary, keep the important information at the beginning. **Note:** the Knowledgebase software shows 20 characters remaining when the summary reaches 140 characters because the internal search limit is 160.
 * **Don't use "This article explains" in every summary**. Vary it when possible. Some other phrases to consider:
 
   * This page shows you [how to perform an action]
@@ -490,19 +490,22 @@ Here are other common style and copy issues you may run into when writing suppor
 
 * General computing terms:
 
-  * The Internet is uppercase.
+  * The 'Internet' is uppercase.
   
-  * Website is one word. Web page is two words.
+  * 'Website' is one word. 'Web page' is two words.
   
-  * Log in and log out are verbs. Example: 'Log in to the website.' The same applies to sign in and sign out. Don't use 'log into' or 'sign into.'
+  * 'Log in' and 'log out' are verbs. The same applies to 'sign in' and 'sign out'. Don't use 'log into' or 'sign into'. For example:
+
+     * Log in to the website.
+     * Sign out of the website.
   
-  * Login and logout are nouns - usually used as adjectives. Example: 'Click the login button.'
+  * 'Login' and 'logout' are nouns - usually used as adjectives. For example, "Click the login button."
   
-  * Use email instead of e-mail.
+  * Use 'email' instead of 'e-mail'.
 
 * Links to ``mautic.org`` shouldn't contain the locale.
 
-  Use ``https://www.mautic.org`` or ``https://docs.mautic.org`` instead of ``https://www.mautic.org/en`` or ``https://docs.mautic.org/en`` 
+  Use ``https://www.mautic.org`` or ``https://docs.mautic.org`` instead of ``https://www.mautic.org/en`` or ``https://docs.mautic.org/en``.
  
 * Capitalize the following items:
 
