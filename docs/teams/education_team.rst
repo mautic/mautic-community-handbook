@@ -8,9 +8,11 @@ Missions and expectations of the Education Team
 
 .. vale on
 
-The core mission of the Education Team is to empower and inform the Mautic community.
+The core mission of the Education Team is to empower the Mautic community by maintaining comprehensive, high-quality documentation and learning resources.
 
-The team is primarily responsible for maintaining Mautic documentation and ensuring that all resources are high-quality, easy to understand, and accurate for each release. They also manage the Community Forums, promoting clean, constructive discussions, and continuously work to improve learning resources for both new and experienced users. The main objective is to improve the user experience by providing clear, comprehensive support and ensuring that all documentation and essential resources are available in multiple languages for a global audience.
+The team ensures that all resources are high-quality, easy to understand, and accurate for each release. They also monitor the Community Forums to identify recurring issues, common questions, and gaps in existing documentation. The team continuously works to improve learning resources for both new and experienced users.
+
+The main objective is to improve the user experience by providing clear, comprehensive support and ensuring that all documentation and essential resources are available in multiple languages for a global audience.
 
 .. vale off
 
@@ -26,10 +28,10 @@ General tasks for the Education Team
    * Improve the experience of Mautic Users by ensuring that the documentation is comprehensive and highly usable.
    * Help marketers contribute their existing content to the Mautic Knowledgebase.
 
-* **Fostering a constructive community**
+* **Forums analysis & resource development**
 
-   * Keep the Forums clean and constructive.
-   * Moderate the Mautic Community Forums and provide content to answer FAQs.
+   * Monitor the Mautic Community Forums to proactively identify recurring questions, common issues, and persistent themes that indicate documentation gaps.
+   * Develop high-quality documentation and learning resources based on the solutions to the frequently asked questions.
 
 * **Enhancing user learning and global accessibility**
 
