@@ -151,17 +151,6 @@ The Education Team needs people with skills as:
 
    Would you like to get involved in this team? Join :xref:`Education Team on Slack` on :xref:`Mautic Community Slack`.
 
-.. vale off
-
-User Documentation
-******************
-
-.. vale on
-
-One of the projects that the Education Team is responsible for is the :xref:`User Documentation`.
-
-This section contains helpful information, guides, and resources for people interested in contributing to the User Documentation.
-
 Technical writing style guide
 *****************************
 
