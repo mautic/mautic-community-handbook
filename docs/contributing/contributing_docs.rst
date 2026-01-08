@@ -375,22 +375,16 @@ To cherry-pick, please follow the steps outlined below:
 
 #. After closing the PR, click the **Commits** tab at the top. You should see the list of your commits.
 
-   |
+#. Click the copy icon next to the hash to copy the full SHA - Secure Hash Algorithm - value.
 
-   .. image:: images/commits_tab_github.png
-      :alt: Commits tab and list of commits on GitHub
-      :width: 800px
-      :align: center
+   .. tip::
 
-   |
-
-#. Click the copy icon next to the hash to copy the full SHA - Secure Hash Algorithm - value. If you have multiple commits, start at the top and work through to the end.
+      If you have multiple commits, you want to cherry-pick and add them to the staging area one by one. Start at the top and work through to the end.
 
    |
 
-   .. image:: images/copy_full_sha_github.png
-      :alt: Copy icon button to copy the full SHA value on GitHub
-      :width: 200px
+   .. image:: images/commits_tab_copy_full_sha_github.png
+      :alt: Commits tab, list of commits, and copy icon button to copy the full SHA value on GitHub
       :align: center
 
    |
