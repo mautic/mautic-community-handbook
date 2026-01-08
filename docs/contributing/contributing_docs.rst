@@ -709,6 +709,18 @@ Live preview on codespace
 
    |
 
+If you're ready to push your changes to the remote repository and create a PR, please read the ":ref:`Push changes to the remote repository`" and ":ref:`Creating a PR`" sections.
+
+.. vale off
+
+.. tip::
+
+   * Always refresh the page to view the new changes you have applied.
+   * All commands only work within the ``docs/`` directory. If you're unable to run a command, verify that you're in the correct directory.
+   * Read the ":ref:`Troubleshooting live preview`" section if you encounter any issues with the live preview in the codespace.
+
+.. vale on
+
 Troubleshooting live preview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -729,7 +741,7 @@ If refreshing doesn't work, try to:
 #. Follow the steps in the :ref:`Live Preview on codespace` section
 
 Troubleshooting #3
-~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^
 
 If the previous steps fail:
 
@@ -740,18 +752,6 @@ If the previous steps fail:
 #. Click **Stop codespace**
 #. Re-open the codespace by clicking its name
 #. Follow the steps in the :ref:`Live Preview on codespace` section
-
-.. vale off
-
-.. tip::
-
-   * Always refresh the page to view the new changes you have applied.
-   * All commands only work within the ``docs/`` directory. If you're unable to run a command, verify that you're in the correct directory.
-   * Read the ":ref:`Troubleshooting live preview`" section if you encounter any issues with the live preview in the codespace.
-
-.. vale on
-
-If you're ready to push your changes to the remote repository and create a PR, please read the ":ref:`Push changes to the remote repository`" and ":ref:`Creating a PR`" sections.
 
 .. vale off
 
