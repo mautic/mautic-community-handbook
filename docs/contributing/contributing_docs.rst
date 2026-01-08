@@ -25,25 +25,35 @@ To fork a repository:
 
 #. In the main page of the original repository, click the 'Fork' button at the top.
 
+   |
+
    .. image:: images/fork_button_github.png
       :alt: Fork button on GitHub
       :width: 600px
       :align: center
 
+   |
+
 #. Choose your username in the 'Owner *' dropdown menu. **Don't select an organization here. Always choose your personal account**; otherwise, maintainers can't collaborate or fix issues in your PR.
+
+   |
 
    .. image:: images/choose_fork_owner_github.png
       :alt: Choose fork owner on GitHub
-      :width: 600px
+      :width: 350px
       :align: center
+
+   |
 
 #. Deselect the **Copy the DEFAULT-BRANCH-NAME branch only** checkbox so you can clone multiple base branches.
 
 #. Click the green **Create fork** button at the bottom.
 
+   |
+
    .. image:: images/uncheck_option_and_create_fork_button_github.png
       :alt: A deselected checkbox to choose the option to copy only the default branch and a create fork button on GitHub
-      :width: 600px
+      :width: 700px
       :align: center
 
 .. vale on
@@ -62,19 +72,27 @@ Follow the steps below to clone your forked repository:
 #. Click your avatar on the top right.
 #. Click **Repositories**.
 
+   |
+
    .. image:: images/repositories_option_github.png
       :alt: Repositories option from a dropdown menu on GitHub
-      :width: 600px
+      :width: 300px
       :align: center
+
+   |
 
 #. Open your forked repository. The URL should have your username. For example: ``https://github.com/YOUR-GITHUB-USERNAME/REPOSITORY-NAME``.
 #. Click the green **Code** button on top.
 #. Select **HTTPS** and copy the URL.
 
+   |
+
    .. image:: images/code_button_https_tab_github.png
       :alt: Highlight of code button, copy symbol, and HTTPS tab on GitHub
-      :width: 600px
+      :width: 350px
       :align: center
+
+   |
 
 #. In your terminal, go to your local directory where you want to save this project.
 #. Run the ``git clone`` command specifying the branch and folder name, and hit Enter:
@@ -106,10 +124,14 @@ Before you create a new branch, you must ensure that you're on the branch that y
 
 #. In the bottom left of your VS Code, look at the branch tab that has a git branch symbol with a branch name. It should indicate the branch you need to base your changes on.
 
+   |
+
    .. image:: images/bottom_branch_tab_vscode.png
       :alt: Branch tab at the bottom left of VS Code
-      :width: 600px
+      :width: 400px
       :align: center
+
+   |
    
 #. If you're not on the correct branch, click the branch tab and select the correct branch from the dropdown menu at the top.
 
@@ -134,10 +156,14 @@ There are two ways to create a new branch:
 
    #. Click the **Create new branch** option.
 
+      |
+
       .. image:: images/create_a_new_branch_vscode.png
          :alt: Create a new branch option in a dropdown menu on VS Code
-         :width: 600px
+         :width: 500px
          :align: center
+
+      |
 
    #. Type the branch name with anything you like. Preferably, it reflects your changes. For example, ``fix-typo``.
 
@@ -162,10 +188,14 @@ There are two ways to push your changes to the remote repository:
 
    #. On the left panel, click the **Source Control** that resembles the git branches icon.
 
+      |
+
       .. image:: images/git_source_control_vscode.png
          :alt: Source control icon on VS Code
-         :width: 600px
+         :height: 300px
          :align: center
+
+      |
 
    #. Click the **+** icon next to the name of the file to move it to the staging area. It means you're adding this file as 'ready' to commit.
 
@@ -173,24 +203,36 @@ There are two ways to push your changes to the remote repository:
 
    #. Click the **Commit** button.
 
+      |
+
       .. image:: images/stage_and_commit_source_control_vscode.png
          :alt: Highlight plus icon to add files to the staging area, commit message input, and commit button at Source Control at VS Code
-         :width: 600px
+         :width: 300px
          :align: center
+
+      |
 
    #. Click the **Publish Branch**, which opens a dropdown menu.
 
+      |
+
       .. image:: images/publish_branch_button_github.png
          :alt: Publish branch button on source control at VS Code
-         :width: 600px
+         :width: 350px
          :align: center
+
+      |
 
    6. Select ``origin: <YOUR-FORKED-REPOSITORY-URL>``.
 
+      |
+
       .. image:: images/select_remote_repo_dropdown_menu_source_control_vscode.png
          :alt: Highlight origin remote repository in a dropdown menu on Source Control at VS Code
-         :width: 600px
+         :width: 450px
          :align: center
+
+      |
 
 #. **On terminal**
 
@@ -247,10 +289,14 @@ Creating a PR
 
    Click the **base: BRANCH-NAME**. It should open a dropdown menu. Select the base branch to the branch that your PR modifies.
 
+   |
+
    .. image:: images/change_pr_base_branch_github.png
       :alt: Highlight of PR base branch on GitHub
-      :width: 600px
+      :width: 800px
       :align: center
+
+   |
 
 #. Fill in the PR template.
 
@@ -293,10 +339,14 @@ To cherry-pick, please follow the steps outlined below:
 
 #. Go to your forked repository on GitHub and click the **Sync fork** button. If you need to update your branch with the latest state of the original repository, you should see and click the green **Update branch** button.
 
-   .. image:: images/sync-fork-update-branch-buttons-github.png
+   |
+
+   .. image:: images/sync_fork_update_branch_buttons_github.png
       :alt: Sync fork and Update branch buttons on GitHub
-      :width: 600px
+      :width: 800px
       :align: center
+
+   |
 
 #. In your code editor, make sure you are in the correct folder version of the cloned repository and that the base branch is up to date by running the following command:
 
@@ -314,24 +364,36 @@ To cherry-pick, please follow the steps outlined below:
 
 #. Navigate to your PR on GitHub and close it by clicking the **Close pull request** button located at the bottom.
 
+   |
+
    .. image:: images/close_pr_button_github.png
       :alt: Close pull request button on GitHub
-      :width: 600px
+      :width: 300px
       :align: center
+
+   |
 
 #. After closing the PR, click the **Commits** tab at the top. You should see the list of your commits.
 
+   |
+
    .. image:: images/commits_tab_github.png
       :alt: Commits tab and list of commits on GitHub
-      :width: 600px
+      :width: 800px
       :align: center
+
+   |
 
 #. Click the copy icon next to the hash to copy the full SHA - Secure Hash Algorithm - value. If you have multiple commits, start at the top and work through to the end.
 
+   |
+
    .. image:: images/copy_full_sha_github.png
       :alt: Copy icon button to copy the full SHA value on GitHub
-      :width: 600px
+      :width: 200px
       :align: center
+
+   |
 
 #. In your terminal, run this command:
 
@@ -417,18 +479,26 @@ To work directly on GitHub, follow the steps below:
 .. vale off
 
 #. Click the **Edit on GitHub** button on the top right of the page where you noticed the mistake. It takes you to the correct resource on GitHub.
+   
+   |
 
    .. image:: images/edit_on_github.png
       :alt: Mautic community handbook with a red box highlighting the Edit on GitHub button
-      :width: 600px
+      :width: 500px
       :align: center
+
+   |
 
 #. Click the edit button that resembles a pencil, and make the necessary changes.
 
+   |
+
    .. image:: images/edit_button_github.png
       :alt: Mautic community handbook with a red box highlighting the Edit on GitHub button
-      :width: 600px
+      :width: 500px
       :align: center
+
+   |
 
 #. Follow the instructions to commit the changes.
 
@@ -519,8 +589,8 @@ Setting up local environment
 
 .. tip::
 
-   - Every time you make changes, run ``ddev build-docs`` and refresh the page in your browser to see the changes.
-   - If you don't see the configuration take effect, run ``ddev restart`` to restart the project.
+   * Every time you make changes, run ``ddev build-docs`` and refresh the page in your browser to see the changes.
+   * If you don't see the configuration take effect, run ``ddev restart`` to restart the project.
 
 If you're ready to push your changes to the remote repository and create a PR, please read the ":ref:`Push changes to the remote repository`" and ":ref:`Creating a PR`" sections.
 
@@ -558,26 +628,37 @@ Setting up a codespace
 #. Go to your forked repository on GitHub.
 #. Click the branch dropdown menu on the top left and select the branch you need to base your changes on. For example, if you need to update documentation for Mautic version 7, switch to ``7.x``, and so on.
 
+   |
+
    .. image:: images/switch_branch_github.png
       :alt: Highlight branch dropdown menu on GitHub
-      :width: 600px
+      :width: 300px
       :align: center
+
+   |
 
 #. Click the green **Code** button and select the **Codespaces** tab.
 
 #. Click the green **Create codespace on BRANCH-NAME** or **+** button to create a new codespace. It automatically sets up the project and opens VS Code.
 
+   |
+
    .. image:: images/codespaces_tab_github.png
       :alt: Highlight Codespaces tab, plus icon, and Create codespace on main at GitHub
-      :width: 600px
+      :width: 300px
       :align: center
+
+   |
 
 #. Wait for the codespace to finish building. Once complete, the build prompt closes, and the README preview opens. You can close this preview after it appears. Next, the ``postCreateCommand`` runs, so please wait until it finishes its task.
 
+   |
+
    .. image:: images/postcreatecommand_on_terminal.png
       :alt: The postCreateCommand running in terminal
-      :width: 600px
       :align: center
+
+   |
 
 #. :ref:`Create a new branch` to work on your changes.
 
@@ -607,18 +688,26 @@ Live preview on codespace
 
 #. Click the preview button that resembles a book and a magnifying glass at the top to trigger Esbonio, a tool used for live preview. A tab opens, but the preview won't work. You can safely close this tab.
 
+   |
+
    .. image:: images/preview_button_vscode_codespace.png
       :alt: Highlight preview button on the top bar of VS Code on codespace
-      :width: 600px
+      :width: 450px
       :align: center
+
+   |
 
 #. At the bottom panel, click the **Ports** tab.
 #. Click the globe icon to open the live preview in your browser. Now you can see the project in real-time on localhost.
 
+   |
+
    .. image:: images/port_and_open_browser_vscode_codespace.png
       :alt: Highlight port tab and globe icon to open preview in browser at VS Code on codespace
-      :width: 600px
+      :width: 450px
       :align: center
+
+   |
 
 Troubleshooting live preview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -656,9 +745,9 @@ If the previous steps fail:
 
 .. tip::
 
-   - Always refresh the page to view the new changes you have applied.
-   - All commands only work within the ``docs/`` directory. If you're unable to run a command, verify that you're in the correct directory.
-   - Read the ":ref:`Troubleshooting live preview`" section if you encounter any issues with the live preview in the codespace.
+   * Always refresh the page to view the new changes you have applied.
+   * All commands only work within the ``docs/`` directory. If you're unable to run a command, verify that you're in the correct directory.
+   * Read the ":ref:`Troubleshooting live preview`" section if you encounter any issues with the live preview in the codespace.
 
 .. vale on
 
@@ -678,23 +767,23 @@ Mautic uses the following syntax for headings:
 
 .. code-block:: rst
 
-    H1
-    ###
+   H1
+   ###
 
-    H2
-    ***
+   H2
+   ***
 
-    H3
-    ===
+   H3
+   ===
 
-    H4
-    ---
+   H4
+   ---
 
-    H5
-    ~~~
+   H5
+   ~~~
 
-    H6
-    ^^^
+   H6
+   ^^^
 
 When you're writing documentation, be sure to nest your headings correctly. This means that you should only use one H1 heading per page, and then nest your headings in the order shown. This helps to keep the documentation consistent and easy to read.
 
@@ -764,6 +853,16 @@ Mautic makes use of link files, located in ``docs/links`` directory. If you need
 To check if the link is available, in VS Code:
 
 #. Click the search button that resembles magnifying glass at the left bar or press ``Ctrl + Shift + F``.
+
+   |
+
+   .. image:: images/search_icon_vscode.png
+      :alt: Highlight search icon button at the left bar of VS Code
+      :height: 300px
+      :align: center
+
+   |
+
 #. Paste the link in the search bar.
 #. If the link is available, you should see the file that holds the link.
 #. Copy the value of ``link_name``.
@@ -973,8 +1072,8 @@ Code samples get downloaded from GitHub to ensure that they're always up to date
 
    If you change the URL to a file, delete the cached file from ``docs/code_samples/__pycache__`` and run ``ddev build-docs``. Sphinx automatically re-downloads it.
 
-Updating UI images
-******************
+Updating Mautic UI images
+*************************
 
 To update the User Interface - UI - images for Mautic, you need to fork and clone the :xref:`Mautic GitHub repository`.
 
