@@ -976,12 +976,41 @@ Fix broken links
 
 After identifying the broken links, the next step is to fix them.
 
+.. vale off
+
+Status code 404
+~~~~~~~~~~~~~~~
+
+.. vale on
+
+If the broken links have a status code of ``404 Client Error: Not Found for url``, follow the steps below to fix them:
+
 #. Copy the broken link URL from the terminal.
 #. Follow the steps in the ":ref:`Add an external link`" section to find the link file and to copy the ``link_name`` value.
 #. Search ``:xref: `value```.
 #. You should see files that contain the search item.
 #. Open the file and review the content.
 #. Find alternative resources to replace any broken links relevant to the content.
+
+Other status codes
+~~~~~~~~~~~~~~~~~~
+
+For broken links with a status code other than 404, such as ``403 Client Error: Forbidden for url``, broken anchor, timeout, etc. - **as long as the URL works**:
+
+#. Open the ``conf.py`` file in the ``docs/`` directory.
+#. List the URL in the ``linkcheck_ignore`` array and give a comment of the error:
+
+   .. code-block::
+
+      # 403 errors from this domain
+      r"URL",
+
+   Change the ``URL`` to the broken link URL. For example:
+
+   .. code-block::
+
+      # 403 errors from this domain
+      r"https://www.npmjs.com/",
 
 .. tip::
 
