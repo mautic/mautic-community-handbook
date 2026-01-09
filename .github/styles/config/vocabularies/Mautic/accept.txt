@@ -52,6 +52,7 @@ downvote
 DNC
 Dripflow
 Dynamic Web Content
+Esbonio
 Etherpad
 FALSE
 Figma
@@ -124,6 +125,7 @@ Rebase
 rebase
 Raycast
 Remarketing
+RST
 Salesforce
 Stumptown
 SAML
@@ -131,6 +133,7 @@ Schimpf
 SCP
 SendGrid
 SES
+SHA
 shortcode
 shortcodes
 SMS
@@ -159,6 +162,7 @@ UTM
 VSCode
 Vtiger
 Webmecanik
+WSL
 www
 YAML
 Zapier
