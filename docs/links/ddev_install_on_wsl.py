@@ -1,6 +1,6 @@
 from . import link
 
-link_name = "ddev wsl blog" 
+link_name = "DDEV WSL blog" 
 link_text = "DDEV blog" 
 link_url = "https://ddev.com/blog/watch-new-windows-installer/" 
 

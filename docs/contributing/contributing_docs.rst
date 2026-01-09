@@ -3,7 +3,7 @@ Contributing to Mautic's documentation
 
 So you're interested in contributing to Mautic's documentation? That's fantastic. Mautic is always looking for help to improve the documentation and make it as useful as possible for the Mautic community.
 
-There are three main repositories on GitHub open to contributions:
+There are three Mautic documentation repositories on GitHub open to contributions:
 
 #. The :xref:`User Documentation` - :xref:`User Docs GitHub` 
 #. The :xref:`Developer Docs` - :xref:`Developer Docs GitHub`
@@ -21,9 +21,7 @@ Forking the repository is the first step you need to take before proceeding. For
 
 To fork a repository:
 
-.. vale off
-
-#. In the main page of the original repository, click the 'Fork' button at the top.
+#. On the main page of the original repository, click the **Fork** button at the top.
 
    |
 
@@ -34,7 +32,11 @@ To fork a repository:
 
    |
 
-#. Choose your username in the 'Owner *' dropdown menu. **Don't select an organization here. Always choose your personal account**; otherwise, maintainers can't collaborate or fix issues in your PR.
+#. Select your username in the **Owner \*** dropdown menu.
+
+   .. warning::
+   
+      **Don't select an organization here. Always choose your personal account.** Maintainers can't collaborate or fix issues in your PR if you don't select your personal account.
 
    |
 
@@ -56,8 +58,6 @@ To fork a repository:
       :width: 700px
       :align: center
 
-.. vale on
-
 Clone the repository
 ====================
 
@@ -65,9 +65,11 @@ After you forked the repository, you need to clone it. Cloning means copying a r
 
 .. note::
 
-   The Mautic user documentation and developer documentation contain multiple branches that represent specific versions of Mautic. You should clone each branch into its own dedicated folder and make your changes within the appropriate folder.
+   The Mautic User and Developer Documentation contains multiple branches that represent specific Mautic versions. You should clone each branch into its own dedicated folder and make your changes within the appropriate folder.
 
 Follow the steps below to clone your forked repository:
+
+.. vale off
 
 #. Click your avatar on the top right.
 #. Click **Repositories**.
@@ -94,8 +96,8 @@ Follow the steps below to clone your forked repository:
 
    |
 
-#. In your terminal, go to your local directory where you want to save this project.
-#. Run the ``git clone`` command specifying the branch and folder name, and hit Enter:
+#. In your terminal, go to your local directory where you want to save the project.
+#. Run the ``git clone`` command specifying the branch and folder name, and hit **Enter**:
 
    .. code-block:: bash
 
@@ -105,12 +107,16 @@ Follow the steps below to clone your forked repository:
 
    .. code-block:: bash
 
+      # User documentation
       git clone --branch 7.1 https://github.com/YOUR-GITHUB-USERNAME/user-documentation user-docs-71
       git clone --branch 7.x https://github.com/YOUR-GITHUB-USERNAME/user-documentation user-docs-7
       git clone --branch 6.x https://github.com/YOUR-GITHUB-USERNAME/user-documentation user-docs-6
       git clone --branch 5.2 https://github.com/YOUR-GITHUB-USERNAME/user-documentation user-docs-5
 
+      # Developer documentation
       git clone --branch 5.x https://github.com/YOUR-GITHUB-USERNAME/developer-documentation-new dev-docs-5
+
+.. vale on
 
 Create a new branch
 ===================
@@ -165,9 +171,9 @@ There are two ways to create a new branch:
 
       |
 
-   #. Type the branch name with anything you like. Preferably, it reflects your changes. For example, ``fix-typo``.
+   #. Add a branch name with anything you like. Preferably, it reflects your changes. For example, ``fix-typo``.
 
-   #. Hit enter.
+   #. Press **Enter**.
 
 #. **On terminal**
 
@@ -177,14 +183,22 @@ There are two ways to create a new branch:
    
       git checkout -b YOUR-BRANCH-NAME
 
+Now you can start making changes in this branch.
+
+.. note::
+      
+   Once you create a new branch, it automatically switches to it. If you haven't seen the branch changes in your terminal, run ``git status``, and you should see your branch name.
+
 Push changes to the remote repository
 =====================================
 
-If you have finished with your changes, you can push them to the remote repository to create a pull request, also known as PR. Push means moving your commits from your local to the remote repository.
+If you have finished your changes, you can push them to the remote repository to create a pull request - PR. Push means moving your commits from your local to the remote repository.
 
 There are two ways to push your changes to the remote repository:
 
 #. **With Git Source Control in VS Code**
+
+   .. vale off
 
    #. On the left panel, click the **Source Control** that resembles the git branches icon.
 
@@ -197,7 +211,7 @@ There are two ways to push your changes to the remote repository:
 
       |
 
-   #. Click the **+** icon next to the name of the file to move it to the staging area. It means you're adding this file as 'ready' to commit.
+   #. Click the **+** icon next to the file name to move it to the staging area. It means you're adding this file as 'ready' to commit.
 
    #. After you add all the files that you want to commit, add a commit message describing the changes you made. For example, ``fix: broken links``.
 
@@ -206,13 +220,13 @@ There are two ways to push your changes to the remote repository:
       |
 
       .. image:: images/stage_and_commit_source_control_vscode.png
-         :alt: Highlight plus icon to add files to the staging area, commit message input, and commit button at Source Control at VS Code
+         :alt: Highlight plus icon to add files to the staging area, commit message input, and commit button at Source Control in VS Code
          :width: 300px
          :align: center
 
       |
 
-   #. Click the **Publish Branch**, which opens a dropdown menu.
+   #. Click **Publish Branch** to open a dropdown menu.
 
       |
 
@@ -223,7 +237,7 @@ There are two ways to push your changes to the remote repository:
 
       |
 
-   6. Select ``origin: <YOUR-FORKED-REPOSITORY-URL>``.
+   #. Select ``origin: <YOUR-FORKED-REPOSITORY-URL>``.
 
       |
 
@@ -233,6 +247,8 @@ There are two ways to push your changes to the remote repository:
          :align: center
 
       |
+
+   .. vale on
 
 #. **On terminal**
 
@@ -257,12 +273,8 @@ There are two ways to push your changes to the remote repository:
       
          git push -u origin YOUR-BRANCH-NAME
 
-.. vale off
-
 Pull requests
 =============
-
-.. vale on
 
 .. vale off
 
@@ -281,9 +293,11 @@ Creating a PR
 
 .. vale on
 
-#. Go to the original repository and click the green button that prompts you to create a PR.
+.. vale off
 
-#. **This step is crucial.** Each branch contains documentation for a specific version of Mautic. You must base your PR on the branch that corresponds to the version you are modifying. If you don't, your changes may apply to the wrong version of the documentation. For instance, if you're making updates for the documentation version `7.0`, you must base your PR on the `7.0` branch, and so on.
+#. Go to the original repository and click the green button to create a PR.
+
+#. **This step is crucial.** Each branch contains documentation for a specific version of Mautic. **You must base your PR on the branch that corresponds to the version you're modifying**. If you don't, your changes may apply to the wrong version of the documentation. For instance, if you're making updates for the documentation version ``7.0``, you must base your PR on the ``7.0`` branch.
 
    At the top, you should see several dropdown menus: **base repository**, **base**, **head repository**, and **compare**.
 
@@ -305,13 +319,15 @@ Creating a PR
    * **A title**. The PR title must describe the changes you made. For example: ``Add getting started page to API documentation``.
    * **A description**. A clear description can help PR reviewers understand the changes you made in your PR. It's always good to walk through the process of how a reviewer can test your changes.
    * **A related issue**. :xref:`link issue number` that you worked on and add a keyword of 'Closes', 'Fixes', or 'Resolves' in front of it. For example, ``Closes #123``, ``Fixes #234``, etc. You can find the issue number right next to the issue's title. When you link the issue number, the issue automatically closes once a maintainer merges your PR.
-   * **Screenshots or screen recordings**: Provide screenshots or screen recordings for visual changes if necessary.
+   * **Screenshots or screen recordings**. Provide screenshots or screen recordings for visual changes if necessary.
 
 #. Submit it for review.
 
 .. tip::
 
    Refer to :xref:`pr #369` in the Mautic Community Handbook for an example of a well-documented PR.
+
+.. vale on
 
 .. vale off
 
@@ -354,7 +370,7 @@ To cherry-pick, please follow the steps outlined below:
    
       git pull
 
-#. Ensure you have the commits you need for cherry-picking by fetching all remote new files, commits, and branches that you don't have yet on your local machine. To do so, run:
+#. Ensure you have the commits you need for cherry-picking by fetching all new remote files, commits, and branches you don't have locally. To do so, run:
 
    .. code-block:: bash
    
@@ -379,7 +395,7 @@ To cherry-pick, please follow the steps outlined below:
 
    .. tip::
 
-      If you have multiple commits, you want to cherry-pick and add them to the staging area one by one. Start at the top and work through to the end.
+      If you have multiple commits, cherry-pick them and add them to the staging area one at a time. Start at the top and work through to the end.
 
    |
 
@@ -440,16 +456,16 @@ To cherry-pick, please follow the steps outlined below:
    
       git commit --allow-empty
 
-#. :ref:`Push your changes` to the remote repository.
+#. :ref:`Push your changes <Push changes to the remote repository>` to the remote repository.
 
-#. :ref:`Create a new PR <Creating a PR>` and change the base branch to the correct version branch before clicking **Create pull request** button.
+#. :ref:`Create a new PR <Creating a PR>` and change the base branch to the correct version branch before clicking the **Create pull request** button.
 
 Getting started
 ***************
 
-Mautic built this project with :xref:`sphinx` and hosts it on :xref:`read the docs`.
+Mautic built the documentation projects with :xref:`sphinx` and hosts it on :xref:`read the docs`.
 
-The ``docs/`` directory contains the content, written in :xref:`rst`.
+The ``docs/`` directory contains the content, written in :xref:`RST`.
 
 ----
 
@@ -470,9 +486,7 @@ Making changes directly on GitHub is suitable for minor changes, such as fixing 
 
 To work directly on GitHub, follow the steps below:
 
-.. vale off
-
-#. Click the **Edit on GitHub** button on the top right of the page where you noticed the mistake. It takes you to the correct resource on GitHub.
+#. Click the **Edit on GitHub** button in the top-right corner of the page where you noticed the mistake. It takes you to the correct resource on GitHub.
    
    |
 
@@ -496,11 +510,9 @@ To work directly on GitHub, follow the steps below:
 
 #. Follow the instructions to commit the changes.
 
-#. Select to commit to a new branch. Call the branch something relative to what you are updating.
+#. Select to commit to a new branch. Call the branch something relative to what you're updating.
 
-#. :ref:`Create a PR <Creating a PR>`. Read the ":ref:`Submitting a PR`" section about all the information that you need to include in your PR.
-
-.. vale on
+#. :ref:`Create a PR <Creating a PR>`.
 
 .. vale off
 
@@ -514,9 +526,11 @@ Prerequisite
 
 To work locally, you first need to install these on your machine:
 
+.. vale off
+
 #. **VS Code - recommended - or your preferred IDE**
 
-   If you haven't, download and install :xref:`VS Code` on your computer.
+   Download and install :xref:`VS Code` on your computer.
 
 #. **DDEV**
 
@@ -524,26 +538,28 @@ To work locally, you first need to install these on your machine:
 
    .. note:: **For Windows users**:
       
-      You can install and run DDEV on :xref:`ddev traditional windows`. However, using :xref:`wsl2` provides faster, better performance. If you're new to WSL, follow the instructions on the :xref:`ddev wsl blog` to install and set up WSL and DDEV.
+      You can install and run :xref:`DDEV traditional windows`. However, using :xref:`WSL2` provides faster, better performance. If you're new to WSL, follow the instructions on the :xref:`DDEV WSL blog` to install and set up WSL and DDEV.
 
 #. **Vale**
 
-   Mautic uses :xref:`vale` to maintain style guide consistency across the docs. Go to the ":xref:`install Vale`" page on the official docs to install Vale on your computer.
+   Mautic uses :xref:`vale` to maintain style guide consistency across the docs. Go to the ":xref:`install Vale`" page on the official documentation to install Vale on your computer.
 
 #. **GitHub CLI - optional**
 
    You can download and :xref:`install GitHub CLI` on your computer if you'd like. It could save you time to work on your GitHub workflow with GitHub CLI, particularly if you want to assist with code reviews.
 
+.. vale on
+
 .. tip::
 
-   If you'd rather watch a video, you can find the :xref:`setting up local env tutorial` tutorial on YouTube. Otherwise, you can follow the instructions provided in the next section.
+   If you'd rather watch a video, you can find the :xref:`setting up local environment tutorial` tutorial on YouTube. Otherwise, you can follow the instructions provided in the next section.
 
-Setting up local environment
-----------------------------
+Setting up the local environment
+--------------------------------
 
-#. :ref:`Fork` this repository to your own GitHub account.
+#. :ref:`Fork <Forking the repository>` this repository to your own GitHub account.
 #. Go to your forked repository on GitHub.
-#. :ref:`Clone` your forked repository.
+#. :ref:`Clone <Clone the repository>` your forked repository.
 #. Navigate into the project directory by running:
 
    .. code-block:: bash
@@ -581,12 +597,12 @@ Setting up local environment
 
    DDEV uses the folder name as the project name. This command automatically opens your browser and navigates to ``https://FOLDER-NAME.ddev.site/``.
 
-.. tip::
+If you're ready to push your changes to the remote repository and create a PR, please read the ":ref:`Push changes to the remote repository`" and ":ref:`Creating a PR`" sections.
+
+.. note::
 
    * Every time you make changes, run ``ddev build-docs`` and refresh the page in your browser to see the changes.
    * If you don't see the configuration take effect, run ``ddev restart`` to restart the project.
-
-If you're ready to push your changes to the remote repository and create a PR, please read the ":ref:`Push changes to the remote repository`" and ":ref:`Creating a PR`" sections.
 
 .. vale off
 
@@ -599,7 +615,7 @@ To get the best experience, work locally whenever possible. However, if that’s
 
 .. tip::
 
-   To maximize your free tier of Codespaces, you can set the default idle timeout. To do so:
+   To maximize your free Codespaces tier, you can set the default idle timeout. To do so:
 
    * Click your avatar on the top right
    * Click **Settings**
@@ -609,8 +625,8 @@ To get the best experience, work locally whenever possible. However, if that’s
 
    You can also shut down your codespace whenever you've finished working by following these steps:
 
-   * Close your codespace
-   * Go to :xref:`list of codespaces`
+   * Close the VS Code on the browser
+   * Go to :xref:`list of Codespaces`
    * Scroll down and you should see a list of your Codespaces
    * Click the three dots icon at the codespace that you'd like to shut down
    * Click **Stop codespace**
@@ -618,9 +634,9 @@ To get the best experience, work locally whenever possible. However, if that’s
 Setting up a codespace
 ----------------------
 
-#. :ref:`Fork` this repository to your own GitHub account.
+#. :ref:`Fork <Forking the repository>` the repository to your own GitHub account.
 #. Go to your forked repository on GitHub.
-#. Click the branch dropdown menu on the top left and select the branch you need to base your changes on. For example, if you need to update documentation for Mautic version 7, switch to ``7.x``, and so on.
+#. Click the branch dropdown menu on the top left and select the branch you need to base your changes on. For example, if you need to update documentation for Mautic version 7, switch to ``7.x``.
 
    |
 
@@ -633,7 +649,7 @@ Setting up a codespace
 
 #. Click the green **Code** button and select the **Codespaces** tab.
 
-#. Click the green **Create codespace on BRANCH-NAME** or **+** button to create a new codespace. It automatically sets up the project and opens VS Code.
+#. Click the green **Create codespace on BRANCH-NAME** or **+** button to create a new codespace. It automatically sets up the project and opens VS Code on the browser.
 
    |
 
@@ -644,21 +660,17 @@ Setting up a codespace
 
    |
 
-#. Wait for the codespace to finish building. Once complete, the build prompt closes, and the README preview opens. You can close this preview after it appears. Next, the ``postCreateCommand`` runs, so please wait until it finishes its task.
+#. Wait for the codespace to finish building. Once complete, the build prompt closes, and the README preview opens. You can close this preview after it appears. Next, the ``postCreateCommand`` runs. Please wait until it finishes its task.
 
    |
 
    .. image:: images/postcreatecommand_on_terminal.png
-      :alt: The postCreateCommand running in terminal
+      :alt: The postCreateCommand running in the terminal
       :align: center
 
    |
 
 #. :ref:`Create a new branch` to work on your changes.
-
-   .. info::
-      
-      Once you create a new branch, it automatically switches to your new branch. If you haven't seen the branch changes in your terminal, run ``git status``, and you should see your branch name.
 
 #. Go to the ``docs/`` directory:
 
@@ -667,25 +679,25 @@ Setting up a codespace
       cd docs
 
 #. Find the folder and file that you need to work on.
-#. Work on your changes and use the :ref:`live preview` to view and test your changes in real-time.
+#. Work on your changes and use the :ref:`live preview <Live preview on codespace>` to view and test your changes in real-time.
 #. Ensure that the changes you made follow Mautic's style guide by running the Vale lint. Please read the ":ref:`Working with Vale`" section to use Vale.
 
 Live preview on codespace
 -------------------------
 
-#. Ensure that you're in the ``docs/`` directory.
+#. Ensure that you are in the ``docs/`` directory.
 #. Run ``make html``. It generates the ``build`` folder.
 
-   .. tip::
+   .. note::
       
-      If you get ``make: *** No rule to make target 'html'.  Stop.`` error message after running the ``make html`` command, make sure you're in the correct directory. You must be in the ``docs/`` directory to execute this command successfully.
+      If you get ``make: *** No rule to make target 'html'.  Stop.`` error message after running the ``make html`` command, make sure you are in the correct directory. You must be in the ``docs/`` directory to execute this command successfully.
 
-#. Click the preview button that resembles a book and a magnifying glass at the top to trigger Esbonio, a tool used for live preview. A tab opens, but the preview won't work. You can safely close this tab.
+#. Click the preview button at the top that resembles a book and a magnifying glass to trigger Esbonio, a live preview tool. A tab opens, but the preview won't work. You can safely close this tab.
 
    |
 
    .. image:: images/preview_button_vscode_codespace.png
-      :alt: Highlight preview button on the top bar of VS Code on codespace
+      :alt: Highlight the preview button on the top bar of VS Code on codespace
       :width: 450px
       :align: center
 
@@ -697,7 +709,7 @@ Live preview on codespace
    |
 
    .. image:: images/port_and_open_browser_vscode_codespace.png
-      :alt: Highlight port tab and globe icon to open preview in browser at VS Code on codespace
+      :alt: Highlight the port tab and globe icon to open the preview in the browser at VS Code on codespace
       :width: 450px
       :align: center
 
@@ -705,15 +717,11 @@ Live preview on codespace
 
 If you're ready to push your changes to the remote repository and create a PR, please read the ":ref:`Push changes to the remote repository`" and ":ref:`Creating a PR`" sections.
 
-.. vale off
-
 .. tip::
 
    * Always refresh the page to view the new changes you have applied.
    * All commands only work within the ``docs/`` directory. If you're unable to run a command, verify that you're in the correct directory.
    * Read the ":ref:`Troubleshooting live preview`" section if you encounter any issues with the live preview in the codespace.
-
-.. vale on
 
 Troubleshooting live preview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -721,7 +729,7 @@ Troubleshooting live preview
 Troubleshooting #1
 ^^^^^^^^^^^^^^^^^^
 
-If you can't see your changes in the live preview, try refreshing the browser tab.
+If you can't see your changes in the live preview, run the ``make html`` command and refresh the browser tab.
 
 Troubleshooting #2
 ^^^^^^^^^^^^^^^^^^
@@ -740,19 +748,15 @@ Troubleshooting #3
 If the previous steps fail:
 
 #. Close VS Code and the live preview browsers
-#. Go to :xref:`list of codespaces`
+#. Go to :xref:`list of Codespaces`
 #. At the bottom, you should see a list of your projects on Codespaces
 #. Click the three dots icon on the right of your project's codespace
 #. Click **Stop codespace**
 #. Re-open the codespace by clicking its name
 #. Follow the steps in the :ref:`Live Preview on codespace` section
 
-.. vale off
-
 Working with RST
 ****************
-
-.. vale on
 
 Nesting headings
 ================
@@ -779,38 +783,44 @@ Mautic uses the following syntax for headings:
    H6
    ^^^
 
-When you're writing documentation, be sure to nest your headings correctly. This means that you should only use one H1 heading per page, and then nest your headings in the order shown. This helps to keep the documentation consistent and easy to read.
+.. note::
 
-Also be sure to extend the underline to fit the length of the heading text. This is a requirement of RST syntax and helps to keep the documentation looking neat and tidy.
+   When you're writing documentation, be sure to:
+
+   * Nest your headings correctly. That means you should use only one H1 heading per page, and nest your headings in the order shown. It helps to keep the documentation consistent and easy to read.
+
+   * Extend the underline to fit the length of the heading text. It's a requirement of RST syntax and helps to keep the documentation looking neat and tidy.
 
 Linking to other pages
 ======================
 
-When you're linking to other pages in the documentation, be sure to use the correct syntax. This means that you should use the following syntax:
+When you're linking to other pages in the documentation, be sure to use the correct syntax as follow:
 
 Linking within the current page
 -------------------------------
 
 .. code-block:: rst
 
-   :ref:`My heading`
-   :ref:`Target to paragraph <My heading>`
-   :ref:`Target inside a paragraph <My heading>`
+   :ref:`A heading`
+   :ref:`Target to paragraph <A heading>`
+   :ref:`Target inside a paragraph <A heading>`
 
-In this example, the target could be a heading on the page called 'My heading'. The first example uses the name of the heading and outputs it exactly as it's on the page where it's used.
+In this example, the target is a page heading called 'A heading'.
 
-The second and third options use a title to override what's already used on the heading. The content within the ``<`` and ``>`` is the heading from the page that you want to link to - it must be an exact match for a heading used elsewhere on the page - and the text displayed before or after is what you want the words to display in the link.
+The first example uses the heading name and outputs it precisely as it appears on the page where it's used.
 
-An example from this page, linking to the earlier section on linking to other pages would look like this:
+The second and third options use a text to override the existing heading. The content between the ``<`` and ``>`` tags is the heading from the page you want to link to - it must be an exact match to a heading used elsewhere on the page. The text displayed before ``<`` is what you want the words to display in the link.
+
+For example, to link the text "A link title" to the heading "Linking to Other Pages" on this page, use the following format:
 
 .. code-block:: rst
 
-   :ref:`My link title <Linking to other pages>`
+   :ref:`A link title <Linking to other pages>`
 
-This renders as: :ref:`My link title <Linking to other pages>`
+This renders as: :ref:`A link title <Linking to other pages>`.
 
 
-Read more in the :xref:`ref role documentation`.
+Read more about ``:ref:`` in the :xref:`ref role documentation`.
 
 Linking to another page in the same documentation repository
 ------------------------------------------------------------
@@ -821,18 +831,22 @@ Linking to another page in the same documentation repository
     :doc:`/guides/documentation-page`
     :doc:`Custom title </guides/documentation-page>`
 
-In this example the target could be a page called "documentation-page". The first example uses the name of the page as if it was in the same directory as the current file. The second option uses the full path to the file if it were in a different folder, and the third option uses a title to override what's already used on the page heading.
+In this example, the target could be a page called "documentation-page."
+
+* The first example uses the page name as if it were in the same directory as the current file.
+* The second option uses the full path to the file if it were in a different directory.
+* The third uses a text to override the page heading.
 
 .. note::
     
-   When linking to another page in the same documentation repository, you don't need to include the file extension. Sphinx automatically adds it when building the documentation. Using paths relative to the documentation root is preferable, to avoid changing the target name when restructuring content.
+   When linking to another page in the same documentation repository, you don't need to include the file extension - ``.rst``. Sphinx automatically adds it when building the documentation. Using paths relative to the documentation root is preferable to avoid changing the target name when restructuring content.
 
-Read more in the :xref:`doc role documentation`.
+Learn more about ``:doc:`` in the :xref:`doc role documentation`.
 
 External links
 --------------
 
-Read the ":ref:`Working with external links`" section to add an external link and learn more about it in the :xref:`xref role documentation`.
+Read the ":ref:`Working with external links`" section to add an external link and learn more about ``:xref:`` in the :xref:`xref role documentation`.
 
 Working with external links
 ***************************
@@ -842,48 +856,48 @@ In this section, you can find the commands you need to work with external links.
 Add an external link
 ====================
 
-Mautic makes use of link files, located in ``docs/links`` directory. If you need to add an external link, please check first if the link is available in the directory.
+Mautic uses link files located in the ``/links`` directory. If you need to add an external link, please ensure that the link is available in the directory first.
 
-To check if the link is available, in VS Code:
+To make sure the link is available, in VS Code:
 
-#. Click the search button that resembles magnifying glass at the left bar or press ``Ctrl + Shift + F``.
+#. Click the search button that resembles a magnifying glass in the left bar or press ``Ctrl + Shift + F``.
 
    |
 
    .. image:: images/search_icon_vscode.png
-      :alt: Highlight search icon button at the left bar of VS Code
+      :alt: Highlight search icon button in the left bar of VS Code
       :height: 300px
       :align: center
 
    |
 
-#. Paste the link in the search bar.
-#. If the link is available, you should see the file that holds the link.
-#. Copy the value of ``link_name``.
+#. Paste the URL in the search bar.
+#. If it's available, you should see the file that contains it.
+#. Open the file and copy the ``link_name`` value.
 #. Apply it in the content using ``:xref:``. For example:
 
    .. code-block:: rst
 
       :xref:`Developer Documentation`
 
-If the link is unavailable, you then need to add the link.
+If the URL is unavailable, you need to add it.
 
 Add a new external link
 =======================
 
 Depending on where you work on your changes, when you need to add an external link, run the command below in the terminal.
 
-If you work with Codespaces:
-
-.. code-block:: bash
-
-   make link
-
 If you work locally with DDEV:
 
 .. code-block:: bash
 
    ddev exec make link
+
+If you work with Codespaces:
+
+.. code-block:: bash
+
+   make link
 
 Then input the answer to all prompts:
 
@@ -896,9 +910,9 @@ Then input the answer to all prompts:
 
 .. vale on
 
-Sphinx creates the file in the ``/links`` directory once you've completed the prompts. Copy the resulting ``xref`` macro on your terminal to apply the link in the content.
+Sphinx creates the file in the ``/links`` directory once you've completed the prompts. Copy the resulting ``xref`` macro from your terminal to apply the link in the content.
 
-.. tip::
+.. note::
 
    Ensure that all entries are clear and general so that anyone working on this project can easily search for and reuse them.
 
@@ -906,7 +920,7 @@ Here's an example:
 
 .. code-block:: bash
 
-   Enter a Unique Link Name: Developer Documentation
+   Enter a Unique Link Name: Developer Docs
    Enter the link text the user sees: Developer Documentation
    Enter the URL: https://devdocs.mautic.org/
    Enter the .py file name (use_lower_case_and_underscore of link name): mautic_developer_docs
@@ -923,16 +937,10 @@ Here's what you should see after completing the prompts:
    The user will see: Developer Documentation
    Make sure you build and test the link.
 
-Check broken links
-==================
+Identify broken links
+=====================
 
-To avoid build failures, make sure there are no broken links. You can verify the links by following the instructions below, based on where you are making changes in the terminal.
-
-If you work with Codespaces:
-
-.. code-block:: bash
-
-   make checklinks
+To avoid build failures, make sure there are no broken links. You can verify the links by following the instructions below, based on where you're making changes in the terminal.
 
 If you work locally with DDEV:
 
@@ -940,12 +948,44 @@ If you work locally with DDEV:
 
    ddev exec make checklinks
 
-You should see a list of links. Find the broken link and fix it. Here's an example of a broken link:
+If you work with Codespaces:
+
+.. code-block:: bash
+
+   make checklinks
+
+You should see a list of links. Identify the broken links and fix them. To find broken links, follow these steps:
+
+.. vale off
+
+#. In your terminal, press ``CTRL + F``.
+#. Type 'broken'. You should see the count of the word "broken" next to the search bar.
+#. Click the down arrow to locate the broken links.
+
+Here's an example of a broken link:
 
    .. image:: images/broken_link_example.png
       :alt: Example of a broken link with error message: (contributing/contributing_docs_rst: line  198) broken    https://sublime-and-sphinx-guide.readthedocs.io/en/latest/references.html#add-link-make-command - 404 Client Error: Not Found for url: https://sublime-and-sphinx-guide.readthedocs.io/en/latest/references.html
       :width: 600px
       :align: center
+
+.. vale on
+
+Fix broken links
+----------------
+
+After identifying the broken links, the next step is to fix them.
+
+#. Copy the broken link URL from the terminal.
+#. Follow the steps in the ":ref:`Add an external link`" section to find the link file and to copy the ``link_name`` value.
+#. Search ``:xref: `value```.
+#. You should see files that contain the search item.
+#. Open the file and review the content.
+#. Find alternative resources to replace any broken links relevant to the content.
+
+.. tip::
+
+   If you're unsure about fixing broken links, tag ``@mautic/education-team-leaders`` in the PR comments.
 
 .. vale off
 
@@ -968,7 +1008,7 @@ Your changes must follow Mautic's style guide. To ensure that the changes are co
 
    .. code-block:: bash
    
-      vale folder_name/file_name.rst
+      vale FOLDER-NAME/FILE_NAME.rst
 
 #. Look at the errors, warnings, and suggestions.
 #. Address all of them and rerun Vale to ensure they pass the checks.
@@ -996,21 +1036,21 @@ Your changes must follow Mautic's style guide. To ensure that the changes are co
 
 .. attention::
 
-   - Wrap the sentences you want Vale to skip with both ``.. vale off`` and ``.. vale on`` statements in that order. If you fail to do this, Vale skips the remaining contents.
-   - Don't add statements to skip lint, unless necessary. If you're uncertain, it's best not to wrap them in the statements and let the team review and provide suggestions.
+   * Wrap the sentences you want Vale to skip with both ``.. vale off`` and ``.. vale on`` statements in that order. If you fail to do this, Vale skips the remaining contents.
+   * Don't add statements to skip lint, unless necessary. If you're uncertain, it's best not to wrap them in the statements and let the team review and provide suggestions.
+
+.. vale off
 
 Working with code samples
 *************************
 
+.. vale on
+
 Code samples get downloaded from GitHub to ensure that they're always up to date. If you need to add a new code sample, follow these steps:
 
+.. vale off
+
 #. In your terminal, run the command below depending on your working environment:
-
-   If you work with Codespaces:
-
-   .. code-block:: bash
-   
-      make code-sample
 
    If you work locally with DDEV:
 
@@ -1018,11 +1058,17 @@ Code samples get downloaded from GitHub to ensure that they're always up to date
    
       ddev exec make code-sample
 
+   If you work with Codespaces:
+
+   .. code-block:: bash
+   
+      make code-sample
+
 #. Input the answer to all prompts:
 
-   * **Enter a Unique File Name (with .php suffix):** The unique name of the file that links to the code sample on GitHub with ``.php`` suffix.
-   * **Enter the URL to the file (should start with https://raw.githubusercontent.com/...):** The link to the file that consists of a code sample on GitHub.
-   * **Enter the .py file name (use_lower_case_and_underscore of link name):** The name of the code sample file.
+   * **Enter a Unique File Name (with .php suffix):** the unique name of the file that links to the code sample on GitHub with ``.php`` suffix.
+   * **Enter the URL to the file (should start with https://raw.githubusercontent.com/...):** the link to the file that consists of a code sample on GitHub.
+   * **Enter the .py file name (use_lower_case_and_underscore of link name):** the name of the code sample file.
 
    .. attention::
       
@@ -1062,6 +1108,8 @@ Code samples get downloaded from GitHub to ensure that they're always up to date
       .. literalinclude:: ../code_samples_downloaded/entity_world.php
          :language: php
 
+.. vale on
+
 .. note::
 
    If you change the URL to a file, delete the cached file from ``docs/code_samples/__pycache__`` and run ``ddev build-docs``. Sphinx automatically re-downloads it.
@@ -1071,4 +1119,4 @@ Updating Mautic UI images
 
 To update the User Interface - UI - images for Mautic, you need to fork and clone the :xref:`Mautic GitHub repository`.
 
-Then, follow the instructions outlined in the :doc:`tester` page for comprehensive instructions on installing and running Mautic.
+Then, follow the instructions on the :doc:`tester` page for comprehensive guidance on installing and running Mautic.

@@ -1,6 +1,6 @@
 from . import link
 
-link_name = "list of codespaces" 
+link_name = "list of Codespaces" 
 link_text = "https://github.com/codespaces" 
 link_url = "https://github.com/codespaces" 
 
