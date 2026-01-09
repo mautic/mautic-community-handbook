@@ -534,7 +534,7 @@ To work locally, you first need to install these on your machine:
 
 #. **DDEV**
 
-   Mautic uses :xref:`DDEV` to simplify local development and testing of documentation updates. Go to the ":xref:`DDEV get started` Get Started" page for instructions to install DDEV on your local machine.
+   Mautic uses :xref:`DDEV` to simplify local development and testing of documentation updates. Go to the ":xref:`DDEV get started`" page for instructions to install DDEV on your local machine.
 
    .. note:: **For Windows users**:
       
