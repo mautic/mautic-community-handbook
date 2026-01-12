@@ -11,90 +11,14 @@ Mautic maintains :xref:`Mautic OSS Fridays board`, which shows you a list of all
 
 There are two ways to set up your testing environment:
 
-1. On GitHub Codespaces
-2. On your local machine with DDEV—**recommended**
+#. On your local machine with DDEV - **recommended**
+#. On GitHub Codespaces
 
 Once your testing environment is established, it's very quick and easy to test bugs and features.
 
 .. tip::
 
   You can watch the short tutorial about :xref:`How to test bugs and features in Mautic` on YouTube, which explains the easy way to do it.
-
-Setting up a testing environment on GitHub Codespaces
-*****************************************************
-
-:xref:`GitHub Codespaces` allows you to spin up a Mautic instance in the cloud, with a pull request—also known as PR—applied. The Mautic instance also has a mail catching tool, Mailpit, and PHPMyAdmin available to view database tables. While some PRs can't be tested in this way, such as when testing the installation process, the vast majority can.
-
-Setting up a codespace
-======================
-
-#. Go to :xref:`Mautic GitHub repository`.
-#. Open the PR that you need to test.
-#. Click the 'Code' button on the right top, next to the PR title.
-#. Click the 'Codespaces' tab.
-#. Click the green 'Create codespace on ``BRANCH-NAME``' or '+' sign to create a codespace.
-
-   .. image:: images/open_codespace_github.png
-    :alt: Screenshot highlighting Code button and Codespaces tab
-
-#. Wait until the codespace finishes building and the ``postCreateCommand`` finishes its task, as shown in the screenshot below. Please be patient, as it may take some time.
-
-   .. image:: images/postcreatecommand_task_done.png
-    :alt: Screenshot of postCreateCommand task is done
-
-   **Note:** If you get a warning that the codespace is currently running in recovery mode due to a configuration error, as in the following screenshot, follow the instructions in the :ref:`Rebuild a codespace` section.
-
-   .. image:: images/codespace_recovery_mode_warning.png
-    :alt: Warning message that says this codespace is currently running in recovery mode due to a container error.
-    :scale: 80 %
-    :align: center
-
-#. Once the ``postCreateCommand`` is done, run ``ddev start`` to install Mautic and its dependencies.
-#. Type 'Y' and press Enter when you get prompted to ``Permission to beam up? [Y/n] (yes):``.
-
-   Please wait until the process is complete, which may take a few minutes to complete.
-
-#. Click the 'Ports' tab.
-#. Find the port that you need to open.
-#. Hover over the 'Forwarded Address' tab, right next to the port.
-#. Click the globe icon to open the port in the browser.
-
-   .. image:: images/vscode_terminal_ports_tab.png
-    :alt: Screenshot of ports tab in VS Code terminal, highlighting globe icon 
-
-#. Log in to Mautic. See the tip below to log in to Mautic.
-
-After you set up the environment, you can follow the test instructions in the PR and :ref:`report back your findings<Leaving a PR review>`.
-
-.. tip::
-
-   * The default username to login to Mautic is always ``admin``, and the password is ``Maut1cR0cks!``.
-   * If you're testing an older version of Mautic than ``5.1``, use the password ``mautic``.
-   * You can run the ``ddev describe`` command to see the list and details of available URLs and ports.
-
-Rebuild a codespace
--------------------
-
-Follow these steps to rebuild your codespace:
-
-#. Press ``Cmd/Ctrl + Shift + P``. It opens a search bar on top.
-#. Search for 'Codespaces: Rebuild Container', select it, and click it.
-
-   .. image:: images/codespaces_rebuild_container.png
-    :alt: Screenshot of Codespaces rebuild container selection
-
-#. Click the 'Full Rebuild' button.
-
-   .. image:: images/codespaces_rebuild_button.png
-    :alt: Screenshot highlighting the full rebuild button on Codespaces
-    :align: center
-    :scale: 70 %
-
-#. Follow the instructions starting from step 6 in the :ref:`Setting up a codespace` section.
-
-.. note::
-
-   Now that you've set up the codespace, go to the :ref:`Testing your first PR` section to start testing a PR. 
 
 Setting up a local testing environment
 **************************************
@@ -104,14 +28,14 @@ Prerequisites
 
 Before starting, you need a few pieces of software on your computer:
 
-* A Docker provider \*
-* :xref:`DDEV get started`
+* A Docker provider\*
+* :xref:`DDEV`
 * :xref:`Git downloads`
 * :xref:`GitHub CLI`
 
 \* Please read the :xref:`Docker installation` section on the DDEV official website to learn which Docker provider is suitable for your operating system.
 
-Once you have these installed, use a code editor such as :xref:`VS Code`, which allows you to interact with files, folders, and the command line. There are other editors and Integrated Development Environments (IDEs). So if you already have a preference, by all means, use that.
+Once you have these installed, use a code editor such as :xref:`VS Code`, which allows you to interact with files, folders, and the command line. There are other editors and Integrated Development Environments - IDEs. So if you already have a preference, by all means, use that.
 
 You also need to register for an account at :xref:`GitHub signup` if you don't already have one. It allows you to leave comments when you've tested things, and also means you can make fixes yourself in the future.
 
@@ -123,23 +47,39 @@ Forking the repository is the first step you need to take before proceeding. For
 To fork the repository:
 
 #. Go to :xref:`Mautic GitHub repository`.
-#. Click the 'Fork' button at the top.
+#. Click the **Fork** button at the top.
+
+   |
 
    .. image:: images/fork_button_github.png
-    :alt: Screenshot highlighting the fork button on GitHub
+      :alt: Highlight of fork button on GitHub
 
-#. Choose your username in the 'Owner \*' dropdown menu. **Don't select an organization here. Always choose your personal account**.
+   |
+
+#. Select your username in the **Owner \*** dropdown menu.
+
+   .. warning::
+   
+      Don't select an organization here. Always choose your personal account.
+
+   |
 
    .. image:: images/owner_dropdown_menu_github.png
-    :alt: Screenshot highlighting the choose fork owner dropdown menu on GitHub
-    :scale: 50 %
-    :align: center
+      :alt: Highlight of the fork owner selection dropdown menu on GitHub
+      :scale: 50 %
+      :align: center
 
-#. Uncheck the checkbox of 'Copy the ``DEFAULT-BRANCH-NAME`` branch only' because later on, you want to be able to clone multiple branches.
-#. Click the green 'Create fork' button at the bottom.
+   |
+
+#. Uncheck the checkbox of **Copy the ``DEFAULT-BRANCH-NAME`` branch only** because later on, you want to be able to clone multiple branches.
+#. Click the green **Create fork** button at the bottom.
+
+   |
 
    .. image:: images/uncheck_option_and_create_fork_button_github.png
-    :alt: Screenshot of an unchecked state checkbox to copy only the default branch and a create fork button on GitHub
+      :alt: Unchecked state checkbox to copy only the default branch and a create fork button on GitHub
+
+   |
 
 Cloning the repository
 ======================
@@ -173,7 +113,7 @@ Follow the steps below to clone your forked repository:
 
       cd ..
 
-#. Run the ``git clone`` command specifying the branch you need to test and a folder name to save it, then hit Enter:
+#. Run the ``git clone`` command specifying the branch you need to test and a folder name to save it, then hit **Enter**:
 
    .. code-block:: bash
 
@@ -200,7 +140,7 @@ Setting up a local DDEV instance
 
 Now that you have the repository's branch that you need to test locally, it's time to set up a local DDEV instance so you can use PHP, MySQL, and all the other components that Mautic requires to run.
 
-#. Move into the directory using the command, where 'X' is the version of Mautic that you saved in your ``mautic`` folder:
+#. Move into the directory using the command, where `X` is the version of Mautic that you saved in your ``mautic`` folder:
 
    .. code-block:: bash
 
@@ -220,7 +160,7 @@ Now that you have the repository's branch that you need to test locally, it's ti
 
    The first time you run this command, it might take a little while to run through the process.
 
-#. If prompted to install Mautic, choose 'Yes'.
+#. If prompted to install Mautic, choose **Yes**.
 
    This installs all the dependencies that Mautic requires to run.
 
@@ -230,7 +170,7 @@ Live preview the Mautic instance
 Once the installation process finishes, it displays the URL for the Mautic instance, as well as the URLs for Mailpit and PHPMyAdmin, in case you need to test outgoing emails or database operations. It also provides you with the default credentials to use for the login.
 
 .. image:: images/ddev_information_after_built.png
-    :alt: Screenshot of information to run DDEV that highlights Mautic login credentials and live preview URLs
+   :alt: Information to run DDEV that highlights Mautic login credentials and live preview URLs
 
 Follow the steps below to open the Mautic instance:
 
@@ -243,6 +183,110 @@ Follow the steps below to open the Mautic instance:
    * The default username to login to Mautic is always ``admin``, and the password is ``Maut1cR0cks!``.
    * If you're testing an older version of Mautic than ``5.1``, use the password ``mautic``.
 
+Setting up a testing environment on GitHub Codespaces
+*****************************************************
+
+To get the best experience, work locally whenever possible. However, if that’s not possible, you can use :xref:`GitHub Codespaces`.
+
+GitHub Codespaces allows you to spin up a Mautic instance in the cloud, with a pull request—also known as PR—applied. The Mautic instance also has a mail catching tool, Mailpit, and PHPMyAdmin available to view database tables. While some PRs can't be tested in this way, such as when testing the installation process, the vast majority can.
+
+Setting up a codespace
+======================
+
+#. Go to :xref:`Mautic GitHub repository`.
+#. Open the PR that you need to test.
+#. Click the **Code** button on the right top, next to the PR title.
+#. Click the **Codespaces** tab.
+#. Click the green **Create codespace on BRANCH-NAME** or **+** sign to create a codespace.
+
+   |
+
+   .. image:: images/open_codespace_github.png
+      :alt: Highlight of Code button and Codespaces tab
+
+   |
+
+#. Wait until the codespace finishes building and the ``postCreateCommand`` finishes its task, as shown in the screenshot below. Please be patient, as it may take some time.
+
+   |
+
+   .. image:: images/postcreatecommand_task_done.png
+      :alt: The postCreateCommand task is done
+
+   |
+
+   .. note::
+
+      If you get a warning that the codespace is currently running in recovery mode due to a configuration error, as in the following screenshot, follow the instructions in the :ref:`Rebuild a codespace` section.
+
+   |
+
+   .. image:: images/codespace_recovery_mode_warning.png
+      :alt: Warning message that says this codespace is currently running in recovery mode due to a container error.
+      :scale: 80 %
+      :align: center
+
+   |
+
+#. Once the ``postCreateCommand`` is done, run ``ddev start`` to install Mautic and its dependencies.
+#. Type **Y** and press **Enter** when you get prompted to ``Permission to beam up? [Y/n] (yes):``.
+
+   Please wait until the process is complete, which may take a few minutes to complete.
+
+#. Click the **Ports** tab.
+#. Find the port that you need to open.
+#. Hover over the **Forwarded Address** tab, right next to the port.
+#. Click the globe icon to open the port in the browser.
+
+   |
+
+   .. image:: images/vscode_terminal_ports_tab.png
+      :alt: Ports tab in VS Code terminal, highlighting globe icon
+
+   |
+
+#. Log in to Mautic. See the tip below to log in to Mautic.
+
+After you set up the environment, you can follow the test instructions in the PR and :ref:`report back your findings<Leaving a PR review>`.
+
+.. tip::
+
+   * The default username to login to Mautic is always ``admin``, and the password is ``Maut1cR0cks!``.
+   * If you're testing an older version of Mautic than ``5.1``, use the password ``mautic``.
+   * You can run the ``ddev describe`` command to see the list and details of available URLs and ports.
+
+Rebuild a codespace
+-------------------
+
+Follow these steps to rebuild your codespace:
+
+#. Press ``Cmd/Ctrl + Shift + P``. It opens a search bar on top.
+#. Search for **Codespaces: Rebuild Container**, select it, and click it.
+
+   |
+
+   .. image:: images/codespaces_rebuild_container.png
+      :alt: Codespaces rebuild container selection
+
+   |
+
+#. Click the **Full Rebuild** button.
+
+   |
+
+   .. image:: images/codespaces_rebuild_button.png
+      :alt: Screenshot highlighting the full rebuild button on Codespaces
+      :align: center
+      :scale: 70 %
+
+   |
+
+#. Follow the instructions starting from step 6 in the :ref:`Setting up a codespace` section.
+
+.. note::
+
+   Now that you've set up the codespace, go to the :ref:`Testing your first PR` section to start testing a PR.
+
 Testing your first PR
 *********************
 
@@ -254,8 +298,12 @@ Once you have confirmed the bug, you can start testing the PR:
 
 #. Ensure you reproduce the bug using the base branch that the PR was made against. It should target the branch of the Mautic release version that's reported on the issue. You can see the base branch right under the PR title.
 
+   |
+
    .. image:: images/pr_base_branch_github.png
-    :alt: Screenshot highlighting a PR base branch at GitHub
+      :alt: Highlight of a PR base branch at GitHub
+
+   |
 
 #. In the terminal, run the GitHub CLI command below:
 
@@ -280,27 +328,29 @@ First, you need to update the base branch in your forked repository:
 #. Click the branch dropdown menu on the top left.
 #. Select the branch where you need to reproduce the bug from.
 
-   .. image:: images/switch_branch_dropwdown_menu_github.png
-    :alt: Screenshot highlighting the branch dropdown menu on a repository at GitHub
-    :scale: 70 %
-    :align: center
+   |
 
-#. Click the 'Sync fork' button on the top right to ensure that the branch in your forked repository is up to date. 
+   .. image:: images/switch_branch_dropwdown_menu_github.png
+      :alt: Screenshot highlighting the branch dropdown menu on a repository at GitHub
+      :scale: 70 %
+      :align: center
+
+   |
+
+#. Click the **Sync fork** button on the top right to ensure that the branch in your forked repository is up to date. 
 
    If your branch is up to date, it shows "This branch isn't behind the upstream ``mautic/BRANCH-NAME``" message.
 
-   However, if you need to update your branch, click the green 'Update branch' button.
+   However, if you need to update your branch, click the green **Update branch** button.
+
+   |
 
    .. image:: images/sync_fork_update_branch_code_buttons_github.png
-    :alt: Screenshot highlighting the sync fork, update branch, and code buttons at GitHub
+      :alt: Highlight of the sync fork, update branch, and code buttons at GitHub
+
+   |
 
 Then, follow the instructions below, depending on your testing environment.
-
-GitHub Codespaces
------------------
-
-#. Click the green 'Code' button at the top right.
-#. Follow the instructions starting from step 4 in the :ref:`Setting up a codespace` section.
 
 Local environments
 ------------------
@@ -323,6 +373,12 @@ Local environments
    .. code-block::
 
       git pull
+
+GitHub Codespaces
+-----------------
+
+#. Click the green **Code** button at the top right.
+#. Follow the instructions starting from step 4 in the :ref:`Setting up a codespace` section.
 
 Using developer mode
 ====================
@@ -349,7 +405,7 @@ Testing with different databases / PHP versions
 
 In DDEV, you can set the database and PHP version in a file located in the ``.ddev/config.yaml`` folder.
 
-#. :ref:`Set up a GitHub codespace<Setting up a codespace>` from the PR you are testing and immediately stop the build process as soon as the terminal window is displayed by pressing ``Cmd/Ctrl + C`` on your keyboard.
+#. If you're using GitHub Codespaces,:ref:`set up a codespace<Setting up a codespace>` from the PR you are testing and immediately stop the build process as soon as the terminal window is displayed by pressing ``Cmd/Ctrl + C`` on your keyboard.
 
 #. Delete anything that has already been started with the command ``ddev delete --omit-snapshot --yes && rm -rf var/cache && rm config/local.php``.
 
@@ -384,11 +440,11 @@ Leaving a PR review
 
 Within GitHub, there is a built-in system that allows users to leave reviews:
 
-#. Click the 'Files changed' tab, under the PR title.
-#. Click the green 'Review changes' button at the top right, which allows you to start a review.
+#. Click the **Files changed** tab, under the PR title.
+#. Click the green **Review changes** button at the top right, which allows you to start a review.
 
 .. image:: images/pr_review_github.png
-    :alt: Screenshot of a PR review page at GitHub, highlighting the files changed and review changes buttons
+   :alt: A PR review page at GitHub, highlighting the files changed and review changes buttons
 
 From this point, you can share what you have found when testing the PR. You can select whether you:
 
