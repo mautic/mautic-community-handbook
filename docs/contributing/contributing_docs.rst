@@ -14,8 +14,8 @@ Contributing workflow
 
 In this section, you can find the contributing workflow and best practices for contributing to Mautic documentation.
 
-Forking the repository
-======================
+Fork the repository
+===================
 
 Forking the repository is the first step you need to take before proceeding. Forking means making a copy of a repository to your GitHub account.
 
@@ -557,7 +557,7 @@ To work locally, you first need to install these on your machine:
 Setting up the local environment
 --------------------------------
 
-#. :ref:`Fork <Forking the repository>` this repository to your own GitHub account.
+#. :ref:`Fork the repository` to your own GitHub account.
 #. Go to your forked repository on GitHub.
 #. :ref:`Clone <Clone the repository>` your forked repository.
 #. Navigate into the project directory by running:
@@ -634,7 +634,7 @@ To get the best experience, work locally whenever possible. However, if that’s
 Setting up a codespace
 ----------------------
 
-#. :ref:`Fork <Forking the repository>` the repository to your own GitHub account.
+#. :ref:`Fork the repository` to your own GitHub account.
 #. Go to your forked repository on GitHub.
 #. Click the branch dropdown menu on the top left and select the branch you need to base your changes on. For example, if you need to update documentation for Mautic version 7, switch to ``7.x``.
 
@@ -903,7 +903,7 @@ Then input the answer to all prompts:
 .. vale off
 
 * **Enter a Unique Link Name:** the name of the link.
-* **Enter the link text the user sees:** the link that appears on the website.
+* **Enter the link text the user sees:** the link text that appears on the website.
 * **Enter the URL:** the link URL.
 * **Enter the .py file name (use_lower_case_and_underscore of link name):** the name of the file.
 
