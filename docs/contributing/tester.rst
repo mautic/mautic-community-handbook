@@ -1,13 +1,7 @@
 Tester
 ######
 
-Every new feature and bug fix released in Mautic undergoes testing and code review by community members before it's included in a release.
-
-Mautic is always looking out for people to help with these processes. Even if you can spare an hour or two a week, it significantly increases the number of bugs and features that reach Mautic users.
-
-.. note::
-
-   Mautic maintains :xref:`Mautic OSS Fridays board`, which shows you a list of all of the bugs and features that need to get tested.
+Mautic is always looking out for people to help with testing and reviewing all new features and bug fixes in Mautic before including them in a release. Even if you can spare an hour or two a week, it significantly increases the number of bugs and features that reach Mautic users.
 
 There are two ways to set up your testing environment:
 
@@ -16,20 +10,17 @@ There are two ways to set up your testing environment:
 
 Once your testing environment is ready, testing bugs and features is very quick and easy.
 
-.. tip::
-
-  You can watch the short tutorial about :xref:`How to test bugs and features in Mautic` on YouTube, which explains the easy way to do it.
-
 Setting up a local testing environment
 **************************************
 
 Prerequisites
 =============
 
-Before starting, you need a few pieces of software on your computer:
+Before starting, you need to register for an account at :xref:`GitHub signup` if you don't already have one. You also need to install these on your machine:
 
 .. vale off
 
+* :xref:`VS Code` - **recommended** - or your preferred IDE
 * A Docker provider\*
 * :xref:`DDEV`
 * :xref:`Git downloads`
@@ -37,16 +28,14 @@ Before starting, you need a few pieces of software on your computer:
 
 .. vale on
 
-\* Please read the :xref:`Docker installation` section on the DDEV official website to learn which Docker provider is suitable for your operating system.
+.. note::
 
-Once you have these installed, use a code editor such as :xref:`VS Code`, which allows you to interact with files, folders, and the command line. There are other editors and Integrated Development Environments - IDEs. So if you already have a preference, by all means, use that.
-
-You also need to register for an account at :xref:`GitHub signup` if you don't already have one.
+   \* Please read the :xref:`Docker installation` section on the DDEV official website to learn which Docker provider is suitable for your operating system.
 
 Forking the repository
 ======================
 
-Forking the repository is the first step you need to take before proceeding. Forking means making a copy of a repository to your GitHub account.
+Forking the ``mautic`` repository is the first step you need to take before proceeding. Forking means making a copy of a repository to your GitHub account.
 
 To fork the repository:
 
@@ -83,7 +72,7 @@ To fork the repository:
    |
 
    .. image:: images/uncheck_option_and_create_fork_button_github.png
-      :alt: A deselected checkbox to choose the option to copy only the default branch and a create fork button on GitHub
+      :alt: A deselected checkbox to choose the option to copy only the default branch, and a create fork button on GitHub
 
    |
 
@@ -94,32 +83,40 @@ Cloning the repository
 
 After you forked the repository, you need to clone it. Cloning means copying a repository to your local environment. In this case, you want to clone your forked repository.
 
-The :xref:`Mautic GitHub repository` contains multiple branches that represent specific release versions of Mautic. You should clone the branch that you need to test into its own dedicated folder.
+.. note::
 
-For example, when you need to test Mautic versions 6 and 7, clone the branch ``6.0`` and save it in a folder. Then, clone the branch ``7.x`` and save it in a separate folder. You can name the folder anything you want, but it's best to reflect the branch name. For example, use names like ``mautic6``, ``mautic7``, and so on.
+   The :xref:`Mautic GitHub repository` contains multiple branches that represent specific release versions of Mautic. You should clone the branch that you need to test into its own dedicated folder.
+
+   For example, when you need to test Mautic versions 6 and 7, clone the branch ``6.0`` and save it in a folder. Then, clone the branch ``7.x`` and save it in a separate folder. You can name the folder anything you want, but it's best to reflect the branch name. For example, use names like ``mautic6``, ``mautic7``, and so on.
 
 Follow the steps below to clone your forked repository:
 
-#. Create a folder in your local computer where you'll locate all your local working environments. It's up to you what to name it and where you save it.
-#. Inside the newly created folder, create another folder and name it ``mautic``.
-#. Open your editor, then open a terminal window within it. 
-#. In the terminal, move into the directory you just created. Use the following command:
+#. Click your avatar on the top right.
+#. Click **Repositories**.
 
-   .. code-block:: bash
+   |
 
-      cd YOUR-FOLDER/mautic
+   .. image:: images/repositories_option_github.png
+      :alt: Repositories option from a dropdown menu on GitHub
+      :width: 300px
+      :align: center
 
-   If you're unsure where you are, run the following command to see the list of the directories and files of the current folder that you're at:
+   |
 
-   .. code-block:: bash
+#. Open your forked repository. The URL should have your username. For example: ``https://github.com/YOUR-GITHUB-USERNAME/mautic.git``.
+#. Click the green **Code** button on top.
+#. Select **HTTPS** and copy the URL.
 
-      ls
+   |
 
-   If you need to move up a directory, for example, back to ``/YOUR-FOLDER/``, you can use the command:
+   .. image:: images/code_button_https_tab_github.png
+      :alt: Highlight of code button, copy symbol, and HTTPS tab on GitHub
+      :width: 350px
+      :align: center
 
-   .. code-block:: bash
+   |
 
-      cd ..
+#. In your terminal, go to your local directory where you want to save the project.
 
 #. Run the ``git clone`` command specifying the branch you need to test and a folder name to save it, then hit **Enter**:
 
@@ -148,7 +145,7 @@ Setting up a local DDEV instance
 
 Now that you have the repository's branch that you need to test locally, it's time to set up a local DDEV instance so you can use PHP, MySQL, and all the other components that Mautic requires to run.
 
-#. Move into the directory using the command, where `X` is the version of Mautic that you saved in your ``mautic`` folder:
+#. Move into the directory using the command, where ``X`` is the version of Mautic that you saved in your ``mautic`` folder:
 
    .. code-block:: bash
 
@@ -170,12 +167,12 @@ Now that you have the repository's branch that you need to test locally, it's ti
 
 #. If prompted to install Mautic, choose **Yes**.
 
-   This installs all the dependencies that Mautic requires to run.
+   It installs all the dependencies that Mautic requires to run.
 
 Live preview the Mautic instance
 ================================
    
-Once the installation process finishes, it displays the URL for the Mautic instance, as well as the URLs for Mailpit and PHPMyAdmin, in case you need to test outgoing emails or database operations. It also provides the default credentials for login.
+Once the installation process finishes, it displays the URL for the Mautic instance, as well as the URLs for Mailpit and PHPMyAdmin, in case you need to test outgoing emails or database operations. It also provides the default login credentials.
 
 .. image:: images/ddev_information_after_built.png
    :alt: Information to run DDEV that highlights Mautic login credentials and live preview URLs
@@ -191,9 +188,7 @@ Follow the steps below to open the Mautic instance:
    * The default username to login to Mautic is always ``admin``, and the password is ``Maut1cR0cks!``.
    * If you're testing an older version of Mautic than ``5.1``, use the password ``mautic``.
 
-.. note::
-
-   Now that you've set up the codespace, go to the :ref:`Testing a PR` section to start testing a PR.
+Now that you've set up the codespace, go to the :ref:`Testing a PR` section to start testing a PR.
 
 Setting up a testing environment on GitHub Codespaces
 *****************************************************
@@ -269,7 +264,7 @@ Setting up a codespace
    * If you're testing an older version of Mautic than ``5.1``, use the password ``mautic``.
    * You can run the ``ddev describe`` command to see the list and details of available URLs and ports.
 
-After you set up the environment, you can follow the test instructions in the PR and :ref:`report back your findings<Leaving a PR review>`.
+After you set up the environment, you can follow the test instructions in the PR and :ref:`report back your findings <Leaving a PR review>`.
 
 Rebuild a codespace
 -------------------
@@ -303,14 +298,16 @@ Follow these steps to rebuild your codespace:
 
 .. vale on
 
-.. note::
-
-   Now that you've set up the codespace, go to the :ref:`Testing a PR` section to start testing a PR.
+Now that you've set up the codespace, go to the :ref:`Testing a PR` section to start testing a PR.
 
 .. vale off
 
 Testing a PR
 ************
+
+.. note::
+
+   Mautic maintains :xref:`Mautic OSS Fridays board`, which shows you a list of all of the bugs and features that need to get tested.
 
 .. vale on
 
@@ -345,7 +342,11 @@ Once you have confirmed the bug, you can start testing the PR:
 
 Now that you have the PR in your environment, the next step is to retest the bug or inspect the new feature. Make sure you are thorough in your testing. Consider all potential impacts of the changes and test thoroughly.
 
-It would be very helpful if you could :ref:`write a comment<Leaving a PR review>` explaining what you have tested.
+It would be very helpful if you could :ref:`write a comment <Leaving a PR review>` explaining what you have tested.
+
+.. tip::
+
+  You can watch the short tutorial about :xref:`How to test bugs and features in Mautic` on YouTube, which explains the easy way to do it.
 
 Reproducing a bug
 =================
@@ -433,7 +434,7 @@ Testing with different databases / PHP versions
 
 In DDEV, you can set the database and PHP version in a file located in the ``.ddev/config.yaml`` folder.
 
-#. If you're using GitHub Codespaces, :ref:`set up a codespace<Setting up a codespace>` from the PR you're testing and immediately stop the build process as soon as the terminal window displays by pressing ``Cmd/Ctrl + C`` on your keyboard.
+#. If you're using GitHub Codespaces, :ref:`set up a codespace <Setting up a codespace>` from the PR you're testing and immediately stop the build process as soon as the terminal window displays by pressing ``Cmd/Ctrl + C`` on your keyboard.
 
 #. Run the ``ddev delete --omit-snapshot --yes && rm -rf var/cache && rm config/local.php`` command to clean up the build.
 
@@ -450,12 +451,12 @@ In DDEV, you can set the database and PHP version in a file located in the ``.dd
 
 #. Check that you're using the right version in the system information within Mautic.
 
-#. Remember to make sure you are :ref:`using developer mode<Using developer mode>`. DDEV should start in developer mode by default, with the Symfony toolbar at the bottom of the page.
+#. Remember to make sure you are :ref:`using developer mode <Using developer mode>`. DDEV should start in developer mode by default, with the Symfony toolbar at the bottom of the page.
 
 #. If you make a mistake, open your :xref:`GitHub Codespaces` dashboard, delete the codespace, and start again.
 
-Resetting local testing environment
------------------------------------
+Resetting the local testing environment
+---------------------------------------
 
 To quickly reset your local testing environment by deleting the DDEV containers without a database snapshot, removing the cache directory, and removing the ``local.php`` file, you can run this command:
 
@@ -473,7 +474,7 @@ Leaving a PR review
 Within GitHub, there is a built-in system that allows users to leave reviews:
 
 #. Click the **Files changed** tab, under the PR title.
-#. Click the green **Review changes** button at the top right to start a review.
+#. Click the green **Review changes** button in the top-right corner to start a review.
 
 .. image:: images/pr_review_github.png
    :alt: A PR review page at GitHub, highlighting the files changed and review changes buttons
