@@ -859,7 +859,7 @@ Mautic uses link files located in the ``/links`` directory. If you need to add a
 
 To make sure the link is available, in VS Code:
 
-#. Click the search button that resembles a magnifying glass in the left bar or press ``Ctrl + Shift + F``.
+#. Click the search button that resembles a magnifying glass in the left bar or press ``Cmd/Ctrl + Shift + F``.
 
    |
 
@@ -957,7 +957,7 @@ You should see a list of links. To identify broken links, follow these steps:
 
 .. vale off
 
-#. In your terminal, press ``CTRL + F``.
+#. In your terminal, press ``Cmd/Ctrl + F``.
 #. Type 'broken'. You should see the count of the word "broken" next to the search bar.
 #. Click the down arrow to locate the broken links.
 
