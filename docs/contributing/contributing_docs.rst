@@ -1,13 +1,91 @@
 Contributing to Mautic's documentation
 ######################################
 
-So you're interested in contributing to Mautic's documentation? That's fantastic. Mautic is always looking for help to improve the documentation and make it as useful as possible for the Mautic community.
+Mautic is always looking for help to improve the documentation and make it as useful as possible for the Mautic community.
 
 There are three Mautic documentation repositories on GitHub open to contributions:
 
 #. The :xref:`User Documentation` - :xref:`User Docs GitHub` 
 #. The :xref:`Developer Docs` - :xref:`Developer Docs GitHub`
 #. The :xref:`Community Handbook` - :xref:`Community Handbook GitHub`
+
+.. note::
+
+   Before you start, please read the contributing guidelines available in the ``.github/CONTRIBUTING.md`` file in each repository.
+
+Finding and claiming an issue
+*****************************
+
+There are a couple of ways to find issues for you to work on:
+
+#. At the GitHub repositories
+#. At the Mautic low- and no-code GitHub projects board
+
+GitHub repositories
+===================
+
+To find issues and claim one in a GitHub repository:
+
+#. Go to the original repository on GitHub.
+#. Click the **Issues** tab at the top. You should see the list of open issues.
+
+#. Find an issue that interests you, and ensure it doesn't have an assignee.
+
+   When an issue has an avatar at the end of the row, it indicates an assignee is working on it.
+
+   |
+
+   .. image:: images/issues_tab_github.png
+      :alt: Highlight of Issues tab and assignees on GitHub
+
+   |
+
+#. Once you find the issue that you want to work on, comment on it to express your interest and tag ``@mautic/education-team-leaders``.
+
+Low- and no-code GitHub projects board
+======================================
+
+To find issues and claim one from the low- and no-code projects board:
+
+#. Go to :xref:`Mautic low-no-code projects board` projects board.
+#. Click the down arrow button at the **All Tasks** tab to view the options.
+#. Select the **Slice by** option.
+#. Select **Type of issue**.
+
+   |
+
+   .. image:: images/all_tasks_menu_github_projects.png
+      :alt: Highlight of the all tasks dropdown menu, slice by, and type of issue options at GitHub projects board
+
+   |
+
+#. Click the type of issue in the left bar, such as ``User Documentation``, ``Developer Documentation``, ``Community Handbook``, and so on, to see the list of issues in each type.
+#. Scroll down the table and find the **Ready for contributors** group.
+
+   |
+
+   .. image:: images/type_of_issue_ready_for_contributors_list_github_projects.png
+      :alt: The type of issue list and Ready for contributors group at Mautic's low-no-code GitHub projects board
+
+   |
+
+#. Find an issue in the group that interests you and ensure it doesn't have an assignee. Scroll horizontally to find the **Assignees** column.
+
+   |
+
+   .. image:: images/assignees_column_github_projects.png
+      :alt: Highlight of the assignees column at the GitHub projects board
+
+   |
+
+#. Once you find the issue that you want to work on, click the issue title, comment on it to express your interest, and tag ``@mautic/education-team-leaders``.
+
+.. attention::
+
+   If you're interested in working on an issue, please always ensure:
+
+   * The issue doesn't have an assignee.
+   * Leave a comment on the issue and tag ``@mautic/education-team-leaders`` so that our team can assign you to the issue. If you don't comment on it, our team can't assign it to you.
 
 Contributing workflow
 *********************
