@@ -446,13 +446,6 @@ Refer to the :ref:`Setting up a testing environment on GitHub Codespaces`.
 
   You can watch the short tutorial about :xref:`How to test bugs and features in Mautic` on YouTube, which explains the easy way to do it.
 
-Using developer mode
-====================
-
-When testing Mautic, it's important that you're notified of any errors rather than having them output to the logs. To avoid constantly rebuilding JavaScript and CSS files when making changes, use developer mode. Configure this mode in the local environment file.
-
-DDEV has developer mode enabled by default. Read more about :xref:`Mautic environments docs` on Mautic Developer Documentation.
-
 Testing top tips
 ================
 
@@ -487,8 +480,6 @@ In DDEV, you can set the database and PHP version in a file located in the ``.dd
 #. Run the installer in the UI or on the command line, as preferred. All the database credentials are ``db``. The database host name is ``ddev-mautic-db``.
 
 #. Check that you're using the right version in the system information within Mautic.
-
-#. Remember to make sure you are :ref:`using developer mode <Using developer mode>`. DDEV should start in developer mode by default, with the Symfony toolbar at the bottom of the page.
 
 #. If you make a mistake, open your :xref:`GitHub Codespaces` dashboard, delete the codespace, and start again.
 
