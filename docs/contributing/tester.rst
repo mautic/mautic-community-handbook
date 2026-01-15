@@ -105,7 +105,7 @@ Prerequisites
 Before starting, you need a few pieces of software on your computer:
 
 * A Docker provider \*
-* :xref:`DDEV get started`
+* :xref:`DDEV`
 * :xref:`Git downloads`
 * :xref:`GitHub CLI`
 
