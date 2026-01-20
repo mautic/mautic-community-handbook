@@ -179,20 +179,20 @@ Follow the steps below to clone your forked repository:
 
    .. code-block:: bash
 
-      git clone --branch BRANCH-NAME https://github.com/YOUR-GITHUB-USERNAME/REPOSITORY-NAME FOLDER-NAME
+      git clone --branch BRANCH-NAME https://github.com/YOUR-GITHUB-USERNAME/REPOSITORY-NAME.git FOLDER-NAME
 
    Here are some examples:
 
    .. code-block:: bash
 
       # User documentation
-      git clone --branch 7.1 https://github.com/YOUR-GITHUB-USERNAME/user-documentation user-docs-71
-      git clone --branch 7.x https://github.com/YOUR-GITHUB-USERNAME/user-documentation user-docs-7
-      git clone --branch 6.x https://github.com/YOUR-GITHUB-USERNAME/user-documentation user-docs-6
-      git clone --branch 5.2 https://github.com/YOUR-GITHUB-USERNAME/user-documentation user-docs-5
+      git clone --branch 7.1 https://github.com/YOUR-GITHUB-USERNAME/user-documentation.git user-docs-71
+      git clone --branch 7.x https://github.com/YOUR-GITHUB-USERNAME/user-documentation.git user-docs-7
+      git clone --branch 6.x https://github.com/YOUR-GITHUB-USERNAME/user-documentation.git user-docs-6
+      git clone --branch 5.2 https://github.com/YOUR-GITHUB-USERNAME/user-documentation.git user-docs-5
 
       # Developer documentation
-      git clone --branch 5.x https://github.com/YOUR-GITHUB-USERNAME/developer-documentation-new dev-docs-5
+      git clone --branch 5.x https://github.com/YOUR-GITHUB-USERNAME/developer-documentation-new.git dev-docs-5
 
 .. vale on
 
