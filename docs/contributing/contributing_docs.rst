@@ -1,5 +1,5 @@
-Contributing to Mautic's documentation
-######################################
+Mautic's documentation
+######################
 
 Mautic is always looking for help to improve the documentation and make it as useful as possible for the Mautic community.
 
