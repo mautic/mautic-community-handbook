@@ -705,9 +705,14 @@ To get the best experience, work locally whenever possible. However, if that’s
 
    * Close the VS Code on the browser
    * Go to :xref:`list of Codespaces`
-   * Scroll down and you should see a list of your Codespaces
+   * Scroll down and you should see a list of your Codespaces at the bottom
    * Click the three dots icon at the codespace that you'd like to shut down
    * Click **Stop codespace**
+
+   .. image:: images/stop_codespace_github.png
+      :alt: Highlight three dots icon at a codespace and stop codespace option on GitHub Codespaces
+      :width: 800px
+      :align: center
 
 Setting up a codespace
 ----------------------
