@@ -68,6 +68,7 @@ The vision is that it grows over time as the teams and governance structure evol
    policies/paying_contributors
    policies/become_a_community_partner
    policies/recognizing_contributors_sponsors_and_partners
+   policies/contributor_reference
    policies/promoting_integrations
    policies/trademark
    policies/financial_policy
