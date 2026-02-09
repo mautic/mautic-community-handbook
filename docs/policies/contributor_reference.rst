@@ -25,15 +25,15 @@ Eligibility criteria for full reference
 To be eligible for a full reference letter, a contributor must demonstrate consistent and active engagement for a minimum of 12 months. Factors that strengthen a request for a full reference include:
 
 * Duration of Active Contribution  
-  * There must be demonstrable contribution over a sustained period - at least 12+ months.  
+    * There must be demonstrable contribution over a sustained period - at least 12+ months.  
 * Leadership Roles  
-  * They must be serving in a leadership capacity within a Team, Working Group, or specific project.  
+    * They must be serving in a leadership capacity within a Team, Working Group, or specific project.  
 * Team Lead recommendation  
-  *  There must be a positive recommendation or endorsement from their respective Team Lead.  
+    *  There must be a positive recommendation or endorsement from their respective Team Lead.  
 * Knowledge and Engagement  
-  * The individual must have deep knowledge of Mautic and active engagement with the broader community - for example forums, Slack, events.  
+    * The individual must have deep knowledge of Mautic and active engagement with the broader community - for example forums, Slack, events.  
 * Community Building  
-  * There should be involvement in a Mautic Meetup group or other local community initiatives as an attendee, leader or organizer
+    * There should be involvement in a Mautic Meetup group or other local community initiatives as an attendee, leader or organizer
 
 Request process
 ***************
