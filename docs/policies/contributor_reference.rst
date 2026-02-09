@@ -11,13 +11,13 @@ Reference letter types
 Mautic offers two types of reference letters based on the length and depth of a contributor's engagement with the Mautic community:
 
 1. Character Reference for those active < 12 months
-   * For contributors who have been active for less than 12 months, Mautic can provide a basic character reference. This letter consists of a single paragraph confirming:  
-     * The individual's participation in the Mautic community.  
-     * The general nature of their contributions - for example code, documentation, community support.  
-     * Observations of their character and conduct based on their interactions within the community.
+    * For contributors who have been active for less than 12 months, Mautic can provide a basic character reference. This letter consists of a single paragraph confirming:  
+        * The individual's participation in the Mautic community.  
+        * The general nature of their contributions - for example code, documentation, community support.  
+        * Observations of their character and conduct based on their interactions within the community.
 
 2. Full Reference for those active > 12 months
-   * For contributors who have been consistently active and engaged for at least 12 months, Mautic can provide a more detailed reference letter. This letter elaborates on their specific contributions, roles, and impact on the project.
+    * For contributors who have been consistently active and engaged for at least 12 months, Mautic can provide a more detailed reference letter. This letter elaborates on their specific contributions, roles, and impact on the project.
 
 Eligibility criteria for full reference
 ***************************************
