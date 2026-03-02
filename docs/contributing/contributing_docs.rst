@@ -922,7 +922,7 @@ Use the asterisk - ``*`` - for unordered lists.
 
 .. note::
 
-   * When an item has multiple paragraphs, add a blank line to separate them.
+   * When an item has multiple paragraphs, add a blank line to separate them. Align the following paragraph with the beginning of the list item text.
    * If an image is part of an item, add a blank line before the image directive. Align the directive with the beginning of the list item text.
 
 **Example:**
@@ -991,7 +991,7 @@ Use the sharp symbol followed by a period - ``#.`` - for ordered lists. This all
 
 .. note::
 
-   * When an item has multiple paragraphs, add a blank line to separate them.
+   * When an item has multiple paragraphs, add a blank line to separate them. Align the following paragraph with the beginning of the list item text. 
    * If an image is part of an item, add a blank line before the image directive. Align the directive with the beginning of the list item text.
 
 **Example:**
@@ -1143,7 +1143,7 @@ Use the ``.. image::`` directive to insert visual assets. Refer to the :ref:`Ima
 Code-block
 ~~~~~~~~~~
 
-Use the ``.. code-block::`` directive to display code snippets. Always specify the language - for example, ``bash``, ``php``, or ``rst`` - to enable syntax highlighting.
+Use the ``.. code-block::`` directive to display code snippets. Always specify the language - for example, ``bash``, ``php``, ``rst``, or other languages - to enable syntax highlighting.
 
 **Example:**
 
@@ -1360,11 +1360,11 @@ Internal links connect related information within the same documentation project
 Linking to a custom target
 ==========================
 
-A target acts like a bookmark. Placing a target before a specific paragraph, image, code block, and so on, allows a link to point directly to that spot.
+A target acts like a bookmark. Placing a target before a specific paragraph, image, code block, or other elements, allows a link to point directly to that spot.
 
 .. note::
 
-   Custom targets allow for linking between different files. Every target name is unique, so the system finds the correct location regardless of which page the link is on.
+   Custom targets allow for linking between different files. Every target name should be unique, so the system can find the correct location regardless of which page the link is on.
 
 **Example:**
 
@@ -1417,17 +1417,12 @@ Follow this :ref:`link to the code block <custom target>`.
 * **Target** - Start the line with two dots, a space, an underscore, the name, and a colon.
 * **Placement** - Position the target on the line immediately before the element. Include one blank line between the target and the content.
 * **Unique names** - Every target name must be unique across the entire documentation project.
-* **The link** - Use the ``:ref:`` role to point to the target. Use the target name inside ``< >`` brackets for custom link text, such as ``:ref:`Custom text <custom target>```. Alternatively, use the target name alone inside backticks, such as ``:ref:`custom target```, to automatically display the title of the section it marks.
+* **The link** - Use the ``:ref:`` role to point to the target. Use the target name inside ``< >`` brackets for custom link text, such as ``:ref:`Custom text <custom target>```. Alternatively, use the target name alone inside backticks, such as ``:ref:`custom target```, to automatically navigate to the title of the section it marks.
 
-Linking to other pages
-======================
+Linking to a section within the current page
+============================================
 
-When you're linking to other pages in the documentation, be sure to use the correct syntax as follow:
-
-Linking within the current page
--------------------------------
-
-Use these links to help readers find related sections on the same page.
+Use this reference to navigate readers to related sections on the same page.
 
 .. note::
 
@@ -1445,18 +1440,18 @@ The link points to a page heading titled "A heading."
 * **Standard link** - The first example uses the heading name and displays the text exactly as it appears on the page.
 * **Custom link** - The second example uses specific text to override the heading name. Place your custom text before the ``< >`` brackets. The text inside the brackets must match the heading exactly.
 
-The example below links the text "Click this link title" to the actual "Linking to other pages" heading on this page:
+The example below links the text "Click this link title" to the actual "Linking to a custom target" heading on this page:
 
 .. code-block:: rst
 
-   :ref:`Click this link title <Linking to other pages>`
+   :ref:`Click this link title <Linking to a custom target>`
 
-Try clicking this link to see how it works: :ref:`Click this link title <Linking to other pages>`.
+Try clicking this link to see how it works: :ref:`Click this link title <Linking to a custom target>`.
 
 Read more about the ``:ref:`` role in the :xref:`ref role documentation`.
 
 Linking to another page in the same documentation repository
-------------------------------------------------------------
+============================================================
 
 Use the ``:doc:`` role to link to different pages within the same documentation repository.
 
@@ -1490,7 +1485,7 @@ Reusing external links
 
 Mautic stores external links in the ``/links`` directory to keep the documentation organized. Before you add a new external link, verify that it's not already in the directory.
 
-This approach is **preferable** because it prevents duplicate entries and simplifies link management. If the link exists, use the established reference. If the link is missing, you must add it to the directory before using it in a page.
+This approach is preferable because it prevents duplicate entries and simplifies link management. If the link exists, use the established reference. If the link is missing, you must add it to the directory before using it in a page.
 
 To make sure the link is available, in VS Code:
 
@@ -1613,7 +1608,7 @@ After identifying the broken links, the next step is to fix them.
 .. vale off
 
 Status code 404
-~~~~~~~~~~~~~~~
+---------------
 
 .. vale on
 
@@ -1627,7 +1622,7 @@ If the broken links have a status code of ``404 Client Error: Not Found for url`
 #. Find alternative resources to replace any broken links relevant to the content.
 
 Other status codes
-~~~~~~~~~~~~~~~~~~
+------------------
 
 For broken links with a status code other than 404, such as ``403 Client Error: Forbidden for url``, broken anchor, timeout, etc. - **as long as the URL works**:
 
