@@ -856,7 +856,7 @@ Headings
 Nesting headings
 ----------------
 
-When creating a heading or section title, underline it with a punctuation character exactly as long as the text. This maintains RST syntax and ensures the documentation remains organized.
+When creating a heading or section title, underline the text with a punctuation character. The underline must be exactly as long as the text to prevent syntax errors and to ensure visual consistency across the documentation.
 
 Mautic uses the following punctuation characters:
 
