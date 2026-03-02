@@ -36,7 +36,7 @@ To find issues and claim one in a GitHub repository:
    |
 
    .. image:: images/issues_tab_github.png
-      :alt: Highlight of Issues tab and assignees on GitHub
+      :alt: Highlight of Issues tab and assignees on GitHub.
 
    |
 
@@ -55,7 +55,7 @@ To find issues and claim one from the low- and no-code projects board:
    |
 
    .. image:: images/all_tasks_menu_github_projects.png
-      :alt: Highlight of the all tasks dropdown menu, slice by, and type of issue options at GitHub projects board
+      :alt: Highlight of the all tasks dropdown menu, slice by, and type of issue options at GitHub projects board.
 
    |
 
@@ -65,7 +65,7 @@ To find issues and claim one from the low- and no-code projects board:
    |
 
    .. image:: images/type_of_issue_ready_for_contributors_list_github_projects.png
-      :alt: The type of issue list and Ready for contributors group at Mautic's low-no-code GitHub projects board
+      :alt: The type of issue list and Ready for contributors group at Mautic's low-no-code GitHub projects board.
 
    |
 
@@ -74,7 +74,7 @@ To find issues and claim one from the low- and no-code projects board:
    |
 
    .. image:: images/assignees_column_github_projects.png
-      :alt: Highlight of the assignees column at the GitHub projects board
+      :alt: Highlight of the assignees column at the GitHub projects board.
 
    |
 
@@ -104,7 +104,7 @@ To fork a repository:
    |
 
    .. image:: images/fork_button_github.png
-      :alt: Fork button on GitHub
+      :alt: Fork button on GitHub.
       :width: 600px
       :align: center
 
@@ -119,7 +119,7 @@ To fork a repository:
    |
 
    .. image:: images/choose_fork_owner_github.png
-      :alt: Choose fork owner on GitHub
+      :alt: Choose fork owner on GitHub.
       :width: 350px
       :align: center
 
@@ -132,7 +132,7 @@ To fork a repository:
    |
 
    .. image:: images/uncheck_option_and_create_fork_button_github.png
-      :alt: A deselected checkbox to choose the option to copy only the default branch and a create fork button on GitHub
+      :alt: A deselected checkbox to choose the option to copy only the default branch and a create fork button on GitHub.
       :width: 700px
       :align: center
 
@@ -155,7 +155,7 @@ Follow the steps below to clone your forked repository:
    |
 
    .. image:: images/repositories_option_github.png
-      :alt: Repositories option from a dropdown menu on GitHub
+      :alt: Repositories option in GitHub's dropdown menu.
       :width: 300px
       :align: center
 
@@ -168,7 +168,7 @@ Follow the steps below to clone your forked repository:
    |
 
    .. image:: images/code_button_https_tab_github.png
-      :alt: Highlight of code button, copy symbol, and HTTPS tab on GitHub
+      :alt: Highlight of code button, copy symbol, and HTTPS tab on GitHub.
       :width: 350px
       :align: center
 
@@ -211,7 +211,7 @@ Before you create a new branch, you must ensure that you're on the branch that y
    |
 
    .. image:: images/bottom_branch_tab_vscode.png
-      :alt: Branch tab at the bottom left of VS Code
+      :alt: Branch tab at the bottom left of VS Code.
       :width: 400px
       :align: center
 
@@ -243,7 +243,7 @@ There are two ways to create a new branch:
       |
 
       .. image:: images/create_a_new_branch_vscode.png
-         :alt: Create a new branch option in a dropdown menu on VS Code
+         :alt: Create a new branch option in a dropdown menu on VS Code.
          :width: 500px
          :align: center
 
@@ -283,7 +283,7 @@ There are two ways to push your changes to the remote repository:
       |
 
       .. image:: images/git_source_control_vscode.png
-         :alt: Source control icon on VS Code
+         :alt: Source control icon on VS Code.
          :height: 300px
          :align: center
 
@@ -298,7 +298,7 @@ There are two ways to push your changes to the remote repository:
       |
 
       .. image:: images/stage_and_commit_source_control_vscode.png
-         :alt: Highlight plus icon to add files to the staging area, commit message input, and commit button at Source Control in VS Code
+         :alt: Highlight plus icon to add files to the staging area, commit message input, and commit button at Source Control in VS Code.
          :width: 300px
          :align: center
 
@@ -309,7 +309,7 @@ There are two ways to push your changes to the remote repository:
       |
 
       .. image:: images/publish_branch_button_github.png
-         :alt: Publish branch button on source control at VS Code
+         :alt: Publish branch button on source control at VS Code.
          :width: 350px
          :align: center
 
@@ -320,7 +320,7 @@ There are two ways to push your changes to the remote repository:
       |
 
       .. image:: images/select_remote_repo_dropdown_menu_source_control_vscode.png
-         :alt: Highlight origin remote repository in a dropdown menu on Source Control at VS Code
+         :alt: Highlight origin remote repository in a dropdown menu on Source Control at VS Code.
          :width: 450px
          :align: center
 
@@ -384,7 +384,7 @@ Creating a PR
    |
 
    .. image:: images/change_pr_base_branch_github.png
-      :alt: Highlight of PR base branch on GitHub
+      :alt: Highlight of PR base branch on GitHub.
       :width: 800px
       :align: center
 
@@ -436,7 +436,7 @@ To cherry-pick, please follow the steps outlined below:
    |
 
    .. image:: images/sync_fork_update_branch_buttons_github.png
-      :alt: Sync fork and Update branch buttons on GitHub
+      :alt: Sync fork and Update branch buttons on GitHub.
       :width: 800px
       :align: center
 
@@ -461,7 +461,7 @@ To cherry-pick, please follow the steps outlined below:
    |
 
    .. image:: images/close_pr_button_github.png
-      :alt: Close pull request button on GitHub
+      :alt: Close pull request button on GitHub.
       :width: 300px
       :align: center
 
@@ -478,7 +478,7 @@ To cherry-pick, please follow the steps outlined below:
    |
 
    .. image:: images/commits_tab_copy_full_sha_github.png
-      :alt: Commits tab, list of commits, and copy icon button to copy the full SHA value on GitHub
+      :alt: Commits tab, list of commits, and copy icon button to copy the full SHA value on GitHub.
       :align: center
 
    |
@@ -569,7 +569,7 @@ To work directly on GitHub, follow the steps below:
    |
 
    .. image:: images/edit_on_github.png
-      :alt: Mautic community handbook with a red box highlighting the Edit on GitHub button
+      :alt: Mautic community handbook with a red box highlighting the Edit on GitHub button.
       :width: 500px
       :align: center
 
@@ -580,7 +580,7 @@ To work directly on GitHub, follow the steps below:
    |
 
    .. image:: images/edit_button_github.png
-      :alt: Mautic community handbook with a red box highlighting the Edit on GitHub button
+      :alt: Mautic community handbook with a red box highlighting the Edit on GitHub button.
       :width: 500px
       :align: center
 
@@ -612,7 +612,7 @@ To work locally, you first need to install these on your machine:
 
 #. **DDEV**
 
-   Mautic uses :xref:`DDEV` to simplify local development and testing of documentation updates. Go to the ":xref:`DDEV get started`" page for instructions to install DDEV on your local machine.
+   Mautic uses :xref:`DDEV` to simplify local development and testing of documentation updates. Go to the :xref:`DDEV get started` page for instructions to install DDEV on your local machine.
 
    .. note:: **For Windows users**:
       
@@ -620,7 +620,7 @@ To work locally, you first need to install these on your machine:
 
 #. **Vale**
 
-   Mautic uses :xref:`vale` to maintain style guide consistency across the docs. Go to the ":xref:`install Vale`" page on the official documentation to install Vale on your computer.
+   Mautic uses :xref:`vale` to maintain style guide consistency across the docs. Go to the :xref:`install Vale` page on the official documentation to install Vale on your computer.
 
 #. **GitHub CLI - optional**
 
@@ -660,7 +660,7 @@ Setting up the local environment
       cd docs
 
 #. Find the folder and file that you want to work on.
-#. Make changes and ensure that the changes you made follow Mautic's style guide by running the Vale lint. Please read the ":ref:`Working with Vale`" section to use Vale. Use the live preview to ensure everything works as intended in real time.
+#. Make changes and ensure that the changes you made follow Mautic's style guide by running the Vale lint. Please read the :ref:`Working with Vale` section to use Vale. Use the live preview to ensure everything works as intended in real time.
 #. Build the project by running:
 
    .. code-block:: bash
@@ -675,7 +675,7 @@ Setting up the local environment
 
    DDEV uses the folder name as the project name. This command automatically opens your browser and navigates to ``https://FOLDER-NAME.ddev.site/``.
 
-If you're ready to push your changes to the remote repository and create a PR, please read the ":ref:`Push changes to the remote repository`" and ":ref:`Creating a PR`" sections.
+If you're ready to push your changes to the remote repository and create a PR, please read the :ref:`Push changes to the remote repository` and :ref:`Creating a PR` sections.
 
 .. note::
 
@@ -710,7 +710,7 @@ To get the best experience, work locally whenever possible. However, if that’s
    * Click **Stop codespace**
 
    .. image:: images/stop_codespace_github.png
-      :alt: Highlight three dots icon at a codespace and stop codespace option on GitHub Codespaces
+      :alt: Highlight three dots icon at a codespace and stop codespace option on GitHub Codespaces.
       :width: 800px
       :align: center
 
@@ -724,7 +724,7 @@ Setting up a codespace
    |
 
    .. image:: images/switch_branch_github.png
-      :alt: Highlight branch dropdown menu on GitHub
+      :alt: Highlight branch dropdown menu on GitHub.
       :width: 300px
       :align: center
 
@@ -737,7 +737,7 @@ Setting up a codespace
    |
 
    .. image:: images/codespaces_tab_github.png
-      :alt: Highlight Codespaces tab, plus icon, and Create codespace on main at GitHub
+      :alt: Highlight Codespaces tab, plus icon, and Create codespace on main at GitHub.
       :width: 300px
       :align: center
 
@@ -748,7 +748,7 @@ Setting up a codespace
    |
 
    .. image:: images/postcreatecommand_on_terminal.png
-      :alt: The postCreateCommand running in the terminal
+      :alt: The postCreateCommand running in the terminal.
       :align: center
 
    |
@@ -763,7 +763,7 @@ Setting up a codespace
 
 #. Find the folder and file that you need to work on.
 #. Work on your changes and use the :ref:`live preview <Live preview on codespace>` to view and test your changes in real-time.
-#. Ensure that the changes you made follow Mautic's style guide by running the Vale lint. Please read the ":ref:`Working with Vale`" section to use Vale.
+#. Ensure that the changes you made follow Mautic's style guide by running the Vale lint. Please read the :ref:`Working with Vale` section to use Vale.
 
 Live preview on codespace
 -------------------------
@@ -780,7 +780,7 @@ Live preview on codespace
    |
 
    .. image:: images/preview_button_vscode_codespace.png
-      :alt: Highlight the preview button on the top bar of VS Code on codespace
+      :alt: Highlight the preview button on the top bar of VS Code on codespace.
       :width: 450px
       :align: center
 
@@ -792,19 +792,19 @@ Live preview on codespace
    |
 
    .. image:: images/port_and_open_browser_vscode_codespace.png
-      :alt: Highlight the port tab and globe icon to open the preview in the browser at VS Code on codespace
+      :alt: Highlight the port tab and globe icon to open the preview in the browser at VS Code on codespace.
       :width: 450px
       :align: center
 
    |
 
-If you're ready to push your changes to the remote repository and create a PR, please read the ":ref:`Push changes to the remote repository`" and ":ref:`Creating a PR`" sections.
+If you're ready to push your changes to the remote repository and create a PR, please read the :ref:`Push changes to the remote repository` and :ref:`Creating a PR` sections.
 
 .. tip::
 
    * Always refresh the page to view the new changes you have applied.
    * All commands only work within the ``docs/`` directory. If you're unable to run a command, verify that you're in the correct directory.
-   * Read the ":ref:`Troubleshooting live preview`" section if you encounter any issues with the live preview in the codespace.
+   * Read the :ref:`Troubleshooting live preview` section if you encounter any issues with the live preview in the codespace.
 
 Troubleshooting live preview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -841,104 +841,650 @@ If the previous steps fail:
 Working with RST
 ****************
 
+Indentations, spaces, and blank lines
+=====================================
+
+Indentation, spaces, and blank lines are essential when working with RST. Incorrect spacing causes the page formatting to break.
+
+.. tip::
+
+   If a broken format appears during live page preview, verify that the indentation, spacing, and blank lines are correct.
+
+Headings
+========
+
 Nesting headings
-================
+----------------
 
-Mautic uses the following syntax for headings:
+When creating a heading or section title, underline the text with a punctuation character. The underline must be exactly as long as the text to prevent syntax errors and to ensure visual consistency across the documentation.
+
+Mautic uses the following punctuation characters:
 
 .. code-block:: rst
 
-   H1
-   ###
+   Heading 1
+   #########
 
-   H2
-   ***
+   Heading 2
+   *********
 
-   H3
-   ===
+   Heading 3
+   =========
 
-   H4
-   ---
+   Heading 4
+   ---------
 
-   H5
-   ~~~
+   Heading 5
+   ~~~~~~~~~
 
-   H6
-   ^^^
+   Heading 6
+   ^^^^^^^^^
 
 .. note::
 
-   When you're writing documentation, be sure to:
+   Use only one H1 per page and nest the headings in the order shown. This keeps the documentation consistent and easy to read.
 
-   * Nest your headings correctly. That means you should use only one H1 heading per page, and nest your headings in the order shown. It helps to keep the documentation consistent and easy to read.
+Titles
+------
 
-   * Extend the underline to fit the length of the heading text. It's a requirement of RST syntax and helps to keep the documentation looking neat and tidy.
+Mautic uses sentence case for titles. Capitalize only the first word, unless a word in the middle of the sentence is a Mautic feature or a proper name.
 
-Linking to other pages
-======================
-
-When you're linking to other pages in the documentation, be sure to use the correct syntax as follow:
-
-Linking within the current page
--------------------------------
+**Examples:**
 
 .. code-block:: rst
 
-   :ref:`A heading`
-   :ref:`Target to paragraph <A heading>`
-   :ref:`Target inside a paragraph <A heading>`
+   How to update Mautic
+   ####################
 
-In this example, the target is a page heading called 'A heading'.
+   Updating at the command line
+   ****************************
 
-The first example uses the heading name and outputs it precisely as it appears on the page where it's used.
+Inline markup
+=============
 
-The second and third options use a text to override the existing heading. The content between the ``<`` and ``>`` tags is the heading from the page you want to link to - it must be an exact match to a heading used elsewhere on the page. The text displayed before ``<`` is what you want the words to display in the link.
+Standard inline markup for RST includes the following:
 
-For example, to link the text "A link title" to the heading "Linking to Other Pages" on this page, use the following format:
+* **Emphasis or italic**: use single asterisk - ``*italic*``
+* **Strong or bold**: use double asterisks - ``**bold**``
+* **Inline code**: use double backticks - ````inline code````
 
-.. code-block:: rst
+**Renders as:**
 
-   :ref:`A link title <Linking to other pages>`
+* *italic*
+* **bold**
+* ``inline code``
 
-This renders as: :ref:`A link title <Linking to other pages>`.
+Lists
+=====
 
-Read more about ``:ref:`` in the :xref:`ref role documentation`.
-
-Linking to another page in the same documentation repository
-------------------------------------------------------------
-
-.. code-block:: rst
-    
-    :doc:`documentation-page`
-    :doc:`/guides/documentation-page`
-    :doc:`Custom title </guides/documentation-page>`
-
-In this example, the target could be a page called "documentation-page."
-
-* The first example uses the page name as if it were in the same directory as the current file.
-* The second option uses the full path to the file if it were in a different directory.
-* The third uses a text to override the page heading.
-
-.. note::
-    
-   When linking to another page in the same documentation repository, you don't need to include the file extension - ``.rst``. Sphinx automatically adds it when building the documentation. Using paths relative to the documentation root is preferable to avoid changing the target name when restructuring content.
-
-Learn more about ``:doc:`` in the :xref:`doc role documentation`.
-
-External links
+Unordered list
 --------------
 
-Read the ":ref:`Working with external links`" section to add an external link and learn more about ``:xref:`` in the :xref:`xref role documentation`.
+Use the asterisk - ``*`` - for unordered lists.
+
+.. note::
+
+   * When an item has multiple paragraphs, add a blank line to separate them. Align the following paragraph with the beginning of the list item text.
+   * If a :ref:`directive <Directives>` is part of an item, add a blank line before the directive. Align the directive with the beginning of the list item text.
+
+**Example:**
+
+.. code-block:: rst
+
+   * First item.
+   * Second item.
+
+     Another paragraph of the second item.
+   * Third item.
+   * Take a look at the indentation of the image below. It aligns with this and the next bullet point.
+
+     .. image:: images/issues_tab_github.png
+        :alt: Highlight of Issues tab and assignees on GitHub.
+   
+   * Last item.
+
+**Renders as:**
+
+* First item.
+* Second item.
+
+  Another paragraph of the second item.
+* Third item.
+* Take a look at the indentation of the image below. It aligns with this and the next bullet point.
+
+  .. image:: images/issues_tab_github.png
+     :alt: Highlight of Issues tab and assignees on GitHub.
+
+* Last item.
+
+Nesting unordered lists
+~~~~~~~~~~~~~~~~~~~~~~~
+
+To nest an unordered list, separate the nested list from the parent list with blank lines and add **two spaces** of indentation relative to the parent list item.
+
+**Example:**
+
+.. code-block:: rst
+
+   * First item.
+   * Second item.
+
+     * Part of the second item.
+     * Another part of the second item.
+
+   * Third item.
+   * Fourth item.
+
+**Renders as:**
+
+* First item.
+* Second item.
+
+  * Part of the second item.
+  * Another part of the second item.
+
+* Third item.
+* Fourth item.
+
+Ordered list
+------------
+
+Use the sharp symbol followed by a period - ``#.`` - for ordered lists. This allows RST to handle the numbering automatically.
+
+.. note::
+
+   * When an item has multiple paragraphs, add a blank line to separate them. Align the following paragraph with the beginning of the list item text. 
+   * If a :ref:`directive <Directives>` is part of an item, add a blank line before the directive. Align the directive with the beginning of the list item text.
+
+**Example:**
+
+.. code-block:: rst
+
+   #. First item.
+   #. Second item.
+
+      Another paragraph of the second item.
+   #. Third item.
+   #. Take a look at the indentation of the image below. It aligns with the item. If the image's directive indentation is correct, the next item number is still in order.
+
+      .. image:: images/issues_tab_github.png
+         :alt: Highlight of Issues tab and assignees on GitHub.
+   
+   #. Last item.
+
+**Renders as:**
+
+#. First item.
+#. Second item.
+
+   Another paragraph of the second item.
+#. Third item.
+#. Take a look at the indentation of the image below. It aligns with the item. If the image's directive indentation is correct, the next item number is still in order.
+
+   .. image:: images/issues_tab_github.png
+      :alt: Highlight of Issues tab and assignees on GitHub.
+   
+#. Last item.
+
+Nesting ordered lists
+~~~~~~~~~~~~~~~~~~~~~
+
+To nest ordered lists, separate the nested list from the parent list with blank lines and add **three spaces** of indentation relative to the parent list item.
+
+**Example:**
+
+.. code-block:: rst
+
+   #. First item.
+   #. Second item.
+
+      #. Part of the second item.
+      #. Another part of the second item.
+
+   #. Third item.
+   #. Fourth item.
+
+**Renders as:**
+
+#. First item.
+#. Second item.
+
+   #. Part of the second item.
+   #. Another part of the second item.
+
+#. Third item.
+#. Fourth item.
+
+Combining nested lists
+----------------------
+
+When combining unordered and ordered lists, follow the parent list spacing rules. If the parent is an unordered list, add **two spaces** of indentation to the nested list. If the parent is an ordered list, add **three spaces**.
+
+**Examples:**
+
+.. code-block:: rst
+
+   An example of an **unordered list** as a parent:
+
+   * First item of the parent list.
+
+     #. This item has **two spaces** relative to the parent list item.
+     #. Another item of the nested list.
+
+   * Another item of the parent list.
+
+   An example of an **ordered list** as a parent:
+
+   #. First item of the parent list.
+
+      * This item has **three spaces** relative to the parent list item.
+      * Another item of the nested list.
+
+   #. Another item of the parent list.
+
+**Renders as:**
+
+An example of an **unordered list** as a parent:
+
+* First item of the parent list
+
+  #. This item has **two spaces** relative to the parent list item.
+  #. Another item of the nested list.
+
+* Another item of the parent list.
+
+An example of an **ordered list** as a parent:
+
+#. First item of the parent list.
+
+   * This item has **three spaces** relative to the parent list item.
+   * Another item of the nested list.
+
+#. Another item of the parent list.
+
+Directives
+==========
+
+Directives are blocks of explicit markup that instruct the RST parser to render specific content types. 
+
+Directive syntax 
+----------------
+
+Most directives follow this general format: 
+
+.. code-block:: rst    
+
+   .. DIRECTIVE_NAME:: ARGUMENTS 
+      :OPTION: VALUE       
+
+      CONTENT
+
+**Structure:**
+
+* **Directives** - Always start with two periods and a space, and end with two colons. 
+* **Options** - These appear on the lines immediately following the directive name. They start and end with a single colon and require a three-space indentation. 
+* **Content** - This follows a blank line and must align with the three-space indentation of the options.
+
+Commonly used directives
+------------------------
+
+Mautic documentation frequently uses the directives listed below. You must follow the Mautic standards for these specific directives to maintain consistent formatting. 
+
+While this list covers the most common cases, Sphinx provides many other directives that you can use. Refer to the :xref:`Sphinx directive documentation` for a complete list of available directives and detailed information.
+
+Admonition
+~~~~~~~~~~
+
+Use admonitions to highlight specific information. Refer to the :ref:`Admonitions` section for details.
+
+Image
+~~~~~
+
+Use the ``.. image::`` directive to insert visual assets. Refer to the :ref:`Image directive` section for more information.
+
+Code-block
+~~~~~~~~~~
+
+Use the ``.. code-block::`` directive to display code snippets. Always specify the language - for example, ``bash``, ``php``, ``rst``, or other languages - to enable syntax highlighting.
+
+**Example:**
+
+.. code-block:: rst
+
+   .. code-block:: php
+
+      <?php
+
+      namespace Mautic\Plugin\ExampleBundle;
+
+      class MyClass
+      {
+          public function onPluginInstall()
+          {
+              // Logic for plugin installation
+          }
+      }
+
+**Renders as:**
+
+.. code-block:: php
+
+   <?php
+
+   namespace Mautic\Plugin\ExampleBundle;
+
+   class MyClass
+   {
+       public function onPluginInstall()
+       {
+           // Logic for plugin installation
+       }
+   }
+
+**Structure:**
+
+* **Language** - Add the language name directly after the double colons. This ensures the code displays with the correct colors and formatting.
+* **Indentation** - Indent the code snippet with **three spaces** to align it under the start of the directive name.
+
+Table
+~~~~~
+
+Use the ``.. list-table::`` directive to organize data into rows and columns.
+
+.. note::
+
+   Mautic documentation uses the ``.. list-table::`` directive without a title. Only add text after the double colons if the context specifically requires one.
+
+**Example:**
+
+.. code-block:: rst
+
+   .. list-table::
+      :widths: 30 70
+      :header-rows: 1
+
+      * - Role title
+        - Tasks
+      * - Contributor
+        - Submits code or documentation fixes.
+      * - Maintainer
+        - Reviews pull requests and manages releases.
+      * - Triage Team
+        - 
+
+**Renders as:**
+
+.. list-table::
+   :widths: 30 70
+   :header-rows: 1
+
+   * - Role title
+     - Tasks
+   * - Contributor
+     - Submits code or documentation fixes.
+   * - Maintainer
+     - Reviews PRs and manages releases.
+   * - Triage Team
+     -
+
+**Structure:**
+
+* **Widths** - Use the ``:widths:`` option to set the relative percentage for each column.
+* **Header rows** - The ``:header-rows: 1`` option designates the first bulleted list as the table header. This formats the top row differently from the rest of the data.
+* **Header structure** - The first bulleted list in the example defines the header row.
+  
+  .. code-block:: rst
+
+     * - Role title
+       - Tasks
+
+* **List structure** - Each asterisk - ``*`` - represents a new row. Each dash - ``-`` - represents a column within that row. The first dash is column 1, the second dash is column 2, and so on.
+* **Empty columns** - If a column has no content, include the dash - ``-`` - but leave the rest of the line blank. Every row must have the same number of dashes to maintain the table structure.
+
+Admonitions
+===========
+
+Use admonitions to highlight information that requires extra attention. When writing an admonition, include a blank line between the directive and the content, and indent the content by **three spaces**.
+
+RST supports these standard admonition types:
+
+* ``attention``
+* ``caution``
+* ``danger``
+* ``error``
+* ``hint``
+* ``important``
+* ``note``
+* ``tip``
+* ``warning``
+
+**Example:**
+
+.. code-block::
+
+   .. important::
+
+      This is important information that you need to read.
+
+**Renders as:**
+
+.. important::
+
+   This is important information that you need to read.
+
+Customizing admonition title
+----------------------------
+
+To use a custom title, use the ``.. admonition::`` directive followed by the title.
+
+Note that only one neutral color is available for this admonition type.
+
+**Example:**
+
+.. code-block:: rst
+
+   .. admonition:: Customized admonition
+    
+      This is a customized admonition.
+
+**Renders as:**
+
+.. admonition:: Customized admonition
+    
+   This is a customized admonition.
+
+Admonition contents
+-------------------
+
+Admonitions can contain lists, inline code, code blocks, and images. All content within the admonition must maintain the **three-space** indentation.
+
+**Example:**
+
+.. code-block::
+
+   .. admonition:: Various contents
+
+      This admonition contains various types of content:
+
+      **List**
+
+      * Item 1
+      * Item 2
+
+      **Inline code**
+
+      ``inline code``
+
+      **Code block**
+
+      .. code-block:: bash
+
+         $ git add .
+         $ git commit -m "commit message"
+
+      **Image**
+
+      .. image:: images/issues_tab_github.png
+         :alt: Highlight of Issues tab and assignees on GitHub.
+
+**Renders as:**
+
+.. admonition:: Various contents
+
+   This admonition contains various types of content:
+
+   **List**
+
+   * Item 1
+   * Item 2
+
+   **Inline code**
+
+   ``inline code``
+
+   **Code block**
+
+   .. code-block:: bash
+
+      $ git add .
+      $ git commit -m "commit message"
+
+   **Image**
+
+   .. image:: images/issues_tab_github.png
+      :alt: Highlight of Issues tab and assignees on GitHub.
+
+Working with internal links
+***************************
+
+Internal links connect related information within the same documentation project. By adding these links, readers can easily navigate between various pages and sections of the documentation.
+
+Linking to a custom target
+==========================
+
+A target acts like a bookmark. Placing a target before a specific paragraph, image, code block, or other elements, allows a link to point directly to that spot.
+
+.. note::
+
+   Custom targets allow for linking between different files. Every target name should be unique, so the system can find the correct location regardless of which page the link is on.
+
+**Example:**
+
+.. code-block:: rst
+
+   Code block below has a hidden label.
+
+   .. _custom target:
+
+   .. code-block:: php
+
+      <?php
+
+      namespace Mautic\Plugin\ExampleBundle;
+
+      class MyClass
+      {
+          public function onPluginInstall()
+          {
+              // Logic for plugin installation
+          }
+      }
+
+   Follow this :ref:`link to the code block <custom target>`.
+
+**Renders as:**
+
+Code block below has a hidden label.
+
+.. _custom target:
+
+.. code-block:: php
+
+   <?php
+
+   namespace Mautic\Plugin\ExampleBundle;
+
+   class MyClass
+   {
+      public function onPluginInstall()
+      {
+         // Logic for plugin installation
+      }
+   }
+
+Follow this :ref:`link to the code block <custom target>`.
+
+**Structure:**
+
+* **Target** - Start the line with two dots, a space, an underscore, the name, and a colon.
+* **Placement** - Position the target on the line immediately before the element. Include one blank line between the target and the content.
+* **Unique names** - Every target name must be unique across the entire documentation project.
+* **The link** - Use the ``:ref:`` role to point to the target. Use the target name inside ``< >`` brackets for custom link text, such as ``:ref:`Custom text <custom target>```. Alternatively, use the target name alone inside backticks, such as ``:ref:`custom target```, to automatically navigate to the title of the section it marks.
+
+Linking to a section heading within the current page
+====================================================
+
+Use this reference to navigate readers to related section headings on the same page.
+
+.. note::
+
+   This reference only works within the current file. To link to a heading on a different page, use a :ref:`custom target <Linking to a custom target>`.
+
+**Examples:**
+
+The examples below link to the actual "Linking to a section heading within the current page" heading on this page:
+
+.. code-block:: rst
+
+   * :ref:`Linking to a section heading within the current page`
+   * :ref:`Click this link title <Linking to a section heading within the current page>`.
+
+* **Standard link** - The first example uses the heading name and displays the text exactly as it appears on the page.
+* **Custom link** - The second example uses specific text to override the heading name. Place your custom text before the ``< >`` brackets. The text inside the brackets must match the heading exactly.
+
+**Renders as:**
+
+* :ref:`Linking to a section heading within the current page`
+* :ref:`Click this link title <Linking to a section heading within the current page>`.
+
+Read more about the ``:ref:`` role in the :xref:`ref role documentation`.
+
+Linking to another page in the same documentation repository
+============================================================
+
+Use the ``:doc:`` role to link to different pages within the same documentation repository.
+
+.. code-block:: rst
+
+   :doc:`contributing_docs`
+   :doc:`/contributing/contributing_docs`
+   :doc:`Custom title </contributing/contributing_docs>`
+
+In these examples, the link points to a file named ``contributing_docs.rst``.
+
+* **Relative path** - The first example links to a page in the same folder as the current file.
+* **Absolute path** - The second example uses a forward slash ``/`` to start from the top-level folder of the documentation. Include the full path and all folder names, such as ``/contributing/``.
+
+  This path approach is **preferable** because it avoids broken links and eliminates the need to update the path when restructuring content.
+* **Custom title** - The third example overrides the page title with custom title.
+
+.. note::
+    
+   Don't include the ``.rst`` file extension when linking to another page. Sphinx adds this automatically during the build process.
+
+Learn more about ``:doc:`` in the :xref:`doc role documentation`.
 
 Working with external links
 ***************************
 
-In this section, you can find the commands you need to work with external links. Ensure you're in the ``docs/`` directory to run these commands.
+This section provides the guidelines and commands for managing external links. You must execute all DDEV commands from the ``docs/`` directory.
 
-Add an external link
-====================
+Reusing external links
+======================
 
-Mautic uses link files located in the ``/links`` directory. If you need to add an external link, please ensure that the link is available in the directory first.
+Mautic stores external links in the ``/links`` directory to keep them organized. Before you add a new external link, verify that it's not already in the directory.
+
+This approach is preferable because it prevents duplicate entries and simplifies link management. If the link exists, use the established reference. If the link is missing, you must :ref:`add it to the directory <Add a new external link>` before using it in a page.
 
 To make sure the link is available, in VS Code:
 
@@ -947,7 +1493,7 @@ To make sure the link is available, in VS Code:
    |
 
    .. image:: images/search_icon_vscode.png
-      :alt: Highlight search icon button in the left bar of VS Code
+      :alt: Highlight search icon button in the left bar of VS Code.
       :height: 300px
       :align: center
 
@@ -955,14 +1501,23 @@ To make sure the link is available, in VS Code:
 
 #. Paste the URL in the search bar.
 #. If it's available, you should see the file that contains it.
-#. Open the file and copy the ``link_name`` value.
-#. Apply it in the content using ``:xref:``. For example:
+#. Open the file and copy the ``link_name`` value. For example:
+
+   .. code-block:: python
+
+      from . import link
+
+      link_name = "Developer Docs" # Copy this link_name
+      link_text = "Developer Documentation"
+      link_url = "https://devdocs.mautic.org" 
+
+      link.xref_links.update({link_name: (link_text, link_url)})
+
+#. Apply it in the content using ``:xref:``.
 
    .. code-block:: rst
 
-      :xref:`Developer Documentation`
-
-If the URL is unavailable, you need to add it.
+      :xref:`Developer Docs`
 
 Add a new external link
 =======================
@@ -1041,13 +1596,13 @@ You should see a list of links. To identify broken links, follow these steps:
 .. vale off
 
 #. In your terminal, press ``Cmd/Ctrl + F``.
-#. Type 'broken'. You should see the count of the word "broken" next to the search bar.
+#. Type 'broken'. You should see the count of the word next to the search bar.
 #. Click the down arrow to locate the broken links.
 
 Here's an example of a broken link:
 
    .. image:: images/broken_link_example.png
-      :alt: Example of a broken link with error message: (contributing/contributing_docs_rst: line  198) broken    https://sublime-and-sphinx-guide.readthedocs.io/en/latest/references.html#add-link-make-command - 404 Client Error: Not Found for url: https://sublime-and-sphinx-guide.readthedocs.io/en/latest/references.html
+      :alt: Example of a broken link with error message: (contributing/contributing_docs_rst: line  198) broken    https://sublime-and-sphinx-guide.readthedocs.io/en/latest/references.html#add-link-make-command - 404 Client Error: Not Found for url: https://sublime-and-sphinx-guide.readthedocs.io/en/latest/references.html.
       :width: 600px
       :align: center
 
@@ -1061,21 +1616,21 @@ After identifying the broken links, the next step is to fix them.
 .. vale off
 
 Status code 404
-~~~~~~~~~~~~~~~
+---------------
 
 .. vale on
 
 If the broken links have a status code of ``404 Client Error: Not Found for url``, follow the steps below to fix them:
 
 #. Copy the broken link URL from the terminal.
-#. Follow the steps in the ":ref:`Add an external link`" section to find the link file and to copy the ``link_name`` value.
-#. Search ``:xref: `value```.
+#. Follow the steps in the :ref:`Reusing external links` section to find the link file and to copy the ``link_name`` value.
+#. Search ``:xref: `VALUE```.
 #. You should see files that contain the search item.
-#. Open the file and review the content.
-#. Find alternative resources to replace any broken links relevant to the content.
+#. Open the file and review the content to understand the context.
+#. Find alternative resources to replace the broken link based on that context.
 
 Other status codes
-~~~~~~~~~~~~~~~~~~
+------------------
 
 For broken links with a status code other than 404, such as ``403 Client Error: Forbidden for url``, broken anchor, timeout, etc. - **as long as the URL works**:
 
@@ -1084,19 +1639,19 @@ For broken links with a status code other than 404, such as ``403 Client Error: 
 
    .. code-block::
 
-      # 403 errors from this domain
+      # 403 error from this domain
       r"URL",
 
    Change the ``URL`` to the broken link URL. For example:
 
    .. code-block::
 
-      # 403 errors from this domain
+      # 403 error from this domain
       r"https://www.npmjs.com/",
 
 .. tip::
 
-   If you're unsure about fixing broken links, tag ``@mautic/education-team-leaders`` in the PR comments.
+   If you're unsure about fixing broken links, report the broken link and tag ``@mautic/education-team-leaders`` in the PR comments for assistance.
 
 .. vale off
 
@@ -1109,7 +1664,7 @@ Your changes must follow Mautic's style guide. To ensure that the changes are co
 
 #. Ensure that you're in the ``docs/`` directory.
 
-   If you're not, and assuming you're in the project's root, you can run this command:
+   If you're not, and assuming you're in the project's root, run this command:
 
    .. code-block:: bash
    
@@ -1205,12 +1760,12 @@ Code samples get downloaded from GitHub to ensure that they're always up to date
       Enter the URL to the file (should start with https://raw.githubusercontent.com/...):  https://raw.githubusercontent.com/mautic/plugin-helloworld/mautic-4/Entity/World.php
       Enter the .py file name (use_lower_case_and_underscore of link name):  helloworld_entity_world
 
-#. In the documentation RST file where you need to add the code sample, add a ``literalinclude`` block to include the code:
+#. In the documentation RST file where you need to add the code sample, add a ``.. literalinclude::`` syntax followed by the file URL to include the code:
 
    .. code-block:: python
    
       .. literalinclude:: ../code_samples_downloaded/UNIQUE_FILE_NAME.php
-         :language: php
+         :language: LANGUAGE
 
    Here's an example:
 
@@ -1228,6 +1783,110 @@ Code samples get downloaded from GitHub to ensure that they're always up to date
 Updating Mautic UI images
 *************************
 
-To update the User Interface - UI - images for Mautic, you need to fork and clone the :xref:`Mautic GitHub repository`.
+To update the User Interface - UI - images for Mautic, fork and clone the :xref:`Mautic GitHub repository`.
 
-Then, follow the instructions on the :doc:`tester` page for comprehensive guidance on installing and running Mautic.
+Follow the instructions on the :doc:`tester` page for guidance on installing and running Mautic.
+
+Working with images
+===================
+
+Images directory
+----------------
+
+Mautic organizes documentation by using a specific structure for all visual assets. This method places images close to the content they illustrate, making it easier to maintain.
+
+Place all image files within the ``images`` subdirectory located inside the relevant section folder:
+
+* Identify the specific directory containing the documentation page
+* Open the ``images`` subdirectory within that directory and add the new image
+* Create the ``images`` folder if it doesn't already exist
+
+**Directory structure**
+
+.. code-block:: text
+
+   .
+   └── docs/
+      └── contributing/
+         ├── images/
+         │   ├── broken_link_example.png
+         │   └── change_branch.png
+         └── contributing_docs.rst
+
+Image convention
+----------------
+
+File format
+~~~~~~~~~~~
+
+Mautic uses the ``.png`` format for images. For dynamic visuals, Mautic accepts the ``GIF`` format.
+
+Name convention
+~~~~~~~~~~~~~~~
+
+To maintain consistency with RST formatting, use underscores - ``_`` - to separate words when naming an image file.
+
+**Example:**
+
+``broken_link_example.png``
+
+Highlighting parts in an image
+------------------------------
+
+Use the color **red** to draw boxes that highlight specific parts of an image.
+
+**Example:**
+
+.. image:: images/issues_tab_github.png
+   :alt: Highlight of Issues tab and assignees on GitHub.
+
+Image directive
+---------------
+
+An image directive includes options such as alt text, image width, and alignment.
+
+**Example:**
+
+.. code-block:: rst
+
+   .. image:: images/repositories_option_github.png
+      :alt: Repositories option in GitHub's dropdown menu.
+      :width: 300px
+      :align: center
+
+**Renders as:**
+
+.. image:: images/repositories_option_github.png
+   :alt: Repositories option in GitHub's dropdown menu.
+   :width: 300px
+   :align: center
+
+|
+
+**Structure:**
+
+* **Indentation** - Indent every option by exactly **three spaces** to align the colon with the first letter of the directive name.
+* **Spacing** - Avoid blank lines between the directive and its options.
+* **Alt text** - Always include the ``:alt:`` option to provide a text description for screen readers and search engines.
+* **Width** - Use the ``:width:`` option to set the image size in pixels - ``px`` - or percentage - ``%``.
+* **Alignment** - Use the ``:align:`` option to place the image at the ``left``, ``center``, or ``right``. If you omit this option, the image defaults to the left.
+
+.. attention::
+
+   Any blank line between the directive and its options, or between the options themselves, causes the image to fail to render. Incorrect indentation displays a broken image icon, followed by the options - such as alt text - appearing as plain text.
+
+Alt text best practices
+-----------------------
+
+Effective alt text ensures the documentation remains accessible. Follow these standards for every image:
+
+* **Capitalize the first word** - Start every alt text string with a capital letter.
+* **Include a period** - End the alt text with a period to ensure screen readers pause correctly.
+* **Describe the function** - Focus on the information the image shows, such as "The Campaign Trigger menu showing the Email sent option."
+* **Maintain conciseness** - Avoid phrases like "Image of" or "Screenshot of," as screen readers already identify the element type.
+* **Include visible text** - If the image displays a specific error message or button label, include that text in the alt option.
+
+**Example comparison:**
+
+* **Poor:** ``:alt: screenshot of Mautic dashboard``
+* **Better:** ``:alt: The Mautic dashboard showing the Contact growth widget.``
