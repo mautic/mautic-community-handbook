@@ -846,7 +846,9 @@ Indentations, spaces, and blank lines
 
 Indentation, spaces, and blank lines are essential when working with RST. Incorrect spacing causes the page formatting to break.
 
-If a broken format appears during live page preview, verify that the indentation, spacing, and blank lines are correct.
+.. tip::
+
+   If a broken format appears during live page preview, verify that the indentation, spacing, and blank lines are correct.
 
 Headings
 ========
