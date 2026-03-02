@@ -923,37 +923,37 @@ Use the asterisk - ``*`` - for unordered lists.
 .. note::
 
    * When an item has multiple paragraphs, add a blank line to separate them. Align the following paragraph with the beginning of the list item text.
-   * If an image is part of an item, add a blank line before the image directive. Align the directive with the beginning of the list item text.
+   * If a :ref:`directive <Directives>` is part of an item, add a blank line before the directive. Align the directive with the beginning of the list item text.
 
 **Example:**
 
 .. code-block:: rst
 
-   * First item
-   * Second item
+   * First item.
+   * Second item.
 
      Another paragraph of the second item.
-   * Third item
+   * Third item.
    * Take a look at the indentation of the image below. It aligns with this and the next bullet point.
 
      .. image:: images/issues_tab_github.png
         :alt: Highlight of Issues tab and assignees on GitHub.
    
-   * Another item
+   * Last item.
 
 **Renders as:**
 
-* First item
-* Second item
+* First item.
+* Second item.
 
   Another paragraph of the second item.
-* Third item
+* Third item.
 * Take a look at the indentation of the image below. It aligns with this and the next bullet point.
 
   .. image:: images/issues_tab_github.png
      :alt: Highlight of Issues tab and assignees on GitHub.
 
-* Another item
+* Last item.
 
 Nesting unordered lists
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -964,25 +964,25 @@ To nest an unordered list, separate the nested list from the parent list with bl
 
 .. code-block:: rst
 
-   * First item
-   * Second item
+   * First item.
+   * Second item.
 
-     * Part of the second item
-     * Another part of the second item
+     * Part of the second item.
+     * Another part of the second item.
 
-   * Third item
-   * Fourth item
+   * Third item.
+   * Fourth item.
 
 **Renders as:**
 
-* First item
-* Second item
+* First item.
+* Second item.
 
-  * Part of the second item
-  * Another part of the second item
+  * Part of the second item.
+  * Another part of the second item.
 
-* Third item
-* Fourth item
+* Third item.
+* Fourth item.
 
 Ordered list
 ------------
@@ -992,37 +992,37 @@ Use the sharp symbol followed by a period - ``#.`` - for ordered lists. This all
 .. note::
 
    * When an item has multiple paragraphs, add a blank line to separate them. Align the following paragraph with the beginning of the list item text. 
-   * If an image is part of an item, add a blank line before the image directive. Align the directive with the beginning of the list item text.
+   * If a :ref:`directive <Directives>` is part of an item, add a blank line before the directive. Align the directive with the beginning of the list item text.
 
 **Example:**
 
 .. code-block:: rst
 
-   #. First item
-   #. Second item
+   #. First item.
+   #. Second item.
 
       Another paragraph of the second item.
-   #. Third item
-   #. Take a look at the indentation of the image below. It aligns with the item.
+   #. Third item.
+   #. Take a look at the indentation of the image below. It aligns with the item. If the image's directive indentation is correct, the next item number is still in order.
 
       .. image:: images/issues_tab_github.png
          :alt: Highlight of Issues tab and assignees on GitHub.
    
-   #. If the image's indentation is correct, the item number is still in order.
+   #. Last item.
 
 **Renders as:**
 
-#. First item
-#. Second item
+#. First item.
+#. Second item.
 
    Another paragraph of the second item.
-#. Third item
-#. Take a look at the indentation of the image below. It aligns with the item.
+#. Third item.
+#. Take a look at the indentation of the image below. It aligns with the item. If the image's directive indentation is correct, the next item number is still in order.
 
    .. image:: images/issues_tab_github.png
       :alt: Highlight of Issues tab and assignees on GitHub.
-
-#. If the image's indentation is correct, the item number is still in order.
+   
+#. Last item.
 
 Nesting ordered lists
 ~~~~~~~~~~~~~~~~~~~~~
@@ -1033,25 +1033,25 @@ To nest ordered lists, separate the nested list from the parent list with blank 
 
 .. code-block:: rst
 
-   #. First item
-   #. Second item
+   #. First item.
+   #. Second item.
 
-      #. Part of the second item
-      #. Another part of the second item
+      #. Part of the second item.
+      #. Another part of the second item.
 
-   #. Third item
-   #. Fourth item
+   #. Third item.
+   #. Fourth item.
 
 **Renders as:**
 
-#. First item
-#. Second item
+#. First item.
+#. Second item.
 
-   #. Part of the second item
-   #. Another part of the second item
+   #. Part of the second item.
+   #. Another part of the second item.
 
-#. Third item
-#. Fourth item
+#. Third item.
+#. Fourth item.
 
 Combining nested lists
 ----------------------
@@ -1064,21 +1064,21 @@ When combining unordered and ordered lists, follow the parent list spacing rules
 
    An example of an **unordered list** as a parent:
 
-   * First item of the parent list
+   * First item of the parent list.
 
-     #. This item has **two spaces** relative to the parent list item
-     #. Another item of the nested list
+     #. This item has **two spaces** relative to the parent list item.
+     #. Another item of the nested list.
 
-   * Another item of the parent list
+   * Another item of the parent list.
 
    An example of an **ordered list** as a parent:
 
-   #. First item of the parent list
+   #. First item of the parent list.
 
-      * This item has **three spaces** relative to the parent list item
-      * Another item of the nested list
+      * This item has **three spaces** relative to the parent list item.
+      * Another item of the nested list.
 
-   #. Another item of the parent list
+   #. Another item of the parent list.
 
 **Renders as:**
 
@@ -1086,19 +1086,19 @@ An example of an **unordered list** as a parent:
 
 * First item of the parent list
 
-  #. This item has **two spaces** relative to the parent list item
-  #. Another item of the nested list
+  #. This item has **two spaces** relative to the parent list item.
+  #. Another item of the nested list.
 
-* Another item of the parent list
+* Another item of the parent list.
 
 An example of an **ordered list** as a parent:
 
-#. First item of the parent list
+#. First item of the parent list.
 
-   * This item has **three spaces** relative to the parent list item
-   * Another item of the nested list
+   * This item has **three spaces** relative to the parent list item.
+   * Another item of the nested list.
 
-#. Another item of the parent list
+#. Another item of the parent list.
 
 Directives
 ==========
@@ -1126,9 +1126,9 @@ Most directives follow this general format:
 Commonly used directives
 ------------------------
 
-Mautic documentation frequently utilizes the directives listed below. While these represent the standard for most pages, you may use any valid Sphinx directive to structure content.
+Mautic documentation frequently uses the directives listed below. You must follow the Mautic standards for these specific directives to maintain consistent formatting. 
 
-Refer to the :xref:`Sphinx directive documentation` for a complete list of available directives and detailed information.
+While this list covers the most common cases, Sphinx provides many other directives that you can use. Refer to the :xref:`Sphinx directive documentation` for a complete list of available directives and detailed information.
 
 Admonition
 ~~~~~~~~~~
@@ -1419,10 +1419,10 @@ Follow this :ref:`link to the code block <custom target>`.
 * **Unique names** - Every target name must be unique across the entire documentation project.
 * **The link** - Use the ``:ref:`` role to point to the target. Use the target name inside ``< >`` brackets for custom link text, such as ``:ref:`Custom text <custom target>```. Alternatively, use the target name alone inside backticks, such as ``:ref:`custom target```, to automatically navigate to the title of the section it marks.
 
-Linking to a section within the current page
-============================================
+Linking to a section heading within the current page
+====================================================
 
-Use this reference to navigate readers to related sections on the same page.
+Use this reference to navigate readers to related section headings on the same page.
 
 .. note::
 
@@ -1430,23 +1430,20 @@ Use this reference to navigate readers to related sections on the same page.
 
 **Examples:**
 
+The examples below link to the actual "Linking to a section heading within the current page" heading on this page:
+
 .. code-block:: rst
 
-   :ref:`A heading`
-   :ref:`A custom link <A heading>`
-
-The link points to a page heading titled "A heading."
+   * :ref:`Linking to a section heading within the current page`
+   * :ref:`Click this link title <Linking to a section heading within the current page>`.
 
 * **Standard link** - The first example uses the heading name and displays the text exactly as it appears on the page.
 * **Custom link** - The second example uses specific text to override the heading name. Place your custom text before the ``< >`` brackets. The text inside the brackets must match the heading exactly.
 
-The example below links the text "Click this link title" to the actual "Linking to a custom target" heading on this page:
+**Renders as:**
 
-.. code-block:: rst
-
-   :ref:`Click this link title <Linking to a custom target>`
-
-Try clicking this link to see how it works: :ref:`Click this link title <Linking to a custom target>`.
+* :ref:`Linking to a section heading within the current page`
+* :ref:`Click this link title <Linking to a section heading within the current page>`.
 
 Read more about the ``:ref:`` role in the :xref:`ref role documentation`.
 
@@ -1466,7 +1463,7 @@ In these examples, the link points to a file named ``contributing_docs.rst``.
 * **Relative path** - The first example links to a page in the same folder as the current file.
 * **Absolute path** - The second example uses a forward slash ``/`` to start from the top-level folder of the documentation. Include the full path and all folder names, such as ``/contributing/``.
 
-  This approach is **preferable** because it avoids broken links and eliminates the need to update the path - the target name - when restructuring content.
+  This path approach is **preferable** because it avoids broken links and eliminates the need to update the path when restructuring content.
 * **Custom title** - The third example overrides the page title with custom title.
 
 .. note::
@@ -1483,9 +1480,9 @@ This section provides the guidelines and commands for managing external links. Y
 Reusing external links
 ======================
 
-Mautic stores external links in the ``/links`` directory to keep the documentation organized. Before you add a new external link, verify that it's not already in the directory.
+Mautic stores external links in the ``/links`` directory to keep them organized. Before you add a new external link, verify that it's not already in the directory.
 
-This approach is preferable because it prevents duplicate entries and simplifies link management. If the link exists, use the established reference. If the link is missing, you must add it to the directory before using it in a page.
+This approach is preferable because it prevents duplicate entries and simplifies link management. If the link exists, use the established reference. If the link is missing, you must :ref:`add it to the directory <Add a new external link>` before using it in a page.
 
 To make sure the link is available, in VS Code:
 
@@ -1502,14 +1499,23 @@ To make sure the link is available, in VS Code:
 
 #. Paste the URL in the search bar.
 #. If it's available, you should see the file that contains it.
-#. Open the file and copy the ``link_name`` value.
-#. Apply it in the content using ``:xref:``. For example:
+#. Open the file and copy the ``link_name`` value. For example:
+
+   .. code-block:: python
+
+      from . import link
+
+      link_name = "Developer Docs" # Copy this link_name
+      link_text = "Developer Documentation"
+      link_url = "https://devdocs.mautic.org" 
+
+      link.xref_links.update({link_name: (link_text, link_url)})
+
+#. Apply it in the content using ``:xref:``.
 
    .. code-block:: rst
 
-      :xref:`Developer Documentation`
-
-If the URL is unavailable, you need to add it.
+      :xref:`Developer Docs`
 
 Add a new external link
 =======================
@@ -1615,11 +1621,11 @@ Status code 404
 If the broken links have a status code of ``404 Client Error: Not Found for url``, follow the steps below to fix them:
 
 #. Copy the broken link URL from the terminal.
-#. Follow the steps in the :ref:`Add an external link` section to find the link file and to copy the ``link_name`` value.
-#. Search ``:xref: `value```.
+#. Follow the steps in the :ref:`Reusing external links` section to find the link file and to copy the ``link_name`` value.
+#. Search ``:xref: `VALUE```.
 #. You should see files that contain the search item.
-#. Open the file and review the content.
-#. Find alternative resources to replace any broken links relevant to the content.
+#. Open the file and review the content to understand the context.
+#. Find alternative resources to replace the broken link based on that context.
 
 Other status codes
 ------------------
@@ -1631,19 +1637,19 @@ For broken links with a status code other than 404, such as ``403 Client Error: 
 
    .. code-block::
 
-      # 403 errors from this domain
+      # 403 error from this domain
       r"URL",
 
    Change the ``URL`` to the broken link URL. For example:
 
    .. code-block::
 
-      # 403 errors from this domain
+      # 403 error from this domain
       r"https://www.npmjs.com/",
 
 .. tip::
 
-   If you're unsure about fixing broken links, tag ``@mautic/education-team-leaders`` in the PR comments.
+   If you're unsure about fixing broken links, report the broken link and tag ``@mautic/education-team-leaders`` in the PR comments for assistance.
 
 .. vale off
 
@@ -1785,7 +1791,7 @@ Working with images
 Images directory
 ----------------
 
-To keep the documentation organized and easy to maintain, Mautic follows a specific structure for all visual assets. This practice keeps images near the content they illustrate.
+Mautic organizes documentation by using a specific structure for all visual assets. This method places images close to the content they illustrate, making it easier to maintain.
 
 Place all image files within the ``images`` subdirectory located inside the relevant section folder:
 
@@ -1837,15 +1843,6 @@ Image directive
 
 An image directive includes options such as alt text, image width, and alignment.
 
-When adding an option:
-
-* Indent the option by exactly **three spaces** to align the colon with the first letter of the directive name.
-* Avoid blank lines between the directive and its options.
-
-.. attention::
-
-   Any blank line between the directive and its options, or between the options themselves, causes the image to fail to render. Incorrect indentation displays a broken image icon, followed by the options - such as alt text - appearing as plain text.
-
 **Example:**
 
 .. code-block:: rst
@@ -1854,6 +1851,27 @@ When adding an option:
       :alt: Repositories option in GitHub's dropdown menu.
       :width: 300px
       :align: center
+
+**Renders as:**
+
+.. image:: images/repositories_option_github.png
+   :alt: Repositories option in GitHub's dropdown menu.
+   :width: 300px
+   :align: center
+
+|
+
+**Structure:**
+
+* **Indentation** - Indent every option by exactly **three spaces** to align the colon with the first letter of the directive name.
+* **Spacing** - Avoid blank lines between the directive and its options.
+* **Alt text** - Always include the ``:alt:`` option to provide a text description for screen readers and search engines.
+* **Width** - Use the ``:width:`` option to set the image size in pixels - ``px`` - or percentage - ``%``.
+* **Alignment** - Use the ``:align:`` option to place the image at the ``left``, ``center``, or ``right``. If you omit this option, the image defaults to the left.
+
+.. attention::
+
+   Any blank line between the directive and its options, or between the options themselves, causes the image to fail to render. Incorrect indentation displays a broken image icon, followed by the options - such as alt text - appearing as plain text.
 
 Alt text best practices
 -----------------------
