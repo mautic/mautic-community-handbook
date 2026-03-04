@@ -1760,7 +1760,18 @@ Code samples get downloaded from GitHub to ensure that they're always up to date
       Enter the URL to the file (should start with https://raw.githubusercontent.com/...):  https://raw.githubusercontent.com/mautic/plugin-helloworld/mautic-4/Entity/World.php
       Enter the .py file name (use_lower_case_and_underscore of link name):  helloworld_entity_world
 
-#. In the documentation RST file where you need to add the code sample, add a ``.. literalinclude::`` syntax followed by the file URL to include the code:
+   Here’s what you should see after completing the prompts:
+
+   .. code-block:: bash
+
+      The file name is:  entity_world.php
+      The URL is:  https://raw.githubusercontent.com/mautic/plugin-helloworld/mautic-4/Entity/World.php
+      The .py file name is:  helloworld_entity_world
+      Creating the file:  code_samples/helloworld_entity_world.py
+      Enter the link in content as .. literalinclude:: ../code_samples_downloaded/entity_world.php
+      Make sure you build and test the code sample.
+
+#. In the documentation RST file where you need to add the code sample, add ``.. literalinclude::`` directive followed by the unique file URL to render the code:
 
    .. code-block:: python
    
@@ -1774,11 +1785,27 @@ Code samples get downloaded from GitHub to ensure that they're always up to date
       .. literalinclude:: ../code_samples_downloaded/entity_world.php
          :language: php
 
+#. Download the code sample by building the docs with the command below, depending on your environment.
+
+   .. _build-docs commands:
+
+   If you work locally with DDEV:
+
+   .. code-block:: bash
+
+      ddev build-docs
+
+   If you work with Codespaces:
+
+   .. code-block:: bash
+
+      make html
+
 .. vale on
 
 .. note::
 
-   If you change the URL to a file, delete the cached file from ``docs/code_samples/__pycache__`` and run ``ddev build-docs``. Sphinx automatically re-downloads it.
+   If you change the URL to a file, delete the cached file from ``docs/code_samples/__pycache__`` and run the :ref:`command to build the docs <build-docs commands>`. Sphinx automatically re-downloads it.
 
 Updating Mautic UI images
 *************************
