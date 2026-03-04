@@ -1577,7 +1577,9 @@ Here's what you should see after completing the prompts:
 Identify broken links
 =====================
 
-To avoid build failures, make sure there are no broken links. You can verify the links by following the instructions below, based on where you're making changes in the terminal.
+To avoid build failures, make sure there are no broken links after adding a new external link.
+
+You can verify the links by following the instructions below in the terminal, based on your working environment.
 
 If you work locally with DDEV:
 
