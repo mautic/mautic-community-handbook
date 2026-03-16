@@ -153,7 +153,7 @@ To close a meeting:
 #. Search the meeting that you want to close
 #. Click the 'Close' icon (the 'lock' symbol)
 #. Fill the form (redact any privacy sensitive content)
-#. At the bottom, select "Is visible" and hit the "Close" button
+#. At the bottom, select 'Is visible' if you want to have the meeting notes publicly visible, and press the 'Close' button
 
 Please be sure to provide a link to the meeting recording - upload the recordings to the community shared :xref:`Mautic Google Drive`.
 
