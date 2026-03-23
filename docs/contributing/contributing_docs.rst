@@ -87,6 +87,27 @@ To find issues and claim one from the low- and no-code projects board:
    * The issue doesn't have an assignee.
    * Leave a comment on the issue and tag ``@mautic/education-team-leaders`` so that our team can assign you to the issue. If you don't comment on it, our team can't assign it to you.
 
+Reviewing pull requests
+***********************
+
+Reviewing pull requests - PRs - is a vital contribution to the Mautic project. Thorough reviews ensure code quality, help maintainers move faster, and the entire community highly appreciates this effort.
+
+While PR reviews are essential, most automated systems - including those used for events like Hacktoberfest - primarily track opened and merged PRs. Since reviewing doesn't always result in a personal merge, these contributions might not automatically appear in official open source stats.
+
+Mautic provides a way to count these activities toward official open source contributions by adding the activity to the Mautic :xref:`low-no-code repository`.
+
+Recording the contribution
+==========================
+
+Follow these steps to log review activity:
+
+#. Go to the :xref:`low-no-code repository`.
+#. Read and follow the instructions in the file named for the current year, ``YYYY.md``.
+#. Create a PR.
+#. Wait for the maintainers to review your PR.
+
+Once a maintainer merges your PR, the contribution becomes part of the official record.
+
 Contributing workflow
 *********************
 
