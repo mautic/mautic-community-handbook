@@ -102,7 +102,7 @@ Recording the contribution
 Follow these steps to log review activity:
 
 #. Go to the :xref:`low-no-code repository`.
-#. Read and follow the instructions in the ``CONTRIBUTING.md`` file.
+#. Read and follow the instructions in the ``.github/CONTRIBUTING.md``.
 #. Create a PR.
 #. Wait for the maintainers to review your PR.
 
