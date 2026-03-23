@@ -102,7 +102,7 @@ Recording the contribution
 Follow these steps to log review activity:
 
 #. Go to the :xref:`low-no-code repository`.
-#. Read and follow the instructions in the file named for the current year, ``YYYY.md``.
+#. Read and follow the instructions in the ``CONTRIBUTING.md`` file.
 #. Create a PR.
 #. Wait for the maintainers to review your PR.
 
