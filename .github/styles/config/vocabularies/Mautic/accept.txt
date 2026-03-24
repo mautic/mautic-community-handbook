@@ -70,6 +70,7 @@ GMail
 Grav
 Gravatar
 hackathons
+Hacktoberfest
 Hammerschmied
 href
 HTML
