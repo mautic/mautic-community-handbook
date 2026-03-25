@@ -1,13 +1,10 @@
-Technical writing style guide
-*****************************
+Documentation writing style guide
+#################################
 
 This document draws on the :xref:`Mozilla writing guide` and the :xref:`Mailchimp content style guide`. Thank you to the creators of these resources and to the organizations for sharing them publicly.
 
-General guidelines applicable to all resources
-==============================================
-
 Goals and principles
---------------------
+********************
 
 The Education Team's goals and principles are to:
 
@@ -25,10 +22,10 @@ To achieve these goals, ensure that all content is:
 * **Correct.** There is a responsibility to write for the Education Team, and readers expect the information to be factually correct. Always ask someone to proofread your writing before publishing.
 
 Voice and tone
---------------
+**************
 
 Voice
-~~~~~
+=====
 
 Anyone writing for the Mautic project has been in the readers' shoes. Mautic and Marketing Automation can be a minefield of confusing terms, abbreviations, and complicated workflows.
 
@@ -43,7 +40,7 @@ This means that:
 * **Demystify.** Making the difficult and complex easy to understand. This involves clarifying marketing jargon and helping readers succeed with their marketing projects.
 
 Tone
-~~~~
+====
 
 The tone you use varies, depending on the context. Each resource explains the expected tone in further detail below:
 
@@ -56,7 +53,7 @@ The tone you use varies, depending on the context. Each resource explains the ex
 * **Always write with the brand in mind**. Mautic empowers users to do awesome things with their marketing. Freedom and flexibility define the core belief. This project is community-driven, supported by contributors worldwide who share common values. You don't need to focus on this in every article you write, but please keep it in mind when you're writing for any of Mautic's technical resources.
 
 Writing for accessibility
--------------------------
+*************************
 
 Make your content more accessible and usable to the broadest possible audience. Writing for accessibility goes beyond making everything available on the page as text. It also affects how you organize your content and guide a reader through the page.
 
@@ -64,8 +61,8 @@ Depending on the audience and country, laws may govern the required level of acc
 
 Accessibility includes being inclusive of all mental and physical capabilities, whether situational - broken glasses - or more permanent.
 
-Some basic requirements
-~~~~~~~~~~~~~~~~~~~~~~~
+Accessibility basic requirements
+================================
 
 The Mautic community interacts with content in various ways. The audience includes people from many cultures, and everyone should feel welcome and able to engage with the resources.
 
@@ -78,18 +75,18 @@ As you write, consider the following:
 * Is the markup clear and structured? Do headings effectively guide the reader from step to step?
 * Does this resource work well on mobile devices with accessibility features enabled?
 
-Guidelines
-~~~~~~~~~~
+Accessibility guidelines
+========================
 
 Avoid directional language
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------
 
 Avoid using language that implies direction based on what the reader sees on the screen, as the Mautic interface changes depending on the device and page layout.
 
 Instead of "Select from the options on the right menu," use "Select from these options," and list the options.
 
 Use headers
-^^^^^^^^^^^
+-----------
 
 Headers are important for structuring the resource, but they're also important for readers who might be using a screen reader that can jump between headers.
 
@@ -98,19 +95,19 @@ Always nest headers and keep them in consecutive order. Don't skip a header leve
 The page title should be an H1, main titles should be H2, and sub-topics should use H3 and beyond. Try to avoid excessive nesting where possible.
 
 Use descriptive text for links
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------
 
 Links should provide clear descriptions of the associated action or destination and not assume that the reader has understood from the surrounding text what the action or destination is.
 
 For example, "visit the Bounce Management page on the Documentation" gives the reader a very clear understanding of where the link leads, whereas "learn more" assumes the reader has understood the destination or action from the preceding text.
 
 Use plain language
-^^^^^^^^^^^^^^^^^^
+------------------
 
 Write in short sentences and use familiar words. Don't use jargon or slang. Always provide the full text of any abbreviations followed by the abbreviation in brackets. For example, Sender Policy Framework - SPF.
 
-Always use a descriptive alt text
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Use a descriptive alt text
+--------------------------
 
 Alt text serves as the most basic form of image description. Include alt text with all images.
 
@@ -122,20 +119,20 @@ The language used depends on the image and its purpose:
 
 Each browser handles alt text differently. You need to include an image caption where possible, in addition to the alt text.
 
-Always include closed captioning and transcripts for videos
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Closed captioning and transcripts for videos
+--------------------------------------------
 
 All videos should include closed captioning and transcripts. Information presented in videos should be available in other formats.
 
-Be aware of visual elements
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Visual elements
+---------------
 
 Always aim for a high contrast between fonts and background colours in all resources.
 
 Images shouldn't be the only way of conveying information, as they may not load or the reader may not be able to view them. Avoid using images if writing communicates the same information just as effectively.
 
 Accessibility resources
------------------------
+=======================
 
 * :xref:`The Accessibility Cheatsheet`
 * :xref:`18F Accessibility Guide`
@@ -144,10 +141,10 @@ Accessibility resources
 * :xref:`WAVE Web Accessibility Evaluation Tool`
 
 General writing style
----------------------
+*********************
 
 Audiences
-~~~~~~~~~
+=========
 
 Write for a general, non-technical audience when contributing to the User Documentation and the Knowledgebase. Write for the developer audience when contributing to the Developer Documentation.
 
@@ -156,7 +153,7 @@ All resources should be usable by everyone at any stage of their journey with Ma
 Assume the person you're writing for doesn't know how to use Mautic or doesn't know how to use the API without step-by-step instructions.
 
 Clear explanations
-~~~~~~~~~~~~~~~~~~
+==================
 
 If you're describing something that people may not understand - for example, how to reset file and folder permissions via SSH in the User Documentation, or how to authenticate to use the API - ensure you link to resources that explain any assumed knowledge and provide links for basic tasks such as how to connect via SSH. Also, give a full explanation for every command you use.
 
@@ -165,7 +162,7 @@ Doing so educates the community, reduces the chance of misunderstanding, and giv
 You should write based on the assumptions that the user has the default settings in Mautic and is using the currently available stable release.
 
 Use descriptive heading titles
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+==============================
 
 Mautic's articles are usually comprehensive. So, it's important to use descriptive headings to help people find the part of the article that they need.
 
@@ -181,13 +178,13 @@ To summarize, you should follow these guidelines:
 Read the next section for more comprehensive, platform-specific guidelines.
 
 Technical guidelines
---------------------
+********************
 
 General guidelines
-~~~~~~~~~~~~~~~~~~
+==================
 
 Title
-^^^^^
+-----
 
 * When creating a resource on the User Documentation or Knowledgebase, ideally, your title should be less than Google's title character count of 65 characters. Your title can be longer than this if necessary. But include your important keywords in the first 65 characters; otherwise, search engines won't see them.
 * Capitalize the first word in the title, as well as proper nouns and names, but don't capitalize every major word. Use 'sentence' style, not 'headline' style. The same applies to heading titles. See the :ref:`Style guide and copy rules` section below for other rules on capitalization.
@@ -197,8 +194,8 @@ Remember that the entire explanation doesn't have to go into the title. You can 
 
 .. vale off
 
-Work with User and Developer Documentation
-==========================================
+Work with user and developer documentation
+******************************************
 
 .. vale on
 
@@ -207,23 +204,19 @@ Work with User and Developer Documentation
 
 .. vale off
 
-Work with Knowledgebase
-=======================
+Work with knowledgebase
+***********************
 
 .. vale on
 
 * Read the :xref:`contribute to the Knowledgebase` article to learn how to create a new resource.
 * Check out the Education Team's :xref:`Jira board education team` for tasks relating to the Knowledgebase.
 
-.. vale off
+Writing for user and developer documentation
+********************************************
 
-Writing for User or Developer Documentation
-===========================================
-
-Writing style for Documentation projects
-----------------------------------------
-
-.. vale on
+Writing style for documentation projects
+========================================
 
 * Review the contribution guidelines on :xref:`User Docs GitHub` or :xref:`Developer Docs GitHub` before contributing.
 * Use a formal writing style, similar to the way you'd expect to read instructions in a textbook. Please review your spelling, punctuation and grammar. **Tip:** free tools such as :xref:`Grammarly` can be very helpful for this task.
@@ -234,10 +227,10 @@ Writing style for Documentation projects
 .. vale off
 
 Writing for the Knowledgebase
-=============================
+*****************************
 
 Writing style for the Knowledgebase
------------------------------------
+===================================
 
 .. vale on
 
@@ -247,7 +240,7 @@ Writing style for the Knowledgebase
 * Try to include, where appropriate, activities or step-by-step ways people can try out what you are explaining. Especially in a tutorial, it's good to give people something useful to accomplish. It's one thing to read instructions and understand the process, but it's often helpful to remind and enable people to try things out.
 
 Write a good introduction
--------------------------
+=========================
 
 Along with the title and the table of contents, the introduction helps people quickly determine if they're in the right place.
 
@@ -262,14 +255,14 @@ When writing for the Knowledgebase, try to tell a story. Have a beginning, a mid
 * **End:** are there any next steps to the article or feature? Tell the reader where they should go next if they want to learn more.
 
 Organize the article effectively
---------------------------------
+================================
 
 The general idea here is to build skills from simple to complex while keeping the information most people need near the top.
 
 A simple, common solution usually comes before a complex or edge-case solution.
 
 Make step-by-step instructions easy to follow
----------------------------------------------
+=============================================
 
 The main thing to keep in mind when writing step-by-step instructions is to include all the actions needed to complete the task.
 
@@ -284,7 +277,7 @@ Some additional things to consider:
 .. vale off
 
 Organizing content in the Knowledgebase
----------------------------------------
+=======================================
 
 .. vale on
 
@@ -298,7 +291,7 @@ The Knowledgebase organizes content into six key areas:
 * Developing with Mautic
 
 Write a good search summary
----------------------------
+===========================
 
 The article summary, along with the title, is the only thing that users have to judge whether an article answers their question. This establishes 'User Confidence', and it directly impacts click-through rates.
 
@@ -318,7 +311,7 @@ A summary for a how-to article should include the topics covered in the article.
   * Learn how [to achieve a specific goal]
 
 Style guide and copy rules
---------------------------
+==========================
 
 Use an active, conversational style when writing for the Knowledgebase.
 
