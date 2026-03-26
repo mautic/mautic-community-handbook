@@ -300,7 +300,12 @@ Even if the correct article appears at the top of the search results list, the u
 
 A summary for a how-to article should include the topics covered in the article. A troubleshooting article should include symptoms. In addition, a summary should follow these guidelines:
 
-* **Short and to the point**. Remember classified ads? Write it like that. Search engines may cut off anything longer than 140 characters. If you use a longer summary, keep the important information at the beginning. **Note:** the Knowledgebase software shows 20 characters remaining when the summary reaches 140 characters because the internal search limit is 160.
+* **Short and to the point**. Remember classified ads? Write it like that. Search engines may cut off anything longer than 140 characters. If you use a longer summary, keep the important information at the beginning.
+
+  .. note::
+
+     The Knowledgebase software shows 20 characters remaining when the summary reaches 140 characters because the internal search limit is 160.
+
 * **Don't use "This article explains" in every summary**. Vary it when possible. Some other phrases to consider:
 
   * This page shows you [how to perform an action]
