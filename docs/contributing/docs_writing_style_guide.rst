@@ -361,8 +361,4 @@ Here are other common style and copy issues you may run into when writing suppor
   
   These Latin abbreviations can confuse people. For the sake of clarity, use "in other words" or "to put it differently" instead of "i.e." when you want to explain something differently. Use "for instance," "for example," or "such as" instead of "e.g." when you want to give examples.
 
-* Don't use :xref:`Serial comma` in a list of items.
-  
-  For example, use "Extensions, themes and plugins," without the serial comma, not "Extensions, themes, and plugins."
-
   .. vale on
