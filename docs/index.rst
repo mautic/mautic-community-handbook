@@ -113,6 +113,7 @@ The vision is that it grows over time as the teams and governance structure evol
    contributing/marketer
    contributing/writing_for_mautic
    contributing/contributing_docs
+   contributing/docs_writing_style_guide
    contributing/translator
    contributing/developer
    contributing/tester
