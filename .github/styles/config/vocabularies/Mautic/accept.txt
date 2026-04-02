@@ -162,6 +162,7 @@ URLs
 UTM
 VSCode
 Vtiger
+WAVE
 Webmecanik
 WSL
 www
