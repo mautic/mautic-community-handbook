@@ -91,7 +91,7 @@ The current leadership team and their terms are as follows:
 
 .. list-table:: Leadership Team
    :header-rows: 1
-   :widths: 15 20 25 15 15
+   :widths: 20 25 35 10 10
 
    * - **Name**
      - **Role**
@@ -103,41 +103,51 @@ The current leadership team and their terms are as follows:
      - ruth.cheesley@mautic.org
      - 2019
      - N/A
-   * - Ekkehard Gümbel
+   * - *Vacant position*
      - Community Team Lead
-     - ekke.guembel@mautic.org
-     - 2020
-     - 2025
-   * - Joey Keller
-     - Product Team Lead
-     - joey.keller@mautic.org
-     - 2024
-     - 2027
-   * - Favour Chibueze
-     - Education Team Lead
-     - favour.chibueze@mautic.org
-     - 2024
-     - 2026
+     - 
+     - 
+     -  
    * - Ayu Adiati
-     - Assistant Team Lead, Education
+     - Education Team Lead
      - ayu.adiati@mautic.org
      - 2025
+     - 2027
+   * - Sven Döring
+     - Marketing Team Lead
+     - sven.doering@mautic.org
+     - 2023
+     - 2027
+   * - Rahul Shinde
+     - Product Team Lead
+     - rahul.shinde@mautic.org
+     - 2024
      - 2027
    * - Ruth Cheesley
      - Legal & Finance Team Lead
      - ruth.cheesley@mautic.org
      - N/A
      - N/A
-   * - Rahul Shinde
+   * - *Vacant position*
+     - Assistant Team Lead, Community
+     - 
+     - 
+     - 
+   * - *Vacant position*
+     - Assistant Team Lead, Education
+     - 
+     - 
+     -
+   * - *Vacant position*
+     - Assistant Team Lead, Marketing
+     - 
+     - 
+     -
+   * - Joey Keller
      - Assistant Team Lead, Product
-     - rahul.shinde@mautic.org
+     - joey.keller@mautic.org
      - 2024
      - 2027
-   * - Sven Döring
-     - Marketing Team Lead
-     - sven.doering@mautic.org
-     - 2023
-     - 2025
 
 Leadership honor roll
 =====================
@@ -207,6 +217,10 @@ These are individuals who have previously served on the Mautic Leadership Team:
    * - Mike Van Hemelrijck
      - Assistant Team Lead, Marketing
      - 2024
+     - 2025
+   * - Favour Chibueze
+     - Education Team Lead
+     - 2023
      - 2025
 
 .. vale off
