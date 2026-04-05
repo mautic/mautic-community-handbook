@@ -103,7 +103,7 @@ Reporting guidelines
 
 .. vale off
 
-If you are subject to or witness unacceptable behavior, or have any other concerns, please notify Mautic as soon as possible by emailing :xref:`info@mautic.org`, or contacting a Mautic team member on the specific platform.
+If you are subject to or witness unacceptable behavior, or have any other concerns, please notify Mautic as soon as possible by emailing :xref:`coc reporting`, or contacting a Mautic team member on the specific platform.
 
 .. vale on
 
@@ -114,7 +114,7 @@ Addressing grievances
 
 .. vale off
 
-Only permanent resolutions (such as bans) may be appealed. To appeal a decision, contact the Mautic team at :xref:`info@mautic.org` with your appeal and the team reviews the situation.
+Only permanent resolutions (such as bans) may be appealed. To appeal a decision, contact the Mautic team at :xref:`coc reporting` with your appeal and the team reviews the situation.
 
 .. vale on
 
@@ -123,7 +123,7 @@ Scope
 
 All community participants, including contributors, moderators, and guests, must abide by this Code of Conduct in all community venues—online and in person—as well as in one-on-one interactions and communications related to community affairs.
 
-While this code of conduct is specifically aimed at Mautic’s official resources and community, actions taken outside of Mautic’s official online or in-person spaces can have a significant impact on community health.
+While this Code of Conduct is specifically aimed at Mautic's official resources and community, actions taken outside of Mautic's official online or in-person spaces can have a significant impact on community health.
 
 .. vale off
 
@@ -136,7 +136,7 @@ Contact info
 
 .. vale off
 
-For more information, please contact :xref:`info@mautic.org`.
+For more information, please contact :xref:`coc reporting`.
 
 .. vale on
 

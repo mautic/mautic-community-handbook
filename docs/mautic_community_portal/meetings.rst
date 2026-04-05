@@ -151,8 +151,9 @@ To close a meeting:
 #. In the main sidebar, click the button for the space that you want to configure the component for. For instance, it could be 'Processes', 'Assemblies', or 'Conferences'
 #. Click 'Meetings'
 #. Search the meeting that you want to close
-#. Click the 'Close' button
-#. Fill the form
+#. Click the 'Close' icon (the 'lock' symbol)
+#. Fill the form (redact any privacy sensitive content)
+#. At the bottom, select 'Is visible' if you want to have the meeting notes publicly visible, and press the 'Close' button
 
 Please be sure to provide a link to the meeting recording - upload the recordings to the community shared :xref:`Mautic Google Drive`.
 

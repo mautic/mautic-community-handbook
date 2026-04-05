@@ -68,6 +68,7 @@ The vision is that it grows over time as the teams and governance structure evol
    policies/paying_contributors
    policies/become_a_community_partner
    policies/recognizing_contributors_sponsors_and_partners
+   policies/contributor_reference
    policies/promoting_integrations
    policies/trademark
    policies/financial_policy
@@ -111,7 +112,8 @@ The vision is that it grows over time as the teams and governance structure evol
    contributing/designer
    contributing/marketer
    contributing/writing_for_mautic
-   contributing/contributing_docs_rst
+   contributing/contributing_docs
+   contributing/docs_writing_style_guide
    contributing/translator
    contributing/developer
    contributing/tester

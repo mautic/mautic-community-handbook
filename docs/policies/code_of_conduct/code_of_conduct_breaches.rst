@@ -21,9 +21,9 @@ Pursuant the Mautic Code of Conduct (CoC), any individual may submit an incident
 Incident processing
 *******************
 
-- An incident report is received by the Product Lead or Council member - receiving party - and shared with the Council within 24 hours of receipt.
-- The incident report is shared by the receiving party with the reported person - who has committed the breach - and they are given 7 days to submit a response
-- The incident report will be reviewed and discussed at the next available Council Meeting after the 7 days have elapsed or a response is received, whichever is sooner. Should the incident be of a serious matter and requires immediate action, the Mautic Council may call an Extraordinary Council Meeting to discuss it.
+- An incident report is received by the Project Lead or Council member - receiving party - and notification sent to the Council of a received Code of Conduct report within 24 hours of receipt. A small committee is formed from available Council members to review the incident report, ensuring no conflict of interest exists with any involved parties.
+- The receiving party shares the incident report with the reported person - who has committed the breach - and they have 7 days to submit a response.
+- The incident report is reviewed and discussed at the next available Council Meeting after the 7 days have elapsed or a response is received, whichever is sooner. Should the incident be of a serious matter and requires immediate action, the Mautic Council may call an Extraordinary Council Meeting to discuss it.
 - The Mautic Council shall propose sanctions according to those laid out in this Policy.
 - The Mautic Council shall notify all involved parties in accordance with this Policy.
 

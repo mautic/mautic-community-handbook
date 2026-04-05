@@ -77,7 +77,7 @@ locale_dirs = ['locale']
 # A little context on the reason for ignoring is greatly appreciated!
 
 linkcheck_ignore = [
-      # Anchors are picked up as broken
+    # Anchors are picked up as broken
     r"https://docs.mautic.org/policies/financial-policy#10-foreign-assets-control",
     # The GitHub Search UI requires users to be authenticated with session cookies, which we can't set up programmatically
     r"https://github.com/search*",
@@ -119,6 +119,6 @@ linkcheck_ignore = [
     r"https://github.com/mautic/mautic-community-handbook/blob/main/.github/CONTRIBUTING.md#create-a-new-link",
     # 403 errors from this domain
     r"https://www.npmjs.com/",
-    # 403 errors from this domain
     r"https://opencollective.com/*",
+    r"https://medium.com/the-node-js-collection/healthy-open-source-967fa8be7951",
 ]
