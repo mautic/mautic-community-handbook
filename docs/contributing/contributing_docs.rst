@@ -469,11 +469,27 @@ To cherry-pick, please follow the steps outlined below:
    
       git pull
 
-#. Ensure you have the commits you need for cherry-picking by fetching all new remote files, commits, and branches you don't have locally. To do so, run:
+#. Ensure you have the commits you need for cherry-picking by fetching all new remote files, commits, and branches you don't have locally from your remote repositories - ``origin`` and ``upstream``. To do so, run:
 
    .. code-block:: bash
    
-      git fetch origin
+      git fetch --all
+
+   .. tip::
+
+      If you haven't, add the original Mautic repository as your remote repository and name it ``upstream``. Run this command to add it:
+
+      .. code-block:: bash
+
+         git remote add upstream REMOTE-URL
+
+      To get the ``REMOTE-URL``:
+
+      #. Go to Mautic's original repository.
+      #. Click the green **Code** button.
+      #. In the **HTTPS** tab, copy the URL.
+      
+      Replace ``REMOTE-URL`` with the URL that you've copied.
 
 #. :ref:`Create a new branch`.
 
