@@ -201,7 +201,8 @@ Status-based labels
 * Has conflicts
 * Ready to test - PRs only, and only applied when the PR is passing tests, has no conflicts, has automated tests written and considered ready for merging
 * Pending test confirmation - PRs only, and only applied when the PR is passing tests, has no conflicts, has automated tests written and considered ready for merging
-* Ready to commit - PRs only, and only applied when the PR is passing tests, has no conflicts, has automated tests written, has the required signoff/approvals and considered ready for merging
+* Check coverage - PRs only, applied to trigger the automated code coverage check on demand. GitHub Actions removes the label once the check completes
+* Ready to commit - PRs only, and only applied when the PR is passing tests, has no conflicts, has automated tests written, has the required signoff/approvals, passes the code coverage check, and considered ready for merging
 
 Area Affected Labels - which part of the product does this affect?
 ==================================================================
