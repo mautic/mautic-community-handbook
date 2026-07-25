@@ -121,4 +121,7 @@ linkcheck_ignore = [
     r"https://www.npmjs.com/",
     r"https://opencollective.com/*",
     r"https://medium.com/the-node-js-collection/healthy-open-source-967fa8be7951",
+    r"https://github.com/join",
+    r"https://github.com/signup",
+    r"https://governingopen.com/",
 ]
