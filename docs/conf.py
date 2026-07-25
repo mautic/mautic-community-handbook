@@ -124,4 +124,6 @@ linkcheck_ignore = [
     r"https://github.com/join",
     r"https://github.com/signup",
     r"https://governingopen.com/",
+    # 502 Server Error: Bad Gateway or Proxy Error
+    r"https://ubuntu.com/community",
 ]
