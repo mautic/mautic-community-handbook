@@ -499,6 +499,10 @@ Reviewing documentation PRs from Promptless
 
 :xref:`Promptless` helps keep Mautic's documentation - docs - in sync with code changes. This section explains how you interact with Promptless to review docs updates for your code changes.
 
+.. tip::
+
+   If you have questions, tag the Education Team - ``@mautic/education-team-leaders`` - in the PR comment.
+
 .. vale off
 
 Finding documentation PRs
@@ -508,6 +512,9 @@ Finding documentation PRs
 
 Promptless creates a docs PR based on your code changes, references the new docs PR, and leaves a comment mentioning it on your code PR.
 
+.. image:: images/github_pr_reference_and_comment.png
+   :alt: A Mautic code PR on GitHub showing a cross-referenced PR and a comment from Promptless.
+
 Depending on your changes, the docs update can occur in one docs repository or in both - :xref:`User Docs GitHub` and :xref:`Developer Docs GitHub`.
 
 * If your code PR is still open, Promptless creates a **draft** docs PR. You can start reviewing and approving it right away, but Promptless keeps adjusting the content as you push further changes to your code PR.
@@ -516,7 +523,7 @@ Depending on your changes, the docs update can occur in one docs repository or i
 
      Do a final docs review once the Core Team merges your code PR.
 
-* If your code PR is already merged, Promptless creates a docs PR ready for review. You can review and approve it directly.
+* If your code PR already merged, Promptless creates a docs PR ready for review. You can review and approve it directly.
 
 Monitoring and approval
 =======================
@@ -535,10 +542,14 @@ Formally approving the content
 
 If you're satisfied with the content, formally approve the docs PR on GitHub:
 
-#. Click the **Files changed** tab in the PR.
-#. Click the **Submit review** button in the top-right corner.
-#. Add a message - optional - and select **Approve**.
-#. Click **Submit review** button at the bottom.
+#. Select the **Files changed** tab in the PR.
+#. Click **Submit review** in the top-right corner.
+#. Add a comment - optional.
+#. Select **Approve**.
+#. Click **Submit review** at the bottom of the dialog.
+
+.. image:: images/github_approve_pr.png
+   :alt: Submit review dialog opens in the Files changed tab, highlighting Approve selection and Submit review button on GitHub.
 
 Requesting changes
 ==================
@@ -547,19 +558,31 @@ If you find that the docs need changes:
 
 #. Click the **Files changed** tab in the PR.
 #. Hover over the line where you want a change, and click the **+** button.
-#. Explain why it needs to change, and optionally, how to change it.
-#. Click the **Start a review** button. Repeat this for every line that needs a change.
-#. Click the **Submit review** button in the top-right corner.
-#. Add a message - optional.
+
+   .. image:: images/github_add_review.png
+      :alt: Plus button on a hover to add review on GitHub.
+
+#. Submit your feedback for each line that requires changes:
+
+   * For your first comment, click **Start a review**.
+   * For next comments, click **Add review comment**.
+
+   .. image:: images/github_start_review.png
+      :alt: PR review dialog on GitHub, highligting Start a review.
+
+#. Click **Submit review** in the top-right corner.
+#. Add a comment - optional.
 #. Select **Request changes**.
-#. Click **Submit review** button at the bottom. Promptless automatically applies the changes and tags you to review them again once it pushes the update.
-#. Do a final review, and approve the PR if you're satisfied with the changes.
+#. Click **Submit review** at the bottom of the dialog. Promptless automatically applies the changes and tags you to review them again once it pushes the update.
+
+   .. image:: images/github_request_changes.png
+      :alt: Submit review dialog opens in the Files changed tab, highlighting Request changes selection and Submit review button on GitHub.
+
+#. Perform a final review, and approve the PR if you're satisfied with the changes.
 
 .. tip::
 
-   If you only need one line changed, hover over the line, leave your comment, and click the **Comment** button instead of **Start a review**.
-
-If you have questions, tag the Education Team - ``@mautic/education-team-leaders`` - on the PR.
+   If you only need one line changed, hover over the line, click the **+** button, leave your comment, and click the **Comment** button instead of **Start a review**.
 
 .. vale off
 
