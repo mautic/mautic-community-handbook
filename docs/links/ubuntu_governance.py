@@ -2,6 +2,6 @@ from . import link
 
 link_name = "Ubuntu governance" 
 link_text = "Ubuntu" 
-link_url = "https://ubuntu.com/community/governance" 
+link_url = "https://ubuntu.com/community" 
 
 link.xref_links.update({link_name: (link_text, link_url)})
