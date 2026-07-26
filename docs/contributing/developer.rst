@@ -492,6 +492,77 @@ Mautic can't have PHPSTAN as its devDependency because it requires PHP7+. To exe
 
 .. vale off
 
+Reviewing documentation PRs from Promptless
+*******************************************
+
+.. vale on
+
+:xref:`Promptless` helps keep Mautic's documentation - docs - in sync with code changes. This section explains how you interact with Promptless to review docs updates for your code changes.
+
+.. vale off
+
+Finding documentation PRs
+=========================
+
+.. vale on
+
+Promptless creates a docs PR based on your code changes, references the new docs PR, and leaves a comment mentioning it on your code PR.
+
+Depending on your changes, the docs update can occur in one docs repository or in both - :xref:`User Docs GitHub` and :xref:`Developer Docs GitHub`.
+
+* If your code PR is still open, Promptless creates a **draft** docs PR. You can start reviewing and approving it right away, but Promptless keeps adjusting the content as you push further changes to your code PR.
+
+  .. note::
+
+     Do a final docs review once the Core Team merges your code PR.
+
+* If your code PR is already merged, Promptless creates a docs PR ready for review. You can review and approve it directly.
+
+Monitoring and approval
+=======================
+
+The Education Team requires your formal approval to merge any docs PR. If you leave a docs PR unreviewed after your code PR merges, the team sends reminders on GitHub and :xref:`Mautic Community Slack`.
+
+.. important::
+
+   To keep the documentation release on track, ensure you:
+
+   * **Monitor merged code PRs**: track new comments or review requests on GitHub, even after your code PR merges.
+   * **Scan Slack channels**: look for a thread from the Education Team in ``#t-product`` and ``#dev`` containing a link to pending PRs and assigned reviewers.
+
+Formally approving the content
+==============================
+
+If you're satisfied with the content, formally approve the docs PR on GitHub:
+
+#. Click the **Files changed** tab in the PR.
+#. Click the **Submit review** button in the top-right corner.
+#. Add a message - optional - and select **Approve**.
+#. Click **Submit review** button at the bottom.
+
+Requesting changes
+==================
+
+If you find that the docs need changes:
+
+#. Click the **Files changed** tab in the PR.
+#. Hover over the line where you want a change, and click the **+** button.
+#. Explain why it needs to change, and optionally, how to change it.
+#. Click the **Start a review** button. Repeat this for every line that needs a change.
+#. Click the **Submit review** button in the top-right corner.
+#. Add a message - optional.
+#. Select **Request changes**.
+#. Click **Submit review** button at the bottom. Promptless automatically applies the changes and tags you to review them again once it pushes the update.
+#. Do a final review, and approve the PR if you're satisfied with the changes.
+
+.. tip::
+
+   If you only need one line changed, hover over the line, leave your comment, and click the **Comment** button instead of **Start a review**.
+
+If you have questions, tag the Education Team - ``@mautic/education-team-leaders`` - on the PR.
+
+.. vale off
+
 Issues and PRs review
 *********************
 
