@@ -574,7 +574,7 @@ Here are the steps to review a PR:
 
 #. Clear cache for the development environment by running the ``rm -rf var/cache/*`` or ``bin/console cache:clear -e dev`` command.
 #. Follow the steps from the PR description again to see if the result is exactly as described.
-#. If the PR is in a later review stage - for example, ready for testing or already has some tests - add the ``check-coverage`` label to verify test coverage before it moves forward.
+#. If the PR is in a later review stage - for example, ready for testing or already has some tests - ask the triage team to add the ``check-coverage`` label to verify test coverage before it moves forward.
 #. Submit a review in the PR - see :xref:`Submitting your review` section on GitHub Docs. If there is a problem, provide as much information as possible, including error log messages.
 
 .. vale on
