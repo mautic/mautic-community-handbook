@@ -517,13 +517,11 @@ Promptless creates a docs PR based on your code changes, references the new docs
 
 Depending on your changes, the docs update can occur in one docs repository or in both: :xref:`User Docs GitHub` and :xref:`Developer Docs GitHub`.
 
-* If your code PR is still open, Promptless creates a **draft** docs PR. You can start reviewing and approving it right away, but Promptless keeps adjusting the content as you push further changes to your code PR.
+If your code PR is still open, Promptless creates a **draft** docs PR. You can start reviewing and approving it right away, but Promptless keeps adjusting the content as you push further changes to your code PR.
 
-  .. note::
+.. important::
 
-     Do a final docs review once the Core Team merges your code PR.
-
-* If your code PR has already been merged, Promptless creates a docs PR ready for review. You can review and approve it directly.
+   You must perform a final review and approve the docs PR after the Core Team merges your code PR.
 
 Monitoring and approval
 =======================
@@ -534,7 +532,7 @@ The Education Team requires your formal approval to merge any docs PR. If you le
 
    To keep the documentation release on track, ensure you:
 
-   * **Monitor merged code PRs**: track new comments or review requests on GitHub, even after your code PR merges.
+   * **Monitor merged code PRs**: track new comments or review requests from the Education Team on GitHub, even after your code PR merges.
    * **Scan Slack channels**: look for a thread from the Education Team in ``#t-product`` and ``#dev`` containing a link to pending PRs and assigned reviewers.
 
 Formally approving the content
