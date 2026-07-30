@@ -199,9 +199,10 @@ Status-based labels
 * Pending feedback
 * Pending code changes
 * Has conflicts
-* Ready to test - PRs only, and only applied when the PR is passing tests, has no conflicts, has automated tests written and considered ready for merging
-* Pending test confirmation - PRs only, and only applied when the PR is passing tests, has no conflicts, has automated tests written and considered ready for merging
-* Ready to commit - PRs only, and only applied when the PR is passing tests, has no conflicts, has automated tests written, has the required signoff/approvals and considered ready for merging
+* Ready to test - PRs only, and only applied when the PR is ready for a tester to test it manually
+* Pending test confirmation - PRs only, and only applied when the PR needs one more tester to confirm it works before the Core Team merges it
+* User testing passed - PRs only, and only applied once the PR has been successfully tested by the required number of testers
+* Ready to commit - PRs only, and only applied when the PR has passed the required number of tester confirmations, has no conflicts, has automated tests written, has the required signoff/approvals, includes documentation, and is ready for the Core Team to merge
 
 Area Affected Labels - which part of the product does this affect?
 ==================================================================
