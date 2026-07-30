@@ -517,7 +517,7 @@ Promptless creates a docs PR based on your code changes, references the new docs
 
 Depending on your changes, the docs update can occur in one docs repository or in both: :xref:`User Docs GitHub` and :xref:`Developer Docs GitHub`.
 
-If your code PR is still open, Promptless creates a **draft** docs PR. You can start reviewing and approving it right away, but Promptless keeps adjusting the content as you push further changes to your code PR.
+If your code PR is still open, Promptless creates a **draft** docs PR. You can start reviewing and approving it right away, but Promptless keeps adjusting the content as you push further changes to your code PR. Once the Core Team merges your code PR, Promptless marks the docs PR as ready for review.
 
 .. important::
 
