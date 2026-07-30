@@ -313,9 +313,9 @@ Writing tests
 
 All code contributions - especially enhancements/features - should include adequate and appropriate unit tests using :xref:`PHPUnit` and/or :xref:`Symfony functional tests`. The Core Team won't merge PRs without these tests. See the :ref:`Automated testing` section for more extensive information.
 
-.. vale on
-
 Make sure your changes maintain or improve the overall code coverage. A PR must pass the automated code coverage check to earn the ``ready-to-commit`` label required for merging.
+
+.. vale on
 
 When your PR reaches a later stage - for example, ready for testing or already has some tests - you can ask a triage team member to add the ``check-coverage`` label to confirm your coverage is sufficient. If the check fails, add more tests to increase the coverage.
 
