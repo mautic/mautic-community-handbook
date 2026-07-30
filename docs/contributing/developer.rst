@@ -497,7 +497,7 @@ Reviewing documentation PRs from Promptless
 
 .. vale on
 
-:xref:`Promptless` helps keep Mautic's documentation - docs - in sync with code changes. This section explains how you interact with Promptless to review docs updates for your code changes.
+:xref:`Promptless` helps keep Mautic's documentation in sync with code changes. This section explains how you interact with Promptless to review docs updates for your code changes.
 
 .. tip::
 
@@ -515,7 +515,7 @@ Promptless creates a docs PR based on your code changes, references the new docs
 .. image:: images/github_pr_reference_and_comment.png
    :alt: A Mautic code PR on GitHub showing a cross-referenced PR and a comment from Promptless.
 
-Depending on your changes, the docs update can occur in one docs repository or in both - :xref:`User Docs GitHub` and :xref:`Developer Docs GitHub`.
+Depending on your changes, the docs update can occur in one docs repository or in both: :xref:`User Docs GitHub` and :xref:`Developer Docs GitHub`.
 
 * If your code PR is still open, Promptless creates a **draft** docs PR. You can start reviewing and approving it right away, but Promptless keeps adjusting the content as you push further changes to your code PR.
 
@@ -523,12 +523,12 @@ Depending on your changes, the docs update can occur in one docs repository or i
 
      Do a final docs review once the Core Team merges your code PR.
 
-* If your code PR already merged, Promptless creates a docs PR ready for review. You can review and approve it directly.
+* If your code PR has already been merged, Promptless creates a docs PR ready for review. You can review and approve it directly.
 
 Monitoring and approval
 =======================
 
-The Education Team requires your formal approval to merge any docs PR. If you leave a docs PR unreviewed after your code PR merges, the team sends reminders on GitHub and :xref:`Mautic Community Slack`.
+The Education Team requires your formal approval to merge any docs PR. If you leave a docs PR without a review after your code PR merges, the team sends reminders on GitHub and :xref:`Mautic Community Slack`.
 
 .. important::
 
@@ -560,7 +560,7 @@ If you find that the docs need changes:
 #. Hover over the line where you want a change, and click the **+** button.
 
    .. image:: images/github_add_review.png
-      :alt: Plus button on a hover to add review on GitHub.
+       :alt: Plus button that appears on hover to add a review comment on GitHub.
 
 #. Submit your feedback for each line that requires changes:
 
@@ -568,7 +568,7 @@ If you find that the docs need changes:
    * For next comments, click **Add review comment**.
 
    .. image:: images/github_start_review.png
-      :alt: PR review dialog on GitHub, highligting Start a review.
+       :alt: PR review dialog on GitHub, highlighting Start a review.
 
 #. Click **Submit review** in the top-right corner.
 #. Add a comment - optional.
