@@ -523,7 +523,7 @@ Depending on your changes, the docs update can occur in one docs repository or i
 
      Do a final docs review once the Core Team merges your code PR.
 
-* Promptless creates a docs PR for all merged code PRs, ready for your review. You can review and approve it directly.
+* If your code PR has already been merged, Promptless creates a docs PR ready for review. You can review and approve it directly.
 
 Monitoring and approval
 =======================
