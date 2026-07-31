@@ -492,6 +492,98 @@ Mautic can't have PHPSTAN as its devDependency because it requires PHP7+. To exe
 
 .. vale off
 
+Reviewing documentation PRs from Promptless
+*******************************************
+
+.. vale on
+
+:xref:`Promptless` helps keep Mautic's documentation in sync with code changes. This section explains how you interact with Promptless to review docs updates for your code changes.
+
+.. tip::
+
+   If you have questions, tag the Education Team - ``@mautic/education-team-leaders`` - in the PR comment.
+
+.. vale off
+
+Finding documentation PRs
+=========================
+
+.. vale on
+
+Promptless creates a docs PR based on your code changes, references the new docs PR, and leaves a comment mentioning it on your code PR.
+
+.. image:: images/github_pr_reference_and_comment.png
+   :alt: A Mautic code PR on GitHub showing a cross-referenced PR and a comment from Promptless.
+
+Depending on your changes, the docs update can occur in one docs repository or in both: :xref:`User Docs GitHub` and :xref:`Developer Docs GitHub`.
+
+If your code PR is still open, Promptless creates a **draft** docs PR. You can start reviewing and approving it right away, but Promptless keeps adjusting the content as you push further changes to your code PR. Once the Core Team merges your code PR, Promptless marks the docs PR as ready for review.
+
+.. important::
+
+   You must perform a final review and approve the docs PR after the Core Team merges your code PR.
+
+Monitoring and approval
+=======================
+
+The Education Team requires your formal approval to merge any docs PR. If you leave a docs PR without a review after your code PR merges, the team sends reminders on GitHub and :xref:`Mautic Community Slack`.
+
+.. important::
+
+   To keep the documentation release on track, ensure you:
+
+   * **Monitor merged code PRs**: track new comments or review requests from the Education Team on GitHub, even after your code PR merges.
+   * **Scan Slack channels**: look for a thread from the Education Team in ``#t-product`` and ``#dev`` containing a link to pending PRs and assigned reviewers.
+
+Formally approving the content
+==============================
+
+If you're satisfied with the content, formally approve the docs PR on GitHub:
+
+#. Select the **Files changed** tab in the PR.
+#. Click **Submit review** in the top-right corner.
+#. Add a comment - optional.
+#. Select **Approve**.
+#. Click **Submit review** at the bottom of the dialog.
+
+.. image:: images/github_approve_pr.png
+   :alt: Submit review dialog opens in the Files changed tab, highlighting Approve selection and Submit review button on GitHub.
+
+Requesting changes
+==================
+
+If you find that the docs need changes:
+
+#. Click the **Files changed** tab in the PR.
+#. Hover over the line where you want a change, and click the **+** button.
+
+   .. image:: images/github_add_review.png
+       :alt: Plus button that appears on hover to add a review comment on GitHub.
+
+#. Submit your feedback for each line that requires changes:
+
+   * For your first comment, click **Start a review**.
+   * For next comments, click **Add review comment**.
+
+   .. image:: images/github_start_review.png
+       :alt: PR review dialog on GitHub, highlighting Start a review.
+
+#. Click **Submit review** in the top-right corner.
+#. Add a comment - optional.
+#. Select **Request changes**.
+#. Click **Submit review** at the bottom of the dialog. Promptless automatically applies the changes and tags you to review them again once it pushes the update.
+
+   .. image:: images/github_request_changes.png
+      :alt: Submit review dialog opens in the Files changed tab, highlighting Request changes selection and Submit review button on GitHub.
+
+#. Perform a final review, and approve the PR if you're satisfied with the changes.
+
+.. tip::
+
+   If you only need one line changed, hover over the line, click the **+** button, leave your comment, and click the **Comment** button instead of **Start a review**.
+
+.. vale off
+
 Issues and PRs review
 *********************
 
