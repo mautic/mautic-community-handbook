@@ -126,4 +126,6 @@ linkcheck_ignore = [
     r"https://governingopen.com/",
     # 502 Server Error: Bad Gateway or Proxy Error
     r"https://ubuntu.com/community",
+    # 403/429 errors: Slack blocks unauthenticated/bot access to archive links
+    r"https://mautic\.slack\.com/archives/.*",
 ]
