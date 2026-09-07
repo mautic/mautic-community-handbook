@@ -190,6 +190,8 @@ Type-based labels
 Status-based labels
 -------------------
 
+.. vale off
+
 * Needs triage
 * rebase needed
 * WIP - Work In Progress
@@ -202,7 +204,10 @@ Status-based labels
 * Ready to test - PRs only, and only applied when the PR is ready for a tester to test it manually
 * Pending test confirmation - PRs only, and only applied when the PR needs one more tester to confirm it works before the Core Team merges it
 * User testing passed - PRs only, and only applied once the PR has been successfully tested by the required number of testers
+* Check coverage - PRs only, applied to trigger the automated code coverage check on demand. GitHub Actions removes the label once the check completes
 * Ready to commit - PRs only, and only applied when the PR has passed the required number of tester confirmations, has no conflicts, has automated tests written, has the required signoff/approvals, includes documentation, and is ready for the Core Team to merge
+
+.. vale on
 
 Area Affected Labels - which part of the product does this affect?
 ==================================================================

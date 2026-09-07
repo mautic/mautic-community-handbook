@@ -313,7 +313,11 @@ Writing tests
 
 All code contributions - especially enhancements/features - should include adequate and appropriate unit tests using :xref:`PHPUnit` and/or :xref:`Symfony functional tests`. The Core Team won't merge PRs without these tests. See the :ref:`Automated testing` section for more extensive information.
 
+Make sure your changes maintain or improve the overall code coverage. A PR must pass the automated code coverage check to earn the ``ready-to-commit`` label required for merging.
+
 .. vale on
+
+When your PR reaches a later stage - for example, ready for testing or already has some tests - you can ask a triage team member to add the ``check-coverage`` label to confirm your coverage is sufficient. If the check fails, add more tests to increase the coverage.
 
 Step 7: submit a PR
 ===================
@@ -662,6 +666,7 @@ Here are the steps to review a PR:
 
 #. Clear cache for the development environment by running the ``rm -rf var/cache/*`` or ``bin/console cache:clear -e dev`` command.
 #. Follow the steps from the PR description again to see if the result is exactly as described.
+#. If the PR is in a later review stage - for example, ready for testing or already has some tests - ask the triage team to add the ``check-coverage`` label to verify test coverage before it moves forward.
 #. Submit a review in the PR - see :xref:`Submitting your review` section on GitHub Docs. If there is a problem, provide as much information as possible, including error log messages.
 
 .. vale on
