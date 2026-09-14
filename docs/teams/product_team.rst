@@ -13,7 +13,7 @@ Manage all aspects of the product release cycle and roadmap for the Mautic Open 
 Managing Mautic's security
 --------------------------
 
-* Manage the :xref:`Mautic Mail` inbox.
+* Manage the :xref:`Mautic Security` inbox.
 * Monitor dependency updates for potential security issues.
 * Address security issues via pull requests on the private security repository.
 * Release security patches or coordinate with the Release Working Group for security fixes.
